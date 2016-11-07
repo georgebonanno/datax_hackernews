@@ -1,0 +1,848 @@
+The Oppressive Gospel of ‘Minimalism’ - The New York Timesvar NYTD=NYTD||{};NYTD.Abra=function(t){"use strict";function n(t){var n=u[t];return n&&n[1]||null}function e(t,n){if(t){var e,o,r=n[0],u=n[1],a=0,c=0;if(1!==u.length||4294967296!==u[0])for(e=i(t+" "+r)>>>0,a=0,c=0;o=u[a++];)if(e<(c+=o[0]))return o}}function o(n,e,o,i){f+="subject="+n+"&test="+encodeURIComponent(e)+"&variant="+encodeURIComponent(o||0)+"&url="+encodeURIComponent(t.location.href)+"&instant=1&skipAugment=true\n",i&&s.push(i),c||(c=t.setTimeout(r,0))}function r(){var n=new t.XMLHttpRequest,e=s;n.withCredentials=!0,n.open("POST",a),n.onreadystatechange=function(){var t,o;if(4==n.readyState)for(t=200==n.status?null:new Error(n.statusText);o=e.shift();)o(t)},n.send(f),f="",s=[],c=null}function i(t){for(var n,e,o,r,i,u,a,c=0,f=0,s=[],l=[n=1732584193,e=4023233417,~n,~e,3285377520],h=[],p=t.length;f<=p;)h[f>>2]|=(f<p?t.charCodeAt(f):128)<<8*(3-f++%4);for(h[a=p+8>>2|15]=p<<3;c<=a;c+=16){for(n=l,f=0;f<80;n=[0|[(u=((t=n[0])<<5|t>>>27)+n[4]+(s[f]=f<16?~~h[c+f]:u<<1|u>>>31)+1518500249)+((e=n[1])&(o=n[2])|~e&(r=n[3])),i=u+(e^o^r)+341275144,u+(e&o|e&r|o&r)+882459459,i+1535694389][0|f++/20],t,e<<30|e>>>2,o,r])u=s[f-3]^s[f-8]^s[f-14]^s[f-16];for(f=5;f;)l[--f]=l[f]+n[f]|0}return l[0]}var u,a,c,f="",s=[];return n.init=function(n,r){var i,c,f,s,l,h=[],p=(t.document.cookie.match(/(^|;) *nyt-a=([^;]*)/)||[])[2],d=(t.document.cookie.match(/(^|;) *ab7=([^;]*)/)||[])[2];if(u)throw new Error("can't init twice");if(a=r,u={},d)for(d=decodeURIComponent(d).split("&"),i=0;i<d.length;i++)l=d[i].split("="),u[l[0]]=l[1],l[1]&&h.push(l[0]+"="+l[1]);for(i=0;i<n.length;i++)f=n[i],c=f[0],c in u||(s=e(p,f)||[],u[c]=s,s[1]&&h.push(c.replace(/[^\w-]/g)+"="+(""+s[1]).replace(/[^\w-]/g)),s[2]&&o("ab-alloc",c,s[1]));h.length&&t.document.documentElement.setAttribute("data-nyt-ab",h.join(" "))},n.reportExposure=function(n,e){var r=u[n];r&&r[2]?o("ab-expose",n,r[0],e):e&&t.setTimeout(function(){e(null)},0)},n}(this);NYTD.Abra.init([["www-buffet-newsletter-test",[[4294967296,"variant2",1]]],["www-story-reader-satisfaction",[[21474837,"Control",1],[21474836,"VariantA",1],[4252017623,null,0]]],["EC_SampleTest",[[2147483648,"variantA",0],[2147483648,"variantB",0]]],["EC_DigiAbandonmentTest",[[4294967296,"control",1]]]], '//et.nytimes.com/')
+{"pageconfig":{"ledeMediaSize":"large","keywords":["First Words","first-words","article-long","has-embedded-interactive"],"collections":{"columns":["firstwords"],"sections":["thenewyorktimesmagazine","thenewyorktimesmagazine","arts"],"spotlights":["editorspicks"],"syndicated":["apple","facebook"]}}}
+            []    
+    var PREBID_TIMEOUT = 300;
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function () {
+        window.advBidxc = window.advBidxc || {};
+        window.advBidxc.renderAd = function () {};
+        window.advBidxc.startTime = new Date().getTime();
+        window.advBidxc.customerId = "8CU2553YN"; //Media.net Customer ID
+        function loadScript(tagSrc) {
+            if (tagSrc.substr(0, 4) !== 'http') {
+                var isSSL = 'https:' == document.location.protocol;
+                tagSrc = (isSSL ? 'https:' : '') + tagSrc;
+            }
+            var scriptTag = document.createElement('script'),
+                placeTag = document.getElementsByTagName("script")[0];
+            scriptTag.type = 'text/javascript';
+            scriptTag.async = true;
+            scriptTag.src = tagSrc;
+            placeTag.parentNode.insertBefore(scriptTag, placeTag);
+        }
+
+        function loadGPT() {
+            if (!window.advBidxc.isAdServerLoaded) {
+                loadScript('//www.googletagservices.com/tag/js/gpt.js');
+                window.advBidxc.isAdServerLoaded = true;
+            }
+        }
+
+        window.advBidxc.loadGPT = setTimeout(loadGPT, PREBID_TIMEOUT);
+
+        var isSSL = 'https:' == document.location.protocol;
+        var mnSrc = (isSSL ? 'https:' : 'http:') + '//contextual.media.net/bidexchange.js?cid=' + window.advBidxc.customerId + (isSSL ? '&https=1' : '');
+        document.write('<scr' + 'ipt type="text/javascript" src="' + mnSrc + '"></scr' + 'ipt>');
+    })();
+
+        var amznads = amznads || {};
+        amznads.asyncParams = {
+            'id': '3030',
+            'callbackFn': function() {
+                try {
+                    amznads.setTargetingForGPTAsync('amznslots');
+                } catch (e) { }
+            },
+            'timeout': 1000
+        };
+
+        (function() {
+            var a, s = document.getElementsByTagName("script")[0];
+            a = document.createElement("script");
+            a.type = "text/javascript";
+            a.async = true;
+            a.src = "https://c.amazon-adsystem.com/aax2/amzn_ads.js";
+            s.parentNode.insertBefore(a, s);
+        })();
+    
+	
+var require = {
+    baseUrl: 'https://a1.nyt.com/assets/',
+    waitSeconds: 20,
+    paths: {
+        'foundation': 'article/20161104-095752/js/foundation',
+        'shared': 'article/20161104-095752/js/shared',
+        'article': 'article/20161104-095752/js/article',
+        'application': 'article/20161104-095752/js/article/story',
+        'videoFactory': 'https://static01.nyt.com/js2/build/video/2.0/videofactoryrequire',
+        'videoPlaylist': 'https://static01.nyt.com/js2/build/video/players/extended/2.0/appRequire',
+        'auth/mtr': 'https://static01.nyt.com/js/mtr',
+        'auth/growl': 'https://static01.nyt.com/js/auth/growl/default',
+        'vhs': 'https://static01.nyt.com/video/vhs/build/vhs-2.x.min'
+    },
+    map: {
+        '*': {
+            'story/main': 'article/story/main'
+        }
+    }
+};
+
+window.magnum.processFlags(["limitFabrikSave","moreFollowSuggestions","unfollowComments","scoopTool","videoVHSCover","videoVHSShareTools","videoVHSLive","videoVHSNewControls","videoVHSEmbeddedOnly","allTheEmphases","freeTrial","dedupeWhatsNext","trendingPageLinks","sprinklePaidPost","headerBidder","largeLedeXXL","standardizeWhatsNextCollection","onlyLayoutA","simple","simpleExtendedByline","collectionsWhatsNext","shareToolsUnderHeadline","mobileMediaViewer","storyPrint","podcastInLede","MovieTickets","requestTragedyAd","MoreInSubsectionFix","seriesIssueMarginalia","serverSideCollectionUrls","multipleBylines","minimalAds","adDisclaimer","inlineAdStyles","fabrikWebsocketsOnly","storyFlexFrames","translationLinks","phaseOneAds","papihttps","verticalFullBleed","updateRestaurantReservations","flexAdsPhase2","flexAdsonSectionBug","newsletterInlineModule","PersonalizationApiUpdate","a9HeaderEnabled","removeInternationalEdition","headlineBalancer","clientSideABRA","newsletterTitleTracking","surveyInterstitial","newsletterBuffet","flexExclusivity","removeFBMessengerPromo","disableOptimizely","paidpostSprinklingFix","abraOverrideVersion"]);
+
+    require(['foundation/main'], function () {
+        require(['auth/mtr', 'auth/growl']);
+    });
+    
+    
+    
+    .lt-ie10 .messenger.suggestions {
+        display: block !important;
+        height: 50px;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-bed {
+        background-color: #f8e9d2;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-container {
+        padding: 11px 18px 11px 30px;
+    }
+
+    .lt-ie10 .messenger.suggestions .action-link {
+        font-family: "nyt-franklin", arial, helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: #a81817;
+        text-transform: uppercase;
+    }
+
+    .lt-ie10 .messenger.suggestions .alert-icon {
+        background: url('https://static01.nyt.com/images/icons/icon-alert-12x12-a81817.png') no-repeat;
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        margin-top: -2px;
+        float: none;
+    }
+
+    .lt-ie10 .masthead,
+    .lt-ie10 .navigation,
+    .lt-ie10 .comments-panel {
+        margin-top: 50px !important;
+    }
+
+    .lt-ie10 .ribbon {
+        margin-top: 97px !important;
+    }
+
+    
+        
+            
+                
+                    NYTimes.com no longer supports Internet Explorer 9 or earlier. Please upgrade your browser.
+                    LEARN MORE »
+                
+            
+        
+    
+
+
+    
+    
+        
+            Sections
+            
+                Home
+            
+            Search
+            Skip to content
+                        Skip to navigation
+                                    View mobile version
+                    
+        
+            
+                
+                    The New York Times
+                
+            
+            window.magnum.writeLogo('small', 'https://a1.nyt.com/assets/article/20161104-095752/images/foundation/logos/', 'magazine', 'masthead-theme-standard', 'standard', 'branding-heading-link', 'article');
+                
+            Magazine|The Oppressive Gospel of ‘Minimalism’
+        
+        
+            
+
+
+
+            Search
+            
+            
+                Subscribe Now
+                Log In
+                
+
+                                0
+                Settings
+            
+        
+    
+    
+    Close search
+    Site Search Navigation
+    
+        
+            
+                                Search NYTimes.com
+                            
+            
+                                Clear this text input
+                
+                    
+                Go
+            
+        
+    
+
+    
+http://nyti.ms/2aqp0OeSite Navigation
+Site Mobile Navigation
+
+    
+        
+    
+    Advertisement
+
+
+
+        
+    
+                        
+    
+                            
+                    Supported by
+                    
+                
+                                        
+                                            Magazine                                                                                                                                            
+                        			The Oppressive Gospel of ‘Minimalism’
+	                                                
+                
+    
+                First Words            
+    By                     
+                                    KYLE CHAYKA
+                            
+                JULY 26, 2016
+
+                                                
+                                    
+                        
+Continue reading the main story
+Share This Page
+
+Continue reading the main story
+
+
+                                                    
+
+                                            
+                            
+        
+    
+        if (
+            window.magnum
+            && window.magnum.getFlags().indexOf('headlineBalancer') > 0
+            && window.magnum.headlineBalancer
+            && window.magnum.headlineBalancer.initialize
+            && window.magnum.headlineBalancer.shouldRun()
+        ) {
+            window.magnum.headlineBalancer.initialize();
+        }
+    
+    
+        Photo
+    
+            
+        
+            Credit
+            Illustration by Javier Jaén        
+            It has become an ostentatious ritual of consumerist self-sacrifice; people who have it all now seem to prefer having nothing at all. And, as with watching birds or going Paleo, talking about the material purge is just as important as actually doing it. So there are blog posts — in which you can see minimalism’s can-do optimism curdle into something tyrannical.A recent account, called “How Minimalism Brought Me Freedom and Joy,” is emblematic of the budding genre, from its author (a wealthy serial entrepreneur, James Altucher) to its thesis (own fewer things, mostly gadgets) to its one-sentence paragraphs. Altucher explains that he gave up his permanent home, life goals and negative emotions. He threw away his college diploma, which had been gathering dust in storage. (“I don’t hold onto all the things society tells me to hold onto.”) He now carries nothing but a bag of clothes and a backpack containing a computer, an iPad and a smartphone. “I have zero other possessions,” he writes, and thanks to this, he has found peace as a wandering techno-ascetic — Silicon Valley’s version of Zen monkhood.Despite its connotations of absence, “minimalism” has been popping up everywhere lately, like a bright algae bloom in the murk of postrecession America. From tiny houses to microapartments to monochromatic clothing to interior-decorating trends — picture white walls interrupted only by succulents — less now goes further than ever. It’s easy to feel overwhelmed by the minimalism glut, as the word can be applied to just about anything. The nearly four million images tagged #minimalism on Instagram include white sneakers, clouds, the works of Mondrian, neon signs, crumbling brick walls and grassy fields. So long as it’s stylishly austere, it seems, it’s minimalist.Part pop philosophy and part aesthetic, minimalism presents a cure-all for a certain sense of capitalist overindulgence. Maybe we have a hangover from pre-recession excess — McMansions, S.U.V.s, neon cocktails, fusion cuisine — and minimalism is the salutary tonic. Or perhaps it’s a method of coping with recession-induced austerity, a collective spiritual and cultural cleanse because we’ve been forced to consume less anyway. But as an outgrowth of a peculiarly American (that is to say, paradoxical and self-defeating) brand of Puritanical asceticism, this new minimalist lifestyle always seems to end in enabling new modes of consumption, a veritable excess of less. It’s not really minimal at all.
+        function getFlexData() { return {"data":{"quote":"To wealthy practitioners, minimalism is now little more than a slightly intriguing perversion, like drinking at breakfast. ","attribution":""}}; }var NYTD=NYTD || {}; NYTD.FlexTypes = NYTD.FlexTypes || []; NYTD.FlexTypes.push({"target":"FT100000004550328","type":"Pull Quote","data":{"quote":"To wealthy practitioners, minimalism is now little more than a slightly intriguing perversion, like drinking at breakfast. ","attribution":""}});
+  var NYTG_ASSETS = "https://static01.nyt.com/newsgraphics/2015/02/10/mag-pullquote-redesign/b585ac490ed3103c57423bc4f581ffac30ebc5df/",
+      NYTG_BIG_ASSETS = "https://static01.nyt.com/newsgraphics/2015/02/10/mag-pullquote-redesign/assets/",
+      _gaq = _gaq || [];
+  require(['foundation/main'], function() {
+    require(["https://static01.nyt.com/newsgraphics/2015/02/10/mag-pullquote-redesign/assets/build.js"]); // generated from src/script.js
+  });
+    
+    
+    
+
+        
+        
+        
+    
+The word’s meaning wasn’t entirely literal when it first came into being; “minimalism” was popularized in 1965 as an insult. In an essay for Arts Magazine, the British philosopher Richard Wollheim used it to describe a group of artists whose work was characterized by “minimal art content” — that is, a lack of art. Arranging bricks on a gallery floor (as Carl Andre did) or manufacturing metal boxes (Donald Judd) or fluorescent light fixtures (Dan Flavin) simply wasn’t, in Wollheim’s estimation, enough to make an object worthy of the title. For good reason, the artists singled out in the essay didn’t identify with Wollheim’s appellation. They used industrial materials to remove themselves from their work, intentionally. In their eyes, this formal frugality was a necessary correction to the heroic individualism of New York School Abstract Expressionism. (After some time, what can you see in a Pollock but Pollock himself?) But the name stuck.        Continue reading the main story
+    
+    
+    
+
+
+        
+	    
+    Advertisement
+
+Continue reading the main story
+	    
+	
+
+
+    
+        Still, the artists were maximalists of a sort: The austerity of their objects freed the viewer to experience the work in any way they wished. “Minimalism can return you to this basic state where you’re perceiving purely,” says David Raskin, a professor of contemporary art history at the School of the Art Institute of Chicago. “Less is more because you strip away the familiar,” opening an opportunity to see the world without preconceptions. The objects might look mundane, but rather than the plain metal box on the floor, it’s the stark sensory experience the object incites that is the art, no previous knowledge necessary. The artist opens a radical infinity of possibilities. “Minimalism in the 1960s was very much along the lines of taking LSD,” says Miguel de Baca, an associate professor of art history at Lake Forest College.
+    
+    Advertisement
+
+Continue reading the main story
+
+“Minimalism” was eventually canonized as an art-historical movement, but the name came to mean something different as it was adopted into consumer culture and turned into a class signifier. What was once a way artists shocked viewers became over the decades a style as delimited and consumable as any Martha Stewart tablescape. The word was defanged, no longer a critical insult and no longer a viable strategy within art — though it never quite gave up its veneer of provocation. Even austerity can be made decadent: To wealthy practitioners, minimalism is now little more than a slightly intriguing perversion, like drinking at breakfast. “One of the real problems with design-world minimalism is that it’s just become a signifier of the global elite,” Raskin says. “The richer you are, the less you have.”The minimalists’ aesthetic of raw materials and aggressive simplicity leaked into fashion, design and architecture, where it became a luxury product, helped along at times by the artists themselves. Judd’s SoHo loft building is now an icon of sanitized minimalism, open to tourists. His Chinati Foundation, a permanent installation of concrete and metal boxes in and around a decommissioned military base in Marfa, Tex., is a site of hipster pilgrimage. It even appears in Ben Lerner’s “10:04,” a novel redolent of late-capitalist anxiety. The protagonist visits the town on an artist’s residency, where he wanders the desert landscape, parties with young people and accidentally ingests ketamine — but it’s Judd’s installation that provides an epiphany. The sculptures, he writes, “combined to collapse my sense of inside and outside.” Judd’s work “had itself come to contain the world.”
+        function getFlexData() { return {"data":{"quote":"Often driven by technology, this optimization is expensive and exclusively branded by and for the elite.","attribution":""}}; }var NYTD=NYTD || {}; NYTD.FlexTypes = NYTD.FlexTypes || []; NYTD.FlexTypes.push({"target":"FT100000004550329","type":"Pull Quote","data":{"quote":"Often driven by technology, this optimization is expensive and exclusively branded by and for the elite.","attribution":""}});
+  var NYTG_ASSETS = "https://static01.nyt.com/newsgraphics/2015/02/10/mag-pullquote-redesign/b585ac490ed3103c57423bc4f581ffac30ebc5df/",
+      NYTG_BIG_ASSETS = "https://static01.nyt.com/newsgraphics/2015/02/10/mag-pullquote-redesign/assets/",
+      _gaq = _gaq || [];
+  require(['foundation/main'], function() {
+    require(["https://static01.nyt.com/newsgraphics/2015/02/10/mag-pullquote-redesign/assets/build.js"]); // generated from src/script.js
+  });
+    
+    
+    
+
+        
+        
+        
+    
+Today’s minimalism, by contrast, is visually oppressive; it comes with an inherent pressure to conform to its precepts. Whiteness, in a literal sense, is good. Mess, heterogeneity, is bad — the opposite impulse of artistic minimalism. It is anxiety-inducing in a manner indistinguishable from other forms of consumerism, not revolutionary at all. Do I own the right things? Have I jettisoned enough of the wrong ones? In a recent interview with Apartamento magazine set against interior shots of his all-white home in Rockaway, Queens, the tastemaker and director of MoMA PS1 Klaus Biesenbach explained, “I don’t aim to own things.”Minimalism is now conflated with self-optimization, the trend that also resulted in fitness trackers and Soylent (truly a minimalist food — it looks like nothing, but inspires thoughts of everything else). Often driven by technol­ogy, this optimization is expensive and exclusively branded by and for the elite. In Silicon Valley, the minimalism fetish can perhaps be traced back to Steve Jobs’s famously austere 1980s apartment (he sat on the floor) and the attendant simplicity of Apple products. Pare down, and you, too, could run a $700 billion company. A thriving Reddit forum on minimalism debates the worth of Muji products and which hobbies count as minimalist-appropriate, in a communal attempt to live the most effective, if perhaps not the most joyful, life.These minimalist-arrivistes present it as a logical end to lifestyle, culture and even morality: If we attain only the right things, the perfect things, and forsake all else, then we will be free from the tyranny of our desires. But time often proves aesthetic permanence, as well as moral high ground, to be illusory. And already, the pendulum is swinging back.
+
+Writing in The Atlantic in March, Arielle Bernstein described minimalism’s ban on clutter as a “privilege” that runs counter to the value ascribed to an abundance of objects by those who have suffered from a lack of them — less-empowered people like refugees or immigrants. The movement, such as it is, is led in large part by a group of men who gleefully ditch their possessions as if to disavow the advantages by which they obtained them. But it takes a lot to be minimalist: social capital, a safety net and access to the internet. The technology we call minimalist might fit in our pockets, but it depends on a vast infrastructure of grim, air-conditioned server farms and even grimmer Chinese factories. As Lerner’s protagonist observes in “10:04,” even a dull convenience like a can of instant coffee grounds reaches him thanks to a fragile and tremendously wasteful network of global connections, a logistics chain that defies all logic, one undergirded by exploited laborers and vast environmental degradation.There’s an arrogance to today’s minimalism that presumes it provides an answer rather than, as originally intended, a question: What other perspectives are possible when you look at the world in a different way? The fetishized austerity and performative asceticism of minimalism is a kind of ongoing cultural sickness. We misinterpret material renunciation, austere aesthetics and blank, emptied spaces as symbols of capitalist absolution, when these trends really just provide us with further ways to serve our impulse to consume more, not less.
+                Kyle Chayka is a writer living in Brooklyn.
+        Sign up for our newsletter to get the best of The New York Times Magazine delivered to your inbox every week.
+
+        
+        A version of this article appears in print on July 31, 2016, on page MM13 of the Sunday Magazine with the headline: Austerity Measures.   Today's Paper|Subscribe
+
+
+
+    
+    Continue reading the main story
+    
+    
+    
+
+
+    
+    
+
+    We’re interested in your feedback on this page. Tell us what you think.
+
+
+
+    
+        
+    
+    
+        
+        
+        
+    
+
+    
+
+    
+
+    
+
+    
+                
+                
+                    Editors’ Picks
+                    
+                
+            
+            
+        
+        
+            
+                                They’ll Blame Us: Growing Up Muslim After 9/11            
+            NOV 7
+    
+
+                        
+        
+            
+                                Temple of the Dog Reunites, Headliners at Last on a Mini-Tour            
+            NOV 6
+    
+
+                        
+        
+            
+                                In the Cubs’ New Kingdom, Bliss and Wonder Reign at Every Level            
+            NOV 5
+    
+
+                        
+        
+            
+                                Dreading a President Clinton or Trump? How to Try a New Country            
+            NOV 4
+    
+
+                        
+        
+            
+                                Casey Affleck Is Making Another Splash, Reluctantly            
+            NOV 4
+    
+
+                    See More »
+        
+
+    
+
+What's Next
+    
+        
+            Loading...
+        
+    
+
+
+                    
+            Go to Home Page »
+        
+            Site Index
+            
+                The New York Times
+            
+        
+        window.magnum.writeLogo('small', 'https://a1.nyt.com/assets/article/20161104-095752/images/foundation/logos/', '', '', 'standard', 'site-index-branding-link', '');Site Index Navigation
+        
+
+                                                                                    
+                    
+                        News
+                        
+                                        World
+                                    
+
+                                                                                            
+                                    
+                                        U.S.
+                                    
+
+                                                                                            
+                                    
+                                        Politics
+                                    
+
+                                                                                            
+                                    
+                                        N.Y.
+                                    
+
+                                                                                            
+                                    
+                                        Business
+                                    
+
+                                                                                            
+                                    
+                                        Tech
+                                    
+
+                                                                                            
+                                    
+                                        Science
+                                    
+
+                                                                                            
+                                    
+                                        Health
+                                    
+
+                                                                                            
+                                    
+                                        Sports
+                                    
+
+                                                                                            
+                                    
+                                        Education
+                                    
+
+                                                                                            
+                                    
+                                        Obituaries
+                                    
+
+                                                                                            
+                                    
+                                        Today's Paper
+                                    
+
+                                                                                            
+                                    
+                                        Corrections
+                                    
+
+                                                            
+                        
+
+                                            
+                    
+                        Opinion
+                        
+                                        Today's Opinion
+                                    
+
+                                                                                            
+                                    
+                                        Op-Ed Columnists
+                                    
+
+                                                                                            
+                                    
+                                        Editorials
+                                    
+
+                                                                                            
+                                    
+                                        Contributing Writers
+                                    
+
+                                                                                            
+                                    
+                                        Op-Ed Contributors
+                                    
+
+                                                                                            
+                                    
+                                        Opinionator
+                                    
+
+                                                                                            
+                                    
+                                        Letters
+                                    
+
+                                                                                            
+                                    
+                                        Sunday Review
+                                    
+
+                                                                                            
+                                    
+                                        Taking Note
+                                    
+
+                                                                                            
+                                    
+                                        Room for Debate
+                                    
+
+                                                                                            
+                                    
+                                        Public Editor
+                                    
+
+                                                                                            
+                                    
+                                        Video: Opinion
+                                    
+
+                                                            
+                        
+
+                                            
+                    
+                        Arts
+                        
+                                        Today's Arts
+                                    
+
+                                                                                            
+                                    
+                                        Art & Design
+                                    
+
+                                                                                            
+                                    
+                                        Books
+                                    
+
+                                                                                            
+                                    
+                                        Dance
+                                    
+
+                                                                                            
+                                    
+                                        Movies
+                                    
+
+                                                                                            
+                                    
+                                        Music
+                                    
+
+                                                                                            
+                                    
+                                        N.Y.C. Events Guide
+                                    
+
+                                                                                            
+                                    
+                                        Television
+                                    
+
+                                                                                            
+                                    
+                                        Theater
+                                    
+
+                                                                                            
+                                    
+                                        Video: Arts
+                                    
+
+                                                            
+                        
+
+                                            
+                    
+                        Living
+                        
+                                        Automobiles
+                                    
+
+                                                                                            
+                                    
+                                        Crossword
+                                    
+
+                                                                                            
+                                    
+                                        Food
+                                    
+
+                                                                                            
+                                    
+                                        Education
+                                    
+
+                                                                                            
+                                    
+                                        Fashion & Style
+                                    
+
+                                                                                            
+                                    
+                                        Health
+                                    
+
+                                                                                            
+                                    
+                                        Jobs
+                                    
+
+                                                                                            
+                                    
+                                        Magazine
+                                    
+
+                                                                                            
+                                    
+                                        N.Y.C. Events Guide
+                                    
+
+                                                                                            
+                                    
+                                        Real Estate
+                                    
+
+                                                                                            
+                                    
+                                        T Magazine
+                                    
+
+                                                                                            
+                                    
+                                        Travel
+                                    
+
+                                                                                            
+                                    
+                                        Weddings & Celebrations
+                                    
+
+                                                            
+                        
+
+                                            
+                    
+                        Listings & More
+                        
+                                        Classifieds
+                                    
+
+                                                                                            
+                                    
+                                        Tools & Services
+                                    
+
+                                                                                            
+                                    
+                                        Times Topics
+                                    
+
+                                                                                            
+                                    
+                                        Public Editor
+                                    
+
+                                                                                            
+                                    
+                                        N.Y.C. Events Guide
+                                    
+
+                                                                                            
+                                    
+                                        Blogs
+                                    
+
+                                                                                            
+                                    
+                                        Multimedia
+                                    
+
+                                                                                            
+                                    
+                                        Photography
+                                    
+
+                                                                                            
+                                    
+                                        Video
+                                    
+
+                                                                                            
+                                    
+                                        NYT Store
+                                    
+
+                                                                                            
+                                    
+                                        Times Journeys
+                                    
+
+                                                                                            
+                                    
+                                        Subscribe
+                                    
+
+                                                                                            
+                                    
+                                        Manage My Account
+                                    
+
+                                                            
+                        
+
+                            
+            
+                
+Subscribe
+
+Subscribe
+    
+        
+                    Home Delivery
+            
+    
+        
+                    Digital Subscriptions
+            
+    
+        
+        Times Insider
+    
+    
+        
+        Crossword
+    
+
+        Email Newsletters
+    
+    
+        Alerts
+    
+    
+                    Gift Subscriptions
+            
+    
+                    Corporate Subscriptions
+            
+    
+                    Education Rate
+            
+
+
+        Mobile Applications
+    
+    
+                    Replica Edition
+            
+    
+
+
+        
+
+    Site Information Navigation
+         
+                
+                    © 2016 The New York Times Company
+                
+            
+            Home
+            Search
+            Accessibility concerns? Email us at accessibility@nytimes.com. We would love to hear from you.
+            Contact Us
+            Work With Us
+            Advertise
+            Your Ad Choices
+            Privacy
+            Terms of Service
+            Terms of Sale
+         Site Information Navigation
+        Site Map
+            Help
+            Site Feedback
+            Subscriptions
+        
+    
+    
+require(['foundation/main'], function () {
+    require(['story/main']);
+    require(['jquery/nyt', 'foundation/views/page-manager'], function ($, pageManager) {
+        if (window.location.search.indexOf('disable_tagx') > 0) {
+            return;
+        }
+        $(document).ready(function () {
+            require(['https://a1.nyt.com/analytics/tagx-simple.min.js'], function () {
+                pageManager.trackingFireEventQueue();
+            });
+        });
+    });
+});
+
+
+
+
+
+
+
+
+
+
+

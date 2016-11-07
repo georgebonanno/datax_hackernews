@@ -1,0 +1,124 @@
+NetIn
+
+
+        
+        
+            
+                Toggle navigation
+                
+                
+                
+            
+            
+            
+                
+        
+        
+        
+            About
+                Sourcing News
+                FAQ
+                
+                
+                Candidates
+                Login
+                
+                Request Trial
+                
+                
+            
+        
+    
+    
+
+.alert {
+    margin-top: 75px !important;
+}
+
+        
+        
+            
+                Toggle navigation
+                
+                
+                
+            
+            
+            
+                
+        
+    
+    
+
+.alert {
+    margin-top: 75px !important;
+}
+
+
+    
+
+        
+            
+                
+                    Find your dream job
+                    We'll place you at a top Bay Area company
+                    Our platform uses machine learning and predictive analytics to find you a match.
+                    
+								    
+                
+            
+        
+
+    
+    
+
+
+
+
+
+
+        
+            
+                
+                	How does it work?
+                
+                
+        
+        You tell us the type of companies you want to work for.
+          Answer some technical questions online.
+          We match and introduce you to the hiring managers.
+          Engage, interview and accept your offer directly on NetIn.
+        
+
+        
+            
+                Copyright © NetIn 2016. All Rights Reserved
+            
+        
+    
+
+.form-control {
+	font-size: 18px !important;
+	padding: 7px !important;
+	height: 43px;
+	border: 1px solid #eee;
+}
+.form-control:focus {
+	border: 1px solid #56b4ef;
+}
+input::-webkit-input-placeholder {
+	font-size: 18px !important;
+	color: #bbb !important;
+}
+.btn-lg {
+	width: 100%;
+}
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-73297724-1', 'auto');
+  ga('send', 'pageview');
+

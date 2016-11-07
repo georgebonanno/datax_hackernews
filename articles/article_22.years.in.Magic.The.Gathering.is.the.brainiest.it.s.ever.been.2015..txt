@@ -1,0 +1,1896 @@
+
+  22 years in, Magic: The Gathering is the brainiest it’s ever been
+  
+    · For Our Consideration
+  
+   · The A.V. Club
+
+    window.TARGETING = {
+      
+        'dfp_slug': '22-years-magic-gathering-brainiest-its-ever-been',
+      
+        'dfp_campaign_id': 'None',
+      
+        'dfp_site': 'newavclub',
+      
+        'dfp_section': 'games',
+      
+        'dfp_pagetype': 'article',
+      
+        'dfp_publishdate': '2015-08-25T05:00:00+00:00',
+      
+        'dfp_feature': 'for-our-consideration',
+      
+        'dfp_title': '22 years in, &lt;i&gt;Magic: The Gathering&lt;/i&gt; is the brainiest it’s ever been',
+      
+        'dfp_contentid': '224197',
+      
+        'dfp_evergreen': 'False',
+      
+    };
+  
+    {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "headline": "22 years in, &lt;i&gt;Magic: The Gathering&lt;/i&gt; is the brainiest it’s ever been",
+      "url": "http://www.avclub.com/article/22-years-magic-gathering-brainiest-its-ever-been-224197",
+      "thumbnailUrl": "http://i.onionstatic.com/avclub/5532/32/16x9/1200.jpg",
+      "dateCreated": "2015-08-25T00:00:00-05:00",
+      "articleSection": "For Our Consideration",
+      "creator": {
+        
+        "@type": "Person",
+        "name": "Steve Heisler",
+        "sameAs": "http://www.avclub.com/"
+        
+      },
+      "keywords": ["Magic: The Gathering", "Wizards Of The Coast", "Games"]
+    }
+  
+          // global configs
+          window.BETTY_IMAGE_URL = "//i.onionstatic.com/avclub";
+          window.RV_NO_AUTOPLAY = false;
+          window.STATIC_URL = "//assets3.onionstatic.com/onionstatic/avclub/static/";
+          window.VIDEOHUB_BASE_URL = "//www.onionstudios.com";
+        
+    __reach_config = {
+      pid: "544948b8e79548c37a00016e",
+      title: "22 years in, Magic: The Gathering is the brainiest it’s ever been",
+      url: "http://www.avclub.com/article/22-years-magic-gathering-brainiest-its-ever-been-224197",
+      date: "2015-08-25T00:00:00-05:00",
+      authors: ["Steve Heisler"],
+      channels: ["for-our-consideration"],
+      tags: ["Magic: The Gathering","Wizards Of The Coast","Games"],
+      iframe: true,
+      ignore_errors: false
+    };
+  
+    window._newsroom = window._newsroom || [];
+    !function (e, f, u) {
+      e.async = 1;
+      e.src = u;
+      f.parentNode.insertBefore(e, f);
+    }(document.createElement('script'),
+      document.getElementsByTagName('script')[0], '//c2.taboola.com/nr/theonion-avclub/newsroom.js');
+  
+      window.disqus_identifier = 'avclub_article_224197';
+      window.disqus_title = '22 years in, &lt;i&gt;Magic: The Gathering&lt;/i&gt; is the brainiest it’s ever been';
+      window.disqus_url = 'http://www.avclub.com/article/22-years-magic-gathering-brainiest-its-ever-been-224197';
+    (function(w){
+  /* We can request an image at every possible width, but let's limit it to a reasonable number
+   We can set these so they correspond to our more common sizes.
+   */
+  var IMAGE_URL = w.BETTY_IMAGE_URL || "//i.onionstatic.com/avclub",
+      RATIOS = [["1x1", 1.0], ["16x9", 1.7777777777777777], ["3x1", 3.0]],
+      ASPECT_RATIO_TOLERANCE = .1, // 10% tolerance.
+      MAX_WIDTH = 3200,
+      PICTUREFILL_SELECTOR = w.PICTUREFILL_SELECTOR || "div",
+      breakpoints = [0,80,100,125,150,160,200,240,300,304,320,340,375,400,432,480,565,608,620,640,650,700,800,820,960,1200,1280,1300,1600,1920,2160,2400,2560,2880,3200];
+
+  // Credit to https://remysharp.com/2010/07/21/throttling-function-calls
+  function throttle(fn, threshhold, scope) {
+    threshhold || (threshhold = 250);
+    var last,
+        deferTimer;
+    return function () {
+      var context = scope || this;
+
+      var now = +new Date,
+          args = arguments;
+      if (last && now < last + threshhold) {
+        // hold on to it
+        clearTimeout(deferTimer);
+        deferTimer = setTimeout(function () {
+          last = now;
+          fn.apply(context, args);
+        }, threshhold);
+      } else {
+        last = now;
+        fn.apply(context, args);
+      }
+    };
+  }
+
+  w.picturefill = function picturefill (elements, forceRerender) {
+    // It is sometimes desirable to scroll without loading images as we go.
+    if (picturefill.paused()) {
+      return;
+    }
+    // get elements to picturefill
+    var ps;
+    if (elements instanceof Array) {
+      ps = elements;
+    } else if (elements instanceof HTMLElement) {
+      ps = [elements];
+    } else {
+      ps = w.document.querySelectorAll(PICTUREFILL_SELECTOR);
+    }
+
+    // loop through elements and fill them in
+    var imageData = [];
+    for (var i = 0, il = ps.length; i < il; i++){
+      var el = ps[i];
+
+      // ensure this element is actually a image to picturefill
+      if(el.getAttribute("data-type") !== "image" ){
+        // not image to fill, skip this one
+        continue;
+      }
+
+      // check if image is in viewport for lazy loading, and
+      // preload images if they're within 100px of being shown above scroll,
+      // within 250px of being shown below scroll.
+      var elementRect = el.getBoundingClientRect(),
+          innerHeight = w.innerHeight || w.document.documentElement.clientHeight,
+          visible = elementRect.top <= (innerHeight + 250) && elementRect.top >= -100;
+
+      // this is a div to picturefill, start working on it if it hasn't been rendered yet
+      if (el.getAttribute("data-image-id") !== null
+          && visible
+          && (forceRerender || !el.getAttribute("data-rendered"))) {
+        var imageContainer = el.getElementsByTagName("div")[0],
+            imageId = el.getAttribute("data-image-id"),
+            imageCrop = el.getAttribute("data-crop"),
+            format = el.getAttribute("data-format") || "jpg";
+
+        // construct ID path for image
+        var idStr = "";
+        for(var ii = 0; ii < imageId.length; ii++) {
+          if ((ii % 4) === 0) {
+            idStr += "/";
+          }
+          idStr += imageId.charAt(ii);
+        }
+
+        // find any existing img element in the picture element
+        var picImg = imageContainer.getElementsByTagName("img")[0];
+        if(!picImg){
+          // for performance reasons this will be added to the dom later
+          picImg = w.document.createElement("img");
+
+          var alt = el.getAttribute("data-alt");
+          if (alt) {
+            picImg.alt = alt;
+          }
+        }
+
+        // determine what to do based on format
+        if (format === "gif") {
+          // for GIFs, we just dump out original
+          imageData.push({
+            'div': imageContainer,
+            'img': picImg,
+            'url': IMAGE_URL + idStr + "/animated/original.gif"
+          });
+        } else {
+          // determine size & crop for PNGs & JPGs.
+          var _w = imageContainer.offsetWidth,
+              _h = imageContainer.offsetHeight;
+
+          if (!imageCrop || imageCrop === "") {
+            imageCrop = computeAspectRatio(_w, _h);
+          }
+
+          // scale up to the pixel ratio if there's some pixel ratio defined
+          if (w.devicePixelRatio) {
+            _w = Math.round(w.devicePixelRatio * _w);
+            _h = Math.round(w.devicePixelRatio * _h);
+          }
+
+          // determine if a breakpoint width should be used, otherwise use previously defined width
+          var width = null;
+          for (var j = 0; j < breakpoints.length; j++) {
+            if (_w <= breakpoints[j]) {
+              width = breakpoints[j];
+              break;
+            }
+          }
+          if (width === null) {
+            if (_w > MAX_WIDTH) {
+              width = MAX_WIDTH;
+            } else {
+              width = _w;
+            }
+          }
+
+          // if the existing image is larger (or the same) than the one we're about to load, do not update.
+          //  however if the crop changes, we need to reload.
+          if (width > 0) {
+            //ie8 doesn't support natural width, always load.
+            if (typeof picImg.naturalWidth === "undefined" || picImg.naturalWidth < width
+                || imageCrop !== computeAspectRatio(picImg.naturalWidth, picImg.naturalHeight)) {
+              // put image in image data to render
+              imageData.push({
+                'div': imageContainer,
+                'img': picImg,
+                'url': IMAGE_URL + idStr + "/" + imageCrop + "/" + width + "." + format
+              });
+            }
+          }
+        }
+      }
+    }
+    // loop through image data and insert images, all DOM updates should probably go here
+    for(var i = 0; i < imageData.length; i++) {
+      var data = imageData[i];
+      data.img.src = data.url;
+      if (!data.img.parentNode) {
+        data.div.appendChild(data.img);
+        data.div.parentNode.setAttribute("data-rendered", "true");
+      }
+    }
+  };
+
+  /**
+   * picturefill pause and resume.
+   * Useful to prevent loading unneccessary images, such as when scrolling
+   * the reading list.
+   */
+  var isPaused = false;
+  picturefill.pause = function () {
+    isPaused = true;
+  };
+
+  picturefill.resume = function () {
+   isPaused = false;
+   picturefill();
+  };
+
+  picturefill.paused = function () {
+   return isPaused;
+  };
+
+  /**
+   * Figure out best aspect ratio based on width, height, and given aspect ratios.
+   */
+  function computeAspectRatio(_w, _h) {
+    if (_w !== 0 && _h !== 0) {
+      var aspectRatio = _w/_h;
+      for (var i in RATIOS) {
+        if (Math.abs(aspectRatio - RATIOS[i][1]) / RATIOS[i][1] < ASPECT_RATIO_TOLERANCE) {
+          return RATIOS[i][0];
+        }
+      }
+    }
+    // No suitable ratio, use default.
+    return "16x9";
+  }
+
+  function addEventListener(ele, event, callback) {
+    if (ele.addEventListener) {
+      ele.addEventListener(event, callback, false);
+    } else if (ele.attachEvent) {
+      ele.attachEvent("on" + event, callback);
+    }
+  }
+
+  function removeEventListener(ele, event, callback) {
+    if (ele.removeEventListener) {
+        ele.removeEventListener(event, callback, false);
+    } else if (ele.detachEvent) {
+        ele.detachEvent("on" + event, callback);
+    }
+  }
+
+  // Run on resize and domready (w.load as a fallback)
+  if (!w.IMAGE_LISTENERS_DISABLED) {
+
+    addEventListener(w, "load", picturefill);
+    addEventListener(w, "DOMContentLoaded", function () {
+      picturefill();
+      removeEventListener(w, "load");
+    });
+
+    var resizeTimeout;
+    addEventListener(w, "resize", function () {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(function () {
+        picturefill(null, true);
+      }, 100);
+    });
+
+    addEventListener(w, "scroll", throttle(picturefill, 100));
+
+  }
+
+}(this));
+
+          window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+          (function(){
+            var k=document.createElement('script');k.type='text/javascript';k.async=true;
+            k.src=(location.protocol==='https:'?'https:':'http:')+'//cdn.krxd.net/controltag/q7drt662s.js';
+            var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+          }());
+        
+          window.Krux || ((Krux = function () {
+            Krux.q.push(arguments);
+          }).q = []);
+          (function () {
+            function retrieve(n) {
+              var m, k = 'kx' + n;
+              if (window.localStorage) {
+                return window.localStorage[k] || "";
+              } else if (navigator.cookieEnabled) {
+                m = document.cookie.match(k + '=([^;]*)');
+                return (m && unescape(m[1])) || "";
+              } else {
+                return '';
+              }
+            }
+            Krux.user = retrieve('user');
+          })();
+        
+      
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KZR6QG');
+      
+
+      
+
+      
+  
+     
+  
+
+
+      
+  
+    
+    
+
+    
+      
+  
+  
+    
+      
+    
+  
+  
+  
+    Film
+  
+
+
+  
+    TV Club
+  
+
+
+  
+    Music
+  
+
+
+  
+    Food
+  
+
+
+  
+    Comedy
+  
+
+
+  
+    Books
+  
+
+
+  
+    Games
+  
+
+
+  
+    Aux
+  
+
+      
+        
+          More 
+        
+      
+    
+      
+      
+        22 years in, Magic: The Gathering is the brainiest it’s ever been
+        
+      
+    
+  
+  
+     
+    
+      
+        
+      
+      
+        
+            
+        
+        
+            
+        
+      
+    
+    
+     
+       
+         
+         
+       
+       
+     
+    
+      
+        Most Read
+      
+      
+	A.V. Club Most Read
+	
+		
+
+    
+      
+        
+          1
+        
+      
+      
+        
+            
+                
+        
+    
+
+    
+
+    
+    Benedict Cumberbatch (Screenshot/NBC)
+  
+  
+    
+      
+        Posted Nov 6
+      
+    
+    
+      
+        Saturday Night Live can’t find the right roles for Benedict Cumberbatch
+      
+    
+  
+
+    
+      
+        
+          2
+        
+      
+      
+        
+            
+                
+        
+    
+
+    
+
+    
+    (Photo: Lester Cohen/Getty Images)
+  
+  
+    
+      
+        Posted Nov 5
+      
+    
+    
+      
+        UPDATED: Dave Chappelle says “the media twisted” Trump’s Access Hollywood tape
+      
+    
+  
+
+    
+      
+        
+          3
+        
+      
+      
+        
+            
+                
+        
+    
+
+    
+
+    
+
+  
+  
+    
+      
+        Posted Jan 19
+      
+    
+    
+      
+        Now you can buy a Noam Chomsky garden gnome
+      
+    
+  
+
+    
+      
+        
+          4
+        
+      
+      
+        
+            
+                
+        
+    
+
+    
+
+    
+    Mighty Morphin' Power Rangers
+  
+  
+    
+      
+        Posted Nov 5
+      
+    
+    
+      
+        Power Rangers’ new Megazord is looking kind of ripped
+      
+    
+  
+
+    
+    
+      
+        
+      
+      
+        
+      
+    
+  
+
+  
+    
+      
+        
+      
+      
+        
+        
+      
+    
+    
+        
+          Film
+        
+      
+      
+        
+          TV Club
+        
+      
+      
+        
+          Music
+        
+      
+      
+        
+          Food
+        
+      
+      
+        
+          Comedy
+        
+      
+      
+        
+          Books
+        
+      
+      
+        
+          Games
+        
+      
+      
+        
+          Aux
+        
+      
+      
+        
+          Newswire
+        
+      
+      
+        
+          Reviews
+        
+      
+      
+        
+          Video
+        
+      
+      
+        
+          Great Job, Internet!
+        
+      
+    
+  
+    
+  
+    Film
+  
+
+
+  
+    TV Club
+  
+
+
+  
+    Music
+  
+
+
+  
+    Food
+  
+
+
+  
+    Comedy
+  
+
+
+  
+    Books
+  
+
+
+  
+    Games
+  
+
+
+  
+    Aux
+  
+
+      
+    
+            
+              
+                Newswire
+              
+            
+          
+        
+          
+            
+              
+                Features
+              
+            
+          
+        
+          
+            
+              
+                Reviews
+              
+            
+          
+        
+          
+            
+              
+                Videos
+              
+            
+          
+        
+          
+            
+              
+                Great Job, Internet!
+              
+            
+          
+        
+      
+          
+            
+            
+              The Latest From Newswire
+            
+            
+          
+          
+            
+
+
+  
+      
+        
+            
+                
+        
+    
+
+    
+
+    
+    (Photo: Lester Cohen/Getty Images)
+    
+    
+      
+      
+      
+        
+	
+		UPDATED: Dave Chappelle says “the media twisted” Trump’s Access Hollywood tape
+    
+	
+
+      
+      
+      
+      
+      
+    
+  
+      
+        
+            
+                
+        
+    
+
+    
+
+    
+    (Images: Twitch.com and Wikipedia)
+    
+    
+      
+      
+      
+        
+	
+		China is attempting to censor internet live streamers
+    
+	
+
+      
+      
+      
+      
+      
+    
+  
+      
+        
+          
+            
+            
+              The Latest From Features
+            
+            
+          
+          
+            
+
+
+  
+      
+        
+            
+                
+        
+    
+
+    
+
+    
+
+    
+    
+      
+      
+      
+        
+	
+		There’s something you should know about the new girl
+    
+	
+
+      
+      
+      
+      
+      
+    
+  
+      
+        
+            
+                
+        
+    
+
+    
+
+    
+    Bruce Campbell (Photo: Starz)
+    
+    
+      
+      
+      
+        
+	
+		Ash Vs. Evil Dead is here for those of you who can’t let Halloween go
+    
+	
+
+      
+      
+      
+      
+      
+    
+  
+      
+        
+          
+            
+              The Latest From Reviews
+            
+          
+          
+            
+
+
+  
+      
+        
+            
+                
+        
+    
+
+    
+      
+  
+    C+
+  
+
+
+    
+
+    
+    Photo: Anchor Bay Films
+    
+    
+      
+      
+      
+        
+	
+		Nic Cage goes after Bin Laden in the fitfully funny Army Of One
+    
+	
+
+      
+      
+      
+      
+      
+    
+  
+      
+        
+            
+                
+        
+    
+
+    
+      
+  
+    C
+  
+
+
+    
+
+    
+    Photo: Michael Sparks Keegan/Netflix
+    
+    
+      
+      
+      
+        
+	
+		Dana Carvey is a very ordinary Straight White Male, 60 in his Netflix special
+    
+	
+
+      
+      
+      
+      
+      
+    
+  
+      
+        
+          
+            
+              The Latest From Videos
+            
+          
+          
+            
+
+
+  
+      
+        
+            
+                
+        
+    
+
+    
+
+    
+
+    
+    
+      
+      
+      
+        
+	
+		Arrow star John Barrowman reveals his sex-cyborg secrets
+    
+      
+         
+        
+      
+    
+	
+
+      
+      
+      
+      
+      
+    
+  
+      
+        
+            
+                
+        
+    
+
+    
+
+    
+
+    
+    
+      
+      
+      
+        
+	
+		Local Natives cover David Bowie’s “Teenage Wildlife”
+    
+      
+         
+        
+      
+    
+	
+
+      
+      
+      
+      
+      
+    
+  
+      
+        
+          
+            
+            
+              The Latest From Great Job, Internet!
+            
+            
+          
+          
+            
+
+
+  
+      
+        
+            
+                
+        
+    
+
+    
+
+    
+    Screenshot: Comedy Central
+    
+    
+      
+      
+      
+        
+	
+		Spend the remainder of the day watching Chappelle’s Show sketches
+    
+	
+
+      
+      
+      
+      
+      
+    
+  
+      
+        
+            
+                
+        
+    
+
+    
+
+    
+    Photo: New York Daily News Archive/Getty Images
+    
+    
+      
+      
+      
+        
+	
+		New oral history tracks the birthing pains of The Daily Show With Jon Stewart
+    
+	
+
+      
+      
+      
+      
+      
+    
+  
+      
+    
+
+
+    
+    
+          
+            All Recent
+          
+        
+        
+          
+            Browse Our Features
+          
+        
+        
+          
+            Coming Distractions
+          
+        
+        
+          
+            Savage Love
+          
+        
+      
+          
+            
+            Facebook
+          
+        
+        
+          
+            
+            Twitter
+          
+        
+        
+          
+            
+            Tumblr
+          
+        
+      
+
+
+
+    
+  
+
+
+      
+
+      
+  
+    
+
+      
+  
+
+    
+      
+        
+          
+            
+              Games
+            
+          
+        
+      
+    
+
+    
+      
+  
+    For Our Consideration
+  
+
+
+    
+
+    
+
+  
+
+  
+
+
+      
+
+      
+        
+  
+      22 years in, Magic: The Gathering is the brainiest it’s ever been
+    
+  
+  
+    
+      With the game’s latest set, its creators are banking on players’ curiosity
+    
+  
+
+      By
+      
+        Steve Heisler
+      
+    
+  
+	
+
+	
+    Aug 25, 2015
+  
+	
+    12:00 AM
+  
+
+
+
+    
+        
+            
+                
+        
+    
+
+    
+
+    
+
+
+
+      
+
+      
+
+        
+
+          
+            
+              
+
+  
+  Share
+
+
+  
+  Tweet
+
+
+
+  
+    
+    
+    
+  
+
+
+            
+          
+
+          
+  
+    
+
+  
+  Share
+
+
+  
+  Tweet
+
+
+
+  
+    
+    
+    
+  
+
+
+  
+  
+            A shouting match has broken out on the early morning streets of Park Slope, Brooklyn between two 9-year-old boys.“This card sucks!” one says.“Well yeah, but it’s not that bad,” says the other.They’re politely discussing the merits of a Magic: The Gathering card from the game’s newest set, Magic Origins, and doing so at an unreasonable volume for a sunny summer day in a neighborhood known for its double-wide strollers, triple-shot espressos, and, especially at 8:30 a.m., its quiet. A small crowd gathers—other players ages 7 to 12, pushing their way to the front so they can see what all the fuss is about. They want to see the Magic card in question, Demonic Pact. What does this card say that would summon such outrage? “Owen sucks”?It reads (paraphrased):At the beginning of your turn, choose one that hasn’t been chosen—Something good.Something good.Something good.You lose the game.The object of Magic: The Gathering is to knock your opponent’s life points from 20 to zero—and also not losing. Players use a deck of cards they’ve built themselves, the collection of which are acquired in 15-card booster packs or via trades and negotiations. Decks are full of mythical beasts and spells, cast from your hand, and the inclusion (or not) of cards is up to the player.Here we have a new card that literally has the words “you lose the game” printed on it. Stranger still, Origins is a core set—a special collection of cards that comes once every summer and is usually constructed to be less complex than the game’s three other annual editions. A card like Demonic Pact is meta. It discusses the game being played as you are playing the game. Most Magic matches end with a fatal creature attack or running out of cards in your deck. Demonic Pact, a powerful card in a more accessible set, eschews the typical constructs of the game.  That’s a lot for any player to take in, especially one dipping their toe into Magic for the first time. But it symbolizes an evolutionary leap in the way Wizards Of The Coast, the game’s creator, is approaching game design: Magic is embracing the arcane and complicated, right out of the gate. Origins will be the game’s last core set, and the idea that any player would need their hand held is no longer part of Magic’s marching orders. “We reward intelligence. We reward curiosity. And we’ve found that when you read a card you don’t understand, you want to understand it,” said Mark Rosewater, Magic’s head designer.Rosewater made waves last year when he penned a lengthy post on Wizards’ website, outlining why the notion of an annual set for “beginners” was fundamentally flawed. Shouldn’t new players feel comfortable jumping in at any moment, not just once a year? Plus, if core sets are truly beginner focused, this set would hold no value to experienced card-slingers, and that’s a large chunk of the audience.So the decision was made to terminate core sets, but this posed another problem. Magic has operated within the same release cycle for its entire existence: one core set followed by three separate but related releases. These three sets, known in the industry as a “block,” take place in the same location and tell a trilogy-worthy story. Then it’s back to another, largely story-less core set. From now on, Rosewater wrote, each year would contain two duologies.“It was always nice to think of core sets as a sort of sorbet, dividing the meal,” Rosewater said. “So for many years, we dumbed them down, but what we learned is correct is the exact opposite. People aren’t afraid of not understanding everything.” Liliana starts as a creature…Over time, core sets became more complex, including rare reprints of classic cards and new cards that pushed the magical envelope, like the aforementioned Demonic Pact. “Little by little, core sets started to feel like regular expansions,” Rosewater said. “Our goal is not to be super weighty with complexity. Some sets will be less complex than others, breathers for people. We don’t need to go to a core set to have that breather.”And as for Origins, Rosewater wanted to give core sets a viking funeral. “It’s not a core set! There are a bunch of different gaming mechanics in it, and we visit 10 different places,” he says. “Origins is very focused on story. We are all-in on story, so we decided, let’s learn who the characters are.”Origins does this by printing cards that tell stories unto themselves. Five of its 10 “mythic rare” slots—cards that are rarer than rare—are devoted to characters from Magic’s multiverse that we’ll see more of later on, like Nissa, the champion of the forest, and the reluctant healer-turned-necromancer Liliana Vess. In Origins, we meet them as kids. They start as lowly creatures under your control and, when the proper trigger is activated, you flip the card over to reveal their transformation into a planeswalker, the equivalent of Magic royalty. Liliana’s card, for example, flips when another one of your creatures dies, as Liliana herself turned to the dark arts when she accidentally killed her own brother. Yes, the design space for Origins includes printing an entire Magic card on the back of another Magic card. …and transforms into a powerful planeswalkerOrigins feels less like the end of the “core-set era” and more like the start of an experiment with novel approaches to the ways Magic cards interact, something Rosewater would look back on with pride. There are those two-sided cards, of course, and while it’s not the first time this idea has been implemented, it is the first time two types of cards—creatures and planeswalkers—have been combined into one. Meanwhile, some cards, like Abbot Of Keral Keep, are creatures that interact with other spells in your deck, as well as other “zones” in the game. In something like Texas Hold ’Em, for example, there’s your hand, the cards seen by everyone, and the deck seen by none. All three are zones. Magic contains a whole lot more—cards in exile, face-down cards waiting to be “morphed,” etc.—and Abbot interacts with several at once. The big addition, though, are the many creatures equipped with the new “Renown” ability, which makes them stronger if they do damage to your opponent. Between that and the metamorphoses of characters like Liliana, Origins as a set mirrors Origins as a moment in Magic history. It’s about growth.But even these fourth wall-shattering additions are no match for the rabid obsession and curiosity of new players that Rosewater alluded to. I work at a game design studio for kids, which means I’m surrounded by more Magic players than most people encounter in their lifetime, all of whom have played the game for less than a few years. It’s hugely popular among children who are both savvy enough to weasel 4 bucks out of their parents for a booster pack and smart enough to know it’s a ton of fun to pit your brain against someone else’s.When a cracked Origins pack yields a Nissa, for example, every young player stops what they’re doing and materializes a few feet away. Mythic rares are cause for jealousy but mostly celebration. This double-sided enigma brings everyone together, even if they’re not entirely sure what they’re seeing. That mentality arises when I inadvertently pit two kids against one another. Demonic Pact is a mythic rare as well, and the question I posed to these boys was a simple one: If you got this card in a booster pack, would you put it in your deck?As the fight raged on, I imagined Rosewater looking on with a big smile on his face. He is a prolific writer on the Wizards Of The Coast website and at his Q&A Tumblr page, Blogatog, where he interacts with fans whenever possible. He answers their design questions, drops hints about future sets, and is not shy about discussing his failures as a designer. “Long ago, I went to my bosses and said I wanted to be more transparent,” he said. “My thinking was—we are very good at making games. If we educate audiences on what makes a good game, they will learn to respect what goes into making a good game and will want to buy them. This rising tide will be good for us.”MaRo—Rosewater’s nickname in the Magic community—would probably happily field any questions these kids have about Demonic Pact if they asked, and in a few weeks, they’d have all the answers they’re wanted. But there’s no time for that. Their curiosity has been ignited. Both boys remain at each other’s throats until one has an idea: What if your deck included some way to destroy Demonic Pact before the fourth option—the one where you lose the game—had to be chosen? The other boy thinks, and agrees, listing off cards from Magic’s 22-year history that fit the bill. A girl adds that other cards could send Demonic Pact back to your hand, thus resetting the clock when you decided to play it again. Soon, everyone is talking deep strategy, and the discussion continues for a few hours until one of the initial onlookers has the guts to ask if I would trade it to her. She has a crazy idea for a deck.
+              
+              
+            
+          
+
+          
+            
+  
+  Share
+
+
+  
+  Tweet
+
+
+
+  
+    
+    
+    
+  
+
+
+              
+  Filed Under:
+  
+    
+    
+      Games, 
+    
+  
+    
+    
+      Magic: The Gathering, 
+    
+  
+    
+    
+      Wizards Of The Coast
+    
+  
+
+
+              
+                  More For Our Consideration
+                
+                
+                      
+                      
+                        
+                          Previous For Our Consideration
+                        
+                        
+                          The Astronaut Wives Club salutes the female astronauts that America wouldn’t
+                        
+                      
+                    
+                  
+                  
+                    
+                      
+                        
+                          Next For Our Consideration
+                        
+                        
+                          What the Dante’s Inferno game lacked in subtlety, it made up in devil dong
+                        
+                      
+                      
+                    
+                  
+                
+  WATCH VIDEO FROM THE A.V. CLUB
+  
+
+              
+
+
+              
+                  Don't miss a story—follow The A.V. Club on:
+                
+                
+                  
+                    
+                  
+                  
+                    
+                  
+                  
+                      
+                  
+                  
+                      
+                  
+                
+               
+              
+
+              
+                    
+                      
+                        
+                          Can't see comments?
+                        
+                      
+                    
+                    
+                      Please enable JavaScript to view the
+                      
+                        comments powered by Disqus.
+                      
+                    
+                  
+                
+              
+            
+
+        
+        
+          
+                
+
+                 
+
+                
+                  More For Our Consideration
+  
+    
+	
+		25 years ago, Darkwing Duck was a superhero with a super ego
+    
+	
+
+      
+        
+
+	
+    Nov 2, 2016
+  
+	
+    12:00 AM
+  
+
+
+      
+    
+	
+		Westworld’s Man In Black isn’t a villain—he’s a video game nerd
+    
+	
+
+      
+        
+
+	
+    Oct 31, 2016
+  
+	
+    12:50 PM
+  
+
+
+      
+    
+	
+		In the 1960s, Dracula, Frankenstein, and The Wolf Man came for your kids
+    
+	
+
+      
+        
+
+	
+    Oct 31, 2016
+  
+	
+    10:51 AM
+  
+
+
+      
+    
+	
+		How a forgotten ’80s gem created the formula for video game horror
+    
+	
+
+      
+        
+
+	
+    Oct 31, 2016
+  
+	
+    12:00 AM
+  
+
+
+      
+    
+	A.V. Club Most Read
+	
+		
+
+    
+      
+        
+          1
+        
+      
+      
+        
+            
+                
+        
+    
+
+    
+
+    
+    Benedict Cumberbatch (Screenshot/NBC)
+  
+  
+    
+      
+        Posted Nov 6
+      
+    
+    
+      
+        Saturday Night Live can’t find the right roles for Benedict Cumberbatch
+      
+    
+  
+
+    
+      
+        
+          2
+        
+      
+      
+        
+            
+                
+        
+    
+
+    
+
+    
+    (Photo: Lester Cohen/Getty Images)
+  
+  
+    
+      
+        Posted Nov 5
+      
+    
+    
+      
+        UPDATED: Dave Chappelle says “the media twisted” Trump’s Access Hollywood tape
+      
+    
+  
+
+    
+      
+        
+          3
+        
+      
+      
+        
+            
+                
+        
+    
+
+    
+
+    
+
+  
+  
+    
+      
+        Posted Jan 19
+      
+    
+    
+      
+        Now you can buy a Noam Chomsky garden gnome
+      
+    
+  
+
+    
+      
+        
+          4
+        
+      
+      
+        
+            
+                
+        
+    
+
+    
+
+    
+    Mighty Morphin' Power Rangers
+  
+  
+    
+      
+        Posted Nov 5
+      
+    
+    
+      
+        Power Rangers’ new Megazord is looking kind of ripped
+      
+    
+  
+
+
+              
+
+            
+  
+     
+  
+
+          
+        
+
+      
+    
+    
+  
+
+    
+  
+
+
+      
+  
+    
+
+    
+      Sign up for news
+      
+      
+        
+          Daily Newsletter
+          Highlights from The A.V. Club
+        
+        
+          What's On Tonight
+          A daily update on the world of TV
+        
+        Submit
+          
+          
+            
+      
+      
+    
+    Links and such
+      
+        
+            
+              All Recent
+            
+          
+          
+            
+              Browse Our Features
+            
+          
+          
+            
+              Coming Distractions
+            
+          
+          
+            
+              Savage Love
+            
+          
+          
+            
+              Contests
+            
+          
+          
+            
+               RSS
+            
+          
+        
+            
+              About Us
+            
+           
+          
+            
+              Contact
+            
+           
+          
+            
+              Advertise
+            
+          
+          
+            
+              Jobs
+            
+           
+          
+            
+              Privacy Policy
+            
+          
+        
+    Our Partners
+      
+          
+            Hitfix
+          
+        
+        
+          
+            Mental Floss
+          
+        
+        
+          
+            Oh My Rockness
+          
+        
+        
+          
+            Uproxx
+          
+        
+        
+          
+            Upworthy
+          
+        
+        
+          
+            Vice
+          
+        
+      
+  
+    
+      
+    
+    
+      
+    
+    
+      
+    
+    
+      
+    
+  
+  
+    
+    
+    
+    
+    
+    
+  
+  
+    © Copyright 2016 Onion Inc.
+    All Rights Reserved.
+  
+
+
+  
+  
+
+
+      
+
+        
+          window.picturefill();
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-223393-2', 'auto');
+  ga('create', 'UA-223393-11', 'auto', { 'name': 'adTracker' });
+
+  
+  ga('set', 'dimension1', 'games');
+  
+
+  
+  ga('set', 'dimension2', 'for-our-consideration');
+  
+
+  
+  ga('set', 'dimension3', 'article');
+  
+
+  
+  ga('set', 'dimension4', 'None');
+  
+
+  
+  ga('set', 'dimension5', 'None');
+  
+
+  
+    ga('set', 'dimension6', 'None');
+  
+
+  
+  ga('set', 'dimension7', '2015-08-25T05:00:00+00:00');
+  
+
+
+  
+  ga('set', 'dimension8', 'False');
+  
+
+  
+  ga('set', 'dimension9', '22 years in, Magic: The Gathering is the brainiest it’s ever been');
+  
+
+  
+  ga('set', 'dimension10', '224197');
+  
+
+  
+
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '456329901240411');
+  fbq('track', "PageView");
+
+  
+
+
+        
+
+        
+        
+          document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+        var VIDEOJS_SWF = '//assets3.onionstatic.com/onionstatic/avclub/static/videojs/dist/video-js/video-js.65cfcc0b7a35.swf';
+    function toggleMore(e) {
+      e.preventDefault();
+      $(this).hide().nextAll('a').show();
+      return false;
+    }
+    $('#tags .expand-link').click(toggleMore);
+  
+    // Inserts "suggested read" recirc links
+    $(function() {
+      $.event.trigger("detail-page-setup", [224197, $('.article-detail')]);
+    });
+   
+
+  
+      (function( ){
+      BF_WIDGET_JS=document.createElement("script"); BF_WIDGET_JS.type="text/javascript";
+      BF_WIDGET_SRC="//ct.buzzfeed.com/wd/UserWidget?u=avclub&to=1&or=vb&wid=1&cb=" + (new Date()).getTime();
+      setTimeout(function() {document.getElementById("BF_WIDGET_1").appendChild(BF_WIDGET_JS);BF_WIDGET_JS.src=BF_WIDGET_SRC},1);
+      })();
+  
+
+
+    

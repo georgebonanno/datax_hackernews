@@ -1,0 +1,347 @@
+Adobe demos “photoshop for audio,” lets you edit speech as easily as text | Ars Technica
+    ars = {"ASSETS":"https:\/\/cdn.arstechnica.net\/wp-content\/themes\/ars\/assets","HOME_URL":"http:\/\/arstechnica.com","LOGIN_URL":"https:\/\/arstechnica.com\/services\/login-desktop.html?v=1","CIVIS":"\/civis","THEME":"light","VIEW":"grid","MOBILE":false,"PREMIER":false,"LOGGED":false,"ENV":"production","AD":{"kw":["section_information-technology","discipline","identity-it","information-technology-3","productivity","default"],"zone":"default","queue":[]},"TOTAL":77212,"UNREAD":0,"RECENT":[990797,990739,990773,990749,990701,990669,990367,990643,990609,990579,986801,989303,975105,990503,980577,966777,980949,989491,990507,990489,990373,990377,990395,108203,990341],"LOGINS":true,"CROSS":false,"GEOALERTS":true,"PARSELY":"arstechnica.com","COMMENTS":false,"HOMEPAGE":false,"COUNTRY":"us","SITE":1,"READY":[],"SHOW_ADS":true,"IMG_PROXY":"https:\/\/cdn.arstechnica.net\/i\/","CATEGORY":"information-technology","PAGETITLE":""};
+  window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!d){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[y[n]];return f&&f.push([b,n,r,i]),i}}function p(e,t){w[e]=v(e).concat(t)}function v(e){return w[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var w={},y={},b={on:p,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a};return b}function i(){return new r}function a(){d=!0,s=p.backlog={}}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o(),d=!1;p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=b.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(w,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-995.min.js"},y=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a(),origin:m,features:{},xhrWrappable:y};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);var digitalData = {"contributor":"Sebastian Anthony","contentID":990749,"contentLength":552,"display":"Adobe demos \u201cphotoshop for audio,\u201d lets you edit speech as easily as text","pageType":"brief","keywords":{"display":"adobe|voco|type: brief"},"canonical":"http:\/\/arstechnica.com\/information-technology\/2016\/11\/adobe-voco-photoshop-for-audio-speech-editing\/","pageValue":1,"publishDate":"2016-11-07T13:59:45+00:00","section":"Technology Lab"};
+!function(b,c,d){"use strict";var e=b.location.hostname,f=""!==b.location.port?":"+b.location.port:"",g=location.search.match(/CNS_SB=([^&\s]+)[&\s]?/)||[],h=e+f+"/cns"+(g.length?"-sandbox/"+g[1]:"")+"/services.min.js",i=d||"//"+h;b.cns=b.cns||{async:function(b,c){this.queue[b]||(this.queue[b]=[]),"function"==typeof c&&this.queue[b].push(c)},queue:{},embed:{backup:d}};var j;j=c.createElement("script"),j.async=!0,j.src=i,c.head.appendChild(j)}(window,document,'https://cdn.arstechnica.net/cns/services.min.js');
+
+
+  
+  
+      
+      
+  
+      
+        
+          
+        
+        
+          
+  
+Close
+        
+      
+      Biz & IT
+  Tech
+  Science
+  Policy
+  Cars
+  Gaming & Culture
+  Forums        
+        
+          
+        
+        
+          
+    
+    Navigate
+  
+  Videos
+    Features
+    Reviews
+    Ars Approved
+  RSS Feeds
+    Mobile Site
+  About Ars
+    Staff Directory
+    Contact Us
+  Advertise with Ars
+    Reprints
+  
+    
+    Filter by topic
+  
+  Biz & IT
+  Tech
+  Science
+  Policy
+  Cars
+  Gaming & Culture
+  Forums  
+    
+    Settings
+  
+  
+    
+      
+Front page layout
+
+  
+    
+    Grid
+    
+      
+
+
+
+  
+    
+    List
+    
+      
+
+
+
+  
+    
+    Unified
+    
+      
+
+
+  
+    
+      
+      Wide
+      
+          
+  
+    
+    
+      
+Site theme
+
+  
+    Black on white
+    
+      
+
+
+
+  
+    White on black
+    
+      
+
+    
+  
+      
+      
+        Feature Report Series
+        The Rise of Specialized Databases
+      
+    
+  
+      
+      
+      
+      Sign in
+      
+    
+    
+    
+        
+        Comment activity
+      
+              Sign up or login to join the discussions!
+          
+  
+    
+  Stay logged in | Having trouble?
+
+  
+
+  Sign up to comment and more
+  Sign up
+
+      
+    
+
+    
+    
+            
+  
+                        
+          
+          
+        
+                                  
+    
+                        
+            
+            Ars Technica UK          
+          
+  
+          
+  
+
+
+  ars.ARTICLE = {"url":"http:\/\/arstechnica.com\/information-technology\/2016\/11\/adobe-voco-photoshop-for-audio-speech-editing\/","short_url":"http:\/\/arstechnica.com\/?p=990749","title":"Adobe demos \u201cphotoshop for audio,\u201d lets you edit speech as easily as text","author":466481,"id":990749,"topic":1335209,"pages":1,"current_page":1,"superscroll":false,"promoted":[],"single_page":false,"comments":53,"fullwidth":false,"slug":"adobe-voco-photoshop-for-audio-speech-editing","arsStaff":{"104481":{"name":"Aaron Zimmerman","title":"Copyeditor","staff":true},"332715":{"name":"Andrew Cunningham","title":"Senior Products Editor","staff":true},"520255":{"name":"Annalee Newitz","title":"Tech Culture Editor","staff":true},"509873":{"name":"Beth Mole","title":"Health Reporter","staff":true},"335607":{"name":"Cyrus Farivar","title":"Senior Business Editor","staff":true},"329388":{"name":"Dan Goodin","title":"Security Editor","staff":true},"427993":{"name":"David Kravets","title":"Senior Editor","staff":true},"512413":{"name":"Eric Berger","title":"Senior Space Editor","staff":true},"55943":{"name":"Jacqui Cheng","title":"Editor at Large","staff":false},"439519":{"name":"Jennifer Hahn","title":"Video Producer\/Editor","staff":true},"334677":{"name":"Joe Mullin","title":"Tech Policy Editor","staff":true},"52979":{"name":"John Timmer","title":"Senior Science Editor","staff":true},"312082":{"name":"Jon Brodkin","title":"Senior IT Reporter","staff":true},"14317":{"name":"Jonathan M. Gitlin","title":"Automotive Editor","staff":true},"338374":{"name":"Kathleen DeVries","title":"","staff":false},"522745":{"name":"Kelly Fiveash","title":"News Editor","staff":true},"440179":{"name":"Kerry Staurseth","title":"Associate Copyeditor","staff":true},"328283":{"name":"Kyle Orland","title":"Senior Gaming Editor","staff":true},"483933":{"name":"Mark Walton","title":"Consumer Editor","staff":true},"331051":{"name":"Megan Geuss","title":"Staff editor","staff":true},"182268":{"name":"Nate Anderson","title":"Deputy Editor","staff":true},"1169":{"name":"Peter Bright","title":"Technology Editor","staff":true},"391727":{"name":"Ron Amadeo","title":"Reviews Editor","staff":true},"348927":{"name":"Sam Machkovech","title":"Culture Reporter","staff":true},"314884":{"name":"Sean Gallagher","title":"IT Editor","staff":true},"466481":{"name":"Sebastian Anthony","title":"Editor of Ars Technica UK","staff":true},"505571":{"name":"Valentina Palladino","title":"Associate Reviewer","staff":true},"369205":{"name":"Akshat Rathi","title":"Associate Writer","staff":false},"325040":{"name":"Allie Wilkinson","title":"","staff":false},"505703":{"name":"Cassandra Khaw","title":"Contributing Reporter ","staff":true},"453791":{"name":"Cathleen O'Grady","title":"Contributing science reporter","staff":true},"102179":{"name":"Chris Lee","title":"Associate writer","staff":true},"332078":{"name":"Curt Hopkins","title":"Associate Writer","staff":false},"6978":{"name":"Dave Girard","title":"Associate Writer","staff":false},"332434":{"name":"Dave Klingler","title":"Associate Writer","staff":false},"129513":{"name":"David Kanter","title":"","staff":false},"254631":{"name":"Diana Gitig","title":"Associate Writer","staff":false},"52335":{"name":"edgar","title":"","staff":false},"172426":{"name":"egosumliber","title":"","staff":false},"480857":{"name":"Glyn Moody","title":"Contributing Policy Editor","staff":true},"46707":{"name":"Iljitsch van Beijnum","title":"Associate Writer","staff":true},"332336":{"name":"James Holloway","title":"Associate Writer","staff":false},"217531":{"name":"Jeremy Jacquot","title":"","staff":false},"15365":{"name":"Jeremy Reimer","title":"Senior Niche Technology Historian","staff":false},"8996":{"name":"John Siracusa","title":"Associate writer","staff":false},"375641":{"name":"Kate Prengaman","title":"","staff":false},"251816":{"name":"Kate Shaw Yoshida","title":"Associate Writer","staff":false},"133411":{"name":"Knadles","title":"","staff":false},"37509":{"name":"Matt Ford","title":"Associate writer","staff":false},"300066":{"name":"Matthew Braga","title":"Associate writer","staff":true},"323078":{"name":"Matthew Francis","title":"Associate Writer","staff":false},"173191":{"name":"Matthew Lasar","title":"Associate writer","staff":true},"336278":{"name":"Melissae Fellet","title":"Associate Writer","staff":false},"1991":{"name":"Ohrmazd","title":"","staff":false},"445261":{"name":"Robert Lemos","title":"","staff":false},"66380":{"name":"Ryan Paul","title":"Ars Editor Emeritus ","staff":false},"17480":{"name":"SBD","title":"","staff":false},"294205":{"name":"Scott K. Johnson","title":"Associate Writer","staff":true},"451673":{"name":"Shalini Saxena","title":"Science Writer","staff":false},"163185":{"name":"Tim De Chant","title":"","staff":false},"173910":{"name":"Tim Lee","title":"","staff":false},"181333":{"name":"vansau","title":"","staff":false},"445789":{"name":"Xaq Rzetelny","title":"","staff":false},"6021":{"name":"Yaz","title":"","staff":false},"417641":{"name":"Yogi Patel","title":"","staff":false},"513703":{"name":"Forrest Marvez","title":"Web Developer","staff":false},"316010":{"name":"Jason Marlin","title":"Technical Director","staff":true},"998":{"name":"Ken Fisher","title":"Editor in Chief","staff":true},"1002":{"name":"Aurich Lawson","title":"Creative Director","staff":true},"25862":{"name":"Eric Bangeman","title":"Managing Editor","staff":true},"10243":{"name":"Lee Hutchinson","title":"Senior Technology Editor","staff":true},"330533":{"name":"Nathan Mattise","title":"Features Editor","staff":true},"495539":{"name":"S.I. Newhouse","title":"","staff":true},"547195":{"name":"Tom Mendelsohn","title":"Contributing Sub Editor","staff":true},"513593":{"name":"Andrii Degeler","title":"Contributing reporter","staff":true},"549735":{"name":"Jennifer Baker","title":"Contributing Europe Correspondent","staff":true},"100955":{"name":"Lee Aylward","title":"Lead Developer","staff":false}}};
+
+
+    
+      
+      Technology Lab    —
+
+        Adobe demos “photoshop for audio,” lets you edit speech as easily as text
+        VoCo tech ingests speech, deconstructs it, then creates new words from scratch.
+        
+      Sebastian Anthony
+     (UK)  -  Nov 7, 2016 1:59 pm UTC
+
+
+  
+
+          
+  
+      reader comments
+    53
+    
+
+
+  Share this story
+  
+  
+  
+  
+
+Adobe's VoCo tech demonstrated.Adobe has demonstrated tech that lets you edit recorded speech so that you can alter what that person said or create an entirely new sentence from their voice. It seems inevitable that it will eventually be referred to as "photoshop but for audio."
+Enlarge / VoCo lets you copy and paste existing words...The tech, dubbed VoCo (voice conversion), presents the user with a text box. Initially the text box shows the spoken content of the audio clip. You can then move the words around, delete fragments, or type in entirely new words. When you type in a new word, there's a small pause while the word is constructed—then you can press play and listen to the new clip.
+VoCo works by ingesting a large amount of voice data (about 20 minutes right now, but that'll be improved), breaking it down into phonemes (each of the distinct sounds that make up a spoken language), and then attempting to create a voice model of the speaker—presumably stuff like cadence, stresses, quirks, etc., but Adobe hasn't provided much detail yet.
+Enlarge / ... or just write whole new words.Then, when you edit someone's speech, VoCo either finds that word somewhere within the 20-minute clip—or if the word hasn't been uttered, it is constructed out of raw phonemes. At around the 4:30 mark in the video you can hear the phase "three times" being constructed from scratch; if you listen carefully, it does sound a bit synthetic, but it's not awful. Copying and pasting existing words sounds better.
+VoCo reminds me of an image editing tech that Adobe first demonstrated many moons ago: content-aware fill, which also creates something out of nothing. At the time, I remember people being concerned about the nefarious possibilities of almost flawlessly adding or removing details from images. With VoCo, it seems Adobe is being a bit more conscientious: even though it's just prototype tech, the company is already talking about "watermarking and detection" to prevent fraudulent use.
+Further ReadingAdobe gets collaborative, introduces new photorealistic 3D design toolVoCo was demonstrated at Adobe Max 2016, where the company usually shows off new tech a year or two before it's commercialised. If VoCo does make it out of the prototype stage, it would probably be added to Adobe Audition, where you could use it to edit podcasts and voiceovers, and, more importantly, to create really funny celebrity audio clips that you can share on Reddit. And to circumvent voice recognition tech currently being rolled out by banks. And to bombard your archenemy with heinous voicemails from their loved ones that sound legitimate, but were actually just made on your PC at home...
+
+This post originated on Ars Technica UK
+        
+
+        
+        
+      
+
+    
+      
+                
+        
+                  
+    
+
+  
+
+  
+    
+              
+  
+  
+    Sebastian Anthony
+      Sebastian is the editor of Ars Technica UK. He usually writes about low-level hardware, software, and transport, but it is emerging science and the future of technology that really get him excited.    Email sebastian@arstechnica.co.uk
+                    //
+                    Twitter @mrseb
+          
+
+
+      reader comments
+    53
+    
+
+
+  Share this story
+  
+  
+  
+  
+
+      
+    
+    
+  
+
+
+  
+          
+  
+          
+      
+        You must login or create an account to comment.
+      
+      
+      
+  ← Previous story  Next story →      
+    
+    Related Stories
+  
+  
+
+    Sponsored Stories
+    Powered by 
+  
+  
+  
+
+    Today on Ars
+  
+  
+
+
+
+
+  RSS Feeds
+			View Mobile Site
+			Visit Ars Technica UK
+			About Us
+		Contact Us
+			Staff
+			Advertise with us
+			Reprints
+		
+		
+	
+
+	
+  WIRED Media Group
+  Use of this Site constitutes acceptance of our User Agreement (effective 1/2/14) and Privacy Policy (effective 1/2/14), and Ars Technica Addendum (effective 5/17/2012). Your California Privacy Rights. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast.
+
+
+
+
+	var _gaq = _gaq || [];
+  _gaq.push(
+    ['_setAccount', 'UA-31997-1'],
+    ['_setCustomVar', 1, 'view', "grid"],
+    ['_setCustomVar', 2, 'theme', "light"],
+    ['_setCustomVar', 3, 'logged_in', "false"],
+    ['_setCustomVar', 4, 'show_comments', "false"],
+    ['_setCustomVar', 5, 'is_premier', "false"],
+    ['_trackPageview']
+  );
+	(function() {
+	  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	
+  (function(d) {
+    var site = "arstechnica.com",
+    b = d.body,
+    e = d.createElement("div");
+    e.innerHTML = '<span id="parsely-cfg" data-parsely-site="'+site+'"></span>';
+    e.id = "parsely-root";
+    e.style.display = "none";
+    b.appendChild(e);
+  })(document);
+
+  (function(s, p, d) {
+    var h=d.location.protocol, i=p+"-"+s,
+    e=d.getElementById(i), r=d.getElementById(p+"-root"),
+    u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+      :"static."+p+".com";
+    if (e) return;
+    e = d.createElement(s); e.id = i; e.async = true;
+    e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+  })("script", "parsely", document);
+	_satellite.pageBottom();
+ars.READY.push(function() {
+  // LG wide View
+  if (ars.SHOW_ADS) {
+    var logo = $('body.home.blog-us .sponsored-logo');
+    $('body.home.blog-us .burger-layout-wide').css('display', 'block');
+    // Set sponsor href
+    logo.attr('href', 'https://ad.doubleclick.net/ddm/trackclk/N1068.ArsTechnica/B10288408.139561544;dc_trk_aid=311875306;dc_trk_cid=74096769;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=');
+    // Place sponsor pixel
+    logo.append('<IMG SRC="https://ad.doubleclick.net/ddm/trackimp/N1068.ArsTechnica/B10288408.139561544;dc_trk_aid=311875306;dc_trk_cid=74096769;ord=' + $.now() + ';dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?" BORDER="0" HEIGHT="1" WIDTH="1" ALT="Advertisement">');
+  }
+  // If wide theme is active, let's let them remove it
+  if ($('body.full-view').length > 0) {
+    $('body.blog-us .burger-layout-wide').css('display', 'block');
+  }
+
+});
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"2facee05ce","applicationID":"26427541","transactionName":"ZQFUZEtVW0VWU01QCVxLY0JQG1xYU1VBFxZaFA==","queueTime":0,"applicationTime":6,"atts":"SUZXEgNPSEs=","errorBeacon":"bam.nr-data.net","agent":""}

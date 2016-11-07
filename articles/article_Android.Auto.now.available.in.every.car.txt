@@ -1,0 +1,373 @@
+Android Auto: now available in every car
+    {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": "https://blog.google/products/android/android-auto-available-in-every-car/",
+        "headline": "Android Auto: now available in every car",
+        "datePublished": "2016-11-07T15:00:00+00:00",
+        "dateModified": "2016-11-07T16:04:39.094040+00:00",
+        "description": "Android Auto is comingis now available on your phone screen",
+        "author": {
+            "@type": "Person",
+            "name": "Gerhard  Schobbe"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Google",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/static/blog/images/google-200x200.7714256da16f.png",
+                "width": "200",
+                "height": "200"
+            }
+        },
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/static/blog/images/google-200x200.7714256da16f.png",
+            "width": "1440",
+            "height": "810"
+        }
+    }
+
+        
+        
+
+
+
+
+
+    Skip to Main Content
+
+
+
+        
+            
+                
+        
+        
+            
+                
+            
+                
+            
+                    Latest Stories
+                
+                
+                    Product News
+                
+                
+                    Topics
+                
+            
+                
+                
+
+
+    
+    
+    
+    
+    
+
+
+            
+            
+                
+                
+                
+
+
+    
+        Menu
+    
+    
+            Latest Stories
+        
+        
+            Product News
+        
+        
+            Topics
+        
+        
+            About
+        
+        
+            Press Corner
+            
+        
+        
+            RSS Feed
+        
+    
+
+            
+        
+    
+
+    
+
+        
+            
+                
+                    
+                    
+
+    
+
+
+Android
+
+
+    
+
+
+                    
+                    
+                        Nov 7, 2016
+                    
+                
+                    
+                        Android Auto: now available in every car
+                    
+                
+            
+
+            
+                
+                    
+                    
+                        
+                            
+
+
+
+    
+
+
+    
+        Gerhard  Schobbe
+
+        
+            
+                
+                    Product Manager, Android Auto
+                
+
+                
+
+                
+            
+        
+    
+
+
+
+                        
+                    
+                
+            
+        
+    
+
+                
+                
+                    
+                    
+
+    
+      
+        
+          
+            We launched Android Auto two years ago with the goal to better integrate phones and cars, and give drivers an easier way to access the information they need. There are now over 200 new car models supporting Android Auto offered from more than 50 brands, and many more launching every day.But we know there are millions of older cars on the road that are not compatible with Android Auto, and many don't have a screen at all. We wanted to bring the same connected experience to these drivers too.So today we're excited to introduce a whole new way to use Android Auto: right on your phone screen! This update allows anyone with an Android phone (running 5.0 or later) to use a driver friendly interface to access the key stuff you need on the road ― directions, music, communications ― without the distraction of things that aren't essential while driving.
+          
+        
+      
+        
+          
+
+    
+
+        
+      
+        
+          
+            Whether your phone is connected to a compatible car display, or placed in a car mount on the dashboard, Android Auto brings your favorite apps and services into one place, making them accessible in safer and seamless ways. You can bring your music with you with apps like Spotify, Pandora or Google Play Music, and make calls or send messages with hands-free voice commands. And of course, get turn-by-turn directions to your next destination with Google Maps.This update also brings the ability to automatically start the app when the phone is paired with Bluetooth. While you can put your phone in any car mount, please keep an eye out for Bluetooth-supported car mounts such as Logitech’s SmartCar mount, which is coming soon to the Google Store and select retail locations.We’re also enhancing the support for hands-free voice commands in the coming weeks. You will soon be able to easily access existing features like maps, music and messaging by just saying “Ok Google” so you can stay focused on the road.The latest version (2.0) with the phone screen experience will be rolling out in the coming days to more than 30 countries where Android Auto is currently available. Sign up on the Android Auto website to receive an email when the update is available for your phone.
+          
+        
+      
+    
+
+
+                    
+                    
+
+
+    
+        Posted in:
+    
+    
+                    
+
+    
+
+
+Android
+
+
+    
+
+
+                
+            
+            
+        
+
+                
+            
+            
+
+
+    
+    
+    
+    
+    
+    
+
+
+        
+            Up next
+        
+
+        
+                    
+                        
+
+
+    
+        3 days ago
+    Android
+                    
+
+                    
+
+
+                    Partnering with global carriers to upgrade SMS
+
+                        
+                        Sprint will be the first carrier to launch RCS messaging with Google 
+                        
+                    
+            
+                
+                    
+                        
+
+
+    
+        oct 24
+    Shopping & Payments
+                    
+
+                    
+
+
+                    Android Pay partners with Visa and Mastercard to bring simple checkout to more places online
+
+                        
+                        Google announces strategic partnerships with Visa and Mastercard to bring Android Pay to more places on the mobile web. 
+                        
+                    
+            
+                
+                    
+                        
+
+
+    
+        oct 19
+    Shopping & Payments
+                    
+
+                    
+
+
+                    Android Pay says “Nei hou” to Hong Kong
+
+                        
+                        Starting today, Android Pay is available in Hong Kong to help you speed through purchases in stores and in apps.  
+                        
+                    
+            
+        
+        
+
+    
+
+    
+        
+    
+    
+            
+        
+        
+            
+        
+        
+            
+        
+        
+            
+        
+    
+
+    
+
+        
+            Follow Us
+        
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+    
+            Help
+        
+        
+            Privacy
+        
+        
+            Terms
+        
+        
+            About Google
+        
+        
+            Google Products
+        
+    
+    
+    
+        
+            
+            
+            
+        
+    
+
+
+
+
+        
+        

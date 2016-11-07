@@ -1,0 +1,434 @@
+Graphic design legend Milton Glaser dispels a universal misunderstanding of design and art — Quartz
+			var currentDomain = "qz.com";
+			var currentPath = "https://app.qz.com";
+						window.QZ = {
+				bootstrap: {},
+				env: { screen: 'desktop' },
+				edition: 'global',
+				version: '4.0.520'
+			};
+
+			(function(){
+				var el = document.createElement('div');
+				if( typeof(el.style['mask-image']) !== 'undefined' || typeof(el.style['-webkit-mask-image']) !== 'undefined' ) {
+					document.documentElement.className += ' has-mask';
+				}
+			})();
+			
+		{"@context":"http:\/\/schema.org","@type":"NewsArticle","name":"&#8220;Design has nothing to do with art&#8221;: Design legend Milton Glaser dispels a universal misunderstanding","headline":"&#8220;Design has nothing to do with art&#8221;: Design legend Milton Glaser dispels a universal misunderstanding","alternativeHeadline":"Next time you work with a designer, start with an overview of your goals, before diving into a discussion about colors, fonts or materials..","description":"Next time you work with a designer, start with an overview of your goals, before diving into a discussion about colors, fonts or materials.","url":"http:\/\/qz.com\/823204\/graphic-design-legend-milton-glaser-dispels-a-universal-misunderstanding-of-design-and-art\/","author":{"@type":"Person","name":"Anne Quito","url":"http:\/\/qz.com\/author\/annequitoqz","sameAs":["http:\/\/twitter.com\/annequito"]},"creator":["Anne Quito"],"dateCreated":"2016-10-31T15:51:28+00:00","datePublished":"2016-10-31T15:51:28+00:00","image":"https:\/\/qzprod.files.wordpress.com\/2016\/10\/rtr3x101-e1477936769150.jpg?quality=80&strip=all&w=1024","thumbnailUrl":"https:\/\/qzprod.files.wordpress.com\/2016\/10\/rtr3x101-e1477936769150.jpg?quality=80&strip=all","articleSection":"global","keywords":["art","Business","definition","design","graphic design","guggenheim museum","Milton Glaser","school of visual arts","Twenty over Eighty"],"inLanguage":"en-us","publisher":{"@type":"Organization","name":"Quartz","logo":"http:\/\/app.qz.com\/img\/logo\/quartz.svg","sameAs":["http:\/\/en.wikipedia.org\/wiki\/Quartz_(publication)","http:\/\/facebook.com\/quartznews","http:\/\/twitter.com\/qz"],"url":"http:\/\/qz.com","member":[{"@type":"Person","name":"Kevin J. Delaney","jobTitle":"CEO"}],"memberOf":{"@type":"Corporation","name":"Atlantic Media","founder":{"@type":"Person","name":"David G. Bradley"}},"location":{"@type":"PostalAddress","addressLocality":"New York","addressRegion":"NY"}}}
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+var _sf_startpt=(new Date()).getTime()
+	
+		
+	
+	
+		
+			
+
+
+		
+	
+	
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			obsessions
+		
+		
+	
+	
+	
+		
+			
+		
+		
+			our picks
+		
+		
+			latest
+		
+		
+			popular
+		
+		
+		
+	
+
+
+		like us on facebook
+		follow us on twitter
+		quartz index
+		about us
+		register
+		log in
+		log out
+		Events
+		Atlas
+	
+	
+		quartz
+					
+				
+				quartz India			
+					
+				
+				quartz Africa			
+			
+	
+		Change your edition
+		back to menu
+	
+
+	
+
+	DEFINING STATEMENT
+		“Design has nothing to do with art”: Design legend Milton Glaser dispels a universal misunderstanding
+	
+	Written by
+
+	
+		
+			
+			Anne Quito
+
+			
+			
+			
+		
+		
+	
+
+
+		
+	Obsession
+	Design
+
+
+
+
+			October 31, 2016
+	
+	
+
+
+
+			
+	
+			Drawing is thinking. 							 (Reuters/Thomas Peter)
+					
+	
+	
+		
+			Share
+				 
+	 
+	 
+	 
+	 
+		
+		
+	Written by
+
+	
+		
+			
+			Anne Quito
+
+			
+			
+			
+		
+		
+	
+
+
+		
+	Obsession
+	Design
+
+
+
+
+			October 31, 2016
+	
+	
+
+	
+	
+		
+			
+Design is not art. It’s a distinction understood by practicing designers, but it still eludes many. In an Oct. 29 talk at the Guggenheim Museum in New York City, the 87-year-old graphic design legend Milton Glaser gave the best definition of the practice of design.
+“Design is the process of going from an existing condition to a preferred one,” said the 2010 National Medal of Arts recipient. “Observe that there’s no relationship to art.”
+This confusion is not just a matter of semantics. In businesses, schools, offices, even newspapers, design is often associated with the art department. That’s a fundamental misunderstanding of the aim of design. When art and design are confused, the designers’ domain becomes limited to style and appearance.
+In truth, good designers are primarily problem solvers. They seek to understand the purpose, audience, technical parameters, and strategic nuances of an assignment before reaching for their Moleskine sketchpads or going to town in Photoshop. Next time you work with a designer, start with an overview of your goals, before diving into a discussion about colors, fonts or materials.
+The confusion stems in part from the fact that some designers are excellent at drawing, like Glaser. But for designers, drawing—or thumbnail sketching—is a way of thinking. It’s a way to plan and visualize creative solutions for a logo, a poster, a chair, a website, or a room’s interiors,  just as a mathematician works out equations on a blackboard. While the tools of artists and designers look similar—pens, styluses, Adobe creative tools, color swatches—their methods, training and potential are vastly different.
+
+
+
+
+A photo posted by Milton Glaser Incorporated (@miltonglaserinc) on Apr 20, 2015 at 1:20pm PDT
+
+
+“It’s good to understand that design has a purpose and art has another purpose,” said Glaser. Art’s power is mysterious and cannot be quantified, he explained, while design’s efficacy is measured by how well it delivers on a clients’ goal. “As you get older you get clearer about that distinction about design and art.”
+Glaser, along with his fellow panelists, design critic Ralph Caplan and architect Beverly Willis, are featured in the new book about octogenarian design legends, Twenty Over Eighty: Conversations on a Lifetime in Architecture and Design.
+			
+		
+		
+			
+				
+			
+					 
+	 
+	 
+	 
+	 
+			
+		
+		Read full story
+	
+	
+
+
+
+
+	
+
+
+	home
+	our picks
+	popular
+	latest
+	obsessions
+	search
+
+
+		
+		
+			var _sf_async_config={};
+			_sf_async_config.uid = 55570;
+			_sf_async_config.useCanonical = true;
+						_sf_async_config.domain = 'qz.com';
+			_sf_async_config.authors = 'Anne Quito';
+_sf_async_config.sections = ["Uncategorized"];
+
+			(function(){
+				function loadChartbeat() {
+					window._sf_endpt=(new Date()).getTime();
+					var e = document.createElement('script');
+					e.setAttribute('language', 'javascript');
+					e.setAttribute('type', 'text/javascript');
+					e.setAttribute('src',
+						(("https:" == document.location.protocol) ? "https://" : "http://") +
+						"static.chartbeat.com/js/chartbeat.js");
+					document.body.appendChild(e);
+				}
+				var oldonload = window.onload;
+				window.onload = (typeof window.onload != 'function') ?
+					loadChartbeat : function() { try { oldonload(); } catch (e) { loadChartbeat(); throw e} loadChartbeat(); };
+			})();
+		
+				( function(){
+
+					// Check if cookies are enabled
+					// @see http://sveinbjorn.org/cookiecheck
+					var cookieEnabled = (navigator.cookieEnabled) ? true : false;
+
+					if (typeof navigator.cookieEnabled == "undefined" && !cookieEnabled){ 
+						document.cookie="testcookie";
+						cookieEnabled = (document.cookie.indexOf("testcookie") != -1) ? true : false;
+					}
+					
+					if( ! cookieEnabled )
+						return;
+					
+					// Set cookie with test condition
+					document.cookie = "quick_article_collection_20160810" + '=' + "exposed" + '; expires=' + "Sun, 13 Nov 2016 13:18:40 +0000" + '; path=/';
+					
+				})();
+			
+/* <![CDATA[ */
+var wpcomVipAnalytics = {"is_404":"0","is_home":"0","is_single":"1","is_front_page":"0","is_archive":"0","percentToTrack":"1"};
+/* ]]> */
+
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'39587363','blog_tz':'-4','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'39587363','v':'wpcom','tz':'-4','user_id':'0','post':'823204','subd':'qzprod'}]);
+function st_vt() {var x=document.createElement("img");x.src="http://pixel.wp.com/g.gif?blog=39587363&v=wpcomvt&tz=-4&user_id=0&post=823204&subd=qzprod&rand="+Math.random();}
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTdEfC1rZmVUMy9QNXhLa2dIP0wvZ2RNYSV+S1VzM2gtT0J4Rk5OX3B6SF8zY18/Ukh1bnFvXWJrMWZublFtSmNSdGhKbEYtTll3ciVod1J+TT1tLD98bGtEMTdabmhqJkE4UXpUbEkwdS0xP3JuWXhvLUUlVi40LUV0aW5WVmtYUy1sXXlzUUl0UHlJRUJuZ3hKaDc3VSUmcCx5aUlKc35Bb3dUVk9GUnVzVGxQVk04SXZCT3xbV0lPWiw='}]);
+_stq.push([ 'clickTrackerInit', '39587363', '823204' ]);
+	
+
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+
+	QZ.splitTests = {"test1":{"name":"quick_article_collection_20160810","group":"exposed"}};
+	QZ.editions = ["global","india","africa"];
+	QZ.geolocation = 'global';
+	QZ.bootstrap = {"http:\/\/qz.com\/api\/article\/823204\/":{"version":3,"header":{"name":"Article","path":"article\/823204\/","slug":"article","type":"article"},"items":[{"id":823204,"title":"&#8220;Design has nothing to do with art&#8221;: Design legend Milton Glaser dispels a universal misunderstanding","slug":"graphic-design-legend-milton-glaser-dispels-a-universal-misunderstanding-of-design-and-art","permalink":"http:\/\/qz.com\/823204\/graphic-design-legend-milton-glaser-dispels-a-universal-misunderstanding-of-design-and-art\/","date":{"published":"2016-10-31 19:51:28","updated":"2016-10-31 19:52:48","pretty":"October 31, 2016"},"postType":"article","summary":"Design is not art. It&#8217;s a distinction understood by practicing designers, but it still eludes many. In an Oct. 29 talk at the Guggenheim Museum&hellip;","inlineAds":["inline-823204-1"],"content":"\n<p>Design is not art. It&rsquo;s a distinction understood by practicing designers, but it still eludes many. In an <a href=\"https:\/\/www.guggenheim.org\/event\/the-consequence-of-design\">Oct. 29 talk<\/a> at the Guggenheim Museum in New York City, the 87-year-old <a href=\"https:\/\/www.arts.gov\/honors\/medals\/milton-glaser\">graphic design legend Milton Glaser<\/a> gave the best definition of the practice of design.<\/p>\n<p>&ldquo;Design is the process of going from an existing condition to a preferred one,&rdquo; said the 2010 National Medal of Arts recipient. &ldquo;Observe that there&rsquo;s no relationship to art.&rdquo;<\/p>\n<p>This confusion is not just a matter of semantics. In businesses, schools, offices, even newspapers, design is often associated with the art department. That&rsquo;s a fundamental misunderstanding of the aim of design. When art and design are confused, the designers&rsquo; domain becomes limited to style and appearance.<\/p>\n<div class=\"inline-ad\" id=\"inline-823204-1\"><\/div><p>In truth, good designers are primarily problem solvers. They seek to understand the purpose, audience, technical parameters, and strategic nuances of an assignment before reaching for their Moleskine sketchpads or going to town in Photoshop. Next time you work with a designer, start with an overview of your goals, before diving into a discussion about colors, fonts or materials.<\/p>\n<p>The confusion stems in part from the fact that some designers are excellent at drawing, like Glaser. But for designers, drawing&mdash;or thumbnail sketching&mdash;is a way of thinking. It&rsquo;s a way to plan and visualize creative solutions for a logo, a poster, a chair, a website, or a room&rsquo;s interiors,  just as a mathematician works out equations on a blackboard. While the tools of artists and designers look similar&mdash;pens, styluses, Adobe creative tools, color swatches&mdash;their methods, training and potential are vastly different.<\/p>\n<blockquote class=\"instagram-media\" data-instgrm-version=\"7\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:500px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:8px;\">\n<div style=\" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;\">\n<div style=\" background:url(data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC\/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5\/P8\/t9FuRVCRmU73JWlzosgSIIZURCjo\/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI\/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf\/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;\"><\/div>\n<\/div>\n<p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\"><a href=\"https:\/\/www.instagram.com\/p\/1tb8rxQajW\/\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;\" target=\"_blank\">A photo posted by Milton Glaser Incorporated (@miltonglaserinc)<\/a> on <time style=\" font-family:Arial,sans-serif; font-size:14px; line-height:17px;\" datetime=\"2015-04-20T20:20:57+00:00\">Apr 20, 2015 at 1:20pm PDT<\/time><\/p>\n<\/div>\n<\/blockquote>\n<p>&ldquo;It&rsquo;s good to understand that design has a purpose and art has another purpose,&rdquo; said Glaser. Art&rsquo;s power is mysterious and cannot be quantified, he explained, while design&rsquo;s efficacy is measured by how well it delivers on a clients&rsquo; goal. &ldquo;As you get older you get clearer about that distinction about design and art.&rdquo;<\/p>\n<p>Glaser, along with his fellow panelists, design critic Ralph Caplan and architect Beverly Willis, are featured in the new book about octogenarian design legends, <em><a href=\"http:\/\/qz.com\/687046\/work-at-things-that-are-central-to-your-life-the-argument-for-never-retiring\/\">Twenty Over Eighty: Conversations on a Lifetime in Architecture and Design<\/a>.<\/em><\/p>\n","hero":{"id":823879,"alt":"A man drafts a sketch of a car in a showcase design studio at the fringes of a launch ceremony presenting the new Volkswagen Passat at the Volkswagen Design Center Potsdam July 3, 2014. Volkswagen is steering the Passat upscale, aiming to lift its No.2 selling model clear of a struggling market for mid-priced cars without alienating its core family customers. At about 26,000 euros ($35,500), it will be priced only slightly above the current version, a company source said, but come in below BMW&#039;s 3-Series at 29,350 euros and the Mercedes-Benz C-Class at 33,558 euros.   REUTERS\/Thomas Peter (GERMANY - Tags: TRANSPORT BUSINESS) - RTR3X101","caption":"Drawing is thinking. ","credit":"Reuters\/Thomas Peter","width":3465,"height":1951,"aspectRatio":1.7760123013839,"url":"https:\/\/qzprod.files.wordpress.com\/2016\/10\/rtr3x101-e1477936769150.jpg?quality=80&strip=all&w=3465","size":"extra-large"},"kicker":"DEFINING STATEMENT","seoTitle":"Graphic design legend Milton Glaser dispels a universal misunderstanding of design and art","facebookDescription":"Next time you work with a designer, start with an overview of your goals, before diving into a discussion about colors, fonts or materials.","edition":"global","taxonomies":{"obsession":[{"name":"Design","slug":"design"}],"tags":[{"name":"art","slug":"art"},{"name":"Business","slug":"business"},{"name":"definition","slug":"definition"},{"name":"design","slug":"design-4"},{"name":"graphic design","slug":"graphic-design"},{"name":"guggenheim museum","slug":"guggenheim-museum"},{"name":"Milton Glaser","slug":"milton-glaser"},{"name":"school of visual arts","slug":"school-of-visual-arts"},{"name":"Twenty over Eighty","slug":"twenty-over-eighty"}],"topic":[{"name":"Lifestyle","slug":"lifestyle"}]},"obsession":{"name":"Design","slug":"design"},"byline":{"authors":[{"name":"Anne Quito","username":"annequitoqz","url":"http:\/\/qz.com\/author\/annequitoqz\/","twitter":"annequito"}],"type":"author","label":"Written by"},"share":{"twitter":"https:\/\/twitter.com\/intent\/tweet?url=http%3A%2F%2Fqz.com%2F823204&text=%E2%80%9CDesign%20has%20nothing%20to%20do%20with%20art%E2%80%9D%3A%20Design%20legend%20Milton%20Glaser%20dispels%20a%20universal%20misunderstanding&via=qz","facebook":"https:\/\/www.facebook.com\/sharer.php?u=http%3A%2F%2Fqz.com%2F823204%2Fgraphic-design-legend-milton-glaser-dispels-a-universal-misunderstanding-of-design-and-art%2F","linkedin":"http:\/\/www.linkedin.com\/shareArticle?mini=true&url=http%3A%2F%2Fqz.com%2F823204%2Fgraphic-design-legend-milton-glaser-dispels-a-universal-misunderstanding-of-design-and-art%2F&title=%E2%80%9CDesign%20has%20nothing%20to%20do%20with%20art%E2%80%9D%3A%20Design%20legend%20Milton%20Glaser%20dispels%20a%20universal%20misunderstanding&summary=Design%20is%20not%20art.%20It%E2%80%99s%20a%20distinction%20understood%20by%20practicing%20designers%2C%20but%20it%20still%20eludes%20many.%20In%20an%20Oct.%2029%20talk%20at%20the%20Guggenheim%20Museum%E2%80%A6&source=Quartz","email":"mailto:?subject=Quartz%3A%20%E2%80%9CDesign%20has%20nothing%20to%20do%20with%20art%E2%80%9D%3A%20Design%20legend%20Milton%20Glaser%20dispels%20a%20universal%20misunderstanding&body=http%3A%2F%2Fqz.com%2F823204%2Fgraphic-design-legend-milton-glaser-dispels-a-universal-misunderstanding-of-design-and-art%2F%0A%0ADesign%20is%20not%20art.%20It%E2%80%99s%20a%20distinction%20understood%20by%20practicing%20designers%2C%20but%20it%20still%20eludes%20many.%20In%20an%20Oct.%2029%20talk%20at%20the%20Guggenheim%20Museum%E2%80%A6%0A%0ASign%20up%20for%20the%20Quartz%20Daily%20Brief%3A%20http%3A%2F%2Fbit.ly%2Fquartzdailybrief.","whatsapp":"whatsapp:\/\/send?text=%E2%80%9CDesign%20has%20nothing%20to%20do%20with%20art%E2%80%9D%3A%20Design%20legend%20Milton%20Glaser%20dispels%20a%20universal%20misunderstanding%3A+http%3A%2F%2Fqz.com%2F823204%2Fgraphic-design-legend-milton-glaser-dispels-a-universal-misunderstanding-of-design-and-art%2F"},"peer39":[9488,9462,9521,9506,9504,9522,9519,9507,9505,9671,9672,9656,9367,9606,9597,9369,9422,9375,9678,9548,9617,9736,7313]}]}};
+	QZ.preview = false;
+	QZ.bulletinPosition = 2;
+	QZ.inlinePreview = false;
+
+	// DFP
+	(function() {
+		var gads = document.createElement("script");
+		gads.async = true;
+		gads.type = "text/javascript";
+		var useSSL = "https:" == document.location.protocol;
+		gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+		var node =document.getElementsByTagName("script")[0];
+		node.parentNode.insertBefore(gads, node);
+	})();
+
+	// Chartbeat
+	var _sf_async_config = {
+				uid: 55570
+	};
+	(function(){
+		function loadChartbeat() {
+			window._sf_endpt=(new Date()).getTime();
+			var e = document.createElement('script');
+			e.setAttribute('src',
+			(("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") + "js/chartbeat.js");
+			document.body.appendChild(e);
+		}
+		var oldonload = window.onload;
+		window.onload = (typeof window.onload != 'function') ?
+		loadChartbeat : function() { oldonload(); loadChartbeat(); };
+	})();
+
+	// Bizo
+	var _bizo_data_partner_id = "1016";
+	(function(){
+		var b,a,u;a=document.createElement("script");
+		a.type="text/javascript"; a.async=true;
+		u=(window.location.protocol==="https:"?"https://sjs.":"http://js.") + "bizographics.com/insight.min.js";
+		a.src=u; b=document.getElementsByTagName("script")[0];
+		return b.parentNode.insertBefore(a,b);
+	})();
+
+	// Comscore
+	var _comscore = _comscore || [];
+	_comscore.push({ c1: "2", c2: "6463921" });
+	(function() {
+		var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+		s.async = true;
+		s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+	})();
+
+	// Facebook
+	(function() {
+		var _fbq = window._fbq || (window._fbq = []);
+		if (!_fbq.loaded) {
+			var fbds = document.createElement('script');
+			fbds.async = true;
+			fbds.src = '//connect.facebook.net/en_US/fbds.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(fbds, s);
+			_fbq.loaded = true;
+		}
+		_fbq.push(['addPixelId', '1416115438681460']);
+	})();
+	window._fbq = window._fbq || [];
+	window._fbq.push(['track', 'PixelInitialized', {}]);
+
+
+	
+	
+
+
+
+
+  
+
+
+(function(s, p, d) {
+  var h=d.location.protocol, i=p+"-"+s,
+      e=d.getElementById(i), r=d.getElementById(p+"-root"),
+      u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+      :"static."+p+".com";
+  if (e) return;
+  e = d.createElement(s); e.id = i; e.async = true;
+  e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+})("script", "parsely", document);
+

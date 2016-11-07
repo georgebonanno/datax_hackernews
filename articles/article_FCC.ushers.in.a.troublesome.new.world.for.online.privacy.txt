@@ -1,0 +1,1626 @@
+FCC ushers in a troublesome new world for online privacy  |  TechCrunchvar _sf_startpt = (new Date()).getTime()window.bN_cfg={h:window.location.hostname};
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+/* <![CDATA[ */
+var Live_Cache = {"ajaxurl":"https:\/\/techcrunch.com","auto_updates":{"live-cache-widget-1-title":"#live-cache-widget-1 h2","live-cache-widget-1-text":"#live-cache-widget-1 div","live-cache-subtitle":".live-island .live-subtitle","live-cache-text":".live-island .vid-caption","live-cache-stream-pause":".live-island .stream-pause","live-cache-fb-stream-src":".live-island .fb-stream-src","live-cache-title-livecaster":".livecaster-title","live-cache-text-livecaster":".livecaster-text"}};
+var gravityInsightsParams = {"type":"content","action":"","site_guid":"fca4fa8af1286d8a77f26033fdeed202"};
+var tcOmniture = {"pageName":"FCC ushers in a troublesome new world for online privacy","prop1":"article","prop2":"column","prop54":"wordpress","prop9":"tcr:1412529","prop16":"standard-article","prop19":"federal trade commission|federal communications commission","prop23":"11-07-2016","prop64":"gravity","prop65":"original_content","prop22":"david-farber|christopher-yoo","omni_env":"prod"};
+var TC_Async_Head_Scripts = {"tc_ads_wrapper_omniture":"https:\/\/s.aolcdn.com\/os_merge\/?file=\/ads\/adsWrapper.js&file=\/moat\/prod\/moatuac.js"};
+var TC_Google_Analytics_Config = {"account":"UA-991406-1","domain":"techcrunch.com"};
+/* ]]> */
+
+   {"@context":"http:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/techcrunch.com\/2016\/11\/07\/fcc-ushers-in-a-troublesome-new-world-for-online-privacy\/"},"headline":"FCC ushers in a troublesome new world for online&nbsp;privacy","url":"https:\/\/techcrunch.com\/2016\/11\/07\/fcc-ushers-in-a-troublesome-new-world-for-online-privacy\/","thumbnailUrl":"https:\/\/tctechcrunch2011.files.wordpress.com\/2014\/05\/fcc1.jpg?w=150","image":{"@type":"ImageObject","url":"https:\/\/tctechcrunch2011.files.wordpress.com\/2014\/05\/fcc1.jpg?w=150"},"dateCreated":"2016-11-07T11:30:40Z","datePublished":"2016-11-07T11:30:40Z","dateModified":"1970-01-01T00:00:00Z","articleSection":"Column","author":[{"@type":"Person","name":"David J. Farber"},{"@type":"Person","name":"Christopher S. Yoo"}],"creator":["David J. Farber","Christopher S. Yoo"],"publisher":{"@type":"Organization","name":"TechCrunch"},"keywords":["federal trade commission","federal communications commission"]}   
+		window._taboola = window._taboola || [];
+		_taboola.push(
+			{article:'auto'}
+		);
+		!function (e, f, u)
+		{ e.async = 1; e.src = u; f.parentNode.insertBefore(e, f); }
+		(document.createElement('script'),
+			document.getElementsByTagName('script')[0],
+			'//cdn.taboola.com/libtrc/aol-techcrunch/loader.js');
+	var ajaxurl = "https://techcrunch.com/wp-admin/admin-ajax.php"#site-logo { background: url(https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/images/logos/green.png) no-repeat !important; }
+
+	
+		
+
+/* <![CDATA[ */
+if (ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.htmlAdWH('93484881', "320", "50", 'f', 'adsDiv6cc2897243');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+	
+		
+			
+				Menu
+				
+				Search
+				
+
+				
+
+					
+						Follow Us
+								Facebook
+							
+								Instagram
+							
+								Twitter
+							
+								Youtube
+							
+								Flipboard
+							
+								LinkedIn
+							
+								Google+
+							
+								RSS
+							
+							
+								More
+								
+										Youtube
+									
+										Flipboard
+									
+										LinkedIn
+									
+										Google+
+									
+										RSS
+									
+								
+						
+							
+								Got a tip? Let us know.
+							
+						
+					
+
+					
+			News
+
+			
+				Channels
+					Startups
+Mobile
+Gadgets
+Enterprise
+Social
+Europe
+Asia
+Crunch Network
+Unicorn Leaderboard
+Gift Guides
+
+					All Topics
+					All Galleries
+					All Timelines
+				
+			
+		
+		
+			Video
+
+			
+				Shows
+				Apps
+News
+Crunch Report
+Disrupt SF 2016
+Gadgets
+Reviews
+Interviews
+TC Features
+
+				
+					All Shows
+				
+				
+					All Videos
+				
+			
+		
+		
+			Events
+
+			
+				TechCrunch Events
+					Disrupt
+Startup Battlefield
+Crunchies
+Meetups
+International City Events
+Hackathon
+Include
+NFL’s 1ST and Future
+TechCrunch Store
+News About
+					Mobile World Congress
+CES
+
+				
+					All Events
+				
+			
+		
+		
+			Crunchbase
+		
+	
+					Trending
+					
+				
+				Tesla
+Google
+Facebook
+			
+					News
+				
+				Startups
+Mobile
+Gadgets
+Enterprise
+Social
+Europe
+			
+						
+							Message Us
+						
+					
+
+										
+						Search TechCrunch
+							Search TechCrunch
+							
+								
+								Search
+							
+							
+								
+								Search
+							
+						
+				
+			
+
+		
+	
+
+	
+		
+			
+				
+	×
+	
+		
+
+
+	Hi!
+	
+		You are about to activate our Facebook Messenger news bot. Once subscribed, the bot will send you a digest of trending stories once a day. You can also customize the types of stories it sends you.
+	
+	
+		Click on the button below to subscribe and wait for a new Facebook message from the TC Messenger news bot.
+	
+	
+		Thanks,
+		TC Team
+	
+
+	
+	
+		
+		
+		  window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '1678638095724206',
+		      xfbml      : true,
+		      version    : 'v2.6'
+		    });
+			FB.Event.subscribe('xfbml.render', function() {
+				jQuery('.fb-messenger-loading').detach()
+			});
+		  };
+
+		  (function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "//connect.facebook.net/en_US/sdk.js";
+		     fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
+
+		   function getCookie(name) {
+		      var matches = document.cookie.match(new RegExp(
+		        "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+		      ));
+		      return matches ? decodeURIComponent(matches[1]) : undefined;
+		   }
+
+		   window.onload = function() {
+		     var gravity_guid = getCookie('grvinsights');
+		     var btn = document.getElementById('fb-send-to-messenger');
+		     if (btn != undefined && btn != null) {
+			   btn.setAttribute('data-ref', gravity_guid)
+			 }
+		   }
+
+		
+			
+		
+	
+
+
+
+	
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.htmlAdWH('93484882', "LB", "LB", 'f', 'adsDivcea06da3f8');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+
+		
+			
+				
+										
+						
+														
+							Hardware BattlefieldLaunch Your Hardware Product At CES With TechCrunch								
+																			Apply for Hardware Battlefield																												
+																	
+						
+						
+					
+				
+			
+		
+		
+
+
+	
+	
+
+			
+			
+				
+				
+				
+				
+	
+			
+				Federal Communications Commission
+
+				
+					
+			
+				
+					
+						Net neutrality withstands legal challenge
+
+						
+							
+								
+						
+					
+				
+			
+		
+			
+			
+				
+					
+						FTC, FCC launch inquiry into how companies distribute security fixes to mobile devices
+
+						
+							
+								
+						
+					
+				
+			
+		
+			
+			
+				
+					
+						Time Warner-Charter merger given go-ahead by Federal Communications Commission
+
+						
+							
+								
+						
+					
+				
+			
+		
+	
+	
+		
+			
+				
+					Browse more...
+				
+			
+		
+	
+
+			
+		
+			
+				Federal Trade Commission
+
+				
+					
+			
+				
+					
+						The growing pains of mobile health
+
+						
+							
+								
+						
+					
+				
+			
+		
+			
+			
+				
+					
+						FTC, FCC launch inquiry into how companies distribute security fixes to mobile devices
+
+						
+							
+								
+						
+					
+				
+			
+		
+			
+			
+				
+					
+						Legal health isn’t easy for digital health companies
+
+						
+							
+								
+						
+					
+				
+			
+		
+	
+	
+		
+			
+				
+					Browse more...
+				
+			
+		
+	
+
+			
+		
+
+
+											Crunch Network
+					
+					FCC ushers in a troublesome new world for online privacy
+					
+					
+	Posted 3 hours ago by David J. Farber, Christopher S. Yoo (@pennlawctic)
+
+
+	
+			0SHARES
+		
+							
+				
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+			
+
+
+	
+		
+		
+		
+		
+		
+	
+
+	
+		
+		
+		
+		
+		
+	
+
+
+
+
+					
+					
+						Next Story
+						
+							Opera Max update adds privacy tools but annoys some users
+						
+					
+				
+
+					
+					
+						
+							
+
+
+
+
+	
+		
+
+					David J. Farber
+		
+			Crunch Network Contributor
+		
+
+		
+	
+
+			David J. Farber is Alfred Fitler Moore Professor of Telecommunications Emeritus at the University of Pennsylvania, Adjunct Professor of Internet Studies at Carnegie Mellon University and former Chief Technologist of the Federal Communications Commission.
+	
+	
+	How to join the network
+
+
+
+
+	
+		
+
+					Christopher S. Yoo
+		
+			Crunch Network Contributor
+		
+
+					
+		
+	
+
+			Christopher S. Yoo is the John H. Chestnut Professor of Law, Communication, and Computer & Information Science and the Founding Director of the Center for Technology, Innovation and Competition at the University of Pennsylvania.
+	
+	
+	How to join the network
+
+
+
+In late October, the Federal Communications Commission passed new rules that take the unprecedented step of imposing stricter privacy regulation on one specific set of actors in the Internet ecosystem.
+Along party lines, the FCC voted to impose onerous limitations on Internet service providers’ use of web browsing information without regard to whether the information is sensitive or not, which differs greatly from the guidelines governing all other online companies, like search engines and mobile apps.
+Not only are these rules based on an inaccurate understanding of the underlying technology, they also create a fragmented privacy framework that deviates from the approach established by the Federal Trade Commission that has proven so effective in supporting innovation.
+The Internet was relatively simple when it first exploded into the public’s consciousness during the mid-1990s. The typical user relied on a personal computer connected to their home telephone line to send an email or browse the World Wide Web.
+A wide range of technologies and companies emerged that rely on personal data to provide a dazzling new array of free (or, more properly, advertising-supported) services.
+
+To best protect consumers, the Federal Trade Commission created a privacy regime that provides the greatest protection for the most sensitive data, such as health care and financial information, while adopting a more permissive approach to less sensitive data, such as the use of purchase histories to make product recommendations.
+The modern Internet has become far more complex and decentralized. A much larger number of users are employing a far broader range of devices and network technologies to run a greater variety of applications.
+A decade or two ago, networks were able to learn about end users since they typically accessed the Internet from a fixed location, such as their homes.
+Today users access the Internet from everywhere via mobile devices, which scatters information about individuals’ usage across a wide range of network providers and locations. Simultaneously, the increasing use of encryption is limiting networks’ ability to view the content of the traffic they are carrying.
+In addition, modern operating systems and applications require that users identify themselves prior to using them. This practice permits operating systems and applications to track users across devices and locations, whether inside or outside the home and to use personal information in ways that many users do not anticipate.
+Even browsing the web is now fundamentally different. For example, HTML version 5 added an API for geolocation. Web pages are now also designed to observe when a user using a mouse is hovering over particular content without clicking on it.
+The speed of technological change counsels against regulating the Internet based on any particular conception of the current state of technology, as the inevitable evolution will soon render any understanding obsolete.
+In the world of advertising-supported services, information gathered about users can make advertising better targeted and more effective.
+But at the same time, consumers who enjoy access to Internet services are concerned about protecting their privacy. As a result, the best way to give consumers what they want is to strike an appropriate balance between which uses of personal information to permit and which ones to restrict.
+The FCC’s approach abandons this nuanced perspective in favor of an approach that prohibits practices on which online companies frequently rely, such as making product recommendations based on past browsing and purchase history.
+As a result, the best way to give consumers what they want is to strike an appropriate balance between which uses of personal information to permit and which ones to restrict. The FCC’s approach abandons this nuanced perspective in favor of an approach that prohibits practices on which online companies frequently rely, such as making product recommendations based on past browsing and purchase history.
+The speed of technological change counsels against regulating the Internet based on any particular conception of the current state of technology, as the inevitable evolution will soon render any understanding obsolete.
+Instead, privacy regulation should embrace the well-accepted principle of technological neutrality, a principle that the FTC’s privacy framework has embraced and that the Obama Administration fully endorsed in its 2012 Consumer Privacy Bill of Rights. But sadly, the FCC’s rules abandon this approach by subjecting network providers to greater restrictions than content and application providers.
+Although there is always more that could and should be done to ensure that end users know what happens to their personal information, any solutions need to embrace the entire industry and to calibrate the level of privacy protection based on the sensitivity of the data.
+The FCC would have better served consumers if it had followed the balanced, context-sensitive approach to privacy that has proven so effective in supporting the creation of a steady stream of new and innovative services.
+Although there is always more that could and should be done to ensure that end users know what happens to their personal information, any solutions need to embrace the entire industry and to calibrate the level of privacy protection based on the sensitivity of the data.
+Subjecting some parts of the Internet ecosystem to heavier burdens will inevitably lead innovators to design their systems to avoid regulatory burdens instead of focusing on the best technical way to deliver what consumers want. And it will create serious risks that the regulations of today could foreclose the innovations of tomorrow from ever appearing.
+That is why the FTC filed comments calling for the application of consistent rules to all parts of the Internet, but, unfortunately, the FCC did not fully heed those calls.
+The approach taken by the FCC will lead to a world in which technological progress is dictated by the actions of regulators based on an incomplete and static technological snapshot that will become outdated in a flash instead of by innovators experimenting with ways to provide users with groundbreaking new services.
+
+
+
+								
+							
+
+
+	
+			0SHARES
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+	
+
+if( !ads.isMobile() ){ window.TechCrunch.loader.on( 'gravity-beacon', function(){ window.tc_loadGravityScript( 'recirculation' ); } ); }
+
+	(function($) {
+		window._taboola = window._taboola || [];
+
+		if ($('body').hasClass('single-post-mobile-collapse') && $(window).width() < 637) {
+			$('.article-entry').append($(document.getElementById('taboola-below-article-thumbnails')).detach());
+		}
+
+		_taboola.push(
+			{ mode: 'thumbnails-a', container: 'taboola-below-article-thumbnails', placement: 'Below Article Thumbnails', target_type: 'mix' }
+		);
+	})(window.jQuery);
+
+	
+		
+			Advertisement		
+	
+	
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.htmlAdWH('93484978', "250", "125", 'f', 'adsDive763def4e4');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.htmlAdWH('93484979', "250", "125", 'f', 'adsDiv08ef7126ec');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+						
+					
+					
+					
+
+					
+					
+
+	
+		
+			Advertisement		
+	
+	
+		
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.htmlAdWH('93484883', "RR", "RR", 'f', 'adsDiv7815f34191');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+
+
+Crunchbase
+
+
+
+		
+			
+				FTC			
+		
+
+		
+		
+			Full profile for FTC		
+		
+		
+				
+		
+		
+			
+				Federal Communications Commission (FCC)			
+		
+
+		
+		
+						Founded
+						1934
+					
+										
+						Overview
+						Federal Communications Commission is an independent United States agency regulating interstate and international communications by radio, television, wire, satellite, and cable in all 50 states, the District of Columbia, and the U.S. territories. The commission is the United States' primary authority for communications law, regulation, and technological innovation.
+
+
+Federal Communications Commission …
+					
+
+																								
+								Location
+								
+																		Washington, DC
+								
+							
+						
+																			
+								Categories
+								
+																													Politics								
+							
+											
+										
+						Website
+						
+							http://fcc.gov						
+					
+							
+			Full profile for Federal Communications Commission (FCC)		
+		
+		
+		
+
+
+
+
+	
+		
+
+	Newsletter Subscriptions
+
+
+
+
+	
+		
+			
+				
+						
+						The Daily Crunch
+						Get the top tech stories of the day delivered to your inbox
+					
+				
+						
+						TC Weekly Roundup
+						Get a weekly recap of the biggest tech stories
+					
+				
+						
+						Crunchbase Daily
+						The latest startup funding announcements
+					
+				
+
+			Enter Address
+				Subscribe
+			
+	
+	
+
+
+		Latest Crunch Report	
+	
+		
+				
+	
+		
+			Facebook's Election Hub | Crunch Report			
+		
+			
+
+			
+		Watch More Episodes
+	
+
+	
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetInView('D');
+			window.htmlAdWH('93484884', "RR", "RR", 'f', 'adsDiv06769f7c74');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+					
+					
+
+				
+				
+
+				
+			
+			
+
+			
+			
+				
+
+		
+										
+						
+							Federal Communications Commission						
+					
+				
+														
+										
+						
+							Federal Trade Commission						
+					
+				
+														
+					Popular Posts
+					
+								
+		
+			(function(window){
+				try {
+					window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function() {
+						if (!window.ads.isMobile()) {
+							window.adSetInView('1');
+							window.htmlAdWH('93484965', '320', '115', 'text', 'acc-native-ad');
+							window.adSetInView('0');
+						}
+					});
+				} catch (e) {
+					// Assume this is just no ad placement for this page load
+				}
+			}(this));
+		
+							if( !ads.isMobile() ){ window.TechCrunch.loader.on( 'gravity-beacon', function(){ window.tc_loadGravityScript( 'recirculation-accordion' ); } ); }	
+				
+				
+
+
+			
+			
+
+		
+	
+	
+		
+	
+		
+			
+				Featured Stories
+			
+			
+					
+						
+							
+						
+							WTF is CRISPR?
+
+							11 hours ago | Sarah Buhr
+						
+					
+				
+								
+					
+						
+							
+						
+							Sinovation Ventures’ Dr. Kai-Fu Lee is betting big on artificial intelligence
+
+							11 hours ago | Romain Dillet
+						
+					
+				
+								
+					
+						
+							
+						
+							Facebook Messenger is testing “Instant Games” like this one from King
+
+							Nov 4, 2016 | Josh Constine
+						
+					
+				
+								
+					
+						
+							
+						
+							Weekly Roundup: Tesla’s solar roof, Facebook’s killer Q3 and new emoji
+
+							Nov 4, 2016 | Anna Escher
+						
+					
+				
+							
+	
+
+		
+	
+		
+			
+				Latest From TechCrunch
+			
+			
+					
+						
+							
+						
+							WhatsApp adds GIF support in iOS app
+
+							8 minutes ago | Sarah Perez
+						
+					
+				
+								
+					
+						
+							
+						
+							Samsung is building its own AI assistant for the Galaxy S8
+
+							34 minutes ago | Brian Heater
+						
+					
+				
+								
+					
+						
+							
+						
+							Blippar launches self-service suite of tools so developers can build their own AR
+
+							1 hour ago | Jordan Crook
+						
+					
+				
+								
+					
+						
+							
+						
+							MyHeritage launches DNA testing service to help you uncover your family’s history
+
+							1 hour ago | Frederic Lardinois
+						
+					
+				
+							
+	
+
+		
+
+		
+			
+	
+
+/* <![CDATA[ */
+if (ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetInView('1');
+			window.htmlAdWH('93518225', "mm", "mm", 'f', 'adsDiv97a570dd29');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+		
+	
+
+
+
+	
+
+		
+		
+			
+				
+
+													
+							
+								
+									
+									
+								
+									Comment moderation powered by 
+								
+																		
+				
+		
+		
+
+		
+		
+			
+				
+					
+						
+							Up Next
+							Opera Max update adds privacy tools but annoys some users
+							
+	Posted 4 hours ago						
+					
+				
+	
+		CrunchBoard
+
+		
+			Job Listings
+			
+						
+							Manager of Product Development at Financial Fitness Group (San Diego, CA, United States)
+						
+					
+									
+						
+							Staff Cyber Security Engineer  at GE Power (Atlanta, GA, United States; )
+						
+					
+									
+						
+							Senior Application Development Analyst (JO#4336) (SF or SAC) at Judicial Council of California (San Francisco Bay Area)
+						
+					
+									
+						
+							Director of Engineering, Cloud @ Sauce Labs at Sauce Labs (Vancouver, BC, Canada)
+						
+					
+									
+						
+							Java Software Engineer - Product Development (m/f) at eGym GmbH (München, Deutschland)
+						
+					
+							
+				More from CrunchBoard
+			
+		
+	
+		
+		
+
+	
+
+
+
+
+
+
+
+
+	
+	
+		
+			Advertisement		
+	
+	
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.htmlAdWH('93484978', "250", "125", 'f', 'adsDivf44e9d6626');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.htmlAdWH('93484979', "250", "125", 'f', 'adsDiva5fdd46cf8');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+
+
+
+
+
+		
+		TechCrunch
+
+			
+
+				
+				
+					
+					
+						News
+Video
+Events
+Crunchbase
+TechCrunch Store
+
+				
+				
+
+				
+				
+					About
+					
+						Staff
+Contact Us
+Advertise With Us
+Send Us A Tip
+
+				
+				
+
+				
+				
+					International
+					
+						China
+Europe
+Japan
+
+				
+				
+
+			
+		
+
+			
+			
+				
+					Follow TechCrunch
+					Facebook
+						Twitter
+						Google+
+						LinkedIn
+						Youtube
+						Pinterest
+						Tumblr
+						Instagram
+						StumbleUpon
+						Feed
+					
+			
+			
+
+			
+			
+				TechCrunch Apps
+				iOS
+					Android
+					Windows 8
+				
+			
+
+			
+			
+				
+Subscribe to The Daily Crunch
+
+	Latest headlines delivered to you daily
+	
+		
+			Subscribe to <span class="no-mobile">Subscribe to </span>The Daily Crunch
+				Enter Email Address
+				Subscribe
+			
+	
+			
+			
+
+		
+		
+
+		
+		
+			
+				
+					© 2013-2016 AOL Inc. All rights reserved.
+				
+				
+					Aol Tech
+					Privacy Policy
+					About Our Ads
+					Anti Harassment Policy
+					Terms of Service
+				
+				
+					Powered by WordPress.com VIP
+				
+				
+					Fonts by 
+				
+			
+		
+		
+
+	
+
+  
+
+
+(function(s, p, d) {
+  var h=d.location.protocol, i=p+"-"+s,
+      e=d.getElementById(i), r=d.getElementById(p+"-root"),
+      u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+      :"static."+p+".com";
+  if (e) return;
+  e = d.createElement(s); e.id = i; e.async = true;
+  e.setAttribute('data-cfasync', 'false'); e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+})("script", "parsely", document);
+
+		{"@context":"http:\/\/schema.org","@type":"Article","url":"https:\/\/techcrunch.com\/2016\/11\/07\/fcc-ushers-in-a-troublesome-new-world-for-online-privacy\/","author":{"@type":"Person","name":"David J. Farber, Christopher S. Yoo"},"headline":"FCC ushers in a troublesome new world for","articleBody":"\n\n\n\nIn late October, the Federal Communications Commission passed new rules that take the unprecedented step of imposing stricter privacy regulation on one specific set of actors in the Internet ecosystem.\n\nAlong party lines, the FCC voted to impose onerous limitations on Internet service providers' use of web browsing information without regard to whether the information is sensitive or not, which differs greatly from the guidelines governing all other online companies, like search engines and mobile apps.\n\nNot only are these rules based on an inaccurate understanding of the underlying technology, they also create a fragmented privacy framework that deviates from the approach established by the Federal Trade Commission that has proven so effective in supporting innovation.\n\nThe Internet was relatively simple when it first exploded into the public\u2019s consciousness during the mid-1990s. The typical user relied on a personal computer connected to their home telephone line to send an\u00a0email or browse the World Wide Web.\n\nA wide range of technologies and companies emerged that rely on personal data to provide a dazzling new array of free (or, more properly, advertising-supported) services.\n\n\n\nTo best protect consumers, the Federal Trade Commission created a privacy regime that provides the greatest protection for the most sensitive data, such as health care and financial information, while adopting a more permissive approach to less sensitive data, such as the use of purchase histories to make product recommendations.\n\nThe modern Internet has become far more complex and decentralized. A much larger number of users are employing a far broader range of devices and network technologies to run a greater variety of applications.\n\nA decade or two ago, networks were able to learn about end users since they typically accessed the Internet from a fixed location, such as their homes.\n\nToday users access the Internet from everywhere via mobile devices, which scatters information about individuals\u2019 usage across a wide range of network providers and locations. Simultaneously, the increasing use of encryption is limiting networks\u2019 ability to view the content of the traffic they are carrying.\n\nIn addition, modern operating systems and applications require that users identify themselves prior to using them. This practice permits operating systems and applications to track users across devices and locations, whether inside or outside the home and to use personal information in ways that many users do not anticipate.\n\nEven browsing the web is now fundamentally different. For example, HTML version 5 added an API for geolocation. Web pages are now also designed to observe when a user using a mouse is hovering over particular content without clicking on it.\n\n\n\nIn the world of advertising-supported services, information gathered about users can make advertising better targeted and more effective.\n\nBut at the same time, consumers who enjoy access to Internet services are concerned about protecting their privacy. As a result, the best way to give consumers what they want is to strike an appropriate balance between which uses of personal information to permit and which ones to restrict.\n\nThe FCC\u2019s approach abandons this nuanced perspective in favor of an approach that prohibits practices on which online companies frequently rely, such as making product recommendations based on past browsing and purchase history.\n\nAs a result, the best way to give consumers what they want is to strike an appropriate balance between which uses of personal information to permit and which ones to restrict. The FCC\u2019s approach abandons this nuanced perspective in favor of an approach that prohibits practices on which online companies frequently rely, such as making product recommendations based on past browsing and purchase history.\n\nThe speed of technological change counsels against regulating the Internet based on any particular conception of the current state of technology, as the inevitable evolution will soon render any understanding obsolete.\n\nInstead, privacy regulation should embrace the well-accepted principle of technological neutrality, a principle that the FTC\u2019s privacy framework has embraced and that the Obama Administration fully endorsed in its 2012 Consumer Privacy Bill of Rights. But sadly, the FCC\u2019s rules abandon this approach by subjecting network providers to greater restrictions than content and application providers.\n\n\n\nThe FCC would have better served consumers if it had followed the balanced, context-sensitive approach to privacy that has proven so effective in supporting the creation of a steady stream of new and innovative services.\n\nAlthough there is always more that could and should be done to ensure that end users know what happens to their personal information, any solutions need to embrace the entire industry and to calibrate the level of privacy protection based on the sensitivity of the data.\n\nSubjecting some parts of the Internet ecosystem to heavier burdens will inevitably lead innovators to design their systems to avoid regulatory burdens instead of focusing on the best technical way to deliver what consumers want. And it will create serious risks that the regulations of today could foreclose the innovations of tomorrow from ever appearing.\n\nThat is why the FTC filed comments calling for the application of consistent rules to all parts of the Internet, but, unfortunately, the FCC did not fully heed those calls.\n\nThe approach taken by the FCC will lead to a world in which technological progress is dictated by the actions of regulators based on an incomplete and static technological snapshot that will become outdated in a flash instead of by innovators experimenting with ways to provide users with groundbreaking new services.","datePublished":"2016-11-07T11:30:40+00:00","mainEntityOfPage":"True","image":{"@list":["https:\/\/tctechcrunch2011.files.wordpress.com\/2014\/05\/fcc1.jpg","https:\/\/tctechcrunch2011.files.wordpress.com\/2015\/08\/368912557_2fc44d3709_b.jpg"]}}	
+		window._taboola = window._taboola || [];
+		_taboola.push(
+			{flush: true}
+		);
+	
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	
+	
+
+/* <![CDATA[ */
+var PushUpNotificationSettings = {"domain":"https:\/\/tctechcrunch2011.wordpress.com","userID":"271","websitePushID":"web.com.wordpress.tctechcrunch2011","webServiceURL":"https:\/\/push.10up.com","prompt":"1"};
+/* ]]> */
+
+/* <![CDATA[ */
+var wpcomVipAnalytics = {"is_404":"0","is_home":"0","is_single":"1","is_front_page":"0","is_archive":"0","percentToTrack":"1"};
+/* ]]> */
+
+/* <![CDATA[ */
+var TC_VideoLoader_Settings = {"yt_key":"AIzaSyBhsoyL5FHDdWDh-w7DgTTHaC8PS2dvFdI"};
+var TC_Language_Settings = {"ajax_url":{"chinese":"https:\/\/techcrunch.com\/chinesemodal"},"chinese":["zh","zh-hk","zh-cn","zh-sg","zh-tw"],"english":["en","en-au","en-bz","en-ca","en-ie","en-jm","en-nz","en-ph","en-za","en-tt","en-gb","en-us","en-zw"],"japanese":["ja"]};
+var TC_Header_Settings = {"mobile_collapse_offset":"300","hide_on_mobile_scroll_down":"1"};
+var TC_Async_Scripts = {"tc-mediavoice-MCtc":"https:\/\/cdn.mediavoice.com\/nativeads\/script\/aolibrands\/MCtc.js","tc_livefyre":"\/\/cdn.livefyre.com\/libs\/commentcount\/v1.0\/commentcount.js","tc_gravity":"https:\/\/b-ssl.grvcdn.com\/moth-min.js","commscore":"https:\/\/sb.scorecardresearch.com\/beacon.js","aol_universal_navbar":"https:\/\/s.aolcdn.com\/os\/aol\/unb.min.js","skimlinks":"https:\/\/s.skimresources.com\/js\/72705X1553005.skimlinks.js","swiftype_crawler":"\/\/s.swiftypecdn.com\/cc\/zYD5B5-eXtZN9_epXvoo.js"};
+/* ]]> */
+
+/* <![CDATA[ */
+var _sf_async_config = {"uid":"2905","domain":"techcrunch.com"};
+/* ]]> */
+
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'24588526','blog_tz':'-8','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'24588526','v':'wpcom','tz':'-8','user_id':'0','post':'1412529','subd':'tctechcrunch2011'}]);
+function st_vt() {var x=document.createElement("img");x.src="https://pixel.wp.com/g.gif?blog=24588526&v=wpcomvt&tz=-8&user_id=0&post=1412529&subd=tctechcrunch2011&rand="+Math.random();}
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTdsV05haVJbcGxtJjNRPStQNVpUOHlbPUJnQi45Py5telFkWjZDbj9PX2RIVjlBbmpOUVg3XXlVeU8sYkk9UVEzQVJnR0JCeXVvQmRtRS1Ob0NtYm15cTAxV1RmckNHV2h4eUR0ZWZwRG5qeWs4fFNGRGM5flNYSXZ4fGhTUWRWRVpwL3xYSGZBaVplRnxCRFZ6eGk4aFtnQ1BhMiVQaD0xcDZucEZrSkJLUnFdOA=='}]);
+_stq.push([ 'clickTrackerInit', '24588526', '1412529' ]);
+	
+
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+
+	
+		
+				
+					
+				
+					
+				
+			
+			
+				
+						News
+						
+							
+						
+					
+					Startups
+Mobile
+Gadgets
+Enterprise
+Social
+Europe
+Asia
+Crunch Network
+Unicorn Leaderboard
+Gift Guides
+All GalleriesAll Timelines
+			
+				
+						Videos
+						
+							
+						
+					
+					Apps
+News
+Crunch Report
+Disrupt SF 2016
+All ShowsAll Videos
+			
+				
+						Events
+						
+							
+						
+					
+					Disrupt
+Startup Battlefield
+Crunchies
+Meetups
+International City Events
+Hackathon
+Include
+NFL’s 1ST and Future
+TechCrunch Store
+All Events
+			
+				Crunchbase
+			
+		
+			
+				
+					
+				
+			
+		
+		
+			
+				
+				Message Us			
+		
+	
+
+
+
+ 	
+		
+			
+				
+			
+
+			
+				Most Popular
+			
+		
+		
+			
+						
+							
+								The new 64-bit Orange Pi is a quad-core computer for $20							
+							
+								14 hours ago by John Biggs							
+						
+
+				
+						
+							
+								What Tesla’s new Gigafactory means for electric vehicles							
+							
+								21 hours ago by Jussi Pikkarainen							
+						
+
+				
+						
+							
+								WTF is CRISPR?							
+							
+								11 hours ago by Sarah Buhr							
+						
+
+				
+						
+							
+								Alibaba’s Trojan Horse for Southeast Asia							
+							
+								4 hours ago by Sheji Ho							
+						
+
+				
+						
+							
+								Google’s Firebase developer platform gets better analytics, crash reporting and more							
+							
+								5 hours ago by Frederic Lardinois							
+						
+
+				
+						
+							
+								Weekly Roundup: Tesla’s solar roof, Facebook’s killer Q3 and new emoji							
+							
+								Nov 4, 2016 by Anna Escher							
+						
+
+				
+						
+							
+								China’s new cybersecurity law is bad news for business							
+							
+								10 hours ago by Kate Conger							
+						
+
+				
+						
+							
+								Sinovation Ventures’ Dr. Kai-Fu Lee is betting big on artificial intelligence							
+							
+								11 hours ago by Romain Dillet							
+						
+
+				
+						
+							
+								Facebook Messenger is testing “Instant Games” like this one from King							
+							
+								Nov 4, 2016 by Josh Constine							
+						
+
+									
+	
+	
+		(function (window, $, undefined) {
+			var document = window.document;
+
+			function loadChartbeat() {
+				window._sf_endpt = (new Date()).getTime();
+				var e = document.createElement('script'),
+					url = ("https:" === document.location.protocol) ? "https://s3.amazonaws.com/" : "http://";
+				url += "static.chartbeat.com/js/chartbeat.js";
+				e.setAttribute('language', 'javascript');
+				e.setAttribute('type', 'text/javascript');
+				e.async = true;
+				e.setAttribute('src', url);
+				document.body.appendChild(e);
+			}
+
+			$(loadChartbeat);
+		}(this, this.jQuery));
+	

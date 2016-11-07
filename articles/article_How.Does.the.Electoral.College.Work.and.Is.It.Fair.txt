@@ -1,0 +1,920 @@
+
+   try {var _sf_startpt=(new Date()).getTime();} catch(e){}
+What Is The Electoral College And Why Does The United States Use It? : NPR
+   window.NPR = window.NPR || {};
+NPR.ServerConstants = {"cbHost":"npr.org","webHost":"http:\/\/www.npr.org","embedHost":"https:\/\/www.npr.org","webHostSecure":"https:\/\/secure.npr.org","apiHost":"api.npr.org","apiHostSecure":"https:\/\/api.npr.org","staticAssetHost":"https:\/\/s.npr.org","googleAnalyticsAccount":"UA-5828686-4","StationsKey":"MDExODkwMDg3MDEzNzU0NTY2ODlmYWY0Yw001","gtmKey":"GTM-K9RKM5","nielsenSFCode":"dcr","nielsenAPN":"NPR-dcr"};
+NPR.serverVars = {"storyId":"500660424","facebookAppId":"138837436154588","webpackPublicPath":"https:\/\/s.npr.org\/templates\/javascript\/dist\/bundles\/","persistenceVersion":"64a51808e12fdc2c8c390900145f4843","rocketfuelCode":20501671,"isBuildOut":true,"topicIds":["P1014","1001","1002","1003","139482413"],"primaryTopic":"Politics","topics":["Politics","News","Home Page Top Stories","U.S.","Elections"],"theme":"1014","aggIds":["1001","1002","1003","1014","139482413","191676894"],"byline":["Ron Elving"],"pubDate":"2016110605","pageTypeId":"1","title":"How Does The Electoral College Work And Is It Fair?"};
+
+   
+   !function(e){function c(a){if(d[a])return d[a].exports;var f=d[a]={exports:{},id:a,loaded:!1};return e[a].call(f.exports,f,f.exports,c),f.loaded=!0,f.exports}var a=window.webpackJsonp;window.webpackJsonp=function(b,t){for(var n,r,o=0,i=[];o<b.length;o++)r=b[o],f[r]&&i.push.apply(i,f[r]),f[r]=0;for(n in t){var s=t[n];switch(typeof s){case"object":e[n]=function(c){var a=c.slice(1),d=c[0];return function(c,f,b){e[d].apply(this,[c,f,b].concat(a))}}(s);break;case"function":e[n]=s;break;default:e[n]=e[s]}}for(a&&a(b,t);i.length;)i.shift().call(null,c);if(t[0])return d[0]=0,c(0)};var d={},f={20:0};c.e=function(e,a){if(0===f[e])return a.call(null,c);if(void 0!==f[e])f[e].push(a);else{f[e]=[a];var d=document.getElementsByTagName("head")[0],b=document.createElement("script");b.type="text/javascript",b.charset="utf-8",b.async=!0,b.src=c.p+""+e+"."+{0:"73b8a29a85c0caa8a692",1:"db4b85909081d8151efc",2:"74edf5e7d941554c43e5",3:"0533a493bc81df5fdc79",4:"3a5411b79ad9daa6deb9",5:"80d4bc63770ce025768f",6:"65ab2bfe32ea6b3e29ff",7:"b311c864f4b338e752dc",8:"8d5fd71c10de2d06c61c",9:"c9dfd1c78b828ae0c68f",10:"380c3b8cdbd74339d2e6",11:"2324dd59dcf5deb1e042",12:"6441841e26a921839f25",13:"bb9af0a94c68a0f28322",14:"23f762b2717b974cdf35",15:"aa56946494fd2393de1b",16:"e62e32ae223fbc3f6e1b",17:"002235b518cf9eb05c79",18:"ef5e2e9c0efaf730bf81",19:"0f8135bfe580bf843c04",21:"c695dea06e7e0d2a6fac",22:"9046922ea68cc4924c6e",23:"c8d8410d37062000d956",24:"4a38cc21d32e6a6cae48",25:"44fc3182b622e8fa91d7",26:"4aef869731aa45ae49a9",27:"84b220a53e415e7d54d3",28:"f3e58aee64e3efa86e16",29:"23ccd666824a4d2c8b93",30:"2dd13d78784b54c9c9df",31:"26b5edaab25440636b23",32:"9ad7faa2dc4f0ccaf47f",33:"0e189e19dfabc7e6d211",34:"43c3bdb59c3cd88d7b2d",35:"08898fe3a2c9fd4873de",36:"a4f44404c6410c00f1c2",37:"cc5610916cce7a02b410",38:"ac9601f0d93888005986",39:"aa8bc034bfc3d5ff9f75",40:"7cbd7d6e5bc888945d6c",41:"e9d5ea0b5bfe4cafd579",42:"37b0b80f15b925ad215c",43:"cb904b3516e9af66e793",44:"1c040fd423f51c8b4f92",45:"cd05b2a5be6cc0555eb1",46:"3ba437b4558eae9c510a",47:"b09d4d20fec59b9cef2e",48:"521709e83d18f863c0a9",49:"db0ae2af32c39c3fb5ba",50:"7824442bd2a1e8dc056a",51:"08843ec7c03f0ec91b21",52:"fe87ace7e6a50fca53f4",53:"35b156705d0508371aa2",54:"360ef9d150725f6f803d",55:"04338cf5dcbf1db7bb90",56:"82ebfd6c21120d63535d",57:"68e65daa009056b70ce9",58:"e404d8821c7d553c7837",59:"2fee4dd0b52c646158d3",60:"38b6145aa134fa7b6971",61:"362211effbc9ea8d39bd",62:"7cffd30c2aa222018729",63:"174b2bf1bb760dfcdc2f",64:"49d44329d2a752206008",65:"6dd1e7ada752bca6b936",66:"b169c886b915c396ed11",67:"aee495a19426c8b9d5be",68:"3a06106a27992b6c1254",69:"b380a4336074604e2e92",70:"a4634d201410414fda04"}[e]+".chunk.js",d.appendChild(b)}},c.m=e,c.c=d,c.p="/templates/javascript/dist/bundles/"}(function(e){for(var c in e)if(Object.prototype.hasOwnProperty.call(e,c))switch(typeof e[c]){case"function":break;case"object":e[c]=function(c){var a=c.slice(1),d=e[c[0]];return function(e,c,f){d.apply(this,[e,c,f].concat(a))}}(e[c]);break;default:e[c]=e[e[c]]}return e}([]));
+
+   document.domain="npr.org";
+
+      Accessibility links
+   Skip to main content
+      Keyboard shortcuts for audio player
+   
+
+    
+        View Navigation
+
+        
+        
+            NPR
+        
+
+        
+        
+            NPR
+        
+
+        
+        
+            NPR Music
+        
+
+        
+        
+            NPR Books
+        
+
+        
+        
+            NPR About
+        
+
+        
+        
+            NPRPodcast Directory
+        
+
+        
+            
+                Search
+                Toggle search
+            
+        
+    
+    
+
+    
+        
+                NPR Home
+                    
+                    
+                News
+                    Arts & Life
+                    Music
+                    Topics
+                    
+                        
+                        Programs & Podcasts
+                        
+                    
+                
+                        NPR Music
+                    
+                    Genres
+                    
+                        New Music
+                    
+                    
+                        Concerts & Videos
+                    
+                    
+                        Articles & Lists
+                    
+                    
+                        Tiny Desk
+                    
+                
+                        NPR Books
+                    
+                    
+                        Author Interviews
+                    
+                    
+                        Find Books
+                    
+                    
+                        Reviews
+                    
+                
+                        About NPR
+                    
+                    
+                        Overview
+                    
+                    
+                        Connect
+                    
+                    
+                        Support
+                    
+                    
+                        Press
+                    
+                    
+                        Careers
+                    
+                
+                        Podcast Directory
+                    
+
+                    
+                        Categories
+                    
+                    
+                        
+                        
+                    
+                
+                        Shop
+                    
+                    
+                
+            
+
+            
+            
+                Back
+                
+                    News
+                    U.S.
+                        World
+                        Politics
+                        Business
+                        Technology
+                        Science
+                        Health
+                        Race & Culture
+                        Education
+                    
+                
+                    Arts & Life
+                    Books
+                        Movies
+                        Pop Culture
+                        Food
+                        Art & Design
+                        Performing Arts
+                        Photography
+                    
+                
+                    Music
+                    First Listen
+                        Songs We Love
+                        Music Articles
+                        Tiny Desk
+                        Videos
+                    
+
+                
+                    More
+                    Our Blogs
+                        Corrections
+                        All About NPR
+                    
+            
+
+
+            
+                Back
+
+                
+                    News & Conversations
+                    Morning Edition
+                        All Things Considered
+                        Fresh Air
+                        Here & Now
+                        Code Switch
+                        The Diane Rehm Show
+                        Embedded
+                        Latino USA
+                        NPR Politics Podcast
+                        On Point
+                        Weekend Edition Saturday
+                        Weekend Edition Sunday
+                        Youth Radio
+                    
+
+                
+                    Storytelling & Humor
+                    Ask Me Another
+                        The Best Of Car Talk
+                        Bullseye
+                        Hidden Brain
+                        How I Built This
+                        How To Do Everything
+                        Invisibilia
+                        Only A Game
+                        Planet Money
+                        Pop Culture Happy Hour
+                        StoryCorps
+                        TED Radio Hour
+                        Wait Wait...Don't Tell Me!
+                    
+
+                
+                    Music
+                    First Listen
+                        All Songs Considered
+                        Songs We Love
+                        Tiny Desk
+                        Alt.Latino
+                        From The Top
+                        Jazz Night In America
+                        Metropolis
+                        Mountain Stage
+                        Piano Jazz
+                        The Thistle & Shamrock
+                        World Cafe
+                    
+
+                
+                    More
+                    All Programs
+                        Podcast Directory
+                        
+                        NPR Podcasts
+                    
+            
+            
+            
+
+            
+            
+                Back
+
+                Rock
+                    Pop
+                    Jazz
+                    Classical
+                    Hip-Hop
+                    R&B/Soul
+                    Folk
+                    Latin
+                    World
+                    Electronic/Dance
+                
+
+            
+                Back
+
+                First Listen
+                    Songs We Love
+                    All Songs Considered
+                    Reviews
+                    Music Videos
+                
+
+            
+                Back
+
+                Tiny Desk
+                    Live Concerts
+                    Field Recordings
+                    Studio Sessions
+                    Music Documentaries
+                    Music Videos
+                    Festival Recordings
+                
+
+            
+                Back
+
+                Articles
+                    Interviews
+                    Quizzes
+                    Music Lists
+                    Best Music of the Year
+                
+            
+
+            
+            
+                Back
+
+                
+                    Art & Design
+                        Arts & Entertainment
+                        Biography & Memoir
+                        Business & Economy
+                        Children's Books
+                        Comedy
+                        Comics & Graphic Novels
+                        Digital Culture
+                    
+
+                
+                    Faith & Spirituality
+                        Food & Wine
+                        History & Society
+                        Historical Fiction
+                        Horror & Supernatural
+                        Literary Fiction
+                        Mystery & Thrillers
+                        Parenting & Families
+                    
+
+                
+                    Poetry
+                        Politics & Public Affairs
+                        Romance
+                        Science Fiction & Fantasy
+                        Science & Health
+                        Sports
+                        Travel
+                        Young Adult
+                    
+
+                
+                    Nonfiction
+                        Fiction
+                    
+            
+
+            
+                Back
+
+                Book Reviews
+                    This Week's Must Read
+                    My Guilty Pleasure
+                    Three Books...
+                    PG-13: Risky Reads
+                    You Must Read This
+                    Summer Books
+                    Best Books of the Year
+                
+            
+
+            
+            
+                Back
+
+                Overview
+                    Overview and History
+                    Mission and Vision
+                    Stations and Public Media
+                    NPR Finances
+                    People
+                    Ethics
+                    Awards
+                
+
+            
+                Back
+
+                Visit NPR
+                    NPR Presents
+                    Studio 1 Events
+                    Generation Listen
+                    Book a Speaker
+                    Request Permissions
+                    Ways to Listen
+                    NPR Extra Blog
+                    Email Newsletters
+                    Shop NPR
+                    Get Help
+                    Contact Us
+                
+
+            
+                Back
+
+                Support Public Radio
+                    Corporate Sponsorship
+                    Volunteer
+                
+
+            
+                Back
+
+                Releases and Statements
+                    Photos and Logos
+                    Fact Sheet (PDF)
+                    Media Relations Contacts
+                
+
+            
+                Back
+
+                Careers at NPR
+                    Search Jobs
+                    Culture
+                    Applying
+                    Interns
+                    Fellows
+                    Digital
+                
+            
+
+            
+            
+                Back
+
+                
+                    Arts
+                        Business
+                        Comedy
+                        Education
+                        Games & Hobbies
+                        Government & Organizations
+                        Health
+                        Kids & Family
+                    
+
+                
+                    Music
+                        
+                        News & Politics
+                        Religion & Spirituality
+                        Science & Medicine
+                        Society & Culture
+                        Sports & Recreation
+                        Technology
+                        TV & Film
+                    
+            
+            
+            
+
+            
+
+            
+            
+
+        
+    
+
+    
+    
+        
+
+        NPR.socialMedia={twitterSource:"@NPR"};
+      
+    
+        
+            
+
+        
+
+        
+          How Does The Electoral College Work And Is It Fair?
+          
+        
+    
+   
+      
+      NPRPolitics
+   There's More To It
+
+
+
+
+
+
+
+
+      
+            
+                  
+  Elections
+    Data & Tech
+    Demographics
+    Pop Culture
+    Fact Check
+    Stations
+    Issues
+  
+
+
+
+Twitter
+  Facebook
+
+      
+
+      
+                  Twitter
+  Facebook
+
+      
+
+   
+
+
+  Politics
+ 
+      How Does The Electoral College Work And Is It Fair?
+   
+
+
+
+      
+            Facebook
+         Twitter
+         Google+
+         Email
+      
+   
+
+
+
+
+
+      
+            
+    November 6, 20165:00 AM ET
+    
+   
+   
+
+   
+            
+                  
+                        
+                              
+    
+      
+        
+    
+
+  
+    
+      Ron Elving
+    
+  
+
+
+            
+         
+         
+
+      
+   
+   
+
+
+
+
+
+      
+            
+    Enlarge this image
+
+
+    
+        
+            
+                Electoral College members cast votes in Albany, N.Y., on Dec. 16, 1940.
+                
+                
+                    
+                    AP
+                    
+                
+                hide caption
+            
+        
+
+
+            toggle caption
+    
+
+    
+        
+        AP
+        
+    
+
+
+    
+        
+
+
+    
+        Electoral College members cast votes in Albany, N.Y., on Dec. 16, 1940.
+        
+            
+            AP
+            
+        
+    
+
+   
+   Here's a little information that Americans have usually been able to ignore.   It's about the Electoral College, a uniquely American institution that's been with us from the beginning and that's occasionally given us fits.   Typically, the Electoral College meets and does its thing a month or so after the election and few people even notice or care. Once in a while, though, people do notice and do care – a lot.   Will 2016 be one of those years?   It's not something reasonable people would hope for, but it cannot be ruled out.   First, the basics.   How It Works   Despite popular belief, the U.S. Constitution does not provide for the popular election of the American president. It provides for popular election of presidential electors. Each candidate who qualifies for a given state's ballot must designate certain individuals who will serve as his or her electors if that candidate wins the popular vote in that state.   
+            Article continues after sponsorship
+   
+   
+
+
+            
+                           
+                        Politics 
+             Why Do We Vote On Tuesdays?
+         
+         
+
+      
+      
+
+   
+   
+
+   
+            
+                           
+                        Politics 
+             How To Win The Presidency With 23 Percent Of The Popular Vote
+         
+         
+
+      
+      
+
+   
+   
+
+   When each state certifies a winner of its overall popular vote, that winner is entitled to send all his or her electors to that state's capital, where they will officially record their votes for their candidate. All the electors in all the states do it on the same day, the first Monday after the second Wednesday of December. This year it is Dec. 19, which is the latest it can be, just as this year's Election Day is the latest it can be.   In these proceedings in the states, the winner of the statewide popular vote generally takes all the Electoral College votes, a rule stretching back to 1824.   Two states, Maine and Nebraska, have instituted a different system, giving two electoral votes to the statewide winner and one to the winner of each of the state's congressional districts. This is allowed as the Constitution enables individual states to determine the manner of their elections. Other states have recently considered doing this as well.   Maine has two districts, so its vote can be split 3-1 (as it appears likely to be this year). Nebraska has three districts, so it could split 4-1 or 3-2. Nebraska had a 4-1 split in 2008, when its Omaha-based district voted for Barack Obama while the other districts went easily for John McCain.   Some states have also considered a rather more exotic idea: Casting the state's electoral votes for whoever wins the national popular vote. This would serve to undercut the Electoral College's "indirect democracy" and elevate the idea of a national choice, regardless of state lines.   For the present, however, here is how the Electoral College votes are apportioned to the states: Each state is assigned a number equal to its Senate seats (always two) plus its seats in the House of Representatives.   
+             What Unusual Things Could Happen On Election Day?
+      
+      What Unusual Things Could Happen On Election Day?
+   
+        
+            
+                
+                    
+                    
+                        Listen
+                        
+                            · 
+                            4:14
+                        
+                    
+                
+            
+
+            4:14
+
+
+
+
+   
+    
+        
+            
+            Toggle more options
+        
+        Download
+                
+
+                
+                    Embed
+
+                    
+                        
+                        
+                            
+                            Embed
+                            
+
+                        
+                            <iframe src="https://www.npr.org/player/embed/164157359/164157544" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player">
+                        
+
+                    
+                
+
+                
+                  
+                    
+                    Transcript
+                  
+                
+        
+
+
+   
+
+   That means the seven states with only enough population to qualify for one House seat will get three votes each in the Electoral College. California, with 53 seats in the House, gets 55 electoral votes, and Texas' 36 seats mean it gets 38 electoral votes.   And that's why, after the U.S. expanded to include 50 states, the Electoral College had 535 seats, the same as the total of members of Congress (Senate and House). It now has 538, because in 1961 the 23rd Amendment to the Constitution added three for the District of Columbia, which had previously been without a voice in choosing the president (and which is still without a vote in either the Senate or the House).   Is It Fair?   If any of this strikes you as unfair, you can join the chorus of critics who have abhorred the Electoral College for generations. Fault was found from the start with its essentially anti-democratic concept that the people could not or should not be trusted to vote directly for a national leader.   Rational as the "indirect method" may have been at one time, it has come to seem anachronistic in the extreme. Were anyone to propose that we start electing governors by a similar system they would be ridiculed, or ignored.   The most egregious fault in the system is the prospect of a nationwide popular vote winner actually losing in the Electoral College. It has happened four times, most recently in 2000 when Al Gore got 48.4% of the popular vote to 47.9% for George W. Bush (a margin of about 500,000 votes). After a struggle over the count in one state (Florida) that went all the way to the Supreme Court, Bush was declared the winner with 271 votes in the Electoral College – one more than the minimum for a majority.   It must also be said that the system of 50 separate elections encourages candidates to concentrate their campaign time and resources on a handful of so-called battleground states. These are generally medium-to-large states where neither party has an overwhelming advantage. That means some mega-states (California, Texas, New York, Illinois) are largely neglected, while a few others (Florida, Pennsylvania, Ohio and North Carolina) see more of the candidates and their surrogates than the rest of the country combined. Small states, those with electoral votes in single digits, are often left off the campaign itinerary altogether. This, despite the fact that each citizen's vote is supposed to be worth as much as any other's.   What Happens In A Tie?   There is also the problem of failure. The system can produce a tie (269-269). This has not happened, but a casual glance at this year's electoral map and polling indicates such an outcome is a distinct possibility.   What would happen then? It would mean no candidate had a majority, a prospect that could also happen if a third candidate won at least one state, depriving either of the major party candidates of a majority. This came relatively close to happening in 1968.   
+            
+                           
+                        Politics 
+             The First 100 Days: What Clinton And Trump Want To Get Done
+         
+         
+
+      
+      
+
+   
+   
+
+   An Electoral College that failed to produce a majority winner would trigger a constitutional provision by which the president would be chosen by the House of Representatives. That vote would be taken when the new Congress convenes in January, and it would be a vote of the 50 state delegations with each state having one vote. That's right, the Wyoming delegation (one member) would have the same say as the 38-member Texas contingent or the 53 members from California.   This, too, strikes many as unfair, not to mention flagrantly undemocratic.   Suffice it to say that the Constitution, as written in 1787 and amended several times since, respects the rights of states as entities unto themselves. Perhaps the framers did not envision population disparities between the states reaching to 100 to 1 and beyond.   But they certainly understood at the time that Virginia and Pennsylvania were far more populous than Delaware and Rhode Island. And they clearly respected the rights of all the former colonies to maintain their identities. Hence the "Great Compromise" by which all states got two seats in the Senate and the House was apportioned according to population. That deal, fashioned by Roger Sherman and Oliver Ellsworth, two delegates from Connecticut, was credited with getting the Constitution done and ratified.   The Electors Themselves   There is one other loose end that often raises eyebrows when the Electoral College is discussed. It is the phenomenon of the "faithless elector," the person who pledges to vote for a certain candidate but shows up at the state Capitol and votes for someone else – a different candidate or a person who was not even on the ballot.   
+             Slate's Chatterbox: The 'Faithless Elector' for Edwards
+      
+      Slate's Chatterbox: The 'Faithless Elector' for Edwards
+   
+        
+            
+                
+                    
+                    
+                        Listen
+                    
+                
+            
+
+        
+
+
+
+
+   
+    
+        
+            
+            Toggle more options
+        
+        Download
+                
+
+                
+                    Embed
+
+                    
+                        
+                        
+                            
+                            Embed
+                            
+
+                        
+                            <iframe src="https://www.npr.org/player/embed/4231325/4231326" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player">
+                        
+
+                    
+                
+
+        
+
+
+   
+
+   Such surprises do not happen often. The last was in 1988, when an elector pledged to Democrat Michael Dukakis voted instead for his running mate, Lloyd Bentsen. It was a rather futile gesture that did not matter to the outcome, except to demand an asterisk and an explanation.   But in a very close count, such as the hair's breadth showdown in 2000, a faithless elector or two might be enough to change the outcome – or at least to throw the contest into the House.   As it was, the official tally that year was only 537 because one elector did not vote at all. It did not change the outcome, but it showed how subject the system is to breakdown.
+
+ 
+      Facebook
+      Twitter
+      Google+
+      Email
+   
+
+
+
+   
+
+
+More Stories From NPR
+
+      
+
+Politics
+How A Hostile Nation Could Disrupt The U.S. Election
+
+
+Politics
+The Art Of The Vote: Who Designs The Ballots We Cast?
+
+
+Politics
+Akron Works To Bring Joy To Voting
+
+
+Politics
+A Changing America Faces A Stark Choice This Election
+
+
+
+More Stories
+      
+      NPRPolitics
+   There's More To It
+
+
+
+
+
+
+
+
+            
+    NPR thanks our sponsorsBecome an NPR sponsor
+
+
+   
+
+
+
+
+
+
+
+      
+    
+            News
+            U.S.
+                World
+                Politics
+                Business
+                Technology
+                Science
+                Health
+                Race & Culture
+                Education
+            
+        
+            Arts & Life
+            Books
+                Movies
+                Pop Culture
+                Food
+                Art & Design
+                Performing Arts
+                Photography
+            
+        
+            Music
+            First Listen
+                Songs We Love
+                Music Articles
+                Tiny Desk
+                Videos
+            
+        
+            Programs
+        
+        
+            About
+            NPR Overview
+                NPR Finances
+                People at NPR
+                Support NPR
+                Visit NPR
+                Press Room
+                NPR Extra Blog
+                Careers at NPR
+                Corrections
+                NPR Ombudsman
+                Permissions
+            
+    
+
+
+    
+    Help
+        Contact
+        Terms of Use
+        Privacy
+        Sponsorship Choices
+        Text-Only
+    
+
+
+   (function () {
+    var loadPageJs = function () { webpackJsonp([67,20],{0:function(n,c,t){n.exports=t(325)},325:function(n,c,t){"use strict";t.p=NPR.serverVars.webpackPublicPath,function(){var n=2,c=function(){--n<1&&function(n){t(2),t(51),t(50),t(177),t(39),t(134),t(68),t(1122),t(66),t(1121),t(1120),t(322)}(t)};t.e(0,c),t.e(8,c)}()}}); };
+    if (document.readyState === 'complete') {
+        loadPageJs();
+    } else {
+        window.addEventListener('load', function load() {
+            window.removeEventListener('load', load, false);
+            loadPageJs();
+        });
+    }
+})();
+
+    var _sf_async_config = _sf_async_config || {};
+    /** CONFIGURATION START **/
+    _sf_async_config.uid = '18888';
+    _sf_async_config.domain = NPR.ServerConstants.cbHost;
+    _sf_async_config.useCanonical = true;
+
+    /** CONFIGURATION END **/
+    (function() {
+        function loadChartbeat() {
+            window._sf_endpt = (new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+            document.body.appendChild(e);
+        }
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+                loadChartbeat : function() {
+            oldonload();
+            loadChartbeat();
+        };
+    })();
+

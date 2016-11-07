@@ -1,0 +1,297 @@
+Maryland will audit all votes cast in general election - Baltimore Suni$={plugins:{},cache:{window:{innerHeight:window.innerHeight,innerWidth:window.innerWidth},document:{documentElement:{clientWidth:document.documentElement.clientWidth}}}};
+trb={run:[],runInfuse:[],svg:{data:{map:{},svgStrings:{}}},data:{page:{},videos:{},embed:{},metrics:{prdomain:"baltimoresun.com",pbrd:5}},vendor:{snt:{}},dpl:[]};
+googletag={cmd:[]};trb.appendResource=function appendResource(i,g,f,h){var j=document.createElement(i);
+if(i=="script"){j.src=g;j.async=f||false;j.defer=f||h||false;}else{if(i=="link"){j.href=g;j.rel="stylesheet";
+}else{return;}}(document.head||document.documentElement).appendChild(j);};window.trb=window.trb||{};trb.utils=trb.utils||{};
+trb.data=trb.data||{};trb.browsersupport=trb.browsersupport||{};trb.browsersupport.isMobile=function(){return/(android|bb\d+|meego).+mobile|bada\/|blackberry|fennec|iemobile|ip(hone|od|ad)|kindle|maemo|midp|mmp|netfront|opera m|palm|phone|p(ixi|re)\/|series(4|6)0|symbian|up\.(b|l)|vodafone|wap|windows (ce|phone)|android|playbook|silk/i.test(navigator.userAgent);
+};trb.data.isMobile=trb.browsersupport.isMobile();if(trb.data.isMobile){document.documentElement.setAttribute("data-content-mobile","");
+}(trb.userTiming=window.performance&&performance.mark&&location.hash.indexOf("trb_perf")>-1?function(b){performance.mark(b);
+}:function(){})("trb head");_sf_startpt=Date.now&&Date.now();document.addEventListener&&document.addEventListener("DOMContentLoaded",function isReady(){i$.hasDocReadyRun=true;
+});
+    trb.data.parentSectionPath = '/news';
+    trb.data.parentSectionName = 'News';
+    if (trb.data.isSectionFront = false) document.documentElement.setAttribute('data-content-sectionfront', '');
+    
+      trb.data.unsupportedBrowserBaseURL='http://touch.baltimoresun.com';
+      trb.data.page = {unsupportedBrowserPath: '/#section/-1/article/p2p-91844403/'};
+    
+            trb.data.kruxEnabled = true;
+            trb.data.kruxId = 'I5BuOxPM';
+            trb.data.ads = {slotPrefix : '/4011/trb.baltimoresun', rubicon: { enabled : true } };
+            trb.data.page.ads = {enabled: true, slot: trb.data.ads.slotPrefix + '/' + 'news/local/politics', options: {"site":"trb.baltimoresun","tile":"1","at":"Elections","ord":"910135","iab":"law","dcopt":"ist","ptype":"s"}, rubicon: {keyFPI: '', valueFPI: ''}};
+          trb.data.page.ads.teadsEnabled = true;
+                  trb.data.ads.yieldmo = {mobile: true, desktop: false};
+                
+      trb.data.ads.snt = trb.data.ads.snt || {};
+      trb.data.ads.snt.desktop = true;
+    
+        (location.hash + location.search).indexOf ('disable-gpt') == -1 && trb.appendResource('script', '//www.googletagservices.com/tag/js/gpt.js', true);
+        trb.appendResource('script', 'http://www.trbas.com/jive/prod/common/javascripts/lib.1q2w3_d44734a13435933267261f3f38cf2c47.min.js', true);
+        trb.appendResource('script', 'http://www.trbas.com/jive/prod/common/javascripts/main.1q2w3_dd18827ae46a909302c3f1399ec125e3.min.js', true);
+      trb.appendResource('script', trb.data.ssorUrl = 'http://ssor.tribdss.com/reg/tribune/balngux.min.js', true);
+
+    
+    trb.appendResource('script', trb.data.meteringUrl = 'http://www.tribdss.com/meter/baltngux.min.js', true);
+  
+          try{(' '+(localStorage.getItem('trb.notification.closedItems')||'')).indexOf(' 91830977 ')>=0&&document.documentElement.setAttribute('data-bnn-closed','')}catch(e){}
+        googletag.cmd.push(function(){trb.userTiming("trb gpt load");});trb.run.push(function(){trb.ads.loadAdloader();});trb.run.push(function(){i$('mediamanager');});
+          trb.data.page.articleType = 'robust';
+        (location.hash + location.search).indexOf('disable-autoplay') == -1 && trb.run.push(function(){$("html").trigger("multimedia_autoplay");});trb.data.page.totalPages = 1;
+ trb.data.page.pathname = '/news/maryland/politics/bs-md-sun-investigates-election-audit-20161105-story.html'; 
+ trb.data.page.metrics = {"list1":"Michael Dresser","byline":"Michael Dresser","sectionPath":"/news/maryland/politics/","sectionName":"Politics","parentSectionName":"News","slug":"bs-md-sun-investigates-election-audit-20161105","premiumContentLevel":"default","pubDate":"11-05-2016 15:21","pageTitle":"Maryland will audit all votes cast in general election","uid":"45584","pageNumber":"","owner":"Baltimore Sun","contentId":"91844403","marketCode":"balnews","siteName":"baltimoresun","individualPhotoID":"81240982","topicID":"","topic":"","contentType":"story","linkTrackingAction":"story","channel":"news:maryland:politics","server":"www.baltimoresun.com","pageName":"bs:news:maryland:politics:bs-md-sun-investigates-election-audit-20161105:story.","topLevelSection":"news","siteHierarchy":"baltimoresun:news:maryland:politics","globalHierachy":"news:maryland:politics","site":"baltimoresun","siteAbbrv":"bs","omnitureAccountId":"tribnglobal","googleAnalytics":""};
+ 
+        (location.hash + location.search).indexOf('disable-ensighten') == -1 && trb.appendResource('script', '//nexus.ensighten.com/tronc/baltimoresunngux' + (location.hash.indexOf('ensightenEnv=dev') > -1 ? 'dev' : 'prod') + '/Bootstrap.js', true);
+      
+
+          .trb_mh{position:relative;margin-top:150px}@media screen and (min-width:840px){.trb_mh{margin-top:170px}}
+          .trb_ar_main_ad{display:block;margin:23px 0 23px calc(50% - 150px);clear:both}
+      @media (min-width:840px){.trb_ar_main_ad{display:none}}
+          .trb_ar_sponsoredmod{margin:5px 0 25px;clear:both}[data-content-mobile] [data-screen-size=desktop],html:not([data-content-mobile]) [data-screen-size=mobile]{display:none}@media (min-width:420px){.trb_ar_sponsoredmod+p{clear:both}}
+          .trb_ar_h{padding-top:30px}.trb_ar_rail{display:none}@media screen and (min-width:420px){.trb_ar_h{margin-bottom:13px}.trb_ar_main{max-width:720px;margin:0 auto}}@media screen and (min-width:840px){.trb_ar_main{width:calc(100% - 340px);display:inline-block;float:left}.trb_ar_rail{width:300px;margin-left:40px;display:inline-block}}
+      .trb_ar{padding:0 20px;border-top:1px solid #CCC}@media screen and (min-width:420px){.trb_ar{padding:0 40px}}@media screen and (min-width:1060px){.trb_ar{padding:0 110px}}
+          .trb_ar_bc{font:13px/16px Arial,sans-serif}.trb_ar_bc_a{display:inline-block;text-decoration:none;-ms-hyphens:auto;-webkit-hyphens:auto;hyphens:auto;color:#22316C}.trb_ar_bc_a:hover{color:#57759D}.trb_ar_bc_a:first-child{color:#5A7FB1}.trb_ar_bc_a:first-child:hover{color:#779DCF}.trb_ar_bc_a:not(:last-child):after{content:"/";color:#22316C}@media screen and (min-width:840px){.trb_ar_bc{width:calc(100% - 175px);float:right;text-align:right;margin-top:3px}}
+          .trb_ar_dateline{font:10px/13px Arial,sans-serif;letter-spacing:.5px;text-transform:uppercase;color:#666}.trb_ar_dateline_time:before{content:attr(data-dt)}.trb_ar_dateline_line:after{content:attr(data-content-dateline);display:inline-block}.trb_ar_dateline_time+.trb_ar_dateline_line:before{content:'|';margin:0 12px}.trb_ar_la+div .trb_ar_dateline{margin-top:25px}
+          .trb_ar_page>ol,.trb_ar_page>p,.trb_ar_page>ul{margin-bottom:18px;font:15px/24px Georgia,'Droid Serif',serif;color:#333}.trb_ar_page>ol a,.trb_ar_page>p a,.trb_ar_page>ul a{text-decoration:none;color:#DAA520}.trb_ar_page>ol a:hover,.trb_ar_page>p a:hover,.trb_ar_page>ul a:hover{color:#F8CB59}.trb_ar_page>ol{text-indent:-24px;counter-reset:li;list-style:none}.trb_ar_page>ol>li:before{font-family:Georgia,'Droid Serif',serif;font-weight:400;font-size:18px;line-height:27px;color:#000;left:6px;position:relative;content:counter(li)'.';counter-increment:li;padding-right:12px}.trb_ar_page>p:first-child{margin-top:13px}.trb_ar_page[data-content-page="1"]>p:first-child:first-letter{display:inline-block;float:left;font-weight:700;color:#000;text-transform:uppercase;font-size:51px;line-height:36px;font-family:Georgia,'Droid Serif',serif;padding:5px 9px 0 0}@media screen and (min-width:420px){.trb_ar_page>ol,.trb_ar_page>p,.trb_ar_page>ul{font-size:18px;line-height:27px}.trb_ar_page[data-content-page="1"]>p:first-child:first-letter{font-size:60px;line-height:42px}}
+          .trb_ar_hl_k,.trb_ar_hl_t{font-family:Georgia,'Droid Serif',serif}.trb_ar_hl{clear:both;margin-bottom:15px}.trb_ar_hl_t[data-content-svgtype=PremiumLogoSmall]{background-repeat:no-repeat;background-size:21px 19px;background-position:right 13px;padding:0 25px 0 0;line-height:1}.trb_ar_hl_k,.trb_ar_hl_t{display:inline;font-weight:400;font-size:34px;line-height:40px}.trb_ar_hl_k{font-size:34px;line-height:40px;margin-right:5px;color:#CCC}@media screen and (min-width:420px){.trb_ar_hl{margin-bottom:20px}.trb_ar_hl_t[data-content-svgtype=PremiumLogoSmall]{background-size:26px 24px;background-position:right 17px;padding:0 34px 0 0}.trb_ar_hl_k,.trb_ar_hl_t{font-size:44px;line-height:50px}}@media screen and (min-width:840px){.trb_ar_hl_k,.trb_ar_hl_t{font-size:54px;line-height:60px}.trb_ar_hl_t[data-content-svgtype=PremiumLogoSmall]{background-size:32px 30px;background-position:right 22px;padding:0 38px 0 0}}
+          .trb_ar_la{width:calc(100% + 40px);margin:0 0 13px -20px}@media screen and (min-width:420px){.trb_ar_la{width:calc(100% + 80px);margin-left:-40px}}@media screen and (min-width:840px){.trb_ar_main .trb_ar_la{width:auto;margin:0 0 14px}}
+          .trb_ar_cont{margin:0 0 8px;color:#999;padding-top:4px}.trb_ar_cont:before{content:attr(data-ar-cont);font:italic 11px Arial,sans-serif;display:inline;margin:0 0 5px}.trb_ar_cont:after{font:8px trb_Icons;content:"\e606";margin-left:5px}@media print,(min-width:420px){.trb_ar_cont{display:none}}
+      @media (min-width:840px){.trb_ar_rail_ad{margin:0 0 30px;display:block}}
+      @media (min-width:840px){.trb_sntAd+.trb_ar_rail_ad{display:none}[data-content-mobile] .trb_sntAd+.trb_ar_rail_ad{display:block;margin-top:0}.trb_ar_rail_ad+.trb_ar_rail_ad{margin-top:calc(1470px - 100vw)}}@media (min-width:1060px){.trb_ar_rail_ad+.trb_ar_rail_ad{margin-top:calc(1580px - 100vw)}}@media (min-width:1280px){.trb_ar_rail_ad+.trb_ar_rail_ad{margin-top:300px}}
+      .trb_eg,.trb_eg_f{position:relative}.trb_eg{border-bottom:1px solid #CCC;border-top:1px solid #CCC;clear:both;margin:25px 0}.trb_ar_main_ad+.trb_eg{margin-top:30px}.trb_eg_u{font-size:0;padding:0;margin:0}.trb_eg_u:before{content:attr(data-eg-title);display:block;padding:25px 0;font-size:18px;font-family:Georgia,'Droid Serif',serif;font-weight:400;font-weight:700;color:#1E1E1E}.trb_eg_u~.trb_eg_u{display:none;border-top:1px solid #CCC}.trb_eg_h{margin:-1px 0 0}.trb_eg_i{display:none;margin-bottom:30px;overflow:hidden}.trb_eg_i:nth-child(-n+2),.trb_eg_t{display:block}.trb_eg_f+.trb_eg_h,.trb_eg_f~.trb_eg_t{margin-left:80px}.trb_eg_f{width:70px;height:70px;float:left}.trb_eg_img:hover{opacity:.7}.trb_eg_h_a{color:#333;text-decoration:none;font:700 13px Georgia,'Droid Serif',serif;line-height:17px}.trb_eg_h_a:hover{color:#999}.trb_eg_h_a[data-content-premiumoverride=premium]:after{color:#0A6DB7;font-family:trb_Icons;content:"h";font-size:16px;font-weight:400;line-height:11px;position:relative;top:0;padding-left:3px;vertical-align:baseline;-webkit-font-smoothing:antialiased}.trb_eg_t{margin-top:9px}.trb_eg_t:after{content:attr(data-dt);font:11px Arial,sans-serif;color:#999}.trb_eg_c{display:none}.trb_eg_ex{display:table;margin:-12px auto 27px;text-decoration:none}.trb_eg_ex:after{content:attr(data-eg-more);padding-bottom:6px;font:700 12px Georgia,'Droid Serif',serif;cursor:pointer;color:#DAA520}.trb_eg_ex:hover:after{color:#F8CB59}.trb_eg[data-state~=base_expanded] .trb_eg_ex:after{content:attr(data-eg-less)}.trb_eg[data-state~=base_expanded] .trb_eg_c,.trb_eg[data-state~=base_expanded] .trb_eg_i,.trb_eg[data-state~=base_expanded] .trb_eg_u{display:block}.trb_eg[data-state~=base_expanded] .trb_eg_c:after{font-family:trb_Icons;content:"\e5";opacity:1;font-size:18px;color:#999;position:absolute;right:0;top:26px;cursor:pointer}@media screen and (min-width:420px)and (max-width:839px){.trb_eg_u{overflow:hidden;margin-right:-10px}.trb_eg_i{width:calc(50% - 10px);vertical-align:top;margin-right:10px}.trb_eg[data-state=base_expanded] .trb_eg_i,.trb_eg_i:nth-child(-n+2){display:inline-block}}@media screen and (min-width:630px)and (max-width:839px){.trb_eg_u{margin-right:-15px}.trb_eg_i{width:calc(1/3 * 100% - 15px);margin-right:15px}.trb_eg_i:nth-child(3){display:inline-block}.trb_eg[data-eg-count="3"] .trb_eg_ex{display:none}}@media screen and (min-width:840px){.trb_eg_b{display:none}.trb_eg{width:300px;margin-bottom:30px}.trb_eg_i:nth-child(-n+3),.trb_eg_i:nth-child(3){display:block}}
+          .trb_ar_by{display:table;margin:5px 0 15px}.trb_ar_by_cl,.trb_ar_by_nm_au,.trb_ar_by_nm_au_a{font:700 14px/1 Georgia,'Droid Serif',serif;color:#DAA520;text-decoration:none}.trb_ar_by_nm_au:before{content:'By ';color:#666;font-weight:400}.trb_ar_by_cl:hover,.trb_ar_by_nm_au_a:hover{color:#F8CB59}.trb_ar_by_i_f{display:table-cell;width:70px;padding-right:10px}.trb_ar_by_i{border-radius:50%}.trb_ar_by_nm_pm{display:table-cell;vertical-align:middle}.trb_ar_by_nm_pb{display:block;margin-top:3px;font:12px Arial,sans-serif;color:#999;text-decoration:none}.trb_ar_by_b:before{display:inline-block;vertical-align:middle;text-align:left;content:'\2022';margin:0 5px;font-size:9px;color:#DAA520}@media screen and (min-width:420px){.trb_ar_by{margin-top:20px}}@media screen and (min-width:840px){.trb_ar_by{margin:15px 0 25px}.trb_ar_by_i_f{padding-right:20px}}
+          .trb_ar_cr,.trb_ar_cr a{font:12px Arial,sans-serif;clear:left;padding:4px 0 6px;color:#666;text-decoration:none;margin:14px 0}.trb_ar_cr a:hover{color:#F8CB59}
+          .trb_ar_rt{margin:0 0 16px;font:14px/18px Arial,sans-serif;padding:6px 0 0}.trb_ar_rt:before{content:'This 'attr(data-c-typename)' is related to: ';font-weight:700}.trb_ar_rt_a{text-decoration:none;color:#DAA520}.trb_ar_rt_a:hover{text-decoration:underline;color:#F8CB59}.trb_ar_rt_li{display:inline}.trb_ar_rt_li:not(:last-child):after{content:',';color:#999}
+      .trb_cm{margin:40px 0;clear:both}.trb_cm_b{text-align:center;width:240px;height:40px;border-radius:20px;margin:0 auto 20px;border:1px solid #DAA520;text-transform:uppercase;color:#DAA520;font:700 12px Arial,sans-serif;cursor:pointer}.trb_cm_b:before{content:attr(data-cm-label);display:block;padding-top:14px}.trb_cm_b:hover{background:#DAA520;color:#fff}
+          [data-sc-t=facebook]:after{content:'f';color:#23408F}[data-sc-t=twitter]:after{content:'t';color:#50ABDA}[data-sc-t=email]:after{content:'m';color:#000}[data-sc-t=facebook]:active:after,[data-sc-t=facebook]:hover:after{color:#657AB1}[data-sc-t=twitter]:active:after,[data-sc-t=twitter]:hover:after{color:#73BCE1}[data-sc-t=email]:active:after,[data-sc-t=email]:hover:after{color:#CCC}
+          .trb_ar_h .trb_sc{margin-top:-10px}@media (min-width:420px){.trb_ar_h .trb_sc{margin-top:-5px;margin-bottom:13px}}
+          .trb_ar_bc+.trb_sc{margin-top:7px}@media (min-width:420px){.trb_ar_bc+.trb_sc{margin-top:16px}}@media (min-width:840px){.trb_ar_bc+.trb_sc{margin-top:-10px}}
+          .trb_sc{font-family:trb_Icons;font-size:22px;margin-bottom:5px;clear:left}.trb_embed_related .trb_sc{display:none}.trb_sc_item{cursor:pointer;display:inline-block;padding:9px;height:22px;width:22px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.trb_sc_item[data-sc-t=twitter]{margin:0 2px}.trb_sc_item[data-sc-t=email]{margin:0 5px}.trb_sc_item:first-child{margin-left:-12px}.trb_sc_item[data-sc-t=email]{display:none}@media (min-width:700px){.trb_sc_item[data-sc-t=email]{display:inline-block}[data-content-mobile] .trb_sc_item[data-sc-t=email]{display:none}}
+      .trb_ar_sl{font-size:0;border-top:3px solid #1E1E1E;border-bottom:1px solid #CCC;margin:17px -20px;padding:18px 0 15px}.trb_ar_sl_it{display:block;margin-bottom:3px;padding:0 9px 0 20px;text-align:right}.trb_ar_sl_it:before{color:#666;content:'SHARE THIS';float:left;font:700 10px Arial,sans-serif}.trb_ar_sl_it_item{cursor:pointer;display:inline-block;font-family:trb_Icons;font-size:22px;height:22px;width:22px;margin:-17px 0 0 13px;padding:9px;text-align:right}.trb_ar_sl_t{color:#666;font:400 13px/21px Arial,sans-serif;margin:0 20px}@media (min-width:420px){.trb_ar_sl{margin:17px -40px;padding:18px 20px 15px}}@media (min-width:600px){.trb_ar_sl{display:table;margin:27px 0;table-layout:fixed;padding:21px 0 20px;width:100%}.trb_ar_sl_it{display:table-cell;padding:0;text-align:left;vertical-align:middle;width:126px}.trb_ar_sl_it:before{display:block;float:none;margin:-3px 0 0;text-align:center}.trb_ar_sl_it_item{margin:-2px 0 -10px 14px}.trb_ar_sl_t{border-left:1px solid #ccc;display:table-cell;line-height:20px;margin:0;padding:0 60px 0 30px;vertical-align:middle}}
+          .trb_ar_nar{height:95px;margin:0 -20px -1px;border-top:1px solid #CCC;border-bottom:1px solid #CCC;text-align:center}.trb_ar_nar_a{display:inline-block;margin-top:30px;font:700 12px Georgia,'Droid Serif',serif;color:#666;text-decoration:none}.trb_ar_nar_a:before{content:attr(data-nar)}.trb_ar_nar_a:after{font-family:trb_Icons;content:'\e606';display:block;margin-top:10px}@media print,(min-width:420px){.trb_ar_nar{display:none}}
+          .trb_ar_summary_load{min-height:300px;clear:both}
+      .trb_nls_h,.trb_nls_hs{font:700 18px Belizio,Georgia,'Droid Serif',serif}.trb_nls_e,.trb_nls_s{-webkit-appearance:none}.trb_nls_c,.trb_nls_e,.trb_nls_s{box-sizing:border-box}.trb_nls_c{background-color:#E0E0E0;border-radius:3px;margin:20px 0 29px;padding:20px 20px 18px;clear:left}.trb_nls_h{color:#000;margin:0 20px 15px 0}.trb_nls_hs{color:#000;margin:0 20px 5px 0}.trb_nls_h:after{content:attr(data-nls-header)}.trb_nls_w{background:url(http://www.trbas.com/jive/prod/common/images/newsletter_Icon.svg)left center no-repeat;background-size:58px 58px;display:table-cell;padding:17px 0 17px 76px}.trb_nls_captcha{margin:10px 0 7px}.trb_nls_captcha[data-state=nls_disabled]{display:none}.trb_nls_p{display:inline-block;font:10px Arial,sans-serif;color:#8a8a8a;margin:10px 0 0 2px;text-decoration:none}.trb_nls_p:hover{text-decoration:underline}.trb_nls_a{font:12px Georgia,'Droid Serif',serif;color:#DAA520;text-decoration:none}.trb_nls_a:hover{text-decoration:underline}.trb_nls_r{color:#D0021B;font:10px Arial,sans-serif;margin:8px 0 5px 2px}.trb_nls_s{background-color:#ccc;border:0;color:#999;font:700 10px Arial,sans-serif;padding:8px 8px 7px;margin-left:8px;cursor:pointer;border-radius:3px;text-transform:uppercase;max-width:160px;height:30px}.trb_nls_e:valid~.trb_nls_s{background-color:#4591B8;color:#FFF}.trb_nls_e:valid~.trb_nls_s:hover{background-color:#3b7ea4}.trb_nls_e{width:calc(100% - 120px);background-color:#fff;border:1px solid #ccc;color:#666;font:12px Arial,sans-serif;padding:7px;display:inline-block;height:30px;margin-bottom:7px;outline:0;box-shadow:none}@media screen and (min-width:520px){.trb_nls_e{width:280px}}
+          .trb_bnn{contain:content;position:fixed;bottom:0;right:0;width:100%;background-color:#728DB2;z-index:10023;display:table;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}[data-bnn-closed] .trb_bnn{display:none}.trb_bnn[data-state~=bnn_closed]{bottom:-1000px;transition:bottom 1s}.trb_bnn_h{position:relative;background-color:#10223B;color:#FFF;text-transform:uppercase;padding:9px 5px 5px 10px;width:80px;display:table-cell;table-layout:fixed;vertical-align:top;letter-spacing:1px}.trb_bnn_h:before{content:attr(data-bnn-title);display:block;font-family:Georgia,'Droid Serif',serif;font-weight:400;font-weight:700;font-size:11px;line-height:14px}.trb_bnn_h:after{border:solid transparent;content:'';position:absolute;border-left-color:#10223B;border-width:10px 0 10px 10px;right:-8px;top:calc(50% - 10px)}.trb_bnn_i{padding:6px 40px 6px 20px;font:700 12px/16px Arial,sans-serif;min-height:48px}.trb_bnn_i_t{color:#FFF;text-decoration:none}a.trb_bnn_i_t:hover{text-decoration:underline}.trb_bnn_c{font:13px trb_Icons;color:#99B1BE;position:absolute;padding:5px;top:9px;right:8px;text-decoration:none}.trb_bnn_c:hover{color:#CCC}.trb_bnn_c:after{content:'\00E4'}@media (min-width:420px){.trb_bnn_h{width:130px}}@media (min-width:700px){.trb_bnn{width:580px}.trb_bnn_h{padding:7px 10px 8px 12px;width:150px}.trb_bnn_h:before{line-height:normal;font-size:14px;letter-spacing:normal}.trb_bnn_i{padding:8px 50px 8px 20px;font-size:14px}}@media (min-width:1296px){html:not([data-adloader-oop-type~=reskin]) .trb_bnn{left:calc(50% - -60px)}}
+          .trb_taboola:after,.trb_taboola:before{content:' '}.trb_taboola{border-top:1px solid #CCC;padding-top:20px;border-bottom:1px solid #CCC;display:block;width:100%}.trb_taboola:before{display:block;width:1px;float:right;margin-left:-1px;padding-bottom:calc(33.33% - -830px)}.trb_taboola:after{clear:both;display:block}[data-content-mobile] .trb_taboola:before{padding-bottom:calc(33.33% - -730px)}.trb_taboola[data-vendor-taboolafailed]{display:none}@media screen and (min-width:477px){.trb_taboola[data-vendor-taboolarows="1"]:before{padding-bottom:calc(33.33% - -60px)}.trb_taboola[data-vendor-taboolarows="2"]:before{padding-bottom:calc(66.66% - -100px)}}
+      .trb_ar_taboola{padding:30px 0 12px;margin-bottom:-1px}@media screen and (min-width:477px){.trb_ar_taboola{padding:40px 0 20px}}
+      .trb_ar_taboolaCmpn{display:none}@media screen and (min-width:477px){.trb_ar_taboola{border-bottom:none;padding-bottom:0}.trb_ar_taboolaCmpn{display:block;margin-bottom:-1px;min-height:174px;border-bottom:1px solid #CCC}}
+@media print {
+
+          .trb_mh{display:none}
+          .trb_ar_sponsoredmod{display:none}
+          .trb_ar_h{border-top:0!important;margin:0!important}.trb_ar_by_b,.trb_ar_by_cl{display:none}
+      .trb_ar{padding:0!important;border-top:0!important}
+          .trb_ar_bc{display:none}
+          .trb_ar_page>ol,.trb_ar_page>p,.trb_ar_page>ul{color:#000!important}
+          .trb_ar_hl_t{background:0 0!important}
+          .trb_ar .trb_ar_la{width:100%!important;margin-left:0!important}
+          .trb_ar_cont{display:none!important}
+          .trb_eg{display:none}
+      .trb_cm{display:none!important}
+          .trb_sc{display:none}
+          .trb_ar_summary_load{display:none!important}
+      .trb_nh{display:none}
+      .trb_nls_c{display:none}
+          .trb_bnn{display:none}
+          .trb_taboola{display:none}
+      .trb_gptAd{display:none!important}
+      .trb_ar_taboolaCmpn{display:none}
+}
+trb.userTiming("trb css load");
+
+
+  
+
+  
+
+
+  
+      
+        
+      
+  Korryn Gaines: The 6-hour police standoff [Interactive timeline]
+
+
+
+
+
+
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      News 
+        Maryland 
+        Politics 
+        
+    
+      
+      
+  
+         
+      
+      
+  
+      Maryland will audit all votes cast in general election
+        
+      
+    
+    
+          
+          
+                
+                                            Caption            Early voters share feelings about this campaign season      Local early voters share their feelings on the Presidential campaigns of both candidates. (Baltimore Sun video)      Local early voters share their feelings on the Presidential campaigns of both candidates. (Baltimore Sun video)                                                Caption            Feeling anxious about the election? Here's how to cope with election stress disorder      Symptoms of this disorder include heart palpitations, shortness of breath, sweaty palms, loss of appetite, trouble sleeping and a sinking or doomed feeling        Symptoms of this disorder include heart palpitations, shortness of breath, sweaty palms, loss of appetite, trouble sleeping and a sinking or doomed feeling                  
+          Michael DresserContact ReporterThe Baltimore Sun
+      
+    
+  
+  
+         
+      
+      
+  Maryland will audit of all of the votes cast in Tuesday's general election but insists it's not a recount.
+      
+    
+            
+                    
+                        
+                          
+      
+  
+        
+      
+      Maryland will conduct a post-election audit of all of the votes cast in the general election.The Maryland State Board of Elections has hired a Boston-based company, Clear Ballot, to conduct a performance audit of the paper ballot system the state adopted this year. State election officials said the audit is not the same as a recount.
+  
+  According to Clear Ballot, Maryland will become the first state to audit 100 percent of the ballots cast in an election. The company said it would audit about 3 million votes over a two-day period.Nikki Baines Charlson, the state's deputy elections administrator, said the audit will retabulate results from photographs taken of each ballot as they are fed into optical scanners at the state's polling stations. She said the paper ballots will not be counted as part of the audit.
+        
+      
+            
+            "We want to preserve the paper ballots in case there was a recount or a contested election," Charlson said. Of the audit, she said, "it's just a way to check that the machines are working properly."                              The Baltimore Sun's Voter Guide 2016Open link        Officials were considering a statewide audit before Baltimore's primary election was marred by irregularities. State officials found that 1,650 ballots in the city were handled improperly and eight data files were missing for about a day after the election.Charlson said an audit was conducted in three Maryland counties after the primary election as part of a pilot project. Those audits uncovered minor tabulation errors.The general election audit will begin Nov. 11 and be completed before Nov. 18, the day local boards must certify election results. Charlson said significant discrepancies could trigger a recount in a tight race.Meanwhile, Charlson said Maryland is one of 46 states that have sought help from the Department of Homeland Security in protecting their computer systems from hacking. She said the federal agency offered its help in monitoring state election websites and Maryland took them up on the offer.Charlson said the acceptance did not reflect heightened concerns about ballots being hacked. She noted that vote counts are done offline at local election boards."Why not have another tool to look at your system to inform us how it's working?" Charlson said.mdresser@baltsun.comtwitter.com/michaeltdresser
+                      
+          
+    
+  Privacy Policy
+  
+      Copyright
+            © 2016, The Baltimore Sun, a Baltimore Sun Media Group publication | Place an Ad
+        
+      
+               Elections
+  
+  
+  
+  
+    
+  
+    
+    
+        
+  
+      
+        
+      
+                
+              
+            
+  
+        
+      
+      
+    
+  
+      
+      
+  
+  
+  
+Excitement, anxiousness abound as Election Day nears
+        
+      As Election Day approaches, ask yourself a few questions
+        
+      WEAA cancels Baltimore mayoral forum after Pugh declines to attend
+        
+      
+
+        
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+        
+  
+        
+   
+  
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+BreakingSportsMarylandBusinessOpinionObitseNewspaperAdvertising61°
+  trb.run.push(function(){i$('nh');});trb.userTiming("trb bottom");trb.data.gigyaUrl = "http://cdn.gigya.com/js/gigya.js?apiKey=2_C2BNIWTLvWz8isEfbqUqXrGFWY2LW3P7VDGpHUrd7UiZ8B0xCOgg9moBgT5L28PU";
+    trb.data.facebookAppId = '310302989040998';
+    trb.data.facebookId = 'baltimoresun';
+  trb.notification={getItems:function(){return trb.storage.get("trb.notification.closedItems")||"";},checkItem:function(a){return(" "+trb.notification.getItems()).indexOf(" "+a+" ")>=0;
+},addItem:function(a){!trb.notification.checkItem(a)&&trb.storage.set("trb.notification.closedItems",trb.notification.getItems()+a+" ");
+}};trb.runInfuse.push(function bnn(){i$({name:"bnn",handlers:{click:{close:function(a){a.preventDefault();
+trb.notification.addItem(""+a.target.parentElement.getAttribute("data-content-id"));this.toggleState("closed");
+}}},events:"click"});});trb.run.push(function(){i$("carousel");});trb.run.push(function(){i$('sc');});trb.run.push(function(){ !window.gigya && trb.vendor.isEnabled('gigya') && i$.require(trb.data.gigyaUrl); });trb.run.push(function(){i$('gallery');});trb.run.push(function(){i$('nls');});trb.run.push(function(){i$('cm');});trb.run.push(function(){i$('extendablePage');});trb.run.push(function(){i$('pagination');});trb.run.push(function(){i$('oopadloader');});trb.data.base64URL="http://www.trbas.com/jive/prod/common/javascripts/base64.1q2w3_d54d4a6d3445f91b4d8700e54d90ddbc.min.js";
+
+          trb.vendor.mediaconductor = trb.vendor.mediaconductor || {};
+          trb.vendor.mediaconductor.siteid = 'ba0fe487aa6a4f3a9dd8519f08fc1265';
+          trb.data.ads.domain = 'www.baltimoresun.com';
+        
+  trb.run.push(function(){
+        trb.data.page.sectionPath = '/news/maryland/politics/';
+        trb.data.page.sectionName = 'Politics';
+        trb.data.page.pageTitle = 'Maryland will audit all votes cast in general election - Baltimore Sun';
+                  
+          trb.data.page.slug = 'bs-md-sun-investigates-election-audit-20161105';          
+          trb.data.page.title = 'Maryland will audit all votes cast in general election';
+          trb.data.page.author = 'Michael Dresser';
+          trb.data.page.background = '<p>Maryland will conduct a post-election audit of all of the votes cast in the general election.</p><p>The Maryland State Board of Elections has hired a Boston-based company, Clear Ballot, to conduct a performance audit of the paper ballot system the state adopted this year. State election officials said...</p>';
+          trb.data.page.thumbnailURL = 'http://www.trbimg.com/img-581e1aed/turbine/bs-md-sun-investigates-election-audit-20161105';
+          trb.data.page.ads = trb.data.page.ads || {};
+          trb.data.page.ads.options = trb.data.page.ads.options || {};
+          trb.data.page.ads.options.slug = trb.data.page.ads.options.slug || 'bs-md-sun-investigates-election-audit-20161105';
+        
+  });
+
+
+      @media screen and (min-width:1060px){.trb_allContentWrapper{width:calc(100% - 280px);margin:0 auto}}@media screen and (min-width:1060px)and (max-width:1279px){.trb_allContentWrapper{max-width:980px}}
+     @media (min-width:1060px){.trb_bnn{right:140px}}@media (min-width:1575px){.trb_bnn{left:calc(50% - -60px)}}
+

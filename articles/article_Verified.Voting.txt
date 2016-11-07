@@ -1,0 +1,526 @@
+Verified Voting
+/*
+(function($) {
+
+   // we create a copy of the WP inline edit post function
+   var $wp_inline_edit = inlineEditPost.edit;
+   // and then we overwrite the function with our own code
+   inlineEditPost.edit = function( id ) {
+
+      // "call" the original WP edit function
+      // we don't want to leave WordPress hanging
+      $wp_inline_edit.apply( this, arguments );
+
+      // now we take care of our business
+
+      // get the post ID
+      var $post_id = 0;
+      if ( typeof( id ) == 'object' )
+         $post_id = parseInt( this.getId( id ) );
+
+      if ( $post_id > 0 ) {
+
+         // define the edit row
+         var $edit_row = $( '#edit-' + $post_id );
+
+         // get the release date
+	 var $site = $( '#site-' + $post_id ).text();
+
+	 // populate the release date
+	 $edit_row.find( 'input[name="site"]' ).val( $site );
+
+      }
+
+   };
+
+})(jQuery);
+*/
+
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.verifiedvoting.org\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+jQueryWP = jQuery;
+/* <![CDATA[ */
+var mailchimpSF = {"ajax_url":"https:\/\/www.verifiedvoting.org\/"};
+/* ]]> */
+
+/* <![CDATA[ */
+var RMRH_VALUES = {"loaderImageURL":"https:\/\/www.verifiedvoting.org\/wp-content\/plugins\/read-more-right-here\/loader\/ajax-loader.gif","duplicateLink":"","animateSpeed":"400","expandedText":"Close","loadDebugScript":"","pluginUrl":"https:\/\/www.verifiedvoting.org\/wp-content\/plugins\/read-more-right-here\/"};
+/* ]]> */
+
+var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.templates=a2a_config.templates||{};
+
+        jQuery(function($) {
+            $('.date-pick').each(function() {
+                var format = $(this).data('format') || 'mm/dd/yyyy';
+                format = format.replace(/yyyy/i, 'yy');
+                $(this).datepicker({
+                    autoFocusNextInput: true,
+                    constrainInput: false,
+                    changeMonth: true,
+                    changeYear: true,
+                    beforeShow: function(input, inst) { $('#ui-datepicker-div').addClass('show'); },
+                    dateFormat: format.toLowerCase(),
+                });
+            });
+            d = new Date();
+            $('.birthdate-pick').each(function() {
+                var format = $(this).data('format') || 'mm/dd';
+                format = format.replace(/yyyy/i, 'yy');
+                $(this).datepicker({
+                    autoFocusNextInput: true,
+                    constrainInput: false,
+                    changeMonth: true,
+                    changeYear: false,
+                    minDate: new Date(d.getFullYear(), 1-1, 1),
+                    maxDate: new Date(d.getFullYear(), 12-1, 31),
+                    beforeShow: function(input, inst) { $('#ui-datepicker-div').removeClass('show'); },
+                    dateFormat: format.toLowerCase(),
+                });
+
+            });
+
+        });
+    jQuery(window).load(function() { 
+                  jQuery(function(){                    jQuery("#radslide-1").cycle({ timeout:6000, speed:800, pager: '#slide-pager' }); })
+        });
+.su-spoiler-style-1 > .su-spoiler-title {
+    color: #00385A;
+    font-family: \\\\\\\'Vollkorn\\\\\\\',serif;
+    font-size: 21px;
+    font-weight: normal;
+  background-image: url(/wp-content/themes/verified_voting/img/icons/gen-icon-map.png);
+}
+
+
+
+
+  
+
+  
+    	
+  	  	
+  
+    
+      MENU
+      MENU
+    
+            
+    
+  	  
+  
+  	
+  	  
+  	       	     
+  	       
+  	   
+  	 	      
+  	
+  	   About
+VerifiedVoting.org
+	Verified Voting Foundation
+	Verified Voting in the News
+	Verified Voting Team
+	Board of Directors
+	Board of Advisors
+	Principles for New Voting Systems
+	Media Releases
+	Contact
+
+Resources
+Voting Equipment
+	Post Election Audits
+	Legislation
+	Internet Voting in the US
+	Internet Voting Outside the US
+	Voter Registration Technology
+
+Verifier
+Voting News
+Blog
+ 
+  		
+  		                Donate
+VV in 2015
+ 
+  		
+  		
+        
+  		 
+  	
+	
+
+   
+		   About
+VerifiedVoting.org
+	Verified Voting Foundation
+	Verified Voting in the News
+	Verified Voting Team
+	Board of Directors
+	Board of Advisors
+	Principles for New Voting Systems
+	Media Releases
+	Contact
+
+Resources
+Voting Equipment
+	Post Election Audits
+	Legislation
+	Internet Voting in the US
+	Internet Voting Outside the US
+	Voter Registration Technology
+
+Verifier
+Voting News
+Blog
+
+
+
+
+     
+     
+        
+
+				
+   
+    
+      
+        
+            
+                
+                
+            
+                
+                    
+                            Every Vote Counts
+                            The strength of our democracy relies on citizens' trust that each vote is counted as cast.
+                            Read More »
+                        
+                    
+                
+            
+        
+      
+    
+    
+    
+      
+        
+            
+                
+                
+            
+                
+                    
+                            The Machinery of Democracy
+                            Learn about how your vote is counted.
+                            Read More »
+                        
+                    
+                
+            
+        
+      
+    
+    
+    
+      
+        
+            
+                
+                
+            
+                
+                    
+                            What About Voting Online?
+                            Find out why Internet Voting is an idea whose time has not come.
+                            Read More »
+                        
+                    
+                
+            
+        
+      
+    
+    
+    
+      
+        
+            
+                
+                
+            
+                
+                    
+                            The Voting News
+                            The latest voting news from across the nation and around the world.
+                            Read More »
+                        
+                    
+                
+            
+        
+      
+    
+    
+
+      
+          
+            
+              
+              
+              	Search
+                Go
+              
+              
+              
+                  
+                    
+                      » Donate
+                    
+                  
+                  
+                    
+                      » Take Action
+                    
+                  
+              
+              
+                     					
+
+Time to #CheckYourReg!
+There have been confirmed instances of registration database breaches in Arizona and Illinois during the summer. Just to be sure, check your registration so you can confirm that you are on the voting rolls when you walk into your precinct on November 8 (or when voting early). Click Here to Confirm Your Voter Registration 
+
+
+					
+				
+
+How Will My Vote Be Counted?
+
+Verified Voting provides resources that allow you to find what voting equipment is used in each State, how the equipment works and laws and regulations in place across the country to promote transparent and verifiable elections. Click below to visit The Verifier interactive map, and our pages devoted to Voting Equipment, Post-Election Audits and Internet Voting.
+
+
+
+
+Safeguarding Elections in the Digital Age
+
+Verified Voting’s mission is safeguarding elections in the digital age. As a non-partisan organization working for accuracy, integrity and verifiability of elections, we work to ensure that the voice of those who understand technology are at the table when decisions about the use of technology in elections are being made. Verified Voting consists of two entities: VerifiedVoting.org and the Verified Voting Foundation. Click below to learn more.
+
+
+
+Is My State Prepared?
+
+In July 2012, the Verified Voting Foundation, Common Cause and the Rutgers University Law School released Counting Votes 2012: A State by State Look at Election Preparedness that reviews how prepared each state is to ensure that every eligible voter can vote, and that every vote is counted as cast. Does your State require paper ballots or records of every state? Does your State have contingency plans in the event of machine failure? Does your State protect military and overseas voters by ensuring that marked ballots are not cast online? Has your State instituted a post-election audit? Does your State use robust ballot reconciliation and tabulation practices? See how your State ranks.
+
+
+
+If I Can Bank Online, Why Can’t I Vote Online?
+
+There is widespread pressure around the country today for the introduction of some form of Internet voting in public elections that would allow people to vote online, all electronically, from their own personal computers or mobile devices. Proponents argue that Internet voting would offer greater speed and convenience, particularly for overseas and military voters and, in fact, any voters allowed to vote that way. However, computer and network security experts are virtually unanimous in pointing out that online voting is an exceedingly dangerous threat to the integrity of U.S. elections. There is no way to guarantee that the security, privacy, and transparency requirements for elections can all be met with any practical technology in the foreseeable future. Find out more at our Internet Voting Resource Page.
+
+
+ Download this page in PDF format
+
+
+
+							              
+                     
+          
+
+        
+      
+        
+        	
+        		
+        		
+            
+           
+						
+							
+							Submit
+						
+					
+      
+          The Voting News
+      
+  		        
+  		          Arizona: »Supreme Court Says Arizona Can Ban ‘Ballot Harvesting,’ | The New York Times
+  		           - Nov
+          			
+          			6,
+          			2016
+  		   		
+  		        
+  		          National: »There Are 868 Fewer Places to Vote in 2016 Because the Supreme Court Gutted the Voting Rights Act | The Nation
+  		           - Nov
+          			
+          			5,
+          			2016
+  		   		
+  		        
+  		          National: »U.S. Government: Hackers Ready to Hit Back If Russia Tries to Disrupt Election | NBC
+  		           - Nov
+          			
+          			4,
+          			2016
+  		   		
+  		        
+  		          Editorials: »Peace of Mind for a Tumultuous Election: Paper Trails and Risk-Limiting Audits | Arlene Ash and Mary Batcher/Huffington Post
+  		           - Nov
+          			
+          			4,
+          			2016
+  		   		
+  		        
+  		          National: »Scary Dogs! Rigged Machines! Votes From the Grave! This Election, Paranoia Reigns | The New York Times
+  		           - Nov
+          			
+          			4,
+          			2016
+  		   		 
+          Verified Voting Blog
+      
+  		        
+  		          Verified Voting Blog: »Trump’s claim the election is rigged is unfounded
+  		           - Oct
+          			
+          			21,
+          			2016
+  		   		
+  		        
+  		          Verified Voting Blog: »David Dill: Why Can’t We Vote Online? | KQED
+  		           - Oct
+          			
+          			7,
+          			2016
+  		   		
+  		        
+  		          Verified Voting Blog: »Andrew W. Appel: My testimony before the House Subcommittee on IT
+  		           - Oct
+          			
+          			3,
+          			2016
+  		   		
+  		        
+  		          Verified Voting Blog: »What are the post-Election Day procedures states can take to confirm the election went well?
+  		           - Sep
+          			
+          			23,
+          			2016
+  		   		
+  		        
+  		          Verified Voting Blog: »Which voting machines can be hacked through the Internet?
+  		           - Sep
+          			
+          			21,
+          			2016
+  		   		      
+
+	
+
+
+		
+  
+      
+        
+          
+            
+              
+                  VerifiedVoting.org
+                
+                
+                  Verified Voting Foundation
+                
+                
+                  The Verifier
+                
+                
+                  Blog
+                
+                
+                  The Voting News
+                
+                
+                  Take Action
+                
+                
+                  Donate
+                
+                
+                  Contact Us
+                
+              
+            
+                           © Copyright 2014, Verified Voting Foundation, Inc. All rights reserved, although reprint permission granted for nonprofit purposes with attribution to Verified Voting Foundation, Inc.
+            
+            
+                    
+        
+      
+    
+  
+    <!-- 
+        var sc_project=8418821; 
+        var sc_security="2da02394"; 
+      var sc_invisible=1;
+        var scJsHost = (("https:" == document.location.protocol) ?
+        "https://secure." : "http://www.");
+    //-->
+document.write("<sc"+"ript src='" +scJsHost +"statcounter.com/counter/counter.js'></"+"script>");
+   
+    
+			
+				jQuery(document).ready(function($) {
+					jQuery('#dc_jqaccordion_widget-7-item .menu').dcAccordion({
+						eventType: 'click',
+						hoverDelay: 0,
+						menuClose: false,
+						autoClose: false,
+						saveState: false,
+						autoExpand: false,
+						classExpand: 'current-menu-item',
+						classDisable: '',
+						showCount: false,
+						disableLink: true,
+						cookie: 'dc_jqaccordion_widget-7',
+						speed: 'fast'
+					});
+				});
+			
+				jQuery(document).ready(function($) {
+					jQuery('#dc_jqaccordion_widget-9-item .menu').dcAccordion({
+						eventType: 'click',
+						hoverDelay: 0,
+						menuClose: false,
+						autoClose: false,
+						saveState: false,
+						autoExpand: false,
+						classExpand: 'current-menu-item',
+						classDisable: '',
+						showCount: false,
+						disableLink: true,
+						cookie: 'dc_jqaccordion_widget-9',
+						speed: 'fast'
+					});
+				});
+			
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"https:\/\/www.verifiedvoting.org\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"sending":"Sending ...","cached":"1"};
+/* ]]> */
+
+/* <![CDATA[ */
+var JQLBSettings = {"fitToScreen":"0","resizeSpeed":"200","displayDownloadLink":"1","navbarOnTop":"0","loopImages":"","resizeCenter":"","marginSize":"0","linkTarget":"_self","help":"","prevLinkTitle":"previous image","nextLinkTitle":"next image","prevLinkText":"\u00ab Previous","nextLinkText":"Next \u00bb","closeTitle":"close image gallery","image":"Image ","of":" of ","download":"Download","jqlb_overlay_opacity":"80","jqlb_overlay_color":"#000000","jqlb_overlay_close":"1","jqlb_border_width":"10","jqlb_border_color":"#ffffff","jqlb_border_radius":"0","jqlb_image_info_background_transparency":"100","jqlb_image_info_bg_color":"#ffffff","jqlb_image_info_text_color":"#000000","jqlb_image_info_text_fontsize":"10","jqlb_show_text_for_image":"1","jqlb_next_image_title":"next image","jqlb_previous_image_title":"previous image","jqlb_next_button_image":"https:\/\/www.verifiedvoting.org\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/next.gif","jqlb_previous_button_image":"https:\/\/www.verifiedvoting.org\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/prev.gif","jqlb_maximum_width":"","jqlb_maximum_height":"","jqlb_show_close_button":"1","jqlb_close_image_title":"close image gallery","jqlb_close_image_max_heght":"22","jqlb_image_for_close_lightbox":"https:\/\/www.verifiedvoting.org\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/closelabel.gif","jqlb_keyboard_navigation":"1","jqlb_popup_size_fix":"0"};
+/* ]]> */
+

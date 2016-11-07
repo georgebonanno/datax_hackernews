@@ -1,0 +1,252 @@
+Hy - Wikipediadocument.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Hy","wgTitle":"Hy","wgCurRevisionId":746136292,"wgRevisionId":746136292,"wgArticleId":43723435,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Lisp (programming language)","Cross-platform free software","Lisp programming language family","All stub articles","Computing stubs"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Hy","wgRelevantArticleId":43723435,"wgRequestId":"WCCsDwpAADsAANHeu1EAAAEY","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q22661291","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","ext.pygments":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.desktopArticleTarget.init","ext.uls.interface","ext.quicksurveys.init","skins.vector.js"]);});		
+		
+		
+			
+
+							
+						
+
+			Hy
+									
+									From Wikipedia, the free encyclopedia
+								
+												
+					Jump to:					navigation, 					search
+				
+				This article is about the programming language Hy. For other uses, see HY.
+Hy
+
+Cuddles the cuttlefish
+
+Paradigm
+Multi-paradigm: procedural, functional, object-oriented, meta, reflective, generic
+Family
+Lisp
+Designed by
+Paul Tagliamonte
+First appeared
+2013
+
+Preview release
+
+0.11.0
+
+Scope
+lexical, optionally dynamic
+OS
+Cross-platform
+Filename extensions
+.hy
+Website
+hylang.org
+Hy (alternately, Hylang) is a dialect of the Lisp programming language designed to incorporate with Python by translating expressions into Python's abstract syntax tree (AST). Hy was introduced at PyCon 2013 by Paul Tagliamonte.[1]
+Similar to Clojure's mapping of s-expressions onto the JVM,[2] Hy is meant to operate as a transparent Lisp front end to Python's abstract syntax.[3] Because Lisp allows for operating on code as data, Hy can be used to write domain-specific languages.[4] Hy also allows for Python libraries (including the standard library) to be imported and accessed alongside Hy code with a compilation[note 1] step converting the data structure of both into Python's AST.[note 2][5][6]
+Example code[edit]
+From the language documentation:[7]
+
+
+=> (print "Hy!")
+Hy!
+=> (defn salutationsnm [name] (print (+ "Hy " name "!")))
+=> (salutationsnm "YourName")
+Hy YourName!
+
+See also[edit]
+Clojure
+Pixie (programming language)
+Notes[edit]
+^ "Compiled" is a term which may apply to expressing Hy code in Python's AST or converting that AST into bytecode, the latter being dependent on the particular Python interpreter used and not Hy.
+^ Hy is compatible with Python 2.6 to 3.4 and multiple Python interpreters (e.g. PyPy).
+References[edit]
+
+^ Paul Tagliamonte (2 April 2013). PyCon lightning talk (Speech). PyCon. Santa Clara. Retrieved 2 September 2014. 
+^ Turto, Tuukka (14 February 2014). "Programming Can Be Fun with Hy". Open Source For You. Retrieved 2 September 2014. 
+^ Edge, Jake (30 April 2014). "Getting Hy on Python". LWN.net. Retrieved 2 September 2014. 
+^ Paul Tagliamonte (11 April 2014). Getting Hy on Python: How to implement a Lisp front-end to Python (Speech). PyCon. Montreal. Retrieved 2 September 2014. 
+^ "Hy Documentation". hylang.org. Retrieved 3 September 2014. 
+^ Danjou, Julien (26 March 2014). "The AST". The Hacker's Guide to Python. pp. 165–172. 
+^ http://docs.hylang.org/en/latest/quickstart.html
+
+External links[edit]
+Documentation
+Github project
+Video of 2014 PyCon talk
+
+
+This computing article is a stub. You can help Wikipedia by expanding it.
+
+v
+t
+e
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Hy&oldid=746136292"					
+				Categories: Lisp (programming language)Cross-platform free softwareLisp programming language familyComputing stubsHidden categories: All stub articles				
+							
+		
+		
+			Navigation menu
+
+			
+									
+						Personal tools
+						Not logged inTalkContributionsCreate accountLog in						
+									
+										
+						Namespaces
+						Article
+															Talk
+													
+										
+												
+							Variants
+						
+
+						
+							
+					
+									
+				
+										
+						Views
+						Read
+															Edit
+															View history
+													
+										
+						More
+
+						
+							
+					
+										
+						
+							Search
+						
+
+						
+							
+							
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+
+			
+									Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store					
+		
+			
+			Interaction
+
+			
+									HelpAbout WikipediaCommunity portalRecent changesContact page					
+		
+			
+			Tools
+
+			
+									What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page					
+		
+			
+			Print/export
+
+			
+									Create a bookDownload as PDFPrintable version					
+		
+			
+			Languages
+
+			
+														Add links			
+		
+				
+		
+		
+							 This page was last modified on 25 October 2016, at 13:24.
+											Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+									Privacy policy
+											About Wikipedia
+											Disclaimers
+											Contact Wikipedia
+											Developers
+											Cookie statement
+											Mobile view
+									
+													
+											
+													
+									
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["ext.cite.a11y","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","mmv.bootstrap.autostart","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.centralNotice.geoIP","ext.centralNotice.startUp"]);});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set( {
+    "wgPageParseReport": {
+        "limitreport": {
+            "cputime": "0.144",
+            "walltime": "0.178",
+            "ppvisitednodes": {
+                "value": 625,
+                "limit": 1000000
+            },
+            "ppgeneratednodes": {
+                "value": 0,
+                "limit": 1500000
+            },
+            "postexpandincludesize": {
+                "value": 15782,
+                "limit": 2097152
+            },
+            "templateargumentsize": {
+                "value": 686,
+                "limit": 2097152
+            },
+            "expansiondepth": {
+                "value": 12,
+                "limit": 40
+            },
+            "expensivefunctioncount": {
+                "value": 1,
+                "limit": 500
+            },
+            "entityaccesscount": {
+                "value": 0,
+                "limit": 400
+            },
+            "timingprofile": [
+                "100.00%  156.746      1 -total",
+                " 39.06%   61.219      1 Template:Reflist",
+                " 36.93%   57.885      2 Template:Infobox",
+                " 33.64%   52.723      1 Template:Infobox_programming_language",
+                " 22.52%   35.305      2 Template:Cite_speech",
+                " 16.55%   25.935      1 Template:About",
+                "  9.80%   15.361      1 Template:Infobox_software/simple",
+                "  5.17%    8.101      1 Template:Compu-stub",
+                "  4.50%    7.050      1 Template:Asbox",
+                "  4.32%    6.776      2 Template:Cite_web"
+            ]
+        },
+        "scribunto": {
+            "limitreport-timeusage": {
+                "value": "0.070",
+                "limit": "10.000"
+            },
+            "limitreport-memusage": {
+                "value": 2807884,
+                "limit": 52428800
+            }
+        },
+        "cachereport": {
+            "origin": "mw1250",
+            "timestamp": "20161030231228",
+            "ttl": 2592000,
+            "transientcontent": false
+        }
+    }
+} );});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":49,"wgHostname":"mw1264"});});

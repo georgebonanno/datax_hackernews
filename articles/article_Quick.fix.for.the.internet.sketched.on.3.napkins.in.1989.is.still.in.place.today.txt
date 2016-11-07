@@ -1,0 +1,628 @@
+window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(u(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(2),u=t(3),c=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],p="api-",l=p+"ixn-";a(s,function(t,e){f[e]=o(p+e,!0,"api")}),f.addPageAction=o(p+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){d[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],2:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],3:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?u(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var s=f[m[n]];return s&&s.push([w,n,r,i]),i}function p(t,e){g[t]=l(t).concat(e)}function l(t){return g[t]||[]}function d(t){return s[t]=s[t]||o(n)}function v(t,e){c(t,function(t,n){e=e||"feature",m[n]=e,e in f||(f[e]=[])})}var g={},m={},w={on:p,emit:n,get:d,listeners:l,context:e,buffer:v};return w}function i(){return new r}var a="nr@context",u=t("gos"),c=t(2),f={},s={},p=e.exports=o();p.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!h++){var t=y.info=NREUM.info,e=s.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){c(m,function(e,n){t[e]||(t[e]=n)});var n="https"===g.split(":")[0]||t.sslForHttp;y.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=y.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=t("handle"),c=t(2),f=window,s=f.document,p="addEventListener",l="attachEvent",d=f.XMLHttpRequest,v=d&&d.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:d,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(1);var g=""+location,m={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},w=d&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),y=e.exports={offset:a(),origin:g,features:{},xhrWrappable:w};s[p]?(s[p]("DOMContentLoaded",i,!1),f[p]("load",r,!1)):(s[l]("onreadystatechange",o),f[l]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);Quick fix for an early Internet problem lives on a quarter-century later  | The Washington Post
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.washingtonpost.com\/sf\/business\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.7"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+#rs-demo-id {}
+
+/* <![CDATA[ */
+var ET_OM = {"omniture":"business\/technology","wp_page_num":"1 of 1","wp_blogname":"","wp_author":"Craig Timberg,Harry Campbell,Julio Negron","commercialNode":"\/technology\/internetseries"};
+/* ]]> */
+
+          var ET_ASSETS = {
+            'post_title': 'Net of insecurity Part 2',
+            'post_url': 'http://www.washingtonpost.com/sf/business/2015/05/31/net-of-insecurity-part-2/',
+          };
+        
+          var $ = jQuery.noConflict();
+         
+        
+            
+                
+                    
+                         
+                            Sections
+                            
+                        
+                    
+                    
+                        
+                            
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                
+            
+
+            
+                
+                    Net of insecurity Part 2
+                
+            
+
+
+                        
+            
+                
+                
+                    
+                        
+                            
+                                Share
+                                
+                            
+                        
+                        Facebook
+                          Twitter
+                          Email
+                        
+                
+
+                                    
+                        
+                            
+                                Net of Insecurity
+                                 
+                            
+                        
+                    
+                             
+
+                            
+                    
+                        
+                    
+                
+                    
+
+    	
+	
+					                
+        
+
+
+
+
+/*.span8.col h3 {
+    font-size: 180%;
+    font-family: "FranklinItcProThin","Helvetica","Arial", sans-serif;
+}*/
+.text-container.container {
+    top: 15%;
+    bottom: auto;
+left: 10%
+}
+
+.custom-video-wrapper .text-container h2, .custom-video-wrapper .custom-video-play-btn span{
+  -webkit-text-shadow: none;
+  -moz-text-shadow: none;
+  text-shadow: none;
+}
+
+/* /////////// these styles apply to all browser sizes unless overwritten in media queries //////////*/
+/* wrap the overlay-title div inside another div in order to center the text on the image */
+.overlay {
+    z-index: 3; /* ensures the text is on top of the photo */
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: left;
+    top: 35%; /* found the right top percentage by testing out different values in Inspect Element */
+    left: -25%;
+}
+.overlay-poster {
+    display: absolute;
+    text-align: left;
+    font-family: FranklinITCProBold;
+    font-size: 120%;
+    line-height: 0em;
+    color: white;
+    text-transform: uppercase;
+    border-bottom: solid 0px red;
+
+}
+.poster-wrapper {
+    display: inline-block;
+    background-color: none;
+    text-align:left;
+    padding: 0 -10px;
+    
+}
+.overlay-title {
+    color: black;
+    line-height: 47px; /* space between each line of text */
+   letter-spacing: .15em;
+    font-size: 350%;
+    font-family: PostoniTitling;
+    text-align: left;
+    margin-top: .3em;
+        
+} 
+.overlay-title.small {
+    color: white;
+    line-height: 25px; /* space between each line of text */
+   letter-spacing: .0em;
+    font-size: 23px;
+    font-family: FranklinITCProLight;
+    text-align: left;
+    margin-top: .3em;
+}
+
+/* /////////// these styles apply to browsers wider than 1200px /////////// */
+@media (min-width: 1500px) {
+    .overlay-title {
+        font-size: 450%;
+        line-height: 1em;
+    }
+}
+
+/* /////////// these styles apply to browsers 767px - 979px wide /////////// */
+@media (max-width: 979px) {
+    .overlay {
+        text-align: center;
+        position: relative; /* positions title below the photo instead of on top */
+        width: 724px; /* sets the width of the title  equal to the current width of the body copy as defined by the enterprise template */
+        display: block;
+        margin: 0 auto;
+        left: 50%;
+        right: 0%;
+    }
+    .overlay-title {
+        /* display: none; */ /* hide first overlay-title that includes line breaks */
+        font-family: PostoniTitling, Georgia, Times, serif;
+        color: white;
+        letter-spacing: .1em;
+        font-size: 350%;
+        margin-top: 15px;
+        text-align: left;
+        line-height: 105%;
+        
+    }
+    .overlay-poster {
+        color: white;
+left: 50%;
+    }
+    .overlay-title.small {
+        display: block;
+        color: white;
+        text-align: left;/* show second overlay-title that doesn't include line breaks */
+line-height: 105%; 
+font-size: 21px;
+    }
+}
+
+/* /////////// these styles apply to browsers smaller than 767px wide /////////// */
+@media (max-width: 767px) {
+   .overlay {
+      width: 100%;
+      text-align: center;
+      top: 0%; /* found the right top percentage by testing out different values in Inspect Element */
+      left: -15%;
+      right: 20%;
+    }
+    .overlay-poster {
+    color: black;
+text-align: left;
+line-height: 100%;
+    }
+.poster-wrapper {
+    display: inline-block;
+    background-color: none;
+    text-align:left;
+    padding: 0 -10px;
+}
+    .overlay-title {
+        font-size: 255%;
+        text-align: left;
+color: black;
+
+    }
+.overlay-title.small {
+        display: block;
+        color: black;
+        text-align: left;
+
+}
+
+    
+        
+           
+                
+                  
+                  net of insecurity
+                  The long life of a quick ‘fix’
+                  Internet protocol from 1989 leaves data vulnerable to hijackers
+                  
+                
+            
+            
+                
+                    Watch video
+                
+                or
+                
+                    Read story
+                    
+                
+            
+         
+        
+            
+            
+               
+    
+    
+        
+          
+          net of insecurity
+          The long life of a quick ‘fix’
+          Internet protocol from 1989 leaves data vulnerable to hijackers
+        
+    
+
+
+        
+                
+            
+              
+                                                
+            Story by
+                                                                                                Craig Timberg                                                                                                            
+                                
+            Illustration by
+                                                                                                Harry Campbell                                                                        
+                                
+            Photos and Video by
+                                                                                                Julio Negron                                                                        
+                      
+              Published on May 31, 2015
+              
+              
+              
+            
+            
+        
+By the time a pair of engineers sat down for lunch together in Austin, the Internet’s growing pains had become dire. Once a novelty for computer scientists, the network was now exploding in size, lurching ever closer to a hard mathematical wall built into one of the Internet’s most basic protocols.
+As the prospect of system meltdown loomed, the men began scribbling ideas for a solution onto the back of a ketchup-stained napkin. Then a second. Then a third. The “three-napkins protocol,” as its inventors jokingly dubbed it, would soon revolutionize the Internet. And though there were lingering issues, the engineers saw their creation as a “hack” or “kludge,” slang for a short-term fix to be replaced as soon as a better alternative arrived.
+        
+             The making of a vulnerable Internet: This story is the second of a multi-part project on the Internet’s inherent vulnerabilities and why they may never be fixed.
+Part 1: The story of how the Internet became so vulnerable.Part 3: These hackers warned the Internet would become a security disaster. Nobody listened.Part 4: How yesterday’s flaws are being built into tomorrow’s connected world.Part 5: The kernel of the argument.Read the eBook. The Threatened Net: How the Internet Became a Perilous Place
+        
+        
+That was 1989.
+More than a quarter-century later — a span that has seen the fall of the Berlin Wall, the rise of the smartphone and an explosion of hacking —  the “three-napkins protocol” still directs most long-haul traffic on the global network despite years of increasingly strenuous warnings about critical security problems. The three-napkins protocol has become the kludge that never died.
+“Short-term solutions tend to stay with us for a very long time. And long-term solutions tend to never happen,” said Yakov Rekhter, one of the engineers who invented the “three-napkins protocol.” “That’s what I learned from this experience.”
+            
+                
+                
+                
+            
+                
+The Internet can appear as elegantly designed as a race car as it immerses us in consuming worlds of sight and sound. But it’s closer to an assemblage of kludges — more Frankenstein than Ferrari — that endure because they work, or at least work well enough.
+The consequences play out across cyberspace every second of every day, as hackers exploit old, poorly protected systems to scam, steal and spy on a scale never before possible. The flaws they exploit often are well-known and ancient in technological terms, surviving only because of an industry-wide penchant for patching over problems rather than replacing the rot.
+“You’re in Hackerville here on the Internet. Period,” said Randy Bush, a computer scientist who specializes in routing security. “All of this stuff lacks formal discipline. . . . It’s paint and spackle.”
+Such is the story of the “three-napkins protocol,” more formally known as Border Gateway Protocol, or BGP.
+At its most basic level, BGP helps routers decide how to send giant flows of data across the vast mesh of connections that make up the Internet. With infinite numbers of possible paths — some slow and meandering, others quick and direct — BGP gives routers the information they need to pick one, even though there is no overall map of the Internet and no authority charged with directing its traffic.
+The creation of BGP, which relies on individual networks continuously sharing information about available data links, helped the Internet continue its growth into a worldwide network. But BGP also allows huge swaths of data to be “hijacked” by almost anyone with the necessary skills and access.
+The main reason is that BGP, like many key systems on the Internet, is built to automatically trust users — something that may work on smaller networks but leaves a global one ripe for attack.
+                                        
+            
+                        
+                    
+            
+                    
+            
+        
+
+                                                
+                                            
+                                                    Yakov Rekhter, one of the engineers who invented the Border Gateway Protocol, says network operators will be reluctant to deploy stronger security measures until they see the benefits outweighing the costs.                                                                            (Yana Paskova for The Washington Post)
+                                                
+                                    
+                            
+                    
+                    
+The honor system
+Hijackings have become routine events that even experts struggle to explain: What made traffic between two computers in Denver take a 7,000-mile detour through Iceland? How could a single Pakistani company crash YouTube? Why did potentially sensitive Pentagon data once flow through Beijing?
+To these questions, there are technical answers. But they all boil down to this fact: BGP runs on the honor system, allowing data to get pushed and pulled across the planet in curious ways, at the behest of mysterious masters.
+                
+        Border Gateway Protocol
+        
+            Rules that help routers decide how to send data across the Internet. Networks rely on the regular transmission of BGP messages to determine the best way to navigate billions of possible paths to a data packet’s intended destination. It has significant security weaknesses that an updated version, called BGPSEC, is attempting to fix.
+        
+    
+                
+Warnings about the risks inherent in BGP are almost as old as the protocol itself. “I knew that routing security was a problem,” Columbia University computer scientist Steven M. Bellovin said. “Seeing this conceptually is fairly easy and straightforward. Sorting it out in terms of the engineering is fiendishly difficult.”
+Rekhter, an immigrant to the United States who once played in an underground rock band in the Soviet Union, said security “wasn’t even on the table” when he sat down with his soft-spoken co-inventor, Kirk Lougheed, for lunch during an engineering conference in January 1989.
+This was an era when hacks were rare and the toll modest. Lougheed recalled: “In the early days of the Internet, getting stuff to work was the primary goal. There was no concept that people would use this to do malicious things. . . . Security was not a big issue.”
+The big issue of the day was the possibility that the Internet might break down. A halt in its furious expansion would have hurt the network’s users and the profits of companies supplying gear and services. Rekhter at the time worked for computing giant IBM; Lougheed was a founding employee of Cisco, maker of networking hardware.
+“We needed to sell routers. And we had a strong economic motive to make sure this party would continue,” Lougheed said. “When Yakov and I showed up with a solution and it seemed to work, people were quite willing to accept it because they didn’t have anything else.”
+There were other efforts underway to build routing protocols. BGP won out because it was simple, solved the problem at hand and proved versatile enough to keep data flowing as the Internet doubled in size, again and again and again. Networks across the world embraced the protocol, giving it an edge it has never relinquished.
+Once technologies are widely deployed, they become almost impossible to replace because many users — including paying customers of technology companies — rely on them and resist buying costly new hardware or software. The result can be a steady buildup of outdated technology, one layer on top of another. It’s as if today’s most important bank vaults sit on foundations of straw and mud.
+Pakistan crashes YouTube
+In an online world rife with insecurity, the problems with BGP are among the most confounding. For a taste of why, visit the third floor of a drab office block on the outskirts of Hanover, N.H. There, Doug Madory spends his days marveling at the crazy things that happen on the Internet — a man-made creation that increasingly defies human understanding.
+Madory and his colleagues at Dyn, an online performance research firm, attempt to make sense of the madness by sending 450 million trace routes each day to track how the Internet is flowing. He compares the trace routes — tiny bits of data set loose online — to pieces of dust whose movements reveal larger forces at work.
+One recent day, Madory was trying to figure out why some Chinese Internet traffic was flowing through Belarus. Another day, it was British Internet traffic — including some intended for that nation’s Atomic Weapons Establishment, a nuclear weapons laboratory — flowing through Ukraine. Both cases, Madory figured, probably were the results of mistakes, but there was no way to be sure.
+“This happens all day long,” says Madory, a gregarious former Air Force officer with short hair and stylish, squared-off eyeglasses. “Anything can happen, and it usually does.”
+Diversions of Internet traffic, even unintentional ones, can cause massive problems throughout the network. Perhaps the most famous accident came in February 2008, when a Pakistani Internet provider tried to block YouTube after the government deemed a video’s depiction of the prophet Muhammad offensive.
+When the Pakistani company attempted to carry out the government’s order, it made a mistake in configuring its BGP messages to the rest of the Internet. The result was that most of YouTube’s worldwide traffic was sent to Pakistan. The crush of data overwhelmed the servers there and disrupted YouTube for two hours.
+            
+                
+                
+                
+            
+                
+But the bigger issue is the potential for intentional hijackings.
+An unknown hacker managed to take control of traffic destined for more than a dozen Internet companies, including Amazon and Alibaba, in a series of brief hijackings between February and May 2014. The goal was to steal the online currency bitcoin. By the time the hack was discovered, $83,000 worth of bitcoins had disappeared — mysteriously snatched from the hijacked Internet traffic — according to a report by Dell SecureWorks.
+Such redirections can leave evidence in the network that can be tracked by analytics services such as Dyn (formerly called Renesys), but the most sophisticated attackers can mask their identities when manipulating BGP, experts say. And even when a hijacking’s source is obvious, it can be difficult to discern motives.
+The Chinese diversion of U.S. military traffic for 18 minutes in April 2010 is one of the most carefully studied incidents in the long history of BGP insecurity, but experts still debate whether it was intentional. It started when China Telecom, a government-owned telecommunications giant, sent out a BGP message claiming to provide the best routes to tens of thousands of networks worldwide, including 16,000 from the United States.
+With no system in place to check the veracity of the BGP message from China Telecom, routers worldwide began sending data to Beijing, on the other side of the planet. Among those affected were U.S. government sites for the Army, Navy, Air Force and Marines.
+The BGP message was corrected, and Dyn and other research groups have concluded that it was most likely an accident. Yet the apparent ease of that hijacking — and the shortage of effective protections against a recurrence — alarmed U.S. officials.
+The Chinese government could have used the tactic to analyze military data for passwords, encrypted communications and more. Or the Chinese could have made copies of all the data for later analysis. A BGP hijacking, experts warn, is like a traditional hack on steroids, allowing the theft of data on an uncommonly large scale.
+There is another dangerous possibility lurking in BGP, what Madory calls the “dystopian possibility” that some network — perhaps in a moment when international hostilities are spilling into cyberspace — intentionally claims control of sections of the Internet that don’t belong to it.
+Such a move would confuse the world’s routers, which would have to choose between rival claims to the same blocks of Internet addresses. The overall network, unable to discern truth amid competing claims, could fracture into rival fiefdoms.
+This would be the Internet’s equivalent of “the nuclear option,” an escalation of hostilities that’s technically possible but perhaps hard to imagine — at least in times of relative peace. The consequences for the functioning of the Internet as a seamless global network could be impossible to reverse.
+“It could kind of just devolve,” Madory says. “What keeps it from devolving? Nothing.”
+                
+        ARPANET
+        
+            A pioneering computer network built by the Pentagon’s Advanced Research Projects Agency (ARPA). Established in 1969, it eventually linked together more than 100 universities and military sites, becoming the forerunner to today’s Internet.
+        
+    
+                
+‘Knee-deep in alligators’
+The creators of BGP were hardly the first inventors to sketch out their initial ideas quickly and crudely, only to refine them later through real-world testing. Speed, nimbleness and pragmatism were hallmarks of Internet development in its early decades, fueling both its exponential growth and its ability to outcompete rival technologies whose development was more formal and — perhaps inevitably — more ponderous as well.
+David D. Clark, an MIT scientist who oversaw Internet protocol development for years, captured the idea in a widely quoted 1992 presentation, saying: “We reject kings, presidents and voting. We believe in rough consensus and running code” — meaning solutions that work and have been widely embraced.
+This approach did not always encourage long-term planning for eventual security threats as the Internet attracted a growing universe of users, including many whose motives were quite different from those of the academics who first embraced modern computer networking technology in the 1970s and ’80s.
+By the time Rekhter and Lougheed created BGP, there had been several serious incidents. But the kind of constant, high-stakes hacking that bedevils today’s online world had not begun. The idea of cyber-warfare remained science fiction.
+The problems facing networking engineers, by contrast, were real and immediate. The ARPANET — the Internet’s most important predecessor, created by a Pentagon research agency — was about to be shut down after two decades. Other major networks were struggling with a problem called “looping,” in which data spun around in maddening circles, sapping computing resources before vanishing entirely.
+Yet the biggest problem was the strict mathematical limit on the Internet’s size, as written into the forerunner to BGP, called EGP, for Exterior Gateway Protocol. It could handle only a fixed number of network addresses. Even one more could knock systems off line.
+“Everybody was just so knee-deep in alligators that they just needed to get something together quickly,” said Noel Chiappa, a retired networking researcher. “They didn’t have the time to look long-term.”
+BGP was an immediate improvement, allowing the Internet to continue its explosive growth while setting the stage for the arrival of the World Wide Web soon after. Rekhter and Lougheed, among others, still marvel at how durable their invention has proved. They had imagined BGP sorting through a few thousands possible routes on the Internet. Now there are a hundred times that many.
+That future, Rekhter said, “was well beyond our wildest imagination.”
+                                        
+            
+                        
+                    
+            
+                    
+            
+        
+
+                                                
+                                            
+                                                    Kirk Lougheed, one of the co-creators of BGP and a founding employee of Cisco, says security will be taken seriously when the lack of it becomes a “significant cost to doing business. … At this point, people are just patching their way through it, keeping one step ahead of the bad guys.”                                                                            (Nick Otto for The Washington Post)
+                                                
+                                    
+                            
+                    
+                    
+Networks with no maps
+The Internet is a network of networks, each of which has physical, real-world manifestations in racks of servers that sit in data centers in such places as Ashburn, Va., and Santa Clara, Calif. Networks also have online real estate consisting of blocks of IP addresses they control, signifying their patch of cyberspace.
+The biggest networks, operated by telecommunications giants such as Verizon and AT&T, typically carry the heaviest loads of data. They are the airlines of cyberspace, capable of quickly hauling traffic long distances over fiber-optic lines before handing it off to smaller networks, which function more like neighborhood roads. The smaller networks, such as a university’s computer system or a local Internet provider, typically deliver traffic on its final leg to individual computers or other devices such as smartphones.
+                
+        IP address
+        
+            A distinctive numeric code denoting a unique connection to the Internet. Much like a physical street address, an IP address is essential to getting data packets to their intended destinations.
+        
+    
+                
+The result of this architecture — with many networks of varying sizes yet no single entity in charge of directing traffic — is a vast mesh of connections that offers virtually infinite numbers of ways to send data between two points. BGP helps routers choose one, even though the network is constantly changing and popular routes often get clogged with traffic.
+The problem: There is no map. Routers using BGP make routing decisions based on information provided by their neighbors in cyberspace, which in turn gather information from their neighbors in cyberspace, and so on. This works well so long as the information — contained in messages called BGP “advertisements” — is accurate.
+Any false information can spread almost instantly across the Internet because there is no way to check the honesty, or even the identity, of those making the advertisements. A network that delivers bad information repeatedly may get noticed, and the operators of other networks can try to block out such troublemakers through a technique called “filtering.” But such protections are often overmatched.
+Such an obvious problem, Lougheed said, would never be tolerated in today’s more security-conscious world. “If somebody comes up with a design that doesn’t anticipate deception, they get beat up and sent back to the drawing board,” he said.
+Whether the cause is intentional deception or an accident, the results are the same: Internet traffic gets diverted, often by thousands of miles. Sometimes it eventually finds its way to the proper destination, causing only delays in transmission. Sometimes the data gets stolen by hackers. Sometimes it just disappears altogether into the cyberspace equivalent of the Bermuda Triangle.
+Unstoppable momentum
+Though Rekhter and Lougheed did not focus on this danger when they created BGP, at least one other networking engineer did worry about it. Radia Perlman, once dubbed “the mother of the Internet” for her invention of another important networking protocol, wrote a prophetic doctoral dissertation for MIT in 1988, the year before Rekhter and Lougheed created BGP. She predicted that a protocol that depends on the honesty and accuracy of neighbors in cyberspace was doomed to insecurity.
+She and several other critics favored alternatives that gave routers a map of the most important connections — the equivalent of a global chart of air links. Perlman also favored using cryptography to verify the identities of networks, limiting the potential for lying and limiting the damage from mistakes.
+But BGP had unstoppable momentum. “Once people get used to it, there’s extreme resistance to replacing it,” said Perlman, who expressed regret that engineers working on better alternatives didn’t move more swiftly. “Unfortunately, the other group didn’t really feel a sense of urgency. It’s just the BGP people deployed something first.”
+Rekhter and others continued improving BGP, implementing the final version of the protocol in 1994. Hijackings of data already had begun, making clear the need for a more secure alternative, but years of work failed to produce one that could supplant BGP.
+            
+                
+                
+                
+            
+                
+“All these proposals have died on the vine,” said Tony Li, an engineer who worked with Rekhter on refining BGP.
+Concern about the security risks inherent to BGP grew in the aftermath of the Sept. 11, 2001, terrorist attacks. Computer scientist Vinton G. Cerf, one of the Internet’s most important founding architects, joined another networking pioneer, Stephen Kent, in urging federal government action. They met with President George W. Bush’s special adviser on cybersecurity, Richard A. Clarke, at the Eisenhower Executive Office Building, next to the White House.
+Clarke soon convened a meeting with top industry executives in hopes of prompting action, but they did not share Cerf and Kent’s urgency — or Clarke’s. Years passed without significant progress.
+“They basically said, ‘It’s not that big of a problem,’ ” Kent recalled. “So we tried, but people just blew us off.”
+Clarke said in a recent interview that he was not surprised by the lukewarm reaction from the tech industry. He had been tipped off to the risks of BGP a few years earlier by a Boston-based hacker group called L0pht, which had pointedly warned federal officials that the Internet was shockingly insecure.
+That led Clarke to carry concerns about BGP to other White House officials and key players within the industry. In his 2008 book “Your Government Failed You,” he described visiting a top industry executive who, when Clarke pressed about the risks of BGP, asked him to write the name on a piece of paper.
+“I don’t think I have ever heard of that,” Clarke recounted the executive saying in his book, “but if you say there is a vulnerability with it that affects our routers, I will check up on it.”
+Clarke expressed amazement in his book that the head of a company that “had made billions” producing products that used BGP had not heard of it, yet Clarke did not identify the executive by name.
+But in a recent interview with The Washington Post, Clarke said that meeting had been with John Chambers, the longtime chief executive of Cisco, which at the time was one of the world’s most valuable companies and the dominant player in the market for routers that communicated using BGP.
+Cisco declined to comment.
+        
+          
+              
+                  
+            
+                
+                    
+            
+        
+            
+                
+                    
+            
+        
+              
+          
+                        
+              
+                  In 1989, Yakov Rekhter and Kirk Lougheed sketched on three napkins their plan for routing data across the Internet. The “three-napkins protocol,” officially known as the Border Gateway Protocol, was intended to be a quick fix but still governs how long-haul traffic flows through cyberspace. Rekhter’s re-creation of those sketches is seen here.        
+              
+              
+                  
+        
+‘No one was buying’
+Industry skepticism was rooted in the idea that security was a bad bet for business. Nobody liked to get hacked, but companies were not legally liable for the damages. Protective measures, meanwhile, carried costs that few wanted to pay, such as limited features, slowed performance or higher sticker prices for gear and software.
+Companies that experimented with products that had extra security features, such as built-in encryption, found little interest from consumers who had cheaper, easier alternatives available, said Robert Metcalfe, founder of 3Com, a former networking hardware maker.
+“No one would buy the secure versions,” Metcalfe said. “We built it, and we tried to sell it, and no one was buying.”
+The pace of action on fixing BGP picked up after the April 2010 incident involving U.S. military traffic flowing through Beijing. A major push has come from the Department of Homeland Security, which has spent $8 million over the past four years on efforts to develop and deploy secure BGP technology. “This is part of our continuous efforts to increase the overall security of core Internet services that everybody uses,” DHS spokesman S.Y. Lee said.
+The first step toward better BGP security has been a new system of secure cryptographic keys for networks, allowing them to authenticate their identities in cyberspace and make clear what networks they ordinarily handle traffic for.
+Once such a system is in place, it would be difficult for a Pakistani Internet provider, for example, to claim YouTube’s traffic. Routers would simply ignore faulty BGP messages, concluding they were erroneous.
+But getting network operators to participate is proving difficult. Many already employ filters that limit exposure to false BGP messages. That approach offers only partial protection, but it’s easier than using cryptographic keys. Many network operators also are cool to taking the further step of adopting a secure new routing protocol called BGPSEC to replace BGP.
+        
+                                    
+                                            How data travels across the Internet
+                                        
+                                            
+                
+                                    
+                                
+            
+                                    
+                                                    
+                                            
+                                                    Click the image for a graphic.                                                                        
+                                    
+                            
+        
+Many networking engineers say that BGP, even after a quarter-century and countless hijackings, remains far more notable for its successes than its failures. It helped the Internet become a truly global, seamless, world-changing communications technology in which no overarching authority dictates who can use it and how.
+That decentralized way of making decisions, which is more essential to the Internet than any single protocol, also means security improvements require many individual actions by networks, site operators and users. Each must weigh the value of a change, then proceed. Or not.
+“There is a cost associated with doing security. And the question is: Who is going to pay the price?” said Rekhter, now retired. “Unless [network] operators can see that the benefits will generally outweigh the costs, they just won’t deploy it.”
+Lougheed, too, is a skeptic. “If lack of security becomes a significant cost to doing business, a lot of people will be interested in fixing the problem. At this point, people are just patching their way through it, keeping one step ahead of the bad guys.”
+The level of enthusiasm for implementing new BGP security measures indeed varies widely across the world. In Europe and the Middle East collectively, almost 9 percent of networks have taken the first step of acquiring cryptographic keys for identifying themselves in cyberspace. Latin America is doing better, with 24 percent of networks acquiring cryptographic keys. North America and Africa are doing much worse, with less than 1 percent. The overall global picture, including Asia, is 5 percent.
+The goal, of course, is 100 percent. No one knows how long that will take.
+“You might laugh to see 5 percent, but do you know how much work it took to get here?” said Sharon Goldberg, an associate professor of computer science at Boston University who studies routing security issues.
+As for how much longer full deployment will take, she added bluntly, “Whether it’s going to be five years or 10 years or 20 years, I don’t know.”
+For now — after years of warnings by Perlman, Bellovin, Kent, Clarke and many others — perhaps the most telling statistic is the percentage of Internet traffic currently secured by the new system of cryptographic network keys: zero.
+                
+        Border Gateway Protocol
+        
+            Rules that help routers decide how to send data across the Internet. Networks rely on the regular transmission of BGP messages to determine the best way to navigate billions of possible paths to a data packet’s intended destination. It has significant security weaknesses that an updated version, called BGPSEC, is attempting to fix.
+        
+    ARPANET
+        
+            A pioneering computer network built by the Pentagon’s Advanced Research Projects Agency (ARPA). Established in 1969, it eventually linked together more than 100 universities and military sites, becoming the forerunner to today’s Internet.
+        
+    IP address
+        
+            A distinctive numeric code denoting a unique connection to the Internet. Much like a physical street address, an IP address is essential to getting data packets to their intended destinations.
+        
+    
+                
+						
+								
+			
+							                            
+						 
+					 
+                    				 
+				            
+            
+            
+            
+                Credits
+                                                
+            Story by
+                                                                                                Craig Timberg                                                                                                            
+                                
+            Illustration by
+                                                                                                Harry Campbell                                                                        
+                                
+            Photos and Video by
+                                                                                                Julio Negron                                                                        
+                    
+            
+                          
+                  
+                  
+              
+                        
+            
+            
+            
+            
+            
+            
+        			 
+		 
+		
+			
+	            	            	            
+	            	            			            
+		                Part 1 A flaw in the design
+		                   			                    	Part 2 The long life of a quick 'fix'
+		                   			                    	Part 3 A disaster foretold — and ignored
+		                   			                    	Part 4 Hacks on the highway
+		                   			                    	Part 5 The kernel of the argument
+		                   			                
+		                    About the series
+		                    This is a multi-part project on the Internet’s inherent vulnerabilities and why they may never be fixed.
+		                
+		            
+		        	        
+        
+        
+            Video
+                Politics
+                Opinions
+                Local
+                Sports
+                National
+                World
+                Business
+                Tech
+                Lifestyle
+                Entertainment
+                Classifieds
+                Jobs
+                Real Estate
+                Events
+			
+				washingtonpost.com
+				© 1996-2016 The Washington Post
+				Terms of Service
+				Privacy Policy
+				Submission and Discussion Policy
+				RSS Terms of Service
+				Ad Choices
+			
+		
+		       
+        // Omniture variables
+        var wp_page_name = 'business:article - 20150531 - net-of-insecurity-part-2';
+        var wp_track_scrolling = true;
+
+        // etc.
+        // chartbeat variables
+        _sf_async_config={
+          sections: wp_channel,
+          path:document.location.pathname, // defaults to document.location.pathname if you don't pass it.
+          title:document.title,
+          useCanonical:true // defaults to true if you don't pass it.
+        };
+        
+          //TWP.Analytics.init();
+          // FOR PREPRODUCTION
+          //TWP.Analytics.init( {suite:"preproduction",service:{omniture:true,omnitureTest:false,comscore:false,chartbeat:false}} );
+          TWP.Analytics.init({suite:"production"});
+        
+        
+        
+        
+        
+        
+      
+    $('h1.screen-reader-text').remove();
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"707aabbc5c","applicationID":"4157428","transactionName":"MlABYUsACEJXARVaXgsaIlZNCAlfGQsPV1Qd","queueTime":0,"applicationTime":578,"ttGuid":"","agentToken":"","atts":"HhcCFwMaG0w=","errorBeacon":"bam.nr-data.net","agent":""}

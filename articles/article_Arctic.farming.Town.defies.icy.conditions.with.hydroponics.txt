@@ -1,0 +1,1087 @@
+News from The Associated Press
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+    var gads = document.createElement('script');
+    gads.async = true;
+    gads.type = 'text/javascript';
+    var useSSL = 'https:' == document.location.protocol;
+    gads.src = (useSSL ? 'https:' : 'http:') + 
+    '//www.googletagservices.com/tag/js/gpt.js';
+    var node = document.getElementsByTagName('script')[0];
+    node.parentNode.insertBefore(gads, node);
+    })();
+    
+    googletag.cmd.push(function() {
+    googletag.defineSlot('/15786418/Hosted1_customer/' + 'AP' + '/rectangle1', [300, 250], 'APHosted1Ad-Rectangle1').addService(googletag.pubads());
+    googletag.defineSlot('/15786418/Hosted1_customer/' + 'AP' + '/rectangle2', [300, 250], 'APHosted1Ad-Rectangle2').addService(googletag.pubads());
+googletag.defineSlot('/15786418/Hosted1_customer/' + 'AP' + '/banner', [[970, 250], [728, 90], [970, 90]], 'banner').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+    });
+    
+function SelectChanged()
+    {
+    var index = document.form1.select1.selectedIndex;
+    if (index == 1) window.location = "http://www.apbroadcast.com";
+    if (index == 2) window.location = "http://www.ENPS.com";
+    if (index == 3) window.location = "http://www.aptn.com";
+    if (index == 4) window.location = "http://www.apdigitalnews.com";
+    if (index == 5) window.location = "http://apnews.com/";
+    if (index == 6) window.location = "http://www.apads.biz";
+    if (index == 7) window.location = "http://www.adsend.com/infopages/public/index.htm";
+    if (index == 8) window.location = "http://www.apwideworld.com/";
+    if (index == 9) window.location = "http://photoarchive.ap.org";
+    if (index == 10) window.location = "http://www.ap-online.de";
+    if (index == 11) window.location = "http://www.ap.org/francais/";
+    if (index == 12) window.location = "http://www.ap.org/italia/";
+    }
+
+//-->
+    
+    
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+    
+    
+        
+            
+            
+                
+                    
+                        
+                
+                
+                    
+                        
+                
+                
+                    
+                        
+
+
+$(document).ready(function(){
+$( "#block-block-36" ).insertAfter( ".menuLinks" );
+});
+
+
+AP Radio
+
+AP Radio News:
+ 
+Your browser does not support the audio element. 
+
+
+
+
+
+
+
+
+
+audio
+{ 
+float: right; 
+display: block;
+margin-top: -26px;
+width: 300px;
+height: 45px
+
+} 
+
+
+p.audio
+{
+border-bottom-color: #333;
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0 0 0 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100% 100% 100% 100%;
+border-image-source: none;
+border-image-width: 1 1 1 1;
+border-left-color: #333;
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: #333;
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: #333;
+border-top-style: none;
+border-top-width: 0px;
+box-sizing: border-box;
+color: #333;
+cursor: auto;
+font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+font-feature-settings: normal;
+font-kerning: auto;
+font-language-override: normal;
+font-size: 16px;
+font-size-adjust: none;
+font-stretch: normal;
+font-style: normal;
+font-synthesis: weight style;
+font-variant: normal;
+font-variant-alternates: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-variant-position: normal;
+font-weight: 400;
+line-height: 45px;
+margin-bottom: 20px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: -17px;
+outline-color: #333;
+outline-style: none;
+outline-width: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+text-rendering: optimizelegibility;
+vertical-align: baseline;
+-moz-border-bottom-colors: none;
+-moz-border-left-colors: none;
+-moz-border-right-colors: none;
+-moz-border-top-colors: none
+
+}
+
+
+#externalimage {
+    position: absolute;
+    top: 17px;
+    width: 28px;
+    right: 179px;
+    color: white;
+}
+
+
+ @media only screen and (max-device-width: 480px) {
+   /* define mobile specific styles come here */
+#block-block-36 
+{ 
+height: 70px; 
+width: 300px; 
+float: right
+}
+
+audio
+{ 
+float: left;
+display: block;
+margin-top: -20px;
+width: 250px;
+height: 45px
+
+} 
+
+#externalimage
+{
+ position: absolute;
+right: 5px;
+width: auto;
+height: auto
+}
+
+
+ }
+
+
+
+
+            
+        
+        
+        
+            Big Story
+			Top News
+				
+				Headlines
+				U.S.
+				World
+					Business
+					Markets
+					Technology
+					Sports
+					Entertainment
+					Health
+					Science
+					Politics
+				
+			
+			Special Coverage
+				
+				NFL
+					College Football
+					College Basketball
+					Auto Racing
+					Winter Games
+					Oddities
+					Weather
+					Raw News
+					Corrections			
+				
+			
+			Archive
+			
+			ESPAÑOL	
+					
+				Generales
+					Financieras
+					Deportivas
+					Espectáculos
+				
+			
+			Video
+			
+Radio
+			
+
+		
+            
+                
+            
+        
+        
+        
+        
+            
+
+                
+                		googletag.cmd.push(function() { googletag.display('banner'); });
+                
+        
+        
+        
+        
+            
+            
+                
+                    
+                        
+
+
+var ap_headline = "__HEADLINE__";
+var hosted_site = "AP";
+var trackingGroup = "";
+
+switch(hosted_site)
+{
+
+case "TXABI":  
+ 	trackingGroup= "90459";
+	break;
+  case  "PAALM":	
+	trackingGroup= "90364";
+	break;
+   case   "GASTA":	
+	trackingGroup=  "90683";
+	break;
+ case   "TXAMA":	
+	trackingGroup=  "90582";
+	break;
+ case   "ARLID":	
+	trackingGroup=  "90554";
+	break;
+ case   "GAATH":	
+	trackingGroup=  "90604";
+	break;
+ case   "GAAUG":	
+	trackingGroup=  "90612";
+	break;
+ case   "TXAUS":	
+	trackingGroup=  "90105";
+	break;
+case   "MTBOZ":	
+	trackingGroup=  "90721";
+	break;
+case   "PABUT":	
+	trackingGroup=  "90433";
+	break;
+case   "FLCAP":	
+	trackingGroup=  "90364";
+	break;
+case   "TXCOR":	
+	trackingGroup=  "90550";
+	break;
+case   "VACUL":	
+	trackingGroup=  "90527";
+	break;
+case   "IAWEB":	
+	trackingGroup=  "90364";
+	break;
+case   "MIESC":	
+	trackingGroup=  "90364";
+	break;
+ case   "VADAR":	
+	trackingGroup=  "90528";
+	break;
+ case   "ALDOT":	
+	trackingGroup=  "90510";
+	break;
+   case   "PAERI":	
+	trackingGroup=  "90464";
+	break;
+  case   "IAEST":	
+	trackingGroup=  "90364";
+	break;
+case   "IAEST":	
+	trackingGroup=  "90049";
+	break;
+case   "NCHIC":	
+	trackingGroup=  "90518";
+	break;
+case   "TXHOU":	
+	trackingGroup=  "90000";
+	break;
+case   "NCCON":	
+	trackingGroup=  "90517";
+	break;
+case   "JRC":	
+	trackingGroup=  "90734";
+	break;
+case   "WIKEN":	
+	trackingGroup=  "90233";
+	break;
+case   "WABRE":	
+	trackingGroup=  "90552";
+	break;
+case   "MOCAG":	
+	trackingGroup=  "90589";
+	break;
+case   "NDMIN":	
+	trackingGroup=  "90364";
+	break;
+case   "FLNAP":	
+	trackingGroup=  "90542";
+	break;
+case   "INBNB":	
+	trackingGroup=  "90605";
+	break;
+ case   "ALOPE":	
+	trackingGroup=  "90514";
+	break;
+case   "MNROC":	
+	trackingGroup=  "90379";
+	break;
+case   "VARIT":	
+	trackingGroup=  "90535";
+	break;
+case   "FLSAR":	
+	trackingGroup=  "90492";
+	break;
+case   "INSBT":	
+	trackingGroup=  "90575";
+	break;
+case   "MNPAU":	
+	trackingGroup=  "90156";
+	break;
+case   "TXSAN":	
+	trackingGroup=  "90551";
+	break;
+case   "CAPAS":	
+	trackingGroup=  "90494";
+	break;
+case   "TNMEM":	
+	trackingGroup=  "90547";
+	break;
+case   "MSCCD":	
+	trackingGroup=  "90135";
+	break;
+case   "OHFIN":	
+	trackingGroup=  "90421";
+	break;
+case   "OHCAM":	
+	trackingGroup=  "90249";
+	break;
+case   "MIHOU":	
+	trackingGroup=  "90364";
+	break;
+case   "MIIRO":	
+	trackingGroup=  "90364";
+	break;
+case   "VACHA":	
+	trackingGroup=  "90526";
+	break;
+case   "NCFAY":	
+	trackingGroup=  "90364";
+	break;
+case   "wvwhe":	
+	trackingGroup=  "90364";
+	break;
+case   "TNKNN":	
+	trackingGroup=  "90542";
+	break;
+case   "OHMAR":	
+	trackingGroup=  "90364";
+	break;
+case   "HIMAN":	
+	trackingGroup=  "90364";
+	break;	
+case   "NCMAR":	
+	trackingGroup=  "90519";
+	break;	
+case   "MIMAR":	
+	trackingGroup=  "90364";
+	break;	
+case   "VALYD":	
+	trackingGroup=  "90532";
+	break;	
+case   "VAWAY":	
+	trackingGroup=  "90538";
+	break;	
+case   "SCCHA":	
+	trackingGroup=  "90349";
+	break;	
+case   "NYJAP":	
+	trackingGroup=  "90364";
+	break;	
+case   "OHEAS":	
+	trackingGroup=  "90249";
+	break;	
+case   "OHSAL":	
+	trackingGroup=  "90364";
+	break;	
+case   "ILSPR":	
+	trackingGroup=  "90108";
+	break;	
+case   "GAGAI":	
+	trackingGroup=  "90079";
+	break;	
+case   "WVWEI":	
+	trackingGroup=  "90364";
+	break;
+case   "PAWIL":	
+	trackingGroup=  "90087";
+	break;
+case   "NYALT":	
+	trackingGroup=  "90001";
+	break;	
+case   "WAKR":	
+	trackingGroup=  "90412";
+	break;
+case   "TXWIC":	
+	trackingGroup=  "90553";
+	break;	
+case   "NCWIN":	
+	trackingGroup=  "90522";
+	break;
+case   "WRKO":	
+	trackingGroup=  "90629";
+	break;	
+case   "WSPATV":	
+	trackingGroup=  "90507";
+	break;	
+case   "WTKKFM":	
+	trackingGroup=  "90456";
+	break;
+case   "PAYOK":	
+	trackingGroup=  "90732";
+	break;	
+case   "FLMIH":	
+	trackingGroup=  "90045";
+	break;	
+case   "WABEL":	
+	trackingGroup=  "90472";
+	break;	
+case   "SCCOL":	
+	trackingGroup=  "90474";
+	break;	
+case   "CAFRE":	
+	trackingGroup=  "90476";
+	break;
+case   "CAMOD":	
+	trackingGroup=  "90479";
+	break;
+case   "CASAB":	
+	trackingGroup=  "90482";
+	break;
+case   "WATAC":	
+	trackingGroup=  "90483";
+	break;
+case   "FLBRA":	
+	trackingGroup=  "90484";
+	break;
+case   "ILROR":	
+	trackingGroup=  "90108";
+	break;
+case   "MAQUI":	
+	trackingGroup=  "90108";
+	break;
+case   "CTNOR":	
+	trackingGroup=  "90108";
+	break;
+case   "MABRO":	
+	trackingGroup=  "90108";
+	break;
+case   "WSAW":	
+	trackingGroup=  "90447";
+	break;
+case   "FLTAM":	
+	trackingGroup=  "90426";
+	break;
+case   "NVLAS":	
+	trackingGroup=  "90277";
+	break;
+case   "INSID":	
+	trackingGroup=  "90531";
+	break;
+case   "WNCNTV":	
+	trackingGroup=  "90777";
+	break;
+case   "WCMHTV":	
+	trackingGroup=  "90061";
+	break;
+case   "OREUG":	
+	trackingGroup=  "90878";
+	break;
+case   "SCFLO":	
+	trackingGroup=  "90784";
+	break;
+case   "WJARTV":	
+	trackingGroup=  "90053";
+	break;	
+case   "WIMIL":	
+	trackingGroup=  "90078";
+	break;	
+case   "RIJRJ":	
+	trackingGroup=  "90446";
+	break;	
+case   "WRGBTV":	
+	trackingGroup=  "90028";
+	break;	
+case   "WWMTTV":	
+	trackingGroup=  "90029";
+	break;
+case   "ILALT":	
+	trackingGroup=  "90033";
+	break;
+case   "WPECTV":	
+	trackingGroup=  "90039";
+	break;
+case   "KTVLTV":	
+	trackingGroup=  "90042";
+	break;
+case   "OHLIM":	
+	trackingGroup=  "90043";
+	break;
+case   "WASECA":	
+	trackingGroup=  "90667";
+	break;
+case   "PAYOR":	
+	trackingGroup=  "90681";
+	break;
+case   "GACOV":	
+	trackingGroup=  "90691";
+	break;
+case   "GAHIN":	
+	trackingGroup=  "90686";
+	break;
+case   "CASCN":	
+	trackingGroup=  "90152";
+	break;
+case   "CAMAN":	
+	trackingGroup=  "90690";
+	break;
+case   "WIEAU":	
+	trackingGroup=  "90694";
+	break;
+case   "MSMCC":	
+	trackingGroup=  "90695";
+	break;
+case   "FLNAV":	
+	trackingGroup=  "90696";
+	break;
+case   "LAMOR":	
+	trackingGroup=  "90697";
+	break;
+case   "LAFRA":	
+	trackingGroup=  "90698";
+	break;
+case   "SCAIK":	
+	trackingGroup=  "90699";
+	break;
+case   "ARFOR":	
+	trackingGroup=  "90700";
+	break;
+case   "MIGHT":	
+	trackingGroup=  "90702";
+	break;
+
+default:trackingGroup = "90121";break;
+
+}
+
+
+
+  window._taboola = window._taboola || [];
+  _taboola.push({article:'auto'});
+  !function (e, f, u) {
+    e.async = 1;
+    e.src = u;
+    f.parentNode.insertBefore(e, f);
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  'http://cdn.taboola.com/libtrc/associatedpress-hosted/loader.js');
+
+<!--
+	var RN = new String(Math.random());
+	var RNS = RN.substring(2, 11);
+	function check_exc()
+	 {
+	  var excArray = new Array('ORSAL','ASIAONE','WNYC','GORBC','FINDO','ILCDLB','OREUG','SGSPL','NPROLY','DCSAS','WBAL','IXPRS','IIHGL','KWVE','WBZAM','LYCOS','WIRE','TXTYL','ZEBRA');
+	  for (var i = 0; i < excArray.length; i++)
+	   if (excArray[i] == "AP") return 0;
+	  return 1;
+	 }
+//-->
+
+#lightbox{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+	}
+
+
+#lightbox{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+	}
+
+#lightbox a img{ border: none; }
+
+#outerImageContainer{
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	}
+
+#imageContainer{
+	padding: 10px;
+	}
+
+#loading{
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	}
+#hoverNav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	}
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{
+	width: 49%;
+	height: 100%;
+	background: transparent url(/static/images/lightbox/blank.gif) no-repeat; /* Trick IE into showing hover */
+	display: block;
+	}
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(/static/images/lightbox/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(/static/images/lightbox/nextlabel.gif) right 15% no-repeat; }
+
+
+#imageDataContainer{
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	}
+
+#imageData{
+	padding:0 10px;
+	}
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em;	}	
+		
+#overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+	background-color: #000;
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+	}
+	
+
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}
+
+* html>body .clearfix {
+	display: inline-block; 
+	width: 100%;
+	}
+
+* html .clearfix {
+	/* Hides from IE-mac \*/
+	height: 1%;
+	/* End hide from IE-mac */
+	}	
+	
+/* AP specific styles */
+div#newndnfrontplayer p
+{
+  font-size: 12px;
+}
+
+
+div.ap-photo-gallery-thumbnails 
+{
+  padding: 10px;
+text-align: center;
+}
+
+span.ap-photo-gallery-thumbnail
+{
+   float: left;
+   clear: none;
+}
+    
+span.ap-photo-gallery-thumbnail
+{
+     margin: 0px 5px 5px 0px;
+}  
+
+span.ap-photo-gallery-thumbnail a:active
+{
+     margin: 0px 5px 5px 0px;
+}  
+
+img.ap-photo-gallery-thumbnail-img a.ap-photo-a:active
+{
+    height: 80px;
+    border: 2px dotted #00F;
+    background: #ccc;
+}
+
+img.ap-photo-gallery-thumbnail-img
+{
+    height: 80px;
+    border: 0px solid #00F;
+}
+
+div#ap_technorati_roundup
+{
+    margin-top: 5px
+}
+
+function GetUrl(tragetUrl)
+{
+    if (this.ap_original_id){
+      return tragetUrl+ap_original_id;
+    }
+    else{ 
+       return tragetUrl;
+    }
+}
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-19104461-7']);
+_gaq.push(['_setDomainName', 'ap.org']);
+_gaq.push(['_setAllowLinker', true]);
+_gaq.push(['_setCustomVar', 1, 'Host', 'hosted.ap.org', 1]);
+_gaq.push(['_setCustomVar', 2, 'SidCode', hosted_site, 1]);
+_gaq.push(['_setCustomVar', 3, 'Headline', ap_headline, 3]);
+_gaq.push(['_setCustomVar', 4,'Source','AP',3]);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = 'http://www.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+
+googletag.cmd.push(function() {
+googletag.defineSlot('/15786418/Hosted1_customer/' + 'AP' + '/rectangle1', [300, 250], 'APHosted1Ad-Rectangle1').addService(googletag.pubads()).setTargeting('section', ['HOME']);
+googletag.defineSlot('/15786418/Hosted1_customer/' + 'AP' + '/rectangle2', [300, 250], 'APHosted1Ad-Rectangle2').addService(googletag.pubads());
+googletag.defineSlot('/15786418/Hosted1_customer/' + 'AP' + '/banner', [728, 90], 'banner').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+
+var ap_headline = "Arctic farming: Town defies icy conditions with hydroponics";
+
+
+
+Nov 4, 2:31 PM EDTArctic farming: Town defies icy conditions with hydroponics
+
+
+By RACHEL D'OROAssociated Press
+
+
+
+
+
+ AP Photo/Rachel D'Oro
+   
+
+
+
+
+
+jQuery(document).ready(function(){
+jQuery("#ndn").insertAfter(".ap-story-tr")
+});
+
+
+
+
+   
+
+ 
+      var hosted_site ="AP";
+      var hosted_section ="SCIENCE";
+   
+
+
+     googletag.cmd.push(function() { googletag.display('APHosted1Ad-Rectangle1'); });
+     googletag.cmd.push(function() { googletag.display('APHosted1Ad-Rectangle2'); });
+
+
+   
+
+
+
+AP_Tacoda_AMS_DDC_addPair("SECTION", "SCIENCE")
+
+AP_Tacoda_AMS_DDC("http://te.ap.org/tte/blank.gif", "1.0")
+
+
+   
+
+
+Interactives
+
+
+ Coast Guard Steps Up Arctic Patrols 
+
+ High Prices in Alaska 
+
+ Elusive Mount McKinley 
+
+ Marine Debris 
+
+ Unruly Anchorage Becoming Tamer
+
+ Alaska Territorial Guard Honored 
+
+
+Bringing Home the Bacon: A State-by-State Comparison
+
+A Diminished Supply of Oil
+
+
+News From Alaska
+
+
+Prosecutors upgrade charges in Alaska police officer's death
+Alaska's first pot shop opens to a long line of customers
+Bear mauls man walking his dogs at small Alaska airport
+Anchorage issues moratorium on historic building demolitions
+Final cleanup of Alaska automobile junkyard is underway
+var mytd = document.getElementById('mytd'); 
+ var mydiv = document.getElementById('spnrefmoneymarkets'); 
+if (mytd != null)  {mytd.innerHTML = spnrefmoneymarkets.innerHTML; mydiv.innerHTML = ''};  
+   
+
+
+
+
+
+
+   
+
+
+Multimedia
+
+
+ Gourmet Eggs 
+
+ Drought Forces Calif. Cattle Ranchers to Downsize 
+
+ Farmers Struggle with Vet Shortage 
+
+ Farming's New Face 
+
+ Couple Takes On Farming
+
+
+   
+
+
+
+
+
+
+
+  window._taboola = window._taboola || [];
+  _taboola.push({
+    mode: 'thumbnails-a',
+    container: 'taboola-below-article-thumbnails',
+    placement: 'Below Article Thumbnails',
+    target_type: 'mix'
+  });
+
+  window._taboola = window._taboola || [];
+  _taboola.push({flush: true});
+
+
+
+jQuery("#taboola").insertAfter(".ap-story-table");
+
+
+            ANCHORAGE, Alaska        (AP) -- The landscape is virtually treeless around a coastal hub town above Alaska's Arctic Circle, where even summer temperatures are too cold for boreal roots to take hold. Amid these unforgiving conditions, a creative kind of farming is sprouting up in the largely Inupiat community of Kotzebue. A subsidiary of a local Native corporation is using hydroponics technology to grow produce inside an insulated, 40-foot shipping container equipped with glowing magenta LED lights. Arctic Greens is harvesting kale, various lettuces, basil and other greens weekly from the soil-free system and selling them at the supermarket in the community of nearly 3,300. "We're learning," Will Anderson, president of the Native Kikiktagruk Inupiat Corp., said of the business launched last spring. "We're not a farming culture." The venture is the first of its kind north of the Arctic Circle, according to the manufacturer of Kotzebue's pesticide-free system. The goal is to set up similar systems in partnerships with other rural communities far from Alaska's minimal road system - where steeply priced vegetables can be more than a week in transit and past their prime by the time they arrive at local stores. There are other tools for extending the short growing season in a state with cold soil. One increasingly popular method involves high tunnels, tall hoop-shaped structures that cover crops. But the season can last year-round with indoor hydroponics, which uses water and nutrients to grow vertically stacked plants rooted in a binding material such as rock wool. Anchorage-based Vertical Harvest Hydroponics, which builds enclosed systems out of transformed shipping containers, partnered with Kikiktagruk. The 2-year-old company also sold the system to a farmer in the rural town of Dillingham. "Our vision is that this can be a long-term solution to the food shortage problems in the north," said Ron Perpich, a company founder. "We're hoping that we can put systems anywhere that there's people." But the operations have challenges, including steep price tags. Startup costs in Kotzebue were around $200,000, including the customized freight container and the price to fly it in a C-130 transport plane from Anchorage, 550 miles to the southeast. The town also relies heavily on expensive diesel power, so operations could eat into profits. In addition, moving tender produce from its moist, warm growing enclosure to a frigid environment can be challenging. And farming can be a largely foreign concept to Native communities with deeply imbedded traditions of hunting and gathering. Still, the potential benefits outweigh the downsides, according to Johanna Herron, state market access and food safety manager. Grown with the correct nutrient balance, hydroponics produce is considered just as safe as crops grown using other methods. "It's not the only solution," Herron said. "Hydroponics is just a piece of it, but certainly an excellent thing for communities to look into." Alaska Commercial Co., which has stores in nearly three dozen remote communities, is carrying Arctic Greens in the Kotzebue store. This week, the Dillingham AC store is beginning to sell produce grown in the local farm's hydroponics system. The chain will bring the Arctic Greens brand to more locations if expansion plans prove cost-effective, AC general manager Walter Pickett told The Associated Press. "The produce is fantastic, at least what we've been seeing out of Kotzebue," he said. "The customers love it." Lisa Adan is among the Kotzebue residents who regularly buy the produce. She said there are plans to start providing it at the local hospital's cafeteria, where she is an assistant manager. Adan said the locally grown greens are superior to the produce that's transported north. "It's so much better," she said. "It tastes like it just came out of your garden." For now, the new business is operating as a prototype, especially as it enters the long, harsh winter season in Kotzebue, 26 miles north of the Arctic Circle. The town, the regional hub for northwest Alaska villages, is built on a 3-mile-long spit, and many there live a subsistence lifestyle. The community has a chronically high unemployment rate, with the school district, state and local hospital among its major employers. For now, the biggest selling point of the hydroponics produce is freshness. Prices are parallel with greens brought up from the Lower 48. But operators are trying to work out kinks and find ways to lower energy costs, possibly through such alternatives as wind power, according to Anderson. "We want to be a benefit to the community," he said. "Not only do we want fresher produce, but affordable produce." Nearly 400 miles to the northeast, the village corporation in the Inupiat community of Nuiqsut is considering acquiring one of the systems. Joe Nukapigak, president of the Kuukpik Corp., said he plans to travel to Kotzebue after Thanksgiving to see hydroponics in action. Unlike diesel-powered Kotzebue, Nuiqsut is just miles from the Prudhoe Bay oil field and taps into far less costly natural gas. Nukapigak envisions the oil industry as a possible customer if hydroponics takes hold in his village. He also likes the thought of same-day freshness as opposed to produce that's sometimes ruined by the time it arrives. "If we have a local operation like that, it would not get spoiled as much," he said. "It would be made locally, and that would help." --- Follow Rachel D'Oro at https://twitter.com/rdoro © 2016 The Associated Press.  All rights reserved.  This material may not be published, broadcast, rewritten or redistributed.  Learn more about our Privacy Policy and Terms of Use.
+
+
+
+
+
+var onespot = {
+account: 'ap.onespot.com',
+module_name: 'hosted',
+content_areas: {
+select: 'span.entry-title, span.entry-content p.ap-story-p'
+},
+inter_paragraph_selectors: 'span.entry-content p.ap-story-p'
+};
+
+
+
+
+
+
+
+   
+                
+            
+            
+            
+
+
+
+Latest News
+
+(function(d, s) {
+  var wid = 'web_widgets_inline_async_62a4faf03231042caa69db4fa196c29c',
+  js, load = function(url, id) {
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.src = url; js.id = id;
+    d.getElementsByTagName('head')[0].appendChild(js);
+  };
+  var old = function(){};
+  if (typeof window.onload == 'function') {
+    old = window.onload;
+  }
+  window.onload = function(e) { old(e); load('http://bigstory.ap.org/ap_widgets/widget/data/new/latest_news', 'script_'+ wid); };
+}(document, 'script'));
+var element = document.getElementsByClassName("table-widget-wrapper");var length = element.length;var position = length - 1;var id = element[position].id;var div = document.getElementById(id);var off = document.getElementById(id).offsetWidth;if (off < 620) {div.setAttribute("class", "table-widget-wrapper verticle gallery");}
+(function(d, s) {
+  var wid = 'web_widgets_inline_async_03f6428b8258b7633c1d58deb2b43b8f',
+  js, load = function(url, id) {
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.src = url; js.id = id;
+    d.getElementsByTagName('head')[0].appendChild(js);
+  };
+  var old = function(){};
+  if (typeof window.onload == 'function') {
+    old = window.onload;
+  }
+  window.onload = function(e) { old(e); load('http://elections.ap.org/ap_widgets/widget/data/new/latest_news', 'script_'+ wid); };
+}(document, 'script'));
+var element = document.getElementsByClassName("table-widget-wrapper");var length = element.length;var position = length - 1;var id = element[position].id;var div = document.getElementById(id);var off = document.getElementById(id).offsetWidth;if (off < 620) {div.setAttribute("class", "table-widget-wrapper verticle gallery");}
+
+
+.ad_slug_healthgrades {
+box-sizing: content-box;
+color: rgb(153, 153, 153);
+display: block;
+font-family: Verdana, Arial, Geneva, sans-serif;
+font-size: 10px;
+font-style: normal;
+font-variant: normal;
+font-weight: normal;
+height: 16px;
+left: 0px;
+line-height: 16px;
+margin-top: 7px;
+margin-bottom: 3px;
+text-align: center;
+text-indent: 0px;
+text-transform: uppercase;
+width: 300px;
+position: relative;
+}
+
+#ap-new-widgets .outer-cell {
+overflow: visible !important;
+}
+
+
+
+
+
+
+
+
+
+
+            
+                
+                    ©2015 The Associated Press.
+                    All rights reserved. Terms
+                    under which this site is provided.
+                    Learn more about our 
+                        Privacy Policy.
+            
+        
+    

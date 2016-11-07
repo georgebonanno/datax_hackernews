@@ -1,0 +1,791 @@
+Berlin's Subway System Will Use 1950s Trains - CityLab
+        {
+              "@context": "http://schema.org",
+              "@type": "Organization",
+              "url": "http://www.citylab.com",
+              "logo": "http://cdn.citylab.com/static/citylab/img/logos/logo_social_600x315.png",
+              "sameAs" : [
+                "https://www.facebook.com/thisiscitylab",
+                "https://twitter.com/citylab",
+                "https://plus.google.com/+citylab/posts"]
+        }
+        
+        // Chartbeat head
+        var _sf_async_config = _sf_async_config || {};
+        _sf_async_config.uid = 17396; // ACCOUNT NUMBER
+        _sf_async_config.domain = window.location.host; // DOMAIN 
+        _sf_async_config.flickerControl = false;
+        _sf_async_config.path = "" || window.location.pathname; 
+        var _sf_startpt = (new Date()).getTime();
+    
+            var Atlantic = {};
+            Atlantic.page_info = {
+  "tall_ads_suppressed": false, 
+  "domain": "www.citylab.com", 
+  "image": "http://cdn.citylab.com/media/img/citylab/2016/11/748px_U_Bahn_Berlin_Baureihe_D_Sonderfahrt_70_Jahre_U8/lead_large.jpg", 
+  "channels": [
+    "commute", 
+    "design", 
+    "tech"
+  ], 
+  "article_type": "citylab", 
+  "twitter_image": "", 
+  "canonical_url": "http://www.citylab.com/commute/2016/11/the-berlin-subway-is-bringing-back-1950s-trains/506450/", 
+  "is_amp": false, 
+  "is_freelance": true, 
+  "original_url": "http://www.citylab.com/commute/2016/11/the-berlin-subway-is-bringing-back-1950s-trains/506450/", 
+  "seo_title": "Berlin's Subway System Will Use 1950s Trains", 
+  "site_url": "http://www.citylab.com", 
+  "regions": [], 
+  "primary_channel": "commute", 
+  "share_dek": "Say hello (again) to the Dora.", 
+  "is_instant": false, 
+  "share_title": "Berlin Is Bringing Back Subway Trains From the 1950s", 
+  "description": "Say hello (again) to the Dora.", 
+  "tags": [], 
+  "is_404": false, 
+  "has_full_width_content": false, 
+  "kicker": "", 
+  "authors": [
+    "Feargus O'Sullivan "
+  ], 
+  "date": "2016-11-04T13:13:41-04:00", 
+  "path": "/commute/2016/11/the-berlin-subway-is-bringing-back-1950s-trains/506450/", 
+  "cities": [], 
+  "article_id": 506450, 
+  "share_text": "", 
+  "countries": [], 
+  "url": "http://www.citylab.com/commute/2016/11/the-berlin-subway-is-bringing-back-1950s-trains/506450/", 
+  "is_sponsored": false, 
+  "title": "Berlin Is Bringing Back Subway Trains From the 1950s", 
+  "og_type": "article", 
+  "report": "", 
+  "view": "article"
+};
+            Atlantic.MEDIA_URL = "http://cdn.citylab.com/media/";
+            Atlantic.STATIC_URL = "http://cdn.citylab.com/static/b/";
+
+            // Used for comment counts
+            var disqus_shortname = 'theatlanticcities';
+            var s_account = "atlanticcities-prod";
+        
+(function (s) {
+    // Set all mandatory properties that don't change.
+    s.account = "atlanticcities-prod";
+    s.charSet="UTF-8";
+    s.currencyCode="USD";
+    s.trackDownloadLinks=true;
+    s.trackExternalLinks=true;
+    s.trackInlineStats=true;
+    s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls";
+    s.linkInternalFilters="javascript:,thewire.com,citylab.com,theatlantic.com,localhost";
+    s.linkLeaveQueryString=false;
+    s.linkTrackVars="None";
+    s.linkTrackEvents="None";
+    s.visitorNamespace="atlanticmedia";
+    s.trackingServer="atlanticmedia.122.2o7.net";
+
+    // Optimizely Adobe Analytics SiteCatalyst Integration
+     window.optimizely = window.optimizely || [];
+     window.optimizely.push("activateSiteCatalyst");
+
+    // We don't want to track page views for iframes loaded on TheAtlantic.com
+    // to prevent pages from being double counted
+    var track_page_views = true;
+    try {
+        if (window.parent !== window && window.parent.location.hostname === "www.theatlantic.com") {
+            track_page_views = false;
+        }
+    } catch(e) {}
+
+    if (track_page_views && s.t) {
+        /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+        var s_code = s.t();
+        if (s_code) document.write(s_code)
+        if (navigator.appVersion.indexOf('MSIE') >= 0) document.write(unescape('%3C') + '\!-' + '-');
+    }
+})(window.s);
+
+        // Duplicate a few existing s.props to be passed with linkTrackVars. If
+        // we just reused the existing s.props, data would be recorded twice.
+        s.prop66 = location.pathname;
+        s.prop67 = Atlantic.page_info.view;
+        s.prop68 = s.prop23; // Device type
+        s.linkTrackVars = "prop66,prop67,prop68";
+        
+        
+
+
+        
+            
+
+    
+    
+        
+            
+                From The Atlantic
+                
+                    CityLab
+                
+            
+        
+
+        
+            Menu
+            Commute
+                    Work
+                    Housing
+                    Weather
+                    Crime
+                    Politics
+                    Design
+                    Tech
+                
+                    Navigator
+                        CityFixer
+                        Maps
+                        Photos
+                        Videos
+                        Search
+                        
+                            
+                                
+                                
+                                
+                            
+                    
+                
+                    
+                
+            
+    
+
+            
+
+
+    var disqus_identifier = "post_506450";
+    var disqus_title = "Berlin Is Bringing Back Subway Trains From the 1950s";
+
+    
+        
+
+    
+    
+        
+
+
+
+
+
+    Ads are being blocked
+
+    
+        For us to continue writing great stories, we need to display ads.
+    
+
+    Un-block
+    Learn more
+
+
+
+
+    Back
+
+    Whitelist
+
+    
+        Please select the extension that is blocking ads.
+    
+
+    
+        
+            
+            Ad Block Plus
+        
+        
+            
+            Ghostery
+        
+        
+            
+            uBlock
+        
+        
+            Other Blockers
+        
+    
+
+
+
+
+    Back
+
+    
+        
+    
+
+    Please follow the steps below
+
+    
+
+    
+
+
+Berlin Is Bringing Back Subway Trains From the 1950s
+    Say hello (again) to the Dora.
+    
+            
+                
+        
+
+    Feargus O'Sullivan 
+        
+        
+        
+        @FeargusOSull
+        
+        
+        
+
+        
+            Nov 4, 2016
+        
+        Comments
+    
+    Share on Facebook
+    Tweet
+    
+    
+    
+
+                        A Series D train on special service in 2004
+
+                        
+                            
+                                (Jcornelius/CC 2.0)
+                            
+                        
+                    
+        For senior Berliners, there may be something strangely familiar about the latest batch of trains destined for the Berlin subway system. They actually first served the city back in the 1950s. In an unlikely decision-making twist, the system has decided to delve into its history, renovating trains constructed to run on its tracks before the city was cut in two in 1961. So old are the D and DL series trains — affectionately known as “Doras” — that there’s only one city where they are still in daily use. That’s the North Korean capital, Pyongyang, to which Berlin sold 105 trains at the end of the 1990s.
+
+The idea of recomissioning 60-year-old carriages will no doubt get train-spotters drooling, but there’s a pragmatic reason why the trains are coming back. Berlin has a desperate shortage of rolling stock. City transit body BVG (Berliner Verkehrsbetriebe) wants to avoid the costs of buying more engines and reckons it can renovate and re-kit three of the old trains for just €1.9 million — a snip compared to what three entirely new trains would cost. Three trains won’t make a whole lot of difference across an entire city, of course, which is why the refitted wagons will be confined to a single line. This is arguably the smartest part of the plan. By running on Berlin’s Line U55 from spring 2017, the 1950s trains should attract tourists to what could be Berlin’s biggest transit white elephant.
+
+Line U55, you see, is arguably the transit equivalent of nail varnish. It looks pretty good, but beyond that it doesn’t serve much of a practical function. With just three stops, the mini-line links Berlin’s main railway station with Germany’s parliament and the Brandenburg Gate, a journey that can be managed in 10 to 15 minutes of brisk walking.
+
+If that seems a little pointless, bear in mind the circumstances of the U55’s approval. It was begun in 1995 at the height of reunification fever, when the general official feeling was that Berlin needed a grand transit revamp to match the grandeur of the public servants who were at that time (often reluctantly) relocating there from Bonn. The original plan would have seen the line extend both to the northwest and to Alexanderplatz, where it would join up with an existing line stretching far into the city’s east. Then the money ran out.
+
+That left Berlin with a stumpy little shuttle track. When it came to streamlining Berlin’s transit system, it was about as useful as a chocolate teapot. This is the line for which the older trains are revamped. When you think about it, the plan actually makes sense. There are already plenty of tourists in this area, and more may use the line if now they know it’s becoming a mobile 1950s theme park. And if you’re a fan of old school transit, you might be taken with the carriages’ green pleather upholstery and milky-glassed light fittings. And even if the electrics will all be reworked, the BVG plans to keep a few old signs in place, such as those warning fare-dodgers of a possible fine of 60 now defunct Deutschmarks.
+
+There’s also a poetic justice to the plan. When these trains were constructed in the 1950s, they ran across both Berlin’s eastern and western sectors despite the strife between the city’s superpower overlords. When the Berlin wall went up, two strange truncated subway systems were created for each half of the city, with lines abruptly ending or passing through enemy territory without stopping. Now that these trains are returning, they’ll be coming to what was the first East-West line newly built after reunification, travelling under what 40 odd years ago was one of the most heavily militarized spots in the world. It’s almost as if they’ve been waiting for Berlin to reunify, then call on them again.
+
+In 2020, the U55 should finally be extended as promised to Alexanderplatz, after which new trains will probably be introduced. Between next spring and then, the U55 and its sexagenarian trains will offer an intriguing glimpse of transit past.
+
+
+        
+    
+
+
+
+
+
+    Share on Facebook
+    Tweet
+    
+    
+    
+
+        Presented by
+        
+
+    
+
+    
+            
+                Previous
+                The Sweet, Bitter, and Complex History of Chinese Food in America
+            
+        
+        
+
+        
+        
+            
+                Next
+                Fighting Loneliness With Public Living Rooms
+            
+        
+        
+    
+
+(function() {
+var referer="";try{if(referer=document.referrer,"undefined"==typeof referer)throw"undefined"}catch(exception){referer=document.location.href,(""==referer||"undefined"==typeof referer)&&(referer=document.URL)}referer=referer.substr(0,700);
+var rcel = document.createElement("script");
+rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
+rcel.type = 'text/javascript';
+rcel.src = "https://trends.revcontent.com/serve.js.php?w=33773&t="+rcel.id+"&c="+(new Date()).getTime()+"&width="+(window.outerWidth || document.documentElement.clientWidth)+"&referer="+referer;
+rcel.async = true;
+var rcds = document.getElementById("rcjsload_148c84"); rcds.appendChild(rcel);
+})();
+About the Author
+        
+    
+
+        
+        
+            
+                
+        
+    
+    
+        
+            Feargus O'Sullivan is a London-based contributing writer to CityLab, with a focus on Europe.
+
+            
+        
+    
+
+    All Posts
+        
+        
+        @FeargusOSull
+        
+        Feed
+    
+
+
+            
+        
+
+
+
+
+
+
+
+Most Popular
+
+    Berlin Is Bringing Back Subway Trains From the 1950s
+        
+        Fighting Loneliness With Public Living Rooms
+        
+        What Dubai's Newest Theme Park Reveals About Its Urbanism
+        
+        The Devil's Hair Dryer
+        
+        Why Are European Cities So Dense? 
+        
+        The Ideal Cycling Speed Is 8 to 9 MPH, Says Science
+        
+        Preservation in Hanoi, Demolition in Ho Chi Minh City
+        
+        Every Tree in New York City, Mapped
+        
+        Psychology Researchers Found New Evidence for the 'Broken Windows' Policing Theory 
+        
+        This Japanese Town Shows How 'Zero Waste' Is Done
+        
+    See All Stories
+
+
+
+    
+
+
+
+
+
+    
+
+    
+    
+            
+                Newsletters
+            
+            
+                
+                CityLab, Straight to Your Inbox: Sign Up Here
+                Go
+            
+
+            
+                
+
+    
+        
+    
+            
+                Let's Be Friends
+            
+            
+                
+                Don't Miss Our Latest Stories
+                Go
+            
+
+            
+                
+
+    
+        
+         
+            
+                Store
+            
+            
+                
+                T-Shirts, Mugs, and More
+                Go
+            
+
+            
+        
+        
+    
+
+
+    Back To Top
+
+
+
+    
+
+    
+
+
+
+
+
+    
+        
+
+    
+    
+    
+
+
+
+CityLab
+    Share
+    Tweet
+    Menu
+
+        
+
+        
+        
+
+
+
+
+        Through original reporting, sharp analysis, and visual
+            storytelling, CityLab informs and inspires the people who are
+            creating the cities of the future—and those who want to live
+            there.
+
+            Follow
+            
+                
+                
+                
+            
+            Newsletter sign up
+            
+                
+                        Today’s Top Stories
+                    
+
+                    
+                        This Week’s Most Popular Stories
+                    
+
+                    
+                        
+                            I want to receive updates from partners and sponsors.
+                        
+                    
+                
+            
+            
+        More About CityLab
+            
+                Special Reports
+                    FAQ
+                    Masthead
+                    Contact Us
+                    Store
+                    Atlantic Media
+                    Jobs
+                    Advertise
+                    Advertising Guidelines
+                    Privacy
+                    Terms & Conditions
+                
+        Elsewhere at Atlantic Media
+            
+
+                
+                
+                
+                    
+                    
+                    
+                        
+                            The Atlantic
+                            The Next Fight to Expand Voting Has Already Begun
+                            
+                                2016: The Year Latinos Saved America?
+                            
+                                Track of the Day: ‘The Sidewinder’
+                            
+                            
+                    
+                
+                    
+                        
+                            Quartz
+                            The average American will waste 1.3 years over a lifetime looking for something to watch on TV
+                            
+                                No matter who wins the US presidential election, Social Security loses
+                            
+                                Should doctors be allowed to bring their religion to work?
+                            
+                            
+                    
+                    
+                    
+                
+                
+            
+
+        
+    
+        Copyright 2016  The Atlantic Monthly Group.
+    
+
+    
+    
+        
+            () Skip Ad &gt   
+        
+    
+    Advertisement
+        
+
+            
+                
+
+    
+        
+    
+
+
+
+    Atlantic.ad_queue = Atlantic.ad_queue || [];
+    Atlantic.ad_queue.push(function(){
+        Atlantic.Ad.sizeListener(/welcome/, function($ad, size){
+            if (!size) {
+                return false;
+            }
+            var $lightbox = $('#lightbox');
+            $lightbox.addClass("active format-" + size.join("x"));
+            if (typeof window.welcomeScreen === 'undefined') {
+                window.welcomeScreen = new Atlantic.WelcomeScreen();
+            }
+            window.welcomeScreen.show();
+        });
+    });
+
+
+
+    {
+        "globals": {
+  "src": "article", 
+  "byline": [
+    "feargus-osullivan"
+  ], 
+  "title": "berlin-is-bringing-back-subway-trains-from-the-1950s"
+},
+        "zone": "/4624/cities/channel_commute",
+        "peer39": true,
+        "amazon": "3239",
+        "adtest_domain": "citiestest",
+        "lazy_load": 1,
+        "outofpage": true,
+        "headerbidding": true,
+        "krux": true,
+        "adomik": true,
+        "detective": {
+            "url": "http://cdn.citylab.com/static/b/citylab/img/sherlock.gif"
+        }
+    }
+
+    if (/adtest\=1/.test(window.location.search) || /adtest\./.test(window.location.hostname)) {
+        amznads.debug_mode = true;
+    }
+
+    <aside>
+    <form id="injector-signup-citylab-daily-email-promo" action="https://theatlantic.us2.list-manage.com/subscribe/post?u=ed2d318978b7dc9b30b1f464f&amp;amp;id=f2eeb0a9f3" method="post"  data-newsletter-signup="1">
+        <p>
+            Love CityLab? Make sure you're signed up for our free e-mail newsletter.
+        </p>
+        <input type="hidden" value="1" name="group[7045][1]"><input type="email" name="EMAIL" class="email-address" placeholder="Email"><input type="submit" value="Sign up">
+        <p class="message"></p>
+    </form>
+</aside>
+
+Atlantic.PersistentHeader();
+    // Remove tall ads for articles with full-width art
+    (function(){
+        var ad = document.getElementById("ad-boxtop");
+        if (Atlantic.page_info.has_full_width_content && ad) {
+            $(ad).parent('.sticky-container').trigger('detach.ScrollToFixed');
+        }
+
+        if (Atlantic.page_info.tall_ads_suppressed && ad) {
+            var child, sizes;
+            for (var i = 0; i < ad.children.length; i++) {
+                child = ad.children[i];
+                sizes = JSON.parse(child.getAttribute("sizes"));
+                if (sizes) {
+                    sizes = $.grep(sizes, function(size){
+                        return !(size[0] === 300 && size[1] === 600)
+                    });
+                    child.setAttribute("sizes", JSON.stringify(sizes));
+                }
+            };
+        }
+    })();
+
+  window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+  (function(){
+    var k=document.createElement('script');k.type='text/javascript';k.async=true;
+    var m,src=(m=location.href.match(/\bkxsrc=([^&]+)/))&&decodeURIComponent(m[1]);
+    k.src = /^https?:\/\/([a-z0-9_\-\.]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" :
+      (location.protocol==="https:"?"https:":"http:")+"//cdn.krxd.net/controltag?confid=qrixug7rm";
+    var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+  }());
+
+    // Chartbeat footer
+    var _sf_async_config = _sf_async_config || {};
+    _sf_async_config.title = Atlantic.page_info.title;
+
+    // Hack. All our video players live in theatlantic.com
+    _sf_async_config.playerdomain = "www.theatlantic.com";
+
+    _sf_async_config.sections = (function(page){
+        var sections = [];
+
+        switch(page.article_type) {
+            case "note":
+            case "thread":
+                sections.push("notes");
+                break;
+            case "blog":
+            case "citylab":
+            case "wire":
+                // Not meaningful
+                break;
+            case "":
+                // Pages without articles types are landing pages
+                // and have primary channels.
+                sections.push(page.primary_channel);
+            default:
+                sections.push(page.article_type);
+        }
+
+        // Add all the channels
+        sections = sections.concat(page.channels);
+
+        return sections.join(",");
+    })(Atlantic.page_info);
+
+    _sf_async_config.authors = Atlantic.page_info.authors.join(",");
+
+    if (Atlantic.page_info.is_sponsored) {
+        _sf_async_config.zone='sponsored';
+    }
+
+    if (Atlantic.page_info.sponsor) {
+        _sf_async_config.sponsorName = Atlantic.page_info.sponsor;
+    }
+
+    window._sf_endpt=(new Date()).getTime();
+
+//<![CDATA[
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "6463921" });
+
+  
+
+
+        
+
+
+(function () {
+var d = new Image(1, 1);
+d.onerror = d.onload = function () {
+d.onerror = d.onload = null;
+};
+d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-906344h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+})();
+
+
+
+
+
+        
+
+window.GoogleAnalyticsObject = "ga";
+window.ga = window.ga || function() {
+    (window["ga"].q = window["ga"].q || []).push(arguments)
+}
+window["ga"].l = 1 * new Date();
+ga('create', 'UA-25706000-1', 'auto' );
+ga('send', 'pageview');
+
+__reach_config = {
+  "channels": [
+    "commute", 
+    "design", 
+    "tech"
+  ], 
+  "date": "2016-11-04T13:13:41", 
+  "title": "Berlin Is Bringing Back Subway Trains From the 1950s", 
+  "url": "http://www.citylab.com/commute/2016/11/the-berlin-subway-is-bringing-back-1950s-trains/506450/", 
+  "authors": [
+    "feargus-osullivan"
+  ], 
+  "pid": "516eed884240cfbf3000002c", 
+  "tags": [], 
+  "page_url": "http://www.citylab.com/commute/2016/11/the-berlin-subway-is-bringing-back-1950s-trains/506450/?utm_source=SFFB"
+}
+
+    var ezt = ezt ||[];
+    ezt.push({
+        qacct: 'p-b0K-eQJGBXxXE',
+        uid: '',
+        labels: "CityLab.Editorial.Title.Berlin Is Bringing Back Subway Trains From the 1950s, CityLab.Editorial.Author.Feargus O'Sullivan , CityLab.Editorial.Channel.Commute, CityLab.Editorial.Channel.Design, CityLab.Editorial.Channel.Tech"
+    });
+
+  
+
+
+
+        
+        
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId: '149043611894677',
+      xfbml      : false,
+      version    : 'v2.7'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+

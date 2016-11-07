@@ -1,0 +1,1988 @@
+
+var articlereadbyUser = 0;
+var pageCounterPaywall = 0; 
+      function getCookie(name)
+      {
+        var re = new RegExp(name + "=([^;]+)");
+        var value = re.exec(document.cookie);
+        return (value != null) ? unescape(value[1]) : null;
+      }
+    var username = getCookie('SESSname');
+	  
+	  if(username != null){
+		  
+		var currentUrl = document.URL;
+		
+		if(currentUrl.indexOf("/login/") > -1){
+			
+			window.location = document.location.origin;
+			
+		}
+	  }
+      
+	  var checknc = getCookie('SESSchecknc');
+	  
+	  if(checknc!=null){ 
+	  
+		var currentUrl = document.URL;	
+			
+		if(currentUrl.indexOf("?nc=1") == -1){
+			
+			if(currentUrl.indexOf("?") == -1){
+				
+				window.location.href = currentUrl+"?nc=1";
+				
+			}else{
+				
+				if(currentUrl.indexOf("&nc=1") == -1){
+					
+					window.location.href = currentUrl+"&nc=1";
+					
+				}
+				
+			}
+			
+		}	
+		  
+	  }		  
+var _sf_startpt=(new Date()).getTime()window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);Freud’s Discontents | The Nation
+    (function() 
+	{
+        function loadHorizon() 
+		{
+	        var s = document.createElement('script');
+	        s.type = 'text/javascript';
+	        s.async = true;
+	        s.src = location.protocol + '//ak.sail-horizon.com/horizon/v1.js';
+	        var x = document.getElementsByTagName('script')[0];
+	        x.parentNode.insertBefore(s, x);
+        	}
+        loadHorizon();
+        var oldOnLoad = window.onload;
+        window.onload = function() 
+		{
+            	if (typeof oldOnLoad === 'function') 
+			{
+                	oldOnLoad();
+          		}
+            	Sailthru.setup({
+                	domain: 'horizon.thenation.com'
+            		});
+        	};
+    	})();
+
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+
+	  var _comscore = _comscore || [];
+	  _comscore.push({ c1: "2", c2: "20564932" });
+	  (function() {
+		var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+		s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+	  })();
+	
+	  
+        jQuery(document).ready(function($) {
+          //  $("#s").suggest("?method=autocomplete", {});
+          //  $("#search-value").suggest("?method=autocomplete", {});
+        });
+    var pageCounterPaywall = 0; var scrollHolderPaywall = {};var maxarticlePaywall = 0; var current_articlePaywall = 0; var maxdaysPaywall = 0; var accesseddaysPaywall = 0; //<![CDATA[
+
+					// Create XMLHttpRequest object and set variables
+					var xhr = ( window.XMLHttpRequest )
+					  ? new XMLHttpRequest()
+					  : new ActiveXObject( "Microsoft.XMLHTTP" ),
+					url = 'https://www.thenation.com/wp-admin/admin-ajax.php',
+					params = 'action=update_views_ajax&token=a4bcae1bd2&id=228918';
+					// Set request method and target URL
+					xhr.open( "POST", url, true );
+					// Set request header
+					xhr.setRequestHeader( "Content-type", "application/x-www-form-urlencoded" );
+					// Hook into onreadystatechange
+					xhr.onreadystatechange = function() {
+						if ( 4 == xhr.readyState && 200 == xhr.status ) {
+							if ( window.console && window.console.log ) {
+								window.console.log( xhr.responseText );
+							}
+						}
+					}
+					// Send request
+					xhr.send( params );
+
+				//]]>
+jQuery(document).ready(function(){
+   jQuery('#search').submit(function(event){
+      if (jQuery('#search input:text').eq(0).val().length<1){
+	 return false;
+      }
+   });
+   jQuery('#searchbox').submit(function(event){
+      if (jQuery('#searchbox input:text').eq(0).val().length<1){
+	 return false;
+	 }
+   });
+});
+
+
+
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-82883-1', 'auto');
+  ga('send', 'pageview');
+
+
+  var _sf_async_config = { uid: 7841, domain: 'thenation.com', useCanonical: true };
+  (function() {
+    function loadChartbeat() {
+      window._sf_endpt = (new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src','//static.chartbeat.com/js/chartbeat.js');
+      document.body.insertBefore(e, document.body.firstChild);
+    };
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+      loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+(function(){var a=document,b=a.createElement("script"),a=a.getElementsByTagName("script")[0];b.type="text/javascript";b.async=!0;b.src="https://z.moatads.com/thenationcontent252XZzP54/moatcontent.js";a.parentNode.insertBefore(b,a)})();
+    var pageCounterPaywall ;
+	var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+};
+
+   function call_ad_new(ad_type,ad_name,ad_div_id,ad_name_sno,targeting_var)
+   {
+   var w=0;var h=0; var w1=0; var h1=0; var w2=0;var h2=0;
+   
+   if (ad_type == "leaderboard")
+	  {
+		 w = 728;
+		 h = 90;
+		 w1=970;
+		 h1=90;
+		 w2=970;
+		 h2=250;
+		 if (isMobile.any())
+		 {
+			 w = 320;
+			 h = 50;
+		 }
+      }
+      else if (ad_type == "halfpage")
+	  {
+		w = 300;
+		h = 250;
+		w1 = 300;
+		h1 = 600;
+		if(isMobile.any())
+		{
+			w = 300;
+			h = 250;
+			w1 = 300;
+			h2 = 250;
+		}		
+      }
+      else if (ad_type == "halfpage250") {
+		 w = 300;
+		 h = 250;
+      }
+    else if (ad_type == "pixel")
+	  {
+		
+		/*for hiding meterpaywall popups when pixel ads call ends here*/
+		
+		
+						w = 1;
+		h = 1;
+		if(isMobile.any())
+		{
+			w = 1;
+			h = 2;
+		}
+      }
+		googletag.cmd.push(function() {
+		  var ad_slot = null;
+		  if(ad_type == "halfpage" || ad_type == "leaderboard") 
+		  {
+			  if(ad_type == "leaderboard")
+			  {
+				ad_slot = googletag.defineSlot('/1004953/'+ad_name, [[w, h],[w1,h1],[w2,h2]], ad_div_id);
+			  }
+			  else
+			  {
+				ad_slot = googletag.defineSlot('/1004953/'+ad_name, [[w, h],[w1,h1]], ad_div_id);
+				}
+		}
+		else 
+		{
+			ad_slot = googletag.defineSlot('/1004953/'+ad_name, [w, h], ad_div_id);
+		}
+		ad_slot.setTargeting('tn_pos', [ad_name_sno]).setTargeting('tn_loc', ['atf']).addService(googletag.pubads());
+		googletag.pubads().enableSingleRequest();			
+		var targetArrayLength =0;
+		var google_pub_ad=googletag.pubads();
+		targetArrayLength = Object.keys(targeting_var);    
+		if(targetArrayLength.length>0)
+		{
+				//console.log(targeting_var);
+			for (var key in targeting_var)
+			{
+				google_pub_ad = google_pub_ad.setTargeting(key, targeting_var[key]);
+			}
+			
+		}	
+		adArray.push([ad_slot]);
+		googletag.enableServices();
+	  });
+	  googletag.cmd.push(function() {
+		googletag.display(ad_div_id);		
+      });
+   }
+
+
+
+Ad Policy
+
+	Skip to content
+		
+	
+	
+		Facebook
+			Twitter
+						
+				Donate
+			
+						
+				Log In						
+			
+		Fall books issue
+Election 2016
+Hillary Clinton
+Voting Rights
+Donald Trump
+		
+	
+		
+	
+	
+
+	
+	
+		
+						
+							
+								
+						
+					
+				
+									Politics
+World
+Economy
+Culture
+Take Action
+				
+				 
+				
+				
+													 
+					Biography
+											Freud’s Discontents
+				
+								
+					Current Issue
+																	
+						
+														
+								Subscribe								
+														Search
+					
+				 
+				
+						Facebook
+							Twitter
+							Email
+						
+								
+	
+	
+
+	
+	
+	
+		
+			
+		
+		
+	
+
+	jQuery( document ).ready(function($) {
+		$(".landing ul>li.news-links, .landing ul>li.quick-links").attr('style','display:inline !important');
+		$("#closeSearch").click(function(){
+			
+			$("#desktop .header-bar.search").slideToggle();
+			
+		});	
+	});
+	
+		
+			Toggle Menu
+		
+		
+			
+		
+						
+								  Log In
+				 							 
+	 	
+	
+	
+	
+	
+		Politics
+World
+Economy
+Culture
+Take Action
+			
+								Subscribe								
+																					Current Issue
+																	
+						
+														
+																
+															
+				Donate
+			
+			
+			
+				Log In				
+			
+			
+			Facebook
+			
+			
+				Twitter
+			
+		
+		
+			
+			
+			
+		
+		
+		
+	
+	
+
+									
+
+
+
+
+
+	
+
+	
+	
+		
+		
+			
+			
+				
+			
+				
+					
+					If you are a current Subscriber and are unable to log in, you may have to create a NEW username and password.  To do so, click here and use the “NEW USER” sign-up option.
+					
+				
+				
+				
+				
+				Log In
+				
+				
+				
+				
+				
+					
+					
+						
+						
+					
+					
+				
+				
+				
+				
+				
+				
+				
+					
+					
+						
+						
+							
+							Email *
+													
+						
+						
+					
+					
+					
+					
+						
+						
+							Password *
+										 
+						
+						
+										
+					
+					
+					
+						
+					
+						
+						
+							
+								
+								
+							
+							
+							Remember Me
+							
+						
+						
+						
+						
+						
+						
+						 
+							
+							
+							
+								Forgot Your Password?							
+							
+							
+						
+						
+						
+						
+					
+
+					
+					
+						
+						
+							
+						
+							
+							
+								Log In
+								
+								
+							
+							
+							
+						
+						
+										
+					
+					
+					
+							
+						
+							If you are not a Subscriber, Subscribe Now!Back to site			
+				
+						
+						
+					
+					
+				
+				
+				
+				
+			
+			
+		
+		
+	
+	
+	
+	
+
+
+
+
+
+
+	var username = getCookie('SESSname');
+	  
+	  var Base64={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",encode:function(e){var t="";var n,r,i,s,o,u,a;var f=0;e=Base64._utf8_encode(e);while(f<e.length){n=e.charCodeAt(f++);r=e.charCodeAt(f++);i=e.charCodeAt(f++);s=n>>2;o=(n&3)<<4|r>>4;u=(r&15)<<2|i>>6;a=i&63;if(isNaN(r)){u=a=64}else if(isNaN(i)){a=64}t=t+this._keyStr.charAt(s)+this._keyStr.charAt(o)+this._keyStr.charAt(u)+this._keyStr.charAt(a)}return t},decode:function(e){var t="";var n,r,i;var s,o,u,a;var f=0;e=e.replace(/[^A-Za-z0-9+/=]/g,"");while(f<e.length){s=this._keyStr.indexOf(e.charAt(f++));o=this._keyStr.indexOf(e.charAt(f++));u=this._keyStr.indexOf(e.charAt(f++));a=this._keyStr.indexOf(e.charAt(f++));n=s<<2|o>>4;r=(o&15)<<4|u>>2;i=(u&3)<<6|a;t=t+String.fromCharCode(n);if(u!=64){t=t+String.fromCharCode(r)}if(a!=64){t=t+String.fromCharCode(i)}}t=Base64._utf8_decode(t);return t},_utf8_encode:function(e){e=e.replace(/rn/g,"n");var t="";for(var n=0;n<e.length;n++){var r=e.charCodeAt(n);if(r<128){t+=String.fromCharCode(r)}else if(r>127&&r<2048){t+=String.fromCharCode(r>>6|192);t+=String.fromCharCode(r&63|128)}else{t+=String.fromCharCode(r>>12|224);t+=String.fromCharCode(r>>6&63|128);t+=String.fromCharCode(r&63|128)}}return t},_utf8_decode:function(e){var t="";var n=0;var r=c1=c2=0;while(n<e.length){r=e.charCodeAt(n);if(r<128){t+=String.fromCharCode(r);n++}else if(r>191&&r<224){c2=e.charCodeAt(n+1);t+=String.fromCharCode((r&31)<<6|c2&63);n+=2}else{c2=e.charCodeAt(n+1);c3=e.charCodeAt(n+2);t+=String.fromCharCode((r&15)<<12|(c2&63)<<6|c3&63);n+=3}}return t}};
+	  
+	  if(username != null){
+				  
+		username = Base64.decode(username);  
+		
+		if(!isMobile.any()){
+				
+			var html = '';
+
+		
+			html += '<a href="https://ssl.palmcoastd.com/06601/apps/LOGINSSO">'+username;
+			html += '</a>';
+			
+			html += '<a href="https://www.thenation.com/logout.php" class="logout_status">Logout';
+			html += '</a>';	
+				
+			document.getElementById("login_status").innerHTML = html;
+			
+		}else{
+						
+			jQuery('#login_mob_status').next().remove();
+			
+			var html = '';	
+						
+			html += '<a href="https://ssl.palmcoastd.com/06601/apps/LOGINSSO">'+username;
+			html += '</a>';
+			html += '</li>';
+			
+			html += '<li>';
+			html += '<a href="https://www.thenation.com/logout.php" class="logout_status">Logout';
+			html += '</a>';
+			
+			document.getElementById("login_mob_status").innerHTML = html;
+			
+		}
+		
+		/* var currentUrl = document.URL;
+			
+		if(currentUrl.indexOf("/article/") > -1 || currentUrl.indexOf("/issue/") > -1){
+							
+			if(currentUrl.indexOf("?nc=1") == -1){
+				
+				if(currentUrl.indexOf("?") == -1){
+					
+					window.location.href = currentUrl+"?nc=1";
+					
+				}else{
+					
+					if(currentUrl.indexOf("&nc=1") == -1){
+						
+						window.location.href = currentUrl+"&nc=1";
+						
+					}
+					
+				}
+				
+			}
+			
+		} */	
+		  
+	  }
+	  
+	  jQuery( document ).ready(function($) { 
+		  $(document).on("click",".logout_status",function(e){
+			  
+			  document.cookie = "SESSname=;expires=Thu, 01 Jan 1970 00:00:01 GMT;path=/";
+			  
+		  });
+	  });
+	  
+
+var preventLoad_article = false;
+var check_comment = false;
+jQuery(document).ready(function(){
+		});
+
+	
+
+	var key = [];
+	var values = [];
+
+			key.push("tn_keyword");
+			values.push("'psychiatry', 'psychoanal'");
+		
+			key.push("tn_author");
+			values.push("'samuel-m'");
+		
+		jQuery( document ).ready(function($) {
+			custom_targeting = false;
+			if (key.length > 0 && values.length > 0) {
+				custom_targeting = true;
+			}
+			
+			var targetingArray = new Array();
+			 targetingArray['tn_author'] = ['samuel-m'];
+			targetingArray['tn_articleid'] = [228918];
+			targetingArray['tn_ptype'] = ['article'];
+			targetingArray['tn_keyword'] = ['psychiatry', 'psychoanal'];
+			targetingArray['tn_subject'] = ['biography', 'cultural-c', 'mental-hea', 'philosophy', 'science-an'];
+			targetingArray['tn_slp'] = []; 
+			call_ad_new('leaderboard','tn_article','ad-leaderboard','leaderboard_1',targetingArray);
+			call_ad_new('pixel','tn_article','ad-pixel','pixel_1',targetingArray);
+			call_ad_new('pixel','tn_article','ad-pixel-2','pixel_2',targetingArray);
+		});
+		function call_ad_leaderboard()
+		{
+		custom_targeting = false;
+			var targetingArray = new Array();
+			targetingArray['tn_author'] = ['samuel-m'];
+			targetingArray['tn_articleid'] = [228918];
+			targetingArray['tn_ptype'] = ['article'];
+			targetingArray['tn_keyword'] = ['psychiatry', 'psychoanal'];
+			targetingArray['tn_subject'] = ['biography', 'cultural-c', 'mental-hea', 'philosophy', 'science-an'];
+			targetingArray['tn_slp'] = []; 
+			
+			call_ad_new('leaderboard','tn_article','div-gpt-ad-1428494597034-0','leaderboard_2',targetingArray);
+		}
+	
+	
+					BiographyPsychoanalysisBooks & the Arts								
+									November 21, 2016, Issue
+								
+									Freud’s Discontents
+			
+			Why did one of the 20th century’s most influential thinkers fade from significance? 
+			
+			
+							By Samuel Moyn					
+								
+		
+				November 2, 2016
+								
+				
+
+							
+			Facebook
+					Twitter
+					Email
+					Print
+			
+		
+										Collage by Michael Xiao. 
+									
+					On the death of Sigmund Freud, W.H. Auden memorably observed that he was “no more a person now but a whole climate of opinion.” And this was 1939—he had seen nothing yet of Freud’s influence. Across the North Atlantic, Freud’s new science of psychoanalysis transformed common sense and was itself transformed in a host of new applications. In the humanistic disciplines, and especially in literary study, engagement with psychoanalysis became almost obligatory. The general public was equally enthralled by Freud’s ideas. His books circulated widely, on college campuses especially, and his thought traversed popular culture from fiction to film.
+				Ad Policy
+			
+						jQuery( document ).ready(function($) {
+							//call_ad('halfpage','ad-halfpage-228918-0','tn_article','tn_article','rectangle_1',custom_targeting,key,values);
+							var targetingArray = new Array();
+							targetingArray['tn_author'] = ['samuel-m'];
+							targetingArray['tn_articleid'] = [228918];
+							targetingArray['tn_ptype'] = ['article'];
+							targetingArray['tn_keyword'] = ['psychiatry', 'psychoanal'];
+							targetingArray['tn_subject'] = ['biography', 'cultural-c', 'mental-hea', 'philosophy', 'science-an'];
+							targetingArray['tn_slp'] = [];
+							call_ad_new('halfpage','tn_article','ad-halfpage-228918-0','rectangle_1',targetingArray);
+						});
+					
+															Freud: In His Time and Ours
+								
+															By Élisabeth Roudinesco; Catherine Porter, trans.
+								
+																								Buy this book
+														
+												This popularity came, in part, because Freud’s thought—and its extensions in the various schools of psychoanalysis—had extraordinary versatility. Freud saw sexual love and destructive hate as volcanic forces permanently threatening modern society. While he intended to come to the aid of bourgeois civilization, he did more than perhaps anyone to make sex and violence topics of everyday conversation. Freud argued in Civilization and Its Discontents and other works that if we were to come to terms with the libidinous and aggressive drives boiling up from beneath the surface of civilization, we would have to confront and master these forces. This led Freud and his followers to develop programs for individual therapy; it also became a central proposition for both the nervous self-assurance of Cold War liberalism and the calls for reform by the era’s leftists. Liberals like Lionel Trilling and Marxists like Erich Fromm and Herbert Marcuse found in Freud nothing less than a stimulus to rethink life in common. They all insisted that psychoanalysis did more than address individual biography and pathology; it could help solve the conundrums of collective politics.		
+* * *			 
+			 .article-wrap .article-body aside.left.custom_background_228918			 {
+			 background:#0066cc !important;
+			 }
+			 READ THE REST OF OUR FALL BOOKS ISSUE
+										
+										READ MORE.
+										
+									In light of such wide influence, it is rather shocking how swiftly, if just beyond conscious notice, Freud’s relevance has waned in the past two decades. Looking back over the letters and science of the 20th century, the lasting controversies that publicly swirled around Freud and psychoanalysis prove his onetime pertinence: Like the lowly scorpion sent to bring down a champion and memorialized in the heavens for the pursuit, even his most bitter enemies could depend on Freud’s vast presence to gain substantial attention.		
+In America, former psychoanalytic literary critic turned apostate Frederick Crews wrote regularly in The New York Review of Books about the master’s personal sins and scientific failings. The short-lived director of Freud’s archives Jeffrey Masson notoriously turned on his own establishment when he claimed that psychoanalysis originated in a vile plot to obscure the reality of child abuse. And a Library of Congress exhibition on Freud, which suffered criticism from the moment of its conception, led to bureaucratic infighting and staff changes.		
+But from the view of the early 21st century, none of these melodramas now seems imaginable. Our time has chosen a simpler psychology to celebrate and debate. It is more common now to regard humanity as lucid about its interests, and rational in its fulfillment of them (a few behavioral foibles aside). According to one famous treatment, human beings can move from brutality to empathy mainly on a diet of some novels. Violence does not need to be “internalized”—­as Friedrich Nietzsche proposed and Freud agreed with—so much as left behind. The way ahead is to pit slow thinking against fast thinking. We can end pointless conflict, one best seller explains, by grasping that conservatives and liberals both act on evolutionary “intuition”—the idea that American political debate, for all its provincialism, is structured by the rivalry between tendencies to be either close-knit or cosmopolitan. If there is trouble, the best course is to pop the right pill.
+									Most Popular1Hillary Clinton’s Silence on Standing Rock Is a Moral Mistake—and a Political One2There Are 868 Fewer Places to Vote in 2016 Because the Supreme Court Gutted the Voting Rights Act3Sanders Supporters: It’s Infuriating to Be Told We Have to Vote for Hillary. But We Do.4Will Florida Voters Be Duped Into Killing Solar Power?5FBI Clears Hillary Clinton (Again), but the Damage Is Done		
+Far from being Pollyannaish and anything but plangent, psychoanalysis communed with an age of crisis. Instead of believing that pathologies could be described or drugged away, Freudians wanted us to work through them. There was no going back to earlier beliefs that humans could regard themselves as rational animals. Psychoanalysis was about facing the sheer disorder unreason threatened, rather than looking away.		
+What has been lost by the decline in psychoanalysis’s public relevance has not only been Freud’s system of thought but the delicate balance he embraced between science and culture, reason and passion, the Enlightenment and its Romantic critics. Freud, as Thomas Mann observed in 1929, “unquestionably belongs with those writers of the nineteenth century” who “stand opposed to rationalism.” Spurning the “shallow and outworn idealistic optimism of the daylight cult of Apollo,” Freud believed that psychology had to embrace rather than ignore the fragility of reason. But Freud not only sought to emphasize reason’s embattlement; he also sought to lend a hand in its struggle against the stronger passions. By revealing the weaknesses in the elaborate structure of human rationality, psychoanalysis ultimately helped serve “enlightenment.” Freud’s psychoanalysis was, as Mann put it, “Romanticism turned scientific.” He wanted reason to win out, but not by understating its vulnerability.		
+Élisabeth Roudinesco’s new biography, Freud: In His Time and Ours, is a welcome reminder of Freud’s considerable influence on 20th-century intellectual life. More important, she puts center stage Freud’s complex brand of rationalism and the full scope of his achievements, which went far beyond offering a cure for individuals. In particular, Roudinesco captures Freud’s recognition of the insurmountable ways in which our irrational desires and longings shape who we are and how we act.		
+This correction is needed not only to give us a more accurate sense of Freud’s innovations, but also to contrast it against today’s more complacent assumptions about human rationality. Despite what economists and psychologists and political scientists insist, the rational self is not always master in its own house—whether in individual life or in collective experience.		
+* * *		
+Roudinesco’s biography is the third major one since Freud’s death. The British psychoanalyst Ernest Jones penned a massive study of the master’s life over the course of the 1950s. Thirty years later, the accomplished historian Peter Gay—who also trained as a psychoanalyst as he turned to write Freud’s life—published what has now become the standard work.      
+      .cta.primary.RmZtAlwkVR{
+      background: #cc0e0e !important;
+      color: #ffffff !important;
+      }
+      .cta.primary.RmZtAlwkVR a:hover
+      {
+      color: #cc0e0e !important;
+      background: #ffffff !important;
+      }
+      
+            GET A DIGITAL SUBSCRIPTION 
+FOR JUST $9.50!
+
+            Subscribe   
+      
+Jones’s study was remarkable for its breadth. But it was Gay who benefited from a flood of new information that has long since slowed to a trickle, including many revelations about Freud’s life offered by the release of some of his well-protected correspondence, as well as access Gay had to those who personally knew Freud.		
+Compared to Jones’s three volumes and Gay’s exhaustive 800 pages, Roudinesco’s biography is the slighter narrative. She also cannot displace Gay’s synthesis. Yet her version has other points of distinction. In particular, she offers insights into some of the ambiguities in psychoanalysis that Gay and Jones glossed over.		
+The high points of Freud’s biography used to be well-known. Born to a Jewish family in the town of Freiberg in Mähren—then in the Austro-Hungarian empire, now in the Czech Republic—Freud had a childhood that paralleled an age of liberal ascendancy in Central Europe. Trained as a doctor in Vienna and Paris, Freud built a career for himself as a man of science, hoping to decipher the reigning middle-class maladies of his day, notably hysteria. After several false starts, he wrote The Interpretation of Dreams in 1900, which marked a breakthrough in his thinking by regarding our nightly visions as “the royal road” to the unconscious life.		
+During World War I, Freud’s thought was greatly influenced by his anxiety over his sons who were fighting at the front. He was affected even more by his exposure to cases of wartime trauma, especially shell shock. And while his sometimes rebellious coterie of disciples spread his ideas far and wide, Freud’s own work took on a new and more tragic inflection. With the liberal ascendancy now a pleasant memory, Vienna had become a cauldron of political radicalism and cultural experiment, and Freud found himself at its center. He published in psychology and medicine but also in anthropology, art history, and cultural criticism. The books he wrote during this period ranged in genre from autobiography to literary criticism to social theory, and his subjects included Moses, Leonardo da Vinci, and Woodrow Wilson.		
+Freud’s productive years in Vienna came to a swift end in 1934 when Christian populists brought down the Austrian Republic. Four years later, Germany absorbed the country in the Anschluss, an event that Freud noted laconically in his diary with the entry “Finis Austriae.” He spent his final year in London, ministered to by his daughter Anna, a psychoanalyst in her own right. Suffering from a painful mouth cancer for close to two decades, he passed away secure in the knowledge that while unreason had triumphed in Europe, he had created a far-flung movement that was attempting to understand it.		
+* * *		
+Like Jones and Gay, Roudinesco recounts Freud’s life and the development of his thought with great flair. But there are some special novelties in her narrative, particularly in contrast to Gay’s study.		
+Gay was fiercely loyal to Freud, and he bristled at his protagonist’s detractors, even as he professed to float above controversy. But Gay’s Freud was also a contested one. Believing that psychoanalysis had risen to its apex in the “ego psychology” that focused on rational self-mastery and that was dominant during the Cold War, Gay’s version of Freud came close to reversing the insight into the fragility of reason that started the enterprise.		
+Roudinesco offers a more complete reading of Freud’s ambivalent attitude toward rationalism. Part of the reason for this is her greater appreciation of the sheer breadth of his legacy. Roudinesco first came to public notice for a mammoth 1980s study of the history of psychoanalysis in France, published in English simply as Jacques Lacan and Co. That book examined perhaps the most internationally controversial Freudian of the 20th century, who famously emphasized Freud’s most subversive themes. By contrast, Gay’s biography never mentioned Lacan or his vision of the radical possibilities of psychoanalysis.		
+One approach the two biographers do share is their rush to reach The Interpretation of Dreams, the intellectual turning point that Freud assigned to his development of psychoanalysis. Gay—who dismissed the importance of Viennese intellectual life and Freud’s Jewish identity as somewhere between incidental and irrelevant to the making of psychoanalysis—has Freud to the starting line within 100 pages. Roudinesco is a bit less uncompromising about these influences, but she follows Gay in getting Freud to his “discovery” early in her book, even though by the time he published The Interpretation of Dreams, Freud had already lived more than half his life.		
+A consequence of Gay and Roudinesco’s speed is that they overlook the important role that these and other contexts played in the development of his thought. For example, both miss how developments in natural science in Freud’s era were critical to the difficult birth of psychoanalysis. Critics may have persistently doubted psychoanalysis’ scientific credentials, but, as Katja Guenther and the late John Forrester have shown, its origins are unintelligible apart from arguments about the mind and brain.		
+In other ways, Roudinesco’s biography does bring out a much more neglected Freud, one whom Mann identified more insightfully than Freud’s prior biographers. Gay took Freud’s commitment to reason, whatever its embattlement, as his polestar. “Freud, who more than any other psychologist concentrated on the workings of unreason, detecting sexual motives and death wishes behind the masks of polite manners and untroubled affection, was one of the great rationalists of the modern age,” Gay argued. “He waded into the sewers of irrationality not to wallow in them, but to clean them out.” But like Mann, Roudinesco constructs a different portrait: of a Freud who did not sidle up to the abyss of passion merely to turn his back on it.		
+By doing so, Roudinesco is also more sensitive to the full range of Freud’s accomplishments. This is especially true of his anthropological, historical, and literary works that others often neglect and that made the great psychoanalyst not just a healer but also a bold social and cultural critic. Roudinesco rightly criticizes Jones for “transform[ing] Freud into a scientist more English than Viennese, more positivist than Romantic, much less tormented in his choices than he had been in reality.” But while she doesn’t offer the same criticisms of Gay, one suspects she might have applied a similar verdict to his biography as well, except with Gay, it was not positivism but Cold War liberalism that he used psychoanalysis to buttress. While lionizing Freud’s audacity, Gay, for example, treated Freud’s speculative reinterpretation of the origins of human culture, Totem and Taboo (1913), as a flight of fantasy. By contrast, Roudinesco regards the work as “one of his finest.” She, in fact, goes even further. Written shortly after Freud’s trip to America in 1909, the book, Roudinesco contends, reflects a democratic turn in his thought. In her reading, it offers an incisive indictment of colonialism and racism.		
+* * *		
+Recovering the fuller range of Freud’s thinking and influence on the 20th century, however, leaves the question of why the pertinence of his thought has waned in the 21st. Having completed his volume before the staggering reversal of Freud’s influence, Gay closed his biography with the master on his deathbed. Gay’s final sentence characteristically idolized Freud for his rationalist composure: “The old stoic had kept control of his life to the end.”		
+Roudinesco cannot end her biography as neatly in light of how “interest in psychoanalysis declined in Western societies.” Rather than Gay’s stoicism, Roudinesco is forced to take up the stance of nervous reassurance: “I tell myself,” she writes, “that, for a long time yet, Freud will remain the great thinker of his time and ours.” We are left at the end of her book with few answers as to why Freud’s legacy is now in jeopardy.		
+One can make some educated guesses, though. For one thing, since its heyday there has been a transformation of the pathologies that first inspired psychoanalysis. Freud’s early patients were hysterics. Yet hysteria has disappeared in the intervening years, replaced by other pathologies like anxiety and depression. And Freud never came to grips with outright psychosis, or what has come to be called borderline personality disorder.		
+Psychoanalysis also began to shift its focus after Freud’s death, taking up—among other things—the “pre-Oedipal” period in life, which Freud had neglected. Today, his approaches within clinical psychology and psychiatry have also been routed very substantially in favor of behavioral and drug therapies. One of Woody Allen’s characters tells his psychiatrist wife in a recent film: “If you’re channeling Freud, ask for my money back.”		
+And then, of course, there’s the more general decline of grand systems of thought. Existentialism, Marxism, structuralism, and psychoanalysis all dominated intellectual life 50 years ago. They offered intellectuals elaborate theories that allowed them to range over a wide variety of topics and social problems. But as of late, these grand theories have suffered a common shipwreck. “Anyone can spend his life constructing a comprehensive general theory,” observed one scholar writing on the relationship between psychology and politics in the 1990s, but it “will soon be refuted or outdated.”		
+This skepticism toward the overarching theories of the 19th and 20th centuries has come to incarnate something of the spirit of our age and it is another reason why the prominence of psychoanalysis has declined. Today, we have acquired a preference for indubitable findings and cautious and often minimalist forms of theory and politics. It may be true that gargantuan structures like the one Freud erected proved to rest on shaky foundations; the trouble is that only small hideouts are left among the rubble.		
+The price of this growing skepticism toward general theories has been very high to pay. This is true for psychology and more generally the social sciences but also for the richest possible versions of liberalism and leftism, both of which intersected fruitfully with psychoanalysis at midcentury. The grand theories of an earlier age offered us an ability to look at the intersections between the self, society, and history; in comparison, their replacements look not just intellectually meek but politically unpromising.		
+Psychoanalysis once served as a starting point across the humanities and social sciences, to say nothing of academic psychology. The abandonment of Freud’s speculative penchant has largely meant a return to positivistic theories of human nature. People, in this conventional view, are rational political and economic actors, knowledgeable about their own interests, free to choose them, and—as a default at least—trustworthy in their pursuit. Rational humanity finds itself once again enthroned, its idiosyncrasies sometimes acknowledged as requiring modest tweaks and technocratic palliatives, as if our world did not undermine that optimism at every turn.		
+Our ongoing history—not least this year’s presidential election—has proven the insufficiency of such approaches. But even beyond today, the intricacy of our personal worlds, and the upheavals of our social and political ones, will not permit such doctrines to rule for much longer. Their intellectual replacements may not resemble psychoanalysis exactly, but a renewed struggle against this view of human rationality—a struggle that no one did more than Freud to sponsor—­can provide future inspiration.		
+		
+		 
+			
+				4 Comments
+			
+						
+				Facebook
+					Twitter
+					Email
+					Print
+				
+			
+			
+			
+									 Samuel Moyn
+												 Samuel Moyn teaches law and history at Harvard University. His most recent book is Christian Human Rights.
+							
+					To submit a correction for our consideration,						
+						click here.
+										
+					For Reprints and Permissions, click here.
+				
+					
+			
+			
+
+
+
+
+						
+				Leave a Comment Cancel reply
+									In order to comment, you must be logged in as a paid subscriber.  Click here to log in or subscribe.												
+				
+	
+		
+			
+
+			
+			
+				Sort comments By:
+				
+				Chronological OrderMost Liked
+			
+			
+						
+			
+			
+	
+		
+	
+		
+   
+					Don Salmon says:					
+							
+								November 4, 2016 at 12:22 pm							
+										The worst thing that happened to New Left thinking was Freud; best thing was the demise of his influence.
+The worst thing that every happened to psychiatry, psychology, the entire mental health field, without even a remotely close second, was psychoanalysis, and it was at least a very good thing that the original psychoanalytic travesties have been thoroughly refuted.
+There are glimmers of hope on both fronts - some on the spiritually progressive Left and some in the mental health field are looking toward non-dual ways of understanding.  Another century or so and something good might come of it!
+www.remember-to-breathe.org
+					(7)(15)										
+													
+
+				
+			
+
+   
+   
+					Larry Hedrick says:					
+							
+								November 3, 2016 at 1:56 am							
+										Nothing is more common than the posthumous derogation of towering genius by relative nonentities. In fact, Freud's own thought provides us with the best explanation for why such father figures as himself are set upon by 'sons' who, having failed to destroy him in life, are hardwired to take their revenge after his death.
+Obviously, it's only a matter of time before Professor Freud is resurrected. Will he be the same Freud that his contemporaries knew? Of course not. There will be plenty of additions and emendations to the master's work performed not as scornful dismissals but as respectful tributes to this most suggestive of mental pioneers.
+As for those who have no respect for Freud, I have even less respect for them. Let them huddle together in their ignorance and breathe in the air of their own darkness, unconscious of their own inescapable dilemmas.
+					(34)(17)										
+													
+
+				
+			
+
+   
+   
+					Francis Louis Szot says:					
+							
+								November 2, 2016 at 8:32 pm							
+										Thankfully, Freud’s delusional structures of human consciousness have disappeared from serious discussion. Irredeemably occult and fictional, he has been shown to be clueless about how human personality and self–identity is formed within the larger social and cultural matrix.
+The primal significance of Imprinting to the development of the human nervous system’s relationship to Reality was unrecognized, and had no place in Freud’s pseudo–scientific field of “psycho–analysis”. 
+The manipulative and indirect lessons taught by Behaviorism were still a half–century in the future from discovery. There was no application to the “modern” struggle for survival in the European world of Freud’s era
+There was no understanding of the ambient ocean of Conditioning and Reinforcement signals from Social, Cultural, Economic, and Authoritarian individuals and Institutions.
+Of course, this is not to condemn Freud. He was an ambitious and intelligent man who managed to place his brand on a theoretical system that became commercially viable and very popular during the decades that it specifically benefitted from mass gullibility.
+He is neither the first, nor will he be the last person to find themselves the beneficiary of the misunderstanding of Human Consciousness, which persists among most people to this day.
+					(14)(30)										
+													
+
+				
+			
+
+   
+   
+					Doug Barr says:					
+							
+								November 2, 2016 at 12:14 pm							
+										"Human rationality" can vary from completely rational to almost completely irrational, for at the completely irrational we self-destruct. Where on this continuum of rationality humanity is, is determined by the "Law of Human Nature". Our present apparent level of irrationality is scary close to complete. http://thelastwhy.ca/poems/2014/11/8/law-of-human-nature.html
+					(7)(6)										
+													
+
+				
+			
+
+			
+		
+
+			
+					
+					
+					Biography
+						 
+							Psychoanalysis
+				 
+							Books & the Arts
+										November 21, 2016, Issue
+												
+					
+														
+										Nov 02, 2016Haiti’s Jacobin 
+																	By David A. Bell																		
+									
+																		
+										Oct 05, 2016Le Carré’s Other Cold War 
+																	By Ian Buruma																		
+									
+																	
+								Jul 29, 2016What Breeds in ‘Standing Water’ 									By Larissa Pham								
+							
+														
+								May 20, 2016Stephen O’Connor Dreams of Thomas Jefferson 									By Erin Vanderhoof								
+							
+													
+								Nov 02, 2016The Essential Ferrante 									By Vivian Gornick								
+							
+														
+								Nov 02, 2016Zadie Smith’s Liberal Imagination 									By Adam Kirsch								
+							
+													
+								Nov 04, 2016Asking for a Friend: My Young Daughter Is Trans—How Do I Get Her on the Right Soccer Team Without Forcing Her to Come Out? 
+																	By Liza Featherstone								
+							
+														
+								Nov 04, 2016Utopia? Forget About It. Time for ‘Untopia.’ 
+																	By Walter Mosley								
+							
+													
+				
+				
+.tout.footer.donate.sNhxZNAOqr{
+background: #cc0e0e !important;
+}
+.tout.footer.donate p{color: #ffffff !important;}
+.tout.footer.donate .btn{
+   border:3px solid #ffffff !important;
+   color: #ffffff !important;
+   background: #cc0e0e !important;
+}
+.tout.footer.donate .btn:hover{
+   background:#ffffff !important;
+   color:#cc0e0e !important;
+}
+
+   
+             “AN INDISPENSABLE VOICE IN OUR POLITICAL DIALOGUE.”
+
+
+—ELIZABETH WARREN
+
+            Subscribe to The Nation   
+
+							
+		
+  //  googletag.cmd.push(function() {
+  //  googletag.defineSlot('/1004953/tn_article_leaderboard_2', [728, 90], 'div-gpt-ad-1428494597034-0').
+  //  setTargeting("test","infinitescroll").
+  //  addService(googletag.pubads());
+  //
+  // // Infinite scroll requires SRA
+  // googletag.pubads().enableSingleRequest();
+  //
+  // // Disable initial load, we will use refresh() to fetch ads.
+  // // Calling this function means that display() calls just
+  // // register the slot as ready, but do not fetch ads for it.
+  // googletag.pubads().disableInitialLoad();
+  //
+  // // Enable services
+  // googletag.enableServices();
+  //});
+    
+  
+ // Function to generate unique names for slots
+ var nextSlotId = 1;
+ function generateNextSlotName() {
+   var id = nextSlotId++;
+   return 'adslot' + id;
+ }
+	var nextSlotIdSide = 1;
+	function generateNextSlotNameSide() {
+	  var idSide = nextSlotIdSide++;
+	  return 'slotSide' + idSide;
+	}
+
+
+googletag.cmd.push(function() {
+   //googletag.display('div-gpt-ad-1428494597034-0');
+});
+
+		Ad Policy
+		 
+ 
+	
+	 
+	
+	
+	
+					
+	
+
+	
+	
+	       function runSlider(ele)
+	    {   
+			 ele.bxSlider({
+  adaptiveHeight: true,
+ adaptiveHeightSpeed: 500,
+  infiniteLoop: false,
+  hideControlOnEnd: false,
+  pager: false
+});
+return false;
+		}
+
+	   
+		 jQuery(document).ready(function(){
+		 var flag = false;
+		 $('section.article-body img').each(function() {
+		   
+			 if($(this).parent("a").parent("figure").hasClass('bx-item'))
+			 {
+			  flag = true;
+			 }
+			 else
+			 {
+			 var href_val=$(this).parent("a").attr('href');
+			 var img_src=$(this).attr('src');
+			 if(href_val===img_src)
+			 {
+				$(this).parent("a").addClass("gallery");
+			 }
+			 else
+			 {
+				$(this).parent("a").attr('target','_blank');
+			 }
+			 }
+			 });
+             if(flag)
+			{
+			 runSlider($('.gallery-2'));
+			}
+	});
+		
+jQuery(document).ready(function(){
+  $e = $('.article-body').children().last();   
+   $t = $e.prop("tagName");
+   var tagsArray = ['FORM','ASIDE'];
+   var anothertagsArray = {'UL':'li','OL':'li','BLOCKQUOTE':'p'};
+   if(jQuery.inArray($t, tagsArray )!='-1')
+   {} 
+   else
+   {    
+      if($t in anothertagsArray)
+      {
+         $('.article-body > p:last-of-type').toggleClass('changed');
+         $e.find(anothertagsArray[$t]+':last').addClass('redotclass');         
+      }    
+   }
+});
+jQuery(document).ready(function(){
+$('figure').each(function(){
+    //this wrapped in jQuery will give us the current .letter-q div
+   if($(this).hasClass('alignright')||$(this).hasClass('alignleft') || $(this).hasClass('aligncenter'))
+   { 
+     $(this).after('<div class="clear"></div>');
+	}
+	});
+
+	//jQuery('.click_comment').click(function(){
+	//			console.log("called     "+'#comments_228918' );
+	//		$( '#comments_228918' ).toggle();
+	//		$('html, body').animate({
+	//			scrollTop: $('#comments_228918').offset().top
+	//		},2000);
+	//		return false;
+	//	});
+});
+// Scroll IF # id exist in URL
+	jQuery(document).ready(function($){
+	var url_id = window.location.hash.substr(1);
+	if(url_id!='')
+	{
+	var s = url_id;
+	var n = s.indexOf('/');
+	if(n!=''&& typeof n!= 'undefined')
+	{
+		var id_var = s.substring(0, n != -1 ? n : s.length);
+		//alert(id_var);
+		
+				$('html, body').animate({
+					scrollTop: $('#'+id_var).offset().top
+				},2000);
+				return false;
+			
+		}
+	}
+	});
+	
+/*script to handle Back Button Event */
+var pageChange = 1;
+jQuery.noConflict();
+if(window.attachEvent) {
+    window.attachEvent('onpopstate', datHash);
+}
+function datHash(event)
+{
+	//event.preventDefault();
+	var str = $('#goback').val();
+	if(str=='')
+	{
+	 window.history.go(-Math.abs(pageChange));
+	}
+	else
+	{
+	 window.history.go(-Math.abs(pageChange));
+	}
+	return false;
+}
+/*script to handle Back Button Event */
+
+
+
+jQuery(document).ready(function($){
+	$('.post-edit-link').attr('href', function( _, action){
+    return action.replace('https', 'http');
+});
+    });
+
+jQuery(document).ready(function($) {
+	
+//	(function(window, undefined) {
+//    // Define variables
+//    var History = window.History,
+//        State = History.getState();
+//
+//    // Bind statechange event
+//    History.Adapter.bind(window, 'statechange', function() {
+//        var State = History.getState();
+//    });
+//	})(window);
+	
+	$('a.inifiniteLoader').hide();
+	var articlePostId = 228918;
+	var count = 1;
+	var loagAgn = false;
+	/*Script to handle Article Load Ajax*/
+	function loadArticle(pageNumber){
+		$('a.inifiniteLoader').show('fast');
+		$.ajax({
+		    url: "https://www.thenation.com/wp-admin/admin-ajax.php",
+		    type:'POST',
+			cache: false,
+			dataType: 'json',
+		    data: {action:'infinite_scroll',page_no: pageNumber, loop_file: 'articleload',slug:'biography,cultural-criticism-and-analysis,mental-health,philosophy,science-and-health',curr_post_id:'228918',baseInfo:'{"SERVER_SOFTWARE":"nginx\/1.8.1","REQUEST_URI":"\/article\/freuds-discontents\/","USER":"8222289d68b94bfe993163c439048364","HOME":"\/srv\/bindings\/8222289d68b94bfe993163c439048364","FCGI_ROLE":"RESPONDER","PHP_VALUE":"default_mimetype=\\\"text\/html\\\"\ndefault_charset=\\\"UTF-8\\\"","QUERY_STRING":"","REQUEST_METHOD":"GET","CONTENT_TYPE":"","CONTENT_LENGTH":"","SCRIPT_NAME":"\/index.php","DOCUMENT_URI":"\/index.php","DOCUMENT_ROOT":"\/srv\/bindings\/8222289d68b94bfe993163c439048364\/code","SERVER_PROTOCOL":"HTTP\/1.1","GATEWAY_INTERFACE":"CGI\/1.1","REMOTE_ADDR":"81.242.2.26","REMOTE_PORT":"42970","SERVER_ADDR":"10.223.176.198","SERVER_PORT":"15008","SERVER_NAME":"endpoint228ff791.chios.panth.io","REDIRECT_STATUS":"200","PATH_INFO":"","PATH_TRANSLATED":"\/srv\/bindings\/8222289d68b94bfe993163c439048364\/code","HTTPS":"on","SCRIPT_FILENAME":"\/srv\/bindings\/8222289d68b94bfe993163c439048364\/code\/\/index.php","HTTP_HOST":"www.thenation.com","HTTP_USER_AGENT":"Mozilla\/5.0 (Linux; Android 6.0.1; SM-A310F Build\/MMB29K; wv) AppleWebKit\/537.36 (KHTML, like Gecko) Version\/4.0 Chrome\/54.0.2840.85 Mobile Safari\/537.36 [FB_IAB\/FB4A;FBAV\/101.0.0.18.70;]","HTTP_ACCEPT":"text\/html,application\/xhtml+xml,application\/xml;q=0.9,image\/webp,*\/*;q=0.8","HTTP_ACCEPT_ENCODING":"gzip","HTTP_COOKIE":"has_js=1","HTTP_REFERER":"http:\/\/m.facebook.com\/","HTTP_SURROGATE_CAPABILITY":"styx=\\\"ESI\/1.0\\\"","HTTP_USER_AGENT_HTTPS":"ON","HTTP_VIA":"HTTPS\/1.1 ECS (frf\/87B2)","HTTP_X_FB_HTTP_ENGINE":"Liger","HTTP_X_FB_NET_HNI":"20620","HTTP_X_FB_SIM_HNI":"21601","HTTP_X_FORWARDED_FOR":"81.242.2.26, 192.229.135.178, 127.0.0.1, 127.0.0.1","HTTP_X_FORWARDED_PROTO":"https","HTTP_X_HOST":"www.thenation.com","HTTP_X_PANTHEON_CLIENT_IP":"81.242.2.26","HTTP_X_PANTHEON_STYX":"1","HTTP_X_PROTO":"https:\/\/","HTTP_X_PURPOSE":"preview","HTTP_X_SSL":"ON","HTTP_X_VARNISH":"1018372268","PHP_SELF":"\/index.php","REQUEST_TIME_FLOAT":"1478502110.5047","REQUEST_TIME":"1478502110","PRESSFLOW_SETTINGS":"{\\\"conf\\\":{\\\"pressflow_smart_start\\\":true,\\\"pantheon_binding\\\":\\\"8222289d68b94bfe993163c439048364\\\",\\\"pantheon_site_uuid\\\":\\\"672ae238-dede-44f4-9243-89a591c2cc46\\\",\\\"pantheon_environment\\\":\\\"live\\\",\\\"pantheon_tier\\\":\\\"live\\\",\\\"pantheon_index_host\\\":\\\"18f9ce30-8984-49c6-a353-771e7a1a88ef-private.panth.io\\\",\\\"pantheon_index_port\\\":449,\\\"redis_client_host\\\":\\\"10.223.242.45\\\",\\\"redis_client_port\\\":10000,\\\"redis_client_password\\\":\\\"f7862bd887a04097b9c0c40dd322708a\\\",\\\"file_public_path\\\":\\\"sites\/default\/files\\\",\\\"file_private_path\\\":\\\"sites\/default\/files\/private\\\",\\\"file_directory_path\\\":\\\"sites\/default\/files\\\",\\\"file_temporary_path\\\":\\\"\/srv\/bindings\/8222289d68b94bfe993163c439048364\/tmp\\\",\\\"file_directory_temp\\\":\\\"\/srv\/bindings\/8222289d68b94bfe993163c439048364\/tmp\\\",\\\"css_gzip_compression\\\":false,\\\"js_gzip_compression\\\":false,\\\"page_compression\\\":false,\\\"error_level\\\":0},\\\"databases\\\":{\\\"default\\\":{\\\"default\\\":{\\\"host\\\":\\\"10.223.144.42\\\",\\\"port\\\":10000,\\\"username\\\":\\\"pantheon\\\",\\\"password\\\":\\\"b35cb8c7d81b4ff0a54a7af315773f96\\\",\\\"database\\\":\\\"pantheon\\\",\\\"driver\\\":\\\"mysql\\\"}}},\\\"drupal_hash_salt\\\":\\\"b444002d80740b3d94cc5e42e4945dbc224fd3134e65b580da60215ffe4c8bf3\\\",\\\"config_directory_name\\\":\\\"config\\\"}","FRAMEWORK":"wordpress","DOCROOT":"\/","FILEMOUNT":"wp-content\/uploads","AUTH_KEY":"VHpmJoHTr14kv2qyk4zD6NrSc3IqAUmZxtz0nUnwkNA=","SECURE_AUTH_KEY":"zuloHYH0e\/uwY8+VFQ\/rgob0NrMXhmIsg9ymhQ4uBTg=","LOGGED_IN_KEY":"2m+ff0Ly0rHeTX0y0XQjPbiJWgk2aCET7rTjb+zMW5c=","NONCE_KEY":"JMqPWPpuEU03WW4UaqSzKy1gkcWsavf\/LHKLgHKzusc=","AUTH_SALT":"Q7pT2rIMICgULXTEtMwYfknUKfI0Yaog3PBcoVMI7F8=","SECURE_AUTH_SALT":"a3AFHfpntT3bMHQ5x\/6oFBL2AUyT\/sRYoO2W8Zz5hws=","LOGGED_IN_SALT":"+gVdi3DCKSVclyPORyNbSyHp2Gx9F81RWiMAwMV3hGg=","NONCE_SALT":"JcwHG4IRUl\/DsS0Va2+Z15HXCQKQmnIsDS8mbPoP8w4=","REPLICA_DB_HOST":"10.223.240.192","REPLICA_DB_PORT":"10000","REPLICA_DB_USER":"pantheon","REPLICA_DB_PASSWORD":"51bc58f755ba453a9c36b3f5794b3513","REPLICA_DB_NAME":"pantheon","DB_HOST":"10.223.144.42","DB_PORT":"10000","DB_USER":"pantheon","DB_PASSWORD":"b35cb8c7d81b4ff0a54a7af315773f96","DB_NAME":"pantheon","CACHE_HOST":"10.223.242.45","CACHE_PORT":"10000","CACHE_PASSWORD":"f7862bd887a04097b9c0c40dd322708a","PANTHEON_INDEX_HOST":"10.223.96.36","PANTHEON_INDEX_PORT":"449","PANTHEON_SITE":"672ae238-dede-44f4-9243-89a591c2cc46","PANTHEON_SITE_NAME":"thenation","PANTHEON_ENVIRONMENT":"live","PANTHEON_INFRASTRUCTURE_ENVIRONMENT":"live","PATH":"\/srv\/bindings\/8222289d68b94bfe993163c439048364\/bin:\/usr\/local\/bin:\/bin:\/usr\/bin:\/srv\/bin","PHPRC":"\/srv\/bindings\/8222289d68b94bfe993163c439048364\/php.ini"}'},
+		    success: function(receivedHTML){
+			if (typeof receivedHTML == 'object') 
+			{
+				if(typeof receivedHTML.html!=='undefined' && receivedHTML.html!='')
+				{
+					html = receivedHTML.html;
+				}
+			}
+			else
+			{
+				$('a.inifiniteLoader').hide();
+				$("#single_article_footer").show();
+			}
+			//html = receivedHTML.html;
+			$('a.inifiniteLoader').hide('1000');
+			$("#wrap").append(html);    // This will be the div where our content will be loaded
+			var postID = $($.parseHTML(html)).filter(".scrolltrace").attr('article-post-id');
+			
+			$('.abody-'+postID).children('p:first-of-type').html(function (i, html) {
+if ($('.abody-'+postID).children('img').length == "0") {
+var text = $('.abody-'+postID).children('p:first-of-type').html();
+$('.abody-'+postID).children('p:first-of-type').html(text.replace(/^(<.?>)?([A-Za-z0-9])/g,'$1<span class="dropcap">$2</span>'));
+}
+});        
+	$('<section class="aside-wrap"></section>').insertAfter('.abody-' + postID);
+			/*for hiding meterpaywall popups when pixel ads call starts here*/
+			var hidePixelBool = false;
+			var meetkatstep1 = jQuery('#paywall .step.one');
+			var meetkatstep2 = jQuery('#paywall .step.two');
+			var meetkatstep3 = jQuery('#paywall .step.three');
+			var meetkatstep4 = jQuery('#paywall .step.four');
+			if (typeof meetkatstep1!='undefined' && meetkatstep1.is(':visible'))
+			{
+			  hidePixelBool = true;
+			}
+			if (typeof meetkatstep2!='undefined' && meetkatstep2.is(':visible'))
+			{
+			  hidePixelBool = true;
+			}
+			if (typeof meetkatstep3!='undefined' && meetkatstep3.is(':visible'))
+			{
+			  hidePixelBool = true;
+			}
+			if (typeof meetkatstep4!='undefined' && meetkatstep4.is(':visible'))
+			{
+			  hidePixelBool = true;
+			}
+			if (hidePixelBool===false) 
+			{		  
+				/*for hiding meterpaywall popups when pixel ads call ends here*/
+				/****Alternate Popup code start*********/
+				var enable_alterpopup_check;
+				enable_alterpopup_check ='';
+				if(typeof(enable_alterpopup_check) != "undefined" && enable_alterpopup_check == 1) 
+				{ 
+					var alternate_article_no;
+					alternate_article_no = '';
+					if(pageCounterPaywall % alternate_article_no == 0 && pageCounterPaywall!=0)
+					{
+						show_lightbox('','');
+					}
+				}
+				/******Alternate Popup code End********/
+			}
+			pageCounterPaywall++;
+			ajaxCarousel(postID);
+			/** Slider Content **/
+			var flag = false;
+			$('section.article-body:last img').each(function() {
+			if($(this).parent("a").parent("figure").hasClass('bx-item'))
+			 { 
+			  flag = true;
+			 }
+			 else
+			 {
+			 $(this).parent("a").addClass("gallery");
+			 }
+			 });
+
+			 if(flag){
+			var k = $('section.article-body:last').find('.gallery-2').bxSlider({
+				  adaptiveHeight: true,
+				 adaptiveHeightSpeed: 500,
+				  infiniteLoop: false,
+				  hideControlOnEnd: false,
+				  pager: false
+				});
+			 k.reloadSlider();
+			 }
+			 /* Slider Content End */
+			 
+			 
+			 var usera = navigator.userAgent.toLowerCase(); 
+				if ($('.article-page').length) { 
+				var slickWidth = $('.article-list.slick-slide').width(); 
+				if ($('.ie9').length) 
+				{ slickWidth = $('.recirc-carousel.slick-initialized.slick-slider').width(); } 
+				$('.slick-list.draggable').css( 
+				{'width' : slickWidth} 
+				); 
+				if (!/android|webos|iphone|ipad|ipod|blackberry/i.test(usera)) { 
+				$('.article-list.slick-slide').children('li').css( 
+				{'width' : slickWidth} 
+				); 
+				$('.slick-list').css( 
+				{'width' : slickWidth} 
+				); 
+				} 
+				} 
+			 var $newArticles = $(html);
+        var imagesLoading = [];
+
+        $newArticles.find('img').each(function() {
+          // For each image, create a new deferred object that resolves when the
+          // image has loaded and add that to an array of deferred objects.
+          var loadingImage = $.Deferred();
+          imagesLoading.push(loadingImage);
+
+          // "this" is the image element here and should have a complete property.
+          // See http://stackoverflow.com/a/24201249
+          if (this.complete) {
+            loadingImage.resolve();
+          } else {
+            var adTimeout = window.setTimeout(function() {
+              loadingImage.resolve();
+            }, 3000);
+            this.addEventListener('load', function() {
+              loadingImage.resolve();
+              window.clearTimeout(adTimeout);
+              // Clean up event listeners
+              this.removeEventListener('load');
+              this.removeEventListener('error');
+            });
+            this.addEventListener('error', function() {
+              // We really don't care if the image never loads, but we still need
+              // to resolve the promise so that we can reset the waypoints.
+              loadingImage.resolve();
+              window.clearTimeout(adTimeout);
+              // Clean up event listeners
+              this.removeEventListener('load');
+              this.removeEventListener('error');
+            });
+            // This conditional block could also maybe be simplifed to:
+            // $(this).one('load error', function() {
+            //  loadingImage.resolve();
+            // });
+			}
+		});
+		 $.when.apply(this, imagesLoading).then(function() {
+          // stickyAds();
+          fixedAds($('.postid-' + postID).children('article'));
+        }, function() {
+          console.log(arguments);
+        });
+      }
+    })
+	    return false;
+	}
+	// Subsciber cache comments
+	jQuery(document).on("click",'.click_comment', function(e){		
+	
+		var art_post_id = $(this).attr("article-post-id");
+		
+		var username = getCookie('SESSname');		
+		
+		$.ajax({
+		
+			url:"https://www.thenation.com/wp-admin/admin-ajax.php",
+			data:{
+				"action":"load_comment_ajax", // ajax action function
+				"art_post_id":art_post_id, // article id
+				"username":username, // current user name
+			},
+			type:"POST",
+			success:function(response){
+				if( response!='' && response!=0 ){
+					
+					//$("#comments_"+art_post_id+" .comments-area .comment-respond").html(response);		
+					var data = jQuery.parseJSON(response);
+					
+					var comment_count = data.comment_count.approved+" comment";
+					
+					if(data.comment_count.total_comments > 1){
+						
+						comment_count = data.comment_count.approved+" comments";
+						
+					}
+					
+					$(".postid-"+art_post_id+" .click_comment").html(comment_count);
+					
+					if($("#comments_"+art_post_id+" .comments-area .comment_sorting_setting_outer").length > 0){}
+					else{
+						if(data.comment_count.total_comments > 1){
+							$("#comments_"+art_post_id+" .comments-area").append('<div class="comment_sorting_setting_outer"><div class="sort_com_label">Sort comments By:</div><select id="comment_sorting_setting" name="comment_sorting_setting" class="comment_sorting_setting" comment_postid="'+art_post_id+'" my-ajax-url="https://www.thenation.com/wp-admin/admin-ajax.php"><option sort-attr="1" selected="selected">Chronological Order</option><option sort-attr="2">Most Liked</option></select></div><div class="clear"></div>');
+						}
+					}
+
+					if($("#comments_"+art_post_id+" .comments-area .comment-list").length > 0){
+						$("#comments_"+art_post_id+" .comments-area .comment-list").html(data.comment_list);
+					}else{
+						$("#comments_"+art_post_id+" .comments-area").append("<ol class='comment-list custom_comments'>"+data.comment_list+"</ol>");
+					}					
+					
+					if(username !=null){
+						
+						$("#comments_"+art_post_id+" .comments-area .comment-respond").html(data.comment_box);
+						
+					}		
+					
+				}
+				
+			}
+			
+		});
+		
+	});
+
+	/*Script to handle Scroll*/
+	var scroll_art_share = true;
+	 $(window).bind('scroll', function() {
+		
+			$('.scrolltrace').each(function() {
+			   var post = $(this);
+			   var topp = post.position().top;
+			   var bott = post.position().top + post.height();
+			   var pos = $(window).scrollTop();
+			    if (pos>=topp && pos<=bott) {
+			       $(this).addClass('currentScr');
+			       if($('.currentScr').attr("articlelistlinks")!=window.location.href)
+				   {
+						var ua = window.navigator.userAgent;
+						var msie = ua.indexOf("MSIE ");
+
+						if (msie > 0){ 
+							
+						}else{
+								window.history.pushState({}, "", $('.currentScr').attr('articlelistlinks'));
+								load_article_ads();
+								articlePostId = $('.currentScr').attr("article-post-id");
+								//call_ad_leaderboard();
+								//call_second_leaderboard();
+						}
+				   // Google Analytics  for Infinite Scroll
+					 ga('send', 'pageview', {
+								'page': $('.currentScr').attr('articlelistlinks'),
+								'title': $('.currentScr').attr('articlelisttitle')
+							});
+
+				    pSUPERFLY.virtualPage($('.currentScr').attr('articlelistlinks'), $('.currentScr').attr('articlelisttitle'));
+				$("nav.primary ul li.article-meta h2").html($('.currentScr').attr('articlelisttitle').substring(0,100));
+			       $("title").html($('.currentScr').attr('articlelisttitle'));
+						 
+						 
+						 var linktext = $('.currentScr').find(".anchor_subject").html();
+						 if (linktext!='') {
+						 var linkredirectval =$('.currentScr').find(".anchor_subject").attr('subjectlink');
+						 if(typeof linkredirectval!='undefined')
+						 {
+								var subject_head_link = "<a href='"+linkredirectval+"'>"+linktext+"</a>";
+								$('.tophead_subject').html(subject_head_link);
+						 }
+						 else
+						 {
+							 var subject_head_link = "";
+							$('.tophead_subject').html(subject_head_link);
+						 }
+							
+						 }
+			       
+			       pageChange = parseInt(pageChange) + 1;
+				   }
+				  
+				 }
+			   else
+			   {
+			       $(this).removeClass('currentScr');
+			   }
+		       });
+			// Load next leaderboard ad on reach to bottom action tout 
+			   
+			if($('.scrolltrace').hasClass('currentScr')){
+				
+				var art_recirc_bot = $('.currentScr .recirc-block');								
+				
+				var art_recric_pos = art_recirc_bot.last().offset().top - window.innerHeight;	//article bottom action tout
+			
+				var windowTop = $(window).scrollTop();				
+				
+				if( windowTop >= art_recric_pos ){
+					
+					if(scroll_art_recric){		
+					
+						if(!art_recirc_bot.hasClass('recirc-block-autoload')){
+							
+							var adDivCount = $('#div-gpt-ad-1428494597034-0').children('div').length;
+							
+							if(adDivCount == 0){
+								call_ad_leaderboard();
+							
+								scroll_art_recric = false;  // article action variable 
+							
+							}						
+	
+							
+						}else{			
+
+							var adDivCount = $('#slot-'+articlePostId).children('div').length;
+							
+							if(adDivCount == 0){
+							
+								var slotName = generateNextSlotName();
+							
+								autoload_article_ads(slotName,articlePostId);
+							
+								scroll_art_recric = false;  // article action variable 	
+								
+							}							
+							
+						}					
+											
+					}	
+					
+				}else{
+					
+					scroll_art_recric = true; // article action variable 
+					
+				}
+				
+			}
+		if ( typeof PaywallWorking !== 'undefined' && PaywallWorking == 'on' )
+     {
+        var loadPoint = false;
+        var loadPointElement = $('.scroll_handler:eq('+pageCounterPaywall+')').offset();        
+        if (typeof loadPointElement!=="undefined")
+        {
+           loadPoint = loadPointElement.top;
+        }
+     }
+     else
+     {
+        //var loadPoint = $('.footer-module .article-share:last').position().top; 
+        //var loadPoint = $('footer.recirc-block:last').position().top;	
+         var loadPoint = $('.article-header .article-share:last').offset().top;
+        //var loadPoint = $('section.article-body:last').position().top;
+     }
+	
+		if  (loadPoint!=false && $(window).scrollTop() > loadPoint)
+		{ if($('.scrolltrace').length==count)
+		  { { loagAgn = true;
+		      if(loagAgn)
+			  {
+			count++;
+		 if (count < 6) {
+			 if(preventLoad_article==false){
+								loadArticle(count);//code
+				
+				}		
+		 }
+		 if (count==6) {
+			$('a.inifiniteLoader').hide();
+			$("#single_article_footer").show();
+		 }
+		 loagAgn = false;
+			  }
+		   }
+		  
+		  }
+		}
+		
+//		 if($(this).scrollTop() > 100){
+//            $('.goTop').stop().animate({
+//                bottom: '20px'    
+//                }, 500);
+//        }
+//        else{
+//            $('.goTop').stop().animate({
+//               bottom: '-100px'    
+//            }, 500);
+//        }
+	});
+	
+	/*Script to handle Scroll close*/	
+	 
+//	$('.goTop').click(function() {
+//        $('html, body').stop().animate({
+//           scrollTop: 0
+//        }, 500, function() {
+//           $('.goTop').stop().animate({
+//               bottom: '-100px'    
+//           }, 500);
+//        });
+//    });
+	
+	 // Script for Comment Sec
+	 $('body').on('click','.click_comment',function(event){
+	   event.preventDefault();
+	   $(this).closest('.article-footer').find('.commentContainer').slideToggle('slow', function() {
+         if ($(this).css('display')=='none') {
+           check_comment = false;//condition added for print
+         }
+         else{
+            check_comment = true;//condition added for print
+         }			
+		});
+		 $('html, body').animate({
+				scrollTop: $($(this).closest('.article-footer').find('.commentContainer')).offset().top
+			},2000);
+	 });
+	 
+	var list;
+	$('body').on('click','a.comment-reply-link',function(event){
+	$( ".comment-status" ).remove();
+	var comment_link_respond = $(this);		
+	comment_link_respond.closest('.comment-form').find('.comment-status').html('');
+	list = $(this).closest('article').attr('id');
+
+	var PIDS = list.split('-');
+	$(this).closest('.comments-area').find('.comment-respond').find('#comment_parent').val(PIDS[PIDS.length-1]);
+	
+	});
+	
+	$('body').on('click','.cancel-comment-reply-link',function(event){
+	$( ".comment-status" ).remove();
+	list=null;
+	});
+	
+	
+	$('body').on('click','.submit',function(event){
+		event.preventDefault();
+		$( ".comment-status" ).remove();
+	var commentform=$(this).closest('.comment-form'); // find the comment  form
+	    commentform.prepend('<div class="comment-status" ></div>'); // add info panel before the form to provide feedback or errors
+        var statusdiv=commentform.find('.comment-status'); // define the infopanel
+				var checkspace = $(this).closest('.comment-form').find("textarea#comment").val();
+		if (checkspace.replace(/\s/g, '').length && $(this).closest('.comment-form').find("textarea#comment").val()!='') {
+			statusdiv.html(' ');
+			//serialize and store form data in a variable
+			var formdata=commentform.serialize();
+			//Add a status message
+			//Extract action URL from commentform
+			var formurl=commentform.attr('action');
+			
+				statusdiv.html('<p>Processing...</p>');
+				 $(this).attr('disabled','disabled');
+				var e = $(this);
+				$.ajax({
+						type: 'post',
+						url: formurl,
+						data: formdata,
+					  error: function(XMLHttpRequest, textStatus, errorThrown)
+						{
+							statusdiv.html(' ');
+							 $('.submit').removeAttr('disabled');
+							statusdiv.html('<p class="error_cmnt" >You might have left one of the fields blank, or be posting too quickly</p>');
+						},
+						success: function(data, textStatus){
+							var chkstatus_comment = $($.parseHTML(data)).filter(".chk_comment_class").attr('comment-status');
+							
+								if (chkstatus_comment=='spam') {
+									statusdiv.html('<p class="error_cmnt" >You have been blocked from commenting by <i>The Nation\'s</i> moderators.</p>');
+								}
+								else{
+									$('.submit').removeAttr('disabled'); 
+									$("textarea#comment").val('');
+									statusdiv.html('<p class="success_cmnt" ></p>');
+									if(e.closest(".comments-area").has("ol.comment-list").length > 0){
+										if(list != null){
+											e.closest(".comments-area").find('#'+list).after(data);
+										}
+										else{
+											e.closest(".comments-area").find('ol.comment-list').prepend(data);
+										}
+									}
+									else{
+										e.closest(".comments-area").prepend('<ol class="comment-list custom_comments"> </ol>');
+										e.closest(".comments-area").find('ol.comment-list').html(data);
+									}
+							}
+						}
+						
+				});
+				return false;
+			statusdiv.html('');
+		}else{
+			statusdiv.html('<p class="error_cmnt" >Please enter text in comment box.</p>');
+		}
+        }); 
+});
+// Print functionality
+function tn_print_fn()
+{            
+    var tn_current_url=window.location.href;
+    if (check_comment == true) {
+       window.open(tn_current_url+'?print=1&comment=1','_blank');
+    }
+    else{
+       window.open(tn_current_url+'?print=1','_blank');
+    }
+    
+    return false;
+}
+
+function add_action_tout_sailthru(post_id)
+{
+ var ajaxurl=ajax_object.ajax_url;
+	var sailthru_email_take_action = document.getElementById('take_action_sailthru_email_'+post_id).value;
+	if(sailthru_email_take_action!='')
+	{
+			var take_action_sailthru_list_final = document.getElementById('take_action_sailthru_list_final_'+post_id).value;
+			var action_tout_sailthru='action_tout_sailthru';
+			jQuery.ajax({
+			url:ajaxurl,
+			type:"POST",
+			data:"sailthru_email_take_action="+sailthru_email_take_action+"&take_action_sailthru_list_final="+take_action_sailthru_list_final+"&action="+action_tout_sailthru,
+			success:function(data){
+			//alert(data);
+			document.getElementById('action_tout_response_'+post_id).innerHTML=data;
+			document.getElementById('take_action_sailthru_email_'+post_id).value='';
+			}
+			});
+	}
+	else
+	{
+	var error_msg='<span style="color:#cc0e0e">Please Enter Email</span>';
+	document.getElementById('action_tout_response_'+post_id).innerHTML=error_msg;
+	}
+}
+jQuery(document).ready(function(){
+jQuery( ".action_tout_remove_gallery a" ).removeClass( "gallery imgHover" ).delay( 1000 );
+});
+
+
+
+		
+		
+		
+
+	
+	
+		
+
+		
+	
+
+	
+			
+			
+			
+				
+				
+				
+				
+					
+					
+						
+						
+					
+					
+				
+				
+				
+				
+				
+				
+				
+				
+					Follow The Nation
+					
+					
+						
+						
+						
+						
+						
+					Get Email Updates
+					
+					
+					
+						Stay connected with everything Nation by signing up for our free daily newsletter. 
+					
+					
+					
+					
+					
+					
+					
+						
+					
+					
+			
+					
+					
+				
+				
+				
+				
+				
+				
+				
+				
+					SectionsPolitics
+World
+Economy
+Culture
+Society
+Environment
+Take Action
+
+				
+				
+				
+				
+				
+				
+			   
+					The NationAbout
+Advertise
+eBooks
+Comments Policy
+Contact Us
+Help
+Jobs and Internships
+Nation Builders
+Nation Cruise
+Student Writing Contest
+
+				
+				
+				
+				
+				
+				
+				
+					MagazineCurrent Issue
+Masthead
+Archive
+Donate
+Subscribe
+Subscription Services
+Events
+Reprints
+					
+				
+				
+				
+				
+			
+			
+						
+					
+					
+					
+					
+						
+
+							Copyright (c) 2016 The Nation Company LLC
+							
+						
+						
+					
+					
+					
+			
+						
+	
+
+
+    
+	var isProcessing = false; 
+    function alter_ul_post_values(obj,post_id,ul_type){
+	
+		if (isProcessing)    
+		return;  
+		isProcessing = true;   
+		
+		jQuery(obj).find("span").html("..");
+    	jQuery.ajax({
+   		type: "POST",
+   		url: "https://www.thenation.com/wp-content/plugins/like-dislike-counter-for-posts-pages-and-comments/ajax_counter.php",
+   		data: "post_id="+post_id+"&up_type="+ul_type,
+   		success: function(msg){
+     		jQuery(obj).find("span").html(msg);
+			isProcessing = false; 
+   			}
+ 		});
+	}
+	
+/* <![CDATA[ */
+var ajax_object = {"ajax_url":"https:\/\/www.thenation.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+
+/* <![CDATA[ */
+var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/www.thenation.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+
+	
+		/*subscribe sailthru function start*/
+	
+		function susbcribe_sailthru(form_value){
+			
+			var newsletterArray = new Array();
+
+			var firstname ='';
+
+			var lastname ='';
+
+			var zippostal ='';
+
+			var user_email ='';
+		   
+			jQuery(form_value).closest("form").find("input[name^='sft_variables']").each(function() {
+			   
+				if (jQuery(this).attr("id")=="first_name") {
+				  
+					firstname = jQuery(this).val();
+				 
+				}
+				
+				if (jQuery(this).attr("id")=="last_name") {
+				
+					lastname = jQuery(this).val();
+				
+				}
+				
+				if (jQuery(this).attr("id")=="zip_postal-code") {
+				
+					zippostal = jQuery(this).val();
+				
+				}
+				
+				if (jQuery(this).attr("id")=="email") {
+				
+					user_email = jQuery(this).val();
+				
+				}
+				
+		    });
+		   
+			jQuery(form_value).closest("form").find("input[name^='sft_newssletter_variables']").each(function() {
+			   
+				newsletterArray.push(jQuery(this).attr("id"));         
+			  
+			});  
+			
+			var newsletter_variable=newsletterArray.join(",");
+			
+			var origin_host=document.location.origin;
+			
+			/*call popCenter*/
+			
+			PopupCenter(origin_host+"/submit.php?form_value_fname_val="+firstname+"&form_value_lname_val="+lastname+"&form_value_zip_val="+zippostal+"&form_value_email_val="+user_email+"&email_newsletter="+newsletter_variable,'xtf','300','300');			
+		   
+			jQuery(form_value).closest("form").find("input[name^='sft_variables']").each(function() {
+				
+				if (jQuery(this).attr("id")=="first_name") {
+				
+					jQuery(this).val('');
+				
+				}
+				
+				if (jQuery(this).attr("id")=="last_name") {
+					
+					jQuery(this).val('');
+					
+				}
+				
+				if (jQuery(this).attr("id")=="zip_postal-code") {
+					
+					jQuery(this).val('');
+					
+				}
+				
+				if (jQuery(this).attr("id")=="email") {
+				
+					jQuery(this).val('');
+				
+				}
+				
+			});
+			
+		}  
+		
+		/*subscribe sailthru function end*/
+
+		/*pop up function start*/
+		
+		function PopupCenter(url, title, w, h) {
+			
+			/* Fixes dual-screen position                         Most browsers      Firefox    */
+
+			var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+
+			var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+
+			var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+
+			var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+			var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+
+			var top = ((height / 2) - (h / 2)) + dualScreenTop;
+			
+			var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+			
+			/* Puts focus on the newWindow */
+
+			if (window.focus) {
+
+				newWindow.focus();
+
+			}
+
+			setTimeout(function () { newWindow.close();}, 5000);
+
+		}
+		
+		/*pop up function end*/
+		/*Remove nc=1  starts here*/
+$(document).ready(function(){
+	var currentUrl = document.URL;
+	if(currentUrl.indexOf("?nc=1") > -1){
+		currentUrl = currentUrl.replace("?nc=1","");
+		window.history.pushState({}, null, currentUrl);
+		
+	}
+	
+	if(currentUrl.indexOf("&nc=1") > -1){
+		currentUrl = currentUrl.replace("&nc=1","");
+		window.history.pushState({}, null, currentUrl);
+		
+	}
+	 
+});
+/*Remove nc=1 ends here*/
+	window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"442438c9d9","applicationID":"5436353","transactionName":"Z1JSYkYACEsAV0cKXV4YcVVACAlWTkdaDVVcUh1XRhUPWw1R","queueTime":0,"applicationTime":1090,"atts":"SxVRFA4aG0U=","errorBeacon":"bam.nr-data.net","agent":""}

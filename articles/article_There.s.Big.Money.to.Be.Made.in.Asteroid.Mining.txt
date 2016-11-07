@@ -1,0 +1,883 @@
+Infographic: There's Big Money to Be Made in Asteroid Miningfunction parentIsEvil() { var html = null; try { var doc = top.location.pathname; } catch(err){ }; if(typeof doc === "undefined") { return true } else { return false }; }; if (parentIsEvil()) { top.location = self.location.href; };var url = "http://www.visualcapitalist.com/theres-big-money-made-asteroid-mining/";if(url.indexOf("stfi.re") != -1) { var canonical = ""; var links = document.getElementsByTagName("link"); for (var i = 0; i < links.length; i ++) { if (links[i].getAttribute("rel") === "canonical") { canonical = links[i].getAttribute("href")}}; canonical = canonical.replace("?sfr=1", "");top.location = canonical; console.log(canonical);};.nc_socialPanel.swp_d_customColor a, html body .nc_socialPanel.swp_i_customColor .nc_tweetContainer:hover a, body .nc_socialPanel.swp_o_customColor:hover a {color:white} .nc_socialPanel.swp_d_customColor .nc_tweetContainer, html body .nc_socialPanel.swp_i_customColor .nc_tweetContainer:hover, body .nc_socialPanel.swp_o_customColor:hover .nc_tweetContainer {background-color:#75b33b;border:1px solid #75b33b;} @font-face {font-family: "sw-icon-font";src:url("http://2oqz471sa19h3vbwa53m33yj.wpengine.netdna-cdn.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.eot?ver=2.0.7");src:url("http://2oqz471sa19h3vbwa53m33yj.wpengine.netdna-cdn.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.eot?ver=2.0.7#iefix") format("embedded-opentype"),url("http://2oqz471sa19h3vbwa53m33yj.wpengine.netdna-cdn.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.woff?ver=2.0.7") format("woff"), url("http://2oqz471sa19h3vbwa53m33yj.wpengine.netdna-cdn.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.ttf?ver=2.0.7") format("truetype"),url("http://2oqz471sa19h3vbwa53m33yj.wpengine.netdna-cdn.com/wp-content/plugins/social-warfare/fonts/sw-icon-font.svg?ver=2.0.7#1445203416") format("svg");font-weight: normal;font-style: normal;}
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.visualcapitalist.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+
+                        #text-3 .widget__title { display: none; }
+.header--type2 .nav--top-right { display: none; }
+.header--type3 .nsociaav--top-right { display: none; }
+.single .article__featured-image { display: none; }
+
+.container {
+max-width: 1118px;
+}
+/*Custom CSS new*/
+a, blockquote, .small-link, .tabs__nav a.current, 
+.popular-posts__time a.current, .tabs__nav a:hover, 
+.popular-posts__time a:hover, .widget--footer__title em,
+.widget_rss .widget--footer__title .hN, 
+.widget_rss .widget--footer__title .article__author-name, 
+.widget_rss .widget--footer__title .comment__author-name, 
+.widget_rss .widget--footer__title .widget_calendar caption, 
+.widget_calendar .widget_rss .widget--footer__title caption, 
+.widget_rss .widget--footer__title .score__average-wrapper, 
+.widget_rss .widget--footer__title .score__label, 
+.article--billboard-small .small-link em, 
+.article--billboard-small .post-nav-link__label em, 
+.article--billboard-small .author__social-link em,
+.small-link, .post-nav-link__label, .author__social-link,
+.article--thumb__title a:hover, 
+.widget_wpgrade_twitter_widget .widget--footer__title h3:before,
+a:hover > .pixcode--icon,
+.score__pros__title, .score__cons__title,
+.comments-area-title .hN em,
+.comment__author-name, .woocommerce .amount,
+.panel__title em, .woocommerce .star-rating span:before, 
+.woocommerce-page .star-rating span:before {
+    color: #75b33b;
+}
+
+.heading--main .hN, .widget--sidebar__title, 
+.pagination .pagination-item--current span,.pagination .current, .single .pagination span,
+.pagination li a:hover, .pagination li span:hover, 
+.rsNavSelected, .badge, .progressbar__progress,
+.btn:hover, .comments_add-comment:hover, 
+.form-submit #comment-submit:hover, 
+.widget_tag_cloud a:hover, .btn--primary,
+.comments_add-comment, .form-submit #comment-submit,
+a:hover > .pixcode--icon.circle, a:hover > .pixcode--icon.square,
+.article--list__link:hover .badge, .score__average-wrapper,
+.site__stats .stat__value:after, .site__stats .stat__title:after,
+.btn--add-to-cart {
+    background-color: #75b33b;
+}
+
+.social-icon-link:hover .square, .social-icon-link:focus .square, .social-icon-link:active .square,
+.site__stats .stat__value:after, .site__stats .stat__title:after {
+    background-color: #75b33b !important;
+}
+
+@media only screen and (min-width: 900px){
+    .nav--main li:hover, .nav--main li.current-menu-item {
+        border-bottom-color: #75b33b;     
+    }
+    .back-to-top a:hover:after, .back-to-top a:hover:before {
+        border-color: #75b33b; 
+    }
+    .article--billboard > a:hover .article__title:before, 
+    .article--billboard > a:hover .article--list__title:before, 
+    .article--billboard > a:hover .latest-comments__title:before,
+    .article--grid__header:hover .article--grid__title h3, 
+    .article--grid__header:hover .article--grid__title:after {
+        background-color: #75b33b;
+    }
+}
+
+.woocommerce ul.products li.product a:hover img{
+    border-bottom: 5px solid #75b33b;
+}
+
+ol {
+    border-left: 0 solid #75b33b;
+}
+	/* Select classes here */
+    .badge, h1, h2, h3, h4, h5, h6, hgroup,
+    .hN, .article__author-name, .comment__author-name,
+    .score__average-wrapper, .score__label, 
+    .widget_calendar caption, blockquote,
+    .tabs__nav, .popular-posts__time,
+    .heading .hN, .widget--sidebar__title .hN, 
+    .widget--footer__title .hN, .heading .article__author-name, 
+    .widget--sidebar__title .article__author-name, 
+    .widget--footer__title .article__author-name, 
+    .heading .comment__author-name, 
+    .widget--sidebar__title .comment__author-name, 
+    .widget--footer__title .comment__author-name, 
+    .heading .score__average-wrapper, 
+    .widget--sidebar__title .score__average-wrapper, 
+    .widget--footer__title .score__average-wrapper, 
+    .heading .score__label, .widget--sidebar__title .score__label, 
+    .widget--footer__title .score__label, .heading .widget_calendar caption, 
+    .widget_calendar .heading caption, 
+    .widget--sidebar__title .widget_calendar caption, 
+    .widget_calendar .widget--sidebar__title caption, 
+    .widget--footer__title .widget_calendar caption, 
+    .widget_calendar .widget--footer__title caption,
+    .score-box--after-text, .latest-comments__author,
+    .review__title, .share-total__value, .pagination li a, .pagination li span,
+    .heading span.archive__side-title
+      {
+		font-family: Open Sans;
+	font-weight: 400;
+		}
+
+	/* Select classes here */
+    nav {
+		font-family: PT Sans;
+	font-weight: 400;
+		}
+
+	/* Select classes here */
+	html, .wp-caption-text, .small-link, 
+    .post-nav-link__label, .author__social-link,
+    .comment__links, .score__desc  {
+		font-family: PT Sans;
+	font-weight: 400;
+	line-height: 18px;
+		}
+ 
+    /* Size Classes */
+    .article, .single .main, .page .main, 
+    .comment__content,
+    .footer__widget-area  {
+        font-size: 15px;
+    }
+
+
+                #text-3 .widget__title { display: none; }
+.header--type2 .nav--top-right { display: none; }
+.header--type3 .nsociaav--top-right { display: none; }
+.single .article__featured-image { display: none; }
+
+.container {
+max-width: 1118px;
+}                    
+
+
+/* <![CDATA[ */
+var userSettings = {"url":"\/","uid":"0","time":"1478428174","secure":""};
+/* ]]> */
+
+/* <![CDATA[ */
+var imgmap = {"ajaxurl":"http:\/\/www.visualcapitalist.com\/wp-admin\/admin-ajax.php","pulseOption":"never","admin_logged":"","alt_dialog":""};
+/* ]]> */
+
+/* <![CDATA[ */
+var related_posts_js_options = {"post_heading":"h4"};
+/* ]]> */
+
+/* <![CDATA[ */
+var vlpp_vars = {"prettyPhoto_rel":"wp-video-lightbox","animation_speed":"fast","slideshow":"5000","autoplay_slideshow":"false","opacity":"0.80","show_title":"true","allow_resize":"true","allow_expand":"true","default_width":"640","default_height":"480","counter_separator_label":"\/","theme":"pp_default","horizontal_padding":"20","hideflash":"false","wmode":"opaque","autoplay":"false","modal":"false","deeplinking":"false","overlay_gallery":"true","overlay_gallery_max":"30","keyboard_shortcuts":"true","ie6_fallback":"true"};
+/* ]]> */
+
+/* <![CDATA[ */
+var $DGD = {"ajaxurl":"\/wp-admin\/admin-ajax.php","nonce":"e673a65f00","debug":"","permalink":"http:\/\/www.visualcapitalist.com\/theres-big-money-made-asteroid-mining\/","title":"There's Big Money to Be Made in Asteroid Mining","thumbnail":"http:\/\/www.visualcapitalist.com\/wp-content\/uploads\/2016\/11\/asteroid-share.jpg","scripthost":"\/wp-content\/plugins\/dreamgrow-scroll-triggered-box\/","scrollboxes":[{"trigger":{"action":"scroll","scroll":"50","delaytime":"0","element":""},"vpos":"bottom","hpos":"right","cookieLifetime":"7","receiver_email":"0","thankyou":"You are subscribed. Thank You!","submit_auto_close":"3","hide_submitted":"1","delay_auto_close":"120","theme":"","widget_enabled":"1","height":"auto","width":"300","jsCss":{"padding":"16","margin":"0","backgroundColor":"#262525","boxShadow":"0px","borderColor":"#ffffff","borderWidth":"4px","borderRadius":"0px","backgroundImageUrl":""},"closeImageUrl":"","transition":{"from":"b","effect":"none","speed":"400"},"social":{"facebook":"","twitter":"","google":"","pinterest":"","stumbleupon":"","linkedin":""},"id":"dgd_scrollbox-2463","mode":"stb","voff":0,"hoff":0}]};
+/* ]]> */
+
+	.g { margin:0px; padding:0px; overflow:hidden; line-height:1; zoom:1; }
+	.g img { height:auto; }
+	.g-col { position:relative; float:left; }
+	.g-col:first-child { margin-left: 0; }
+	.g-col:last-child { margin-right: 0; }
+	.g-1 { margin:1px 1px 1px 1px; }
+	@media only screen and (max-width: 480px) {
+		.g-col, .g-dyn, .g-single { width:100%; margin-left:0; margin-right:0; }
+	}
+
+_atrk_opts = { atrk_acct:"ILnPl1aE+GW1fn", domain:"visualcapitalist.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+
+        (function(){
+          var bsa = document.createElement('script');
+              bsa.type= 'text/javascript';
+              bsa.async = true;
+              bsa.src='//s3.buysellads.com/ac/bsa.js';
+          (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+        })();
+         
+	function goprocess_gplwt(elemid,goval){
+		consulta_gplwt(elemid,1+'&v='+goval,'/wp-content/plugins/get-post-list-with-thumbnails/ajaxgplwt.php');	
+	}
+ .simple-social-icons ul li a, .simple-social-icons ul li a:hover { background-color: #777777 !important; border-radius: 3px; color: #ffffff !important; border: 0px #ffffff solid !important; font-size: 18px; padding: 9px; }  .simple-social-icons ul li a:hover { background-color: #75b33b !important; border-color: #ffffff !important; color: #ffffff !important; }.nav—main>li>a{color:#fff !important}.wp-caption2{margin:10px;padding:10px;border:0;background:#fff;font-size:90%;color:#000}
+;(function($){
+                                            
+})(jQuery);
+
+    
+        
+    
+    
+        Primary Mobile Navigation
+            
+                
+    
+            
+            Home
+Markets
+Technology
+Energy
+Mining
+Gold
+	Silver
+	Copper
+	Platinum
+	Base Metals
+	Strategic Metals
+	Company Snapshots
+
+Green
+Money
+Politics
+Sponsored Infographics
+About UsAbout This SiteOur Design WorkOur TeamContact UsWork With UsSponsor an InfographicCreate an InfographicCompany SpotlightsSubscribe
+            
+            Secondary Navigation
+			
+            
+                
+                    About UsAbout This SiteOur Design WorkOur TeamContact UsWork With UsSponsor an InfographicCreate an InfographicCompany SpotlightsSubscribe
+                    			
+				
+					
+				
+			
+					
+				
+					
+				
+			
+					
+				
+					
+				
+			
+					
+				
+					
+				
+			
+					
+				
+					
+				
+			
+		
+    
+
+            
+        
+
+    
+
+        
+            
+                    
+                
+
+            			
+                                                                        
+			        
+
+                        
+        
+		Primary Navigation
+            
+                Home
+
+Markets
+
+
+											The Times They Are A-Changin’
+											The New York Times just announced a 95.7% decrease in quarterly profits - w...
+											Read More+
+										
+									
+
+
+											Prices Are Skyrocketing, But Only For Things You Actually Need
+											Over the last 20 years, the things that are the most important to us, such ...
+											Read More+
+										
+									
+
+
+											Explaining the October Flash Crash in the British Pound
+											Roughly 75% of all financial market volume comes from automated trading. He...
+											Read More+
+										
+									
+
+
+											Chart: The Robo-Advisor Arms Race
+											Can upstart robo-advisors compete against the scale of financial behemoths ...
+											Read More+
+										
+									
+
+
+											11 Things Every Metal Investor Needs to Know About Zinc
+											With zinc prices up over 35% in 2016, many metal investors are taking a sec...
+											Read More+
+										
+									
+
+
+
+Technology
+
+
+											The Times They Are A-Changin’
+											The New York Times just announced a 95.7% decrease in quarterly profits - w...
+											Read More+
+										
+									
+
+
+											There’s Big Money to Be Made in Asteroid Mining
+											How much money is there to be made in asteroid mining? In many cases - the ...
+											Read More+
+										
+									
+
+
+											The Top Celebrity Investors, and What We Can Learn From Them
+											Celebrities - they're just like us, except they are rich and famous! See th...
+											Read More+
+										
+									
+
+
+											The Industrial Internet of Things (IIoT): Are Companies Ready For It?
+											The Industrial Internet of Things (IIoT) presents a huge opportunity on an ...
+											Read More+
+										
+									
+
+
+											The Critical Ingredients Needed to Fuel the Battery Boom
+											The explosion in demand for electric cars means we need more batteries. But...
+											Read More+
+										
+									
+
+
+
+Energy
+
+
+											How the Power Grid Actually Works
+											How does electricity to your home? This infographic shows how the power gri...
+											Read More+
+										
+									
+
+
+											The Critical Ingredients Needed to Fuel the Battery Boom
+											The explosion in demand for electric cars means we need more batteries. But...
+											Read More+
+										
+									
+
+
+											The Alternative Energy Sources of the Future
+											Which new sources of energy have promise? This infographic highlights the u...
+											Read More+
+										
+									
+
+
+											The Oil Market is Bigger Than All Metal Markets Combined
+											Ever wonder why the oil industry has so much influence? This chart shows th...
+											Read More+
+										
+									
+
+
+											What Americans Actually Think About Energy and the Climate
+											This survey of over 1,000 Americans tells you what people actually believe ...
+											Read More+
+										
+									
+
+
+
+Mining
+Gold
+Silver
+Copper
+Platinum
+Base Metals
+Strategic Metals
+Company Snapshots
+
+
+
+											There’s Big Money to Be Made in Asteroid Mining
+											How much money is there to be made in asteroid mining? In many cases - the ...
+											Read More+
+										
+									
+
+
+											The Critical Ingredients Needed to Fuel the Battery Boom
+											The explosion in demand for electric cars means we need more batteries. But...
+											Read More+
+										
+									
+
+
+											11 Things Every Metal Investor Needs to Know About Zinc
+											With zinc prices up over 35% in 2016, many metal investors are taking a sec...
+											Read More+
+										
+									
+
+
+											The Oil Market is Bigger Than All Metal Markets Combined
+											Ever wonder why the oil industry has so much influence? This chart shows th...
+											Read More+
+										
+									
+
+
+
+Green
+
+
+											The Critical Ingredients Needed to Fuel the Battery Boom
+											The explosion in demand for electric cars means we need more batteries. But...
+											Read More+
+										
+									
+
+
+											The Alternative Energy Sources of the Future
+											Which new sources of energy have promise? This infographic highlights the u...
+											Read More+
+										
+									
+
+
+											What Americans Actually Think About Energy and the Climate
+											This survey of over 1,000 Americans tells you what people actually believe ...
+											Read More+
+										
+									
+
+
+											41 Interesting Facts About Tesla Motors
+											Everything you need to know about Tesla Motors and the driving force behind...
+											Read More+
+										
+									
+
+
+											This Stunning Graphic Shows Earth’s Temperature Over 22,000 Years
+											This simple and hilarious graphic is a must-see because of the excellent co...
+											Read More+
+										
+									
+
+
+
+Money
+
+
+											Prices Are Skyrocketing, But Only For Things You Actually Need
+											Over the last 20 years, the things that are the most important to us, such ...
+											Read More+
+										
+									
+
+
+											Explaining the October Flash Crash in the British Pound
+											Roughly 75% of all financial market volume comes from automated trading. He...
+											Read More+
+										
+									
+
+
+											The Most Prolific Investors in Startups Are Fans of These Books
+											The world's most elite startup investors come in all shapes and sizes. But ...
+											Read More+
+										
+									
+
+
+											Chart: The Robo-Advisor Arms Race
+											Can upstart robo-advisors compete against the scale of financial behemoths ...
+											Read More+
+										
+									
+
+
+											2016 Rich List: The Top 10 Billionaires in Tech
+											Which tech titans have the largest fortunes? This infographic counts down t...
+											Read More+
+										
+									
+
+
+
+Politics
+
+
+											How Does the U.S. Stock Market Perform in Election Years?
+											This infographic shows how the U.S. market performs in each year of a presi...
+											Read More+
+										
+									
+
+
+											Cheat Sheet: The Third Party Presidential Candidates
+											This infographic serves as a cheat sheet to the third party candidates in t...
+											Read More+
+										
+									
+
+
+											Chart: Which Countries Are Damaged Most by Low Oil Prices?
+											It's been two years since the oil price crash. This chart looks at three se...
+											Read More+
+										
+									
+
+
+											U.S. Healthcare is a Global Outlier, and Not in a Good Way
+											Americans spent more than $3 trillion, or 17.5% of GDP, on healthcare in 20...
+											Read More+
+										
+									
+
+
+											The Regulatory Burden in the U.S. is a Whopping $4 Trillion
+											There is now a 180,000 page regulatory burden at the federal level, and one...
+											Read More+
+										
+									
+
+
+Sponsored Infographics
+
+        
+
+
+
+    
+
+    
+    
+        
+	                        
+    
+
+
+    There’s Big Money to Be Made in Asteroid Mining
+
+
+			Jeff Desjardins		 on November 2, 2016 at 12:44 pm
+
+     Share Tweet Share Reddit EmailShares 1.0KClick below to expand to the full version of the infographic
+
+Image courtesy of: Wired
+
+ 
+
+There’s Big Money to Be Made in Asteroid Mining
+See the full version of the infographic.
+If humans were ever able to get their hands on just one asteroid, it would be a game-changer.
+That’s because the value of many asteroids are measured in the quintillions of dollars, which makes the market for Earth’s annual production of raw metals – about $660 billion per year – look paltry in comparison.
+The reality is that the Earth’s crust is saddled with uneconomic materials, while certain types of asteroids are almost pure metal. X-type asteroids, for example, are thought to be the remnants of large asteroids that were pulverized in collisions in which their dense, metallic cores got separated from the mantle. 
+There is one such X-type asteroid near earth that is believed to hold more platinum than ever mined in human history.
+Near-Earth Mining Targets
+Asteroid mining companies such as Planetary Resources and Deep Space Industries are the first-movers in the sector, and they’ve already started to identify prospective targets to boldly mine where no man has mined before.
+Both companies are looking specifically at near-Earth asteroids in the near-term, which are the easiest ones to get to. So far, roughly 15,000 such objects have been discovered, and their orbits all come in close proximity to Earth.
+Planetary Resources has identified eight of these as potential targets and has listed them publicly, while Deep Space Industries has claimed to have “half a dozen very, very attractive targets”.
+While these will be important for verifying the feasibility of asteroid mining, the reality is that near-Earth asteroids are just tiny minnows in an ocean of big fish. Their main advantage is that they are relatively easy to access, but most targets identified so far are less than 1,000 ft (300 m) in diameter – meaning the potential economic payoff of a mission is still unclear.
+Where the Money is Made
+The exciting part of asteroid mining is the asteroid belt itself, which lies between Mars and Jupiter. It is there that over 1 million asteroids exist, including about 200 that are over 60 miles (100 km) in diameter. 
+NASA estimates this belt to hold $700 quintillion of bounty. That’s about $100 billion for each person on Earth.
+There are obviously many technical challenges that must be overcome to make mining these possible. As it stands, NASA aims to bring back a grab sample from the surface of asteroid Bennu that is 2 and 70 ounces (about 60 to 2,000 grams) in size. The cost of the mission? Approximately $1 billion.
+To do anything like that on a large scale will require robots, spacecraft, and other technologies that simply do not exist yet. Further, missions like this could cost trillions of dollars – a huge risk and burden in the case that a mission is unsuccessful.
+Until then, the near-Earth asteroids are the fertile testing ground for aspirational asteroid miners – and we look forward to seeing what is possible in the future.
+
+
+
+
+
+
+
+
+
+
+
+Sponsored Infographics
+
+The Money Project
+
+ 
+
+
+Embed This Image On Your Site (copy code below):Courtesy of: Visual Capitalist
+
+	Related
+ Share Tweet Share Reddit EmailShares 1.0K
+    
+
+        
+        
+                                
+                        
+                        
+                    
+                
+                            
+                    Categories
+                    MiningSpaceTechnology                
+                            
+                    Tagged
+                    asteroidminingplatinumspace                
+                    
+                
+
+		
+	
+		
+			Author
+			
+				Jeff Desjardins
+			
+		
+		Jeff Desjardins is a founder and editor of Visual Capitalist, a media website that creates and curates visual content on investing and business.
+		
+					Website
+				
+														
+
+                    
+                                
+                                    Previous Article                                
+                                
+                                    How the Power Grid Actually Works
+                                
+                    
+                
+                    
+                                
+                                    Next Article                                
+                                
+                                    The Times They Are A-Changin'
+                                
+                    
+                
+    
+
+
+var disqus_url = 'http://www.visualcapitalist.com/theres-big-money-made-asteroid-mining/';
+var disqus_identifier = '6418 http://www.visualcapitalist.com/?p=6418';
+var disqus_container_id = 'disqus_thread';
+var disqus_shortname = 'visualcapitalist';
+var disqus_title = "There&#8217;s Big Money to Be Made in Asteroid Mining";
+var disqus_config_custom = window.disqus_config;
+var disqus_config = function () {
+    /*
+    All currently supported events:
+    onReady: fires when everything is ready,
+    onNewComment: fires when a new comment is posted,
+    onIdentify: fires when user is authenticated
+    */
+    
+    
+    this.language = '';
+        this.callbacks.onReady.push(function () {
+
+        // sync comments in the background so we don't block the page
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = '?cf_action=sync_comments&post_id=6418';
+
+        var firstScript = document.getElementsByTagName('script')[0];
+        firstScript.parentNode.insertBefore(script, firstScript);
+    });
+    
+    if (disqus_config_custom) {
+        disqus_config_custom.call(this);
+    }
+};
+
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+
+    
+
+   
+     
+    
+        
+        
+        
+                        Back to Top
+                    
+    
+        
+    
+		
+    	
+            
+
+                
+                    
+                    
+                                About Visual Capitalist			 Visual Capitalist creates and curates enriched visual content focused on emerging trends in business and investing.
+Learn More
+
+		                            
+                                Get daily investor content			
+	
+		
+	    	
+		        
+		        	
+		        
+		    
+	    
+  	
+
+	
+		
+		
+		
+
+
+		                            
+                                			Connect With Us			
+										
+							
+						
+											
+							
+						
+											
+							
+						
+											
+							
+						
+											
+							
+						
+											
+							
+						
+								
+		                            
+                    
+                    
+
+                
+
+            
+
+    			
+        
+            
+                
+                    Copyright © 2016 Visual Capitalist | All rights reserved.
+                    Contact Us
+Submit
+Media Kit
+Work With Us
+Company Spotlights
+Subscribe
+
+                
+            
+        
+
+    
+swp_pinit=false;
+        // <![CDATA[
+        var disqus_shortname = 'visualcapitalist';
+        (function () {
+            var nodes = document.getElementsByTagName('span');
+            for (var i = 0, url; i < nodes.length; i++) {
+                if (nodes[i].className.indexOf('dsq-postid') != -1 && nodes[i].parentNode.tagName == 'A') {
+                    nodes[i].parentNode.setAttribute('data-disqus-identifier', nodes[i].getAttribute('data-dsqidentifier'));
+                    url = nodes[i].parentNode.href.split('#', 1);
+                    if (url.length == 1) { url = url[0]; }
+                    else { url = url[1]; }
+                    nodes[i].parentNode.href = url + '#disqus_thread';
+                }
+            }
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+        // ]]>
+        jQuery(document).ready(function(){jQuery(".kiwi-logo-carousel-default").bxSlider({mode:"horizontal",speed:500,slideMargin:0,infiniteLoop:true,hideControlOnEnd:false,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:1,maxSlides:4,moveSlides:1,slideWidth:200,auto:true,pause:4000,useCSS:false});jQuery(".kiwi-logo-carousel-companies-weve-worked-with").bxSlider({mode:"horizontal",speed:2000,slideMargin:25,infiniteLoop:true,hideControlOnEnd:true,captions:false,ticker:false,tickerHover:false,adaptiveHeight:false,responsive:true,pager:false,controls:true,autoControls:false,minSlides:4,maxSlides:9,moveSlides:4,slideWidth:150,auto:true,pause:3000,useCSS:false});jQuery(".kiwi-logo-carousel-weve-been-featured-on").bxSlider({mode:"horizontal",speed:2000,slideMargin:25,infiniteLoop:true,hideControlOnEnd:true,captions:false,ticker:false,tickerHover:false,adaptiveHeight:true,responsive:true,pager:false,controls:true,autoControls:false,minSlides:4,maxSlides:9,moveSlides:4,slideWidth:150,auto:true,pause:3000,useCSS:false});});
+	
+	
+	
+
+/* <![CDATA[ */
+var ajaxurl = "http:\/\/www.visualcapitalist.com\/wp-admin\/admin-ajax.php";
+var sharrre_urlCurl = "http:\/\/www.visualcapitalist.com\/wp-content\/themes\/bucket\/theme-content\/js\/sharrre.php";
+var objectl10n = {"tPrev":"Previous (Left arrow key)","tNext":"Next (Right arrow key)","tCounter":"of"};
+var theme_name = "bucket";
+/* ]]> */
+
+/* <![CDATA[ */
+var click_object = {"ajax_url":"http:\/\/www.visualcapitalist.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.visualcapitalist.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"sending":"Sending ...","cached":"1"};
+/* ]]> */
+
+/* <![CDATA[ */
+var JQLBSettings = {"fitToScreen":"0","resizeSpeed":"400","displayDownloadLink":"0","navbarOnTop":"0","loopImages":"","resizeCenter":"","marginSize":"","linkTarget":"","help":"","prevLinkTitle":"previous image","nextLinkTitle":"next image","prevLinkText":"\u00ab Previous","nextLinkText":"Next \u00bb","closeTitle":"close image gallery","image":"Image ","of":" of ","download":"Download","jqlb_overlay_opacity":"80","jqlb_overlay_color":"#000000","jqlb_overlay_close":"1","jqlb_border_width":"10","jqlb_border_color":"#ffffff","jqlb_border_radius":"0","jqlb_image_info_background_transparency":"100","jqlb_image_info_bg_color":"#ffffff","jqlb_image_info_text_color":"#000000","jqlb_image_info_text_fontsize":"10","jqlb_show_text_for_image":"1","jqlb_next_image_title":"next image","jqlb_previous_image_title":"previous image","jqlb_next_button_image":"http:\/\/www.visualcapitalist.com\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/next.gif","jqlb_previous_button_image":"http:\/\/www.visualcapitalist.com\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/prev.gif","jqlb_maximum_width":"","jqlb_maximum_height":"","jqlb_show_close_button":"1","jqlb_close_image_title":"close image gallery","jqlb_close_image_max_heght":"22","jqlb_image_for_close_lightbox":"http:\/\/www.visualcapitalist.com\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/closelabel.gif","jqlb_keyboard_navigation":"1","jqlb_popup_size_fix":"0"};
+/* ]]> */
+
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+
+ Mornings are better with Visual Capitalist.
+
+	
+	
+	Thank you! Given email address is already subscribed, thank you! Please provide a valid email address. Please complete the CAPTCHA. Oops. Something went wrong. Please try again later. 
+
+
+
+
+
+
+
+jQuery(document).ready(function(){
+if(jQuery.fn.gslider) {
+}
+});
+
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.3.2',blog:'71661740',post:'6418',tz:'-8',srv:'www.visualcapitalist.com'} ]);
+	_stq.push([ 'clickTrackerInit', '71661740', '6418' ]);
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25110788-1', 'visualcapitalist.com');
+  ga('send', 'pageview');
+
+/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */

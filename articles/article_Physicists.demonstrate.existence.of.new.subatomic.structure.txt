@@ -1,0 +1,166 @@
+ISU physicists help demonstrate existence of new subatomic structure  |   College of Liberal Arts and Sciences
+      google.load('visualization', '1', {packages: ['corechart']});
+    
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/las.iastate.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+
+
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=294718484009486";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+		Iowa State University College of Liberal Arts and Sciences
+		Menu
+		
+			
+			
+		
+	 
+
+				Future Students
+Undergraduate Programs
+	Learning Communities
+	Graduate Programs
+	Online Programs
+	High School & Transfer
+	Apply Now
+
+Current Students
+Academic Programs
+	Learning Communities
+	General Education
+	Scholarships
+	Academic Services
+	Multicultural Services
+	Career Services
+	Online Programs
+	Study Abroad
+
+Alumni & Friends
+Faculty & Staff
+About the College
+Office of the Dean
+	People
+	Academic Departments
+	Centers and Institutes
+	Research
+	Named Faculty
+	Diversity
+	International Programs
+	Faculty Careers
+
+
+			
+		News
+– Students
+	– Alumni
+	– Research
+	– Faculty & Staff
+
+LAS Student Blog
+ISU News Service
+Events
+– LAS Lectures
+
+
+
+
+
+
+	
+		News
+– Students
+	– Alumni
+	– Research
+	– Faculty & Staff
+
+LAS Student Blog
+ISU News Service
+Events
+– LAS Lectures
+
+ISU physicists help demonstrate existence of new subatomic structure
+		Studying the tetraneutron, once thought unlikely to exist, may improve our understanding of interneutron forces, from unstable two- and three-neutron systems to neutron stars.			
+				November 3, 2016 			
+		Iowa State University researchers have helped demonstrate the existence of a subatomic structure once thought unlikely to exist.
+James Vary, professor of physics and astronomy, and Andrey Shirokov, visiting scientist at Iowa State, together with an international team, used sophisticated supercomputer simulations to show the quasi-stable existence of a tetraneutron, a structure comprised of four neutrons (subatomic particles with no charge). 
+		
+					James Vary, right, and coauthor Andrey Shirokov with an illustration of a tetraneutron.  (Christopher Gannon/Iowa State University)
+			The new finding was published in Physical Review Letters, a publication of the American Physical Society, on October 28.
+On their own, neutrons are very unstable and will convert into protons — positively charged subatomic particles — after ten minutes. Groups of two or three neutrons do not form a stable structure, but the new simulations in this research demonstrate that four neutrons together can form a resonance, a structure stable for a period of time before decaying.
+For the tetraneutron, this lifetime is only 5×10^(-22) seconds (a tiny fraction of a billionth of a nanosecond). Though this time seems very short, it is long enough to study, and provides a new avenue for exploring the strong forces between neutrons. 
+“This opens up a whole new line of research,” Vary said. “Studying the tetraneutron will help us understand interneutron forces including previously unexplored features of the unstable two-neutron and three-neutron systems.” 
+The advanced simulations demonstrating the tetraneutron corroborate the first observational evidence of the tetraneutron earlier this year in an experiment performed at the RIKEN Radioactive Ion Beam Factory (RIBF), in Saitama, Japan. The tetraneutron structure has been sought for 40 years with little evidence supporting its existence, until now. The properties predicted by the calculations in the simulations were consistent with the observed properties from the experiment in Japan. 
+The research in Japan used a beam of Helium-8, Helium with 4 extra neutrons, colliding with a regular Helium-4 atom. The collision breaks up the Helium-8 into another Helium-4 and a tetraneutron in its brief resonance state, before it, too, breaks apart, forming four lone neutrons.
+“We know that additional experiments with state-of-the-art facilities are in preparation with the goal to get precise characteristics of the tetraneutron,” Vary said. “We are providing our state-of-the-art predictions to help guide these experiments.”
+The existence of the tetraneutron, once confirmed and refined, will add an interesting new entry and gap to the chart of nuclides, a graph representing all known nuclei and their isotopes, or nuclei with a different number of neutrons. Similar to the periodic table, which organizes the chemical behavior of elements, the nuclide chart represents the radioactive behavior of elements and their isotopes. While most nuclei add or subtract neutrons one at a time, this research shows that a neutron itself will have a gap between a single neutron and a tetraneutron. 
+The only other known neutron structure is a neutron star, small but dense stars thought to be made almost entirely of neutrons. These stars may be only about seven miles in radius but have a mass similar to that of our sun. Neutron stars have neutrons on the order 10^57. Further research may explore if there are other numbers of neutrons that form a stable resonance along the path to reaching the size of a neutron star.
+Other researchers involved in this project included George Papadimitriou, postdoc at Lawrence Livermore National Laboratory and a former postdoc at Iowa State University, Alexander Mazur, professor and Igor Mazur, senior lecturer, both at Pacific National University in Khabarovsk, Russia, and Robert Roth, professor at Technische Universitaet Darmstadt in Darmstadt, Germany.
+	 
+
+  
+	College of Liberal Arts and Sciences
+	News
+	Events
+	Facebook
+	Twitter
+	LinkedIn
+	Contact Us
+  About the College
+	Academic Departments
+	People
+	Office of the Dean
+  Students
+	Academics
+	Scholarships
+	Career Services
+  Research
+	Signature Themes
+	Research Highlights
+  	Grant Deadlines
+  Alumni
+  
+
+  Faculty and Staff
+	LAS Intranet
+  Site Map
+  Iowa State University
+	AccessPlus
+	University Directory
+  
+
+© Iowa State University
+	
+var pltNewTabURLs = ["http:\/\/multicultural.las.iastate.edu"];(function(){(function(e){var t;t=e.jQueryWP||e.jQuery;return t(function(e){return typeof e.fn.on=="function"?e("body").on("click","a",function(t){var n;n=e(this);if(e.inArray(n.attr("href"),pltNewTabURLs)>-1)return n.attr("target","_blank")}):typeof console!="undefined"&&console!==null?console.log("Page Links To: Some other code has overridden the WordPress copy of jQuery. This is bad. Because of this, Page Links To cannot open links in a new window."):void 0})})(window)}).call(this);
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+    _paq.push(['setCustomVariable', '1', 'Version', 'B', 'page']);  (function() {
+	var u=(("https:" == document.location.protocol) ? "https" : "http") + "://www.las.iastate.edu/analytics/piwik/";
+	_paq.push(['setTrackerUrl', u+'piwik.php']);
+	_paq.push(['setSiteId', 1]);
+	var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+	g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+
+
+
+

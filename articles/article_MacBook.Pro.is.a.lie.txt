@@ -1,0 +1,1919 @@
+The MacBook Pro is a lie - The Verge
+(function(d) {
+  try {
+    if (localStorage.getItem('chorus-fonts-7dd4715c9932ad91b9cb67f5848f9fd7') === 'yes') {
+      d.documentElement.className += ' fonts-loaded';
+    }
+  } catch (e) {}
+  var fontUrls = ["https://fonts.voxmedia.com/unison/stylesheets/verge.7a4973b180ca1d2156edfdd996177503.css"];
+  var ss = d.styleSheets;
+  for (var i=0; i<fontUrls.length; i++) {
+    var l = d.createElement('link');
+    var n = d.getElementById('chorus-fonts');
+    l.href = fontUrls[i];
+    l.rel = 'stylesheet';
+    l.media = 'none';
+    n.parentNode.insertBefore(l, n);
+  }
+  
+  function onload() {
+    var i = ss.length;
+    while (i--) {
+      var idx = fontUrls.indexOf(ss[i].href)
+      if (idx > -1) {
+        ss[i].ownerNode.media = 'all';
+        fontUrls.splice(idx, 1);
+      }
+    }
+    if (fontUrls.length > 0) {
+      setTimeout(onload, 0);
+    }
+  }
+  onload();
+
+
+})(document);
+
+  
+  
+   dataLayer = [{"Network":"theverge","Community":"theverge","GA Primary ID":"UA-26533115-1","GA CrossDomains":"theverge.com","Content ID":"13312093","Entry Groups":"front-page:apple:editorial:tech:circuitbreaker","Author":"Vlad Savov","Last Time Updated":"2016-11-07 08:34","Hour of Update":"08","Publish Date":"2016-11-07 08:00","Hour of Publish":"08","Demand Post":"no","All Chorus Categories":"theverge:theverge:front-page:apple:editorial:tech:circuitbreaker","Content Type":"article","chartbeat_domain":"theverge.com","chartbeat_zone":"172968584/verge","chartbeat_authors":"Vlad Savov","Logged in Status":"Logged Out","Day of Week":"monday","Hour of Day":"09"}];
+ 
+window._umbel = window._umbel || [];
+(function() {
+var d = new Date();
+d.setDate(d.getDate() + 365);
+document.cookie = "umbel_api_key=lrjhazrpqbgtnrij; expires=" + d.toUTCString();
+if (document.location.href.indexOf('utm_source=umbel') !== -1) {
+if (typeof Chorus !== 'undefined' && typeof Chorus.Video !== 'undefined') {
+Chorus.Video.autoplay = true;
+jQuery(document).ready(function(){
+document.location.hash = jQuery('.chorus-video-embed').first().attr('id');
+});
+}
+}
+})();
+
+  var ChorusAds = ChorusAds || {};ChorusAds.adsBlocked = true;
+  var pbjs = pbjs || {};pbjs.que = pbjs.que || [];
+  var googletag = googletag || {};googletag.cmd = googletag.cmd || [];
+  var PREBID_TIMEOUT = 1500;
+  ChorusAds.recorded_slots = [{"name":"cfa_athena","sizes":[[1030,590]],"context":{"device_type":null,"browser_width":{"min":0,"max":0}}},{"name":"reskin","sizes":[[2,2]],"context":{"device_type":["desktop"],"browser_width":{"min":"881","max":0}}},{"name":"cfa_cardstack_interstitial","sizes":[[1400,900]],"context":{"device_type":null,"browser_width":{"min":0,"max":0}}},{"name":"cfa_maps","sizes":[[300,250]],"context":{"device_type":null,"browser_width":{"min":0,"max":0}}},{"name":"cfa_cardstack_mobile_leaderboard","sizes":[[320,50]],"context":{"device_type":null,"browser_width":{"min":"0","max":"727"}}},{"name":"cfa_cardstack_leaderboard","sizes":[[728,90]],"context":{"device_type":null,"browser_width":{"min":"728","max":0}}},{"name":"prelude_front_page","sizes":[[1400,600]],"context":{"device_type":["desktop"],"browser_width":{"min":"881","max":0}}},{"name":"prelude","sizes":[[1400,600]],"context":{"device_type":["desktop"],"browser_width":{"min":"881","max":0}}},{"name":"desktop_leaderboard_variable","sizes":[[728,90],[970,250],[970,90],[1020,90]],"context":{"device_type":["desktop"],"browser_width":{"min":"881","max":0}}},{"name":"tablet_leaderboard","sizes":[[728,90]],"context":{"device_type":["tablet"],"browser_width":{"min":"601","max":0}}},{"name":"mobile_leaderboard","sizes":[[320,50],[300,250]],"context":{"device_type":["mobile"],"browser_width":{"min":"0","max":"728"}}},{"name":"mobile_med_rec_athena","sizes":[[300,250],[1030,590],[300,265]],"context":{"device_type":["mobile"],"browser_width":{"min":"0","max":"728"}}},{"name":"mobile_footer","sizes":[[320,50],[300,250]],"context":{"device_type":["mobile"],"browser_width":{"min":"0","max":"728"}}},{"name":"mobile_article_body","sizes":[[300,250],[1030,590],[300,265]],"context":{"device_type":["mobile"],"browser_width":{"min":"0","max":"600"}}},{"name":"btf_leaderboard_variable","sizes":[[728,90],[1020,90]],"context":{"device_type":["desktop"],"browser_width":{"min":"881","max":0}}},{"name":"tablet_btf_leaderboard","sizes":[[728,90]],"context":{"device_type":["tablet"],"browser_width":{"min":"601","max":0}}},{"name":"medium_rectangle_variable","sizes":[[300,250],[300,600]],"context":{"device_type":["desktop"],"browser_width":{"min":"0","max":0}}},{"name":"btf_medium_rectangle_variable","sizes":[[300,250]],"context":{"device_type":["desktop"],"browser_width":{"min":"0","max":0}}},{"name":"tablet_medium_rectangle","sizes":[[300,250]],"context":{"device_type":["tablet"],"browser_width":{"min":"601","max":0}}},{"name":"btf_tablet_medium_rectangle","sizes":[[300,250]],"context":{"device_type":["tablet"],"browser_width":{"min":"601","max":0}}},{"name":"athena","sizes":[[1030,590],[970,250],[728,90]],"context":{"device_type":["desktop"],"browser_width":{"min":"601","max":0}}},{"name":"cfa_athena_only","sizes":[[1030,590]],"context":{"device_type":null,"browser_width":{"min":0,"max":0}}},{"name":"tablet_athena","sizes":[[1030,590]],"context":{"device_type":["tablet"],"browser_width":{"min":"0","max":0}}},{"name":"athena_features","sizes":[[1030,590],[970,250],[728,90]],"context":{"device_type":["tablet","desktop"],"browser_width":{"min":"601","max":0}}},{"name":"native_ad_video","sizes":[[200,200]],"context":{"device_type":null,"browser_width":{"min":0,"max":0}}},{"name":"native_ad_latest","sizes":[[300,100]],"context":{"device_type":["desktop","tablet","mobile"],"browser_width":{"min":"0","max":0}}},{"name":"native_ad_content_link","sizes":[[650,150]],"context":{"device_type":["desktop","tablet","mobile"],"browser_width":{"min":"0","max":0}}},{"name":"native_ad_mobile","sizes":[[300,265],[300,250]],"context":{"device_type":["mobile"],"browser_width":{"min":"0","max":0}}},{"name":"native_ad_ymal_link","sizes":[[1200,100]],"context":{"device_type":["desktop","tablet","mobile"],"browser_width":{"min":"0","max":0}}},{"name":"native_ad_linkset_link","sizes":[[1200,100]],"context":{"device_type":["desktop","tablet","mobile"],"browser_width":{"min":"0","max":0}}},{"name":"in_map","sizes":[[300,250]],"context":{"device_type":null,"browser_width":{"min":"0","max":0}}}];
+  ChorusAds.slug = "/172968584/verge";
+  ChorusAds.front_page = false;
+  ChorusAds.production = true;
+  
+  pbjs.que.push(function() { ChorusAds.addVariable("network", ["verge"]);
+ ChorusAds.addVariable("affiliation", ["general"]);
+ ChorusAds.addVariable("unison", [true]);
+ ChorusAds.addVariable("entry_id", [13312093]);
+ ChorusAds.addVariable("entry_type", ["article"]);
+ ChorusAds.addVariable("entry_slug", ["2016/11/7/13548052/the-macbook-pro-lie"]);
+ ChorusAds.addVariable("entry_author", ["Vlad Savov"]);
+ ChorusAds.addVariable("entry_group", ["front-page","apple","editorial","tech","circuitbreaker"]);
+ ChorusAds.addVariable("hub_page", ["apple","tech","circuitbreaker"]);
+ ChorusAds.addVariable("page_type", ["interior_page"]);
+ ChorusAds.addVariable("keywords", "the macbook pro is a lie the verge");});
+  var Chorus=Chorus||{};Chorus.AddScript=function(o){var n=document.createElement("script");n.async=!0,n.type="text/javascript",n.src=o;var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(n,t)},Chorus.OnLoad=function(o){var n=window.onload;"function"!=typeof window.onload?window.onload=o:window.onload=function(){n(),o()}};
+
+
+article quote em:before {
+content: none;
+}
+
+var chorusInitQueue=[];
+    
+    
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8JKW6');
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("reskin");});
+
+
+
+      clockmenumore-arrow
+    
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("prelude");});
+
+
+
+    
+
+    
+
+    
+      
+        
+          
+            
+        
+        
+          
+            
+        
+        
+        
+      
+    
+    
+      
+            
+      
+          
+            
+      
+          
+            
+      
+      
+    
+    
+      
+        Log In or Sign Up
+        
+        
+            Log In
+          
+          
+            Sign Up
+          
+        
+    
+    
+    
+      
+    
+    
+    
+    
+              
+              
+                
+              Tech
+              
+                
+              
+              
+            
+          
+            
+              
+              
+                
+              Science
+              
+                
+              
+              
+            
+          
+            
+              
+              
+                
+              Culture
+              
+                
+              
+              
+            
+          
+            
+              
+              
+                
+              Cars
+              
+                
+              
+              
+            
+          
+            
+              
+              
+                
+              Reviews
+              
+                
+              
+              
+            
+          
+            
+              
+              
+                
+              Longform
+              
+              
+            
+          
+            
+              
+              
+                
+              Video
+              
+              
+            
+          
+            
+              
+              
+                
+              Circuit Breaker
+              
+              
+            
+          
+            
+              
+              
+                
+              TL;DR
+              
+              
+            
+          
+            
+              
+              
+                
+              Forums
+              
+              
+            
+          
+        
+        
+          
+            more
+            
+            
+          
+        
+      
+  
+
+
+  
+    
+        
+          
+            Tech
+            
+              
+        
+
+         
+            
+            
+              
+                  
+                    
+                    
+                      
+                        Apple
+                      
+                    
+                    
+                    
+                      
+                        Google
+                      
+                    
+                    
+                    
+                      
+                        Microsoft
+                      
+                    
+                    
+                    
+                      
+                        Apps
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        Photography
+                      
+                    
+                    
+                    
+                      
+                        Virtual Reality
+                      
+                    
+                    
+                    
+                      
+                        All Tech
+                      
+                    
+                    
+                  
+                    
+                  
+                
+              
+      
+        
+        
+          
+            Science
+            
+              
+        
+
+         
+            
+            
+              
+                  
+                    
+                    
+                      
+                        Space
+                      
+                    
+                    
+                    
+                      
+                        Energy
+                      
+                    
+                    
+                    
+                      
+                        Health
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        Environment
+                      
+                    
+                    
+                    
+                      
+                        All Science
+                      
+                    
+                    
+                  
+                    
+                  
+                
+              
+      
+        
+        
+          
+            Culture
+            
+              
+        
+
+         
+            
+            
+              
+                  
+                    
+                    
+                      
+                        Web
+                      
+                    
+                    
+                    
+                      
+                        TV
+                      
+                    
+                    
+                    
+                      
+                        Film
+                      
+                    
+                    
+                    
+                      
+                        Games
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        Comics
+                      
+                    
+                    
+                    
+                      
+                        Music
+                      
+                    
+                    
+                    
+                      
+                        All Culture
+                      
+                    
+                    
+                  
+                    
+                  
+                
+              
+      
+        
+        
+          
+            Cars
+            
+              
+        
+
+         
+            
+            
+              
+                  
+                    
+                    
+                      
+                        Ride-Sharing
+                      
+                    
+                    
+                    
+                      
+                        Cars
+                      
+                    
+                    
+                    
+                      
+                        Mass Transit
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        Aviation
+                      
+                    
+                    
+                    
+                      
+                        Rideables
+                      
+                    
+                    
+                    
+                      
+                        All Transportation
+                      
+                    
+                    
+                  
+                    
+                  
+                
+              
+      
+        
+        
+          
+            Reviews
+            
+              
+        
+
+         
+            
+            
+              
+                  
+                    
+                    
+                      
+                        Phones
+                      
+                    
+                    
+                    
+                      
+                        Laptops
+                      
+                    
+                    
+                    
+                      
+                        Cameras
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        Tablets
+                      
+                    
+                    
+                    
+                      
+                        Headphones
+                      
+                    
+                    
+                    
+                      
+                        Smartwatches
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        VR Headsets
+                      
+                    
+                    
+                    
+                      
+                        All Reviews
+                      
+                    
+                    
+                  
+                    
+                  
+                
+              
+      
+        
+        
+          
+            Longform
+            
+          
+        
+
+         
+        
+      
+        
+        
+          
+            Video
+            
+          
+        
+
+         
+        
+      
+        
+        
+          
+            Circuit Breaker
+            
+          
+        
+
+         
+        
+      
+        
+        
+          
+            TL;DR
+            
+          
+        
+
+         
+        
+      
+        
+        
+          
+            Forums
+            
+          
+        
+
+         
+        
+      
+      ✕
+    
+
+
+
+    
+    
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("desktop_leaderboard_variable");});
+
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("tablet_leaderboard");});
+
+
+
+    
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("mobile_leaderboard");});
+
+
+
+    
+  
+
+    
+  
+  
+  
+  
+  
+    
+
+      
+            
+              
+              Circuit Breaker
+            
+          
+        
+          
+            
+              
+              Apple
+            
+          
+        
+          
+            
+              
+              Editorial
+            
+          
+        
+      
+
+  
+    The MacBook Pro is a lie
+
+    
+      
+        
+  
+    
+    New,
+  
+  
+    
+      57
+    
+    comments
+  
+
+
+      
+    
+  
+  At least I hope it is
+
+  
+    
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+          
+        
+        
+      
+      Vlad Savov
+    
+
+    
+      
+        Nov 7, 2016, 8:00am EST
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+  
+  
+
+
+
+
+
+  
+      
+        
+          
+            share
+          
+        
+      
+    
+  
+    
+      
+        
+          
+            tweet
+          
+        
+      
+    
+  
+    
+      
+        
+          
+            Linkedin
+          
+        
+      
+    
+  
+  
+
+
+  
+    
+    
+      
+  
+    
+      
+      
+        Vjeran Pavic
+      
+    
+  
+
+  Many of us have been talking our way around this issue for the past week without directly confronting it, so I feel like now’s as good a time to address it as any: Apple’s new MacBook Pro laptops are not designed for professional use.
+This should come as no surprise to those who’ve long perceived the Mac platform as inward-looking, limited in compatibility, and generally worse value for money than comparable Windows alternatives. Pros are smart with their tools and their money, after all. But the change with Apple’s 2016 generation of MacBook Pros is that those downsides have been amped up — more expensive and less compatible than ever before — to an extreme that exposes the fallacy of the continued use of the Pro moniker. These are Apple’s premium laptops, its deluxe devices, but not in any meaningful way computers tailored for the pros. A MacBook Pro is now simply what you buy if you’re in the Apple ecosystem and have a higher budget and expectations than the MacBook can fulfill.
+
+
+Those complaining about Apple's current Mac lineup are not haters, they're lovers. They've spent 10+ years and 5+ figures on Macs.
+— Jeff J. (@lapcatsoftware) October 29, 2016
+
+
+The backlash from among pro Mac users that’s arisen in the wake of this new product launch is unprecedented, drowning out even the widespread grumbling about the loss of the headphone jack from the iPhone 7 just a month prior. This is partially because Apple hasn’t had a class-leading professional Mac computer for years — the Mac Pro is 1,054 days old now — and the new laptops have given an outlet and reason for expectant fans to vent. Many people were clinging on to their aging MacBook Pros in the vain hope of seeing a major spec and performance upgrade that simply didn’t materialize, and that's been frustrating.
+The updated MacBooks from Apple have newer chips, but not that much newer, with Apple using yesteryear’s Intel Skylake CPUs and not this year’s Kaby Lake. They have faster storage, which is an indisputable benefit, but they also max out at 16GB of RAM. For consumer or casual use, that’s perfectly adequate, but "for a developer work machine, 16GB is the uncomfortable minimum requirement," as web developer Baldur Bjarnason points out.      
+        
+
+  pbjs.que.push(function() {ChorusAds.showAd("mobile_article_body");});
+
+      
+
+Apple seems surprised by the predictable backlash at betraying the trust of its most loyal customersHere’s the thing: if these new MacBooks simply didn’t carry the Pro label, we’d all have a lot less to complain about. It’s perfectly okay for a company to craft expensive, niche devices that will only match the particular needs of a select group of people. But over the course of the past decade or two, the entire tech industry has moved away from labeling things as exclusive or luxurious, opting for more inclusive language. If you can’t afford the premium model, that implies you’re not wealthy enough; but if you can’t afford the pro version, maybe you’re just not that into it. A subtle, but important distinction.
+And so it is, that we’re now living in a world populated by the PS4 Pro, DJI Mavic Pro, Surface Pro, iPad Pro, Beats Pro, Logitech Pro Gaming Mouse, and many others. Those of us old enough to remember ATI, the Canadian graphics card company that was taken over by AMD, will remember it pioneered many of these tags with such historic GPUs as the Radeon 9500 Pro, 9800 SE, X800 XT, and so on. They’re all meaningless as far as the company is concerned, but it just so happens that the "Pro" appendage is more meaningful to users than slapping on a "Plus" or "XL." With the obvious exception of leisure-time devices like the PlayStation console, a "pro" piece of consumer electronics is generally interpreted as a signal to actual professionals that this machine is for them.
+
+
+I'm out of apologia juice for defending Apple going with 4 USB-C ports on the new MacBook over a useful mix and keeping the MagSafe.
+— DHH (@dhh) October 28, 2016
+
+
+Apple’s folly is in not recognizing just how passionate and committed its professional audience is. But the company should already know that all the iOS app developers that generate its unparalleled third-party software ecosystem are doing their work on Macs. It should be aware of their RAM requirements and the improvements they most want to see.      
+        
+
+  pbjs.que.push(function() {ChorusAds.showAd("native_ad_mobile");});
+
+      
+
+"Pro" used to mean something when it came at the end of MacBook model names
+Beyond developers, there are the photographers and video producers that have made Mac computers the central hub of their home and work studios for many years, thanks to Apple’s early prioritization of high-quality displays and intuitive software. Leaving them without an SD card slot or an included adapter runs entirely counter to Apple’s fundamental principles of having a coherent ecosystem and a more user-friendly approach than the (previously) cold and aloof Windows PC manufacturers.
+Apple used to be a friend to creative professionals, and now that it’s acting against their wishes and interests, it seems surprised at their impassioned negative response.
+
+
+The backlash to the new MacBook Pro is so bad that Apple has slashed its accessory prices and LG's monitors to appease. Seems unprecedented
+— Steve T-S (@stroughtonsmith) November 7, 2016
+
+
+MacBook Pros were once professional computers that could also appeal to an aspiring consumer audience. They were pricey for a general-purpose laptop, but justifiable as a luxury purchase or as a device that pays for itself by making its user more efficient and productive. But today MacBook Pros are very definitely consumer devices that only gesture toward a professional audience without truly endeavoring to appease it.
+The new Touch Bar is not a pro feature. It’s cool, it works really well, and it has tons of potential for the future, but it clashes with professional workflows, many of which involve external monitors and keyboards. Apple showed how DJs might use it, but those same people would probably prefer to have dongle-free USB ports for the rest of their gear and a MagSafe charging adapter in the event of some inebriated clubber tripping over their cables.
+None of Apple's additions improve professional workflows yet, and its subtractions will lead to plenty of headaches
+The ultra-flat keyboard with 0.55mm key travel is also not professionally minded. Its purpose is overall thinness, but I know of no app developers, globetrotting businesspeople, or digital artists that had "more thinness" anywhere near the top of their priority list of MacBook Pro improvements. Professional writers might have asked for more tactile response, not less, and Apple's keyboard alterations seem to primarily serve to optimize and harmonize its design rather than enhance any functionality.
+Apple’s 2016 MacBook Pros carry on the Pro moniker dishonestly. At least we should all hope that's the case — because if Apple actually believes that these new laptops are suitable and sufficient for intensive professional needs, then the company's long and happy relationship with creatives may be heading toward a calamitous breakup.
+MacBook Pro review
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("tablet_medium_rectangle");});
+
+
+
+
+
+
+    
+  
+    
+    Next Up In
+    
+    
+      Circuit Breaker
+    
+  
+  
+        
+        Motorola is holding a contest for Moto Mod ideas
+        
+      
+    
+      
+        
+        Zotac's new VR Go mini PC comes with straps, so you don't have to buy a backpack
+        
+      
+    
+      
+        
+        Samsung says ‘nearly 85 percent' of Note 7s have been returned in US
+        
+      
+    
+      
+        
+        Man hacks Alexa into singing fish robot, terror ensues
+        
+      
+    
+      
+        
+        Maybe this keychain will stop me from losing my iPhone 7 headphone adapter?
+        
+      
+    
+      
+        
+        TCL put Alexa in a tablet designed for your kitchen
+        
+      
+    
+    
+
+  pbjs.que.push(function() {ChorusAds.showAd("native_ad_linkset_link");});
+
+
+  
+    
+      
+        
+
+
+      
+    
+  
+
+
+
+
+  
+  
+
+
+  
+    
+      
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("mobile_med_rec_athena");});
+
+
+
+  
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("tablet_medium_rectangle");});
+
+
+
+  
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("medium_rectangle_variable");});
+
+
+
+
+    
+      
+    
+    
+      
+        
+          Now Trending
+        
+      
+    
+  
+  
+    
+        
+          
+            
+              
+
+
+            
+          
+          Microsoft's HoloLens could power tanks on a battlefield
+        
+        
+      
+    
+      
+        
+          
+            
+              
+
+
+            
+          
+          I have lived the USB-C #donglelife. Here’s what you’re in for
+        
+        
+      
+    
+      
+        
+          
+            
+              
+
+
+            
+          
+          Man hacks Alexa into singing fish robot, terror ensues
+        
+        
+      
+    
+      
+        
+          
+            
+              
+
+
+            
+          
+          Battlefield 1 is an anti-war message trapped in a best-selling shooter
+        
+        
+      
+    
+      
+        
+          
+            
+              
+
+
+            
+          
+          The best Windows alternatives to the new MacBook Pro
+        
+        
+      
+    
+    
+  pbjs.que.push(function() {ChorusAds.showAd("native_ad_latest");});
+
+
+    
+  
+pbjs.que.push(function() {ChorusAds.addVariable("trending_sidebar", ["true"])});
+
+      
+        
+      
+
+    
+
+      
+      
+
+
+
+
+
+  This Article has a component height of 28. The sidebar size is long.
+
+
+    
+
+
+
+  
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("athena");});
+
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("tablet_athena");});
+
+
+
+  
+
+
+  
+      
+    Loading comments...
+  
+
+  
+    
+      
+      The Latest
+    
+  
+  
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              Policy & Law
+            
+          
+        
+          
+            
+              
+              Mobile
+            
+          
+        
+          
+            
+              
+              US & World
+            
+          
+        
+      
+
+    
+    Virgin Media probes net neutrality limits in UK with zero-rated Facebook apps
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      James Vincent@jjvincent
+    
+
+    
+      
+        Nov 7, 2016, 8:22am EST
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      UK mobile carrier Virgin Media has announced a new data plan that proves the thorny issue of zero-rating isn’t just a problem in the US. The company’s newly launched 4G mobile services let users access both WhatsApp and Facebook Messenger without...
+    
+    
+  
+  
+    
+      
+  
+    
+      
+        1
+      
+      comment
+    
+  
+  
+
+
+    
+  
+
+
+    
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              First Click
+            
+          
+        
+      
+
+    
+    Playstation 4 Pro, Google Daydream View, Surface Book, and more in the week ahead
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      Thomas Ricker@Trixxy
+    
+
+    
+      
+        Nov 7, 2016, 7:30am EST
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      It’s November which means we’re firmly into reviews season now that all the major product announcements have been made ahead of the holiday season.
+
+    
+    
+  
+  
+    
+      
+  
+    
+      
+        1
+      
+      comment
+    
+  
+  
+
+
+    
+  
+
+
+    
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              Mobile
+            
+          
+        
+          
+            
+              
+              Tech
+            
+          
+        
+          
+            
+              
+              Samsung
+            
+          
+        
+      
+
+    
+    Samsung's Galaxy S8 with rumored AI button might be delayed until April
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      James Vincent@jjvincent
+    
+
+    
+      
+        Nov 7, 2016, 7:00am EST
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      Samsung could be betting heavily on its as-yet-unseen AI assistant to sell the next generation of Galaxy smartphones. According to a report from The Wall Street Journal, the company is considering adding a dedicated button for the service to next...
+    
+    
+  
+  
+    
+      
+  
+    
+      
+        14
+      
+      comments
+    
+  
+  
+
+
+    
+  
+
+
+    
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              Web
+            
+          
+        
+          
+            
+              
+              Policy & Law
+            
+          
+        
+          
+            
+              
+              US & World
+            
+          
+        
+      
+
+    
+    China's new cybersecurity law draws criticism from tech companies and rights groups
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      Amar Toor@amartoo
+    
+
+    
+      
+        Nov 7, 2016, 4:27am EST
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      China this week passed a cybersecurity law aimed at combatting hacking and terrorism, though as Reuters reports, critics say it would strengthen the country's censorship regime and make it more difficult for foreign tech companies to do business...
+    
+    
+  
+  
+
+
+    
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              TL;DR
+            
+          
+        
+          
+            
+              
+              Apple
+            
+          
+        
+          
+            
+              
+              Tech
+            
+          
+        
+      
+
+    
+    Even Siri can't get over that damned song about pens and pineapples
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      Sam Byford@345triangle
+    
+
+    
+      
+        Nov 7, 2016, 4:22am EST
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      Never let it be said that Apple is unwilling to capitalize on a meme that's already been run several miles into the ground. It turns out that if you say "pen pineapple apple pen" to the Japanese version of Siri, you'll be totally convinced that...
+    
+    
+  
+  
+    
+      
+  
+    
+      
+        4
+      
+      comments
+    
+  
+  
+
+
+    
+  
+
+
+    
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              Entertainment
+            
+          
+        
+          
+            
+              
+              TV
+            
+          
+        
+          
+            
+              
+              Culture
+            
+          
+        
+      
+
+    
+    Westworld’s latest Easter egg is a nod to a certain killer robot
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      Chris Plante@plante
+    
+
+    
+      
+        Nov 6, 2016, 10:04pm EST
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      The sixth episode of Westworld was a throwback to pulpy network dramas. Abandoning the philosophical debates and chronological confusion that have leadened recent episodes, the hour of television focused on its characters.
+Ford has a family! Maeve...
+    
+    
+  
+  
+
+
+    
+    
+  
+  
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("native_ad_ymal_link");});
+
+
+
+
+
+  
+    
+      
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("btf_medium_rectangle_variable");});
+
+
+
+
+    
+
+
+  
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("btf_leaderboard_variable");});
+
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("tablet_btf_leaderboard");});
+
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("mobile_footer");});
+
+
+
+    
+    
+      
+        
+          Chorus
+      
+    
+
+    
+      Terms of Use
+        
+          Privacy Policy
+        
+          Communications Preferences
+        
+      Contact
+        
+          Tip Us
+        
+          Community Guidelines
+        
+          About
+        
+          Ethics Statement
+        
+      
+        
+  All Systems Operational
+  Check out our status page for more details.
+
+
+      
+    
+
+    
+      Vox Media
+      
+        Advertise with us
+      
+        Jobs @ Vox Media
+      
+      © 2016 Vox Media, Inc. All Rights Reserved
+      
+      
+    
+  
+
+  
+    
+      
+  
+      
+        
+          
+            tweet
+          
+        
+      
+    
+  
+    
+      
+        
+          
+            share
+          
+        
+      
+    
+  
+  
+
+
+  
+
+    chorusInitQueue.forEach(function(fn) { (typeof fn === 'function') && fn(jQuery) })
+//<![CDATA[
+Providence=function(){var e={};return e.contexts=[],e.fire_event=function(e,n,t,o){t="undefined"!=typeof t?t:{},o="undefined"!=typeof o?o:Providence.contexts,jQuery.get("https://providence.voxmedia.com/event",{event_name:e,location:n,host:window.location.host,metadata:JSON.stringify(t),contexts:o},function(e){})},e.init=function(e){"undefined"!=typeof e&&(Providence.contexts=e);var n=window.location.host+window.location.pathname;Providence.fire_event("page_view",n,{title:document.title});var t=Providence.contexts.slice();t.push("referrals:"+n),Providence.fire_event("referral",document.referrer.split("/")[2],{},t)},"undefined"!=typeof Chorus&&"undefined"!=typeof Chorus.EventDispatcher&&!function(e,n){function t(e){jQuery("#"+e.player.elementId);Providence.fire_event("video_play",e.player.getEmbedCode(),{title:e.player.getCurrentItemTitle()}),n.unsubscribe("ooyalaVideoPlay",t)}n.subscribe("ooyalaVideoPlay",t)}(jQuery,Chorus.EventDispatcher),e}(),"undefined"!=typeof jQuery&&jQuery(document).ready(function(e){Providence.init(["network:verge"])});
+//]]>
+
+    if (typeof ChorusAds !== "undefined") {
+      Chorus.OnLoad(function() {
+        if (ChorusAds.adsBlocked) {
+          Providence.fire_event('adblocked_view', document.location.href);
+    }});}
+  
+//<![CDATA[
+
+          var phonographEvents = phonographEvents || [];
+          if (window.dataLayer && window.Context) {
+            Context.fetch().then(function() {
+              var data = {'Page Title': document.title, 'GA Track Prefix': 't1.', 'User ID': Context.currentUser.get('id') || null};
+              for (var i=0; i < dataLayer.length; i++) {
+                if (dataLayer[i]['Network']) {
+                  Object.keys(dataLayer[i]).forEach(function(k) { data[k] = dataLayer[i][k]; });
+                  break;
+                }
+              }
+              phonographEvents.push(['pageload', data]);
+            });
+          } else {
+            phonographEvents.push(['pageload', {'Page Title': document.title}]);
+          }
+        
+//]]>
+

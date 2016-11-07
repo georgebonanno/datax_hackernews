@@ -1,0 +1,259 @@
+Home · aserg-ufmg/JSCity Wiki · GitHub
+    
+    Skip to content
+
+    
+    
+    
+
+
+
+          
+    
+      
+
+    
+      
+
+    
+      
+          Personal
+        
+          Open source
+        
+          Business
+        
+          Explore
+      
+            Sign up
+          Sign in
+      
+
+        Pricing
+          Blog
+          Support
+          Search GitHub
+              
+  
+    
+      This repository
+      
+
+
+        
+  
+
+
+      
+
+
+
+    
+        
+    
+      
+
+  
+
+    
+
+
+      
+    
+    Watch
+  
+  
+    43
+  
+
+  
+
+  
+      
+    
+    Star
+  
+
+    
+      719
+    
+
+  
+
+  
+      
+        
+        Fork
+      
+
+    
+      34
+    
+  
+
+  aserg-ufmg/JSCity
+
+
+
+  
+  
+    
+
+    
+      Code
+        
+
+    
+      
+        Issues
+        1
+            
+
+  
+    
+      Pull requests
+      2
+        
+
+  
+    
+    Projects
+    0
+
+    
+      
+      Wiki
+
+
+  
+    
+    Pulse
+
+  
+    
+    Graphs
+
+
+
+
+
+
+  
+
+    
+
+
+
+  
+    Home
+      
+        Marco Tulio Valente edited this page Jul 22, 2015
+        ·
+        
+          6 revisions
+        
+      
+  
+
+
+  
+
+  
+    
+      
+
+  
+  Pages 2
+
+
+
+  
+      Home
+    
+    
+      JSCity: Code City for (and by) JavaScript
+    
+  
+
+    
+
+
+    
+      Clone this wiki locally
+      
+        
+          
+        
+      
+
+
+    
+  
+
+  
+      
+        Welcome to the JSCity wiki!
+
+      
+
+  
+  
+
+
+
+
+  
+  
+
+
+
+    
+  
+
+    
+
+        
+  
+    Contact GitHub
+      API
+      Training
+      Shop
+        Blog
+        About
+
+    
+      
+    © 2016 GitHub, Inc.
+        Terms
+        Privacy
+        Security
+        Status
+        Help
+    
+
+
+
+
+    
+
+    
+      
+        
+      You can't perform that action at this time.
+    
+
+
+      
+      You signed in with another tab or window. Reload to refresh your session.
+      You signed out in another tab or window. Reload to refresh your session.
+    
+    
+  
+    
+    
+    
+      
+  
+
+
+  

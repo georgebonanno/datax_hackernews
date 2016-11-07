@@ -1,0 +1,136 @@
+Video Games Are Boring | GamesIndustry.biz SectionsYou are not signed in.Sign inRegisterHomeDevelopmentPublishingPolitics & LawMedia & MarketingMobileVR & ARFinancialAcademiceSportsEventsGames Industry JobsVideo Games Are BoringMaybe everything we know is wrong, says Brie CodeBrie CodeMonday 7th November 2016Share this article Recommend Tweet ShareVideo games are bigger than movies. Everyone's a gamer. I've devoted my life-no exaggeration-to video games for 14 years, working on titles such as Company of Heroes, a few Assassin's Creeds, and Child of Light. But everywhere I go, I meet people who don't like video games. Most of my friends don't like video games. And one of my favourite things when I'm meeting a new person is to watch them squirm, to struggle to relate, after I mention I work in the video game industry. They'll mention some old game they used to play, try to say something nice about it, and then confess that they don't play video games. 
+Meanwhile, our lives have changed radically compared to our parents' lives. As we adapt to new technologies, our lives are becoming increasingly fragmented, multifaceted, interactive. Linear novels and films are less relevant now for reflecting our realities. What forms of art and entertainment are most relevant now? Collage? Memoir? No, it should be video games. Interactive entertainment. Yet, many people don't like video games. Why? Groups of experts and groups of people who are similar to each other get stuck. People who are similar to each other think similarly, draw on the same knowledge base, and approach problems from the same angles. There's even a further psychological effect where an individual in a group of similar people will have fewer good ideas than the same individual in a diverse group. If there is any workforce full of people who are similar to each other, it is the video game industry workforce. We are mostly men, mostly white, and even more importantly, we are mostly gamers. Could it possibly be that maybe, just maybe, we could be missing something? 
+Maybe everything we know is wrong. Part 2: Everything I know is wrong
+Three years ago, for the first time, my friends who don't like video games started to ask about video games. This was because they were starting to buy tablets. And some of them were getting castoff consoles from neighbours or family members who upgraded. This was very exciting for me - I thought maybe I would finally be able to share the thing I love with the people I love. Spoiler: I was wrong. They didn't become gamers after they played the games I recommended. But something interesting did happen. 
+My closest friend, my cousin Kristina, has been perhaps the most hostile towards my affection for video games. She's an art historian who loves contemporary feminist art and she sees me as a designer. But not a game designer. When I would message her stressed about work she wouldn't offer her support. Instead she would encourage me to quit and go back to school to study interior design or industrial design. She thought I was wasting my life in the video games industry. "This was very exciting for me - I thought maybe I would finally be able to share the thing I love with the people I love. Spoiler: I was wrong" 
+And then one day she started to ask about video games. I was thrilled. Of course I recommended Journey. It seemed like the natural fit. To my surprise, she didn't finish it. She didn't like that there is a snake that can kill you. It's not that it is too hard, it's that she is deeply uninterested in being attacked in a game. But it did intrigue her enough that she asked for more recommendations.
+So I started testing games on my friends who didn't like video games, to see what they would like and dislike. One night I decided I had built enough trust with Kristina to recommend my favourite game, Skyrim. She googled it and texted me back something like, "Uhhhhh I don't know why you think I would play this. I don't watch Game of Thrones. I don't like swords. I don't like fighting. I don't like dragons." I told her she would hate the first bit with the dragon but just to get through it and then give it a chance and get back to me with her thoughts. I never heard back.
+Three weeks later my phone rang. No one ever calls me because they know I don't answer. But I glanced down and I saw Kristina's name on the screen. My stomach sank as it occurred to me that there must be some kind of family emergency. I answered, and Kristina was crying. 
+She said to me, "Lydia died". 
+We have no Lydia in our family. She was talking about the character in Skyrim. For three weeks she had been playing Skyrim obsessively. And now she'd accidentally killed Lydia and she didn't have a recent save game. 
+Kristina said to me through her tears that she didn't realize that you could develop an emotional attachment to a character in a video game. She didn't realize that you could create your character and exist as a version of yourself in a world full of characters whom you care about. I had never realized that she didn't know this, because I knew this so deeply. She said to me that for all these years, it wasn't that she didn't like video games, it was that she didn't know what they were.  " She didn't realize that you could create your character and exist as a version of yourself in a world full of characters whom you care about" 
+(When I tell this story at conferences people tell me their Lydia stories afterwards. We all have a Lydia story.)
+So my cousin loved Skyrim. My friends who don't like video games might like video games. This changed my whole focus. I helped make Child of Light. I thought my friends would like it. But I never showed it to them while it was in development. And when it came out, to my surprise, my friends didn't like Child of Light either. And the truth is that Kristina stopped playing Skyrim pretty soon after Lydia died, because she truly doesn't like swords nor fighting nor dragons. And three years have gone by and there is still no game that resonates with my friends. In Tim Gunn's words, "this is a design failure and not a customer issue". 
+I love video games and I work with people who love video games. But when I listen to Kristina describe the video games she says she wishes she could play, the video games she says she wishes existed-games that would sound extremely boring to most gamers but interesting to most of my friends-I realize that I too would love those games so much more.
+Listening to Kristina made me realize that I hadn't been having good ideas. I realized that I had been working with people who think too similarly to myself, who draw on the same cultural references (geek culture), who use the same game design theory that was developed mainly by (white, male) gamers for (white, male) gamers. I realized that I was stuck. This is what happens when everyone is the same as each other. We make boring things. "I realized that I was stuck. This is what happens when everyone is the same as each other. We make boring things" 
+And my friends are still asking about games. The interest is still there. And finally I came to the realization that it wasn't about convincing my friends to play games I liked elements of and hoping they would like elements of them too. It wasn't about answering them; it was about asking them. It was about really talking with them, and then making a game that they would like so ridiculously much that they couldn't help but play it. 
+Part 3: Life is really difficult
+So why don't my friends like video games and what would they like? 
+When my friends talk about why they don't like video games, they are talking about three things. The most important thing is that they think video games lack depth. They say things like, "Unlike books/films/podcasts, with video games I don't learn anything or change as a person". Secondly, on a surface level, they are also often just flat out repulsed by video games. Few women, for example, are going to play a video game with terrible portrayals of women. They say things like "they insult me/my demographic." And thirdly, they don't find their own cultural references or interests in video games. They say things like "they ignore me", and "I'm failing at things I didn't care about in the first place."
+Other things they just really don't care about: Realistic graphics. Action. "So my friends want not to be repulsed, to recognize their own tastes, and to find depth. Because we as an industry fail at the first two" 
+So my friends want not to be repulsed, to recognize their own tastes, and to find depth. Because we as an industry fail at the first two, my friends don't get to experience that gaming is perhaps the most powerful medium for learning and for growing and changing as a person. As gamers, we know that a well-designed game mechanic can convey meaning more efficiently than a novel or film. Papers, Please taught us that. Train taught us that. This War of Mine. Etc. 
+Identifying these criteria helped me understand why neither Skyrim nor Child of Light worked for my friends. Skyrim has the depth, but not the taste. Kristina enjoyed playing with her identity and connecting with characters, but she doesn't like swords nor fighting nor dragons. Child of Light has the taste but not the depth. The linear story and turn-based combat didn't provide space for her to play around with the kind of questions she cares about in life. (Plus the controls were not accessible, which we would have known if we had play-tested with people who weren't gamers.)
+It's not enough to remove the things that my friends don't like and think they will like video games. The experience must be based in things that they care about, in problems they have in life. It must help them understand their lives more. Life is really difficult.
+So asking my friends what they don't like about video games is half the question. 
+Asking my friends what they don't like about life, and how a video game could help them with that, is the second and more important half. 
+Like many women, Kristina's life is very different from her parents' lives. She is the first woman in her family to earn a university degree and build a big career, but school didn't prepare her for office politics or many of the other aspects of her career-oriented life. She is tiny and so even though she is also very smart and very strong, people often don't take her seriously. When she walks to work she is cat-called and when she works late and walks home she fears for her safety. The cost of living in Vancouver is very high and she has student loans. She doesn't know how she is going to balance career and family. Her friends are all as busy as she is. She has no obvious role models. She is figuring everything out herself. 
+When Kristina gets home from a long day, she doesn't want to battle it out in a game or get frustrated in a game. She wants to experiment with who she is in a social context of characters whom she cares about and who care about her. This is how she felt about Lydia in Skyrim and this is how I feel about the characters in Skyrim too. "The degree of interactivity in our lives is amazing and wonderful and I wouldn't exchange it for anything, but it is also shocking and overwhelming" The artist Harry Giles recently put into words everything I was feeling about art and therefore about games. He talks about how artists have often used shock to get through to audiences, but how that technique has been absorbed into our culture and now we exist in "a state of constant shock, of constant stimulation". At the same time, we are experiencing a "dramatic erosion of structures of care". I really feel this. We're throwing out resources of care our parents had such as religion and housewives (which is fine with me), and not replacing them with much (which is not fine with me). Giles says: "Is providing care thus a valuable avenue of artistic exploration? Is the art of care a form of radical political art? Is care, in a society which devalues care, itself shocking?"
+I'm not remotely interested in shockingly good graphics, in murder simulators, in guns and knives and swords. I'm not that interested in adrenaline. My own life is thrilling enough. There is enough fear and hatred in the world to get my heart pounding. My Facebook feed and Twitter feed are enough for that. Walking outside in summer clothing is enough for that. I'm interested in care, in characters, in creation, in finding a path forward inside games that helps me find my path forward in life. I am interested in compassion and understanding. I'm interested in connecting. As Miranda July said, "all I ever wanted to know is how other people are making it through life." I want to make games that help other people understand life. 
+We are all overwhelmed with shock, with information, with change. The degree of interactivity in our lives is amazing and wonderful and I wouldn't exchange it for anything, but it is also shocking and overwhelming and it's causing us to dig in and try to find some peace by shutting each other out. On all sides of the political spectrum we've stopped listening to each other and I fear we are all leaning toward fascist thinking. We should be using this medium to help us adapt to our new, interactive lives. This is how we become relevant. Part 4: Interesting video games 
+So caring about your audience is good, relevant, and necessary art. But it is also good business. You can read any book about how to run a start-up and run into ideas about customer development and value proposition. Read a few more and you run into ideas about co-design to take the risk out of creating for new markets. This is care. 
+Tim Gunn says, "today's designers operate within paradigms that were established decades ago...but this is now the shape of women in this nation, and designers need to wrap their minds about it." In my last days before quitting my corporate job I couldn't get John Baldessari's 1971 piece I Will Not Make Any More Boring Art out of my head. He burned all his paintings because he was also questioning the paradigms. When I talk with my friends about what they would like in an interactive experience, it doesn't fit conventional games industry wisdom about what makes a good game. When I think what I would like in a game, it doesn't fit conventional games industry wisdom. 
+And I'm surprised at how slowly the conversation is evolving. It's been three years since my friends and I bought tablets and have been looking for games. For years I've been bored of trying to prove to my colleagues that women are human, that women aren't too unpredictable to study, that what women like is not less worthy nor boring nor wrong nor hard to understand. That it's garbage to say that women don't need deep, rich experiences. I know that we never needed to sneer when the words Kim Kardashian: Hollywood were mentioned. I know that the success of a game about collecting cats is not a mystery. 
+I started my little studio because I care about games, I care about my friends and people like them, I want my friends to care about games, and I want to make games that care about my friends. At my studio we are making games with people who don't like video games because we want to break out of established paradigms. We want to think about ideas from different angles and draw on different references. We want games that aren't gritty, toxic pseudo-realistic pseudo-masculine nonsense nor frustrating time wasters that leave you feeling dead inside. We want games about how each of us could be in the future, how the world could be in the future. We want games built on compassion and respect and fearlessness. This is so much more interesting. 
+					Sign up for our daily email and get the best of GamesIndustry.biz in your inbox.
+				Related storiesUncharted 4 is not as scripted as you might thinkDesigner Matthew Gallant explains how the studio incorporated systemic combat AI into Uncharted 4, and what went wrong along the wayBy Brendan Sinclair 3 days ago167 games received tax relief from UK Government last yearNumber of games utilising UK tax support jumps 117 percentBy Christopher Dring 4 days agoLatest comments (3)Jessica Hyland
+					Artist, Turbulenz LimitedAn hour ago
+					I love this piece! I've felt for a long while that there's so much unexplored territory in games for experiences that don't just focus on fight-kill-win. Would absolutely love to see(and make!) more games "built on compassion and respect and fearlessness."
+		
+							
+			 0Sign inorRegisterto rate and replyRoberto Dillon
+					Associate Professor, James Cook University27 minutes ago
+					What about games like Dear Esther, Gone Home, Everybody's gone to the rapture, Proteus and the likes? While these may be very introspective experiences lacking meaningful interactions with other characters, there are also games like Animal Crossing that focus on virtual communities instead.
+I think there's already a lot more besides fight-kill-win or pointless mobile time wasters and, while we do need even more varied and deeper experiences, we are definitely moving towards the right direction.
+		
+							
+					
+				Edited 1 times. Last edit by Roberto Dillon on 7th November 2016 1:42pm
+			 0Sign inorRegisterto rate and replyLaura Bularca
+					Project Coordinator, Sweden Game Arena; Production Coach, Gothia innovation AB24 minutes ago
+					Hi Brie! This is an incredible piece, than you so very much for writing it! I relate a lot with everything you wrote, and I have had the same career path, the same kind of friends and and the same friend conversations. And started to make my own games for exactly the same reasons you did. And I crave more meaning from games, especially because we can do so, so, so much more!
+		
+							
+			 0Sign inorRegisterto rate and replySign in to contributeEmail addressPasswordSign in
+					Need an account? Register now.
+				Now hiring
+		{  "@context" : "http://schema.org",
+		   "@type" : "WebSite",
+		   "name" : "GamesIndustry.biz",
+		   "url" : "http://www.gamesindustry.biz"
+		}
+	
+				var OA_source = 'ros';
+				var _ox_zones = new Array();
+				
+					jQuery('document').ready(function() {
+
+					    custom_variables = {};
+				try {
+					      if(OA_source) {
+					        custom_variables['source'] = OA_source;
+					      }
+					    } catch(e) {}
+
+					    custom_variables['tags'] = ["development"];
+					    custom_variables['url'] = '/articles/2016-11-07-video-games-are-bor';
+
+					    
+
+					    jQuery('.advert').getDFPads({'custom_variables' : custom_variables, 'acceptable_ads_show' : true});
+
+					  });
+				
+		var comments, infinite;
+
+		$( document ).ready(function() {
+
+			article = new Article({
+				aid: 1866970,
+				jobs: [{"id":88424,"title":"Unity Software Architect","location":"Denmark","company":"MovieStarPlanet"},{"id":88423,"title":"Senior Lighting Artist Wanted Unreal Studio England","location":"UK & Europe","company":"Interactive Selection"},{"id":88422,"title":"Experienced Character\/ Creature Artist","location":"South East","company":"Creative Assembly"}]
+			});
+
+							infinite = new Infinite({
+					referrer: ""
+				});
+			
+			comments = new Comments({});
+		});
+	
+	    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	    ga('create', 'UA-5699723-1', '.gamesindustry.biz');
+	    ga('require', 'displayfeatures');
+	    ga('require', 'linkid', 'linkid.js');
+
+	    ga('set', 'dimension5', 'europe');		
+	    	    	    ga('set', 'dimension6', 'none');
+	    
+	    	    	    ga('set', 'dimension1', 'editorial');		    ga('set', 'dimension2', 'development');		    ga('set', 'dimension3', 'Brie Code');		    ga('set', 'dimension4', 'no');		    
+	    ga('send', 'pageview');
+
+	    
+	    if ( window.location.href.substr(-11) == "#justposted" ) {
+	        ga('send', 'event', 'Comments', 'Posted', '2016-11-07-video-games-are-boring', {
+	            'dimension1': 'editorial',
+	            'dimension2': 'development',
+	            'dimension3': 'Brie Code'
+	        });
+	    }
+
+		// this is the rollup tracker across all network sites
+		ga('create', 'UA-44691239-1', 'gamesindustry.biz', {'name': 'rollup'});
+		ga('rollup.require', 'displayfeatures');
+		ga('rollup.send', 'pageview');
+
+	document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));COMSCORE.beacon({ c1:2, c2:8518622, c3:"", c4:"", c5:"", c6:"", c15:"" }); 
+		var axel = Math.random() + '';
+		var a = axel * 10000000000000;
+		document.write('<img src="http://pubads.g.doubleclick.net/activity;dc_iu=/43340684/DFPAudiencePixel;ord=' + a + ';dc_seg=91644010?" width=1 height=1 border=0/>');
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KM6CH6');

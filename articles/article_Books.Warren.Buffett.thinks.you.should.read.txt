@@ -1,0 +1,1018 @@
+21 books Warren Buffett thinks you should read
+    /* The below overrides are active while the webfonts are loading.  Once loaded they are removed. */
+    .no-sourcesanspro .headerright-wrap .btn {
+        font-family: Helvetica, Arial, sans-serif !important;
+        font-size: 0.8125em !important;
+    }
+    .no-sourcesanspro .byline {
+        font-family: Helvetica, Arial, sans-serif !important;
+        font-size: 0.75em !important;
+        line-height: 1rem !important;
+    }
+    .no-sourcesanspro .social a {
+        font-family: Helvetica, Arial, sans-serif !important;
+    }
+    .no-sourcesanspro li, .no-sourcesanspro .nav--secondary li, .no-sourcesanspro .nav--tertiary li {
+        font-family: Helvetica, Arial, sans-serif !important;
+        font-size: 0.9375em !important;
+    }
+    .no-merriweather .story__headline, .no-merriweather-bold .story__headline, .no-merriweather .section-name {
+        font-family: georgia, serif !important;
+    }
+    .no-merriweather-bold .article__header h1, .no-merriweather-bold .article__summary p, .no-merriweather .article__body {
+        font-family: georgia, serif !important;
+    }
+    .no-montserrat-bold .header .heading:not(h1) {
+        font-family: verdana !important;
+    }
+
+            !function(){function t(t,n,i){4===t.readyState&&200===t.status&&(r&&localStorage.setItem(e(i),t.responseText),o(n,i,t.responseText),t=null)}function e(t){return"masthead.fonts."+t}function n(){if(!("FontFace"in window))return"woff";var t=new FontFace("t",'url( "data:application/font-woff2;base64,d09GMgABAAAAAAIkAAoAAAAABVwAAAHcAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABlYAgloKLEoBNgIkAxgLDgAEIAWDcgc1G7IEyB6SJAFID5YA3nAHC6h4+H7s27nP1kTyOoQkGuJWtNGIJKYznRI3VEL7IaHq985ZUuKryZKcAtJsi5eULwUybm9KzajBBhywZ5ZwoJNuwDX5C/xBjvz5DbsoNsvG1NGQiqp0NMLZ7JlnW+5MaM3HwcHheUQeiVokekHkn/FRdefvJaTp2PczN+I1Sc3k9VuX51Tb0Tqqf1deVXGdJsDOhz0/EffMOPOzHNH06pYkDDjs+P8fb/z/8n9Iq8ITzWywkP6PBMMN9L/O7vY2FNoTAkp5PpD6g1nV9WmyQnM5uPpAMHR2fe06jbfvzPriekVTQxC6lpKr43oDtRZfCATl5OVAUKykqwm9o8R/kg37cxa6eZikS7cjK4aIwoyh6jOFplhFrz2b833G3Jii9AjDUiAZ9AxZtxdEYV6imvRF0+0Nej3wu6nPZrTLh81AVcV3kmMVdQj6Qbe9qetzbuDZ7vXOlRrqooFSxCv6SfrDICA6rnHZXQPVcUHJYGcoqa3jVH7ATrjWBNYYkEqF3RFpVIl0q2JvMOJd7/TyjXHw2NyAuJpNaEbz8RTEVtCbSH7JrwQQOqwGl7sTUOtdBZIY2DKqKlvOmPvUxJaURAZZcviTT0SKHCXqzwc=" ) format( "woff2" )',{});return t.load()["catch"](function(){}),"loading"==t.status||"loaded"==t.status?"woff2":"woff"}function o(t,e,n){t.innerHTML=n,"undefined"!=typeof FontFaceObserver?c(e,n):document.documentElement.classList.remove("no-"+e)}function i(e,o){"undefined"==typeof s&&(s=n());var i=e.getAttribute("data-webfont-"+s),a=new XMLHttpRequest;a.open("GET",i,!0),a.timeout=5e3,a.onreadystatechange=function(){t(a,e,o)},a.ontimeout=function(){a=null},a.send()}function a(t,n){var a=localStorage.getItem(e(n));null!==a?o(t,n,a):i(t,n)}function r(){try{return localStorage.setItem("storageTest","storageTest"),localStorage.removeItem("storageTest"),!0}catch(t){return!1}}function c(t,e){var n=e.match(/font-family:\s?['"]([a-zA-Z\s]*)['"]/im),o=e.match(/font-weight:\s?([a-zA-Z0-9]*)\;/im),i=new FontFaceObserver(n[1],{weight:o[1]});i.load().then(function(){document.documentElement.classList.remove("no-"+t)})}!function(){"use strict";function t(t){u.push(t),1==u.length&&l()}function e(){for(;u.length;)u[0](),u.shift()}function n(t){this.a=d,this.b=void 0,this.f=[];var e=this;try{t(function(t){a(e,t)},function(t){r(e,t)})}catch(t){r(e,t)}}function o(t){return new n(function(e,n){n(t)})}function i(t){return new n(function(e){e(t)})}function a(t,e){if(t.a==d){if(e==t)throw new TypeError;var n=!1;try{var o=e&&e.then;if(null!=e&&"object"==typeof e&&"function"==typeof o)return void o.call(e,function(e){n||a(t,e),n=!0},function(e){n||r(t,e),n=!0})}catch(e){return void(n||r(t,e))}t.a=0,t.b=e,c(t)}}function r(t,e){if(t.a==d){if(e==t)throw new TypeError;t.a=1,t.b=e,c(t)}}function c(e){t(function(){if(i.a!=d)for(;i.f.length;){var t=i.f.shift(),e=t[0],n=t[1],o=t[2],t=t[3];try{0==i.a?o("function"==typeof e?e.call(void 0,i.b):i.b):1==i.a&&("function"==typeof n?o(n.call(void 0,i.b)):t(i.b))}catch(i){t(i)}}})}function s(t){return new n(function(e,n){function o(n){return function(o){r[n]=o,a+=1,a==t.length&&e(r)}}var a=0,r=[];0==t.length&&e(r);for(var c=0;c<t.length;c+=1)i(t[c]).c(o(c),n)})}function f(t){return new n(function(e,n){for(var o=0;o<t.length;o+=1)i(t[o]).c(e,n)})}var l,u=[];l=function(){setTimeout(e)};var d=2;n.prototype.g=function(t){return this.c(void 0,t)},n.prototype.c=function(t,e){var o=this;return new n(function(n,i){o.f.push([t,e,n,i]),c(o)})},window.Promise||(window.Promise=n,window.Promise.resolve=i,window.Promise.reject=o,window.Promise.race=f,window.Promise.all=s,window.Promise.prototype.then=n.prototype.c,window.Promise.prototype["catch"]=n.prototype.g)}(),function(){function t(t,e){document.addEventListener?t.addEventListener("scroll",e,!1):t.attachEvent("scroll",e)}function e(t){document.body?t():document.addEventListener?document.addEventListener("DOMContentLoaded",function e(){document.removeEventListener("DOMContentLoaded",e),t()}):document.attachEvent("onreadystatechange",function n(){"interactive"!=document.readyState&&"complete"!=document.readyState||(document.detachEvent("onreadystatechange",n),t())})}function n(t){this.a=document.createElement("div"),this.a.setAttribute("aria-hidden","true"),this.a.appendChild(document.createTextNode(t)),this.b=document.createElement("span"),this.c=document.createElement("span"),this.h=document.createElement("span"),this.f=document.createElement("span"),this.g=-1,this.b.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.c.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.f.style.cssText="max-width:none;display:inline-block;position:absolute;height:100%;width:100%;overflow:scroll;font-size:16px;",this.h.style.cssText="display:inline-block;width:200%;height:200%;font-size:16px;max-width:none;",this.b.appendChild(this.h),this.c.appendChild(this.f),this.a.appendChild(this.b),this.a.appendChild(this.c)}function o(t,e){t.a.style.cssText="max-width:none;min-width:20px;min-height:20px;display:inline-block;overflow:hidden;position:absolute;width:auto;margin:0;padding:0;top:-999px;left:-999px;white-space:nowrap;font:"+e+";"}function i(t){var e=t.a.offsetWidth,n=e+100;return t.f.style.width=n+"px",t.c.scrollLeft=n,t.b.scrollLeft=t.b.scrollWidth+100,t.g!==e&&(t.g=e,!0)}function a(e,n){function o(){var t=a;i(t)&&null!==t.a.parentNode&&n(t.g)}var a=e;t(e.b,o),t(e.c,o),i(e)}function r(t,e){var n=e||{};this.family=t,this.style=n.style||"normal",this.weight=n.weight||"normal",this.stretch=n.stretch||"normal"}function c(){if(null===l){var t=document.createElement("div");try{t.style.font="condensed 100px sans-serif"}catch(t){}l=""!==t.style.font}return l}function s(t,e){return[t.style,t.weight,c()?t.stretch:"","100px",e].join(" ")}var f=null,l=null,u=null;r.prototype.load=function(t,i){var r=this,c=t||"BESbswy",l=i||3e3,d=(new Date).getTime();return new Promise(function(t,i){if(null===u&&(u=!!window.FontFace),u){var h=new Promise(function(t,e){function n(){(new Date).getTime()-d>=l?e():document.fonts.load(s(r,r.family),c).then(function(e){1<=e.length?t():setTimeout(n,25)},function(){e()})}n()}),p=new Promise(function(t,e){setTimeout(e,l)});Promise.race([p,h]).then(function(){t(r)},function(){i(r)})}else e(function(){function e(){var e;(e=-1!=w&&-1!=A||-1!=w&&-1!=v||-1!=A&&-1!=v)&&((e=w!=A&&w!=v&&A!=v)||(null===f&&(e=/AppleWebKit\/([0-9]+)(?:\.([0-9]+))/.exec(window.navigator.userAgent),f=!!e&&(536>parseInt(e[1],10)||536===parseInt(e[1],10)&&11>=parseInt(e[2],10))),e=f&&(w==y&&A==y&&v==y||w==g&&A==g&&v==g||w==b&&A==b&&v==b)),e=!e),e&&(null!==T.parentNode&&T.parentNode.removeChild(T),clearTimeout(x),t(r))}function u(){if((new Date).getTime()-d>=l)null!==T.parentNode&&T.parentNode.removeChild(T),i(r);else{var t=document.hidden;!0!==t&&void 0!==t||(w=h.a.offsetWidth,A=p.a.offsetWidth,v=m.a.offsetWidth,e()),x=setTimeout(u,50)}}var h=new n(c),p=new n(c),m=new n(c),w=-1,A=-1,v=-1,y=-1,g=-1,b=-1,T=document.createElement("div"),x=0;T.dir="ltr",o(h,s(r,"sans-serif")),o(p,s(r,"serif")),o(m,s(r,"monospace")),T.appendChild(h.a),T.appendChild(p.a),T.appendChild(m.a),document.body.appendChild(T),y=h.a.offsetWidth,g=p.a.offsetWidth,b=m.a.offsetWidth,u(),a(h,function(t){w=t,e()}),o(h,s(r,'"'+r.family+'",sans-serif')),a(p,function(t){A=t,e()}),o(p,s(r,'"'+r.family+'",serif')),a(m,function(t){v=t,e()}),o(m,s(r,'"'+r.family+'",monospace'))})})},"undefined"!=typeof module?module.exports=r:(window.FontFaceObserver=r,window.FontFaceObserver.prototype.load=r.prototype.load)}();for(var s,f=document.querySelectorAll(".webfont"),r=r(),l=0;l<f.length;l++){var u=f[l],d=u.getAttribute("data-webfont-name");document.documentElement.classList.add("no-"+d),r?a(u,d):i(u,d)}}();
+    var titanEnabled = true;
+    var digitalData = {"page":{"pageInfo":{"pageID":"1015321469","pageName":"21 books Warren Buffett thinks you should read","brand":"smh","generator":"CQ","author":"Shana Lebowitz","effectiveDate":"2016-11-04T00:20:29Z","issueDate":"2016-11-03T23:47:24Z","sysEnv":"mobile","template":"article","environment":"","domain":"","layout":"lego"},"category":{"pageType":"Article","primaryCategory":"business","subCategory1":"markets","subCategory2":"","subCategory3":"","subCategory4":""}},"titan":{"adSite":"mobile-smh","adZone":"business/markets","adKeyValues":{"cat":"business","cat1":"markets","ctype":"article","csub":"visitor"},"adSlots":["adspot-320x360_320x50_300x250_300x50-pos2","adspot-300x164-pos1","adspot-320x120_320x60_320x50_300x50-pos1"],"adRegistry":"141","cmsRemove":"false"},"user":[{"profile":[{"profileInfo":{"profileID":""},"membershipType":"visitor"}]}],"version":"1.0","events":[],"myfairfax":{"baseUrl":"http://www.smh.com.au","brandSite":"smh","domain":"smh.com.au","hagridApiUrl":"https://api.myfairfax.com.au","hagridBaseUrl":"https://smh.myfairfax.com.au","hagridChannelKey":"Dks89-tJMqw6zsOGPU5c5Q","drmHost":"http://access.fairfaxapi.com.au","assetCategories":["Markets"],"assetId":"1015321469","assetSources":["BusinessInsider.com.au"],"assetType":["article"]},"vendor":{"GoogleAnalytics":{"account":"UA-22700242-1"}}};
+
+    var titan = window.titan || {};
+    titan.requestAd = titan.requestAd || [];
+    titan.requestConditionalAd = titan.requestConditionalAd || [];
+
+    function getAdCookie(name) {
+        var regex = new RegExp('(?:^|; )' + name + '=([^;]*)');
+        var value = regex.exec(document.cookie);
+        if (value && value.length > 1) {
+            value = decodeURIComponent(value[1]);
+        } else {
+            value = "";
+        }
+        return value;
+    }
+
+    function conditionalTitanAdPushExternalReferrer(adUniqueName, cookieExternalReferrer) {
+        window.externalReferrerAds = window.externalReferrerAds || [];
+        externalReferrerAds.push(function() {
+            var externalReferrer = getAdCookie(cookieExternalReferrer);
+            if (externalReferrer != "") {
+                titan.requestConditionalAd.push(adUniqueName);
+            }
+        });
+    }
+
+    .ads-edit-mode-placeholder {
+        line-height: normal;
+        background: #fff;
+        color: #4779bc;
+        border: .4em solid;
+        font-size: 1.0em;
+        padding: 0.5em 0;
+        text-align: center;
+        margin: 5px 0px 0px 5px;
+    }
+
+    .ads-edit-mode-placeholder .title {
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: normal;
+        padding-left: .4em
+    }
+
+    .ads-edit-mode-placeholder .message {
+        font-size: .7em;
+        font-weight: 300;
+        font-style: italic;
+        letter-spacing: .12em;
+        padding-left: .12em
+    }
+
+    .ads-edit-mode-placeholder .green {
+        color: #2e8b57;
+    }
+
+    .ads-edit-mode-placeholder .red {
+        color: #cd5c5c;
+    }
+
+        (function () {
+            var links = window.document.getElementsByTagName('link');
+            for (var i in links) {
+                if (links[i].media == "none") {
+                    links[i].media = "all";
+                }
+            }
+        })();
+    
+    
+    //<![CDATA[
+    document.body.className += " scriptable";
+    document.body.className = document.body.className.replace( /(?:^|\s)noscript(?!\S)/g , '' )
+    //]]>
+Skip to navigation
+Skip to content
+Skip to footer
+View text version of this page
+Help using this website - Accessibility statement
+        Menu
+    
+        The Sydney Morning Herald
+        
+                News site of the year
+            
+        
+    Subscribe
+
+
+
+    
+    
+        
+    
+            
+            
+                
+            Login
+            Sign-up
+            
+    
+    
+    
+
+
+    
+        Search Site
+        
+
+
+
+    Home
+
+    News
+
+    Sport
+
+    Business
+
+    World
+
+    Politics
+
+    Comment
+
+    Property
+
+    Entertainment
+
+    Lifestyle
+
+    Travel
+
+    Cars
+
+    Tech
+
+    Video
+
+
+
+        
+    Business
+    Markets
+    List subcategories
+        
+                
+            News & Views
+
+            List subcategories
+            
+    Comment
+
+
+    Insight
+
+    World 
+
+
+    Mining
+
+
+    Banking
+
+
+    Aviation
+
+    Energy
+
+    Media
+
+    China
+
+    Budget
+
+    Events
+
+    
+            Markets
+            List subcategories
+            
+    Indices
+
+    Market Movers
+
+    Sectors
+
+    Currencies
+
+    Live
+
+    52 Week Highs
+
+    52 Week Lows
+
+    Floats & IPOs
+
+    
+    Quotes
+
+    Workplace
+
+    Consumer
+
+    Property
+
+    Innovation
+
+    Retail
+
+    Economy
+
+    CBD
+
+            Money
+            List subcategories
+            
+    Saving
+
+    Borrowing
+
+    Investing
+
+    Planning
+
+    Super & Funds
+
+    Tax
+
+    Ask An Expert
+
+    
+            Small Biz
+
+            List subcategories
+            
+    Startup
+
+    Growing
+
+    Managing
+
+    Franchising
+
+    Trends
+
+    Entrepreneur
+
+    Marketing
+
+    Finance
+
+    Tech
+
+    Resources
+
+    Experts
+
+    Tax Time
+
+    
+        
+
+
+    
+        Advertisement
+        
+            
+                            titan.requestAd.push("adspot-320x120_320x60_320x50_300x50-pos1");
+                        
+    
+
+
+        
+/* Place temporary css hot fixes here with the removal release version. */
+
+
+
+
+            
+
+        
+                            November 4 2016
+                    
+        Save
+    
+
+
+    21 books Warren Buffett thinks you should read
+
+
+
+    
+        
+                    Shana Lebowitz
+                
+            
+
+
+        347 reading now
+
+            Show comments
+            
+
+
+    
+            
+    facebook
+    SHARE
+    
+
+    
+            
+    email
+    EMAIL
+    
+
+    
+            
+    twitter
+    
+
+    
+            
+    whatsapp
+    
+
+    
+
+    
+            
+    
+    
+        digitalData.titan.video = digitalData.titan.video||[];
+        var video = {videoId:"7592288",  position: digitalData.titan.video.length+1};
+        var catArray = "video-news/video-world-news".split("/");
+        for(var i= 0; i< catArray.length; i++)
+        {
+            video["cat"+(i||"")]=catArray[i].replace(/-/g, "");
+        }
+        digitalData.titan.video.push(video);
+    
+    
+        
+            
+    Up Next
+    
+                Video duration01:41
+            
+        
+            Buffett slams Trump: 'Have you no sense of decency, sir?'
+        
+    
+        
+        
+    
+    Cancel
+
+                    
+                        
+                            Replay
+                        
+                    
+                
+            
+    Replay
+    
+        Replay Video Icon
+    
+
+    
+
+        More News Videos
+        
+            Previous slide
+            Next slide
+        
+        
+            
+                
+                    
+    
+                
+                    Video duration
+                        01:41
+                    
+            
+        
+            Buffett slams Trump: 'Have you no sense of decency, sir?'
+        
+    
+
+                    
+    
+                
+                    Video duration
+                        01:18
+                    
+            
+        
+            Trump rushed off stage during speech
+        
+    
+
+                    
+    
+                
+                    Video duration
+                        00:45
+                    
+            
+        
+            Libyan tanks clash with Islamic State
+        
+    
+
+                    
+    
+                
+                    Video duration
+                        00:57
+                    
+            
+        
+            Thousands call for South Korean president to quit
+        
+    
+
+                    
+    
+                
+                    Video duration
+                        02:52
+                    
+            
+        
+            Clinton campaigns with the stars
+        
+    
+
+                    
+    
+                
+                    Video duration
+                        01:14
+                    
+            
+        
+            Iraqi troops advance on eastern Mosul
+        
+    
+
+                    
+    
+                
+                    Video duration
+                        00:55
+                    
+            
+        
+            Islamic State claim hit on Russian chopper 
+        
+    
+
+                    
+    
+                
+                    Video duration
+                        01:41
+                    
+            
+        
+            Possible terror plot on US election eve 
+        
+    
+
+                    More videos
+                
+            
+        
+    
+
+                    Buffett slams Trump: 'Have you no sense of decency, sir?'
+                    
+            
+    When Warren Buffett started his investing career, he would read 600, 750, or 1000 pages a day.Even now, he still spends about 80 per cent of his day reading.
+        
+        Advertisement
+        
+            
+                            titan.requestAd.push("adspot-320x360_320x50_300x250_300x50-pos2");
+                        
+    
+
+"Look, my job is essentially just corralling more and more and more facts and information, and occasionally seeing whether that leads to some action," he once said in an interview."We don't read other people's opinions," he said. "We want to get the facts, and then think."
+    Related Content
+    
+                Warren Buffett hits back at Donald Trump over tax loophole claim 
+            
+        
+                Why Warren Buffett doesn't care that he just lost $1.9 billion
+            
+        
+To help you get into the mind of the billionaire investor, we've rounded up 21 of his book recommendations over 20 years of interviews and shareholder letters.1. The Intelligent Investor by Benjamin Graham
+When Buffett was 19, he picked up a copy of legendary Wall Streeter Benjamin Graham's The Intelligent Investor.
+    Warren Buffett still spends about 80 per cent of his day reading. Photo: AbacaUsa.com
+    It was one of the luckiest moments of his life, he said, because it gave him the intellectual framework for investing."To invest successfully over a lifetime does not require a stratospheric IQ, unusual business insights, or inside information," Buffett said."What's needed is a sound intellectual framework for making decisions and the ability to keep emotions from corroding that framework. This book precisely and clearly prescribes the proper framework. You must provide the emotional discipline."2. Security Analysis by Benjamin Graham and David Dodd
+Buffett said that Security Analysis, another groundbreaking work of Graham's, had given him "a road map for investing that I have now been following for 57 years".The book's core insight: If your analysis is thorough enough, you can figure out the value of a company - and if the market knows the same.Buffett has said that Graham was the second most influential figure in his life, after only his father."Ben was this incredible teacher; I mean he was a natural," he said.3. Common Stocks and Uncommon Profits by Philip Fisher
+Investor Philip Fisher - who specialised in investing in innovative companies - didn't shape Buffett in quite the same way as Graham did, but Buffett still holds him in the highest regard."I am an eager reader of whatever Phil has to say, and I recommend him to you," Buffett said.In Common Stocks and Uncommon Profits, Fisher emphasises that fixating on financial statements isn't enough - you also need to evaluate a company's management.4. Stress Test: Reflections on Financial Crises by Tim Geithner
+Buffett says that the former US secretary of the Treasury's book about the financial crisis is a must-read for any manager.Lots of books have been written about how to manage an organisation through tough times. Almost none are firsthand accounts of steering a wing of government through economic catastrophe."This wasn't just a little problem on the fringes of the US mortgage market," Geithner writes. "I had a sick feeling in my stomach. I knew what financial crises felt like, and they felt like this."5. The Essays of Warren Buffett by Warren Buffett
+If you want to get to know the way Buffett thinks, go straight to the sage himself.In this collection, he keeps it real - in his signature folksy-intellectual fashion."What could be more advantageous in an intellectual contest - whether it be chess, bridge, or stock selection - than to have opponents who have been taught that thinking is a waste of energy?" he asks.6. Jack: Straight from the Gut by Jack Welch
+In his 2001 shareholder letter, Buffett gleefully endorses Jack: Straight from the Gut, a business memoir of long-time GE executive Jack Welch, whom Buffett describes as "smart, energetic, hands-on".In commenting on the book, Bloomberg Businessweek wrote: "Welch has had such an impact on modern business that a tour of his personal history offers all managers valuable lessons."Buffett's advice: "Get a copy!"7. The Outsiders by William Thorndike Jr
+In his 2012 shareholder letter, Buffett praises The Outsiders as "an outstanding book about CEOs who excelled at capital allocation".Berkshire Hathaway plays a big role in the book. One chapter is on director Tom Murphy, who Buffett says is "overall the best business manager I've ever met".The book - which finds patterns of success from execs at The Washington Post, Ralston Purina, and others - has been praised as "one of the most important business books in America" by Forbes.8. The Clash of the Cultures by John Bogle
+Bogle's The Clash of the Cultures is another recommendation from the 2012 shareholder letter.In it, Bogle - creator of the index fund and founder of the Vanguard Group, now managing upward of $US3 trillion ($3.9 trillion) in assets - argues that long-term investing has been crowded out by short-term speculation.But the book isn't all argument. It finishes with practical tips, like:Remember reversion to the mean. What's hot today isn't likely to be hot tomorrow. The stock market reverts to fundamental returns over the long run. Don't follow the herd. 
+ Time is your friend, impulse is your enemy. Take advantage of compound interest and don't be captivated by the siren song of the market. That only seduces you into buying after stocks have soared and selling after they plunge. 
+9. Business Adventures: Twelve Classic Tales from the World of Wall Street by John Brooks
+In 1991, Bill Gates asked Buffett for his favourite book.In reply, Buffett sent the Microsoft founder his personal copy of Business Adventures, a collection of New Yorker stories by John Brooks.Gates says the book serves as a reminder that the principles for building a winning business stay constant. He wrote: "For one thing, there's an essential human factor in every business endeavour."It doesn't matter if you have a perfect product, production plan and marketing pitch; you'll still need the right people to lead and implement those plans."The book has become a media darling in recent years. Slate wrote that it's "catnip for billionaires".10. Where Are the Customers' Yachts? by Fred Schwed
+"The funniest book ever written about investing," Warren Buffett proclaimed in his 2006 shareholder letter. "It lightly delivers many truly important messages on the subject."First published in 1940, the book takes its title from a story about a visitor to New York who saw the bankers' and brokers' yachts and asked where the customers' were.Obviously, they couldn't afford them - the people providing the financial advice were in a better position to splurge than the people who followed the advice.The book is filled with irreverent wisdom and colourful anecdotes about Wall Street, and remains compelling even today.11. Essays in Persuasion by John Maynard Keynes
+This collection of writings by the legendary economist has remained a staple of financial literature since it was published nearly a century ago.In Buffett's opinion, it's required reading."Reading Keynes will make you smarter about securities and markets," he told Outstanding Investor Digest in 1989. "I'm not sure reading most economists would do the same."The collection includes the famous essay "Economic Possibilities for Our Grandchildren", in which Keynes predicted that today's generation would work only 15 hours a week.You can read the full text online.12. The Little Book of Common Sense Investing by Jack Bogle
+In his 2014 shareholder letter, Buffett recommended reading this book over listening to the advice of most financial advisers.Based on his own experience working with Vanguard clients, Bogle tries to help readers use index investing to build wealth.Fans say it's far from boring, and the stats and charts are balanced with anecdotes and advice.13. Poor Charlie's Almanack edited by Peter Kaufman
+This collection of advice from Charlie Munger, vice chairman of Berkshire Hathaway, got the ultimate shout-out in Buffett's 2004 shareholder letter."Scholars have for too long debated whether Charlie is the reincarnation of Ben Franklin," Buffett wrote. "This book should settle the question."The book includes biographical information about Munger as well as summaries of his philosophy on investing and talks Munger gave at Berkshire Hathaway meetings and elsewhere.One such talk is called the "Psychology of Human Misjudgment", in which Munger writes about the cognitive traps that trip up investors.14. The Most Important Thing Illuminated by Howard Marks
+Marks, chairman and co-founder of Oak Tree Capital, intended to wait until he retired to write this book, as noted in a 2011 Barron's review. But Buffett so admired Marks' client memos that he offered to write a dust-jacket blurb if Marks would publish the book sooner.The result is "a rarity, a useful book", Buffett reportedly said.Marks aims to help investors achieve success by putting more thought into their decisions, drawing heavily on his own mistakes and what he learned from them.15. Dream Big by Cristiane Correa
+Here Correa tells the story of the three Brazilians who founded 3G Capital, an investment firm that joined Buffett in buying HJ Heinz in 2013.Buffett recommended the book at the 2014 Berkshire Hathaway shareholder meeting.In an interview with The New York Times, Correa highlighted the main principles of 3G's management style - meritocracy and cost-cutting - that paved the way for their current success."They trust in people and they let their teams work," she said.16. First a Dream by Jim Clayton and Bill Retherford
+Jim Clayton grew up the son of a sharecropper in Tennessee and eventually went on to found Clayton Homes, now the largest producer and seller of manufactured housing in the US.Buffett credits Clayton's autobiography with inspiring him to invest in Clayton Homes in 2003. In his 2003 shareholder letter, he wrote that the book was a gift to him from students at the University of Tennessee.Buffett told the students how much he enjoyed the book, and they urged him to call Kevin Clayton, Jim's son and the company's CEO, to deliver the praise directly."Soon thereafter, I made an offer for the business based solely on Jim's book, my evaluation of Kevin, the public financials of Clayton" and his experience buying "distressed junk" from Oakwood Homes, a retailer of manufactured homes that he later bought after it filed for bankruptcy.It's worth noting that Fast Company reported the deal between Berkshire Hathaway and Clayton Homes was a little more complicated than that.In his "rags to riches" tale, Clayton shares lessons on business and leadership for current and aspiring entrepreneurs.17. Take on the Street by Arthur Levitt
+In Buffett's 2002 shareholder letter, he explains "how accounting standards and audit quality have eroded in recent years". Specifically, he cites the downfall of Arthur Andersen accounting."The details of this sordid affair are related in Levitt's excellent book, Take on the Street," Buffett writes.A former chairman of the US Securities and Exchange Commission, Levitt not only includes candid anecdotes, but also offers everyday investors ways to protect themselves from Wall Street.18. Nuclear Terrorism by Graham Allison
+According to Allison, founding dean of Harvard's modern John F Kennedy School of Government, a nuclear attack on the US is inevitable - unless we change our political strategy.He says the new international security order must be built upon "three No's": no loose nukes, no new nascent nukes, and no new nuclear states.In his 2004 shareholder letter, Buffett called it a "must-read for those concerned with the safety of our country".19. The Making of the President by Theodore White
+In a 2016 Politico Playbook interview, Buffett said he loved reading political books, especially this Pulitzer Prize-winning classic published in 1961. (White also published three sequels.)White chronicles the 1960 race for the presidency that John F. Kennedy ultimately won, from the primaries to the general election. In its attention to detail and to the candidates' personal struggles, the book can read more like a novel - a style of political reporting that at that time had never been seen before.Writing in The Wall Street Journal, political reporter David M. Shribman said the book "stands out as the most influential political chronicle of the 20th century, perhaps of all time".20. Limping on Water by Phil Beuth and K.C. Schulberg
+This recommendation from Buffett's 2015 shareholder letter tells the story of Phil Beuth's 40-year career with Capital Cities/ABC-TV. It's a personal recounting of Beuth's journey from a boy afflicted with cerebral palsy, his family struggling to make ends meet, to a top media executive.In his review of the book, Buffett raved:"'Cap Cities will forever represent the gold standard for ethical corporate behaviour accompanied by incredible financial performance. Tom Murphy and Dan Burke (former Capital City/ABC-TV executives) were the architects of these two achievements. Phil Beuth gives you a ringside seat to view this remarkable story."21. Warren Buffett's Ground Rules by Jeremy C. Miller
+Another recommendation from Buffett's 2015 shareholder letter, this book is a compilation of Warren Buffett's letters - specifically, those he sent to his partners while managing Buffett Partnership Limited between 1956 and 1970. Readers get a glimpse into how Buffett built his investing strategy off the teachings of legendary investor Benjamin Graham.Buffett gave Miller's work a glowing review:"Mr Miller has done a superb job of researching and dissecting the operation of Buffett Partnership Ltd and of explaining how Berkshire's culture has evolved from its BPL origin. If you are fascinated by investment theory and practice, you will enjoy this book."Drake Baer contributed reporting on a previous version of this article.This story first appeared in Business Insider. Read it here or follow BusinessInsider Australia on Facebook.
+
+
+    Related Content
+    
+                Think you had a bad day? Warren Buffett just lost $1.9 billion
+            
+        
+                Berkshire profit jumps to $US5b on manufacturing, insurance
+            
+        
+                Buffett's big bet on ‘in-your-face’ CEO
+            
+        
+
+        Advertisement
+        
+            
+                            titan.requestAd.push("adspot-300x164-pos1");
+                        
+    
+
+    0 comments
+        
+    Log in to comment
+    New User? Sign up
+
+
+    
+        
+            You are logged in as unknown Logout
+            
+                300 words
+                Close comment form
+            
+        
+        Write your comment here
+        
+                Screen name (required)
+                
+            
+                Location (optional)
+                
+            
+                
+                    I understand that submission of this content is covered by the Conditions of Use by which I am bound and Commenting Guidelines are available for my reference.
+                
+            
+        
+    
+        Close
+        Thank you
+        
+                
+                Your comment has been submitted for approval.
+                Please note that comments are moderated and are generally published if they are on-topic and not abusive.
+            
+        
+
+                    
+    Sort comments by
+    OldestNewest
+            
+        
+
+
+
+            Follow BusinessDay
+            
+        Share on FacebookFacebook
+    
+
+        Share on TwitterTwitter
+    
+
+    
+            Follow SMH
+            
+        Share on Facebook
+    
+
+        Share on Twitter
+    
+
+        Share on EmailNewsletters
+    
+
+    
+
+
+
+
+
+
+        
+
+
+        Most Viewed Today
+        
+                        
+                                    Business
+                                
+                                
+                                    All SMH
+                                
+                            
+                            
+                                
+                                            
+        
+            Medibank tries to save itself amid more embarrassing numbers
+        
+    
+
+                                    
+                                            
+        
+            Warren Buffett is sitting on more cash than ever
+        
+    
+
+                                    
+                                            
+        
+            Facebook trawl for compo investigation 'illegal', claims lawyer
+        
+    
+
+                                    
+                                            
+        
+            Aldi like that? Discounter cheaper for brands
+        
+    
+
+                                    
+                                            
+        
+            The rich have found a place to escape the horrors of the world
+        
+    
+
+                                    
+                            
+                                
+                                            
+        
+            The US election is rigged, and here's the proof
+        
+    
+
+                                    
+                                            
+        
+            Donald Trump pulled off stage in dramatic scenes during Nevada speech
+        
+    
+
+                                    
+                                            
+        
+            Playboy Playmate facing jail time after photographing a naked woman at a gym
+        
+    
+
+                                    
+                                            
+        
+            Ireland shock All Blacks to end record run
+        
+    
+
+                                    
+                                            
+        
+            Assaad knew police were watching him moments before execution
+        
+    
+
+                                    
+                        
+                    
+                
+
+
+
+
+
+    
+
+    
+        
+            Share via Email
+        
+    
+            Share on Facebook
+        
+    
+            Share on Google Plus
+        
+    
+            Share on Twitter
+        
+    
+            RSS Feed
+        
+    Products and Services
+            SMH for iPad
+                Today's Paper
+                Subscribe
+                Manage My Subscription
+                Subscriber Hub
+                Corporate Subscriptions
+                Digital Subscription FAQs
+                Good Food Guide
+                The Store by Fairfax
+                Newsletters
+                Sydney Morning Herald
+            Sitemap
+                About Us
+                Contact Us
+                Subscribers
+                Advertise With Us
+                Text Version
+                Site Accessibility Guide
+                Classifieds
+            Place an Ad
+                Cars
+                Dating
+                Jobs
+                Real Estate
+                Commercial Real Estate
+                Oneflare
+                Nabo
+                Tributes
+                Celebrations
+                Our Sites
+            SMH
+                The Age
+                AFR.com
+                Adzuna
+                Domain
+                Drive
+                RSVP
+                Essential Baby
+                Home Price Guide
+                Weatherzone
+                
+            The Sydney Morning HeraldWebsite Feedback
+            Copyright © 2016 Fairfax Media
+    
+
+
+
+
+
+
+
+
+
+        
+            Info
+            
+                Save articles for later.
+                Ok, Got it
+            
+        
+        
+                    Info
+                    
+                        Subscribe for unlimited access to news. Login to save articles.
+                        Ok, Got it
+                    
+                
+            
+                Info
+                
+                    Navigate the entire website and your personal account subscription through this menu.
+                    Ok, Thanks
+                
+            
+        
+            Info
+            
+                Return to the homepage by clicking on the site logo.
+                Ok, Got it
+            
+        
+    
+
+                
+                    window.myFairfaxGeo = true;
+                
+        var _ffxNielsenBCParams = {
+            'sfcode' : 'dcr-cert' 
+        };
+    
+    var _fmjscb = _fmjscb || [];
+    _fmjscb.push(function () {
+        $.ajax({
+            url: "http://www.smh.com.au/etc/clientlibs/ffx/common-components/js/registrars/inline-gallery.min.clientlibversion.687dbe4096d5a75959a85642d055f154.js",
+            dataType: "script",
+            cache: true
+        });
+    });
+
+/*
+RequireJS 2.2.0 Copyright jQuery Foundation and other contributors.
+Released under MIT license, http://github.com/requirejs/requirejs/LICENSE
+*/
+var requirejs,require,define;
+(function(ga){function ka(b,c,d,g){return g||""}function K(b){return"[object Function]"===Q.call(b)}function L(b){return"[object Array]"===Q.call(b)}function y(b,c){if(b){var d;for(d=0;d<b.length&&(!b[d]||!c(b[d],d,b));d+=1);}}function X(b,c){if(b){var d;for(d=b.length-1;-1<d&&(!b[d]||!c(b[d],d,b));--d);}}function x(b,c){return la.call(b,c)}function e(b,c){return x(b,c)&&b[c]}function D(b,c){for(var d in b)if(x(b,d)&&c(b[d],d))break}function Y(b,c,d,g){c&&D(c,function(c,e){if(d||!x(b,e))!g||"object"!==
+typeof c||!c||L(c)||K(c)||c instanceof RegExp?b[e]=c:(b[e]||(b[e]={}),Y(b[e],c,d,g))});return b}function z(b,c){return function(){return c.apply(b,arguments)}}function ha(b){throw b;}function ia(b){if(!b)return b;var c=ga;y(b.split("."),function(b){c=c[b]});return c}function F(b,c,d,g){c=Error(c+"\nhttp://requirejs.org/docs/errors.html#"+b);c.requireType=b;c.requireModules=g;d&&(c.originalError=d);return c}function ma(b){function c(a,n,b){var h,k,f,c,d,l,g,r;n=n&&n.split("/");var q=p.map,m=q&&q["*"];
+if(a){a=a.split("/");k=a.length-1;p.nodeIdCompat&&U.test(a[k])&&(a[k]=a[k].replace(U,""));"."===a[0].charAt(0)&&n&&(k=n.slice(0,n.length-1),a=k.concat(a));k=a;for(f=0;f<k.length;f++)c=k[f],"."===c?(k.splice(f,1),--f):".."===c&&0!==f&&(1!==f||".."!==k[2])&&".."!==k[f-1]&&0<f&&(k.splice(f-1,2),f-=2);a=a.join("/")}if(b&&q&&(n||m)){k=a.split("/");f=k.length;a:for(;0<f;--f){d=k.slice(0,f).join("/");if(n)for(c=n.length;0<c;--c)if(b=e(q,n.slice(0,c).join("/")))if(b=e(b,d)){h=b;l=f;break a}!g&&m&&e(m,d)&&
+(g=e(m,d),r=f)}!h&&g&&(h=g,l=r);h&&(k.splice(0,l,h),a=k.join("/"))}return(h=e(p.pkgs,a))?h:a}function d(a){E&&y(document.getElementsByTagName("script"),function(n){if(n.getAttribute("data-requiremodule")===a&&n.getAttribute("data-requirecontext")===l.contextName)return n.parentNode.removeChild(n),!0})}function m(a){var n=e(p.paths,a);if(n&&L(n)&&1<n.length)return n.shift(),l.require.undef(a),l.makeRequire(null,{skipMap:!0})([a]),!0}function r(a){var n,b=a?a.indexOf("!"):-1;-1<b&&(n=a.substring(0,
+b),a=a.substring(b+1,a.length));return[n,a]}function q(a,n,b,h){var k,f,d=null,g=n?n.name:null,p=a,q=!0,m="";a||(q=!1,a="_@r"+(Q+=1));a=r(a);d=a[0];a=a[1];d&&(d=c(d,g,h),f=e(v,d));a&&(d?m=f&&f.normalize?f.normalize(a,function(a){return c(a,g,h)}):-1===a.indexOf("!")?c(a,g,h):a:(m=c(a,g,h),a=r(m),d=a[0],m=a[1],b=!0,k=l.nameToUrl(m)));b=!d||f||b?"":"_unnormalized"+(T+=1);return{prefix:d,name:m,parentMap:n,unnormalized:!!b,url:k,originalName:p,isDefine:q,id:(d?d+"!"+m:m)+b}}function u(a){var b=a.id,
+c=e(t,b);c||(c=t[b]=new l.Module(a));return c}function w(a,b,c){var h=a.id,k=e(t,h);if(!x(v,h)||k&&!k.defineEmitComplete)if(k=u(a),k.error&&"error"===b)c(k.error);else k.on(b,c);else"defined"===b&&c(v[h])}function A(a,b){var c=a.requireModules,h=!1;if(b)b(a);else if(y(c,function(b){if(b=e(t,b))b.error=a,b.events.error&&(h=!0,b.emit("error",a))}),!h)g.onError(a)}function B(){V.length&&(y(V,function(a){var b=a[0];"string"===typeof b&&(l.defQueueMap[b]=!0);G.push(a)}),V=[])}function C(a){delete t[a];
+delete Z[a]}function J(a,b,c){var h=a.map.id;a.error?a.emit("error",a.error):(b[h]=!0,y(a.depMaps,function(h,f){var d=h.id,g=e(t,d);!g||a.depMatched[f]||c[d]||(e(b,d)?(a.defineDep(f,v[d]),a.check()):J(g,b,c))}),c[h]=!0)}function H(){var a,b,c=(a=1E3*p.waitSeconds)&&l.startTime+a<(new Date).getTime(),h=[],k=[],f=!1,g=!0;if(!aa){aa=!0;D(Z,function(a){var l=a.map,e=l.id;if(a.enabled&&(l.isDefine||k.push(a),!a.error))if(!a.inited&&c)m(e)?f=b=!0:(h.push(e),d(e));else if(!a.inited&&a.fetched&&l.isDefine&&
+(f=!0,!l.prefix))return g=!1});if(c&&h.length)return a=F("timeout","Load timeout for modules: "+h,null,h),a.contextName=l.contextName,A(a);g&&y(k,function(a){J(a,{},{})});c&&!b||!f||!E&&!ja||ba||(ba=setTimeout(function(){ba=0;H()},50));aa=!1}}function I(a){x(v,a[0])||u(q(a[0],null,!0)).init(a[1],a[2])}function O(a){a=a.currentTarget||a.srcElement;var b=l.onScriptLoad;a.detachEvent&&!ca?a.detachEvent("onreadystatechange",b):a.removeEventListener("load",b,!1);b=l.onScriptError;a.detachEvent&&!ca||a.removeEventListener("error",
+b,!1);return{node:a,id:a&&a.getAttribute("data-requiremodule")}}function P(){var a;for(B();G.length;){a=G.shift();if(null===a[0])return A(F("mismatch","Mismatched anonymous define() module: "+a[a.length-1]));I(a)}l.defQueueMap={}}var aa,da,l,R,ba,p={waitSeconds:7,baseUrl:"./",paths:{},bundles:{},pkgs:{},shim:{},config:{}},t={},Z={},ea={},G=[],v={},W={},fa={},Q=1,T=1;R={require:function(a){return a.require?a.require:a.require=l.makeRequire(a.map)},exports:function(a){a.usingExports=!0;if(a.map.isDefine)return a.exports?
+v[a.map.id]=a.exports:a.exports=v[a.map.id]={}},module:function(a){return a.module?a.module:a.module={id:a.map.id,uri:a.map.url,config:function(){return e(p.config,a.map.id)||{}},exports:a.exports||(a.exports={})}}};da=function(a){this.events=e(ea,a.id)||{};this.map=a;this.shim=e(p.shim,a.id);this.depExports=[];this.depMaps=[];this.depMatched=[];this.pluginMaps={};this.depCount=0};da.prototype={init:function(a,b,c,h){h=h||{};if(!this.inited){this.factory=b;if(c)this.on("error",c);else this.events.error&&
+(c=z(this,function(a){this.emit("error",a)}));this.depMaps=a&&a.slice(0);this.errback=c;this.inited=!0;this.ignore=h.ignore;h.enabled||this.enabled?this.enable():this.check()}},defineDep:function(a,b){this.depMatched[a]||(this.depMatched[a]=!0,--this.depCount,this.depExports[a]=b)},fetch:function(){if(!this.fetched){this.fetched=!0;l.startTime=(new Date).getTime();var a=this.map;if(this.shim)l.makeRequire(this.map,{enableBuildCallback:!0})(this.shim.deps||[],z(this,function(){return a.prefix?this.callPlugin():
+this.load()}));else return a.prefix?this.callPlugin():this.load()}},load:function(){var a=this.map.url;W[a]||(W[a]=!0,l.load(this.map.id,a))},check:function(){if(this.enabled&&!this.enabling){var a,b,c=this.map.id;b=this.depExports;var h=this.exports,k=this.factory;if(!this.inited)x(l.defQueueMap,c)||this.fetch();else if(this.error)this.emit("error",this.error);else if(!this.defining){this.defining=!0;if(1>this.depCount&&!this.defined){if(K(k)){if(this.events.error&&this.map.isDefine||g.onError!==
+ha)try{h=l.execCb(c,k,b,h)}catch(d){a=d}else h=l.execCb(c,k,b,h);this.map.isDefine&&void 0===h&&((b=this.module)?h=b.exports:this.usingExports&&(h=this.exports));if(a)return a.requireMap=this.map,a.requireModules=this.map.isDefine?[this.map.id]:null,a.requireType=this.map.isDefine?"define":"require",A(this.error=a)}else h=k;this.exports=h;if(this.map.isDefine&&!this.ignore&&(v[c]=h,g.onResourceLoad)){var f=[];y(this.depMaps,function(a){f.push(a.normalizedMap||a)});g.onResourceLoad(l,this.map,f)}C(c);
+this.defined=!0}this.defining=!1;this.defined&&!this.defineEmitted&&(this.defineEmitted=!0,this.emit("defined",this.exports),this.defineEmitComplete=!0)}}},callPlugin:function(){var a=this.map,b=a.id,d=q(a.prefix);this.depMaps.push(d);w(d,"defined",z(this,function(h){var k,f,d=e(fa,this.map.id),M=this.map.name,r=this.map.parentMap?this.map.parentMap.name:null,m=l.makeRequire(a.parentMap,{enableBuildCallback:!0});if(this.map.unnormalized){if(h.normalize&&(M=h.normalize(M,function(a){return c(a,r,!0)})||
+""),f=q(a.prefix+"!"+M,this.map.parentMap),w(f,"defined",z(this,function(a){this.map.normalizedMap=f;this.init([],function(){return a},null,{enabled:!0,ignore:!0})})),h=e(t,f.id)){this.depMaps.push(f);if(this.events.error)h.on("error",z(this,function(a){this.emit("error",a)}));h.enable()}}else d?(this.map.url=l.nameToUrl(d),this.load()):(k=z(this,function(a){this.init([],function(){return a},null,{enabled:!0})}),k.error=z(this,function(a){this.inited=!0;this.error=a;a.requireModules=[b];D(t,function(a){0===
+a.map.id.indexOf(b+"_unnormalized")&&C(a.map.id)});A(a)}),k.fromText=z(this,function(h,c){var d=a.name,f=q(d),M=S;c&&(h=c);M&&(S=!1);u(f);x(p.config,b)&&(p.config[d]=p.config[b]);try{g.exec(h)}catch(e){return A(F("fromtexteval","fromText eval for "+b+" failed: "+e,e,[b]))}M&&(S=!0);this.depMaps.push(f);l.completeLoad(d);m([d],k)}),h.load(a.name,m,k,p))}));l.enable(d,this);this.pluginMaps[d.id]=d},enable:function(){Z[this.map.id]=this;this.enabling=this.enabled=!0;y(this.depMaps,z(this,function(a,
+b){var c,h;if("string"===typeof a){a=q(a,this.map.isDefine?this.map:this.map.parentMap,!1,!this.skipMap);this.depMaps[b]=a;if(c=e(R,a.id)){this.depExports[b]=c(this);return}this.depCount+=1;w(a,"defined",z(this,function(a){this.undefed||(this.defineDep(b,a),this.check())}));this.errback?w(a,"error",z(this,this.errback)):this.events.error&&w(a,"error",z(this,function(a){this.emit("error",a)}))}c=a.id;h=t[c];x(R,c)||!h||h.enabled||l.enable(a,this)}));D(this.pluginMaps,z(this,function(a){var b=e(t,a.id);
+b&&!b.enabled&&l.enable(a,this)}));this.enabling=!1;this.check()},on:function(a,b){var c=this.events[a];c||(c=this.events[a]=[]);c.push(b)},emit:function(a,b){y(this.events[a],function(a){a(b)});"error"===a&&delete this.events[a]}};l={config:p,contextName:b,registry:t,defined:v,urlFetched:W,defQueue:G,defQueueMap:{},Module:da,makeModuleMap:q,nextTick:g.nextTick,onError:A,configure:function(a){a.baseUrl&&"/"!==a.baseUrl.charAt(a.baseUrl.length-1)&&(a.baseUrl+="/");if("string"===typeof a.urlArgs){var b=
+a.urlArgs;a.urlArgs=function(a,c){return(-1===c.indexOf("?")?"?":"&")+b}}var c=p.shim,h={paths:!0,bundles:!0,config:!0,map:!0};D(a,function(a,b){h[b]?(p[b]||(p[b]={}),Y(p[b],a,!0,!0)):p[b]=a});a.bundles&&D(a.bundles,function(a,b){y(a,function(a){a!==b&&(fa[a]=b)})});a.shim&&(D(a.shim,function(a,b){L(a)&&(a={deps:a});!a.exports&&!a.init||a.exportsFn||(a.exportsFn=l.makeShimExports(a));c[b]=a}),p.shim=c);a.packages&&y(a.packages,function(a){var b;a="string"===typeof a?{name:a}:a;b=a.name;a.location&&
+(p.paths[b]=a.location);p.pkgs[b]=a.name+"/"+(a.main||"main").replace(na,"").replace(U,"")});D(t,function(a,b){a.inited||a.map.unnormalized||(a.map=q(b,null,!0))});(a.deps||a.callback)&&l.require(a.deps||[],a.callback)},makeShimExports:function(a){return function(){var b;a.init&&(b=a.init.apply(ga,arguments));return b||a.exports&&ia(a.exports)}},makeRequire:function(a,n){function m(c,d,f){var e,r;n.enableBuildCallback&&d&&K(d)&&(d.__requireJsBuild=!0);if("string"===typeof c){if(K(d))return A(F("requireargs",
+"Invalid require call"),f);if(a&&x(R,c))return R[c](t[a.id]);if(g.get)return g.get(l,c,a,m);e=q(c,a,!1,!0);e=e.id;return x(v,e)?v[e]:A(F("notloaded",'Module name "'+e+'" has not been loaded yet for context: '+b+(a?"":". Use require([])")))}P();l.nextTick(function(){P();r=u(q(null,a));r.skipMap=n.skipMap;r.init(c,d,f,{enabled:!0});H()});return m}n=n||{};Y(m,{isBrowser:E,toUrl:function(b){var d,f=b.lastIndexOf("."),g=b.split("/")[0];-1!==f&&("."!==g&&".."!==g||1<f)&&(d=b.substring(f,b.length),b=b.substring(0,
+f));return l.nameToUrl(c(b,a&&a.id,!0),d,!0)},defined:function(b){return x(v,q(b,a,!1,!0).id)},specified:function(b){b=q(b,a,!1,!0).id;return x(v,b)||x(t,b)}});a||(m.undef=function(b){B();var c=q(b,a,!0),f=e(t,b);f.undefed=!0;d(b);delete v[b];delete W[c.url];delete ea[b];X(G,function(a,c){a[0]===b&&G.splice(c,1)});delete l.defQueueMap[b];f&&(f.events.defined&&(ea[b]=f.events),C(b))});return m},enable:function(a){e(t,a.id)&&u(a).enable()},completeLoad:function(a){var b,c,d=e(p.shim,a)||{},g=d.exports;
+for(B();G.length;){c=G.shift();if(null===c[0]){c[0]=a;if(b)break;b=!0}else c[0]===a&&(b=!0);I(c)}l.defQueueMap={};c=e(t,a);if(!b&&!x(v,a)&&c&&!c.inited)if(!p.enforceDefine||g&&ia(g))I([a,d.deps||[],d.exportsFn]);else return m(a)?void 0:A(F("nodefine","No define call for "+a,null,[a]));H()},nameToUrl:function(a,b,c){var d,k,f,m;(d=e(p.pkgs,a))&&(a=d);if(d=e(fa,a))return l.nameToUrl(d,b,c);if(g.jsExtRegExp.test(a))d=a+(b||"");else{d=p.paths;k=a.split("/");for(f=k.length;0<f;--f)if(m=k.slice(0,f).join("/"),
+m=e(d,m)){L(m)&&(m=m[0]);k.splice(0,f,m);break}d=k.join("/");d+=b||(/^data\:|^blob\:|\?/.test(d)||c?"":".js");d=("/"===d.charAt(0)||d.match(/^[\w\+\.\-]+:/)?"":p.baseUrl)+d}return p.urlArgs&&!/^blob\:/.test(d)?d+p.urlArgs(a,d):d},load:function(a,b){g.load(l,a,b)},execCb:function(a,b,c,d){return b.apply(d,c)},onScriptLoad:function(a){if("load"===a.type||oa.test((a.currentTarget||a.srcElement).readyState))N=null,a=O(a),l.completeLoad(a.id)},onScriptError:function(a){var b=O(a);if(!m(b.id)){var c=[];
+D(t,function(a,d){0!==d.indexOf("_@r")&&y(a.depMaps,function(a){if(a.id===b.id)return c.push(d),!0})});return A(F("scripterror",'Script error for "'+b.id+(c.length?'", needed by: '+c.join(", "):'"'),a,[b.id]))}}};l.require=l.makeRequire();return l}function pa(){if(N&&"interactive"===N.readyState)return N;X(document.getElementsByTagName("script"),function(b){if("interactive"===b.readyState)return N=b});return N}var g,B,C,H,O,I,N,P,u,T,qa=/(\/\*([\s\S]*?)\*\/|([^:]|^)\/\/(.*)$)/mg,ra=/[^.]\s*require\s*\(\s*["']([^'"\s]+)["']\s*\)/g,
+U=/\.js$/,na=/^\.\//;B=Object.prototype;var Q=B.toString,la=B.hasOwnProperty,E=!("undefined"===typeof window||"undefined"===typeof navigator||!window.document),ja=!E&&"undefined"!==typeof importScripts,oa=E&&"PLAYSTATION 3"===navigator.platform?/^complete$/:/^(complete|loaded)$/,ca="undefined"!==typeof opera&&"[object Opera]"===opera.toString(),J={},w={},V=[],S=!1;if("undefined"===typeof define){if("undefined"!==typeof requirejs){if(K(requirejs))return;w=requirejs;requirejs=void 0}"undefined"===typeof require||
+K(require)||(w=require,require=void 0);g=requirejs=function(b,c,d,m){var r,q="_";L(b)||"string"===typeof b||(r=b,L(c)?(b=c,c=d,d=m):b=[]);r&&r.context&&(q=r.context);(m=e(J,q))||(m=J[q]=g.s.newContext(q));r&&m.configure(r);return m.require(b,c,d)};g.config=function(b){return g(b)};g.nextTick="undefined"!==typeof setTimeout?function(b){setTimeout(b,4)}:function(b){b()};require||(require=g);g.version="2.2.0";g.jsExtRegExp=/^\/|:|\?|\.js$/;g.isBrowser=E;B=g.s={contexts:J,newContext:ma};g({});y(["toUrl",
+"undef","defined","specified"],function(b){g[b]=function(){var c=J._;return c.require[b].apply(c,arguments)}});E&&(C=B.head=document.getElementsByTagName("head")[0],H=document.getElementsByTagName("base")[0])&&(C=B.head=H.parentNode);g.onError=ha;g.createNode=function(b,c,d){c=b.xhtml?document.createElementNS("http://www.w3.org/1999/xhtml","html:script"):document.createElement("script");c.type=b.scriptType||"text/javascript";c.charset="utf-8";c.async=!0;return c};g.load=function(b,c,d){var m=b&&b.config||
+{},e;if(E){e=g.createNode(m,c,d);e.setAttribute("data-requirecontext",b.contextName);e.setAttribute("data-requiremodule",c);!e.attachEvent||e.attachEvent.toString&&0>e.attachEvent.toString().indexOf("[native code")||ca?(e.addEventListener("load",b.onScriptLoad,!1),e.addEventListener("error",b.onScriptError,!1)):(S=!0,e.attachEvent("onreadystatechange",b.onScriptLoad));e.src=d;if(m.onNodeCreated)m.onNodeCreated(e,m,c,d);P=e;H?C.insertBefore(e,H):C.appendChild(e);P=null;return e}if(ja)try{setTimeout(function(){},
+0),importScripts(d),b.completeLoad(c)}catch(q){b.onError(F("importscripts","importScripts failed for "+c+" at "+d,q,[c]))}};E&&!w.skipDataMain&&X(document.getElementsByTagName("script"),function(b){C||(C=b.parentNode);if(O=b.getAttribute("data-main"))return u=O,w.baseUrl||-1!==u.indexOf("!")||(I=u.split("/"),u=I.pop(),T=I.length?I.join("/")+"/":"./",w.baseUrl=T),u=u.replace(U,""),g.jsExtRegExp.test(u)&&(u=O),w.deps=w.deps?w.deps.concat(u):[u],!0});define=function(b,c,d){var e,g;"string"!==typeof b&&
+(d=c,c=b,b=null);L(c)||(d=c,c=null);!c&&K(d)&&(c=[],d.length&&(d.toString().replace(qa,ka).replace(ra,function(b,d){c.push(d)}),c=(1===d.length?["require"]:["require","exports","module"]).concat(c)));S&&(e=P||pa())&&(b||(b=e.getAttribute("data-requiremodule")),g=J[e.getAttribute("data-requirecontext")]);g?(g.defQueue.push([b,c,d]),g.defQueueMap[b]=!0):V.push([b,c,d])};define.amd={jQuery:!0};g.exec=function(b){return eval(b)};g(w)}})(this);
+
+    requirejs.config({
+        baseUrl: '//www.fairfaxstatic.com.au/resources/fmjs/1.71.1-4',
+        paths: {
+            'bc': '//players.brightcove.net/3910869709001/21519b5c-4b3b-4363-accb-bdc8f358f823_default/index.min',
+            'chart': 'fmjs/lib/chart/Chart-1.1.1',
+            'ckegmapembed': 'fmjs/lib/ckegmapembed/cke-gmaps-end',
+            'enquire': 'fmjs/lib/enquire/enquire-2.1.2',
+            'excanvas': 'fmjs/lib/excanvas/excanvas',
+            'facebook.sdk': '//connect.facebook.net/en_US/sdk',
+            'google-maps-loader': 'fmjs/lib/google-maps-loader/google-maps-loader',
+            'idangerous-swiper': 'fmjs/lib/dangercarousel/idangerous.swiper-2.7.0',
+            'idangerous-swiper.progress': 'fmjs/lib/dangercarousel/swiper-progress/idangerous.swiper.progress',
+            'iframeresizer': 'fmjs/lib/iframeresizer/iframeResizer',
+            'iframeresizer.contentWindow': 'fmjs/lib/iframeresizer/iframeResizer.contentWindow',
+            'jquery.accessibleMegaMenu': 'fmjs/lib/accessibleMegaDropDown/jquery-accessibleMegaMenu',
+            'jquery.blockui': 'fmjs/lib/blockui/jquery.blockui-2.70.0',
+            'jquery': 'jquery/jquery-1.12.3.min',
+            'jquery.cookie': 'fmjs/lib/cookie/jquery.cookie-1.4.1',
+            'jquery.hoverintent': 'fmjs/lib/hoverintent/jquery.hoverintent-1.8.0',
+            'jquery.jstockticker': 'fmjs/lib/jstockticker/jquery.jstockticker-1.1.1',
+            'jquery.knob': 'fmjs/lib/knob/jquery.knob',
+            'jquery.popupoverlay': 'fmjs/lib/popupoverlay/jquery.popupoverlay-1.7.4',
+            'jquery.textfit': 'fmjs/lib/textfit/textFit-1.0',
+            'jquery.throttledebounce': 'fmjs/lib/throttledebounce/jquery.ba-throttle-debounce',
+            'jquery.validate': 'fmjs/lib/validate/jquery.validate-1.13.1',
+            'jquery.validate.unobtrusive': 'fmjs/lib/validate-unobtrusive/jquery.validate.unobtrusive',
+            'jquery.viewport': 'fmjs/lib/viewport/jquery.viewport',
+            'jquery-ui': 'jquery-ui/jquery-ui-1.11.4.min',
+            'moment': 'fmjs/lib/moment/moment-2.10.3'
+        },
+        shim: {
+            'idangerous-swiper.progress': ['idangerous-swiper'],
+            'iframeresizer.contentWindow': ['iframeresizer'],
+            'jquery.accessibleMegaMenu': ['jquery'],
+            'jquery.blockui': ['jquery'],
+            'jquery.cookie': ['jquery'],
+            'jquery.hoverintent': ['jquery'],
+            'jquery.jstockticker': ['jquery'],
+            'jquery.knob': ['jquery'],
+            'jquery.popupoverlay': ['jquery'],
+            'jquery.textfit': ['jquery'],
+            'jquery.throttledebounce': ['jquery'],
+            'jquery.validate': ['jquery'],
+            'jquery.viewport': ['jquery'],
+            'facebook.sdk' : {
+                exports: 'FB'
+            }
+        }
+    });
+
+    window._loadFMJSDRJS = function () {
+        var _fmjsdrjs = window._fmjsdrjs || [];
+        var _fmjsuniquedrjs = [];
+        if (_fmjsdrjs.length > 0) {
+            $.each(_fmjsdrjs, function (i, el) {
+                if ($.inArray(el, _fmjsuniquedrjs) == -1) {
+                    _fmjsuniquedrjs.push('requirejs/mastheads/' + el);
+                }
+            });
+            window._fmjsdrjs = [];
+            require(_fmjsuniquedrjs);
+        }
+    };
+
+    require(['requirejs/mastheads/mobile/article'], function () {
+        
+var _fmjscb = window._fmjscb || [];
+if (_fmjscb.constructor === Array) {
+    for (var i = 0; i < _fmjscb.length; i++) {
+        if (_fmjscb[i].constructor === Function) {
+            _fmjscb[i]();
+        }
+    }
+}
+window._loadFMJSDRJS();
+
+(function () {
+
+    var _fmjsds = window._fmjsds || [];
+    var _fmjsuniqueds = [];
+    var index = 0;
+
+    function filterScripts() {
+        $.each(_fmjsds, function(i, el) {
+            if($.inArray(el, _fmjsuniqueds) == -1) {
+                _fmjsuniqueds.push(el);
+            }
+        });
+    }
+
+    function loadScript() {
+        if (index < _fmjsuniqueds.length) {
+            $.getScript(_fmjsuniqueds[index], function () {
+                index++;
+                loadScript();
+            });
+        }
+    }
+
+    if(_fmjsds.length > 0) {
+        filterScripts();
+        loadScript();
+    }
+})();
+
+
+    });
+_satellite.pageBottom();
+    (function(d){
+        var f = d.getElementsByTagName('script')[0], p = d.createElement('script');
+        p.type = 'text/javascript';
+        p.async = true;
+        p.src = '//assets.pinterest.com/js/pinit.js';
+        f.parentNode.insertBefore(p, f);
+    }(document));
+titan.requestAd.push("adspot-interstitial");{"image":{"height":349,"width":620,"@type":"ImageObject","url":"http://www.smh.com.au/content/dam/images/h/v/i/g/d/image.related.articleLeadwide.620x349.gshv25.png/1478218830496.jpg"},"publisher":{"logo":{"height":48,"width":450,"@type":"ImageObject","url":"http://www.smh.com.au/etc/designs/ffx/cq-site-clientlibs-designs-masthead-adaptive/css/img/png/logo--smh.png"},"name":"The Sydney Morning Herald","@type":"Organization"},"author":{"name":"Shana Lebowitz","@type":"Person"},"dateModified":"2016-11-04T00:20:29.658Z","datePublished":"2016-11-04T00:09:38.099Z","headline":"21 books Warren Buffett thinks you should read","@type":"NewsArticle","mainEntityOfPage":{"@id":"http://www.smh.com.au/business/markets/21-books-warren-buffett-thinks-you-should-read-20161103-gshv25.html","@type":"WebPage"},"@context":"http://schema.org/","description":"Warren Buffett used to read 1000 pages a day and still spends 80 per cent of his day reading. "}

@@ -1,0 +1,499 @@
+GitHub - f/do-sshuttle: Use DigitalOcean Droplet to Transparent Proxying via sshuttle
+    
+    Skip to content
+
+    
+    
+    
+
+
+
+          
+    
+      
+
+    
+      
+
+    
+      
+          Personal
+        
+          Open source
+        
+          Business
+        
+          Explore
+      
+            Sign up
+          Sign in
+      
+
+        Pricing
+          Blog
+          Support
+          Search GitHub
+              
+  
+    
+      This repository
+      
+
+
+        
+  
+
+
+      
+
+
+
+    
+        
+    
+      
+
+  
+
+    
+
+
+      
+    
+    Watch
+  
+  
+    2
+  
+
+  
+
+  
+      
+    
+    Star
+  
+
+    
+      26
+    
+
+  
+
+  
+      
+        
+        Fork
+      
+
+    
+      3
+    
+  
+
+  f/do-sshuttle
+
+
+
+  
+  
+    
+
+    
+      Code
+        
+
+    
+      
+        Issues
+        0
+            
+
+  
+    
+      Pull requests
+      0
+        
+
+  
+    
+    Projects
+    0
+
+
+
+  
+    
+    Pulse
+
+  
+    
+    Graphs
+
+
+
+
+
+
+  
+
+    
+
+  
+         Use DigitalOcean Droplet to Transparent Proxying via sshuttle
+  
+
+
+
+
+
+  
+    
+    
+        
+            
+              3
+            
+            commits
+        
+      
+      
+        
+          
+            1
+          
+          branch
+        
+      
+
+      
+        
+          
+            0
+          
+          releases
+        
+      
+
+      
+          
+  
+      1
+    
+    contributor
+
+
+      
+    
+        
+              
+                
+                Shell
+                100.0%
+              
+          
+        
+    
+  
+
+
+  
+    Shell
+  
+
+
+
+
+    
+  
+    Clone or download
+  
+
+  
+    
+      
+
+        
+          Clone with HTTPS
+          
+            
+        
+        
+          Use Git or checkout with SVN using the web URL.
+        
+
+        
+  
+    
+  
+
+
+      
+
+
+      
+        
+
+  Download ZIP
+
+
+      
+    
+  
+
+
+
+  
+
+    
+      Find file
+    
+  
+
+  
+
+  
+    Branch:
+    master
+  
+
+  
+
+    
+      
+        Switch branches/tags
+      
+
+      
+        
+          
+        
+          
+              Branches
+            
+            
+              Tags
+            
+          
+      
+
+      
+
+        
+
+
+            
+              
+                master
+              
+            
+        
+
+          Nothing to show
+      
+
+      
+        
+
+
+        
+
+        Nothing to show
+      
+
+    
+  
+
+
+
+      
+        New pull request
+      
+
+  
+    
+  
+
+
+
+
+
+
+  
+    
+      Latest commit
+      
+        91a9415
+      
+      Nov 6, 2016
+    
+
+
+    
+      f
+        committed on GitHub
+    
+
+        Update README.md
+    
+
+  
+
+
+
+
+  Permalink
+
+  
+        Failed to load latest commit information.
+      
+            
+          
+            LICENSE
+          
+          
+            
+                  Create LICENSE
+            
+          
+          
+            Nov 6, 2016
+          
+        
+            
+          
+            README.md
+          
+          
+            
+                  Update README.md
+            
+          
+          
+            Nov 6, 2016
+          
+        
+            
+          
+            do-sshuttle
+          
+          
+            
+                  initial commit
+            
+          
+          
+            Nov 6, 2016
+          
+        
+
+
+
+  
+    
+      
+      README.md
+    
+
+      DO-sshuttle
+
+Transparent your Proxy your connection over your DigitalOcean Droplet.
+
+Installation
+
+1. Install Requirements
+
+# Install DigitalOcean CLI Tool
+brew install doctl
+
+# Install sshuttle
+brew install sshuttle
+
+2. Generate DigitalOcean API Key
+
+Generate a key from https://cloud.digitalocean.com/settings/api/tokens
+
+3. Login via doctl
+
+doctl auth login
+# Enter your API key you generated.
+
+4. Create a Droplet called do-sshuttle-server
+
+Create a Droplet on your DigitalOcean account. Name it do-sshuttle-server.
+
+5. Start Proxying.
+
+$ ./do-sshuttle
+do-shuttle v0.0.1
+Fatih Kadir Akın <fatihkadirakin@gmail.com>
+Transparent Proxying over DigitalOcean Droplets
+
+[ds] <--- Getting do-sshuttle-server Droplet information...
+[ds] ---> Powering on do-sshuttle-server (root@<IP ADDRESS>) Droplet...
+[ds] ---> Power-on Request sent...
+[ds] ---> Allow server 10 seconds to boot...
+[ds] ---> Proxying network via sshuttle...
+client: Connected.
+
+LICENSE
+
+WTFPL.
+
+
+
+  
+  
+
+
+
+    
+  
+
+    
+
+        
+  
+    Contact GitHub
+      API
+      Training
+      Shop
+        Blog
+        About
+
+    
+      
+    © 2016 GitHub, Inc.
+        Terms
+        Privacy
+        Security
+        Status
+        Help
+    
+
+
+
+
+    
+
+    
+      
+        
+      You can't perform that action at this time.
+    
+
+
+      
+      You signed in with another tab or window. Reload to refresh your session.
+      You signed out in another tab or window. Reload to refresh your session.
+    
+    
+  
+    
+    
+    
+      
+  
+
+
+  

@@ -1,0 +1,1631 @@
+The new 64-bit Orange Pi is a quad-core computer for $20  |  TechCrunchvar _sf_startpt = (new Date()).getTime()window.bN_cfg={h:window.location.hostname};
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+/* <![CDATA[ */
+var Live_Cache = {"ajaxurl":"https:\/\/techcrunch.com","auto_updates":{"live-cache-widget-1-title":"#live-cache-widget-1 h2","live-cache-widget-1-text":"#live-cache-widget-1 div","live-cache-subtitle":".live-island .live-subtitle","live-cache-text":".live-island .vid-caption","live-cache-stream-pause":".live-island .stream-pause","live-cache-fb-stream-src":".live-island .fb-stream-src","live-cache-title-livecaster":".livecaster-title","live-cache-text-livecaster":".livecaster-text"}};
+var gravityInsightsParams = {"type":"content","action":"","site_guid":"fca4fa8af1286d8a77f26033fdeed202"};
+var tcOmniture = {"pageName":"The new 64-bit Orange Pi is a quad-core computer for $20","prop1":"article","prop2":"gadgets","prop54":"wordpress","prop9":"tcr:1412392","prop16":"standard-article","prop19":"computing|raspberry pi","prop23":"11-06-2016","prop64":"gravity","prop65":"original_content","prop22":"john-biggs","omni_env":"prod"};
+var TC_Async_Head_Scripts = {"tc_ads_wrapper_omniture":"https:\/\/s.aolcdn.com\/os_merge\/?file=\/ads\/adsWrapper.js&file=\/moat\/prod\/moatuac.js"};
+var TC_Google_Analytics_Config = {"account":"UA-991406-1","domain":"techcrunch.com"};
+/* ]]> */
+
+   {"@context":"http:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/techcrunch.com\/2016\/11\/06\/the-new-64-bit-orange-pi-is-a-quad-core-computer-for-20\/"},"headline":"The new 64-bit Orange Pi is a quad-core computer for&nbsp;$20","url":"https:\/\/techcrunch.com\/2016\/11\/06\/the-new-64-bit-orange-pi-is-a-quad-core-computer-for-20\/","thumbnailUrl":"https:\/\/tctechcrunch2011.files.wordpress.com\/2016\/11\/orangepipc2_info.jpg?w=109","image":{"@type":"ImageObject","url":"https:\/\/tctechcrunch2011.files.wordpress.com\/2016\/11\/orangepipc2_info.jpg?w=109"},"dateCreated":"2016-11-07T00:53:58Z","datePublished":"2016-11-07T00:53:58Z","dateModified":"1970-01-01T00:00:00Z","articleSection":"Gadgets","author":[{"@type":"Person","name":"John Biggs"}],"creator":["John Biggs"],"publisher":{"@type":"Organization","name":"TechCrunch"},"keywords":["computing","raspberry pi"]}   
+		window._taboola = window._taboola || [];
+		_taboola.push(
+			{article:'auto'}
+		);
+		!function (e, f, u)
+		{ e.async = 1; e.src = u; f.parentNode.insertBefore(e, f); }
+		(document.createElement('script'),
+			document.getElementsByTagName('script')[0],
+			'//cdn.taboola.com/libtrc/aol-techcrunch/loader.js');
+	var ajaxurl = "https://techcrunch.com/wp-admin/admin-ajax.php"#site-logo { background: url(https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/images/logos/green.png) no-repeat !important; }
+
+	
+		
+
+/* <![CDATA[ */
+if (ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412392;kvcmsid=tcr:1412392;kvugc=0;kvsubj=978794:980487:982665:983462:6398737:978792:978826:979377:978782:4942091;kvent=5550881:5417195:3941689:4083250:3454622');
+			window.htmlAdWH('93484913', "320", "50", 'f', 'adsDiv37fa6f6fea');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+	
+		
+			
+				Menu
+				
+				Search
+				
+
+				
+
+					
+						Follow Us
+								Facebook
+							
+								Instagram
+							
+								Twitter
+							
+								Youtube
+							
+								Flipboard
+							
+								LinkedIn
+							
+								Google+
+							
+								RSS
+							
+							
+								More
+								
+										Youtube
+									
+										Flipboard
+									
+										LinkedIn
+									
+										Google+
+									
+										RSS
+									
+								
+						
+							
+								Got a tip? Let us know.
+							
+						
+					
+
+					
+			News
+
+			
+				Channels
+					Startups
+Mobile
+Gadgets
+Enterprise
+Social
+Europe
+Asia
+Crunch Network
+Unicorn Leaderboard
+Gift Guides
+
+					All Topics
+					All Galleries
+					All Timelines
+				
+			
+		
+		
+			Video
+
+			
+				Shows
+				Apps
+News
+Crunch Report
+Disrupt SF 2016
+Gadgets
+Reviews
+Interviews
+TC Features
+
+				
+					All Shows
+				
+				
+					All Videos
+				
+			
+		
+		
+			Events
+
+			
+				TechCrunch Events
+					Disrupt
+Startup Battlefield
+Crunchies
+Meetups
+International City Events
+Hackathon
+Include
+NFL’s 1ST and Future
+TechCrunch Store
+News About
+					Mobile World Congress
+CES
+
+				
+					All Events
+				
+			
+		
+		
+			Crunchbase
+		
+	
+					Trending
+					
+				
+				Tesla
+Google
+Facebook
+			
+					News
+				
+				Startups
+Mobile
+Gadgets
+Enterprise
+Social
+Europe
+			
+						
+							Message Us
+						
+					
+
+										
+						Search TechCrunch
+							Search TechCrunch
+							
+								
+								Search
+							
+							
+								
+								Search
+							
+						
+				
+			
+
+		
+	
+
+	
+		
+			
+				
+	×
+	
+		
+
+
+	Hi!
+	
+		You are about to activate our Facebook Messenger news bot. Once subscribed, the bot will send you a digest of trending stories once a day. You can also customize the types of stories it sends you.
+	
+	
+		Click on the button below to subscribe and wait for a new Facebook message from the TC Messenger news bot.
+	
+	
+		Thanks,
+		TC Team
+	
+
+	
+	
+		
+		
+		  window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '1678638095724206',
+		      xfbml      : true,
+		      version    : 'v2.6'
+		    });
+			FB.Event.subscribe('xfbml.render', function() {
+				jQuery('.fb-messenger-loading').detach()
+			});
+		  };
+
+		  (function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "//connect.facebook.net/en_US/sdk.js";
+		     fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
+
+		   function getCookie(name) {
+		      var matches = document.cookie.match(new RegExp(
+		        "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+		      ));
+		      return matches ? decodeURIComponent(matches[1]) : undefined;
+		   }
+
+		   window.onload = function() {
+		     var gravity_guid = getCookie('grvinsights');
+		     var btn = document.getElementById('fb-send-to-messenger');
+		     if (btn != undefined && btn != null) {
+			   btn.setAttribute('data-ref', gravity_guid)
+			 }
+		   }
+
+		
+			
+		
+	
+
+
+
+	
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412392;kvcmsid=tcr:1412392;kvugc=0;kvsubj=978794:980487:982665:983462:6398737:978792:978826:979377:978782:4942091;kvent=5550881:5417195:3941689:4083250:3454622');
+			window.htmlAdWH('93484914', "LB", "LB", 'f', 'adsDiv2725c33fc3');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+
+		
+			
+				
+										
+						
+														
+							Hardware BattlefieldLaunch Your Hardware Product At CES With TechCrunch								
+																			Apply for Hardware Battlefield																												
+																	
+						
+						
+					
+				
+			
+		
+		
+
+
+	
+	
+
+			
+			
+				
+				
+				
+				
+	
+			
+				Gadgets
+
+				
+					
+			
+				
+					
+						iRobot says 20 percent of the world’s vacuums are now robots
+
+						
+							
+								
+						
+					
+				
+			
+		
+			
+			
+				
+					
+						Why iRobot’s Colin Angle thinks the smart home starts with a robot vacuum
+
+						
+							
+								
+						
+					
+				
+			
+		
+			
+			
+				
+					
+						How to facilitate the path to brownfield IoT development
+
+						
+							
+								
+						
+					
+				
+			
+		
+	
+	
+		
+			
+				
+					Browse more...
+				
+			
+		
+	
+
+			
+		
+			
+				Raspberry Pi
+
+				
+					
+			
+				
+					
+						Learn to code startup pi-top pulls in $4.3M to fund a global edtech push
+
+						
+							
+								
+						
+					
+				
+			
+		
+			
+			
+				
+					
+						Kano moves beyond Pi with code-your-own device kits for kids
+
+						
+							
+								
+						
+					
+				
+			
+		
+			
+			
+				
+					
+						Stick a Raspberry Pi into a Nintendo cartridge for some retro DIY fun
+
+						
+							
+								
+						
+					
+				
+			
+		
+	
+	
+		
+			
+				
+					Browse more...
+				
+			
+		
+	
+
+			
+		
+			
+				computing
+
+				
+					
+			
+				
+					
+						New HTC Vive headsets with enhanced ‘design factor, performance’ are on the way
+
+						
+							
+								
+						
+					
+				
+			
+		
+			
+			
+				
+					
+						Learn to code startup pi-top pulls in $4.3M to fund a global edtech push
+
+						
+							
+								
+						
+					
+				
+			
+		
+			
+			
+				
+					
+						Silvair raises $12 million Series A to light up your (retail) life
+
+						
+							
+								
+						
+					
+				
+			
+		
+	
+	
+		
+			
+				
+					Browse more...
+				
+			
+		
+	
+
+			
+		
+
+
+					
+					The new 64-bit Orange Pi is a quad-core computer for $20
+					
+					
+	Posted 10 hours ago by John Biggs (@johnbiggs)
+
+
+	
+			0SHARES
+		
+							
+				
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+			
+
+
+	
+		
+		
+		
+		
+		
+	
+
+	
+		
+		
+		
+		
+		
+	
+
+
+
+
+					
+					
+						Next Story
+						
+							Listen to cartoonist Ruben Bolling talk about Trump, art, and cartooning
+						
+					
+				
+
+					
+					
+						
+							
+
+
+Need a teeny tiny computer that can run Android or Linux? Only have $20? Well you’re in luck. When we first met the Orange Pi (get it?) the company was selling a nice Raspberry Pi clone for $15. Now they’re selling a souped up version with all the trimmings.
+The board includes an Ethernet port and three USB ports. It has 1GB of memory, H5 High Performance Quad-core 64-bit Cortex-A53, and a standalone graphics chip. It supports camera input as well as HDMI out and even has a physical power switch and IR blaster. In short it’s a mini computer that can probably play some games, display some HD video, and generally be used in all sorts of home-brew projects.
+You can check out the specs here and order online. If you only have $5 you can pick up an Orange Pi Zero with Wi-Fi and Ethernet built-in. It’s no Raspberry but who doesn’t love oranges?
+
+
+
+								
+							
+
+
+	
+			0SHARES
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+	
+
+if( !ads.isMobile() ){ window.TechCrunch.loader.on( 'gravity-beacon', function(){ window.tc_loadGravityScript( 'recirculation' ); } ); }
+
+	(function($) {
+		window._taboola = window._taboola || [];
+
+		if ($('body').hasClass('single-post-mobile-collapse') && $(window).width() < 637) {
+			$('.article-entry').append($(document.getElementById('taboola-below-article-thumbnails')).detach());
+		}
+
+		_taboola.push(
+			{ mode: 'thumbnails-a', container: 'taboola-below-article-thumbnails', placement: 'Below Article Thumbnails', target_type: 'mix' }
+		);
+	})(window.jQuery);
+
+	
+		
+			Advertisement		
+	
+	
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412392;kvcmsid=tcr:1412392;kvugc=0;kvsubj=978794:980487:982665:983462:6398737:978792:978826:979377:978782:4942091;kvent=5550881:5417195:3941689:4083250:3454622');
+			window.htmlAdWH('93484978', "250", "125", 'f', 'adsDivd903ff2ebd');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412392;kvcmsid=tcr:1412392;kvugc=0;kvsubj=978794:980487:982665:983462:6398737:978792:978826:979377:978782:4942091;kvent=5550881:5417195:3941689:4083250:3454622');
+			window.htmlAdWH('93484979', "250", "125", 'f', 'adsDiv02127d9636');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+						
+					
+					
+					
+
+					
+					
+
+	
+		
+			Advertisement		
+	
+	
+		
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412392;kvcmsid=tcr:1412392;kvugc=0;kvsubj=978794:980487:982665:983462:6398737:978792:978826:979377:978782:4942091;kvent=5550881:5417195:3941689:4083250:3454622');
+			window.htmlAdWH('93484915', "RR", "RR", 'f', 'adsDiv3b72e5e7df');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+
+
+Crunchbase
+
+
+
+		
+			
+				Raspberry Pi Foundation			
+		
+
+		
+		
+						Founded
+						2008
+					
+										
+						Overview
+						The Raspberry Pi is a credit-card sized computer that plugs into your TV and a keyboard. It’s a capable little PC which can be used for many of the things that your desktop PC does, like spreadsheets, word-processing and games. It also plays high-definition video. We want to see it being used by kids all over the world to learn programming.
+
+The Raspberry Pi Foundation is a UK registered charity …
+					
+
+																								
+								Location
+								
+																		Cambridge, C3
+								
+							
+						
+																			
+								Categories
+								
+																													Hardware, 																													Software								
+							
+											
+										
+						Founders
+						Eben Upton
+					
+										
+						Website
+						
+							http://www.raspberrypi.org						
+					
+							
+			Full profile for Raspberry Pi Foundation		
+		
+		
+		
+
+
+
+
+	
+		
+
+	Newsletter Subscriptions
+
+
+
+
+	
+		
+			
+				
+						
+						The Daily Crunch
+						Get the top tech stories of the day delivered to your inbox
+					
+				
+						
+						TC Weekly Roundup
+						Get a weekly recap of the biggest tech stories
+					
+				
+						
+						Crunchbase Daily
+						The latest startup funding announcements
+					
+				
+
+			Enter Address
+				Subscribe
+			
+	
+	
+
+
+		Latest Crunch Report	
+	
+		
+				
+	
+		
+			Facebook's Election Hub | Crunch Report			
+		
+			
+
+			
+		Watch More Episodes
+	
+
+	
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412392;kvcmsid=tcr:1412392;kvugc=0;kvsubj=978794:980487:982665:983462:6398737:978792:978826:979377:978782:4942091;kvent=5550881:5417195:3941689:4083250:3454622');
+			window.adSetInView('D');
+			window.htmlAdWH('93484916', "RR", "RR", 'f', 'adsDiv3b8323f812');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+					
+					
+
+				
+				
+
+				
+			
+			
+
+			
+			
+				
+
+		
+										
+						
+							Raspberry Pi						
+					
+				
+														
+										
+						
+							computing						
+					
+				
+														
+										
+						
+							Gadgets						
+					
+				
+														
+					Popular Posts
+					
+								
+		
+			(function(window){
+				try {
+					window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function() {
+						if (!window.ads.isMobile()) {
+							window.adSetInView('1');
+							window.htmlAdWH('93484965', '320', '115', 'text', 'acc-native-ad');
+							window.adSetInView('0');
+						}
+					});
+				} catch (e) {
+					// Assume this is just no ad placement for this page load
+				}
+			}(this));
+		
+							if( !ads.isMobile() ){ window.TechCrunch.loader.on( 'gravity-beacon', function(){ window.tc_loadGravityScript( 'recirculation-accordion' ); } ); }	
+				
+				
+
+
+			
+			
+
+		
+	
+	
+		
+	
+		
+			
+				Featured Stories
+			
+			
+						
+							
+								
+							
+								Touring Intel's virtual reality hardware lab
+
+								VIDEO | 2:18 | News
+							
+						
+					
+												
+					
+						
+							
+						
+							WTF is CRISPR?
+
+							7 hours ago | Sarah Buhr
+						
+					
+				
+								
+					
+						
+							
+						
+							Sinovation Ventures’ Dr. Kai-Fu Lee is betting big on artificial intelligence
+
+							7 hours ago | Romain Dillet
+						
+					
+				
+								
+					
+						
+							
+						
+							Facebook Messenger is testing “Instant Games” like this one from King
+
+							Nov 4, 2016 | Josh Constine
+						
+					
+				
+								
+					
+						
+							
+						
+							Weekly Roundup: Tesla’s solar roof, Facebook’s killer Q3 and new emoji
+
+							Nov 4, 2016 | Anna Escher
+						
+					
+				
+							
+	
+
+		
+	
+		
+			
+				Latest From Gadgets
+			
+			
+					
+						
+							
+						
+							iRobot says 20 percent of the world’s vacuums are now robots
+
+							2 hours ago | Darrell Etherington
+						
+					
+				
+								
+					
+						
+							
+						
+							Why iRobot’s Colin Angle thinks the smart home starts with a robot vacuum
+
+							7 hours ago | Matthew Lynley
+						
+					
+				
+								
+					
+						
+							
+						
+							How to facilitate the path to brownfield IoT development
+
+							yesterday | Ben Dickson
+						
+					
+				
+								
+					
+						
+							
+						
+							Samsung will release a software update to stop unreturned Note 7s from charging above 60%
+
+							Nov 4, 2016 | Brian Heater
+						
+					
+				
+							
+	
+
+		
+
+		
+			
+	
+
+/* <![CDATA[ */
+if (ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412392;kvcmsid=tcr:1412392;kvugc=0;kvsubj=978794:980487:982665:983462:6398737:978792:978826:979377:978782:4942091;kvent=5550881:5417195:3941689:4083250:3454622');
+			window.adSetInView('1');
+			window.htmlAdWH('93484912', "mm", "mm", 'f', 'adsDiv4761a071b6');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+		
+	
+
+
+
+	
+
+		
+		
+			
+				
+
+													
+							
+								
+									
+									
+								
+									Comment moderation powered by 
+								
+																		
+				
+		
+		
+
+		
+		
+			
+				
+					
+						
+							Up Next
+							Listen to cartoonist Ruben Bolling talk about Trump, art, and cartooning
+							
+	Posted 11 hours ago						
+					
+				
+	
+		CrunchBoard
+
+		
+			Job Listings
+			
+						
+							Manager of Product Development at Financial Fitness Group (San Diego, CA, United States)
+						
+					
+									
+						
+							Staff Cyber Security Engineer  at GE Power (Atlanta, GA, United States; )
+						
+					
+									
+						
+							Senior Application Development Analyst (JO#4336) (SF or SAC) at Judicial Council of California (San Francisco Bay Area)
+						
+					
+									
+						
+							Director of Engineering, Cloud @ Sauce Labs at Sauce Labs (Vancouver, BC, Canada)
+						
+					
+									
+						
+							Java Software Engineer - Product Development (m/f) at eGym GmbH (München, Deutschland)
+						
+					
+							
+				More from CrunchBoard
+			
+		
+	
+		
+		
+
+	
+
+
+
+
+
+
+
+
+	
+	
+		
+			Advertisement		
+	
+	
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412392;kvcmsid=tcr:1412392;kvugc=0;kvsubj=978794:980487:982665:983462:6398737:978792:978826:979377:978782:4942091;kvent=5550881:5417195:3941689:4083250:3454622');
+			window.htmlAdWH('93484978', "250", "125", 'f', 'adsDiv62b1b9e115');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412392;kvcmsid=tcr:1412392;kvugc=0;kvsubj=978794:980487:982665:983462:6398737:978792:978826:979377:978782:4942091;kvent=5550881:5417195:3941689:4083250:3454622');
+			window.htmlAdWH('93484979', "250", "125", 'f', 'adsDiv2e983b95df');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+
+
+
+
+
+		
+		TechCrunch
+
+			
+
+				
+				
+					
+					
+						News
+Video
+Events
+Crunchbase
+TechCrunch Store
+
+				
+				
+
+				
+				
+					About
+					
+						Staff
+Contact Us
+Advertise With Us
+Send Us A Tip
+
+				
+				
+
+				
+				
+					International
+					
+						China
+Europe
+Japan
+
+				
+				
+
+			
+		
+
+			
+			
+				
+					Follow TechCrunch
+					Facebook
+						Twitter
+						Google+
+						LinkedIn
+						Youtube
+						Pinterest
+						Tumblr
+						Instagram
+						StumbleUpon
+						Feed
+					
+			
+			
+
+			
+			
+				TechCrunch Apps
+				iOS
+					Android
+					Windows 8
+				
+			
+
+			
+			
+				
+Subscribe to The Daily Crunch
+
+	Latest headlines delivered to you daily
+	
+		
+			Subscribe to <span class="no-mobile">Subscribe to </span>The Daily Crunch
+				Enter Email Address
+				Subscribe
+			
+	
+			
+			
+
+		
+		
+
+		
+		
+			
+				
+					© 2013-2016 AOL Inc. All rights reserved.
+				
+				
+					Aol Tech
+					Privacy Policy
+					About Our Ads
+					Anti Harassment Policy
+					Terms of Service
+				
+				
+					Powered by WordPress.com VIP
+				
+				
+					Fonts by 
+				
+			
+		
+		
+
+	
+
+  
+
+
+(function(s, p, d) {
+  var h=d.location.protocol, i=p+"-"+s,
+      e=d.getElementById(i), r=d.getElementById(p+"-root"),
+      u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+      :"static."+p+".com";
+  if (e) return;
+  e = d.createElement(s); e.id = i; e.async = true;
+  e.setAttribute('data-cfasync', 'false'); e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+})("script", "parsely", document);
+
+		{"@context":"http:\/\/schema.org","@type":"Article","url":"https:\/\/techcrunch.com\/2016\/11\/06\/the-new-64-bit-orange-pi-is-a-quad-core-computer-for-20\/","author":{"@type":"Person","name":"John Biggs"},"headline":"The new 64-bit Orange Pi is a quad-core","articleBody":"Need a teeny tiny computer that can run Android or Linux? Only have $20? Well you're in luck. When we first met the Orange Pi (get it?) the company was selling a nice Raspberry Pi clone for $15. Now they're selling a souped up version with all the trimmings.\n\nThe board includes an Ethernet port and three USB ports. It has 1GB of memory, H5 High Performance Quad-core 64-bit Cortex-A53, and a standalone graphics chip. It supports camera input as well as HDMI out and even has a physical power switch and IR blaster. In short it's a mini computer that can probably play some games, display some HD video, and generally be used in all sorts of home-brew projects.\n\nYou can check out the specs here and order online. If you only have $5 you can pick up an Orange Pi Zero with Wi-Fi and Ethernet built-in. It's no Raspberry but who doesn't love oranges?","datePublished":"2016-11-07T00:53:58+00:00","mainEntityOfPage":"True","image":{"@list":["https:\/\/tctechcrunch2011.files.wordpress.com\/2016\/11\/orangepipc2_info.jpg"]}}	
+		window._taboola = window._taboola || [];
+		_taboola.push(
+			{flush: true}
+		);
+	
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	
+	
+
+/* <![CDATA[ */
+var PushUpNotificationSettings = {"domain":"https:\/\/tctechcrunch2011.wordpress.com","userID":"271","websitePushID":"web.com.wordpress.tctechcrunch2011","webServiceURL":"https:\/\/push.10up.com","prompt":"1"};
+/* ]]> */
+
+/* <![CDATA[ */
+var wpcomVipAnalytics = {"is_404":"0","is_home":"0","is_single":"1","is_front_page":"0","is_archive":"0","percentToTrack":"1"};
+/* ]]> */
+
+/* <![CDATA[ */
+var TC_VideoLoader_Settings = {"yt_key":"AIzaSyBhsoyL5FHDdWDh-w7DgTTHaC8PS2dvFdI"};
+var TC_Language_Settings = {"ajax_url":{"chinese":"https:\/\/techcrunch.com\/chinesemodal"},"chinese":["zh","zh-hk","zh-cn","zh-sg","zh-tw"],"english":["en","en-au","en-bz","en-ca","en-ie","en-jm","en-nz","en-ph","en-za","en-tt","en-gb","en-us","en-zw"],"japanese":["ja"]};
+var TC_Header_Settings = {"mobile_collapse_offset":"300","hide_on_mobile_scroll_down":"1"};
+var TC_Async_Scripts = {"tc-mediavoice-MCtc":"https:\/\/cdn.mediavoice.com\/nativeads\/script\/aolibrands\/MCtc.js","tc_livefyre":"\/\/cdn.livefyre.com\/libs\/commentcount\/v1.0\/commentcount.js","tc_gravity":"https:\/\/b-ssl.grvcdn.com\/moth-min.js","commscore":"https:\/\/sb.scorecardresearch.com\/beacon.js","aol_universal_navbar":"https:\/\/s.aolcdn.com\/os\/aol\/unb.min.js","skimlinks":"https:\/\/s.skimresources.com\/js\/72705X1553005.skimlinks.js","swiftype_crawler":"\/\/s.swiftypecdn.com\/cc\/zYD5B5-eXtZN9_epXvoo.js"};
+/* ]]> */
+
+/* <![CDATA[ */
+var _sf_async_config = {"uid":"2905","domain":"techcrunch.com"};
+/* ]]> */
+
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'24588526','blog_tz':'-8','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'24588526','v':'wpcom','tz':'-8','user_id':'0','post':'1412392','subd':'tctechcrunch2011'}]);
+function st_vt() {var x=document.createElement("img");x.src="https://pixel.wp.com/g.gif?blog=24588526&v=wpcomvt&tz=-8&user_id=0&post=1412392&subd=tctechcrunch2011&rand="+Math.random();}
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTdsV05haVJbcGxtJjNRPStQNVpUOHlbPUJnQi45Py5telFkWjZDbj9PX2RIVjlBbnx2dXVFRnNnOGZ6Jmd5WXNZQXhPa0dNc0pqQklWV2ZLZWNhUyZrRVZRWUssR053P3A5aldrMHQrU2lUcWw9eVJEND91aDksQ2k0ZTN0Q3VjVzYmbVNzeW9iRVFhSjV8c294T2RdZG9pR0N4fjBtUk81SHN+MTNXY0ZwMV9waGlRLj0lWUducHpyQUlBYng1b1lM'}]);
+_stq.push([ 'clickTrackerInit', '24588526', '1412392' ]);
+	
+
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+
+	
+		
+				
+					
+				
+					
+				
+			
+			
+				
+						News
+						
+							
+						
+					
+					Startups
+Mobile
+Gadgets
+Enterprise
+Social
+Europe
+Asia
+Crunch Network
+Unicorn Leaderboard
+Gift Guides
+All GalleriesAll Timelines
+			
+				
+						Videos
+						
+							
+						
+					
+					Apps
+News
+Crunch Report
+Disrupt SF 2016
+All ShowsAll Videos
+			
+				
+						Events
+						
+							
+						
+					
+					Disrupt
+Startup Battlefield
+Crunchies
+Meetups
+International City Events
+Hackathon
+Include
+NFL’s 1ST and Future
+TechCrunch Store
+All Events
+			
+				Crunchbase
+			
+		
+			
+				
+					
+				
+			
+		
+		
+			
+				
+				Message Us			
+		
+	
+
+
+
+ 	
+		
+			
+				
+			
+
+			
+				Most Popular
+			
+		
+		
+			
+						
+							
+								The new 64-bit Orange Pi is a quad-core computer for $20							
+							
+								10 hours ago by John Biggs							
+						
+
+				
+						
+							
+								What Tesla’s new Gigafactory means for electric vehicles							
+							
+								17 hours ago by Jussi Pikkarainen							
+						
+
+				
+						
+							
+								WTF is CRISPR?							
+							
+								7 hours ago by Sarah Buhr							
+						
+
+				
+						
+							
+								Alibaba’s Trojan Horse for Southeast Asia							
+							
+								52 minutes ago by Sheji Ho							
+						
+
+				
+						
+							
+								WhatsApp is testing a clone of Snapchat Stories, called Status							
+							
+								yesterday by Natasha Lomas							
+						
+
+				
+						
+							
+								China’s new cybersecurity law is bad news for business							
+							
+								6 hours ago by Kate Conger							
+						
+
+				
+						
+							
+								Google’s Firebase developer platform gets better analytics, crash reporting and more							
+							
+								1 hour ago by Frederic Lardinois							
+						
+
+				
+						
+							
+								Facebook Messenger is testing “Instant Games” like this one from King							
+							
+								Nov 4, 2016 by Josh Constine							
+						
+
+									
+	
+	
+		(function (window, $, undefined) {
+			var document = window.document;
+
+			function loadChartbeat() {
+				window._sf_endpt = (new Date()).getTime();
+				var e = document.createElement('script'),
+					url = ("https:" === document.location.protocol) ? "https://s3.amazonaws.com/" : "http://";
+				url += "static.chartbeat.com/js/chartbeat.js";
+				e.setAttribute('language', 'javascript');
+				e.setAttribute('type', 'text/javascript');
+				e.async = true;
+				e.setAttribute('src', url);
+				document.body.appendChild(e);
+			}
+
+			$(loadChartbeat);
+		}(this, this.jQuery));
+	

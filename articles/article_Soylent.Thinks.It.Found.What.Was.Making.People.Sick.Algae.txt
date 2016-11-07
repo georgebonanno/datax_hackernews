@@ -1,0 +1,581 @@
+Soylent Thinks It Found What Was Making People Sick: Algae - Bloomberg
+            {
+                "adcode": "business/news/technology",
+                "author": "Olivia Zaleski",
+                "publishedAt": "2016-11-07T15:00:04.162Z",
+                "storyId": "OGA1O46KLVUU01",
+                "contentType": "content-article",
+                "pageType": "content",
+                "template": "javelin-article-html",
+                "vertical": "technology",
+                "topic": "Food",
+                "attributor": "web-original",
+                "brand": "technology",
+                "transporter": "false",
+                "refresh": "false",
+                "headline": "Soylent Thinks It Found What Was Making People Sick: Algae",
+                "slug": "2016-11-07/soylent-thinks-it-found-what-was-making-people-sick-algae",
+                
+
+                "legacy_bb_c_type": "article",
+                "legacy_bb_topic1": "Food",
+                "legacy_bb_topic2": "Energy,Colorado,Science,Wireless,Food and Drug Administration,North Carolina State University,Food Safety,New York,San Francisco,Los Angeles,Oil",
+                "legacy_bb_people": "",
+                "legacy_bb_category": "technology"
+                
+            }
+        
+                window.__bloomberg__={};
+            window.__bloomberg__.ads = {};
+            window.__bloomberg__.ads.queue = [];
+
+            window.__bloomberg__.ads.adsOff = false;
+
+            window.__bloomberg__.ads.enqueue = function(id) {
+                if (window.__bloomberg__.ads.render) {
+                    return window.__bloomberg__.ads.render(id);
+                }
+                window.__bloomberg__.ads.queue.push(id);
+            };
+        
+        
+            
+                window.__bloomberg__.ads.enqueue("leaderboard-zYr1pyE");
+            
+                {
+                    "byzantium": {
+                        "contentId": "OGA1O46KLVUU01"
+                    },
+                    "position": "leaderboard",
+                    "dimensions": {
+                        "large_desktop": [
+                            [728, 90],
+                            [970, 250],
+                            [5, 16],
+                            [1, 1]
+                        ],
+                        "small_desktop": [
+                            [728, 90],
+                            [970, 250],
+                            [5, 16],
+                            [1, 1]
+                        ],
+                        "tablet": [
+                            [728, 90],
+                            [5, 16],
+                            [1, 1]
+                        ],
+                        "mobile": [
+                            [5, 16],
+                            [1, 1]
+                        ]
+                    },
+                    "strategy": "always",
+                    "adCode": "business/news/technology",
+                    "url": "2016-11-07/soylent-thinks-it-found-what-was-making-people-sick-algae",
+                    "type": "Top Leaderboard Ad",
+                    "positionIncrement": 1,
+                    "targeting": {"suid":"OGA1O46KLVUU01","page":"articlejav","currentResource":"Story|OGA1O46KLVUU01","ni":["BBIZ","BIZNEWS","BNALL","BNSTAFF","BNTEAMS","BUSINESS","COEVNT","CONS","CORPFIN","COS","ENV","FIN","FINNEWS","FLOWCMS","FOD","GOWEB","HLNOVEL","HLNOVELTY9","MSCINAMER","MSCIWORLD","NORTHAM","NOVEL","NOVELTY9","NYX","ONWEB","ORIGINAL","PE","READ25","SF","TEC","US","USBNX","USCONSUME","UTI","VC","VCTEAM","WORLD","WEBELIG","ATTACHMENT","BBPROFILE","BGOVBILLGO","BGOVCODES","SRCRANK1","BONDWIRES","SPREGIONS","CMDKEY","CMDKEY2","CMDKEY3","SASBPS5S","SASBIS","CREDITKEY","CREDITKEYA","DEBTKEY","SASBCODES","EQUITYKEY","PHOTO","NRGKEY","MISC","MAJOR","GD","INDUSTRIES","INTERNAL","LEAST","MARKETS","CONSS","HOU","CMD","ASSETMGMT","G10MEMB","MANU","NRG","BNEFED","G7MEMB","INDUSTRIAL","DEVECO","PROTEIN","AGRKEY","FBR","CMDX","OILSEED","SOLVENT","SOY","SECURITY","SVC","PLASTICS","LIFESTYLE","FILM"],"tickers":[],"tagr":["energy","food_wine"],"kwl":["biz_goldman_q2","biz_accenture","biz_capone","biz_ibm","biz_testing123","biz_exxonmobil","biz_ishares","biz_hsbc","biz_pitney","biz_deloitte","biz_ubsbannedlist","biz_nationwide","biz_bp_keywords","biz_bp_keywords_two","biz_citrix","biz_Samsung","biz_lincoln","biz_capitalone","biz_pnc","biz_googlelist","biz_googlelisttwo","biz_technologykeywords"],"position":"leaderboard","positionIncrement":1,"url":"/news/articles/2016-11-07/soylent-thinks-it-found-what-was-making-people-sick-algae"},
+                    "containerId": "leaderboard-zYr1pyE"
+                }
+            
+    
+    
+                
+    Bloomberg the Company & Its ProductsBloomberg Anywhere Remote LoginBloomberg Anywhere LoginBloomberg Terminal Demo Request    
+    
+
+        
+            Bloomberg
+    Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world.Customer Support
+    Americas
++1 212 318 2000Europe, Middle East, & Africa
++44 20 7330 7500Asia Pacific
++65 6212 1000
+                    
+            Company
+    CareersDiversity & InclusionSustainabilityTechnologyFacts & SpacesPhilanthropy & EngagementBloomberg LondonCommunications
+    Press AnnouncementsPress ContactsFollow Us
+    FacebookTwitterLinkedInInstagramVimeo
+                    
+            Financial Products
+    Bloomberg TerminalBloomberg TradebookBloomberg BriefsBloomberg IndicesBloomberg SEFBloomberg InstituteBloomberg Customers
+    Bloomberg Anywhere Remote LoginDownload SoftwareService Center
+                    
+            Enterprise Products
+    Enterprise SolutionsTrading SolutionsBloomberg VaultBloomberg PolarLakeIndustry Products
+    Bloomberg GovernmentBloomberg Law/BNABloomberg Big LawBloomberg New Energy Finance
+                    
+            Media
+    Bloomberg.comBloomberg PoliticsBloomberg ViewBloomberg GadflyBloomberg TelevisionBloomberg RadioBloomberg Mobile AppsNews BureausMedia Services
+    Bloomberg Live ConferencesBloomberg Media DistributionAdvertising
+            
+            Bloomberg
+    Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world.Customer Support
+    Americas
++1 212 318 2000Europe, Middle East, & Africa
++44 20 7330 7500Asia Pacific
++65 6212 1000Communications
+    Press AnnouncementsPress ContactsFollow Us
+    FacebookTwitterLinkedInInstagramVimeo
+                    
+            Company
+    CareersDiversity & InclusionPhilanthropy & EngagementSustainabilityTechnologyFacts & SpacesBloomberg LondonMedia
+    Bloomberg.comBloomberg PoliticsBloomberg ViewBloomberg GadflyBloomberg TelevisionBloomberg RadioBloomberg Mobile AppsNews BureausMedia Services
+    AdvertisingBloomberg Media DistributionBloomberg Live Conferences
+                    
+            Financial Products
+    Bloomberg TerminalBloomberg TradebookBloomberg BriefsBloomberg IndicesBloomberg SEFBloomberg InstituteEnterprise Products
+    Enterprise SolutionsTrading SolutionsBloomberg VaultBloomberg PolarLakeIndustry Products
+    Bloomberg GovernmentBloomberg Law/BNABloomberg Big LawBloomberg New Energy FinanceBloomberg Customers
+    Bloomberg Anywhere Remote LoginDownload SoftwareService Center
+                
+                
+        
+            {
+                "headline": "Soylent Thinks It Found What Was Making People Sick: Algae",
+                "shortUrl": "http://bloom.bg/2fxHWcJ",
+                "twitterText": "Soylent thinks it found what was making people sick: algae",
+                "twitterHandle": "technology"
+            }
+        
+                  MENU             Homepage      Markets       Stocks    Currencies    Commodities    Rates + Bonds    Economics    Magazine    Benchmark    Watchlist    Economic Calendar           Tech       U.S.    Global    Startups    Cybersecurity    Digital Media    Bloomberg Technology TV    Hello World    Studio 1.0           Pursuits       Cars & Bikes    Style & Grooming    Spend    Watches & Gadgets    Food & Drinks    Travel    Real Estate    Art & Design           Politics       With All Due Respect    Poll Decoder    Culture Caucus Podcast    Masters In Politics Podcast    Ad Tracker    Battlegrounds 2016           Opinion       View    Gadfly           Businessweek       Subscribe    Cover Stories    Opening Remarks    Etc    Features    85th Anniversary Issue    Behind The Cover           More       Science + Energy    Graphics    Game Plan    Small Business    Personal Finance    Inspire GO    The David Rubenstein Show    Sponsored Content           Bloomberg       About The Company          Sign In      Sign In Subscribe                
+        
+    
+                
+                
+                    
+                        {"id":"OGA1O46KLVUU01","contentType":"article","tags":{"editorialTopics":[],"people":[],"tickers":[{"id":"FB:US","longName":"Facebook Inc","score":0.30096189419163893},{"id":"GOOGL:US","longName":"Alphabet Inc","score":0.3029966703662597},{"id":"3382804Z:US","longName":"Andreessen Horowitz","score":0.3348131705512394},{"id":"UNA:NA","longName":"Unilever NV","score":0.7587865334813171}],"indexes":[],"labels":[],"topics":[{"id":"energy","name":"Energy","score":0.14594894561598223,"slug":"energy"},{"id":"colorado","name":"Colorado","score":0.14761376248612654,"slug":"colorado"},{"id":"science","name":"Science","score":0.3690344062153163,"slug":"science"},{"id":"wireless","name":"Wireless","score":0.39696633370329265,"slug":"wireless"},{"id":"food-and-drug-administration","name":"Food and Drug Administration","score":0.4396966333703292,"slug":"food-and-drug-administration"},{"id":"north-carolina-state-university","name":"North Carolina State University","score":0.5334813170551239,"slug":"north-carolina-state-university"},{"id":"food-safety","name":"Food Safety","score":0.5427302996670367,"slug":"food-safety"},{"id":"new-york","name":"New York","score":0.6505734369219386,"slug":"new-york"},{"id":"san-francisco","name":"San Francisco","score":0.767480577136515,"slug":"san-francisco"},{"id":"los-angeles","name":"Los Angeles","score":0.8706992230854605,"slug":"los-angeles"},{"id":"oil","name":"Oil","score":1.1440991490935999,"slug":"oil"},{"id":"food","name":"Food","score":4.710994107721322,"slug":"food"}]}}
+        
+            
+        
+        
+            
+        
+        
+            
+        
+        Photographer: Tomohiro Ohsumi/Bloomberg
+    
+                            
+                                
+                                        
+    
+        
+            
+            Soylent Thinks It Found What Was Making People Sick: Algae
+            The startup is removing an algae-based ingredient from its food products. Its supplier TerraVia says the substance is safe.
+            
+                Olivia Zaleski
+        
+            @oliviazaleski
+            
+            More stories by Olivia Zaleski
+        
+    
+            
+            
+                November 7, 2016 — 10:00 AM EST
+            
+        
+    
+    
+                                        
+        
+            (function(p) { p && p.mark("LedeRendered"); })(window.performance);
+        
+            Since its introduction in 2013, the protein drink Soylent has become the go-to food substitute for many coders and venture capitalists in Silicon Valley. For $2 a serving, techies too busy to cook for themselves can pour the powder mix into a glass of water and imbibe a nutrient-rich, if bland-tasting, meal. It’s like a jock protein shake but for nerds.But this summer, as the company was riding a wave of positive publicity into its third year, reports of illness started to surface. Customers complained of nausea and other stomach issues after eating newer formulations of its products. In October, Soylent maker Rosa Foods Inc. stopped selling its powder mix and recalled its protein bars.The Los Angeles food-tech startup thinks the problem has to do with plants that grow on the ocean floor. The company believes an algae-based ingredient unique to the two new products was to blame for the illnesses and plans to remove it from future versions. “We are releasing new formulations of our powder mix and meal replacement bars early next year,” said Rob Rhinehart, Soylent’s co-founder and chief executive officer. “Our new formulations will no longer contain algal flour.”
+        
+            
+                window.__bloomberg__.ads.enqueue("box-IqauroA");
+            
+                {
+                    "byzantium": {
+                        "contentId": "OGA1O46KLVUU01"
+                    },
+                    "position": "box",
+                    "dimensions": {
+                        "mobile": [
+                            [300, 250],
+                            [1, 1]
+                        ]
+                    },
+                    "adCode": "business/news/technology",
+                    "url": "2016-11-07/soylent-thinks-it-found-what-was-making-people-sick-algae",
+                    "type": "Mobile Body Box Ad",
+                    "positionIncrement": 1,
+                    "targeting": {"suid":"OGA1O46KLVUU01","page":"articlejav","currentResource":"Story|OGA1O46KLVUU01","ni":["BBIZ","BIZNEWS","BNALL","BNSTAFF","BNTEAMS","BUSINESS","COEVNT","CONS","CORPFIN","COS","ENV","FIN","FINNEWS","FLOWCMS","FOD","GOWEB","HLNOVEL","HLNOVELTY9","MSCINAMER","MSCIWORLD","NORTHAM","NOVEL","NOVELTY9","NYX","ONWEB","ORIGINAL","PE","READ25","SF","TEC","US","USBNX","USCONSUME","UTI","VC","VCTEAM","WORLD","WEBELIG","ATTACHMENT","BBPROFILE","BGOVBILLGO","BGOVCODES","SRCRANK1","BONDWIRES","SPREGIONS","CMDKEY","CMDKEY2","CMDKEY3","SASBPS5S","SASBIS","CREDITKEY","CREDITKEYA","DEBTKEY","SASBCODES","EQUITYKEY","PHOTO","NRGKEY","MISC","MAJOR","GD","INDUSTRIES","INTERNAL","LEAST","MARKETS","CONSS","HOU","CMD","ASSETMGMT","G10MEMB","MANU","NRG","BNEFED","G7MEMB","INDUSTRIAL","DEVECO","PROTEIN","AGRKEY","FBR","CMDX","OILSEED","SOLVENT","SOY","SECURITY","SVC","PLASTICS","LIFESTYLE","FILM"],"tickers":[],"tagr":["energy","food_wine"],"kwl":["biz_goldman_q2","biz_accenture","biz_capone","biz_ibm","biz_testing123","biz_exxonmobil","biz_ishares","biz_hsbc","biz_pitney","biz_deloitte","biz_ubsbannedlist","biz_nationwide","biz_bp_keywords","biz_bp_keywords_two","biz_citrix","biz_Samsung","biz_lincoln","biz_capitalone","biz_pnc","biz_googlelist","biz_googlelisttwo","biz_technologykeywords"],"position":"box","positionIncrement":1,"url":"/news/articles/2016-11-07/soylent-thinks-it-found-what-was-making-people-sick-algae"},
+                    "containerId": "box-IqauroA"
+                }
+            
+        The algae-based ingredients were supplied by TerraVia Holdings Inc. The South San Francisco company’s customers also include Unilever NV, which uses TerraVia algal oil in lotions and soaps. Mark Brooks, a senior vice president at TerraVia, said whole algal flour is safe and that Soylent products contain several known irritants, such as soy protein isolate and glycerin, that can cause symptoms similar to those reported by the startup’s customers. “Our algal flour has been used in more than 20 million servings of products, and we are aware of very few adverse reactions. In no cases was algal flour identified as the cause,” he wrote in an e-mail.TerraVia shares fell 5.4 percent to $1.75 at 10:45 a.m. in New York. They had declined 25 percent this year through Friday.Algal flour is a fairly novel ingredient that serves as a vegan replacement for butter and eggs. Derived from algae grown in fermentation tanks and then dried, the powdery substance is typically seen as a low-risk alternative to soy, a plant-based protein that’s known to cause allergies in some people. Sustainably minded companies are keen to incorporate plant-based protein as a cheaper alternative to meat.Any change to a product requires extensive testing before putting it on the market, said Benjamin Chapman, a food safety specialist and associate professor at North Carolina State University. Because customers reported reactions to Soylent so soon after eating, it likely has to do with a component of an ingredient, he said. Food companies must test a variety of factors when altering a formula, including the new ingredients themselves, the amount used of each, how they react with other ingredients and any changes after processing, he said. “When new formulations are made, you run the risk of adverse effects, especially if the new ingredient is not widely used,” Chapman said.Startups pitching themselves as fusions of food and technology have been gobbling up cash from Silicon Valley’s top venture capitalists. Rhinehart began experimenting with meal compounds as a hobby while working on wireless networking at the business incubator Y Combinator. In 2013, he raised capital to turn his full attention to Soylent, which he named after the science fiction novel that served as the basis for the 1973 movie featuring Charlton Heston as a detective who discovers that a new type of food called Soylent Green is made of people. Andreessen Horowitz and Index Ventures are among those who invested $23 million into the startup.Soylent prides itself on rapid product development—an ideal popularized by Google and Facebook Inc., and one that endears the startup to techies around the world. The product descriptions for Soylent read like release notes you’d find bundled with a new version of an app. In June, the company introduced what it calls Soylent 1.6, the “latest iteration in convenient, complete powdered food.” It touted a key addition to this latest version. “Soylent 1.6 is the first powder iteration to use whole algal flour and high oleic algal oil—innovative ingredients that are yet another step toward sustainable food production,” the company said at the time.
+        
+            
+                window.__bloomberg__.ads.enqueue("in-article-8w8dQjE");
+            
+                {
+                    "byzantium": {
+                        "contentId": "OGA1O46KLVUU01"
+                    },
+                    "position": "in-article",
+                    "dimensions": {
+                        "mobile": [
+                            [5, 19],
+                            [300, 250],
+                            [1, 1]
+                        ],
+                        "tablet": [
+                            [5, 19],
+                            [728, 90],
+                            [1, 1]
+                        ]
+                    },
+                    "adCode": "business/news/technology",
+                    "url": "2016-11-07/soylent-thinks-it-found-what-was-making-people-sick-algae",
+                    "type": "In Article Flex Native Ad",
+                    "positionIncrement": 1,
+                    "targeting": {"suid":"OGA1O46KLVUU01","page":"articlejav","currentResource":"Story|OGA1O46KLVUU01","ni":["BBIZ","BIZNEWS","BNALL","BNSTAFF","BNTEAMS","BUSINESS","COEVNT","CONS","CORPFIN","COS","ENV","FIN","FINNEWS","FLOWCMS","FOD","GOWEB","HLNOVEL","HLNOVELTY9","MSCINAMER","MSCIWORLD","NORTHAM","NOVEL","NOVELTY9","NYX","ONWEB","ORIGINAL","PE","READ25","SF","TEC","US","USBNX","USCONSUME","UTI","VC","VCTEAM","WORLD","WEBELIG","ATTACHMENT","BBPROFILE","BGOVBILLGO","BGOVCODES","SRCRANK1","BONDWIRES","SPREGIONS","CMDKEY","CMDKEY2","CMDKEY3","SASBPS5S","SASBIS","CREDITKEY","CREDITKEYA","DEBTKEY","SASBCODES","EQUITYKEY","PHOTO","NRGKEY","MISC","MAJOR","GD","INDUSTRIES","INTERNAL","LEAST","MARKETS","CONSS","HOU","CMD","ASSETMGMT","G10MEMB","MANU","NRG","BNEFED","G7MEMB","INDUSTRIAL","DEVECO","PROTEIN","AGRKEY","FBR","CMDX","OILSEED","SOLVENT","SOY","SECURITY","SVC","PLASTICS","LIFESTYLE","FILM"],"tickers":[],"tagr":["energy","food_wine"],"kwl":["biz_goldman_q2","biz_accenture","biz_capone","biz_ibm","biz_testing123","biz_exxonmobil","biz_ishares","biz_hsbc","biz_pitney","biz_deloitte","biz_ubsbannedlist","biz_nationwide","biz_bp_keywords","biz_bp_keywords_two","biz_citrix","biz_Samsung","biz_lincoln","biz_capitalone","biz_pnc","biz_googlelist","biz_googlelisttwo","biz_technologykeywords"],"position":"in-article","positionIncrement":1,"url":"/news/articles/2016-11-07/soylent-thinks-it-found-what-was-making-people-sick-algae"},
+                    "containerId": "in-article-8w8dQjE"
+                }
+            
+        
+        
+                
+                    
+                        Exclusive insights in your inbox, from our technology reporters around the world.
+                    
+                    
+                        Get Fully Charged, from Bloomberg Technology.
+                    
+                    
+                        
+                            
+                                    Sign Up
+                            
+                        
+                        
+                        
+                    
+                
+            
+            
+            
+            
+        
+            
+        
+            
+                Business
+                Your guide to the most important business stories of the day, every day.
+            
+            
+                You will now receive the Business newsletter
+                
+            
+            
+        
+        
+            
+                Politics
+                The latest political news, analysis, charts, and dispatches from the campaign trail.
+            
+            
+                You will now receive the Politics newsletter
+                
+            
+            
+        
+        
+            
+                Markets
+                The most important market news of the day. So you can sleep an extra five minutes.
+            
+            
+                You will now receive the Markets newsletter
+                
+            
+            
+        
+        
+            
+                Pursuits
+                Travel with us, drive with us, eat with us – around the world.
+            
+            
+                You will now receive the Pursuits newsletter
+                
+            
+            
+        
+        
+            
+                Game Plan
+                The school, work and life hacks you need to get ahead.
+            
+            
+                You will now receive the Game Plan newsletter
+                
+            
+            
+        
+        
+    
+        Soylent said it hasn’t received complaints from people who consumed its premade drinks, which also have high oleic algal oil but not algal flour. The issues reported by Soylent customers after eating the powder and meal bar resembled those facing Honey Stinger, a Colorado energy bar maker. It told customers in May to return or throw away its chewable protein bites after several reports of nausea and vomiting. The snack contains whole algal protein made by TerraVia. In July, TerraVia sent a letter to a distributor warning that it had received a “modest number of reports” showing that algal protein can cause “gastrointestinal distress,” according to a copy seen by Bloomberg.Rhinehart said he didn’t know any kind of ingredient derived from algae could make people sick and never received a warning from TerraVia. Brooks said TerraVia didn’t tell Soylent because the startup uses a different algae-based ingredient from the one used by Honey Stinger. However, he said both are compliant with U.S. Food and Drug Administration standards.—With Craig Giammona
+        
+            
+        
+        
+    
+                                        
+    
+        
+            Before it's here, it's on the Bloomberg Terminal.
+            LEARN MORE
+        
+    
+                                        
+                                        
+        
+    
+                                    
+                                
+                                        
+    
+        
+            window.__bloomberg__.ads.enqueue("box-MkQ8Apf");
+        
+            {
+                "byzantium": {
+                    "contentId": "OGA1O46KLVUU01"
+                },
+                "position": "box",
+                "dimensions": {
+                    "small_desktop": [
+                        [300, 600],
+                        [300, 250]
+                    ],
+                    "large_desktop": [
+                        [300, 600],
+                        [300, 250]
+                    ]
+                },
+                "adCode": "business/news/technology",
+                "url": "2016-11-07/soylent-thinks-it-found-what-was-making-people-sick-algae",
+                "positionIncrement": 1,
+                "targeting": {"suid":"OGA1O46KLVUU01","page":"articlejav","currentResource":"Story|OGA1O46KLVUU01","ni":["BBIZ","BIZNEWS","BNALL","BNSTAFF","BNTEAMS","BUSINESS","COEVNT","CONS","CORPFIN","COS","ENV","FIN","FINNEWS","FLOWCMS","FOD","GOWEB","HLNOVEL","HLNOVELTY9","MSCINAMER","MSCIWORLD","NORTHAM","NOVEL","NOVELTY9","NYX","ONWEB","ORIGINAL","PE","READ25","SF","TEC","US","USBNX","USCONSUME","UTI","VC","VCTEAM","WORLD","WEBELIG","ATTACHMENT","BBPROFILE","BGOVBILLGO","BGOVCODES","SRCRANK1","BONDWIRES","SPREGIONS","CMDKEY","CMDKEY2","CMDKEY3","SASBPS5S","SASBIS","CREDITKEY","CREDITKEYA","DEBTKEY","SASBCODES","EQUITYKEY","PHOTO","NRGKEY","MISC","MAJOR","GD","INDUSTRIES","INTERNAL","LEAST","MARKETS","CONSS","HOU","CMD","ASSETMGMT","G10MEMB","MANU","NRG","BNEFED","G7MEMB","INDUSTRIAL","DEVECO","PROTEIN","AGRKEY","FBR","CMDX","OILSEED","SOLVENT","SOY","SECURITY","SVC","PLASTICS","LIFESTYLE","FILM"],"tickers":[],"tagr":["energy","food_wine"],"kwl":["biz_goldman_q2","biz_accenture","biz_capone","biz_ibm","biz_testing123","biz_exxonmobil","biz_ishares","biz_hsbc","biz_pitney","biz_deloitte","biz_ubsbannedlist","biz_nationwide","biz_bp_keywords","biz_bp_keywords_two","biz_citrix","biz_Samsung","biz_lincoln","biz_capitalone","biz_pnc","biz_googlelist","biz_googlelisttwo","biz_technologykeywords"],"position":"box1","positionIncrement":1,"url":"/news/articles/2016-11-07/soylent-thinks-it-found-what-was-making-people-sick-algae"},
+                "containerId": "box-MkQ8Apf"
+            }
+        
+    
+                                        
+        
+            Trending Now
+            
+            Clinton 3 Points Ahead of Trump in Final Bloomberg National Poll
+        
+        
+            Don’t Worry When the Stock Market Goes Crazy After Election
+        
+        
+            FBI Absolves Clinton Again, Two Days Ahead of U.S. Election
+        
+        
+            Samsung Seeks Redemption With AI-Infused Galaxy S8 Phone
+        
+        
+            May’s Indian Outreach Falters as Modi, Tata Play Hard to Get
+        
+            
+    
+        
+            {
+                "byzantium": {
+                    "contentId": "OGA1O46KLVUU01"
+                },
+                "position": "trendingnow",
+                "dimensions": {
+                    "small_desktop": [
+                        [5, 18],
+                        [1, 1]
+                    ],
+                    "large_desktop": [
+                        [5, 18],
+                        [1, 1]
+                    ]
+                },
+                "adCode": "business/news/technology",
+                "url": "2016-11-07/soylent-thinks-it-found-what-was-making-people-sick-algae",
+                "positionIncrement": 1,
+                "targeting": {"suid":"OGA1O46KLVUU01","page":"articlejav","currentResource":"Story|OGA1O46KLVUU01","ni":["BBIZ","BIZNEWS","BNALL","BNSTAFF","BNTEAMS","BUSINESS","COEVNT","CONS","CORPFIN","COS","ENV","FIN","FINNEWS","FLOWCMS","FOD","GOWEB","HLNOVEL","HLNOVELTY9","MSCINAMER","MSCIWORLD","NORTHAM","NOVEL","NOVELTY9","NYX","ONWEB","ORIGINAL","PE","READ25","SF","TEC","US","USBNX","USCONSUME","UTI","VC","VCTEAM","WORLD","WEBELIG","ATTACHMENT","BBPROFILE","BGOVBILLGO","BGOVCODES","SRCRANK1","BONDWIRES","SPREGIONS","CMDKEY","CMDKEY2","CMDKEY3","SASBPS5S","SASBIS","CREDITKEY","CREDITKEYA","DEBTKEY","SASBCODES","EQUITYKEY","PHOTO","NRGKEY","MISC","MAJOR","GD","INDUSTRIES","INTERNAL","LEAST","MARKETS","CONSS","HOU","CMD","ASSETMGMT","G10MEMB","MANU","NRG","BNEFED","G7MEMB","INDUSTRIAL","DEVECO","PROTEIN","AGRKEY","FBR","CMDX","OILSEED","SOLVENT","SOY","SECURITY","SVC","PLASTICS","LIFESTYLE","FILM"],"tickers":[],"tagr":["energy","food_wine"],"kwl":["biz_goldman_q2","biz_accenture","biz_capone","biz_ibm","biz_testing123","biz_exxonmobil","biz_ishares","biz_hsbc","biz_pitney","biz_deloitte","biz_ubsbannedlist","biz_nationwide","biz_bp_keywords","biz_bp_keywords_two","biz_citrix","biz_Samsung","biz_lincoln","biz_capitalone","biz_pnc","biz_googlelist","biz_googlelisttwo","biz_technologykeywords"],"position":"trendingnow1","positionIncrement":1,"url":"/news/articles/2016-11-07/soylent-thinks-it-found-what-was-making-people-sick-algae"},
+                "containerId": "trendingnow-ThT33tA"
+            }
+        
+                                        
+                                    
+                                
+                        
+                
+                  Terms of Service Trademarks Privacy Policy ©2016 Bloomberg L.P. All Rights Reserved   Careers Made in NYC Advertise Ad Choices Website Feedback Help   
+            window["jvln-asset-prefix"] = "https://assets.bwbx.io/javelin";
+        
+            {"css":["/public/css/application/application-bb74794f8e.css","/public/css/layout/basic/basic-027fd1b240.css","/public/css/layout/basic/basic-cc51d96dbf.desktop.css","/public/css/layout/basic/basic-a8347369bd.small_desktop.css","/public/css/layout/basic/basic-78284fdcc9.large_desktop.css","/public/css/layout/basic/basic-fc49a54db4.tablet.css","/public/css/layout/basic/basic-3676974882.mobile.css","/public/css/nav/bb/nav-7925ef46ee.css","/public/css/components/breaking_news_placeholder/breaking_news-b9cb452709.desktop.css","/public/css/ledes/basic/large_image/image/image-577f18c408.css","/public/css/ledes/basic/large_image/image/image-15bc063456.desktop.css","/public/css/ledes/basic/large_image/image/image-ac27e49eca.tablet.css","/public/css/ledes/basic/large_image/image/image-51cb486d91.mobile-tablet.css","/public/css/ledes/basic/large_image/image/image-3e479f998f.mobile.css","/public/css/ledes/basic/large_image/content/content-652452714d.css","/public/css/ledes/basic/large_image/content/content-9732a92a74.desktop.css","/public/css/ledes/basic/large_image/content/content-f6e9128f04.small_desktop.css","/public/css/ledes/basic/large_image/content/content-3c75e801d1.tablet.css","/public/css/ledes/basic/large_image/content/content-2b491dbab2.mobile.css","/public/css/components/abstract/abstract-c1458b6375.css","/public/css/body/basic/body-1774ae949a.css","/public/css/body/basic/newsletter_tout-86137ab9e9.css","/public/css/body/basic/body-720e23b8cc.desktop.css","/public/css/body/basic/in_article_ad-238ed3378a.desktop.css","/public/css/body/basic/body-e74c024d6f.large_desktop.css","/public/css/body/basic/newsletter_tout-5887db8153.large_desktop.css","/public/css/body/basic/body-e886f59cb3.tablet-desktop.css","/public/css/body/basic/mobile_ads-10915d4c59.tablet-desktop.css","/public/css/body/basic/body-bf5bf9e5d3.tablet.css","/public/css/body/basic/in_article_ad-9b7210064c.mobile-tablet.css","/public/css/body/basic/body-8e12aac9ee.mobile.css","/public/css/body/basic/mobile_ads-dc86e3c65b.mobile.css","/public/css/body/basic/newsletter_tout-12eaa8fd13.mobile.css","/public/css/components/recirc/recirc-780accf36e.css","/public/css/components/recirc/recirc-780accf36e.css","/public/css/ads/leaderboard/leaderboard-37edd224eb.css","/public/css/ads/terminal_tout/terminal_tout-c41eca7197.css","/public/css/ads/terminal_tout/terminal_tout-6cce27d679.mobile.css","/public/css/components/author_tout/author_tout-1f08dd3eb5.css","/public/css/components/author_tout/author_tout-e273b6df99.mobile.css","/public/css/print/print-1c3cb980b3.css","/public/css/components/truste/truste-28f6157d69.css","/public/css/components/truste/truste-323c682892.small_desktop.css","/public/css/components/truste/truste-5679a9f67c.large_desktop.css","/public/css/components/truste/truste-932ba91b49.tablet.css","/public/css/components/truste/truste-53c717658f.mobile.css","/public/css/components/image_viewer/image_viewer-b050485e3d.css","/public/css/components/image_viewer/image_viewer-44ae116396.desktop.css","/public/css/components/image_viewer/image_viewer-90a9b24409.mobile-tablet.css","/public/css/components/image_viewer/image_viewer-0e5ec91ea4.mobile.css","/public/css/themes/technology/tech-b7a118d9c3.css"],"js":["/public/js/layout/basic/right_rail-db9c129258.desktop.js","/public/js/layout/basic/video_play_listeners-32b65af8ce.js","/public/js/nav/bb/nav-e6ffc7475f.js","/public/js/components/breaking_news_placeholder/breaking_news_placeholder-5e39bf5309.js","/public/js/ledes/basic/large_image/content/author_details-d1d1e918f1.js","/public/js/body/basic/footnotes-38a28ff6d1.js","/public/js/body/basic/newsletter_tout-a10ed0a1dc.js","/public/js/body/basic/third_party_embed-8109483a70.js","/public/js/ads/initialize/initialize_ads-e5433e4912.js","/public/js/components/recirc/recirc-2b941959e6.desktop.js","/public/js/components/recirc/recirc-2b941959e6.desktop.js","/public/js/ads/leaderboard/leaderboard-b28c1ef00d.tablet-desktop.js","/public/js/ads/taboola/taboola-cf10b9b3f8.js","/public/js/components/video_player/video_player-1dd7517712.js","/public/js/transporter/transporter-f3b9d2bb8e.js","/public/js/components/truste/truste-6ac723d3b5.js","/public/js/components/miniplayer/miniplayer-c82f757169.desktop.js","/public/js/components/image_viewer/image_viewer-91e7139a0e.js","/public/js/analytics/ab/ab-0a8f62a65a.sync.js","/public/js/dependencies/dependencies-b95932e597.js"]}
+        
+            %7B%22adCode%22%3A%22business%2Fnews%2Ftechnology%22%2C%22brand%22%3A%22technology%22%2C%22byline%22%3A%22Olivia%20Zaleski%22%2C%22id%22%3A%22OGA1O46KLVUU01%22%2C%22primaryCategory%22%3A%22technology%22%2C%22publishedAt%22%3A%222016-11-07T15%3A00%3A04.162Z%22%2C%22seoHeadline%22%3A%22Soylent%20Thinks%20It%20Found%20What%20Was%20Making%20People%20Sick%3A%20Algae%22%2C%22slug%22%3A%222016-11-07%2Fsoylent-thinks-it-found-what-was-making-people-sick-algae%22%2C%22shortUrl%22%3A%22http%3A%2F%2Fbloom.bg%2F2fxHWcJ%22%2C%22tags%22%3A%7B%22editorialTopics%22%3A%5B%5D%2C%22people%22%3A%5B%5D%2C%22tickers%22%3A%5B%7B%22id%22%3A%22FB%3AUS%22%2C%22longName%22%3A%22Facebook%20Inc%22%2C%22score%22%3A0.30096189419163893%7D%2C%7B%22id%22%3A%22GOOGL%3AUS%22%2C%22longName%22%3A%22Alphabet%20Inc%22%2C%22score%22%3A0.3029966703662597%7D%2C%7B%22id%22%3A%223382804Z%3AUS%22%2C%22longName%22%3A%22Andreessen%20Horowitz%22%2C%22score%22%3A0.3348131705512394%7D%2C%7B%22id%22%3A%22UNA%3ANA%22%2C%22longName%22%3A%22Unilever%20NV%22%2C%22score%22%3A0.7587865334813171%7D%5D%2C%22indexes%22%3A%5B%5D%2C%22labels%22%3A%5B%5D%2C%22topics%22%3A%5B%7B%22id%22%3A%22energy%22%2C%22name%22%3A%22Energy%22%2C%22score%22%3A0.14594894561598223%2C%22slug%22%3A%22energy%22%7D%2C%7B%22id%22%3A%22colorado%22%2C%22name%22%3A%22Colorado%22%2C%22score%22%3A0.14761376248612654%2C%22slug%22%3A%22colorado%22%7D%2C%7B%22id%22%3A%22science%22%2C%22name%22%3A%22Science%22%2C%22score%22%3A0.3690344062153163%2C%22slug%22%3A%22science%22%7D%2C%7B%22id%22%3A%22wireless%22%2C%22name%22%3A%22Wireless%22%2C%22score%22%3A0.39696633370329265%2C%22slug%22%3A%22wireless%22%7D%2C%7B%22id%22%3A%22food-and-drug-administration%22%2C%22name%22%3A%22Food%20and%20Drug%20Administration%22%2C%22score%22%3A0.4396966333703292%2C%22slug%22%3A%22food-and-drug-administration%22%7D%2C%7B%22id%22%3A%22north-carolina-state-university%22%2C%22name%22%3A%22North%20Carolina%20State%20University%22%2C%22score%22%3A0.5334813170551239%2C%22slug%22%3A%22north-carolina-state-university%22%7D%2C%7B%22id%22%3A%22food-safety%22%2C%22name%22%3A%22Food%20Safety%22%2C%22score%22%3A0.5427302996670367%2C%22slug%22%3A%22food-safety%22%7D%2C%7B%22id%22%3A%22new-york%22%2C%22name%22%3A%22New%20York%22%2C%22score%22%3A0.6505734369219386%2C%22slug%22%3A%22new-york%22%7D%2C%7B%22id%22%3A%22san-francisco%22%2C%22name%22%3A%22San%20Francisco%22%2C%22score%22%3A0.767480577136515%2C%22slug%22%3A%22san-francisco%22%7D%2C%7B%22id%22%3A%22los-angeles%22%2C%22name%22%3A%22Los%20Angeles%22%2C%22score%22%3A0.8706992230854605%2C%22slug%22%3A%22los-angeles%22%7D%2C%7B%22id%22%3A%22oil%22%2C%22name%22%3A%22Oil%22%2C%22score%22%3A1.1440991490935999%2C%22slug%22%3A%22oil%22%7D%2C%7B%22id%22%3A%22food%22%2C%22name%22%3A%22Food%22%2C%22score%22%3A4.710994107721322%2C%22slug%22%3A%22food%22%2C%22type%22%3A%22topic%22%7D%5D%7D%2C%22textHeadline%22%3A%22Soylent%20Thinks%20It%20Found%20What%20Was%20Making%20People%20Sick%3A%20Algae%22%2C%22theme%22%3A%22technology%22%2C%22twitterText%22%3A%22Soylent%20thinks%20it%20found%20what%20was%20making%20people%20sick%3A%20algae%22%2C%22twitterHandle%22%3A%22technology%22%2C%22type%22%3A%22article%22%2C%22url%22%3A%22https%3A%2F%2Fwww.bloomberg.com%2Fnews%2Farticles%2F2016-11-07%2Fsoylent-thinks-it-found-what-was-making-people-sick-algae%22%2C%22webOriginal%22%3Atrue%7D
+        
+            if (window.matchMedia("all").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/ads/initialize/initialize_ads-e5433e4912.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+        
+            if (window.matchMedia("(min-width:761px)").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/ads/leaderboard/leaderboard-b28c1ef00d.tablet-desktop.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-PWSXPT');
+             
+        
+        
+            (function(s, p, d) {
+            var h=d.location.protocol, i=p+"-"+s,
+               e=d.getElementById(i), r=d.getElementById(p+"-root"),
+               u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+               :"static."+p+".com";
+            if (e) return;
+            e = d.createElement(s); e.id = i; e.async = true;
+            e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+            })("script", "parsely", document);
+        
+            if (window.matchMedia("all").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/components/breaking_news_placeholder/breaking_news_placeholder-5e39bf5309.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+        
+            if (window.matchMedia("all").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/components/video_player/video_player-1dd7517712.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+        
+            if (window.matchMedia("(min-width:1021px)").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/components/miniplayer/miniplayer-c82f757169.desktop.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+        
+            if (window.matchMedia("all").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/ledes/basic/large_image/content/author_details-d1d1e918f1.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+        
+            if (window.matchMedia("(min-width:1021px)").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/layout/basic/right_rail-db9c129258.desktop.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+        
+            if (window.matchMedia("all").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/layout/basic/video_play_listeners-32b65af8ce.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+        
+            if (window.matchMedia("all").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/body/basic/footnotes-38a28ff6d1.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+        
+            if (window.matchMedia("all").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/body/basic/newsletter_tout-a10ed0a1dc.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+        
+            if (window.matchMedia("all").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/body/basic/third_party_embed-8109483a70.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+        
+            if (window.matchMedia("(min-width:1021px)").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/components/recirc/recirc-2b941959e6.desktop.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+        
+            if (window.matchMedia("all").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/components/image_viewer/image_viewer-91e7139a0e.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+        
+            if (window.matchMedia("all").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/dependencies/dependencies-b95932e597.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+        
+            if (window.matchMedia("all").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/transporter/transporter-f3b9d2bb8e.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+        (function(d){var s=d.createElement("script");s.async=true;s.src="https://www.bbthat.com/assets/v1.2.1/that.js";s.type="text/javascript";d.head.appendChild(s);})(document);
+            if (window.matchMedia("all").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/nav/bb/nav-e6ffc7475f.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+        (function(d){var s=d.createElement("script");s.async=true;s.src="https://nav.bloomberg.com/public/javascripts/global/bb-global-nav-a407bbd18f.js";s.type="text/javascript";d.head.appendChild(s);})(document);
+            if (window.matchMedia("all").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/components/truste/truste-6ac723d3b5.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+        
+            if (window.matchMedia("all").matches) {
+                var s = document.createElement("script");
+                s.src = "https://assets.bwbx.io/javelin/public/js/ads/taboola/taboola-cf10b9b3f8.js";
+                s.type = "text/javascript";
+                s.async = true;
+                document.head.appendChild(s);
+            }
+         (function(windough, doc) { (function polyfillCustomEvent() { try { new windough.CustomEvent("test"); } catch(e) { var CustomEvent = function(event, params) { params = params || { bubbles: false, cancelable: false, detail: undefined };var evt = doc.createEvent("CustomEvent"); evt.initCustomEvent(event, params.bubbles, params.cancelable, params.detail); return evt; };CustomEvent.prototype = windough.Event.prototype; windough.CustomEvent = CustomEvent; } })();function $header() { return doc.getElementById("bb-nav"); }function $unsupportedText() { return document.querySelector(".bb-unsupported-message__text"); }function customMessage() { var customMsgNode = document.getElementById("bb_unsupported_custom_message"); if (customMsgNode) { return JSON.parse(customMsgNode.innerHTML).message; } }if ( doc.documentMode === 9 || doc.documentMode === 10 || (!windough.CSSMediaRule && !windough.matchMedia && !windough.msMatchMedia) ) { function message() { var css = "body.bb-unsupported-browser .bb-nav-placeholder{height:auto}body.bb-unsupported-browser #bb-that,body.bb-unsupported-browser .bb-nav-root{display:none;height:auto}body.bb-unsupported-browser .bb-nav-root{display:block}.bb-unsupported-message{background-color:#000;padding:20px 0}@media screen and (max-width: 63.6875rem){.bb-unsupported-message__logo-box{padding-bottom:10px}.bb-unsupported-message__copy{margin:0}}@media screen and (min-width: 63.75rem){.bb-unsupported-message__content{font-size:12px;display:table-cell;padding-left:50px}.bb-unsupported-message__logo-box{display:table-cell;vertical-align:middle}.bb-unsupported-message__copy{margin:1em 0}}.bb-unsupported-message__logo-box{padding-bottom:10px}.bb-unsupported-message__copy{margin:0}.bb-unsupported-message__message{width:70%;margin:0 auto;color:#fff}.bb-unsupported-message__content{font-size:12px}.bb-unsupported-message__logo:before{content:\"\";display:block;background:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjExNSAtOS42IDI1Ny44IDQ3LjYiPjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0xMTUtOS42aDE4LjljMy42IDAgNi4zLjkgOC4zIDIuNCAyLjIgMS44IDMuNCA0LjQgMy40IDcuNiAwIDMuNy0xLjUgNi00LjUgNy40VjhjNCAxLjMgNi4zIDQuOSA2LjMgOS4yIDAgNC4xLTEuNiA3LjMtNC4yIDkuMy0yLjIgMS42LTUgMi4zLTguOCAyLjNIMTE1Vi05LjZ6bTE3IDE1YzIgMCAzLjUtMS4xIDMuNS0zLjQgMC0yLjItMS41LTMuMy0zLjYtMy4zaC02LjV2Ni42aDYuNnptLjkgMTQuOWMyLjMgMCA0LTEuNCA0LTMuOSAwLTIuNy0xLjgtMy45LTQtMy45aC03LjR2Ny45aDcuNHpNMTQ5LjEtOS42aDkuOXYzOC41aC05LjlWLTkuNnpNMTYxIDE1LjJDMTYxIDYuNSAxNjYuNi43IDE3NS4zLjdzMTQuMiA1LjkgMTQuMiAxNC41YzAgOC43LTUuNSAxNC41LTE0LjIgMTQuNVMxNjEgMjMuOSAxNjEgMTUuMnptMTguNiAwYzAtNC44LTEuNS03LjgtNC41LTcuOHMtNC40IDMtNC40IDcuOCAxLjQgNy45IDQuNCA3LjljMy0uMSA0LjUtMy4xIDQuNS03Ljl6TTE5MC42IDE1LjJjMC04LjcgNS42LTE0LjUgMTQuMy0xNC41UzIxOSA2LjUgMjE5IDE1LjJzLTUuNSAxNC41LTE0LjIgMTQuNWMtOC42IDAtMTQuMi01LjgtMTQuMi0xNC41em0xOC42IDBjMC00LjgtMS41LTcuOC00LjUtNy44cy00LjQgMy00LjQgNy44IDEuNCA3LjkgNC40IDcuOWMzLS4xIDQuNS0zLjEgNC41LTcuOXpNMjIxIDEuNGg5LjJ2NC4xaC4yYzEuOC0zLjIgNC4zLTQuOSA4LjMtNC45IDMuNSAwIDYuMSAxLjcgNy40IDQuN2guMmMyLjItMy42IDUuMS00LjcgOC41LTQuNyA2LjQgMCA5LjEgNC43IDkuMSAxMXYxNy4yaC05LjZWMTMuM2MwLTIuOC0uOS00LjYtMy4zLTQuNnMtMy42IDIuMi0zLjYgNS4ydjE0LjloLTkuNlYxMy4zYzAtMi44LS45LTQuNi0zLjMtNC42cy0zLjYgMi4yLTMuNiA1LjJ2MTQuOUgyMjFWMS40ek0yNzYgMjUuMmgtLjF2My42aC05LjJWLTkuNmg5LjZWNC4yaC4yYzEuOC0yLjQgNC4zLTMuNyA3LjgtMy43IDYuOSAwIDEwLjkgNi4yIDEwLjkgMTQuNSAwIDkuMy00LjMgMTQuNy0xMS41IDE0LjctMyAwLTYuMS0xLjQtNy43LTQuNXptOS4zLTEwLjNjMC00LjQtMS42LTcuMy00LjUtNy4zLTMgMC00LjggMi45LTQuOCA3LjNzMS45IDcuMyA0LjggNy4zIDQuNS0yLjggNC41LTcuM3pNMjk2LjMgMTUuMWMwLTguNiA1LjctMTQuNSAxMy45LTE0LjUgNC4xIDAgNy4yIDEuMyA5LjYgMy42IDMuMiAzLjEgNC42IDcuOSA0LjUgMTMuNWgtMTguNGMuNCAzLjQgMiA1LjIgNC45IDUuMiAxLjcgMCAzLjItLjggMy44LTIuNmg5LjNjLTEuNiA2LjMtNi41IDkuNC0xMy40IDkuNC04LjUtLjEtMTQuMi01LjktMTQuMi0xNC42em05LjYtMi45aDguOGMtLjItMy4zLTItNS00LjMtNS0yLjctLjEtNC4yIDEuOC00LjUgNXpNMzM1LjIgNi4xaC4yYzItMy44IDQuNi01LjMgNy45LTUuMy44IDAgMS4zLjEgMS42LjN2OC40aC0uMmMtNS43LTEtOSAxLjctOSA3Ljl2MTEuNUgzMjZWMS40aDkuMnY0Ljd6TTM0NS45IDI4LjloOS4zYy40IDEuMiAxLjYgMi4zIDMuOSAyLjMgMy4xIDAgNC4yLTEuOSA0LjItNC44di0yaC0uMmMtMS41IDEuOC0zLjYgMy4xLTYuNiAzLjEtNS45IDAtMTEuMS00LjQtMTEuMS0xMyAwLTcuOSA0LjItMTQgMTAuNi0xNCAzLjcgMCA1LjkgMS41IDcuNCAzLjhoLjJ2LTNoOS4ydjIzLjhjMCA0LjQtMS41IDcuOC0zLjggOS44LTIuNCAyLjEtNS44IDMtOS43IDMtNy40LjEtMTIuNS0yLjktMTMuNC05em0xNy44LTE0LjhjMC0zLjQtMS42LTYuMi00LjQtNi4yLTIuNyAwLTQuNCAyLjQtNC40IDYuMiAwIDMuNyAxLjcgNi4zIDQuNCA2LjNzNC40LTIuNyA0LjQtNi4zeiIvPjwvc3ZnPg==\") no-repeat;width:7.8125rem;height:1.5rem}.bb-unsupported-message__copy-link{color:#fff;text-decoration:underline}.bb-unsupported-message a:hover{color:#eee}"; var head = doc.head; var style = doc.createElement("style"); var customMsg = customMessage();head.appendChild(style);if (style.styleSheet) { style.styleSheet.cssText = css; } else { style.innerHTML = css; }doc.body.className += " bb-unsupported-browser"; $header().outerHTML = "<div class=\"bb-unsupported-message\"> <div class=\"bb-unsupported-message__message\"> <div class=\"bb-unsupported-message__logo-box\"> <a href=\"//www.bloomberg.co.jp\" class=\"bb-unsupported-message__logo\"></a> </div> <div class=\"bb-unsupported-message__content\"> <p class=\"bb-unsupported-message__copy\"> <span class=\"bb-unsupported-message__text\"> <strong>Your browser is no longer supported.</strong> You can still use the site, but some features may not work as expected. Please consider upgrading to one of the following browsers. </span> <a href=\"http://www.google.com/chrome?hl=en\" class=\"bb-unsupported-message__copy-link\">Chrome</a>, <a href=\"http://www.mozilla.com/firefox/\" class=\"bb-unsupported-message__copy-link\">Firefox</a>, <a href=\"https://itunes.apple.com//app/os-x-mavericks/id675248567?mt=12&uo=4\" class=\"bb-unsupported-message__copy-link\">Safari</a>, <a href=\"http://www.opera.com/browser/\" class=\"bb-unsupported-message__copy-link\">Opera</a> or <a href=\"http://windows.microsoft.com/en-us/internet-explorer/download-ie\" class=\"bb-unsupported-message__copy-link\">Edge / Internet Explorer</a>. </p> </div> </div> </div>"; windough["bb-unsupported-browser"] = true; windough.dispatchEvent(new windough.CustomEvent("bb-unsupported-browser"));if (customMsg) { $unsupportedText().innerHTML = customMsg; } }if (doc.addEventListener) { doc.addEventListener("DOMContentLoaded", message); } else { windough.attachEvent("onload", message); } } })(window, document); 

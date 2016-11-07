@@ -1,0 +1,472 @@
+India pollution: Schools shut down, expats flee, and the visiting UK PM Theresa May risks losing hours from her life as Delhi chokes — Quartz
+			var currentDomain = "qz.com";
+			var currentPath = "https://app.qz.com";
+						window.QZ = {
+				bootstrap: {},
+				env: { screen: 'desktop' },
+				edition: 'india',
+				version: '4.0.520'
+			};
+
+			(function(){
+				var el = document.createElement('div');
+				if( typeof(el.style['mask-image']) !== 'undefined' || typeof(el.style['-webkit-mask-image']) !== 'undefined' ) {
+					document.documentElement.className += ' has-mask';
+				}
+			})();
+			
+		{"@context":"http:\/\/schema.org","@type":"NewsArticle","name":"Schools shut down, expats flee, and the visiting UK PM risks losing hours from her life as Delhi chokes","headline":"Schools shut down, expats flee, and the visiting UK PM risks losing hours from her life as Delhi chokes","alternativeHeadline":"Choked!.","description":"Choked!","url":"http:\/\/qz.com\/828754\/india-pollution-schools-shut-down-expats-flee-and-the-visiting-uk-pm-theresa-may-risks-losing-hours-from-her-life-as-delhi-chokes\/","author":{"@type":"Person","name":"Manu Balachandran","url":"http:\/\/qz.com\/author\/manuqz","sameAs":["http:\/\/twitter.com\/MBalachandran88"]},"creator":["Manu Balachandran","Maria Thomas"],"dateCreated":"2016-11-06T12:45:03+00:00","datePublished":"2016-11-06T12:45:03+00:00","image":"https:\/\/qzprod.files.wordpress.com\/2016\/11\/delhi.jpg?quality=80&strip=all&w=1024","thumbnailUrl":"https:\/\/qzprod.files.wordpress.com\/2016\/11\/delhi.jpg?quality=80&strip=all","articleSection":"india","keywords":["air pollution","Air quality index","arvind kejriwal","Barack Obama","Crop burning","Delhi","Delhi air pollution","gurgaon","Haryana","india","NCR","New Delhi","pollution","punjab","Safar","smog","Theresa May","UK","usa"],"inLanguage":"en-us","publisher":{"@type":"Organization","name":"Quartz","logo":"http:\/\/app.qz.com\/img\/logo\/quartz.svg","sameAs":["http:\/\/en.wikipedia.org\/wiki\/Quartz_(publication)","http:\/\/facebook.com\/quartznews","http:\/\/twitter.com\/qz"],"url":"http:\/\/qz.com","member":[{"@type":"Person","name":"Kevin J. Delaney","jobTitle":"CEO"}],"memberOf":{"@type":"Corporation","name":"Atlantic Media","founder":{"@type":"Person","name":"David G. Bradley"}},"location":{"@type":"PostalAddress","addressLocality":"New York","addressRegion":"NY"}}}
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+var _sf_startpt=(new Date()).getTime()
+	
+		
+	
+	
+		
+			
+
+India
+		
+	
+	
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			obsessions
+		
+		
+	
+	
+	
+		
+			
+		
+		
+			our picks
+		
+		
+			latest
+		
+		
+			popular
+		
+		
+		
+	
+
+
+		like us on facebook
+		follow us on twitter
+		quartz index
+		about us
+		register
+		log in
+		log out
+		Events
+		Atlas
+	
+	
+		quartz
+					
+				
+				quartz India			
+					
+				
+				quartz Africa			
+			
+	
+		Change your edition
+		back to menu
+	
+
+	
+
+	DON'T BREATHE
+		Delhi’s air is so toxic that schools are closing, expats are fleeing, and the visiting UK PM could lose hours from her life
+	
+	Written by
+
+	
+		
+			
+			Manu Balachandran
+
+			
+			
+						 & 
+			
+		
+			
+			Maria Thomas
+
+			
+			
+			
+		
+		
+	
+
+
+
+
+
+			3 hours ago
+	
+			Quartz india
+	
+
+
+
+			
+	
+			Choked!							 (AP/Altaf Qadri)
+					
+	
+	
+		
+			Share
+				 
+	 
+	 
+	 
+	 
+		
+		
+	Written by
+
+	
+		
+			
+			Manu Balachandran
+
+			
+			
+						 & 
+			
+		
+			
+			Maria Thomas
+
+			
+			
+			
+		
+		
+	
+
+
+
+
+
+			3 hours ago
+	
+			Quartz india
+	
+
+	
+	
+		
+			
+New Delhi is ghastly right now.
+So much so that the government in the national capital has shut down 1,800 schools for the first time ever, forcing a million students to stay at home to avoid breathing in the deadly smog that continues to shroud the city. This comes a week after firecracker residue from the Diwali festivities pushed the city’s Air Quality Index (AQI) into the red zone.
+Levels of particulate matter (PM) 10 and PM2.5 hit 844 µg/m3 and 588 µg/m3 respectively on Nov. 06, according to data from the System of Air Quality and Weather Forecasting and Research (SAFAR), which monitors air quality. That’s shockingly above the safe limits of 100 µg/m3 and 60 µg/m3 respectively, and suggests that things have only worsened since last week when the “severe” pollution advisory was issued.
+
+
+
+
+ Delhi's air is the best instagram filter.  #Delhipollution #concentrationcamp
+A photo posted by Aradhya Agnihotri (@aradhya.agno3) on Nov 4, 2016 at 3:20am PDT
+
+
+
+
+Kalkaji, as viewed from 15th floor of a building in Nehru Place, New Delhi.
+Pic 1: Aug 22, ’16Pic 2: Today
+Around same time. #Pollution pic.twitter.com/UfLeOwCf31
+— Rajesh Advani (@advanirajesh) November 3, 2016
+
+“Pollution has increased to an extent that (the) outdoors in Delhi are resembling a gas chamber,” chief minister Arvind Kejriwal said on Nov. 06.
+Residents have taken note, lining up in the hundreds to buy masks. On Nov. 06, many even gathered at Jantar Mantar to protest, calling on the government to declare the situation a national emergency.
+The road to hell
+Delhi ranks among the world’s most polluted cities, thanks in part to its enormous population of around 25 million and the over 8.8 million vehicles that ply on its roads every day (an estimate from March 2015).
+And now, choked by a deadly cloud of smoke, visibility has reduced to just 200 metres. The city has witnessed several road accidents due to this over the past few days.
+Over the past few weeks, the crisis has been complicated by a peculiar annual agricultural practice in neighbouring states.
+“Fireworks during Diwali marginally added to the pollution… But other things inside Delhi did not drastically change. So the smog is mainly due to smoke from farm fires,” Kejriwal said.
+Every year around this time, farmers in Punjab and Haryana—the predominantly agricultural states to the west and northwest of Delhi—burn the leftover straw in their rice and wheat fields. This is the cheapest way to prepare the land for the next season of sowing. However, winds blowing from these states carry the smoke from these vast farmlands to Delhi, adding to the national capital’s already high PM levels.
+Now, with no winds blowing over Delhi, the stagnant particulate matter is smothering the city. And the result is a crisis that is the worst in 17 years, the culmination of Delhi’s decades-long struggle against pollution.
+Making (foggy) history
+At the time of India’s independence in 1947, fog in Delhi was rather rare. In fact, in 1951, only one foggy day was reported between the winter months of December and February. By 1996, there were 46 days and, by 2013, there were 74.
+Things worsened in the early 1990s with rapid urbanisation and growing vehicular traffic—particularly of those with diesel engines. Suspended PM hit a high of 409 µg/m3 in 1995.
+Three years later, India’s supreme court urged the Delhi government to act, forcing buses and three-wheelers to switch to compressed natural gas (CNG), a more environment-friendly option. The results were clear. By 2000, PM levels dropped to 190 µg/m3 and continued to fall for several years, reaching 161 µg/m3 in 2007.
+This phase, however, did not last. With the number of vehicles rising relentlessly, PM levels jumped once again by 2008.
+“The problem is that while emission norms were made more stringent and pollution levels dipped, the increase in vehicles skewed the matter,” A B Akolkar, a member of India’s Central Pollution Control Board, told the Indian Express newspaper last year. 
+And that set the stage for Delhi’s current crisis.
+Emergency measures
+In January this year, the Delhi government had introduced an “odd-even” to regulate the city’s vehicular traffic. This involved allowing vehicles ending with even and odd numbers to ply on alternative days. The plan was tried again in April. The results have at best been mixed.
+Now, as part of its drastic measures, the government is likely to fall back on such a plan again.
+On Nov. 06, it imposed a temporary ban on construction and demolition of buildings and the use of diesel-powered electricity generators. It also plans to vacuum clean the city’s streets and has begun sprinkling water to settle the dust.
+Yet, the damage to the city’s reputation and the serious financial cost it implies, will be difficult to fix. With children and the elderly being the worst-affected, many Indians and expats are already moving out.
+In 2013, the World Bank estimated that environmental degradation could cost India’s economy more than $80 billion per year. Delhi could definitely be the worst-hit as years go by, with property prices tanking and productivity levels falling.
+For now, this crisis poses a particular problem for the government of India. It coincides with British prime minister Theresa May’s arrival in Delhi to kick off her first bilateral mission outside of the European Union. In 2015, when the city welcomed US president Barack Obama with a toxic haze, it drew flak. One report even warned that the president could lose around six hours of his life by spending just three days in the capital of Asia’s third-largest economy.
+For all of the Narendra Modi government’s big plans to portray India as the continent’s shining star, the national capital’s toxic air suggests that the more things change, the more they remain the same.
+			
+		
+		
+			
+				
+			
+					 
+	 
+	 
+	 
+	 
+			
+		
+		Read full story
+	
+	
+
+
+
+
+	
+
+
+	home
+	our picks
+	popular
+	latest
+	obsessions
+	search
+
+
+		
+		
+			var _sf_async_config={};
+			_sf_async_config.uid = 55570;
+			_sf_async_config.useCanonical = true;
+						_sf_async_config.domain = 'qz.com';
+			_sf_async_config.authors = 'Manu Balachandran';
+_sf_async_config.sections = ["Uncategorized"];
+
+			(function(){
+				function loadChartbeat() {
+					window._sf_endpt=(new Date()).getTime();
+					var e = document.createElement('script');
+					e.setAttribute('language', 'javascript');
+					e.setAttribute('type', 'text/javascript');
+					e.setAttribute('src',
+						(("https:" == document.location.protocol) ? "https://" : "http://") +
+						"static.chartbeat.com/js/chartbeat.js");
+					document.body.appendChild(e);
+				}
+				var oldonload = window.onload;
+				window.onload = (typeof window.onload != 'function') ?
+					loadChartbeat : function() { try { oldonload(); } catch (e) { loadChartbeat(); throw e} loadChartbeat(); };
+			})();
+		
+				( function(){
+
+					// Check if cookies are enabled
+					// @see http://sveinbjorn.org/cookiecheck
+					var cookieEnabled = (navigator.cookieEnabled) ? true : false;
+
+					if (typeof navigator.cookieEnabled == "undefined" && !cookieEnabled){ 
+						document.cookie="testcookie";
+						cookieEnabled = (document.cookie.indexOf("testcookie") != -1) ? true : false;
+					}
+					
+					if( ! cookieEnabled )
+						return;
+					
+					// Set cookie with test condition
+					document.cookie = "quick_article_collection_20160810" + '=' + "exposed" + '; expires=' + "Sun, 13 Nov 2016 20:42:10 +0000" + '; path=/';
+					
+				})();
+			
+/* <![CDATA[ */
+var wpcomVipAnalytics = {"is_404":"0","is_home":"0","is_single":"1","is_front_page":"0","is_archive":"0","percentToTrack":"1"};
+/* ]]> */
+
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'39587363','blog_tz':'-5','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'39587363','v':'wpcom','tz':'-5','user_id':'0','post':'828754','subd':'qzprod'}]);
+function st_vt() {var x=document.createElement("img");x.src="http://pixel.wp.com/g.gif?blog=39587363&v=wpcomvt&tz=-5&user_id=0&post=828754&subd=qzprod&rand="+Math.random();}
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTdEfC1rZmVUMy9QNXhLa2dIP0wvZ2RNYSV+S1VzM2gtT0J4Rk5OX3BoMTAuNC9ja3glalBlUDFuVWF1UVhdPUpdWUxQJktzWmx8TmVFdnUmWldTS3ElYWo2SFljckotS2dlLy9TYkxjenJRQ352UDJ2a0gmWDF8LT9xdkxnZlFtY1ZsRHRSaVJWUyxINHdzZSZLUnhNRVJZUm01LGpWUVlMLS0zYldZYWJvUHZjW0RKM19RNDIlfA=='}]);
+_stq.push([ 'clickTrackerInit', '39587363', '828754' ]);
+	
+
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+
+	QZ.splitTests = {"test1":{"name":"quick_article_collection_20160810","group":"exposed"}};
+	QZ.editions = ["global","india","africa"];
+	QZ.geolocation = 'global';
+	QZ.bootstrap = {"http:\/\/qz.com\/api\/article\/828754\/":{"version":3,"header":{"name":"Article","path":"article\/828754\/","slug":"article","type":"article"},"items":[{"id":828754,"title":"Delhi&#8217;s air is so toxic that schools are closing, expats are fleeing, and the visiting UK PM could lose hours from her life","slug":"india-pollution-schools-shut-down-expats-flee-and-the-visiting-uk-pm-theresa-may-risks-losing-hours-from-her-life-as-delhi-chokes","permalink":"http:\/\/qz.com\/828754\/india-pollution-schools-shut-down-expats-flee-and-the-visiting-uk-pm-theresa-may-risks-losing-hours-from-her-life-as-delhi-chokes\/","date":{"published":"2016-11-06 17:45:03","updated":"2016-11-06 17:55:29","pretty":"3 hours ago"},"postType":"article","summary":"New Delhi is ghastly right now. So much so that the government in the national capital has shut down 1,800 schools for the first time&hellip;","inlineAds":["inline-828754-1","inline-828754-2","inline-828754-3","inline-828754-4"],"content":"\n<p>New Delhi is ghastly right now.<\/p>\n<p>So much so that the government in the national capital has shut down 1,800 schools for the first time ever, <a href=\"http:\/\/www.ndtv.com\/delhi-news\/in-delhi-toxic-air-millions-with-burning-eyes-hacking-cough-schools-close-1621756\" target=\"_blank\">forcing a million students<\/a> to stay at home to avoid breathing in the deadly smog that continues to shroud the city. This comes a <a href=\"http:\/\/qz.com\/823231\/as-delhi-wakes-up-after-the-diwali-weekend-air-pollution-hits-deadly-levels\/\" target=\"_blank\">week after firecracker residue from the Diwali festivities<\/a> pushed the city&rsquo;s Air Quality Index (AQI) into the red zone.<\/p>\n<p>Levels of particulate matter (PM) 10 and PM2.5 hit <a href=\"http:\/\/safar.tropmet.res.in\/\" target=\"_blank\">844 &micro;g\/m3 and 588 &micro;g\/m3<\/a> respectively on Nov. 06, according to data from the <span class=\"text-style-2\"><span class=\"uline\">S<\/span>ystem of <span class=\"uline\">A<\/span>ir Quality and Weather <span class=\"uline\">F<\/span>orecasting <span class=\"uline\">a<\/span>nd <span class=\"uline\">R<\/span>esearch<\/span> (SAFAR), which monitors air quality. That&rsquo;s shockingly above the safe limits of 100 &micro;g\/m3 and 60 &micro;g\/m3 respectively, and suggests that things have only worsened since last week when the <a href=\"http:\/\/qz.com\/823231\/as-delhi-wakes-up-after-the-diwali-weekend-air-pollution-hits-deadly-levels\/\" target=\"_blank\">&ldquo;severe&rdquo; pollution advisory<\/a> was issued.<\/p>\n<blockquote class=\"instagram-media\" data-instgrm-captioned data-instgrm-version=\"7\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:500px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:8px;\">\n<div style=\" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;\">\n<div style=\" background:url(data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC\/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5\/P8\/t9FuRVCRmU73JWlzosgSIIZURCjo\/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI\/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf\/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;\"><\/div>\n<\/div>\n<p style=\" margin:8px 0 0 0; padding:0 4px;\"> <a href=\"https:\/\/www.instagram.com\/p\/BMYnlykgHwc\/\" style=\" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;\" target=\"_blank\">Delhi's air is the best instagram filter.  #Delhipollution #concentrationcamp<\/a><\/p>\n<p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\">A photo posted by Aradhya Agnihotri (@aradhya.agno3) on <time style=\" font-family:Arial,sans-serif; font-size:14px; line-height:17px;\" datetime=\"2016-11-04T10:20:42+00:00\">Nov 4, 2016 at 3:20am PDT<\/time><\/p>\n<\/div>\n<\/blockquote>\n<div class=\"embed-twitter\">\n<blockquote class=\"twitter-tweet\" data->\n<p lang=\"en\" dir=\"ltr\">Kalkaji, as viewed from 15th floor of a building in Nehru Place, New Delhi.<\/p>\n<p>Pic 1: Aug 22, &rsquo;16<br>Pic 2: Today<\/p>\n<p>Around same time. <a href=\"https:\/\/twitter.com\/hashtag\/Pollution?src=hash\">#Pollution<\/a> <a href=\"https:\/\/t.co\/UfLeOwCf31\">pic.twitter.com\/UfLeOwCf31<\/a><\/p>\n<p>&mdash; Rajesh Advani (@advanirajesh) <a href=\"https:\/\/twitter.com\/advanirajesh\/status\/794036345282785280\">November 3, 2016<\/a><\/p><\/blockquote>\n<\/div>\n<p>&ldquo;Pollution has increased to an extent that (the) outdoors in Delhi are resembling a gas chamber,&rdquo; <a href=\"http:\/\/www.ndtv.com\/delhi-news\/delhi-resembles-a-gas-chamber-centre-needs-to-intervene-arvind-kejriwal-1621760\">chief minister Arvind Kejriwal said on Nov. 06<\/a>.<\/p>\n<div class=\"inline-ad\" id=\"inline-828754-1\"><\/div><p>Residents have taken note, lining up in the hundreds to <a href=\"http:\/\/www.hindustantimes.com\/delhi\/gasping-delhi-residents-take-matters-into-their-own-hands\/story-WCKe8TmcJRElsc7MzUxlTM.html\" target=\"_blank\">buy masks<\/a>. On Nov. 06, many even <a href=\"http:\/\/www.ndtv.com\/india-news\/arvind-kejriwal-calls-cabinet-meeting-to-discuss-air-pollution-in-delhi-1621912\" target=\"_blank\">gathered at Jantar Mantar to protest<\/a>, calling on the government to declare the situation a national emergency.<\/p>\n<h2>The road to hell<\/h2>\n<p>Delhi <a href=\"http:\/\/indianexpress.com\/article\/india\/india-news-india\/delhi-pollution-traffic-air-quality-second-most-polluted-city-who-3053607\/\" target=\"_blank\">ranks among the world&rsquo;s most polluted<\/a> cities, thanks in part to its enormous <a href=\"http:\/\/indianexpress.com\/article\/cities\/delhi\/delhi-becomes-worlds-second-most-populous-city-after-tokyo\/\" target=\"_blank\">population of around 25 million<\/a> and the over <a href=\"http:\/\/timesofindia.indiatimes.com\/city\/bengaluru\/At-55-lakh-Bengaluru-has-most-vehicles-plying-after-Delhi\/articleshow\/48260423.cms\" target=\"_blank\">8.8 million vehicles<\/a> that ply on its roads every day (an estimate from March 2015).<\/p>\n<p>And now, choked by a deadly cloud of smoke, visibility has reduced to <a href=\"http:\/\/www.ndtv.com\/india-news\/arvind-kejriwal-calls-cabinet-meeting-to-discuss-air-pollution-in-delhi-1621912\" target=\"_blank\">just 200 metres<\/a><strong>.<\/strong> The city has witnessed several <a href=\"http:\/\/indianexpress.com\/article\/india\/india-news-india\/diwali-effect-five-vehicles-collide-due-to-heavy-smog-3730253\/\" target=\"_blank\">road accidents<\/a> due to this over the past few days.<\/p>\n<div class=\"inline-ad\" id=\"inline-828754-2\"><\/div><p>Over the past few weeks, the crisis has been complicated by a peculiar annual agricultural practice in neighbouring states.<\/p>\n<p>&ldquo;Fireworks during Diwali marginally added to the pollution&hellip; But other things inside Delhi did not drastically change. So the smog is mainly due to smoke from farm fires,&rdquo; <a href=\"http:\/\/www.ndtv.com\/delhi-news\/delhi-resembles-a-gas-chamber-centre-needs-to-intervene-arvind-kejriwal-1621760\" target=\"_blank\">Kejriwal said<\/a><strong>.<\/strong><\/p>\n<p>Every year around this time, farmers in Punjab and Haryana&mdash;the predominantly agricultural states to the west and northwest of Delhi&mdash;<a href=\"http:\/\/www.nytimes.com\/2016\/11\/03\/world\/asia\/farmers-unchecked-crop-burning-fuels-indias-air-pollution.html?_r=0\" target=\"_blank\">burn the leftover straw<\/a> in their rice and wheat fields. This is the cheapest way to prepare the land for the next season of sowing. However, winds blowing from these states carry the smoke from these vast farmlands to Delhi, adding to the national capital&rsquo;s already high PM levels.<\/p>\n<p>Now, with no winds blowing over Delhi, the stagnant particulate matter is smothering the city. And the result is a crisis that is the worst in <a href=\"http:\/\/www.hindustantimes.com\/delhi\/delhi-s-pollution-levels-worst-in-17-years-raises-risk-of-asthma-heart-disease\/story-bIkAnQ80XDW7fUC917rzlN.html\">17 years<\/a>, the culmination of Delhi&rsquo;s decades-long struggle against pollution.<\/p>\n<h2>Making (foggy) history<\/h2>\n<p>At the time of India&rsquo;s independence in 1947, fog in Delhi was rather rare. In fact, in 1951, <a href=\"http:\/\/qz.com\/317231\/these-two-charts-show-how-delhis-fog-has-dramatically-worsened-since-1950\/\" target=\"_blank\">only one foggy day<\/a> was reported between the winter months of December and February. By 1996, there were 46 days and, by 2013, there were 74.<\/p>\n<div class=\"inline-ad\" id=\"inline-828754-3\"><\/div><p>Things worsened in the early 1990s with rapid urbanisation and growing vehicular traffic&mdash;particularly of those with diesel engines. Suspended PM hit a high of 409 &micro;g\/m3 in 1995.<\/p>\n<p>Three years later, India&rsquo;s supreme court urged the Delhi government to act, forcing buses and three-wheelers to switch to compressed natural gas (CNG), a more environment-friendly option. The results were clear. By 2000, PM levels dropped to 190 &micro;g\/m3 and <a href=\"http:\/\/indianexpress.com\/article\/india\/india-others\/seven-years-ago-everyone-saw-delhis-air-take-a-deadly-u-turn-but-no-one-did-a-thing\/\">continued to fall<\/a> for several years, reaching 161 &micro;g\/m3 in 2007.<span style=\"text-decoration:underline;\"><br><\/span><\/p>\n<p>This phase, however, did not last. With the number of vehicles rising relentlessly, PM levels jumped once again by 2008.<\/p>\n<p>&ldquo;The problem is that while emission norms were made more stringent and pollution levels dipped, the increase in vehicles skewed the matter,&rdquo; A B Akolkar, a member of India&rsquo;s Central Pollution Control Board, told the <a href=\"http:\/\/indianexpress.com\/article\/cities\/delhi\/supreme-court-ban-on-diesel-taxis-2781490\/\">Indian Express newspaper<\/a> last year. <span style=\"text-decoration:underline;\"><br><\/span><\/p>\n<div class=\"inline-ad\" id=\"inline-828754-4\"><\/div><p>And that set the stage for Delhi&rsquo;s current crisis.<\/p>\n<h2>Emergency measures<\/h2>\n<p>In January this year, the Delhi government had introduced an &ldquo;odd-even&rdquo; to regulate the city&rsquo;s vehicular traffic. This involved allowing vehicles ending with even and odd numbers to ply on alternative days. The plan was tried again in April. The results have at best been mixed.<\/p>\n<p>Now, as part of its drastic measures, the government is likely to fall back on such a plan again.<\/p>\n<p>On Nov. 06, it imposed a <a href=\"http:\/\/in.reuters.com\/article\/india-delhi-pollution-smog-idINKBN1310IF?utm_source=Facebook&amp;utm_medium=Social\" target=\"_blank\">temporary ban on construction and demolition<\/a> of buildings and the use of diesel-powered electricity generators. It also plans to vacuum clean the city&rsquo;s streets and has begun sprinkling water to settle the dust.<\/p>\n<p>Yet, the damage to the city&rsquo;s reputation and the serious financial cost it implies, will be difficult to fix. With children and the elderly being the worst-affected, many <a href=\"https:\/\/www.ft.com\/content\/df997b1a-a1c6-11e6-82c3-4351ce86813f\" target=\"_blank\">Indians and expats are already moving out<\/a>.<\/p>\n<p>In 2013, the World Bank estimated that environmental degradation could cost India&rsquo;s economy <a href=\"http:\/\/www.worldbank.org\/en\/news\/press-release\/2013\/07\/17\/india-green-growth-necessary-and-affordable-for-india-says-new-world-bank-report\" target=\"_blank\">more than $80 billion<\/a> per year. Delhi could definitely be the worst-hit as years go by, with <a href=\"https:\/\/www.ft.com\/content\/df997b1a-a1c6-11e6-82c3-4351ce86813f\" target=\"_blank\">property prices tanking and productivity levels falling<\/a>.<\/p>\n<p>For now, this crisis poses a particular problem for the government of India. It coincides with <a href=\"http:\/\/www.thehindu.com\/news\/international\/theresa-may-visits-india-under-a-cloud-of-uncertainty\/article9310526.ece\" target=\"_blank\">British prime minister Theresa May&rsquo;s arrival<\/a> in Delhi to kick off her first bilateral mission outside of the European Union. In 2015, when the city welcomed US president Barack Obama with a toxic haze, it drew flak. One report even warned that the president could <a href=\"http:\/\/www.bloomberg.com\/news\/articles\/2015-01-26\/mr-president-world-s-worst-air-is-taking-6-hours-off-your-life\" target=\"_blank\">lose around six hours<\/a> of his life by spending just three days in the capital of Asia&rsquo;s third-largest economy.<\/p>\n<p>For all of the Narendra Modi government&rsquo;s big plans to portray India as the continent&rsquo;s shining star, the national capital&rsquo;s toxic air suggests that the more things change, the more they remain the same.<\/p>\n","hero":{"id":828937,"alt":"India-Pollution-Delhi","caption":"Choked!","credit":"AP\/Altaf Qadri","width":1600,"height":900,"aspectRatio":1.7777777777778,"url":"https:\/\/qzprod.files.wordpress.com\/2016\/11\/delhi.jpg?quality=80&strip=all&w=1600","size":"extra-large"},"kicker":"DON&#039;T BREATHE","seoTitle":"India pollution: Schools shut down, expats flee, and the visiting UK PM Theresa May risks losing hours from her life as Delhi chokes","facebookTitle":"Schools shut down, expats flee, and the visiting UK PM risks losing hours from her life as Delhi chokes","facebookDescription":"Choked!","edition":"india","popularPostsRank":2,"taxonomies":{"tags":[{"name":"air pollution","slug":"air-pollution"},{"name":"Air quality index","slug":"air-quality-index"},{"name":"arvind kejriwal","slug":"arvind-kejriwal"},{"name":"Barack Obama","slug":"barack-obama"},{"name":"Crop burning","slug":"crop-burning"},{"name":"Delhi","slug":"delhi"},{"name":"Delhi air pollution","slug":"delhi-air-pollution"},{"name":"gurgaon","slug":"gurgaon"},{"name":"Haryana","slug":"haryana"},{"name":"india","slug":"india-2"},{"name":"NCR","slug":"qzt-nyse-ncr"},{"name":"New Delhi","slug":"new-delhi"},{"name":"pollution","slug":"pollution"},{"name":"punjab","slug":"punjab"},{"name":"Safar","slug":"safar"},{"name":"smog","slug":"smog"},{"name":"Theresa May","slug":"theresa-may"},{"name":"UK","slug":"uk"},{"name":"usa","slug":"usa-2"}],"topic":[{"name":"Health and Human Behavior","slug":"health-and-human-behavior-t"}]},"byline":{"authors":[{"name":"Manu Balachandran","username":"manuqz","url":"http:\/\/qz.com\/author\/manuqz\/","twitter":"MBalachandran88"},{"name":"Maria Thomas","username":"mariaqz","url":"http:\/\/qz.com\/author\/mariaqz\/","twitter":"MariaAjitThomas"}],"type":"author","label":"Written by"},"share":{"twitter":"https:\/\/twitter.com\/intent\/tweet?url=http%3A%2F%2Fqz.com%2F828754&text=Delhi%E2%80%99s%20air%20is%20so%20toxic%20that%20schools%20are%20closing%2C%20expats%20are%20fleeing%2C%20and%20the%20visiting%20UK%20PM%20could%20lose%20hours%20from%20her%20life&via=qzindia","facebook":"https:\/\/www.facebook.com\/sharer.php?u=http%3A%2F%2Fqz.com%2F828754%2Findia-pollution-schools-shut-down-expats-flee-and-the-visiting-uk-pm-theresa-may-risks-losing-hours-from-her-life-as-delhi-chokes%2F","linkedin":"http:\/\/www.linkedin.com\/shareArticle?mini=true&url=http%3A%2F%2Fqz.com%2F828754%2Findia-pollution-schools-shut-down-expats-flee-and-the-visiting-uk-pm-theresa-may-risks-losing-hours-from-her-life-as-delhi-chokes%2F&title=Delhi%E2%80%99s%20air%20is%20so%20toxic%20that%20schools%20are%20closing%2C%20expats%20are%20fleeing%2C%20and%20the%20visiting%20UK%20PM%20could%20lose%20hours%20from%20her%20life&summary=New%20Delhi%20is%20ghastly%20right%20now.%20So%20much%20so%20that%20the%20government%20in%20the%20national%20capital%20has%20shut%20down%201%2C800%20schools%20for%20the%20first%20time%E2%80%A6&source=Quartz","email":"mailto:?subject=Quartz%3A%20Delhi%E2%80%99s%20air%20is%20so%20toxic%20that%20schools%20are%20closing%2C%20expats%20are%20fleeing%2C%20and%20the%20visiting%20UK%20PM%20could%20lose%20hours%20from%20her%20life&body=http%3A%2F%2Fqz.com%2F828754%2Findia-pollution-schools-shut-down-expats-flee-and-the-visiting-uk-pm-theresa-may-risks-losing-hours-from-her-life-as-delhi-chokes%2F%0A%0ANew%20Delhi%20is%20ghastly%20right%20now.%20So%20much%20so%20that%20the%20government%20in%20the%20national%20capital%20has%20shut%20down%201%2C800%20schools%20for%20the%20first%20time%E2%80%A6%0A%0ASign%20up%20for%20the%20Quartz%20Daily%20Brief%3A%20http%3A%2F%2Fbit.ly%2Fquartzdailybrief.","whatsapp":"whatsapp:\/\/send?text=Delhi%E2%80%99s%20air%20is%20so%20toxic%20that%20schools%20are%20closing%2C%20expats%20are%20fleeing%2C%20and%20the%20visiting%20UK%20PM%20could%20lose%20hours%20from%20her%20life%3A+http%3A%2F%2Fqz.com%2F828754%2Findia-pollution-schools-shut-down-expats-flee-and-the-visiting-uk-pm-theresa-may-risks-losing-hours-from-her-life-as-delhi-chokes%2F"},"peer39":[9391,9478,9521,9506,9504,9522,9519,9507,9505,9671,9672,9656,9367,9606,9597,9369]}]}};
+	QZ.preview = false;
+	QZ.bulletinPosition = 2;
+	QZ.inlinePreview = false;
+
+	// DFP
+	(function() {
+		var gads = document.createElement("script");
+		gads.async = true;
+		gads.type = "text/javascript";
+		var useSSL = "https:" == document.location.protocol;
+		gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+		var node =document.getElementsByTagName("script")[0];
+		node.parentNode.insertBefore(gads, node);
+	})();
+
+	// Chartbeat
+	var _sf_async_config = {
+				uid: 55570
+	};
+	(function(){
+		function loadChartbeat() {
+			window._sf_endpt=(new Date()).getTime();
+			var e = document.createElement('script');
+			e.setAttribute('src',
+			(("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") + "js/chartbeat.js");
+			document.body.appendChild(e);
+		}
+		var oldonload = window.onload;
+		window.onload = (typeof window.onload != 'function') ?
+		loadChartbeat : function() { oldonload(); loadChartbeat(); };
+	})();
+
+	// Bizo
+	var _bizo_data_partner_id = "1016";
+	(function(){
+		var b,a,u;a=document.createElement("script");
+		a.type="text/javascript"; a.async=true;
+		u=(window.location.protocol==="https:"?"https://sjs.":"http://js.") + "bizographics.com/insight.min.js";
+		a.src=u; b=document.getElementsByTagName("script")[0];
+		return b.parentNode.insertBefore(a,b);
+	})();
+
+	// Comscore
+	var _comscore = _comscore || [];
+	_comscore.push({ c1: "2", c2: "6463921" });
+	(function() {
+		var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+		s.async = true;
+		s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+	})();
+
+	// Facebook
+	(function() {
+		var _fbq = window._fbq || (window._fbq = []);
+		if (!_fbq.loaded) {
+			var fbds = document.createElement('script');
+			fbds.async = true;
+			fbds.src = '//connect.facebook.net/en_US/fbds.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(fbds, s);
+			_fbq.loaded = true;
+		}
+		_fbq.push(['addPixelId', '1416115438681460']);
+	})();
+	window._fbq = window._fbq || [];
+	window._fbq.push(['track', 'PixelInitialized', {}]);
+
+
+	
+	
+
+
+
+
+  
+
+
+(function(s, p, d) {
+  var h=d.location.protocol, i=p+"-"+s,
+      e=d.getElementById(i), r=d.getElementById(p+"-root"),
+      u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+      :"static."+p+".com";
+  if (e) return;
+  e = d.createElement(s); e.id = i; e.async = true;
+  e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+})("script", "parsely", document);
+

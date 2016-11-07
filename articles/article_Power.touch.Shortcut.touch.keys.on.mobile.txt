@@ -1,0 +1,554 @@
+GitHub - rokyed/power-touch
+    
+    Skip to content
+
+    
+    
+    
+
+
+
+          
+    
+      
+
+    
+      
+
+    
+      
+          Personal
+        
+          Open source
+        
+          Business
+        
+          Explore
+      
+            Sign up
+          Sign in
+      
+
+        Pricing
+          Blog
+          Support
+          Search GitHub
+              
+  
+    
+      This repository
+      
+
+
+        
+  
+
+
+      
+
+
+
+    
+        
+    
+      
+
+  
+
+    
+
+
+      
+    
+    Watch
+  
+  
+    3
+  
+
+  
+
+  
+      
+    
+    Star
+  
+
+    
+      10
+    
+
+  
+
+  
+      
+        
+        Fork
+      
+
+    
+      1
+    
+  
+
+  rokyed/power-touch
+
+
+
+  
+  
+    
+
+    
+      Code
+        
+
+    
+      
+        Issues
+        2
+            
+
+  
+    
+      Pull requests
+      1
+        
+
+  
+    
+    Projects
+    0
+
+
+
+  
+    
+    Pulse
+
+  
+    
+    Graphs
+
+
+
+
+
+
+  
+
+    
+
+  
+      No description or website provided.
+  
+
+
+
+
+
+  
+    
+    
+        
+            
+              9
+            
+            commits
+        
+      
+      
+        
+          
+            1
+          
+          branch
+        
+      
+
+      
+        
+          
+            0
+          
+          releases
+        
+      
+
+      
+          
+  
+      1
+    
+    contributor
+
+
+      
+    
+        
+              
+                
+                JavaScript
+                68.2%
+              
+          
+          
+              
+                
+                CSS
+                19.5%
+              
+          
+          
+              
+                
+                HTML
+                12.3%
+              
+          
+        
+    
+  
+
+
+  
+    JavaScript
+    CSS
+    HTML
+  
+
+
+
+
+    
+  
+    Clone or download
+  
+
+  
+    
+      
+
+        
+          Clone with HTTPS
+          
+            
+        
+        
+          Use Git or checkout with SVN using the web URL.
+        
+
+        
+  
+    
+  
+
+
+      
+
+
+      
+        
+
+  Download ZIP
+
+
+      
+    
+  
+
+
+
+  
+
+    
+      Find file
+    
+  
+
+  
+
+  
+    Branch:
+    master
+  
+
+  
+
+    
+      
+        Switch branches/tags
+      
+
+      
+        
+          
+        
+          
+              Branches
+            
+            
+              Tags
+            
+          
+      
+
+      
+
+        
+
+
+            
+              
+                master
+              
+            
+        
+
+          Nothing to show
+      
+
+      
+        
+
+
+        
+
+        Nothing to show
+      
+
+    
+  
+
+
+
+      
+        New pull request
+      
+
+  
+    
+  
+
+
+
+
+
+
+  
+    
+      Latest commit
+      
+        cf759dc
+      
+      Nov 7, 2016
+    
+
+
+    
+      rokyed
+    
+
+        [readme]
+    
+
+  
+
+
+
+
+  Permalink
+
+  
+        Failed to load latest commit information.
+      
+            
+          
+            resources
+          
+          
+            
+                  [improved style and added google material icons]
+            
+          
+          
+            Nov 7, 2016
+          
+        
+            
+          
+            .gitignore
+          
+          
+            
+                  [first commit]
+            
+          
+          
+            Nov 6, 2016
+          
+        
+            
+          
+            README.md
+          
+          
+            
+                  [readme]
+            
+          
+          
+            Nov 7, 2016
+          
+        
+            
+          
+            config.json
+          
+          
+            
+                  [added console execution to play]
+            
+          
+          
+            Nov 6, 2016
+          
+        
+            
+          
+            index.html
+          
+          
+            
+                  [improved style and added google material icons]
+            
+          
+          
+            Nov 7, 2016
+          
+        
+            
+          
+            index.js
+          
+          
+            
+                  [embelishment for visuals]
+            
+          
+          
+            Nov 7, 2016
+          
+        
+            
+          
+            package.json
+          
+          
+            
+                  [working]
+            
+          
+          
+            Nov 6, 2016
+          
+        
+            
+          
+            shortcuts.json
+          
+          
+            
+                  [improved style and added google material icons]
+            
+          
+          
+            Nov 7, 2016
+          
+        
+
+
+
+  
+    
+      
+      README.md
+    
+
+      POWER-TOUCH
+
+Shortcut touch keys on mobile.
+
+please install pm2 to start the daemon
+
+for the moment supports only buttons, in the future, I wish to implement, contexted button sets, contexted enhaced controls (like skippin in a song for a player)
+
+I am open to any sugestion and any feedback
+
+Requirements
+
+Node v6.6.0
+
+npm install
+node index.js
+# or
+pm2 start index.js
+
+
+
+
+  
+  
+
+
+
+    
+  
+
+    
+
+        
+  
+    Contact GitHub
+      API
+      Training
+      Shop
+        Blog
+        About
+
+    
+      
+    © 2016 GitHub, Inc.
+        Terms
+        Privacy
+        Security
+        Status
+        Help
+    
+
+
+
+
+    
+
+    
+      
+        
+      You can't perform that action at this time.
+    
+
+
+      
+      You signed in with another tab or window. Reload to refresh your session.
+      You signed out in another tab or window. Reload to refresh your session.
+    
+    
+  
+    
+    
+    
+      
+  
+
+
+  

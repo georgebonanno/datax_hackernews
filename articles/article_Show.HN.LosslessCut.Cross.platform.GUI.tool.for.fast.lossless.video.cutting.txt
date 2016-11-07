@@ -1,0 +1,700 @@
+GitHub - mifi/lossless-cut: Cross platform GUI tool for lossless trimming / cutting of videos using ffmpeg
+    
+    Skip to content
+
+    
+    
+    
+
+
+
+          
+    
+      
+
+    
+      
+
+    
+      
+          Personal
+        
+          Open source
+        
+          Business
+        
+          Explore
+      
+            Sign up
+          Sign in
+      
+
+        Pricing
+          Blog
+          Support
+          Search GitHub
+              
+  
+    
+      This repository
+      
+
+
+        
+  
+
+
+      
+
+
+
+    
+        
+    
+      
+
+  
+
+    
+
+
+      
+    
+    Watch
+  
+  
+    7
+  
+
+  
+
+  
+      
+    
+    Star
+  
+
+    
+      37
+    
+
+  
+
+  
+      
+        
+        Fork
+      
+
+    
+      4
+    
+  
+
+  mifi/lossless-cut
+
+
+
+  
+  
+    
+
+    
+      Code
+        
+
+    
+      
+        Issues
+        2
+            
+
+  
+    
+      Pull requests
+      0
+        
+
+  
+    
+    Projects
+    0
+
+
+
+  
+    
+    Pulse
+
+  
+    
+    Graphs
+
+
+
+
+
+
+  
+
+    
+
+  
+         Cross platform GUI tool for lossless trimming / cutting of videos using ffmpeg
+  
+
+
+
+
+
+  
+    
+    
+        
+            
+              23
+            
+            commits
+        
+      
+      
+        
+          
+            1
+          
+          branch
+        
+      
+
+      
+        
+          
+            3
+          
+          releases
+        
+      
+
+      
+          
+  
+      1
+    
+    contributor
+
+
+      
+        
+          
+            
+              MIT
+          
+        
+    
+        
+              
+                
+                CSS
+                89.2%
+              
+          
+          
+              
+                
+                JavaScript
+                9.0%
+              
+          
+          
+              
+                
+                Shell
+                1.6%
+              
+          
+          
+              
+                
+                HTML
+                0.2%
+              
+          
+        
+    
+  
+
+
+  
+    CSS
+    JavaScript
+    Shell
+    HTML
+  
+
+
+
+
+    
+  
+    Clone or download
+  
+
+  
+    
+      
+
+        
+          Clone with HTTPS
+          
+            
+        
+        
+          Use Git or checkout with SVN using the web URL.
+        
+
+        
+  
+    
+  
+
+
+      
+
+
+      
+        
+
+  Download ZIP
+
+
+      
+    
+  
+
+
+
+  
+
+    
+      Find file
+    
+  
+
+  
+
+  
+    Branch:
+    master
+  
+
+  
+
+    
+      
+        Switch branches/tags
+      
+
+      
+        
+          
+        
+          
+              Branches
+            
+            
+              Tags
+            
+          
+      
+
+      
+
+        
+
+
+            
+              
+                master
+              
+            
+        
+
+          Nothing to show
+      
+
+      
+        
+
+
+            
+              
+                v1.2.0
+              
+            
+            
+              
+                v1.1.0
+              
+            
+            
+              
+                v1.0.0
+              
+            
+        
+
+        Nothing to show
+      
+
+    
+  
+
+
+
+      
+        New pull request
+      
+
+  
+    
+  
+
+
+
+
+
+
+  
+    
+      Latest commit
+      
+        bf03d60
+      
+      Nov 6, 2016
+    
+
+
+    
+      mifi
+    
+
+        Preserve links when zipping
+          
+            …
+          
+    
+
+      To reduce output file size on mac
+  
+
+
+
+
+  Permalink
+
+  
+        Failed to load latest commit information.
+      
+            
+          
+            scripts/ffmpeg-dl
+          
+          
+            
+                  - Icon
+            
+          
+          
+            Nov 5, 2016
+          
+        
+            
+          
+            src
+          
+          
+            
+                  - Icon
+            
+          
+          
+            Nov 5, 2016
+          
+        
+            
+          
+            test
+          
+          
+            
+                  - Icon
+            
+          
+          
+            Nov 5, 2016
+          
+        
+            
+          
+            .babelrc
+          
+          
+            
+                  initial
+            
+          
+          
+            Oct 30, 2016
+          
+        
+            
+          
+            .eslintrc
+          
+          
+            
+                  initial
+            
+          
+          
+            Oct 30, 2016
+          
+        
+            
+          
+            .gitignore
+          
+          
+            
+                  - Icon
+            
+          
+          
+            Nov 5, 2016
+          
+        
+            
+          
+            .travis.yml
+          
+          
+            
+                  Add lint and travis
+            
+          
+          
+            Oct 31, 2016
+          
+        
+            
+          
+            LICENSE
+          
+          
+            
+                  Initial commit
+            
+          
+          
+            Oct 30, 2016
+          
+        
+            
+          
+            README.md
+          
+          
+            
+                  Update README.md
+            
+          
+          
+            Nov 6, 2016
+          
+        
+            
+          
+            TODO.md
+          
+          
+            
+                  - Icon
+            
+          
+          
+            Nov 5, 2016
+          
+        
+            
+          
+            package.json
+          
+          
+            
+                  Preserve links when zipping
+            
+          
+          
+            Nov 6, 2016
+          
+        
+            
+          
+            screenshot.jpg
+          
+          
+            
+                  - Icon
+            
+          
+          
+            Nov 5, 2016
+          
+        
+
+
+
+  
+    
+      
+      README.md
+    
+
+      LosslessCut 🎥
+
+Simple, cross platform video editor for lossless trimming / cutting of videos. Great for rough processing of large video files taken from a video camera, GoPro, drone, etc. Lets you quickly extract the good parts from your videos and discard GB of data without losing quality. It doesn't do any decoding / encoding and is therefore extremely fast. Also allows for taking JPEG snapshots of the video at the selected time. This app uses the awesome ffmpeg🙏 for doing the grunt work. Also supports lossless cutting in the most common audio formats.
+
+ffmpeg is now included in the app! 🎉
+
+
+
+Installing / running
+
+Download latest LosslessCut from releases
+Run LosslessCut app/exe
+Documentation
+
+Supported platforms
+
+Mac OS X
+Windows (64/32bit)
+Linux (64/32bit, not tested)
+Supported formats
+
+Since LosslessCut is based on Chromium and uses the HTML5 video player, not all ffmpeg supported formats will be supported.
+The following formats/codecs should generally work: MP4, MOV, WebM, MKV, OGG, WAV, MP3, AAC, H264, Theora, VP8, VP9
+For more information about supported formats / codecs, see https://www.chromium.org/audio-video.
+
+Typical flow
+
+Drag drop a video file into player to load or use ⌘/CTRL+O.
+Press SPACE to play/pause
+Select the cut start and end time
+Press the scissors button to export the slice
+Press the camera button to take a snapshot
+The original video files will not be modified. Instead it creates a lossless export in the same directory as the original file with from/to timestamps. Note that the cut is currently not precise around the cutpoints, so video before/after the nearest keyframe will be lost. EXIF data is preserved.
+
+Keyboard shortcuts
+
+SPACE, k Play/pause
+j Slow down video
+l Speed up video
+← Seek backward 1 sec
+→ Seek forward 1 sec
+. (period) Tiny seek forward
+, (comma) Tiny seek backward
+i Mark in / cut start point
+o Mark out / cut end point
+e Export selection (in the same dir as the video)
+c Capture snapshot (in the same dir as the video)
+Development building / running
+
+This app is built using Electron. Make sure you have at least node v4 with npm 3. The app uses ffmpeg from PATH when developing.
+
+git clone https://github.com/mifi/lossless-cut.git
+cd lossless-cut
+npm install
+
+
+Running
+
+In one terminal:
+
+npm run watch
+
+
+Then:
+
+npm start
+
+
+Building package
+
+npm run download-ffmpeg
+npm run extract-ffmpeg
+npm run build
+npm run icon-gen
+npm run package # builds all platforms
+
+
+Credits
+
+App icon made by Dimi Kazak from www.flaticon.com is licensed by CC 3.0 BY
+
+
+
+  
+  
+
+
+
+    
+  
+
+    
+
+        
+  
+    Contact GitHub
+      API
+      Training
+      Shop
+        Blog
+        About
+
+    
+      
+    © 2016 GitHub, Inc.
+        Terms
+        Privacy
+        Security
+        Status
+        Help
+    
+
+
+
+
+    
+
+    
+      
+        
+      You can't perform that action at this time.
+    
+
+
+      
+      You signed in with another tab or window. Reload to refresh your session.
+      You signed out in another tab or window. Reload to refresh your session.
+    
+    
+  
+    
+    
+    
+      
+  
+
+
+  

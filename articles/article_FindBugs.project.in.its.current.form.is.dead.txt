@@ -1,0 +1,257 @@
+ [FB-Discuss] Project status
+   
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   
+   [FB-Discuss] Project status
+    Andrey Loskutov 
+    loskutov at gmx.de
+       Wed Nov  2 06:05:20 EDT 2016
+    Previous message: [FB-Discuss] Project status
+
+        Next message: [FB-Discuss] Project status
+
+          Messages sorted by: 
+              [ date ]
+              [ thread ]
+              [ subject ]
+              [ author ]
+         
+       Hi all,
+
+TL;DR: I'm really sorry to say, but FindBugs project in its current form 
+is dead.
+
+Longer explanation follows.
+
+Current project setup is:
+
+1) On the plus side, we have two committers with push rights to the 
+github repo, however one from this two (Tagir) is not active anymore for 
+the project and second one (me) has no free time to work on the project. 
+That's however all about the good things...
+
+2) Only the project leader Bill Pugh has admin rights for the project 
+web page and the github project group and page. We cannot deploy any 
+website update, we can't add new project members, we can't manage code 
+access rights, we can't publish releases to the well known update sites 
+without his help. Without him, we have no admin rights to anything, we 
+can only push to the repository.
+
+3) It looks like Bill Pugh is not interested in the FindBugs project 
+anymore, and we can't reach them. I say "it looks like" because we 
+requested his help for the project many times (via direct mails, 
+postings to the list and to the github issues) but haven't received any 
+sign of life from him since a year. We know that he is active elsewhere 
+(https://twitter.com/wpugh). A week ago I've sent another mail to Bill 
+(and CC to the findbugs-core at lists.sourceforge.net mailing list) asking 
+him about the current project state - with no answer so far. You can 
+read my mail in the attachment. IMHO no answer to this mail was the 
+answer enough. Either Bill has completely lost access to his old mail 
+account (which is possible too) or he is ignoring me or the project 
+(which is more likely).
+
+If someone has a possibility to contact him in some way 
+(twitter/mail/phone/whatever) and point him to the discussion on this 
+list - please do so!
+
+Without Bill Pugh FindBugs project is headless and effectively *finally* 
+dead. It is not the *only* reason for the project to be dead, but a 
+bigger one, and the last one.
+
+The other major reasons for the FindBugs current bad state:
+
+1) The code is very complex, has "organically grown" over a decade, is 
+not documented and has poor public interfaces. Most of the code consists 
+of the very low level bytecode related stuff, tightly coupled with the 
+ancient BCEL library, which doesn't scale and is not multi-thread safe. 
+No one enjoys maintaining this code, at least not me. I see no future 
+for FindBugs with the BCEL approach, and see no way to get rid of it 
+without investing lot of effort, and without breaking every detector and 
+possibly many 3rd party tools. This is the biggest issue we have with 
+FindBugs today, and most likely the root cause for all the evil. This 
+code can't be fixed, it must be rewritten.
+
+2) Because the code is as it is, there are not so many people willing to 
+contribute. We see some pull requests on github, but most of them are 
+smaller fixes or enhancements (many thanks to you guys, and sorry I have 
+no time to review and test all of them!). Those who were willing and 
+able to contribute leaved the project one by one. At last, we had Tagir 
+contributed lot of things (many thanks!), but since he left us for his 
+own project (https://github.com/amaembo/huntbugs) we saw no major code 
+contributions anymore. BTW the fact that he left the project is also a 
+sign that the project is in a very bad shape - it was easier for him to 
+write the code from scratch as to continue supporting FindBugs. 
+Currently I'm the last committer left on the project, and I'm not really 
+active because lack of the free time. We clearly failed to build a 
+contributors community.
+
+3) We have *zero* support from organizations. There are no companies 
+investing into the project in any way (neither via code patches or 
+testing, nor via spending developers time for the project), although I 
+know there are companies using FindBugs in their commercial products, 
+for example SonarSource and Coverity, and of course there are many 
+companies and projects just using FindBugs in their build processes.
+
+Add to this the project leader ignoring all communication with the 
+project and you will agree with me that FindBugs today is a headless 
+"zombie" project without future.
+
+However, FindBugs is still useful, even in its current state, and it 
+will be sad to throw it away just because it can't evolve as we all 
+would like.
+
+So what do we need to keep it alive?
+
+1) We must be able to update the project site and to point all links to 
+github. This is needed because many people still use old sourceforge 
+tracker to report bugs or enhancements, and github made contributions 
+and communication much easier for everyone.
+
+2) We must be able to shut down the old sourceforge bug tracker and 
+forums and point all links to github.
+
+3) We must be able to grant access rights to the github project for 
+those who can and will contribute.
+
+4) We must be able to publish the new releases to the well known 
+download sites or at least point the project webpage to the github 
+releases page (https://github.com/findbugsproject/findbugs/releases).
+
+5) We should configure automated build and test (for example via 
+TravisCI as suggested via 
+https://github.com/findbugsproject/findbugs/pull/48). Without this it is 
+hard to review pull requests, because manual build and test requires lot 
+of time.
+
+6) We need more people contributing, testing and reviewing patches. We 
+have currently 15 open pull requests, and it would be nice if they were 
+reviewed and tested.
+
+What can we do, and which alternatives do we have:
+
+1) As one can see, we can't do points 1-5 without Bill. If someone 
+somehow manages to contact Bill (twiter/mail/phone/whatever) - please do 
+that and get a clear statement from him what he as a project leader 
+plans to do to solve the points above. As far as I can understand it 
+(looking on Bill public activities), he has no will to spend any time on 
+project problems because they don't really hurt him. A possible solution 
+here would be to find some person to whom Bill have give the admin 
+rights, so that we can solve points 1-5 without requesting time from 
+Bill. Unfortunately, from my personal experience so far (after many 
+years on the project) I believe that Bill still doesn't trust me 
+(because I'm from Russia and Russia is evil), so it is very unlikely 
+that he will give me admin rights. This is sad, but this is something I 
+can't influence in any way. At least I'm happy to know that Eclipse 
+projects I'm contributing to *do* trust me (JGit, EGit, Platform UI).
+
+2) If someone wants to fork FindBugs, this could be a way to go, but 
+this should be the last resort from my point of view. A fork is the 
+worst thing we can do, but probably better as the dead project anyway. 
+My personal advice would be - don't do it, but start your own project, 
+without legacy code, or join Tagir on his HuntBugs project: 
+https://github.com/amaembo/huntbugs, or join any other project in the 
+universe suitable to analyze Java code.
+
+3) Without active committers and without changes in the code base 
+FindBugs will become more and more irrelevant. FindBugs will not support 
+lambda's, type annotations and any new Java 8+ language features without 
+major changes in the project state. No serious code contribution is 
+possible with the current setup, because I'm alone and definitely can't 
+spend so much time for the project. I will keep the FindBugs and Eclipse 
+plugin running until there will be a better (open source) alternative 
+with Ant and Eclipse support. I will be happy to name you a comparable 
+alternative today, but I don't see any yet. I hope HuntBugs could be 
+such alternative, but it is not yet there.
+
+That's basically all what I wanted to say for a long time about the 
+FindBugs project state, and sorry for the long mail.
+
+-- 
+Kind regards,
+Andrey Loskutov
+
+http://google.com/+AndreyLoskutov
+
+Am 01.11.2016 um 21:53 schrieb Juan Martín Sotuyo Dodero:
+> Hi everyone,
+>
+> Over the last week I've been talking with several members of the
+> FindBugs community and so far we all share the same worries. FindBugs is
+> stagnant due to the prolonged absence of Bill Pugh.
+>
+> It's hard to imagine a future for FindBugs where no one can update the
+> SourceForge pages, make a release on SourceForge, enable a CI server
+> such as Travis, add members to the GitHub organization or even publish
+> to Maven Central.
+>
+> Currently only Andrey Loskutov sees to be active. I've seen him trying
+> to get Bill to perform many of these tasks over the past, and retrying
+> recently, but time keeps passing. It's been 9 months since he requested
+> to update the site
+> <https://github.com/findbugsproject/findbugs/issues/80> and 13
+> since people requested to enable Travis
+> <https://github.com/findbugsproject/findbugs/pull/48>.
+>
+> I would like to know if anyone has any knowledge of Bill's current
+> status. His github page <https://github.com/billpugh> shows he has been
+> working sporadically over the last year, but always on other projects.
+>
+> I strongly believe the team needs to get reorganized, but I fear without
+> Bill to grant accesses, this is next to impossible. Myself and those
+> I've contacted dread this horrible idea, but fear that the only way
+> forward as things stand is forking FindBugs. This is clearly a last
+> resource, and under no circumstance our first choice; but as months keep
+> passing, it seems ever more appealing.
+>
+> Is there any way the current situation can be reverted? Can we help in
+> any way?
+>
+> Shall there not be, we are most likely to start a new organization and
+> adopt a different name (FindBugs is trademarked), but would probably
+> commit to keeping binary compatibility (public APIs) to minimize
+> transition cost for anyone moving with us. Everyone willing to
+> contribute would be more than welcomed.
+>
+> Once again, we would rather not have to take this course. I hope it can
+> be avoided for the sake of FindBugs.
+>
+> Thanks for your time
+>
+>
+> _______________________________________________
+> Findbugs-discuss mailing list
+> Findbugs-discuss at cs.umd.edu
+> https://mailman.cs.umd.edu/mailman/listinfo/findbugs-discuss
+>
+
+-- 
+Kind regards,
+Andrey Loskutov
+
+http://google.com/+AndreyLoskutov
+-------------- next part --------------
+An embedded message was scrubbed...
+From: Andrey Loskutov <loskutov at gmx.de>
+Subject: FindBugs state
+Date: Sat, 22 Oct 2016 09:17:16 +0200
+Size: 1675
+URL: <https://mailman.cs.umd.edu/pipermail/findbugs-discuss/attachments/20161102/ce01b48c/attachment.mht>
+
+
+
+
+
+    Previous message: [FB-Discuss] Project status
+
+	Next message: [FB-Discuss] Project status
+
+          Messages sorted by: 
+              [ date ]
+              [ thread ]
+              [ subject ]
+              [ author ]
+         
+       More information about the Findbugs-discuss
+mailing list

@@ -1,0 +1,871 @@
+Beware, iPhone Users: Fake Retail Apps Are Surging Before Holidays - The New York Timesvar NYTD=NYTD||{};NYTD.Abra=function(t){"use strict";function n(t){var n=u[t];return n&&n[1]||null}function e(t,n){if(t){var e,o,r=n[0],u=n[1],a=0,c=0;if(1!==u.length||4294967296!==u[0])for(e=i(t+" "+r)>>>0,a=0,c=0;o=u[a++];)if(e<(c+=o[0]))return o}}function o(n,e,o,i){f+="subject="+n+"&test="+encodeURIComponent(e)+"&variant="+encodeURIComponent(o||0)+"&url="+encodeURIComponent(t.location.href)+"&instant=1&skipAugment=true\n",i&&s.push(i),c||(c=t.setTimeout(r,0))}function r(){var n=new t.XMLHttpRequest,e=s;n.withCredentials=!0,n.open("POST",a),n.onreadystatechange=function(){var t,o;if(4==n.readyState)for(t=200==n.status?null:new Error(n.statusText);o=e.shift();)o(t)},n.send(f),f="",s=[],c=null}function i(t){for(var n,e,o,r,i,u,a,c=0,f=0,s=[],l=[n=1732584193,e=4023233417,~n,~e,3285377520],h=[],p=t.length;f<=p;)h[f>>2]|=(f<p?t.charCodeAt(f):128)<<8*(3-f++%4);for(h[a=p+8>>2|15]=p<<3;c<=a;c+=16){for(n=l,f=0;f<80;n=[0|[(u=((t=n[0])<<5|t>>>27)+n[4]+(s[f]=f<16?~~h[c+f]:u<<1|u>>>31)+1518500249)+((e=n[1])&(o=n[2])|~e&(r=n[3])),i=u+(e^o^r)+341275144,u+(e&o|e&r|o&r)+882459459,i+1535694389][0|f++/20],t,e<<30|e>>>2,o,r])u=s[f-3]^s[f-8]^s[f-14]^s[f-16];for(f=5;f;)l[--f]=l[f]+n[f]|0}return l[0]}var u,a,c,f="",s=[];return n.init=function(n,r){var i,c,f,s,l,h=[],p=(t.document.cookie.match(/(^|;) *nyt-a=([^;]*)/)||[])[2],d=(t.document.cookie.match(/(^|;) *ab7=([^;]*)/)||[])[2];if(u)throw new Error("can't init twice");if(a=r,u={},d)for(d=decodeURIComponent(d).split("&"),i=0;i<d.length;i++)l=d[i].split("="),u[l[0]]=l[1],l[1]&&h.push(l[0]+"="+l[1]);for(i=0;i<n.length;i++)f=n[i],c=f[0],c in u||(s=e(p,f)||[],u[c]=s,s[1]&&h.push(c.replace(/[^\w-]/g)+"="+(""+s[1]).replace(/[^\w-]/g)),s[2]&&o("ab-alloc",c,s[1]));h.length&&t.document.documentElement.setAttribute("data-nyt-ab",h.join(" "))},n.reportExposure=function(n,e){var r=u[n];r&&r[2]?o("ab-expose",n,r[0],e):e&&t.setTimeout(function(){e(null)},0)},n}(this);NYTD.Abra.init([["www-buffet-newsletter-test",[[4294967296,"variant2",1]]],["www-story-reader-satisfaction",[[21474837,"Control",1],[21474836,"VariantA",1],[4252017623,null,0]]],["EC_SampleTest",[[2147483648,"variantA",0],[2147483648,"variantB",0]]],["EC_DigiAbandonmentTest",[[4294967296,"control",1]]]], '//et.nytimes.com/')
+{"pageconfig":{"ledeMediaSize":"none","keywords":["article-medium"],"collections":{"syndicated":["apple","facebook"]}}}
+            []    
+    var PREBID_TIMEOUT = 300;
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function () {
+        window.advBidxc = window.advBidxc || {};
+        window.advBidxc.renderAd = function () {};
+        window.advBidxc.startTime = new Date().getTime();
+        window.advBidxc.customerId = "8CU2553YN"; //Media.net Customer ID
+        function loadScript(tagSrc) {
+            if (tagSrc.substr(0, 4) !== 'http') {
+                var isSSL = 'https:' == document.location.protocol;
+                tagSrc = (isSSL ? 'https:' : '') + tagSrc;
+            }
+            var scriptTag = document.createElement('script'),
+                placeTag = document.getElementsByTagName("script")[0];
+            scriptTag.type = 'text/javascript';
+            scriptTag.async = true;
+            scriptTag.src = tagSrc;
+            placeTag.parentNode.insertBefore(scriptTag, placeTag);
+        }
+
+        function loadGPT() {
+            if (!window.advBidxc.isAdServerLoaded) {
+                loadScript('//www.googletagservices.com/tag/js/gpt.js');
+                window.advBidxc.isAdServerLoaded = true;
+            }
+        }
+
+        window.advBidxc.loadGPT = setTimeout(loadGPT, PREBID_TIMEOUT);
+
+        var isSSL = 'https:' == document.location.protocol;
+        var mnSrc = (isSSL ? 'https:' : 'http:') + '//contextual.media.net/bidexchange.js?cid=' + window.advBidxc.customerId + (isSSL ? '&https=1' : '');
+        document.write('<scr' + 'ipt type="text/javascript" src="' + mnSrc + '"></scr' + 'ipt>');
+    })();
+
+        var amznads = amznads || {};
+        amznads.asyncParams = {
+            'id': '3030',
+            'callbackFn': function() {
+                try {
+                    amznads.setTargetingForGPTAsync('amznslots');
+                } catch (e) { }
+            },
+            'timeout': 1000
+        };
+
+        (function() {
+            var a, s = document.getElementsByTagName("script")[0];
+            a = document.createElement("script");
+            a.type = "text/javascript";
+            a.async = true;
+            a.src = "https://c.amazon-adsystem.com/aax2/amzn_ads.js";
+            s.parentNode.insertBefore(a, s);
+        })();
+    
+			{"url":"http:\/\/www.nytimes.com\/2016\/11\/07\/technology\/more-iphone-fake-retail-apps-before-holidays.html","trending_type":"trending_page","rank":18,"data_type":"article","labels":[]}	
+var require = {
+    baseUrl: 'https://a1.nyt.com/assets/',
+    waitSeconds: 20,
+    paths: {
+        'foundation': 'article/20161104-095752/js/foundation',
+        'shared': 'article/20161104-095752/js/shared',
+        'article': 'article/20161104-095752/js/article',
+        'application': 'article/20161104-095752/js/article/story',
+        'videoFactory': 'https://static01.nyt.com/js2/build/video/2.0/videofactoryrequire',
+        'videoPlaylist': 'https://static01.nyt.com/js2/build/video/players/extended/2.0/appRequire',
+        'auth/mtr': 'https://static01.nyt.com/js/mtr',
+        'auth/growl': 'https://static01.nyt.com/js/auth/growl/default',
+        'vhs': 'https://static01.nyt.com/video/vhs/build/vhs-2.x.min'
+    },
+    map: {
+        '*': {
+            'story/main': 'article/story/main'
+        }
+    }
+};
+
+window.magnum.processFlags(["limitFabrikSave","moreFollowSuggestions","unfollowComments","scoopTool","videoVHSCover","videoVHSShareTools","videoVHSLive","videoVHSNewControls","videoVHSEmbeddedOnly","allTheEmphases","freeTrial","dedupeWhatsNext","trendingPageLinks","sprinklePaidPost","headerBidder","largeLedeXXL","standardizeWhatsNextCollection","onlyLayoutA","simple","simpleExtendedByline","collectionsWhatsNext","shareToolsUnderHeadline","mobileMediaViewer","storyPrint","podcastInLede","MovieTickets","requestTragedyAd","MoreInSubsectionFix","seriesIssueMarginalia","serverSideCollectionUrls","multipleBylines","minimalAds","adDisclaimer","inlineAdStyles","fabrikWebsocketsOnly","storyFlexFrames","translationLinks","phaseOneAds","papihttps","verticalFullBleed","updateRestaurantReservations","flexAdsPhase2","flexAdsonSectionBug","newsletterInlineModule","PersonalizationApiUpdate","a9HeaderEnabled","removeInternationalEdition","headlineBalancer","clientSideABRA","newsletterTitleTracking","surveyInterstitial","newsletterBuffet","flexExclusivity","removeFBMessengerPromo","paidpostSprinklingFix","abraOverrideVersion"]);
+
+    require(['foundation/main'], function () {
+        require(['auth/mtr', 'auth/growl']);
+    });
+    
+    
+    
+    .lt-ie10 .messenger.suggestions {
+        display: block !important;
+        height: 50px;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-bed {
+        background-color: #f8e9d2;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .lt-ie10 .messenger.suggestions .message-container {
+        padding: 11px 18px 11px 30px;
+    }
+
+    .lt-ie10 .messenger.suggestions .action-link {
+        font-family: "nyt-franklin", arial, helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        color: #a81817;
+        text-transform: uppercase;
+    }
+
+    .lt-ie10 .messenger.suggestions .alert-icon {
+        background: url('https://static01.nyt.com/images/icons/icon-alert-12x12-a81817.png') no-repeat;
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        margin-top: -2px;
+        float: none;
+    }
+
+    .lt-ie10 .masthead,
+    .lt-ie10 .navigation,
+    .lt-ie10 .comments-panel {
+        margin-top: 50px !important;
+    }
+
+    .lt-ie10 .ribbon {
+        margin-top: 97px !important;
+    }
+
+    
+        
+            
+                
+                    NYTimes.com no longer supports Internet Explorer 9 or earlier. Please upgrade your browser.
+                    LEARN MORE »
+                
+            
+        
+    
+
+
+    
+    
+        
+            Sections
+            
+                Home
+            
+            Search
+            Skip to content
+                        Skip to navigation
+                                    View mobile version
+                    
+        
+            
+                
+                    The New York Times
+                
+            
+            window.magnum.writeLogo('small', 'https://a1.nyt.com/assets/article/20161104-095752/images/foundation/logos/', 'technology', 'masthead-theme-standard', 'standard', 'branding-heading-link', 'article');
+                
+            Technology|Beware, iPhone Users: Fake Retail Apps Are Surging Before Holidays
+        
+        
+            
+
+
+
+            Search
+            
+            
+                Subscribe Now
+                Log In
+                                                0
+                Settings
+            
+        
+    
+    
+    Close search
+    Site Search Navigation
+    
+        
+            
+                                Search NYTimes.com
+                            
+            
+                                Clear this text input
+                
+                    
+                Go
+            
+        
+    
+
+    
+http://nyti.ms/2edFLyF
+        
+                Loading...
+            
+        
+            See next articles
+                
+                    
+                
+            See previous articles
+                
+                    
+                
+            
+    
+Site Navigation
+Site Mobile Navigation
+
+    
+        
+    
+    Advertisement
+
+
+
+        
+    
+                        
+    
+                            
+                    Supported by
+                    
+                
+                                        
+                                            Technology                                                                                                                                            
+                        			Beware, iPhone Users: Fake Retail Apps Are Surging Before Holidays
+	                                                
+                                                                                                    
+
+By VINDU GOELNOV. 6, 2016
+
+                                    
+                        
+Continue reading the main story
+Share This Page
+
+Continue reading the main story
+
+
+                                                                                                
+                            
+        
+    
+        if (
+            window.magnum
+            && window.magnum.getFlags().indexOf('headlineBalancer') > 0
+            && window.magnum.headlineBalancer
+            && window.magnum.headlineBalancer.initialize
+            && window.magnum.headlineBalancer.shouldRun()
+        ) {
+            window.magnum.headlineBalancer.initialize();
+        }
+    
+    
+        SAN FRANCISCO — Hundreds of fake retail and product apps have popped up in Apple’s App Store in recent weeks — just in time to deceive holiday shoppers.The counterfeiters have masqueraded as retail chains like Dollar Tree and Foot Locker, big department stores like Dillard’s and Nordstrom, online product bazaars like Zappos.com and Polyvore, and luxury-goods makers like Jimmy Choo, Christian Dior and Salvatore Ferragamo.Photo
+    
+            
+        The shoe retailer Foot Locker Inc. has three iPhone apps. But that did not stop an entity calling itself Footlocke Sports Co., Ltd. from offering 16 shoe and clothing apps in the App Store.
+                    “We’re seeing a barrage of fake apps,” said Chris Mason, chief executive of Branding Brand, a Pittsburgh company that helps retailers build and maintain apps. He said his company constantly tracks new shopping apps, and this was the first time it had seen so many counterfeit iPhone apps emerge in a short period of time.Some of them appeared to be relatively harmless — essentially junk apps that served up annoying pop-up ads, he said.        Continue reading the main story
+    
+    
+    
+
+
+        
+	    
+    Advertisement
+
+Continue reading the main story
+	    
+	
+
+
+    
+        But there are serious risks to using a fake app. Entering credit card information opens a customer to potential financial fraud. Some fake apps contain malware that can steal personal information or even lock the phone until the user pays a ransom. And some fakes encourage users to log in using their Facebook credentials, potentially exposing sensitive personal information.
+    
+    Advertisement
+
+Continue reading the main story
+
+The rogue apps, most of which came from developers in China, slipped through Apple’s process for reviewing every app before it is published.That scrutiny, which Apple markets as an advantage over Google’s less restrictive Android smartphone platform, is supposed to stop any software that is deceitful, that improperly uses another company’s intellectual property or that poses harm to consumers.In practice, however, Apple focuses more on blocking malicious software and does not routinely examine the thousands of apps submitted to the iTunes store every day to see if they are legitimately associated with the brand names listed on them.With apps becoming more popular as a way to shop, it is up to brands and developers themselves to watch for fakes and report them, much as they scan for fake websites, said Ben Reubenstein, chief executive of Possible Mobile, a Denver company that makes apps for JetBlue Airways, the PGA Tour and the Pokémon Company, among others.“It’s important that brands monitor how their name is being used,” he said.Apple removed hundreds of fake apps on Thursday night after The New York Times inquired about the specific app vendors that created many of them. Other apps were removed after a New York Post article last week drew attention to some of the counterfeits.“We strive to offer customers the best experience possible, and we take their security very seriously,” said an Apple spokesman, Tom Neumayr. “We’ve set up ways for customers and developers to flag fraudulent or suspicious apps, which we promptly investigate to ensure the App Store is safe and secure. We’ve removed these offending apps and will continue to be vigilant about looking for apps that might put our users at risk.”In September, Apple also embarked on a campaign to review all two million apps in the App Store and remove “apps that no longer function as intended, don’t follow current review guidelines or are outdated.” The company says that a significant number of apps have been removed and that the review is continuing.Despite Apple’s efforts, new fake apps appear every day. In some cases, developers change the content of an app after it has been approved by Apple’s monitors. In other instances, the counterfeiters change their names and credentials, and resubmit similar apps after one round of fakes is discovered.
+    
+    Advertisement
+
+Continue reading the main story
+
+“It’s a game of Whac-a-Mole,” Mr. Mason of Branding Brand said.On Friday, for example, an entity calling itself Overstock Inc. — an apparent attempt to confuse shoppers looking for the online retailer Overstock.com — was peddling Ugg boots and apparel through a fake app that was nearly identical to one banished by Apple on Thursday.The same Chinese app developer, Cloaker Apps, created both fake Ugg apps on behalf of Chinese clients.Photo
+    
+            
+        A fake Michael Kors app, claiming to be connected to Nordstrom. Some counterfeits are more convincing than others.
+                    Jack Lin, who identified himself as the head of Cloaker, said in a phone interview in China that his company provides the back-end technology for thousands of apps but does not investigate its clients.“We hope that our clients are all official sellers,” he said. “If they are using these brands, we need some kind of authorization, then we will provide services.”Mr. Lin said Cloaker charged about 20,000 renminbi — about $3,000 — for an app written in English.But like so many of the apps his company produces, Cloaker is not what it purports to be. Its website is filled with dubious claims, such as the location of its headquarters, which it says is at an address smack in the middle of Facebook’s campus in Menlo Park, Calif.In the interview, Mr. Lin at first said he had offices only in China and Japan. When asked about the California office, he then claimed to have “tens of employees” at the Facebook address.China is by far the biggest source of fake apps, according to security experts.Many of the fake retail apps have red flags signaling that they are not real, such as nonsensical menus written in butchered English, no reviews and no history of previous versions. In one fake New Balance app, for example, the tab for phone support did not list a phone number and said, “Our angents are available over the hone Monday-Firday.”
+    
+    Advertisement
+
+Continue reading the main story
+
+Data from Apptopia show that some of the fake apps have been downloaded thousands of times, although it is unclear how many people have actually used them. Reviews posted on some of the apps indicated that at least some people tried them and became frustrated. “Would give zero stars if possible,” wrote one reviewer of the fake Dollar Tree app. “Constantly gets stuck in menus and closes what you were doing and makes you start over.”Mr. Mason says consumers want to shop online and they search for apps from their favorite stores and brands.“The retailers who are most exposed are the ones with no app at all,” he said. Dollar Tree and Dillard’s, for example, have no official iPhone apps, which made it easier to lure their customers to the fake apps.But the counterfeiters have also mimicked companies that do have an official presence in the App Store, hoping to capitalize on consumer confusion about which ones are real.The shoe retailer Foot Locker Inc., for example, has three iPhone apps. But that did not stop an entity calling itself Footlocke Sports Co. Ltd. from offering 16 shoe and clothing apps in the App Store — including one purporting to be from a Foot Locker rival, Famous Footwear.Similarly, the supermarket chain Kroger Company has 20 iPhone apps, reflecting the various retail chains in its empire. An entity calling itself The Kroger Inc. had 19 apps, purporting to sell things as diverse as an $80 pair of Asics sneakers and a $688 bottle of Dior perfume.Some of the fake apps have even used Apple’s new paid search ads to propel them to the top of the results screen when customers search for specific brands in the App Store.Jon Clay, director of global threat communications for Trend Micro, an internet security firm, said Apple’s tight control over the iPhone had historically kept malicious apps out of its App Store. Fake apps appeared more often on Google’s Android platform or on third-party app stores, he said.But that is beginning to change. Shortly after the Pokémon Go game was released in the United States in July, for example, a spate of fake iPhone apps related to the game appeared, especially in countries where the game was not yet available.
+    
+    Advertisement
+
+Continue reading the main story
+
+“The criminals are going to take advantage of whatever is hot,” Mr. Clay said.
+                Emily Feng contributed reporting from Beijing.
+        
+        
+        A version of this article appears in print on November 7, 2016, on page B1 of the New York edition with the headline: A Surge of Deceptive Apps for iPhones  Arrives in Time for Holiday Shopping.   Order Reprints|  Today's Paper|Subscribe
+
+
+
+    
+    Continue reading the main story
+    
+    
+    
+
+
+    
+    
+
+    We’re interested in your feedback on this page. Tell us what you think.
+
+
+
+    
+        
+    
+                Related Coverage
+        
+
+                    
+                
+            
+        
+        
+                        
+                Apple Predicts a Big Holiday Bounce After Its Biggest Rival, Samsung, Falters
+                OCT. 25, 2016
+        
+    
+
+                                                                
+
+                    
+                
+            
+        
+        
+                            TECHNOPHORIA 
+                        
+                When Websites Won’t Take No for an Answer
+                MAY 14, 2016
+        
+    
+
+                                                                
+
+                    
+                
+            
+        
+        
+                        
+                What if ‘One Click’ Buying Were Internetwide?
+                SEPT. 25, 2016
+        
+    
+
+                                    
+
+
+    
+    
+        
+        
+        
+    
+    
+
+Related Coverage
+    
+        
+        
+                        
+                Apple Predicts a Big Holiday Bounce After Its Biggest Rival, Samsung, Falters
+                OCT. 25, 2016
+        
+
+                    
+                
+            
+            
+
+                                                                
+        
+                            TECHNOPHORIA 
+                        
+                When Websites Won’t Take No for an Answer
+                MAY 14, 2016
+        
+
+                    
+                
+            
+            
+
+                                                                
+        
+                        
+                What if ‘One Click’ Buying Were Internetwide?
+                SEPT. 25, 2016
+        
+
+                    
+                
+            
+            
+
+                                    
+What's Next
+    
+        
+            Loading...
+        
+    
+
+
+                    
+            Go to Home Page »
+        
+            Site Index
+            
+                The New York Times
+            
+        
+        window.magnum.writeLogo('small', 'https://a1.nyt.com/assets/article/20161104-095752/images/foundation/logos/', '', '', 'standard', 'site-index-branding-link', '');Site Index Navigation
+        
+
+                                                                                    
+                    
+                        News
+                        
+                                        World
+                                    
+
+                                                                                            
+                                    
+                                        U.S.
+                                    
+
+                                                                                            
+                                    
+                                        Politics
+                                    
+
+                                                                                            
+                                    
+                                        N.Y.
+                                    
+
+                                                                                            
+                                    
+                                        Business
+                                    
+
+                                                                                            
+                                    
+                                        Tech
+                                    
+
+                                                                                            
+                                    
+                                        Science
+                                    
+
+                                                                                            
+                                    
+                                        Health
+                                    
+
+                                                                                            
+                                    
+                                        Sports
+                                    
+
+                                                                                            
+                                    
+                                        Education
+                                    
+
+                                                                                            
+                                    
+                                        Obituaries
+                                    
+
+                                                                                            
+                                    
+                                        Today's Paper
+                                    
+
+                                                                                            
+                                    
+                                        Corrections
+                                    
+
+                                                            
+                        
+
+                                            
+                    
+                        Opinion
+                        
+                                        Today's Opinion
+                                    
+
+                                                                                            
+                                    
+                                        Op-Ed Columnists
+                                    
+
+                                                                                            
+                                    
+                                        Editorials
+                                    
+
+                                                                                            
+                                    
+                                        Contributing Writers
+                                    
+
+                                                                                            
+                                    
+                                        Op-Ed Contributors
+                                    
+
+                                                                                            
+                                    
+                                        Opinionator
+                                    
+
+                                                                                            
+                                    
+                                        Letters
+                                    
+
+                                                                                            
+                                    
+                                        Sunday Review
+                                    
+
+                                                                                            
+                                    
+                                        Taking Note
+                                    
+
+                                                                                            
+                                    
+                                        Room for Debate
+                                    
+
+                                                                                            
+                                    
+                                        Public Editor
+                                    
+
+                                                                                            
+                                    
+                                        Video: Opinion
+                                    
+
+                                                            
+                        
+
+                                            
+                    
+                        Arts
+                        
+                                        Today's Arts
+                                    
+
+                                                                                            
+                                    
+                                        Art & Design
+                                    
+
+                                                                                            
+                                    
+                                        Books
+                                    
+
+                                                                                            
+                                    
+                                        Dance
+                                    
+
+                                                                                            
+                                    
+                                        Movies
+                                    
+
+                                                                                            
+                                    
+                                        Music
+                                    
+
+                                                                                            
+                                    
+                                        N.Y.C. Events Guide
+                                    
+
+                                                                                            
+                                    
+                                        Television
+                                    
+
+                                                                                            
+                                    
+                                        Theater
+                                    
+
+                                                                                            
+                                    
+                                        Video: Arts
+                                    
+
+                                                            
+                        
+
+                                            
+                    
+                        Living
+                        
+                                        Automobiles
+                                    
+
+                                                                                            
+                                    
+                                        Crossword
+                                    
+
+                                                                                            
+                                    
+                                        Food
+                                    
+
+                                                                                            
+                                    
+                                        Education
+                                    
+
+                                                                                            
+                                    
+                                        Fashion & Style
+                                    
+
+                                                                                            
+                                    
+                                        Health
+                                    
+
+                                                                                            
+                                    
+                                        Jobs
+                                    
+
+                                                                                            
+                                    
+                                        Magazine
+                                    
+
+                                                                                            
+                                    
+                                        N.Y.C. Events Guide
+                                    
+
+                                                                                            
+                                    
+                                        Real Estate
+                                    
+
+                                                                                            
+                                    
+                                        T Magazine
+                                    
+
+                                                                                            
+                                    
+                                        Travel
+                                    
+
+                                                                                            
+                                    
+                                        Weddings & Celebrations
+                                    
+
+                                                            
+                        
+
+                                            
+                    
+                        Listings & More
+                        
+                                        Classifieds
+                                    
+
+                                                                                            
+                                    
+                                        Tools & Services
+                                    
+
+                                                                                            
+                                    
+                                        Times Topics
+                                    
+
+                                                                                            
+                                    
+                                        Public Editor
+                                    
+
+                                                                                            
+                                    
+                                        N.Y.C. Events Guide
+                                    
+
+                                                                                            
+                                    
+                                        Blogs
+                                    
+
+                                                                                            
+                                    
+                                        Multimedia
+                                    
+
+                                                                                            
+                                    
+                                        Photography
+                                    
+
+                                                                                            
+                                    
+                                        Video
+                                    
+
+                                                                                            
+                                    
+                                        NYT Store
+                                    
+
+                                                                                            
+                                    
+                                        Times Journeys
+                                    
+
+                                                                                            
+                                    
+                                        Subscribe
+                                    
+
+                                                                                            
+                                    
+                                        Manage My Account
+                                    
+
+                                                            
+                        
+
+                            
+            
+                
+Subscribe
+
+Subscribe
+    
+        
+                    Home Delivery
+            
+    
+        
+                    Digital Subscriptions
+            
+    
+        
+        Times Insider
+    
+    
+        
+        Crossword
+    
+
+        Email Newsletters
+    
+    
+        Alerts
+    
+    
+                    Gift Subscriptions
+            
+    
+                    Corporate Subscriptions
+            
+    
+                    Education Rate
+            
+
+
+        Mobile Applications
+    
+    
+                    Replica Edition
+            
+    
+
+
+        
+
+    Site Information Navigation
+         
+                
+                    © 2016 The New York Times Company
+                
+            
+            Home
+            Search
+            Accessibility concerns? Email us at accessibility@nytimes.com. We would love to hear from you.
+            Contact Us
+            Work With Us
+            Advertise
+            Your Ad Choices
+            Privacy
+            Terms of Service
+            Terms of Sale
+         Site Information Navigation
+        Site Map
+            Help
+            Site Feedback
+            Subscriptions
+        
+    
+    
+require(['foundation/main'], function () {
+    require(['story/main']);
+    require(['jquery/nyt', 'foundation/views/page-manager'], function ($, pageManager) {
+        if (window.location.search.indexOf('disable_tagx') > 0) {
+            return;
+        }
+        $(document).ready(function () {
+            require(['https://a1.nyt.com/analytics/tagx-simple.min.js'], function () {
+                pageManager.trackingFireEventQueue();
+            });
+        });
+    });
+});
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,389 @@
+Ceasefires Don’t Work: We Have the Numbers to Prove It «  CSS Blog Network
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/isnblog.ethz.ch\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.2"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+  
+  			Resources Homepage
+    Digital Library
+    CSS Resources Page Organizations and Partners
+    Datasets
+    CSS Graphics
+    Resources Team
+    CSS Resources Newsletter
+  
+ 
+						Recent Posts		
+				Ceasefires Don’t Work: We Have the Numbers to Prove It
+						
+					
+				The ‘History Problem’ in Sino-Japanese Relations: What’s the Problem?
+						
+					
+				A String of Departures from the ICC is Ringing Alarm Bells
+						
+					
+				The Fourth Industrial Revolution: Coping With Disruptive Change
+						
+					
+				Libya’s Political Agreement Reaching a Breaking Point
+						
+						ArchivesNovember 2016
+	October 2016
+	September 2016
+	August 2016
+	July 2016
+	June 2016
+	May 2016
+	April 2016
+	March 2016
+	February 2016
+	January 2016
+2015December
+	November
+	October
+	September
+	August
+	July
+	June
+	May
+	April
+	March
+	February
+	January
+2014December
+	November
+	October
+	September
+	August
+	July
+	June
+	May
+	April
+	March
+	February
+	January
+2013December
+	November
+	October
+	September
+	August
+	July
+	June
+	May
+	April
+	March
+	February
+	January
+2012December
+	November
+	October
+	September
+	August
+	July
+	June
+	May
+	April
+	March
+	February
+	January
+2011December
+	November
+	October
+	September
+	August
+	July
+	June
+	May
+	April
+	March
+	February
+	January
+2010December
+	November
+	October
+	September
+	August
+	July
+	June
+	May
+	April
+	March
+	February
+	January
+2009December
+	November
+	October
+	September
+	August
+	July
+	June
+	May
+	April
+	March
+	February
+Disclaimer			The views and opinions expressed on this page do not reflect those of the Center for Security Studies or the Swiss Federal Institute of Technology Zurich (ETH). In addition, neither organization is responsible for the content of external links.
+		CSS Blog CloudAfghanistan
+Africa
+Autonomy
+Bosnia and Herzegovina
+Burma
+Capitalism
+China
+Civil rights
+Civil society
+Conflict prevention
+Consulting
+Democracy
+Discrimination
+Eastern enlargement
+Egypt
+Ethnicity
+Europe
+European Commission
+European Union
+Expenses
+Free trade
+Fundamentalism
+ICT
+Islam
+Israel
+Kazakhstan
+Liveblogging
+Market economy
+Marshall Plan
+Media freedom
+Mexico
+Middle East
+Monitoring
+Multiculturalism
+North Africa
+North Korea
+Nuclear Non-Proliferation Treaty
+OSINT
+Peacebuilding
+Philosophy
+Politicians
+Race relations
+Tibet
+Torture
+United Arab Emirates
+   
+
+  
+
+        The CSS Blog
+      
+
+              
+          7 November 2016
+          Conflict, Peace 
+        
+
+        Ceasefires Don’t Work: We Have the Numbers to Prove It
+        By Patrick Burke
+              
+
+          
+          Courtesy Steve Rotman/Flickr
+This article was originally published by War is Boring on 31 October 2016.
+On Sept. 10, 2016, the U.S.-brokered a ceasefire with Russia and Syria in the besieged city of Aleppo. Although low-intensity fighting never really stopped, the ceasefire didn’t begin to fall apart until a week later, when U.S. aircraft mistakenly killed about 80 Syrian troops.
+The killings heightened tensions between the United States and Russia, who had agreed to the ceasefire with the aim of negotiating a combined effort against Islamic State and Al Qaeda-linked fighters. By Sept. 21, the ceasefire collapsed — and the following day, the Syrian government announced a new military offensive to retake Aleppo.
+The offensive featured some of the most intensive ground combat and bombing of the entire war, costing hundreds of lives within the span of just a few days. The humanitarian cost on the ground was described by U.N. humanitarian chief Stephen O’Brien as “a level of savagery that no human should have to endure.”
+
+However, not every failed ceasefire in Syria led to a costly offensive. Following the failure of a lesser-known ceasefire in Aleppo on May 12, 2016, Russian-backed Syrian forces and various rebel groups clashed — causing far fewer deaths and less suffering among the civilian population — before a new ceasefire was struck on June 17, 2016.
+Unfortunately, most failed ceasefires — not only in Syria but across a diverse array of wars — are followed by catastrophic offensives rather than low-level attacks.
+Which is to say, ceasefires don’t work.
+To systematically illustrate this pattern, I used various sources — news reports, reference books and archival material — to compile a data set of 105 failed ceasefires from 25 different wars. The wars span as far back as Burma’s civil war beginning in 1947 and include recent wars such as those in Ukraine, Yemen and Syria.
+Of the 105 failed ceasefires, 84 percent were followed by an offensive within an average of just 13 days. The graphic below shows the three ongoing conflicts in my data set — Syria, Yemen and Ukraine — and the number of ceasefires that failed, and how many led to offensives within each conflict.
+
+Importantly, the data also helps explain the remarkable consistency of this pattern. The security experts I interviewed for this article — including a former senior U.S. diplomat and a former U.S. Army commander in Iraq — confirmed that, in their view, the most common reason ceasefires lead to offensives is tactical. Combatants use the pause in fighting to plan and equip for offensive operations.
+The data from 105 failed ceasefires seems to confirm this view. For instance, declassified documents from the Vietnam War show that both the United States and North Vietnam took advantage of ceasefires during holidays — Christmas, New Years and Tet — to re-arm and plan offensives. The most famous example being the “Tet Offensive” in 1968.
+In fact, during the current ceasefire in Aleppo, Russia has sent a fleet warships to Syria carrying dozens of military aircraft and other supplies.
+Although far less common, combatants also use ceasefires in order to temporarily cooperate against a common enemy. Of course, a ceasefire doesn’t erase the will to fight one another, so once they beat the common enemy, the original combatants often turn against each another.
+The best example comes from the Hasakah province of Syria between 2014 and 2016. After weeks of intense fighting between the Syrian government and Kurdish forces — known as the People’s Protection Units or YPG — agreed to a ceasefire in September 2014 after ISIS forces began taking control of the province.
+Over the next two years, the Syrian regime and the YPG abstained from fighting each another and instead attacked ISIS fighters. Less than a year later the YPG forged an alliance with fighters from the Free Syrian Army and also gained access to U.S. arms, training and air support.
+This gave the YPG the ability to gain more territory than the Syrian regime controlled in Hasakah. Thus when it was clear that ISIS had largely fled the province by April 2016, the YPG posed a serious threat to the regime’s ability regain control of Syria.
+On April 21, 2016, YPG and Syrian forces turned against each other, marking the end of the ceasefire. However, the Syrian government required several months to plan and equip for a new offensive to retake Hasakah, and thus didn’t begin large-scale operations until Aug. 19, 2016.
+Ceasefires are not only useful for purely tactical reasons, however. They can also make space for diplomacy. A former U.S. Marine Corps civil affairs officer told me on the condition of anonymity that his team used a ceasefire agreement with tribal leaders in Sangin Valley in Afghanistan as a way engender trust before then proceeding to negotiations in 2011.
+The ceasefire between the U.S., Russia and Syria beginning on Sept. 10, 2016 was ostensibly for a similar reason. However, as occurred in Aleppo when the September ceasefire broke down, the failure of ceasefires for diplomatic purposes often leads to offensive operations.
+This occurred during the height of Uganda’s fight against Joseph Kony’s brutal Lord’s Resistance Army rebel group. According to an official government statement, on March 10, 2003, Uganda established a ceasefire “as a way of encouraging the LRA to start meaningful talks with the government peace team…”
+However, the LRA refused to come to the negotiating table, and on April 19, 2003, Ugandan troops launched an offensive to force them back to negotiations. In the Ugandan case and others, it seems that offensives were more effective than low-intensity fighting at producing leverage in future peace deals.
+Although low-level attacks only account for 16 percent of the failed ceasefires in my data set, it’s important to discuss why they’re the result of some failed ceasefires. At the tactical level, this occurs when combatants don’t have the level of resources necessary to mount offensives.
+This occurred several times during the 60-year civil war in Burma and during the ongoing civil war in Yemen. However, combatants often abstain from offensives when ceasefires fail in the midst of negotiation if they believe they can coerce their opponents back to the negotiating table through less costly attacks. This happened multiple times during Uganda’s war with the LRA.
+Israel’s 2014 war in Gaza illustrates almost all of the reasons broken ceasefires lead to offensives in just seven weeks — the exception being cooperating to fight a mutual adversary. In addition, the Israeli human rights organization B’tselem, provides reliable casualty data on combatants and noncombatants, which allows me to show the humanitarian costs of offensive operations.
+
+As the graph shows, each failed ceasefire was followed by a rise in casualties among combatants and non-combatants inside Gaza. The first two ceasefires on July 28 and Aug. 1, 2014 seem to have been tactical pauses that the Israeli Defense Forces and Palestinian militants inside Gaza used to re-supply and plan further operations.
+However, the failed ceasefires on Aug. 8 and Aug. 18 occurred while Israel was taking part in mediated negotiations with Hamas, and thus the operations seem to be intended as diplomatic leverage.
+Ceasefires often engender a sense of hope during war. They allow humanitarian aid to reach the vulnerable — and also allow civilians to achieve a brief moment of normalcy outside of their shelters.
+But fear that the ceasefire will end belies these moments of relief. “This past week, the regime and the Russians announced a cease-fire,” a resident of Aleppo named Omair Shaaban told The Washington Post on Oct. 21. “But that has made everyone afraid — we don’t know what’s going to come next. Maybe the attacks will be worse than before when they start again. That’s what happened last time.”
+In fact, 19 out of 20 failed ceasefires in Syria were followed by a devastating offensive. If this trend continues, and if the overall finding in this article is an accurate predictor, a failure of the current ceasefire in Aleppo will likely realize Shaaban’s worst fears.
+About the Author
+Patrick Burke is a researcher at the Chicago Project on Security and Terrorism (CPOST). He also recently graduated from the University of Chicago with an M.A. in International Relations and previously spent three years in the US Air Force as an air traffic controller.
+For more information on issues and events that shape our world, please visit our CSS Security Watch Series or browse our Publications.
+Save
+Save
+Save
+
+                  
+            Comments           
+
+                      
+              Tags: Arab-Israeli Conflict, Ceasefire, Civilian casualties, Statistics, Syria             
+                           
+
+        
+
+
+
+	
+	
+
+
+		Leave a Reply
+
+
+
+
+Name (required)
+
+Mail (will not be published) (required)
+
+Website
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+    
+      
+      
+  
+   
+
+  
+  			
+
+	
+		
+			
+		
+			Search: 
+			AllPublicationsArticlesOrganizationsGraphics
+		
+			Search
+			Help?
+		
+	
+	
+		
+		
+		
+		
+		
+		
+		
+	
+
+
+
+		CSS Facebook Page		
+		@media (max-width:767px) {
+			.fb_iframe_widget {
+				width: 100%;
+			}
+			.fb_iframe_widget span {
+				width: 100% !important;
+			}
+			.fb_iframe_widget iframe {
+				width: 100% !important;
+			}
+			._8r {
+				margin-right: 5px;
+				margin-top: -4px !important;
+			}
+		}
+		
+			
+			(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+			Facebook By Weblizar Powered By Weblizar
+		
+        Our Partners			
+		
+
+
+
+
+
+		Partner Blogs
+	Atlantic Community – Your Opinion
+Center for International Maritime Security
+CFR Blogs
+CIGI Blogs
+EurasiaNet Voices
+FPRI
+New Atlanticist
+PRIO Blogs
+SAIIA Opinion & Analysis
+The Interpreter (Lowy)
+The Strategist
+
+	
+Contact the CSS			Center for Security Studies
+Leonhardshalde 21, LEH
+8092 Zurich, Switzerland
+Tel: +41 44 632 7293
+Fax: +41 44 632 19 41cssresources@sipo.gess.ethz.ch
+
+		   
+
+ 
+
+
+
+
+
+
+
+
+
+
+

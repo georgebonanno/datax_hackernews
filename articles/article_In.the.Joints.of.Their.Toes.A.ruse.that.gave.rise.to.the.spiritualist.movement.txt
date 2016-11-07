@@ -1,0 +1,656 @@
+How the Fox Sisters’ Hoax Gave Birth to Spiritualismtry{Typekit.load();}catch(e){}
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+		(function() {
+			var gads = document.createElement('script');
+			gads.async = true;
+			gads.type = 'text/javascript';
+			var useSSL = 'https:' == document.location.protocol;
+			gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+			var node = document.getElementsByTagName('script')[0];
+			node.parentNode.insertBefore(gads, node);
+		})();
+	
+		googletag.cmd.push(function() {
+			// googletag.defineSlot('/8816405/Blog_Leaderboard_728x90', [728, 90], 'div-gpt-ad-1361402959454-0').addService(googletag.pubads());
+			googletag.defineSlot('/8816405/Blog_Rectangle_1_300x250', [300, 250], 'div-gpt-ad-1361402959454-1').addService(googletag.pubads());
+			googletag.defineSlot('/8816405/Blog_Rectangle_2_300x250', [300, 250], 'div-gpt-ad-1361402959454-2').addService(googletag.pubads());
+			googletag.defineSlot('/8816405/Blog_Rectangle_3_300x250', [300, 250], 'div-gpt-ad-1361402959454-3').addService(googletag.pubads());
+			googletag.pubads().enableSingleRequest();
+			googletag.enableServices();
+		});
+	
+    //setup BTN Library
+    _btn.setDebugMode(true);
+    BOOMTRAIN_API_KEY_1 = 'aba800405495d72280d24634e9447e59';
+    BOOMTRAIN_API_KEY_2 = '67b10f7d94989c6dd7e6a224766560ef';
+    _btn.setAPIKeys(BOOMTRAIN_API_KEY_1,BOOMTRAIN_API_KEY_2);
+    _btn.initialize();
+  
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.theparisreview.org\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.4"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-13111620-1']);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+/* <![CDATA[ */ portfolio_slideshow = { options : {"psHash":"false","psLoader":"false"}, slideshows : new Array() }; /* ]]> */
+	window._wp_rp_static_base_url = 'https://wprp.zemanta.com/static/';
+	window._wp_rp_wp_ajax_url = "http://www.theparisreview.org/blog/wp-admin/admin-ajax.php";
+	window._wp_rp_plugin_version = '3.6';
+	window._wp_rp_post_id = '104555';
+	window._wp_rp_num_rel_posts = '5';
+	window._wp_rp_thumbnails = true;
+	window._wp_rp_post_title = 'In+the+Joints+of+Their+Toes';
+	window._wp_rp_post_tags = ['pseudoscience', 'seances', 'ghosts', 'performance', 'science', 'fox+sisters', 'new+york', 'rochester', 'christianity', 'maggie+fox', 'religion', 'arthur+conan+doyle', 'william+lloyd+garrison', 'knocking', 'rapping', 'toes', 'kate+fox', 'quackery', 'spiritualism', 'hydesville', 'the+lives+of+others', 'book', 'royal', 'world', 'estel', 'arch', 'home', 'spiritu', 'white', 'south', 'doyl', 'london', 'kensington', 'albert', 'fox', 'york'];
+	window._wp_rp_promoted_content = false;
+
+.related_post_title {
+}
+ul.related_post {
+}
+ul.related_post li {
+}
+ul.related_post li a {
+}
+ul.related_post li img {
+}
+	jQuery(function(){
+		var tabContainers = jQuery('div#maintabdiv > div');
+		tabContainers.hide().filter('#comments').show();
+		
+		jQuery('div#maintabdiv ul#tabnav a').click(function () {
+				tabContainers.hide();
+				tabContainers.filter(this.hash).show();
+				jQuery('div#maintabdiv ul#tabnav a').removeClass('current');
+				jQuery(this).addClass('current');
+				return false;
+			}).filter('#comments').click();
+		
+		
+	});
+
+
+
+
+	
+
+	
+	
+        
+    
+	
+
+        
+          
+    			The Paris Review
+
+    		
+
+    		
+
+    			Follow Us
+    				Twitter
+    				Facebook
+    				Tumblr
+    				RSS
+    			
+
+    			Contact |
+    				Events |
+    				Newsletter
+    			
+
+    		
+
+	
+
+	
+
+		
+
+			Daily
+				Current Issue
+				Interviews
+				Archive
+					Back Issues
+						Fiction
+						Poetry
+						Interviews
+						Letters & Essays
+						Art & Photography
+						Audio
+					
+				Subscribe
+				Store
+					Subscribe
+						Back Issues
+						Books
+						Print Series
+						Accessories
+						T-shirts
+					
+				About
+					History
+						Masthead
+						Jobs
+						Submissions
+						Prizes
+						Media Kit
+						Support The Paris Review
+						Bookstores
+					
+			
+
+		
+
+		
+
+			
+
+				
+
+			
+
+		
+
+		
+
+	
+
+	
+
+	
+
+		The Daily
+
+	
+
+	
+
+		
+
+		
+
+		
+
+			
+				‹ Previous Post				  |  				Blog Home
+				  |  				Next Post ›
+			
+
+			The Lives of Others
+
+			In the Joints of Their Toes
+
+			November 4, 2016 | by Edward White
+
+			
+
+				
+The ruse that gave rise to the spiritualist movement.The Fox Sisters.Edward White’s The Lives of Others is a monthly series about unusual, largely forgotten figures from history.On July 13, 1930, Arthur Conan Doyle made an appearance at London’s Royal Albert Hall in the middle of his own memorial service, six days after his death. Nobody saw him, but the spirit medium Estelle Roberts assured those present that Doyle had kept his deathbed promise: he’d returned to deliver proof that talking to the dead really is possible. In life the creator of the arch logician Sherlock Holmes had been as suggestible as those ten thousand paying guests in South Kensington: he was the world’s best-known proponent of spiritualism—the discipline of talking to the dead—and an adherent of just about any wad of mumbo-jumbo going. Doyle believed not only in clairvoyance, but telepathy, telekinesis, and, quite literally, fairies at the bottom of the garden.  Throughout the 1910s and ’20s Doyle’s books, articles, and talks on these subjects helped to furnish spiritualism with mainstream credibility. But the roots of the movement were planted decades earlier in a tiny one-bedroom cottage in the hamlet of Hydesville, New York, the family home of Margaret and John Fox and their daughters Maggie, fourteen, and Kate, eleven. March 1848 was a troubling time for the Foxes. All month long they’d been plagued by thuds and cracks loud enough to awaken them in the predawn silence. By the evening of March 31, John and Margaret were at the end of their tethers. The girls were sent to bed early at six o’clock to catch up on lost sleep and allow their parents an evening of quiet to still their nerves. No sooner had Maggie and Kate slid beneath the sheets than the noises started reverberating through the cottage. From floorboards, ceilings, bedsteads, and doorframes came louder and more frenetic knocking than ever before. It seemed that wherever in the cottage the girls went these mysterious sounds followed, as though they were being pursued by some invisible force. Margaret was convinced that something demonic was afoot and sent her husband to rouse the neighbors for help. That evening the Foxes’ bedroom was crowded with people who stood awestruck in the candlelight as the cracking sounds echoed around them. William Duesler, a neighbor, spoke aloud into thin air, asking questions and receiving in reply knocking sounds, “raps,” as he termed them. Slowly, it emerged that this disembodied spirit had an earthly identity: a thirty-one-year-old peddler who had been murdered for the sum of five hundred dollars and then buried beneath the Foxes’ house by a previous tenant. At the time, nobody in the room had any idea who the victim might have been, and even though the Foxes’ adult son David had hit upon the idea of running through the letters of the alphabet to allow the spirit to spell out words, nobody seems to have asked the spirit to give its name. In later weeks, locals began to recall that perhaps a young peddler had indeed passed through one day some years earlier. Exactly when, they couldn’t say. Others would later swear that David, digging beneath the house one summer, had discovered bones and a set of human teeth. Very quickly fabulous tales and half-remembered anecdotes congealed into a dense tissue of myth that made for an alluring alternative to empirical truth. In many parts of the world, the spring and summer of that year was a momentous time. There were revolutions across western Europe; the Mexican-American War came to an end; the gold rush was underway in California. In rural New York, things were evidently a little slower. Within a few weeks, the story of the Hydesville haunting scrabbled its way across the state. Leah Fish—the Foxes’ eldest daughter, a music teacher in nearby Rochester—first heard about it when an excited pupil read aloud from a newspaper report about the case. By the time a perplexed Leah arrived at the family home, the Foxes had all decamped to David’s house in a neighboring village to escape the crowds of locals hoping to meet the little girls who had made contact with the dead. *The precise run of proceeding events is contested, but it’s clear that Leah, whose worldliness was in direct proportion to her parents’ naivety, quickly sussed that her siblings were pulling a fast one. Maggie and Kate admitted to her that they had perfected the art of cracking their toes with no perceptible movement. When performed in contact with wooden surfaces to amplify the noise, the raps sounded as if from the ether. Leah should have been furious at their deception; perhaps she was. But she also realized that Maggie and Kate had, in the joints of their toes, the potential to change the fortunes of the Fox family forever.  With entrepreneurial sharpness, Leah moved herself, Maggie, and Kate into a house in Rochester where, for a dollar each, visitors could attend a séance with them. It was an instant hit. The Fox sisters’ fame as spirit mediums spread so quickly that they soon performed to packed theaters in New York, New England, and beyond. It marked a shift in popular attitudes toward the paranormal. Two hundred years earlier, a couple of adolescent females who claimed to be in conversation with the dead may well have been burned alive as witches; in the mid-nineteenth century they became show-business celebrities. Most who came to see them were happy to believe the Fox girls were the real deal, though Maggie in particular was subject to some terrifying abuse from those who thought her either a fraud or a heretic. In Troy, New York, she was even the victim of an attempted kidnapping by a group of men who seemed offended by the sisters’ show. For Maggie and Kate, children who had started this as a prank to enliven the dullness of their daily routine, it was too much. As early as November 1849 they tried to bring the circus to an end, spelling out “we will now bid you farewell” with their toe joints during a séance. For two weeks the spirits remained silent; their reappearance was testament to Leah’s unshakable belief that the show must go on, and her formidable skill at ensuring that it would. Even had they stopped, it wouldn’t have slowed the juggernaut they had set in motion. By 1850, “rapping” had become a nationwide craze. That October, the New Haven Journal reported that there were forty families in upstate New York who claimed to have the same gifts as the Foxes, and hundreds more ranging from Virginia to Ohio. In 1851, a writer at the Spiritual World tallied more than one hundred spirit mediums in New York City alone. From the Fox sisters, the phenomenon of spiritualism emerged not as some shadowy occult practice or roadside attraction but as an exciting way of reconciling the ineffable mysteries of the soul with the complex realities of a modern, rapidly industrializing nation; newly respectable, it could count among its proponents Thomas Edison, the antislavery leader William Lloyd Garrison, and many prominent women’s rights advocates based in Rochester, the Foxes’ adopted hometown. A conspicuous number of the new adherents were from scientific backgrounds. A physician from New England named Dr. Phelps reported that his windows had shattered spontaneously, his clothes had been torn without human interference, inanimate objects had danced together on his floor, and, weirdest of all, turnips inscribed with mysterious hieroglyphs had surged forth from the living room carpet. That men and women of science should have been so captivated by spiritualism isn’t as incongruous as it first appears. In the 1840s and ’50s, advances in science and technology seemed to be eradicating the America of Washington, Jefferson, and Jackson in which many of the older generation had grown up. The railroads and the telegraph had opened up the country, mass production and mass immigration were transforming the character of its cities, and Darwin’s theories were questioning the most basic assumptions about life and death. As science challenged all the old sureties, spiritualism offered a way of clinging to the past; far from rejecting science and rational thinking, spiritualists believed they were on the cutting edge, using scientific methods to prove the existence of God and the afterlife. Many ordinary Americans struggled to see that there was anything more outlandish in spiritualism than in the other scientific marvels that were transforming their world. The very sound of rapping echoed the sound of the new telegraph machines that, seemingly by magic, allowed people in New York to instantaneously communicate with people in Boston, Los Angeles, or even on the other side of the Atlantic Ocean.  *In the first four years of the Foxes’ fame there was ample evidence that their rapping was a fraud. Some wryly pointed out the frequency with which the ghosts of famous figures such as Benjamin Franklin appeared at the Foxes’ séances; one observer couldn’t help noting that the great man’s command of spelling and grammar had diminished terribly since passing over. Then there were times when Franklin and the other stiffs refused to turn up at all: conditions weren’t to their liking. At a performance in Buffalo, cushions were placed between the girls’ feet and the wooden floorboards. Nothing but the sound of strained silence filled the air that night. Leah wheeled out her stock defense: the negative energy of cynics polluted the channel between the girls and the spirits; only those of pure heart who believed without question would be able to witness definitive proof of the girls’ powers. It was the circular logic of magical thinking, and it worked beautifully.  Powered by the turbines of self-delusion, spiritualism quickly spread to Great Britain, arguably the first American cultural export to conquer the old motherland. Kate played a significant part in that, staging shows where ghosts appeared not just through rapping but in physical form. Quite how she achieved that is unclear, but apparitions were said to appear in a strange “psychic light” during her seances. The British were as enthralled by the myth of the Fox sisters as Americans had been, and Leah, in particular, capitalized on the transatlantic fame. Before the Hydesville rapping she had been a single mother, hampered by the ubiquitous social restrictions that came with being born female. In the field of spirit mediumship—a branch of the entertainment industry that she more than anyone else had helped to invent—women dominated. She acquired wealth, social clout, and opportunities that would never usually have been afforded someone of her background. Over the next decades, she became a venerable society lady and the wife of a Wall Street banker. Spiritualism had become so mainstream that she felt no need to distance herself from the movement despite her social elevation. But for Maggie—the sister on whom the greatest burden of performing had been placed, and who had been troubled from the beginning by her deceit—the rapping phenomenon brought heartache and misery. In 1852, at seventeen, she met Elisha Kane, a famous Arctic explorer with whom she entered into a strangely fraught long-distance romance. Kane balanced genuine love with embarrassment that his beloved devoted her life to sideshow quackery. He promised Maggie that they would be married one day; for years she clung to the prospect of becoming Mrs. Elisha Kane and jettisoning her role as prophet of the spiritualist movement. But the Kane family, in the snootiest echelons of Philadelphia society, considered Maggie a backwoods purveyor of profane heresy. Fearful of the consequences of a proper marriage, Elisha compromised on a ring-exchanging ceremony before his latest foreign expedition. On his return, he promised, would follow a full wedding recognized by God and the law. That day never came: Elisha fell gravely ill during his travels and died in Cuba, aged just thirty-six. Maggie’s despair was compounded by insult when Elisha’s parents forbade her from attending the funeral and refused to acknowledge her as their son’s betrothed and common-law wife, thereby rejecting her claim to a share of his estate.  She retaliated by publishing The Love-Life of Dr. Kane, a book of his letters to her. Her savior and soulmate ripped away, Maggie’s life veered onto the wrong side of the road. She turned to drink to dampen the pain of her loss and to submerge the shame and self-loathing that spiritualism caused her. Yet the more she drank, the more unfit she became for dealing with life, and the farther she drifted from sense of purpose. *Arthur Conan Doyle. In 1888, forty years after the childhood prank that changed her life, Maggie collected herself sufficiently to make a public confession. There were now millions of confirmed spiritualists across the planet, including Doyle, who published the first Sherlock Holmes book that same year. It was hard for Maggie to believe that the cotton reel, once dropped, could have spun so far from her grasp. Her confession at New York’s Academy of Music was fulsome and emotional, incorporating a full demonstration of how she and her sister had performed their trick. Kate, now also a widow with a drink problem, sat in the audience and dourly confirmed everything Maggie said; Leah rolled her eyes from afar, dismissing her sisters as wanton attention seekers who put their grubby material desires before truth and righteousness. The fact that Maggie had been paid $1,500 for the performance has always been cited by defenders of spiritualism as definitive, damning proof that she was lying through her teeth that evening, thinking only of the check that would pay for her next snifter. They’re half right about that. No sooner had Maggie made the confession than she retracted it, realizing that her disavowal would do nothing other than deprive her of her only source of income.  Maggie died in 1895, a bitter and broken women relying on the kindness of friends and acquaintances to keep a roof over her head. She had, in a curious way, been an accidental pioneer. Twenty years before vaudeville began to give female entertainers a new standing in American popular culture, she and her sisters had trod out a path along which dozens of other female spiritualists followed, many gaining financial independence, social standing, and an outlet for their talents, personalities, and ambitions. It’s unlikely that Maggie could ever have taken any pride in that. To her last day she felt tarnished by her involvement in spiritualism and shamed by her dependence on it. Her death made little impact upon the spiritualist community; there was no memorial séance for her as there would be for Doyle, and no spirit medium to receive her message from the other side. If it is possible for the dead to reach us from beyond the grave, Maggie has chosen to withhold her touch. Edward White is the author of The Tastemaker: Carl Van Vechten and the Birth of Modern America.
+
+
+
+
+				
+			
+
+			TAGS Arthur Conan Doyle, Christianity, Fox Sisters, ghosts, Hydesville, Kate Fox, knocking, Maggie Fox, New York, performance, pseudoscience, quackery, rapping, religion, Rochester, science, seances, spiritualism, toes, William Lloyd Garrison
+
+			
+				
+  		
+	
+	
+	var addthis_config = {"data_track_clickback":true};
+  	PRINT
+	|
+	TWITTER
+	|
+	FACEBOOK
+	|
+	More
+	
+
+	
+	var addthis_config = {
+		services_exclude: 'print'
+	}
+	
+
+			
+			
+You might also enjoyThe Little Man of NurembergRise UpHocus PocusImpressionsGhost Stories
+		
+
+		
+			Next: Forty “Autumnal” Hink Pinks: The Answers ›			‹ Previous: Staff Picks: Borscht, Barns, Blazes of Greatness		
+
+		
+		
+		
+
+	
+
+    		
+			
+
+		
+
+
+	
+	
+					
+		
+	
+
+
+
+		
+		
+
+		
+
+			 	
+	
+	
+	
+	googletag.cmd.push(function() { googletag.display('div-gpt-ad-1361402959454-1'); });
+	
+
+
+ 	
+	
+	
+	
+	googletag.cmd.push(function() { googletag.display('div-gpt-ad-1361402959454-2'); });
+	
+
+
+ 	
+	
+	
+	
+	googletag.cmd.push(function() { googletag.display('div-gpt-ad-1361402959454-3'); });
+	
+
+
+
+	Follow Us
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+	File Under
+    
+	view all
+	hide all
+    
+	A Letter from the Editor
+
+	Arts & Culture
+Fashion & Style
+
+	Studio Visit
+
+	Windows on the World
+
+
+	Ask The Paris Review
+
+	At Work
+
+	Best of 2014
+
+	Best of 2015
+
+	Big, Bent Ears
+
+	Books
+Prison Lit
+
+
+	Brushes with Greatness
+
+	Bulletin
+
+	Contests
+
+	Correspondence
+Letter from Our Southern Editor
+
+	Letter from San Diego
+
+
+	Department of Sex Ed
+
+	Department of Tomfoolery
+
+	Events
+
+	Fiction
+
+	First Person
+
+	From the Archive
+
+	History
+
+	Humor
+
+	In Case You Missed It
+
+	In Memoriam
+
+	Inside the Issue
+
+	Jolie/Laide
+
+	Listen
+
+	Literary Architecture
+
+	Look
+
+	My Literary Hero
+
+	Nostalgia
+
+	Notes from a Biographer
+
+	Odd Jobs
+
+	On Architecture
+
+	On Dance
+
+	On Design
+
+	On Drugs
+
+	On Film
+
+	On Food
+
+	On Games
+
+	On History
+
+	On Language
+
+	On Music
+
+	On Poetry
+Poetry
+
+	The Poem Stuck in My Head
+
+
+	On Politics
+
+	On Sports
+Basketball
+
+	Bull City Summer
+
+	Softball
+
+	World Cup 2010
+
+	World Cup 2014
+
+
+	On Technology
+
+	On Television
+
+	On the Shelf
+
+	On Translation
+
+	On Travel
+
+	Our Correspondents
+
+	Our Daily Correspondent
+
+	Out of Print
+
+	Quote Unquote
+
+	Really Difficult Puzzles
+
+	Revisited
+
+	Several Men
+
+	Sleep Aid
+
+	Terry Southern Month
+
+	The ‘Mating’ Book Club
+
+	The Culture Diaries
+
+	The Lives of Others
+
+	The Print Series
+
+	The Revel
+James Salter Month
+
+	Seidelathon
+
+
+	This Week’s Reading
+
+	Uncategorized
+
+	Video & Multimedia
+My First Time
+
+
+	Weird Book Room
+
+	Whiting Awards 2016
+
+	
+
+
+    $(document).ready(function() {
+        $('.file_under_toggle').click(function () {
+            $('#file_under_list').slideToggle();
+            $('.viewall').toggle();
+            $('.hideall').toggle();
+        });
+    });
+
+
+		
+
+	
+    
+    
+      RETURN TO TOP 
+    
+    
+	
+
+		© 2016 The Paris Review  |
+			Terms and Conditions  |
+			Privacy Policy  |
+			Contact
+		
+
+		Subscribe
+			Current Issue
+			Archives
+			Interviews
+			Daily
+			Store
+			About
+		
+
+		Built by Tierra Innovation
+
+	
+
+
+
+    
+              
+                
+          			
+          				
+          			
+              
+            
+    		Daily
+    		Current Issue
+    		Interviews
+    		Archive
+    			Back Issues
+    				Fiction
+    				Poetry
+    				Interviews
+    				Letters & Essays
+    				Art & Photography
+    				Audio
+    			
+    		Subscribe
+    		Store
+    		About
+    			History
+    				Masthead
+    				Jobs
+    				Submissions
+                    Events
+    				Prizes
+    				Media Kit
+    				Support The Paris Review
+    				Bookstores
+    			
+        
+          
+      			Follow
+      				Twitter
+      				Facebook
+      				Tumblr
+      				RSS
+      			
+        
+    	
+var addthis_config = {"data_track_clickback":true,"ui_atversion":300,"ignore_server_config":true};
+var addthis_share = {};
+
+                    var addthis_product = "wpp-5.3.3";
+                    var wp_product_version = "wpp-5.3.3";
+                    var wp_blog_version = "4.5.4";
+                    var addthis_plugin_info = {"info_status":"enabled","cms_name":"WordPress","cms_version":"4.5.4","plugin_name":"Share Buttons by AddThis","plugin_version":"5.3.3","anonymous_profile_id":"wp-9ebabd27b31ccd3639f611a51d997df1","plugin_mode":"WordPress","select_prefs":{"addthis_per_post_enabled":true,"addthis_above_enabled":false,"addthis_below_enabled":false,"addthis_sidebar_enabled":false,"addthis_mobile_toolbar_enabled":false,"addthis_above_showon_home":true,"addthis_above_showon_posts":true,"addthis_above_showon_pages":true,"addthis_above_showon_archives":true,"addthis_above_showon_categories":true,"addthis_above_showon_excerpts":true,"addthis_below_showon_home":true,"addthis_below_showon_posts":true,"addthis_below_showon_pages":true,"addthis_below_showon_archives":true,"addthis_below_showon_categories":true,"addthis_below_showon_excerpts":true,"addthis_sidebar_showon_home":true,"addthis_sidebar_showon_posts":true,"addthis_sidebar_showon_pages":true,"addthis_sidebar_showon_archives":true,"addthis_sidebar_showon_categories":true,"addthis_mobile_toolbar_showon_home":true,"addthis_mobile_toolbar_showon_posts":true,"addthis_mobile_toolbar_showon_pages":true,"addthis_mobile_toolbar_showon_archives":true,"addthis_mobile_toolbar_showon_categories":true,"sharing_enabled_on_post_via_metabox":true},"page_info":{"template":"posts","post_type":""}};
+                    if (typeof(addthis_config) == "undefined") {
+                        var addthis_config = {"data_track_clickback":true,"ui_atversion":300,"ignore_server_config":true};
+                    }
+                    if (typeof(addthis_share) == "undefined") {
+                        var addthis_share = {};
+                    }
+                    if (typeof(addthis_layers) == "undefined") {
+                        var addthis_layers = {};
+                    }
+                
+                
+                    (function() {
+                        var at_interval = setInterval(function () {
+                            if(window.addthis) {
+                                clearInterval(at_interval);
+                                addthis.layers(addthis_layers);
+                            }
+                        },1000)
+                    }());
+                
+                
+                if (window.addthis_product === undefined) {
+                    window.addthis_product = "wpsl";
+                }
+
+                if (window.wp_product_version === undefined) {
+                    window.wp_product_version = "wpsl-2.0.0";
+                }
+
+                if (window.wp_blog_version === undefined) {
+                    window.wp_blog_version = "4.5.4";
+                }
+
+                if (window.addthis_share === undefined) {
+                    window.addthis_share = {};
+                }
+
+                if (window.addthis_config === undefined) {
+                    window.addthis_config = {"data_track_clickback":true,"ignore_server_config":true,"ui_atversion":300};
+                }
+
+                if (window.addthis_layers === undefined) {
+                    window.addthis_layers = {};
+                }
+
+                if (window.addthis_layers_tools === undefined) {
+                    window.addthis_layers_tools = [];
+                } else {
+                    
+                }
+
+
+                if (window.addthis_plugin_info === undefined) {
+                    window.addthis_plugin_info = {"info_status":"enabled","cms_name":"WordPress","cms_version":"4.5.4","plugin_name":"Smart Layers by AddThis","plugin_version":"2.0.0","plugin_mode":"WordPress","anonymous_profile_id":"wp-9ebabd27b31ccd3639f611a51d997df1","page_info":{"template":"posts","post_type":""},"sharing_enabled_on_post_via_metabox":true};
+                }
+
+                
+                    (function() {
+                      var first_load_interval_id = setInterval(function () {
+                        if (typeof window.addthis !== 'undefined') {
+                          window.clearInterval(first_load_interval_id);
+                          window.addthis.layers(window.addthis_layers);
+                          for (i = 0; i < window.addthis_layers_tools.length; i++) {
+                            window.addthis.layers(window.addthis_layers_tools[i]);
+                          }
+                        }
+                     },1000)
+                    }());
+                
+            
+                

@@ -1,0 +1,434 @@
+A Guide To Open-Source 3D Graphics Design
+			.slide-excerpt { width: 95%; }
+			.slide-excerpt { bottom: 0; }
+			.slide-excerpt { left: 0; }
+			.flexslider { max-width: 720px; max-height: 360px; }
+			.slide-image { max-height: 360px; } 
+		//<![CDATA[
+            
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            
+            ga('create', 'UA-75186618-5', 'auto');
+            ga('send', 'pageview'); 
+                        
+            //]]>
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/media.bemyapp.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.1"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+/* <![CDATA[ */
+var ajax_object = {"ajax_url":"http:\/\/media.bemyapp.com\/admin\/admin-ajax.php"};
+/* ]]> */
+
+/* <![CDATA[ */
+var jQueryCookieOpts = {"path":"\/","domain":""};
+var affwp_scripts = {"ajaxurl":"http:\/\/media.bemyapp.com\/admin\/admin-ajax.php"};
+/* ]]> */
+
+/* <![CDATA[ */
+var BackStretchImg = {"src":"\/\/media.bemyapp.com\/wp-content\/themes\/metro-pro\/images\/bg.jpg"};
+/* ]]> */
+
+/* <![CDATA[ */
+var ss_podcasting_scripts = {"ajaxurl":"http:\/\/media.bemyapp.com\/admin\/admin-ajax.php"};
+/* ]]> */
+ .enews .screenread { display:none; } 
+		var AFFWP = AFFWP || {};
+		AFFWP.referral_var = 'ref';
+		AFFWP.expiration = 1;
+		
+  window.intercomSettings = {
+    app_id: "t7vhtrdv"
+  };
+  (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/t7vhtrdv';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+ .simple-social-icons ul li a, .simple-social-icons ul li a:hover { background-color: #999999 !important; border-radius: 3px; color: #ffffff !important; border: 0px #ffffff solid !important; font-size: 18px; padding: 9px; }  .simple-social-icons ul li a:hover { background-color: #666666 !important; border-color: #ffffff !important; color: #ffffff !important; }BEMYAPP MEDIA
+Home
+Editorials
+Resources
+How-To Video Library
+Interviews
+Connect
+Agency
+	Events
+	BMA Startup Group
+	With The Best
+		Hacker Unit
+		Hackathon.com
+		Coder Power
+		Hacker Bucks
+	
+
+About
+BeMyApp Developer Media and Resources BeMyApp developer media is a website publishing developer resources, developer tutorials, and content that is focused on machine learning, virtual reality, artificial intelligence, and the best rapid prototyping resources.  World’s Biggest Virtual, Augmented and Mixed Reality Online Conference For Devs
+A Guide To Open-Source 3D Graphics Design 
+October 27, 2016 by Pete Trbovich 
+			
+				jQuery(document).ready(function($) {
+					$('#facebook-before-2991').sharrre({
+										  share: {
+										    facebook: true
+										  },
+										  urlCurl: 'http://media.bemyapp.com/wp-content/mu-plugins/synthesis/library/genesis-simple-share/lib/sharrre/sharrre.php',
+										  enableHover: false,
+										  enableTracking: true,
+										  buttons: {  },
+										  click: function(api, options){
+										    api.simulateClick();
+										    api.openPopup('facebook');
+										  }
+										});
+$('#twitter-before-2991').sharrre({
+										  share: {
+										    twitter: true
+										  },
+										  urlCurl: 'http://media.bemyapp.com/wp-content/mu-plugins/synthesis/library/genesis-simple-share/lib/sharrre/sharrre.php',
+										  enableHover: false,
+										  enableTracking: true,
+										  buttons: {  twitter: { via: 'bemyapp' } },
+										  click: function(api, options){
+										    api.simulateClick();
+										    api.openPopup('twitter');
+										  }
+										});
+$('#linkedin-before-2991').sharrre({
+										  share: {
+										    linkedin: true
+										  },
+										  urlCurl: 'http://media.bemyapp.com/wp-content/mu-plugins/synthesis/library/genesis-simple-share/lib/sharrre/sharrre.php',
+										  enableHover: false,
+										  enableTracking: true,
+										  buttons: {  },
+										  click: function(api, options){
+										    api.simulateClick();
+										    api.openPopup('linkedin');
+										  }
+										});
+
+				});
+		
+For the aspiring developer, the realm of graphic design is a daunting one. It’s a common problem to have to outsource graphics for your app, since it doesn’t make sense to spend hundreds of dollars on an Adobe software suite when you’re only going to use it for a few hours per month.
+Sure, you want to hire a professional for prime-time projects, but what about when you just want temporary graphics as a placeholder, or you’re developing the next PixelDungeon and don’t care about gloss and sheen, you just need simple graphics, but a whole lot of them really fast? For those of you who only need graphic art as a utility, or for aspiring graphic artists who want a practice suite until they get the hang of things, this post is for you. We’re going to explore a full graphics stack with a total cost of $0! That’s right – nothing.
+Caveat
+Of course, you’ll still have to invest some time with set-up and learning. And the quality of these free programs is not always going to be up to snuff compared to their licensed counterparts. Finally, nobody can learn graphic design in a day. Don’t expect to be a one-person Pixar studio with this post; if you can at least creak out a web banner and an icon/widget set for your app, count it as a win.
+Optional Step #1: Get a dedicated desktop box and a Linux distro.
+The step is optional because everything we’re going to cover here does, indeed, run on Windows. And it is possible to run a graphics studio on a laptop. But it’s really much easier if you have a desktop box and a separate open source base to work from, because it makes installing these tools a breeze and graphic design just needs raw processing power that strains smaller devices. Eight Gigs of RAM is the baseline.
+You don’t have to drop big money for that desktop; about anything from the last few years will do and Linux is excellent for the computer your friend is tossing because it isn’t compatible with his new Windows install. As for what Linux distro, Ubuntu is still the leader of the pack in terms of popularity. But for a graphics workstation, we highly recommend Linux Mint, because it’s an Ubuntu for users who don’t want to fiddle as much with setup and just need multimedia capabilities out of the box. Third choice is Fedora, the open source bullpen for Red Hat Enterprise Linux, since it has a leg up into one of the few industrial-strength Linux versions out there.
+Blender 3D
+
+The first name in free and open source graphic design is Blender. It is a full-stack 3D graphic design suite: modeling, rendering, rigging, animation, video editing, and game creation right in one handy package. There is a thriving user community around it and it’s been the technology behind several indie games and animated films for years. It leaves every other free graphic studio eating dust.
+When learning Blender, never trust a tutorial for anything less than your current version, down to the last decimal point.”
+The downside with Blender is the learning curve: It’s vertical. Blender suffers from the habit of redesigning its entire interface every other version, although it seems to have calmed down lately. It’s also an operating system all to itself; it even has a Python interpreter built in. When learning Blender, never trust a tutorial for anything less than your current version, down to the last decimal point.
+But Blender 3D has the raw power to spare. Master it, and you basically are a one-person Pixar studio.
+Wings 3D
+
+For those who don’t need a full-stack production studio but just want to render a quick shape, Wings 3D is a great alternative. It has a far smaller memory footprint, and is designed mostly just to quickly mesh out a model, skin it, render it – ta-da. It does have some rudimentary scripting capabilities, but most of the time you’ll just want to render and save, or export a mesh to use in another part of the toolchain.
+A small downside of Wings 3D is that it depends on an Erlang environment and it’s limited to OpenGL rendering, although it can export to ray-tracers. So its dependencies are a bit outdated. And its interface isn’t exactly the sexiest environment you’ve ever seen.
+But Wings 3D is fast and simple, with what is probably the most logical hotkey and menu system of any editor ever.
+Inkscape
+
+Inkscape is the premiere open source vector editor, and for once, it stands toe-to-toe with any other vector editor you can find. Easy, intuitive interface, good documentation, stable release going on years now, loads of features, easily customizable, great community, new plug-ins are easy to create and install, and it’s up to speed with modern platforms. SVG and XML are native to Inkscape, making it a great choice for web graphics and the occasional HTML5 animation. Exports to PDF, PNG, and dozens more formats. It slices and dices, it’s destined to be your favorite tool.
+The only downside to Inkscape is that it does use considerable memory for large operations, especially if you’re playing with the fractal generation tool. It’s been known to freeze, especially on a Windows machine. But most modern day systems can play nicely with it.
+For just work-a-day uses, like whipping out a quick icon, button, banner, or diagram, Inkscape is unsurpassed. It’s even fun to doodle in!
+Gimp
+Gimp is the closest thing you’ll get to a basic general-purpose graphics paint program in the open source world. For simple image processing and editing, it does the job. Some rudimentary photo processing tasks are possible. With time and patience and optimism, you can make it do something close to what you want.
+If you’re sensing we don’t recommend Gimp very highly, we don’t. Gimp’s downside is difficult to discuss tactfully. Gimp suffers from forever living in the shadow of Photoshop. Gimp’s development is also closely tied to both Richard Stallman’s GNU values and the GTK+ widget toolkit. For the final time, your humble author will quit trying to rewrite this paragraph to explain what’s wrong with Gimp, and just scream “POLITICS!” and then run away. You figure it out.
+ 
+Other honorable mentions
+* Paint.NET – Another free raster editor. It’s best described as “MS Windows Paint with an upgrade,” but it is fast and efficient for simple raster graphics tasks.
+* Krita – Aimed at the true artist, this is a raster paint program that’s ideal if you’re looking for a digital drafting table. The interface is elegant and beautiful.
+* ImageMagick – Needs no introduction here for web developers, but Image Magick is also available as a stand-alone desktop app. Most useful for batch processing images from a script. Great fun for coders to tinker with.
+* POVRay – A very old-school ray-tracing engine which is currently homeless, unlike its younger cousin YafaRay, which has a front end in Blender 3D. POVRay is great to run from the command line as a stand-alone scripting language with C-like syntax.
+Conclusion
+Sure, it’s possible to have a drop-in graphics suite for no cost, and it’s even mostly capable of professional-grade results, provided you’re not working for print or photography. For app developers, you’re very well covered. Some of you might even take up these tools and realize you’ve missed your calling as a graphics designer.
+ 
+
+			
+				jQuery(document).ready(function($) {
+					$('#facebook-after-2991').sharrre({
+										  share: {
+										    facebook: true
+										  },
+										  urlCurl: 'http://media.bemyapp.com/wp-content/mu-plugins/synthesis/library/genesis-simple-share/lib/sharrre/sharrre.php',
+										  enableHover: false,
+										  enableTracking: true,
+										  buttons: {  },
+										  click: function(api, options){
+										    api.simulateClick();
+										    api.openPopup('facebook');
+										  }
+										});
+$('#twitter-after-2991').sharrre({
+										  share: {
+										    twitter: true
+										  },
+										  urlCurl: 'http://media.bemyapp.com/wp-content/mu-plugins/synthesis/library/genesis-simple-share/lib/sharrre/sharrre.php',
+										  enableHover: false,
+										  enableTracking: true,
+										  buttons: {  twitter: { via: 'bemyapp' } },
+										  click: function(api, options){
+										    api.simulateClick();
+										    api.openPopup('twitter');
+										  }
+										});
+$('#linkedin-after-2991').sharrre({
+										  share: {
+										    linkedin: true
+										  },
+										  urlCurl: 'http://media.bemyapp.com/wp-content/mu-plugins/synthesis/library/genesis-simple-share/lib/sharrre/sharrre.php',
+										  enableHover: false,
+										  enableTracking: true,
+										  buttons: {  },
+										  click: function(api, options){
+										    api.simulateClick();
+										    api.openPopup('linkedin');
+										  }
+										});
+
+				});
+		Filed Under: Editorials, Featured Tagged With: Blender 3D, graphic design, open source, Pete Trbovich, Wings 3DMore Developer Content
+Is Skynet real? A rational answerJune 30, 2016 By Gregory ThomasFor Similar Content Sign Up 
+We will send you the top 5 articles of the week 
+		
+									E-Mail Address
+		
+				Leave a Reply Cancel reply
+									
+																			Your email address will not be published. Required fields are marked *							Name * 
+Email * 
+Website 
+												Comment 						
+											
+							
+						
+		Most Read Article
+While You’re Waiting For That Flying Car…October 1, 2016 By Pete TrbovichMost Watched Video
+Rob Eisenberg Answers Your Questions on AureliaSeptember 26, 2016 By April SmallwoodMost Popular Tutorial
+How to Integrate Alamofire in SwiftApril 26, 2016 By Zaid Pathan			
+					
+
+					
+
+					
+		Don’t have time to read now? Sign up for our Sunday digest
+			
+
+  
+    
+      
+      	
+      
+        I'm also curious about events near me
+      
+      
+      	
+    	
+    		
+    		
+    	    
+      
+      
+        
+    
+  
+
+(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='CITY';ftypes[1]='text';fnames[2]='COUNTRY';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
+  jQuery('#mc-embedded-subscribe-form').on('submit', function(e) {
+    var inputEmail   = jQuery('#mce-EMAIL').val();
+    var inputCity    = jQuery('#mce-CITY').val();
+    var inputCountry = jQuery('#mce-COUNTRY').val();
+    if (inputEmail.length && !inputCity.length && !inputCountry.length) {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Sidebar',
+        eventAction: 'Newsletter Registration',
+        eventLabel: 'News'
+      });
+    } else if(inputEmail.length && inputCity.length || inputEmail.length && inputCountry.length) {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Sidebar',
+        eventAction: 'Newsletter Registration',
+        eventLabel: 'News and Events'
+      });
+    }
+  });
+
+					
+
+
+					
+    
+      
+        Follow us
+      
+      
+        
+          
+          
+          
+        
+    
+  
+  
+    
+      
+        
+          
+            BeMyApp Startup Group
+            
+              
+                
+                  
+                    
+                    
+                    
+                      
+                        
+                      
+                      
+                        Hackathon.com
+                        Stay up to date with hackathons around the world. Find the best hackathons around you or organize your own.
+                      
+                    
+                    
+                      
+                        
+                      
+                      
+                        CoderPower
+                        An online platform with coding challenges where devs learn new skills and compete using microlearning techniques.
+                      
+                    
+                    
+                      
+                        
+                      
+                      
+                        HackerUnit
+                        The first remote accelerator focused on the most disruptive technologies. Talent matters, not location.
+                      
+                    
+                    
+                      
+                        
+                      
+                      
+                        With The Best
+                        Themed online conferences and tailored masterclasses designed to bring the best experts to your living room.
+                      
+                    
+                    
+                      
+                        
+                      
+                      
+                        Hackerbucks
+                        New digital currency created by BeMyApp rewarding participants who attend hackathons, conferences, meetups, webinars, etc.
+                      
+                    
+                  
+                
+              
+            
+          
+        
+        
+          
+            Offices
+            
+              
+                
+                  
+                    
+                      
+                      
+                        530 Howard Street, suite 450
+                        San Francisco, CA 94105
+                      
+                      
+                        1 St Katharine’s Way
+                        E1W 1UN London
+                      
+                      
+                        86 Rue de Charonne
+                        75011 Paris
+                      
+                      
+                        Gotzinger Straße 8
+                        81371 München
+                      
+                      
+                        Hackers & Founders 
+                        Herengracht 504 
+                        1017 CB Amsterdam
+                      
+                    
+                    
+                      San Francisco /
+                      London /
+                      Paris /
+                      Munich /
+                      Amsterdam
+                    
+                  
+                
+              
+              
+                
+                  
+                    
+                      Sitemap
+                    
+                    
+                      Events /
+                      Agency /
+                      Blog
+                    
+                  
+                
+              
+            
+          
+        
+      
+      
+        News
+        Tweets by @bemyapp
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    
+  
+  
+    
+      
+        ©2016 BeMyApp - All right reserved.
+        
+      
+        
+      
+    
+  
+
+					
+		Where Developers Meet
+		<!--
+		function imposeMaxLength(Object, MaxLen)
+		{
+  		return (Object.value.length <= MaxLen);
+		}
+		-->
+	jQuery(document).ready(function($) {$(".flexslider").flexslider({controlsContainer: "#genesis-responsive-slider",animation: "slide",directionNav: 1,controlNav: 0,animationDuration: 1000,slideshowSpeed: 10000    });  });

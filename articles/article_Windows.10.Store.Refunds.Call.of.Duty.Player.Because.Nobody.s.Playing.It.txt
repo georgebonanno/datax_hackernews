@@ -1,0 +1,702 @@
+
+/*<![CDATA[*/
+var calls = [], _gaq = _gaq || [], ga;
+calls.push(
+['_setAccount', 'UA-599058-30'],
+['_setDomainName', 'motherboard.vice.com'],
+['t2._setAccount', 'UA-37305051-1'],
+['t2._setDomainName', 'motherboard.vice.com']
+);
+calls.push(
+['_setPageGroup', 2, ""],
+['t2._setPageGroup', 2, ""]
+);
+calls.push(
+['_setPageGroup', 3, "Matthew Gault"],
+['t2._setPageGroup', 3, "Matthew Gault"]
+);
+calls.push(
+['_setPageGroup', 4, "2016_11_05"],
+['t2._setPageGroup', 4, "2016_11_05"],
+['_setPageGroup', 5, "2016_11"],
+['t2._setPageGroup', 5, "2016_11"]
+);
+calls.push(
+['_trackPageview'],
+['t2._trackPageview']
+);
+_gaq.push.apply(_gaq, calls);
+(function() {
+ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+/*]]>*/
+Windows 10 Store Refunds ‘Call of Duty’ Player Because Nobody's Playing It | Motherboard
+		window.Krux || ((Krux = function(){
+			Krux.q.push(arguments)
+		}).q = []);
+		(function(){
+			var k = document.createElement('script');
+			k.type = 'text/javascript';
+			k.async = true;
+			var m, src = (m = location.href.match(/\bkxsrc=([^&]+)/)) && decodeURIComponent(m[1]);
+			k.src = /^https?:\/\/([a-z0-9_\-\.]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" :
+				(location.protocol === "https:" ? "https:" : "http:") + "//cdn.krxd.net/controltag?confid=JLnYmGrt"
+				;
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(k, s);
+		}());
+
+	
+		window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+		(function(){
+		     function retrieve(n){
+		   var m, k='kx'+n;
+		   if(window.localStorage){
+		       return window.localStorage[k] || "";
+		   }else if(navigator.cookieEnabled){
+		       m = document.cookie.match(k+'=([^;]*)');
+		       return (m && unescape(m[1])) || "";
+		   }else{
+		       return '';
+		   }
+		     }
+		Krux.user = retrieve('user');
+		     Krux.segments = retrieve('segs') && retrieve('segs').split(',') || [];
+		 })();
+
+	
+    var _comscore = _comscore || [];
+    _comscore.push({ c1: "2", c2: "8568956" });
+    (function() {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+    })();
+
+    
+_atrk_opts = { atrk_acct:"x5HVh1aUXR00Gi", domain:"vice.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+
+(function() {
+
+var gads = document.createElement("script");
+gads.async = true;
+gads.type = "text/javascript";
+
+var useSSL = "https:" == document.location.protocol;
+gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+
+var node =document.getElementsByTagName("script")[0];
+node.parentNode.insertBefore(gads, node);
+
+})();
+
+		
+	
+	
+		
+	
+
+
+	
+
+
+			
+
+			
+				
+			
+		
+
+		Sections
+			Machines
+											Discoveries
+											Space
+											Futures
+											Gaming
+											Earth
+												
+			Videos
+		
+
+		
+			About
+		
+	
+
+	
+		en		
+
+		
+						
+							de						
+					
+																							
+						
+							es						
+					
+																
+						
+							fr						
+					
+																
+						
+							it						
+					
+																
+						
+							nl						
+					
+																
+						
+							pt						
+					
+									The VICE Channels
+
+		
+		
+			
+				
+			
+
+			
+				
+					
+					Share				
+				
+					
+					Tweet
+				
+			
+
+			
+				
+					Motherboard
+				
+
+				
+					Motherboard
+				
+			
+
+			
+						
+							Watch							
+						
+					
+
+					
+						Sections						
+					
+
+																							
+								
+									Machines									
+								
+							
+
+																				
+								
+									Discoveries									
+								
+							
+
+																				
+								
+									Space									
+								
+							
+
+																				
+								
+									Futures									
+								
+							
+
+																				
+								
+									Gaming									
+								
+							
+
+																				
+								
+									Earth									
+								
+							
+
+																						
+				<a href="<%= url %>?trk_source=nav">
+					<figure>
+						<div class="article-media-overlay"></div>
+						<img src="<%= image.url %>" alt="<%= image.alt %>" />
+					</figure>
+					<h2><%= title %></h2>
+				</a>
+			
+				
+									
+								
+								
+				
+			
+
+			
+				
+
+				
+					
+				
+			
+		
+	
+
+	
+		
+			
+				
+						Latest Videos
+					
+																		
+								Documentaries
+							
+													
+								Interviews
+							
+															
+					
+					
+																										
+								
+																												
+								
+																						
+			
+
+			
+				
+								Machines
+							
+													
+								Discoveries
+							
+													
+								Space
+							
+													
+								Futures
+							
+													
+								Gaming
+							
+													
+								Earth
+							
+															
+																										
+								
+																												
+								
+																												
+								
+																												
+								
+																												
+								
+																												
+								
+																						
+			
+
+															
+						
+															
+								
+													
+					
+
+														
+						
+															
+								
+													
+					
+
+														
+						
+															
+								
+													
+					
+
+														
+						
+															
+								
+													
+					
+
+														
+						
+															
+								
+													
+					
+
+														
+						
+															
+								
+													
+					
+
+														
+	
+
+	
+		
+			
+				
+			
+
+							
+					Follow
+				
+			
+			
+				
+			
+			
+				Motherboard
+			
+            			     Newsletter
+		    		
+	
+
+				
+
+
+	
+				
+					
+									
+						Image: Activision					
+							
+			
+
+				Windows 10 Store Refunds ‘Call of Duty’ Player Because Nobody's Playing It
+
+				
+	
+		
+					
+
+
+
+	Written by 
+	Matthew Gault
+			Contributor
+		
+					
+						November 5, 2016 // 05:00 PM EST					
+											
+				
+			
+			
+				
+										
+	
+
+
+	
+
+
+    
+
+
+	
+
+
+    
+        
+    
+    
+        
+             
+             Copy This URL
+             
+             
+                 
+             
+        
+    
+
+						Every year, Activision releases another Call of Duty and gamers across the world scramble to get their hands on the new shooter. Fans love the single player campaign, but the game’s polished, fun, and fast-paced multiplayer mode is the real draw.Of course, it only works if you have other people to play with. A few gamers who bought Call of Duty: Infinite Warfare through the digital storefront built into Windows 10 have discovered they can only play with other gamers who also bought the game from Microsoft. Xbox One players can only play with other Xbox One players, and PlayStation 4 players can only play with other PlayStation 4 players. This has always been the case. The trouble is that this time not all PC players can play with other PC players. For unknown reasons, Windows 10 Store customers are segregated from customers who bought the game from Steam, which is by far the most popular platform on PC.That’s like buying a game from Target and learning you can’t play with people who bought it from Best Buy. Call of Duty fans who made the unfortunate of mistake of giving Microsoft their cash are left sitting in lonely multiplayer lobbies waiting for games that’ll never start. However, it appears that Microsoft is giving out refunds.Activision released two Call of Duties this year. Infinite Warfare is a new entry in the franchise and Modern Warfare Remastered is a fancy remake of one of the series' most popular games players could get as an extra for buying Infinite Warfare’s special edition. One Reddit user’s little brother bought a copy of special edition to play Warfare Remastered through the Windows 10 Store. When he tried to play some deathmatch he learned he was one of two people looking for a game.That’s right, he couldn’t find a game for one of the most popular multiplayer shooters of all time. To put that in perspective, more than 5,000 gamers are playing Modern Warfare Remastered on Steam right now.Hell is not killing other people. Image: hayz00s/ ImgurCall of Duty does have a single player campaign, but most fans buy the games to kill other people in multiplayer. Without that, it’s just not Call of Duty and it’s not worth the cash. The Redditor claimed he reached out to Microsoft and scored his little brother a refund, a heroic feat in these days of draconian digital return policies.This probably isn't Microsoft's fault. Microsoft has been pushing cross platform play between the Xbox One and Windows 10 for the past year, even promising people who buy a game on one platform will get it on the other for free."We support cross-play between devices and platforms for partners who want to enable it,” a Microsoft spokesperson told Windows Centralwhen it asked them about the recent Call of Duty problems. The statement implies Activision made the call to keep PC players who bought the game from different storefronts separate. Which, if true, is ridiculous.Gamers are used to the separation of console and PC multiplayer communities. But PC players aren’t used to companies gating them off based on where they purchased their game. It’s a ludicrous policy that doesn’t serve anyone’s interest and it’s another black eye for a digital storefront that PC gamers already avoid like the plague.					
+				
+
+				
+					
+						
+							Topics: gaming, Call of Duty, infinite warefare, modern warfare, activision, steam, Windows 10, pc						
+					
+
+					
+	
+
+						Contact the author by Twitter.					
+	
+	You can reach us at letters@motherboard.tv. Letters may be published. Want to see other people talking
+	about Motherboard? Check out our letters to the editor.
+	
+		
+	
+	
+		
+	
+	
+		 
+	
+	
+		
+	
+	
+		
+	
+	
+		
+	
+Recommended
+                 	
+ 			
+
+ 			
+ 	
+		Original 'Left 4 Dead' Developer Releases 'Lost' Level for Free
+	
+ 
+     	
+ 			
+
+ 			
+ 	
+		How Valve Tricked Players into Being Less Toxic
+	
+ 
+     	
+ 			
+
+ 			
+ 	
+		'Call of Duty' Porn Parody's Heroes Could Use Some Body Armor
+	
+ 
+     	
+ 			
+
+ 			
+ 	
+		How to Be 'Huge on YouTube', According to Canada's Top First Nations Gamer
+	
+ 
+     	
+ 			
+
+ 			
+ 	
+		Blizzard Is Recreating 'Diablo 1' in 'Diablo 3,' and It's Pissing Players Off
+	
+ 
+     	
+ 			
+
+ 			
+ 	
+		Having Conquered 'Go,' Google's DeepMind AI Takes on 'StarCraft II'
+	
+
+				
+
+								
+					
+
+Follow Us Everywhere
+
+
+	
+		
+	
+
+		
+		
+	
+		
+		
+	
+	
+		
+	
+		
+		
+	
+		    
+            
+        
+    Most Popular
+ 	
+ 			
+ 			
+ 	
+		Werner Herzog On Science, Language, Mars, and His Fever Dreams
+	
+
+ 
+ 	
+ 			
+ 			
+ 	
+		How Hackers Broke Into John Podesta and Colin Powell’s Gmail Accounts
+	
+
+ 
+ 	
+ 			
+ 			
+ 	
+		The 2016 Election Has Failed the Future
+	
+
+ 
+ 	
+ 			
+ 			
+ 	
+		Apple Rumored to Remove Old-School USB Ports on Next Macbook Pro
+	
+
+ 
+ 	
+ 			
+ 			
+ 	
+		Donald Trump Is Running Some Really Insecure Email Servers
+	
+
+ 
+ 	
+ 			
+ 			
+ 	
+		This Guy Is Replicating ‘Blade Runner’ Shot-for-Shot in MS Paint
+	
+
+
+
+				
+						
+
+		
+			
+								
+			
+		
+
+		
+		
+				© 2016 Vice Media LLC			
+			About Motherboard
+
+			
+				About Motherboard
+				Contact
+				Privacy Policy
+				Terms of Use
+
+							
+		
+
+	
+    var _sf_async_config={uid:8233,domain:"motherboard.tv"};
+    (function(){
+        function loadChartbeat() {
+            window._sf_endpt=(new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+            document.body.appendChild(e);
+        }
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+        loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+
+	window.vmp_ad_config = {
+		ad_slots : {},
+		ad_targetting_sizes : {},
+		config : {
+			adunit : 'motherboard.vice.com/gaming',
+			els : '.motherboard-ad',
+			targeting : {
+				topic : "gaming",
+				aid : "windows-10-store-refunds-call-of-duty-player-because-nobodys-playing-it",
+				atype : "blog",
+				auth : "Matthew Gault",
+				keywords : "gaming, Call of Duty, infinite warefare, modern warfare, activision, steam, Windows 10, pc",
+				country : "en_us"
+			}
+		}
+	};
+
+	
+	var pvar = { cid: "au-vice", content: "0", server: "secure-au" };
+	var trac = nol_t(pvar);
+	trac.record().post();
+	
+	
+	
+	
+	
+
+	
+
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-6EzWtvBV9sFU3"
+});
+
+
+
+
+
+/*<![CDATA[*/
+//Sailthru Horizon
+(function(){function loadHorizon(){var s = document.createElement('script');s.type = 'text/javascript';s.async = true;s.src = location.protocol + '//ak.sail-horizon.com/horizon/v1.js';var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);}loadHorizon();var oldOnLoad = window.onload;window.onload = function(){if(typeof oldOnLoad === 'function'){oldOnLoad();}
+Sailthru.setup({domain: 'horizon.vice.com'
+});
+};
+})();
+var SYSTEM_PREFIX = 'vmp', SITE_PREFIX = 'motherboard', SITE_LOCALE = 'en_us';
+//Google Custom Serch Engine
+(function(){var cx = '006027918092062956483:2wxwe5src7c';
+var gcse = document.createElement('script');
+gcse.type = 'text/javascript';
+gcse.async = true;
+gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//www.google.com/cse/cse.js?cx=' + cx;
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(gcse, s);
+})();
+
+/*]]>*/
+

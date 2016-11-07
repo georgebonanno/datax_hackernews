@@ -1,0 +1,65 @@
+
+ { "@context": "http://schema.org", "@type": "Person", "name": "Jamie Little", "jobTitle": "Digital Preservation and Application Development Librarian", "affiliation": "University of Miami", "additionalName": "James", "url": "http://jamielittle.org",
+"homeLocation":"Coral Gables", "address": { "@type": "PostalAddress", "addressLocality": "Coral Gables", "addressRegion":
+"Florida" }, "sameAs": [ "http://twitter.com/ajamielittle" ] }
+   (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter40209929 = new Ya.Metrika({ id:40209929, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); 
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-47503508-1', 'auto');
+    ga('send', 'pageview');
+  Whatever happened to Japanese laptops?
+    
+		Jamie Little
+		
+				Posts
+				CV
+			
+		Twitter
+			GitHub
+				Ruby Gems
+				
+      npm
+		
+
+      
+        
+	
+	Whatever happened to Japanese laptops?
+		
+			Nov 6, 2016 • Jamie Little
+	
+		
+A few weeks ago I noticed some foreign exchange students at my university who were huddled around a Panasonic laptop. This wasn't one of the Toughbook models that are sold in the US, but a newer Japanese model. Seeing this rare laptop out in the wild combined with the recent wailing and gnashing of teeth concerning the MacBook Pro piqued my interest in the current Japanese PC market.
+
+
+In the 00s the online company dynamism imported Japan-only models and (if I remember correctly) replaced the Japanese keys with English ones. This was long before ultraportables or netbooks were commonplace is the US. It seems that dynamism is no longer importing laptops and mainly sells 3D printers now.
+
+
+VAIO is no longer owned by Sony, but is still selling high end laptops. The current VAIO Z has an extremely long battery life, but no USB-C ports. The basic appearance of the device mirrors the previous-gen MacBook Pro. There is a Japan only model they have that has wild colors like VAIO has done in the past.
+
+
+I have a strange attachment to Panasonic that goes back to their 3DO days. When I was younger Next Generation magazine heavily hyped their never-released M2 console, which had a very unique blue casing that they use as part of their brand identity (I have a Panasonic vacuum cleaner with the same blue). In Japan you can get a laptop with the same shade:
+
+
+Panasonic has some very interesting, but very expensive models available in Japan. They are extremely lightweight but still include Blu-ray drives and VGA ports. The web site illustrates the weight of the machines with the equivalent amount of bottles of water, which is actually a pretty good way of describing the weight. These laptops don't look anything like a MacBook Pro. The LX model costs 302,928 or around 3000 USD. 
+
+
+With the Z as an exception, these laptops aren't trying to look like a MacBook Pro. I think that's a good thing. 
+
+
+They are incredibly expensive, which may be because they are manufactured in Japan. The fact that they are made in Japan is something that Panasonic features heavily on their sites.
+
+
+I find it kind of sad that dynamism isn't importing these machines, but I suppose that it's no longer a profitable proposition. I think it's positive that VAIO is still operating in the US.
+
+
+	
+
+
+    
+    
+  
+hljs.initHighlightingOnLoad();

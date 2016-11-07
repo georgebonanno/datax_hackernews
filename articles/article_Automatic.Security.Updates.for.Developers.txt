@@ -1,0 +1,619 @@
+Guide to Automatic Security Updates For PHP Developers - Paragon Initiative Enterprises Blog
+    
+            
+                
+                    Toggle navigation
+                    
+                    
+                    
+                
+                
+                    
+                PARAGON INITIATIVE 
+            
+            
+                
+                        
+                            Info
+                        
+                        About Us
+                            Our Experience
+                            Quick Answers
+                            Technology Books
+                            White Papers
+                        
+                    
+                        
+                            Services
+                        
+                        Consulting
+                            Code Auditing
+                            Business Intelligence
+                            App Security
+                            App Development
+                            Web Development
+                        
+                    
+                        
+                            Community
+                        
+                        Projects
+                            Events
+                        
+                    Blog
+                    Contact
+                
+            
+        
+    
+    
+            
+        
+            
+                News and Updates
+                "We care about our community, online and offline"
+            
+        
+    
+
+    
+        
+                        
+            
+                Guide to Automatic Security Updates For PHP Developers 
+                
+                    
+                        October 25, 2016 4:06 am
+                     by 
+                    P.I.E. Staff
+                
+            
+            
+                
+                    Security Engineering
+                
+            
+            
+                    Most of the software security vulnerabilities known to man are preventable by careful development practices. For example, SQL injection can be prevented by separating the user-provided data from the SQL query. We've covered quite a few of these topics before. Read A Gentle Introduction to Application Security if you're not familiar with web application security.
+However, even if you're trying to do everything right, eventually we all make mistakes and ship exploitable software.
+The Case for Automatic Updates
+Once a security bug exists in your customer's networks, preventing a security breach involves a lot of moving parts, but most importantly:
+Identifying the security bugs before criminals do.
+Fixing the security bugs you've identified.
+Getting the patch deployed in all of your customer's networks.
+Consider the timeline below:
+The time between point 0 and point 1 might be years. For the Linux kernel, it's about 5 years on average. There are a lot of ways to reduce this number, and most of them involve automated testing and manual code review from security experts.
+The time between point 1 and point 2 might be weeks or months. Our average vulnerability identified-to-fixed time window is less than 24 hours. Most organizations do not enjoy the same agility or expertise.
+Most development teams have no control over the time between points 2 and 3 -- the amount of time it take for the fix to be applied (and the vulnerability to be neutralized) after the update is available.
+By making updates manual rather than automatic, you're forcing your customers to take all the responsibility for making sure that your mistakes don't hurt their business. Only a very small minority of your customers might prefer the responsibility of verifying and applying each update themselves.
+By and large, most people do not have the security awareness, time management, and discipline to undertake this responsibility 24/7/365.
+Automatic security updates reduce the interval between points 2 and 3 from possibly infinite to nearly zero. That's clearly a meaningful improvement over manual patch management.
+What's the Practical Risk in Outdated Software?
+The problem of outdated software is well-studied by the information security industry. According to Verizon's 2015 Data Breach Investigations Report (PDF), for example, when a software vulnerability was used...
+
+99.9% of the exploited vulnerabilities were compromised more than a year after the CVE was published.
+
+Earlier this year, Wombat Security reflected on similar studies in an article titled Out-of-Date Software and Plug-ins Compound End-User Risk. An article on Help Net Security examines findings from F-Secure and echoes the problem of companies relying on out-dated software and putting their users at risk.
+The danger of outdated software is supported by both the data and by simple logic: If criminals are aware of a specific vulnerability in a software product, it doesn't matter that the vendor published a security patch if most of the companies that use their product will remain vulnerable when criminals want to exploit it.
+It Seems So Obvious, But...
+If 99.9% of real-world software exploits are preventable by keeping software up-to-date, and the danger of unpatched vulnerabilities is well-known among security professionals, the obvious question is, "Why doesn't everything update itself automatically?"
+Implementing a secure automatic update mechanism is a nontrivial engineering feat that most programmers don't even know where to begin addressing. And often the ones that think they do are uninformed about the risks and complexity.
+Elements of a Secure Automatic Update System
+Automatic updates are a specific instance of a more general problem: secure code delivery. But in addition to the problems involved with securely delivering code from the developer to the user (with a healthy dose of distrust towards the delivery infrastructure), you have additional engineering challenges to contend with due to the automatic nature of the whole process.
+The components of a secure automatic update system are as follows:
+
+Offline Cryptographic Signatures
+
+
+Reproducible Builds
+
+
+Decentralized Authenticity / Userbase Consistency Verification
+
+
+Transport-Layer Security
+
+
+Mirrors and Other Availability Concerns
+
+
+Separation of Privileges
+
+Offline Cryptographic Signatures
+Cryptographic signatures provide a (very strong inductive) proof of authenticity.
+Every update package should be digitally signed, using (listed in order of preference):
+
+RFC 7479 (Ed25519, or Ed448 -- modern elliptic curve cryptography).
+
+Ed25519 in conjunction with SPHINCS-256 (post-quantum cryptography).
+
+RFC 6979 (Deterministic ECDSA).
+
+GnuPG, which shines in this use-case and doesn't require you to even care which algorithm it's using.
+
+RSASSA-PSS with 2048-bit keys, SHA256, and MGF1-SHA256 and e = 65537.
+
+Foot-bullety ECDSA (i.e. you're responsible for generating random nonces and dodging invalid curve attacks, and worrying about whether or not your curve is twist-secure). This is ranked lower than RSA because most libraries that only implement non-deterministic ECDSA are riddled with side-channel attacks. But the most glaring problem is the risk of nonce reuse. The standard was broken. RFC 6979 fixes it. RFC 7479 uses safer building blocks.
+For PHP developers: you can get Ed25519 from libsodium or secure RSA from EasyRSA. The PEAR bindings for Crypt_GPG are available via Composer:
+composer require pear/crypt_gpg
+Since cryptographic signatures require a key pair (one secret/private key and its corresponding public key), simply publish/hard-code your public key with your software and use it to verify the signatures of update files.
+Reproducible Builds
+Reproducible builds is a concept that's mostly relevant in compiled languages, where you can compile the source code on your own machine and get a byte-for-byte identical binary blob as the one the developer published and signed. This makes it more difficult for an attacker (or the developer) to slip in a trojan without being detected.
+Reproducible builds necessarily require software projects to be open source. Closed-source (proprietary) software cannot satisfy this requirement.
+For PHP developers, if your deliverable is a PHP Archive (.phar file), your users can use Pharaoh to verify that the .phar you publish and the .phar built on their machine have no differences. If any differences are found, you can then examine them to verify that they're benign. (This is more useful than just comparing checksums.)
+Decentralized Authenticity / Userbase Consistency Verification
+To prevent targeted attacks:
+All updates should be checked into an append-only audit log.
+The local copy of the audit log should be validated among trusted peers.
+The audit log can either mean implementing something like Certificate Transparency or simply publishing a SHA-384 hash of the file's contents and additional metadata onto a cryptocurrency ledger.
+When downloading an update file, after checking the cryptographic signature (which is a strong assertion that it was signed by the developer), one should check with their trusted peers to validate that they see the same copy of the audit log. If they unanimously respond affirmatively, then you can rule out any likelihood of a silent, targeted attack being deployed (especially if the infrastructure doesn't know who your trusted peers are; Tor helps here).
+This feature only guarantees that attacks can't be targeted to one user without alerting the entire network to the presence of the attack. (It does not, however, stop an attacker who breached the infrastructure and pilfered the signing keys from releasing an update in the first place.)
+In addition to being forensically useful, it's a deterrent for the most sophisticated adversaries (whom, for the most part, want their activities to remain undetected).
+Transport Layer Security
+For every developer that believes the solution to curl http://foo | sh is simply curl https://foo | sh, there must be three that believe a GnuPG signature obviates the need for HTTPS. This is incorrect. You need both.
+Consider the following scenario:
+You release version 5.5.1 of your software widget, with a valid signature.
+A vulnerability is found in 5.5.1, so you patch it and release version 5.5.2, with a valid signature.
+Because you're using HTTP, an active attacker replays version 5.5.1 and its valid signature when an update request is emitted.
+Your users' system remains on the vulnerable version until the attacker lets them upgrade.
+This is known as a replay attack, and cryptographic signatures alone don't remedy them.
+The knee-jerk response to a replay attack is to upload your secret key to the server and do online signing (either with timestamps or challenge-response authentication). This defeats the purpose of an offline digital signature: To be secure even when the server hosting the files is breached.
+You could also build a really complex system of offline signatures (see: most Linux distros and their RELEASES.gpg or equivalent). But why bother adding more complexity to your life when you can simply use HTTPS instead of HTTP and man-in-the-middle-assisted replay attacks disappear.
+Mirrors and Other Availability Concerns
+The other way for a criminal to prevent a security release from getting applied automatically to targets of interest would be to simply launch a sustained Distributed Denial of Service attack against the update server.
+Fortunately, if you've implemented all the features above, your protocol already has enough resilience to allow you to decentralize your infrastructure. This means you could either:
+Have a wide range of mirrors, hosted in a diverse range of networks with a diverse portfolio of internet service providers, OR
+Simply upload copies of every update file to the BitTorrent network and let your users seed updates.
+Trojan horse malware wouldn't a concern for your users either way; your software is already verifying cryptographic signatures with your public key.
+Either strategy greatly increases the cost of a sustained DDoS attack and reduces the likelihood of it having the intended effect.
+The mail critical security updates must go through.
+Separation of Privileges
+Once you've obtained an authentic, peer-verified, reproducible-from-source copy of the security update from a highly-available decentralized networking infrastructure... what to do with it?
+There are two schools of thought here:
+The update process can be initiated by the HTTP process when a user accesses the application that needs updating.
+This requires the software to be able to write to itself, which greatly reduces your defense-in-depth to traditional web vulnerabilities, but ensures out-of-the-box automatic security updates are available for users who don't have the knowledge or time to set up privilege separation.
+
+The update process must be initiated by a different user than apache/www-data (or equivalent). The software is unable to write to itself, and in fact can only be overwritten by another user account.
+This is more secure, but carries the risk of more people disabling automatic security updates out-of-the-box.
+Your threat model should dictate which avenue you pursue. CMS Airship went with the first option because we believe the risk of a 1day vulnerability to be much higher than "the source code is, effectively, world-writable" concerns.
+If you have a more sophisticated ops team, by all means go with the second approach. Just keep in mind AviD's Rule of Usability:
+
+Security at the expense of usability, comes at the expense of security.
+
+An intermediate solution does exist here: Your HTTP process writes to a named pipe (or a world-writable file), and another process (e.g. a daemon or a cron job) kicks off the update process as a more privileged user when this pipe/file is written to.
+Secure Automatic Update Implementations
+Although not immediately useful for PHP developers, The Update Framework is definitely the best starting point for secure automatic updates. In addition to the features covered in the TUF Specification, it supports a process for augmenting the protocol.
+If you're using CMS Airship, read up on how we implemented secure automatic updates.
+Summary
+Automatic software updates are a boon for security, not a detriment, so long as the following precautions are taken:
+Updates must be cryptographically signed.
+Updates must be reproducible from the source code.
+Update consistency must be decentrally verifiable.
+All communications must be conducted via TLS (i.e. HTTPS not HTTP) to prevent MitM-DoS attacks.
+Update files must be mirrored wide and far to prevent DDoS attacks.
+Updates may be handled by a separate user account than the one used by the HTTP server for better defense-in-depth.
+Changelog
+
+2016-10-25 - Added a section mentioning some implementations.
+
+2016-10-25 - Intermediate solution suggested by Taylor "Riastradh" Campbell in the privilege separation section.
+
+            
+                
+                                        Permalink
+                
+                                    
+                        
+                             
+                            Discuss on Hacker News
+                        
+                    
+                            
+            
+                
+                    License: 
+                        Creative Commons Attribution-ShareAlike 4.0 International
+                        CC-BY-SA 4.0 Intl
+                    
+                
+                                    Application Security
+                                                    Authentication
+                                                    Business
+                                                    HTTPS
+                                                    Integrity
+                                                    Open Source
+                                                    PHP
+                                                    Public Key Cryptography
+                                                    Security
+                                                    Signatures
+                                            
+        
+            About the AuthorP.I.E. StaffParagon Initiative EnterprisesParagon Initiative Enterprises is an Orlando-based company that provides software consulting, application development, code auditing, and security engineering services. We specialize in PHP Security and applied cryptography.            
+        
+
+        
+            
+                About
+                
+                    Paragon Initiative Enterprises offers 
+                    technology consulting and 
+                    web development
+                    services to businesses with attention to security above and beyond compliance.
+                
+                
+                    
+                        
+                        Our Professional Experience
+                    
+                
+            
+
+            
+                Archives
+                
+                         2016
+                         January 2016
+                                                         February 2016
+                                                         March 2016
+                                                         April 2016
+                                                         May 2016
+                                                         June 2016
+                                                         July 2016
+                                                         August 2016
+                                                         September 2016
+                                                         October 2016
+                                                         November 2016
+                            
+                                        
+                         2015
+                         April 2015
+                                                         May 2015
+                                                         June 2015
+                                                         July 2015
+                                                         August 2015
+                                                         September 2015
+                                                         October 2015
+                                                         November 2015
+                                                         December 2015
+                            
+                    
+            
+                Blog Categories
+                
+     Business
+    
+  
+     Paragon Initiative
+            
+     Community
+            
+     Open Source
+    
+
+                    
+     Pharaoh
+    
+
+                    
+     Security Advice
+    
+
+                
+
+                    
+     Our Products
+            
+     Airship
+    
+
+                    
+     ASGard
+    
+
+                
+
+                
+  
+     Technology
+            
+     Cryptology
+    
+
+                    
+     Databases
+    
+
+                    
+     Hardware
+    
+
+                    
+     Programming
+    
+
+                    
+     Quality Assurance
+    
+
+                    
+     Security Engineering
+    
+
+                    
+     System Administration
+    
+
+                
+                     
+                         Uncategorized
+                    
+                
+            
+                Tags
+                
+                            
+                                Access Controls
+                            
+                                                                    
+                            
+                                Application Security
+                            
+                                                                    
+                            
+                                Authentication
+                            
+                                                                    
+                            
+                                Authorization
+                            
+                                                                    
+                            
+                                Business
+                            
+                                                                                        
+                            
+                                Central Florida
+                            
+                                                                    
+                            
+                                Cryptography
+                            
+                                                                    
+                            
+                                CSPRNG
+                            
+                                                                                        
+                            
+                                Data Science
+                            
+                                                                    
+                            
+                                Encryption
+                            
+                                                                                        
+                            
+                                HTTPS
+                            
+                                                                                                                                
+                            
+                                Libsodium
+                            
+                                                                    
+                            
+                                Login
+                            
+                                                                    
+                            
+                                Math
+                            
+                                                                                                            
+                            
+                                .NET
+                            
+                                                                    
+                            
+                                Networking
+                            
+                                                                    
+                            
+                                Node.js
+                            
+                                                                    
+                            
+                                Open Source
+                            
+                                                                    
+                            
+                                Orlando
+                            
+                                                                    
+                            
+                                OWASP
+                            
+                                                                    
+                            
+                                OWASP Top Ten
+                            
+                                                                    
+                            
+                                PHP
+                            
+                                                                    
+                            
+                                PostgreSQL
+                            
+                                                                    
+                            
+                                Public Key Cryptography
+                            
+                                                                    
+                            
+                                Python
+                            
+                                                                    
+                            
+                                Ruby
+                            
+                                                                    
+                            
+                                Secret Key Cryptography
+                            
+                                                                    
+                            
+                                Security
+                            
+                                                                                        
+                            
+                                SQL
+                            
+                                                                    
+                            
+                                SQL Injection
+                            
+                                                                    
+                            
+                                Statistics
+                            
+                                                                    
+                            
+                                Vulnerability
+                            
+                                                                    
+                            
+                                Web Development
+                            
+                                                                    
+                            
+                                XSS
+                            
+                                                            
+            
+                Mailing Lists
+                
+                        
+                            
+                            Paragon Initiative Quarterly
+                        
+                    
+                    
+                        
+                            
+                            Paragon Initiative Vanguard
+                        
+                    
+                
+            
+                Elsewhere
+                
+                        
+                            
+                            ParagonIE on Github
+                        
+                    
+                    
+                        
+                            
+                            @ParagonIE
+                        
+                    
+                    
+                        
+                            
+                            Paragonie on Facebook
+                        
+                    
+                
+        
+        
+
+    
+    
+
+    
+                
+                    Need Technology Consultants?
+                    
+                        Will tomorrow bring costly
+                        and embarrassing data breaches? Or will it bring growth,
+                        success, and peace of mind?
+                    
+                    
+                        Our team of technology consultants have extensive knowledge
+                        and experience with application security and web/application
+                        development.
+                    
+                    
+                        We specialize in cryptography
+                        and secure PHP development.
+                    
+                    
+                        
+                        Let's Work Together Towards Success
+                    
+                
+                
+                    Our Security Newsletters
+                    
+                        Want the latest from Paragon Initiative Enterprises delivered
+                        straight to your inbox? We have two newsletters to choose from.
+                    
+                    
+                        The first mails quarterly and often showcases our behind-the-scenes
+                        projects.
+                    
+                    
+                        The other is unscheduled and gives you a direct 
+                        feed into the findings of our open source security research 
+                        initiatives.
+                    
+                    
+                        
+                            
+                            Quarterly Newsletter
+                        
+                         
+                        
+                            
+                            Security Announcements
+                        
+                    
+                
+            
+        
+
+    
+    
+            
+                
+                    
+                        Copyright © 2015 - 2016 Paragon Initiative Enterprises, LLC.
+                        All right reserved.
+                        
+                            Consultants in
+                        
+                        Orlando, FL.
+                    
+                
+                
+                     
+                     
+                    
+                
+            
+        
+    
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-61029337-1', 'auto');
+      ga('send', 'pageview');
+
+
+        $(document).ready(function() {
+            $('#nav_menu_info').attr('href', '#');
+            $('#nav_menu_services').attr('href', '#');
+            $('#nav_menu_community').attr('href', '#');
+        });
+    hljs.initHighlightingOnLoad();

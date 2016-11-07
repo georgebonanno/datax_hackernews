@@ -1,0 +1,444 @@
+Dam...Who knew?! — Reflections on Watertry{Typekit.load();}catch(e){}SQUARESPACE_ROLLUPS = {};(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//static.squarespace.com/universal/scripts-compressed/common-18fc397af5eb591baa49-min.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common');(function() {(function(a){function e(b){-1!==b.indexOf(".js")?document.write("<script "+f+'crossorigin="anonymous" src="'+b+'">\x3c/script>'):document.write('<link rel="stylesheet" type="text/css" href="'+b+'" />')}var g=function(){var b=window.location.search,a=b.indexOf("exclude=");return-1<a&&(b=b.substr(a+8).split("&")[0])?b.split(","):[]}(),f;f=window.__beta_flag_should_defer?'defer="defer" ':"";try{if(window.top!=window&&window.top.Squarespace&&window.top.Squarespace.frameAvailable){window.top.Squarespace.frameAvailable(window,
+SQUARESPACE_ROLLUPS);return}}catch(h){console.error(h)}for(var c in a)if(!(-1<g.indexOf(c))){if(a[c].js)for(var d=0;d<a[c].js.length;d++)e(a[c].js[d]);if(a[c].css)for(d=0;d<a[c].css.length;d++)e(a[c].css[d])}})(SQUARESPACE_ROLLUPS);
+})();(function() {var EXCLUDED_SIZES=function(){var a=window.location.search,b=a.indexOf("exclude_imageloader_sizes=");return-1<b&&(a=a.substr(b+26).split("&")[0])?a.split(",").map(function(a){return parseInt(a,10)}):[]}(),SQUARESPACE_SIZES=[2500,1500,1E3,750,500,300,100].filter(function(a){return-1===EXCLUDED_SIZES.indexOf(a)}),IMAGE_LOADING_CLASS="loading",ImageLoader=new function(){this.load=function(a,b){function d(a,b,c){var d=new Image;d.onload=b;d.onerror=c;d.src=a}a.getDOMNode&&(a=a.getDOMNode());var c=this._getDataFromNode(a,
+b),e=!(!c.dimensions||!c.dimensions.width||!c.dimensions.height),g=c.load+"";if("false"===g)return!1;var h=c.mode;if(e&&("fit"===h||"fill"===h)){h=a.parentNode;if(!h)return console.error("Not doing anything, parentNode not found."),!1;if(!this.refresh(a,b,h))return!1}var n=this._intendToLoad(a,c);if("string"===typeof n&&"viewport"!==g){var m=this.getUrl(n,c),g=a.getAttribute("data-image-resolution");a.getAttribute("src")!==m&&this.isValidResolution(n,g)&&(a.onload=function(){a.className=a.className.replace(IMAGE_LOADING_CLASS,
+" ").trim();a.setAttribute("data-image-resolution",n)},!a.getAttribute("src")&&-1===a.className.indexOf(IMAGE_LOADING_CLASS)&&(a.className+=(a.className?" ":"")+IMAGE_LOADING_CLASS),!a.getAttribute("src")&&e?(a.setAttribute("src",m),c.useBgImage&&(a.parentNode.style.backgroundImage="url("+m+")")):d(m,function(){e?a.setAttribute("src",m):(a.setAttribute("data-image-dimensions",this.width+"x"+this.height),ImageLoader.load(a,b))},function(){a.className=a.className.replace(IMAGE_LOADING_CLASS," ").trim();
+a.setAttribute("src",m)}));return!0}return n};this.refresh=function(a,b,d){a.getDOMNode&&(a=a.getDOMNode());d&&d.getDOMNode&&(d=d.getDOMNode());d=d||a.parentNode;if(!d)return console.error("Not doing anything, parentNode not found."),!1;var c=this._getDataFromNode(a,b),e=d.offsetWidth,g=d.offsetHeight;b=c.mode;if("none"!==b){var h=c.dimensions.width,n=c.dimensions.height,m=h/n,q=e/g;if(c.useBgImage&&"fill"===b&&"backgroundSize"in document.documentElement.style)return a.style.display="none",d.style.backgroundSize=
+"cover",d.style.backgroundPosition=100*c.focalPoint.x+"% "+100*c.focalPoint.y+"%",!0;if(c.fixedRatio)"fill"==b&&q>m||"fit"==b&&q<m?(k=100,l=100*(q/m),r=(100-l)*c.focalPoint.y,p=0):(k=100*(m/q),l=100,r=0,p=(100-k)*c.focalPoint.x),a.style.top=r+"%",a.style.left=p+"%",a.style.width=k+"%",a.style.height=l+"%";else{var f;"fill"===b?f=m>q?g/n:e/h:"fit"===b&&(f=m<q?g/n:e/h);!c.stretch&&"fit"==b&&1<f&&(f=1);var k=Math.ceil(h*f),l=Math.ceil(n*f);if(0===k||0===l)return!1;var p,r;"fill"===b?(p=Math.min(Math.max(e/
+2-k*c.focalPoint.x,e-k),0),r=Math.min(Math.max(g/2-l*c.focalPoint.y,g-l),0)):"fit"===b&&(f=c.fitAlignment,p=f.left?0:f.right?e-k:k<e?(e-k)/2:0,r=f.top?0:f.bottom?g-l:l<g?(g-l)/2:0,"inline"==this._getStyle(a,"display")&&(a.style.fontSize="0px"),this._resetAlt(a,function(){k-=a.offsetHeight-a.clientHeight;l-=a.offsetWidth-a.clientWidth}));a.style.top=Math.ceil(r)+"px";a.style.left=Math.ceil(p)+"px";a.style.width=Math.ceil(k)+"px";a.style.height=Math.ceil(l)+"px"}p=this._getStyle(d,"position");a.style.position=
+"relative"==p?"absolute":"relative";if("fill"==b&&(b=this._getStyle(d,"overflow"),!b||"hidden"!=b))d.style.overflow="hidden";return!0}};this._intendToLoad=function(a,b){function d(c,d){"none"===b.mode&&(a.style.width=null,a.style.height=null);var e=parseFloat(a.getAttribute(c)),f=parseFloat(e);if(!f||isNaN(f))e=h._getStyle(a,c),f=parseFloat(e);if(!f||isNaN(f))e=h._getStyle(a,"max-"+c,"max"+(c.substr(0,1).toUpperCase()+c.substr(1))),f=parseFloat(e);if(0===d||e)switch(h._stringType(e)){case "percentage":d=
+parseInt(e,10)/100*g["offset"+c.substr(0,1).toUpperCase()+c.substr(1)];break;case "number":d=parseInt(e,10)}!f&&0!==d&&!a.getAttribute("src")&&(d=0);return d}b=b||this._getDataFromNode(a);if(!b.source)return!1;var c=a.offsetWidth,e=a.offsetHeight,g=a.parentNode,h=this;this._resetAlt(a,function(){c=d("width",c);e=d("height",e)});0===c&&0===e?(c=b.dimensions.width,e=b.dimensions.height):0===c?c=this.getDimensionForValue("width",e,b):0===e&&(e=this.getDimensionForValue("height",c,b));"viewport"===b.load&&
+(a.style.width=Math.floor(c)+"px",a.style.height=Math.floor(e)+"px");return this.getSquarespaceSize(c,e,b)};this._getDataFromNode=function(a,b){b=b||{};var d={focalPoint:{x:0.5,y:0.5},dimensions:{width:null,height:null},mode:"none",fitAlignment:{center:!0},load:"true",stretch:!0,fixedRatio:!1};if(b.focalPoint)d.focalPoint=b.focalPoint;else{var c=a.getAttribute("data-image-focal-point");if(c&&(c=c.split(","))&&2==c.length)d.focalPoint={x:parseFloat(c[0]),y:parseFloat(c[1])}}if(b.dimensions)d.dimensions=
+b.dimensions;else if((c=a.getAttribute("data-image-dimensions"))&&(c=c.split("x"))&&2==c.length)d.dimensions={width:parseInt(c[0],10),height:parseInt(c[1],10)};b.mode?d.mode=b.mode:a.parentNode&&(c=a.parentNode.className,-1!==c.indexOf("content-fill")?d.mode="fill":-1!==c.indexOf("content-fit")&&(d.mode="fit"));if("fit"===d.mode&&a.parentNode&&(c=b.fitAlignment||a.getAttribute("data-alignment")||a.parentNode.getAttribute("data-alignment")))d.fitAlignment={top:-1!==c.indexOf("top"),left:-1!==c.indexOf("left"),
+center:-1!==c.indexOf("center"),right:-1!==c.indexOf("right"),bottom:-1!==c.indexOf("bottom")};b.load?d.load=b.load:(c=a.getAttribute("data-load"))&&(d.load=c);if("undefined"!==typeof b.stretch)d.stretch=b.stretch;else if(c=a.getAttribute("data-image-stretch"))d.stretch="true"===c?!0:!1;d.source=b.source?b.source:a.getAttribute("data-src");d.source&&this.isSquarespaceUrl(d.source)&&("http:"===d.source.substr(0,5)&&"https"===window.location.protocol.substr(0,5))&&(d.source=d.source.replace("http://",
+"https://"));if(b.fixedRatio)d.fixedRatio=b.fixedRatio;else if(c=a.getAttribute("data-fixed-ratio"))d.fixedRatio="true"==c;b.useBgImage?d.useBgImage=b.useBgImage:(c=a.getAttribute("data-use-bg-image"),d.useBgImage="true"===c||!0===c?!0:!1);return d};this._stringType=function(a){return"string"===typeof a&&-1!==a.indexOf("%")?"percentage":isNaN(parseInt(a,10))?NaN:"number"};this._getStyle=function(a,b,d){var c;a.currentStyle?c=a.currentStyle[d||b]:window.getComputedStyle&&(c=document.defaultView.getComputedStyle(a,
+null).getPropertyValue(b));return c};this._isVisible=function(a){a=a.getBoundingClientRect();return 0<=a.left&&0<=a.top||0<=a.bottom&&0<=a.right||0<=a.left&&0<=a.bottom||0<=a.right&&0<=a.top};this.getSquarespaceSize=function(a,b,d){a=Math.max(b/(d.dimensions.height/d.dimensions.width),a);"undefined"===typeof app&&"number"===typeof window.devicePixelRatio&&(a*=window.devicePixelRatio);for(b=1;b<SQUARESPACE_SIZES.length&&!(a>SQUARESPACE_SIZES[b]);b++);return SQUARESPACE_SIZES[b-1]+"w"};this.getDimensionForValue=
+function(a,b,d){var c=d.dimensions.width;d=d.dimensions.height;return"width"==a?c/d*b:"height"==a?d/c*b:NaN};this.getUrl=function(a,b){var d=b.source;return a&&("/"==d[0]||this.isSquarespaceUrl(d))?(-1===d.indexOf("format="+a)&&(d=d+(-1!==d.indexOf("?")?"&":"?")+"format="+a),d):b.source};this.isSquarespaceUrl=function(a){return-1!==a.indexOf("squarespace.com")||-1!==a.indexOf("squarespace.net")||-1!==a.indexOf("sqsp.net")};this.isValidResolution=function(a,b){a=parseInt(a,10);b=parseInt(b,10);return isNaN(a)||
+isNaN(b)?!0:a>b};this._resetAlt=function(a,b){var d=a.getAttribute("alt"),c=d&&0<d.length&&!a.getAttribute("src");if(c){var e=a.style.display;a.removeAttribute("alt");a.style.display="none";a.offsetHeight+0;a.style.display=e}b.call(this);c&&a.setAttribute("alt",d)};this.bootstrap=function(){var a=document.images;if(0<a.length)for(var b=0,d=a.length;b<d;b++)((a[b].hasAttribute?a[b].hasAttribute("data-image"):a[b].attributes["data-image"])||(a[b].hasAttribute?a[b].hasAttribute("data-src"):a[b].attributes["data-src"]))&&
+"false"!==(a[b].getAttribute?a[b].getAttribute("data-load"):a[b].attributes["data-load"])+""&&ImageLoader.load(a[b])}};window.ImageLoader=ImageLoader;window.YUI&&YUI.add("squarespace-imageloader",function(a){},"1.0",{requires:[]});
+})();Static.SQUARESPACE_CONTEXT = {"facebookAppId":"314192535267336","rollups":{"squarespace-announcement-bar":{"css":"//static.squarespace.com/universal/styles-compressed/announcement-bar-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/announcement-bar-081a14d9552fe9a2d956-min.js"},"squarespace-audio-player":{"css":"//static.squarespace.com/universal/styles-compressed/audio-player-76e4bfcc3f9830beb388bae2002fbe6c-min.css","js":"//static.squarespace.com/universal/scripts-compressed/audio-player-04c3d896d341ed37e66c-min.js"},"squarespace-blog-collection-list":{"css":"//static.squarespace.com/universal/styles-compressed/blog-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/blog-collection-list-86e0536506d57c3bc1ce-min.js"},"squarespace-calendar-block-renderer":{"css":"//static.squarespace.com/universal/styles-compressed/calendar-block-renderer-032634519fa160b1d2da6986dce0cdae-min.css","js":"//static.squarespace.com/universal/scripts-compressed/calendar-block-renderer-f8ab346ccf3a17da0754-min.js"},"squarespace-chartjs-helpers":{"css":"//static.squarespace.com/universal/styles-compressed/chartjs-helpers-9935a41d63cf08ca108505d288c1712e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/chartjs-helpers-962619aee62210450207-min.js"},"squarespace-comments":{"css":"//static.squarespace.com/universal/styles-compressed/comments-db79f121099c10e9346733da5bc6bb10-min.css","js":"//static.squarespace.com/universal/scripts-compressed/comments-46c31953e82341250ad5-min.js"},"squarespace-dialog":{"css":"//static.squarespace.com/universal/styles-compressed/dialog-41403d1f0d87846c1b05baa36a8d7c38-min.css","js":"//static.squarespace.com/universal/scripts-compressed/dialog-77350e7641239dcc8278-min.js"},"squarespace-events-collection":{"css":"//static.squarespace.com/universal/styles-compressed/events-collection-032634519fa160b1d2da6986dce0cdae-min.css","js":"//static.squarespace.com/universal/scripts-compressed/events-collection-9673b7181947b8418613-min.js"},"squarespace-gallery-collection-list":{"css":"//static.squarespace.com/universal/styles-compressed/gallery-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/gallery-collection-list-edf6da4cd1e1498d2ad2-min.js"},"squarespace-image-zoom":{"css":"//static.squarespace.com/universal/styles-compressed/image-zoom-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/image-zoom-9c94608f8d05cf97085c-min.js"},"squarespace-pinterest":{"css":"//static.squarespace.com/universal/styles-compressed/pinterest-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/pinterest-81d124b1384e40346afc-min.js"},"squarespace-product-quick-view":{"css":"//static.squarespace.com/universal/styles-compressed/product-quick-view-eb4b900ac0155bed2f175aa82e2a7c17-min.css","js":"//static.squarespace.com/universal/scripts-compressed/product-quick-view-cc5fdf113595b1a5a043-min.js"},"squarespace-products-collection-item-v2":{"css":"//static.squarespace.com/universal/styles-compressed/products-collection-item-v2-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/products-collection-item-v2-14c6fe50c6ab798c4d02-min.js"},"squarespace-products-collection-list-v2":{"css":"//static.squarespace.com/universal/styles-compressed/products-collection-list-v2-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/products-collection-list-v2-f212db13320d72404b38-min.js"},"squarespace-search-page":{"css":"//static.squarespace.com/universal/styles-compressed/search-page-9e3daa07ec7490c2f0be98a39351cb63-min.css","js":"//static.squarespace.com/universal/scripts-compressed/search-page-79646e60c8674d587e22-min.js"},"squarespace-share-buttons":{"js":"//static.squarespace.com/universal/scripts-compressed/share-buttons-7c3e6a381b8e4efcc3d6-min.js"},"squarespace-simple-liking":{"css":"//static.squarespace.com/universal/styles-compressed/simple-liking-09fa291ec2800c97714f0d157fd0a6ca-min.css","js":"//static.squarespace.com/universal/scripts-compressed/simple-liking-461f340af95d75245abc-min.js"},"squarespace-social-buttons":{"css":"//static.squarespace.com/universal/styles-compressed/social-buttons-7a696232d1cd101fd62b5f174f9ae6ff-min.css","js":"//static.squarespace.com/universal/scripts-compressed/social-buttons-5588a90dcb990de77b96-min.js"},"squarespace-tourdates":{"css":"//static.squarespace.com/universal/styles-compressed/tourdates-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/tourdates-5d5fba7b6fd0f85cb99c-min.js"}},"pageType":50,"website":{"id":"52fbfd6be4b0649c39df8735","identifier":"melissa-rohde","websiteType":1,"contentModifiedOn":1477613201321,"cloneable":false,"siteStatus":{},"language":"en-US","timeZone":"US/Pacific","machineTimeZoneOffset":-25200000,"timeZoneOffset":-25200000,"timeZoneAbbr":"PDT","siteTitle":"Reflections on Water","siteTagLine":"","siteDescription":"","shareButtonOptions":{"3":true,"4":true,"8":true,"7":true,"5":true,"2":true,"6":true,"1":true},"authenticUrl":"http://reflectionsonwater.org","internalUrl":"http://melissa-rohde.squarespace.com","baseUrl":"http://reflectionsonwater.org","primaryDomain":"reflectionsonwater.org","socialAccounts":[{"serviceId":4,"userId":"262445845","userName":"melrohde","screenname":"Melissa Rohde","addedOn":1394727026229,"profileUrl":"https://twitter.com/melrohde","iconUrl":"http://pbs.twimg.com/profile_images/3532553954/3556d1ca7b88addec334b1ba7e2b079d_normal.jpeg","collectionId":"5321d872e4b0f1300f0552c0","iconEnabled":true,"serviceName":"twitter"},{"serviceId":14,"userId":"SjRd9-1hWQ","userName":"8a7","screenname":"Melissa Rohde","addedOn":1428611203495,"profileUrl":"https://www.linkedin.com/pub/melissa-rohde/44/56/8a7","iconUrl":"https://media.licdn.com/mpr/mprx/0_PtRfS_KjZatGqzszpt3mQqTjJo1GlXIzrn3Te9cjj23_lqsLsi_3hlnpVVgGl5FJyi_76_zyr2CiBh5vp3O15BZKv2CCBhOMp3O2mnSgYDBag9LLKKeCaG_uzMZtOhWevCsidHGm_6W","iconEnabled":true,"serviceName":"linkedin"},{"serviceId":20,"userId":"melrohde@gmail.com","screenname":"melrohde@gmail.com","addedOn":1428611301672,"profileUrl":"mailto:melrohde@gmail.com","iconEnabled":true,"serviceName":"email"}],"typekitId":"","statsMigrated":false,"imageMetadataProcessingEnabled":false},"websiteSettings":{"id":"52fbfd6be4b0649c39df8736","websiteId":"52fbfd6be4b0649c39df8735","subjects":[],"country":"US","state":"CA","markdownMode":false,"simpleLikingEnabled":true,"mobileInfoBarSettings":{"isContactEmailEnabled":false,"isContactPhoneNumberEnabled":false,"isLocationEnabled":false,"isBusinessHoursEnabled":false},"lastAgreedTermsOfService":2,"defaultPostFormat":"%y/%m/%d/%t","commentLikesAllowed":true,"commentAnonAllowed":true,"commentThreaded":true,"commentApprovalRequired":false,"commentAvatarsOn":true,"commentSortType":2,"commentFlagThreshold":0,"commentFlagsAllowed":true,"commentEnableByDefault":true,"disqusShortname":"","homepageTitleFormat":"%s","collectionTitleFormat":"%c \u2014 %s","itemTitleFormat":"%i \u2014 %s","commentsEnabled":true,"contactPhoneNumber":"","allowSquarespacePromotion":true,"storeSettings":{"returnPolicy":null,"termsOfService":null,"privacyPolicy":null,"orderRefundedSubjectFormat":"%s: Order #%o Refunded","orderRefundedTitleFormat":"Order Refunded: #%o","paymentSettings":{},"expressCheckout":false,"useLightCart":false,"showNoteField":false,"shippingCountryDefaultValue":"US","billToShippingDefaultValue":false,"showShippingPhoneNumber":true,"isShippingPhoneRequired":false,"showBillingPhoneNumber":true,"isBillingPhoneRequired":false,"currenciesSupported":["USD"],"defaultCurrency":"USD","selectedCurrency":"USD","measurementStandard":1,"showCustomCheckoutForm":false,"enableMailingListOptInByDefault":true,"sameAsRetailLocation":false,"stripeConnected":false,"isLive":false,"storeState":3},"useEscapeKeyToLogin":true,"ssBadgeType":1,"ssBadgePosition":4,"ssBadgeVisibility":1,"ssBadgeDevices":1,"pinterestOverlayOptions":{"mode":"disabled","size":"small","shape":"rect","color":"white"},"ampEnabled":false},"websiteCloneable":false,"collection":{"title":"Blog","id":"5316b6cae4b0bf4d73527f5c","fullUrl":"/","publicCommentCount":0,"type":1},"item":{"title":"Dam...Who knew?!","id":"57f83054e6f2e18cf1cc6534","fullUrl":"/blog/2016/10/7/damwho-knew","publicCommentCount":0,"commentState":1,"recordType":1},"subscribed":false,"appDomain":"squarespace.com","templateTweakable":true,"tweakJSON":{"aspect-ratio":"Auto","gallery-arrow-style":"No Background","gallery-aspect-ratio":"3:2 Standard","gallery-auto-crop":"true","gallery-autoplay":"false","gallery-design":"Slideshow","gallery-info-overlay":"Show on Hover","gallery-loop":"false","gallery-navigation":"Bullets","gallery-show-arrows":"true","gallery-transitions":"Fade","galleryArrowBackground":"rgba(34,34,34,1)","galleryArrowColor":"rgba(255,255,255,1)","galleryAutoplaySpeed":"3","galleryCircleColor":"rgba(255,255,255,1)","galleryInfoBackground":"rgba(0, 0, 0, .7)","galleryThumbnailSize":"100px","gridSize":"350px","gridSpacing":"20px","product-gallery-auto-crop":"true","product-image-auto-crop":"true"},"templateId":"4fdf4f21c4aad4a72790bd9b","pageFeatures":[1,2,4],"impersonatedSession":false,"demoCollections":[{"collectionId":"50c76b61e4b0b7acace8c9e6","deleted":true},{"collectionId":"50c77530e4b0adb10c9ae4bf","deleted":true},{"collectionId":"4fdf4e8324ac3e3273c23a60","deleted":true},{"collectionId":"51116ff9e4b0cde71aeef6ca","deleted":true},{"collectionId":"4fdf4e8324ac3e3273c23a74","deleted":true},{"collectionId":"4fdf4e8324ac3e3273c23a61","deleted":true}],"isFacebookTab":false,"tzData":{"zones":[[-480,"US","P%sT",null]],"rules":{"US":[[1967,2006,null,"Oct","lastSun","2:00","0","S"],[1987,2006,null,"Apr","Sun>=1","2:00","1:00","D"],[2007,"max",null,"Mar","Sun>=8","2:00","1:00","D"],[2007,"max",null,"Nov","Sun>=1","2:00","0","S"]]}}}; SquarespaceFonts.loadViaContext(); Squarespace.load(window);{"@context":"http://schema.org","@type":"WebSite","url":"http://reflectionsonwater.org","name":"Reflections on Water","description":""}
+    
+
+      
+        
+        
+          
+            
+            
+              
+                
+  
+    
+      
+        
+    
+  
+    
+      
+        
+    
+  
+    
+      
+        
+    
+  
+
+              
+              
+              
+            
+            
+              Search
+            
+
+            
+
+
+
+        
+
+          
+            About
+          
+
+          
+
+        
+
+      
+
+    
+
+      
+
+        
+
+          
+            Blog
+          
+
+          
+
+        
+
+      
+
+    
+
+      
+
+        
+
+          
+            Portfolio
+          
+
+          
+
+        
+
+      
+
+    
+
+      
+
+        
+
+          
+            Past Projects
+          
+
+          
+
+        
+
+      
+
+    
+
+      
+
+        
+
+          
+            CV
+          
+
+          
+
+        
+
+      
+
+    
+
+      
+
+        
+
+          
+            Contact
+          
+
+          
+
+        
+
+      
+
+    
+  
+  Close
+            Menu
+          
+        
+        
+
+        
+        
+          
+          
+            
+              
+                
+  
+    
+      
+        
+    
+  
+    
+      
+        
+    
+  
+    
+      
+        
+    
+  
+
+              
+              
+              
+            
+            
+              Search
+            
+            
+
+  
+    Close
+
+    
+
+            
+
+              
+                About
+              
+
+              
+
+            
+
+          
+
+        
+
+          
+
+            
+
+              
+                Blog
+              
+
+              
+
+            
+
+          
+
+        
+
+          
+
+            
+
+              
+                Portfolio
+              
+
+              
+
+            
+
+          
+
+        
+
+          
+
+            
+
+              
+                Past Projects
+              
+
+              
+
+            
+
+          
+
+        
+
+          
+
+            
+
+              
+                CV
+              
+
+              
+
+            
+
+          
+
+        
+
+          
+
+            
+
+              
+                Contact
+              
+
+              
+
+            
+
+          
+
+        
+      
+      
+
+  
+    Menu
+  
+
+          
+        
+
+    		
+          
+            
+              
+                
+                  Reflections on Water
+                
+              
+            
+            
+          
+          
+    		 
+
+  		
+    		
+      
+        October  7, 2016
+      
+    
+    
+      
+        Dam...Who knew?!
+      
+    
+    
+    by Melissa
+  
+    
+    
+      
+       
+	
+	
+		
+			
+				
+					
+			
+
+			
+			
+				©  Creative Commons, 2009.
+			
+			
+
+		
+	
+	
+
+
+      
+    
+
+    
+    
+      
+        
+         
+	
+	
+		
+			
+				
+					
+			
+
+			
+			
+				©  Creative Commons, 2009.
+			
+			
+
+		
+	
+	
+
+
+        
+      
+    	Last month, global atmospheric carbon dioxide concentrations reached 400 ppm signaling that greenhouse gases are continuing to rise and the momentum of global climate change is well underway.  Carbon dioxide is only one of several greenhouse gasses – where methane is the most potent of all and 30 times stronger than carbon dioxide.  Most attention on methane emissions has been on that coming from burping corn-fed cows or leaks from fracking to produce natural gas.  The notorious methane leak in Aliso Canyon by Southern California Gas Company during fracking didn’t go under anyone’s radar, since it resulted in a leak in 100,000 tons of methane gas – said to be equivalent to annual emissions from half a million cars.  However, a new study published in Bioscience this past week has highlighted a new source of methane that was previously unaccounted for in global estimates – Dams.  The study found dams emit 25% more methane than we previously thought. Meaning dams are contributing approximately 1.5% of global anthropogenic greenhouse gas emissions. Making a strong case that greenhouse gas emissions from dams be included in IPCC budgets and other global inventories, when previously they have not been.An animation showing how carbon dioxide moves around the planet.Credit: NASA/YouTube How are dam reservoirs any different from lakes?Methane release from both man-made reservoirs and lakes originate from the sediments beneath the water. The root cause of methane release is the decay of dead organic matter in these sediments that originated from leaves, trees, algae, and fish that sunk from the waters above.  As you can imagine, the amount of oxygen present in the sediments under these waters can be quite low, causing bacteria eating this dead organic matter to depend on other molecules containing oxygen.  These include nitrate, phosphate, sulfate, and carbon dioxide. The least appealing molecule to breathe for these microbes is carbon dioxide because it requires the greatest energy to break the molecule apart to access the oxygen.  When these microbes have no choice than to breathe carbon dioxide, a process called “methanogenesis” occurs.  This means that for every carbon dioxide molecule that is consumed, one molecule of methane is exhaled.  When methane gas starts to accumulate in the sediments, it will bubble up, float to the surface of the water, and rise into our atmosphere.There are three main differences between man-made reservoirs and lakes:1.    Man-made reservoirs require flooding terrestrial land, supplying a large pulse of dead organic matter from trees and grasslands.  The timescale of how this happens to natural lakes is much longer.2.    Man-made reservoirs experience greater fluctuations than natural lakes. As reservoirs reduce in volume, the weight of the water over the sediments drop freeing even more methane molecules from the confines of their origin.3.    Man-made reservoirs are often closer to human activities, such as agricultural run-off containing fertilizers that can promote the growth of organic matter in the water.  What are the alternatives?So, it seems as though hydropower is not as clean as we once thought.  But that’s isn’t a good reason to be ripping out dams.  Hydropower generation often replaces much dirtier sources of energy, such as coal and even natural gas.  In addition, dams provide us a wide range of public benefits such as flood control, recreation, and water management.  It is important to note, however, that if plans for a new dam are not going to provide hydroelectric supply and only provide water storage – groundwater storage may be a ‘cleaner’ alternative.  Groundwater recharge basins are regularly maintained to have less organic matter at the bottom, since it can clog the percolation of water into groundwater aquifers beneath.  In addition, recharge basins are shallower than man-made reservoirs and periodically become empty during dry periods when less water is available to recharge groundwater.  This periodic drying out helps keep soils aerated, whereas man-made reservoirs can stay inundated with water for longer periods of time.Although I'm the first to admit that I have huge concerns over the impact humans are having on climate change, I won't be loosing sleep over methane emissions from dams. While dams contribute 1.5% of global greenhouse gas emissions, global agriculture (dominated by livestock) contributes to ~30% of greenhouse gas emissions, and electricity/heat production contributes ~25% of greenhouse gas emissions.  Reducing our impact on climate change still means working towards reducing our reliance on fossil fuels, promoting renewable energy, and reducing our meat consumption. Nevertheless, it never hurts to have better data for our global inventories and greenhouse gas budgets.
+	
+	
+		
+			
+				
+					
+			
+
+			
+			
+				Source: https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data
+			
+			
+
+		
+	
+	
+
+ 
+      
+      
+    
+  
+
+  
+    
+        
+          
+          
+            
+              Comment
+              
+            
+          
+          
+          
+
+          
+  
+    
+    
+  
+
+
+
+        
+
+        TAGS: Water Management, Water Supply, Climate Change, Greenhouse Gases
+
+      
+    Previous PostFuel for the Fire
+    Next PostCalifornia's Ninja ...
+  
+
+
+
+
+      
+        
+        (function() {if(window.ImageLoader) { window.ImageLoader.bootstrap(); }})();Squarespace.afterBodyLoad(Y); 
+
+  
+
+  

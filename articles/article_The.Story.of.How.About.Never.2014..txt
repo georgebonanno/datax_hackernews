@@ -1,0 +1,907 @@
+var CN={}; var TNY = {};The Story of “How About Never” - The New Yorker
+#parallax9x2_frame {
+    display: none !important;
+}
+
+.header-ad .advertisement.loaded {
+    margin-top: 15px;
+    padding-bottom:24px;
+}
+@media (min-width: 53.125em){
+#sign-in-list{
+margin-right:8px;
+}
+#link-sub-nav {
+border-left: 1px solid #000;
+}
+#fallback-signin-link {
+border-right:none;
+}
+#hd:not(.fixed-topnav) > nav {
+    background-color: transparent;
+}
+.generic-page #page-header h1 {
+    line-height: 7rem;
+}
+#logo h1 {
+    top: 0px;
+}
+body:not(.article):not(.post) header:not(.fixed-topnav) > nav ul {
+position:relative;
+top:-24px
+}
+  }
+
+        (function(d) {
+            var e = d.createElement('script');
+            e.src = d.location.protocol + '//tag.bounceexchange.com/1990/i.js';
+            e.async = true;
+            d.getElementsByTagName("head")[0].appendChild(e);
+        }(document));
+        
+   {"@context":"http:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/www.newyorker.com\/cartoons\/bob-mankoff\/the-story-of-how-about-never"},"headline":"The Story of &#8220;How About Never&#8221;","url":"http:\/\/www.newyorker.com\/cartoons\/bob-mankoff\/the-story-of-how-about-never","thumbnailUrl":"http:\/\/www.newyorker.com\/wp-content\/uploads\/2014\/03\/Cover-290-240.jpg","image":{"@type":"ImageObject","caption":"","description":"","contentUrl":"http:\/\/www.newyorker.com\/wp-content\/uploads\/2014\/03\/Cover.jpg","url":"http:\/\/www.newyorker.com\/wp-content\/uploads\/2014\/03\/Cover.jpg","width":"290px","height":"363px"},"dateCreated":"2014-03-27T17:07:45Z","datePublished":"2014-03-27T17:07:45Z","dateModified":"2014-07-16T15:24:56Z","articleSection":"From the Desk of Bob Mankoff","author":[{"@type":"Person","name":"Robert Mankoff","url":"http:\/\/www.newyorker.com\/contributors\/robert-mankoff"}],"creator":[{"@type":"Person","name":"Robert Mankoff","url":"http:\/\/www.newyorker.com\/contributors\/robert-mankoff"}],"publisher":{"@type":"Organization","name":"The New Yorker","url":"http:\/\/www.newyorker.com\/","logo":{"@type":"ImageObject","url":"http:\/\/www.newyorker.com\/\/wp-content\/assets\/dist\/img\/icon\/apple-touch-icon-114x114-precomposed.png","width":"114px","height":"114px"}},"keywords":["cartoons","humor"],"@id":"http:\/\/www.newyorker.com\/cartoons\/bob-mankoff\/the-story-of-how-about-never","articleId":"1596311","custom_metadata":{"id":1596311,"title_alt":"The Story of &#8220;How About Never&#8221;","featured_image_url":"http:\/\/www.newyorker.com\/wp-content\/uploads\/2014\/03\/Cover.jpg"}}   
+			body.customize-support #hd.collapsed #nav-container {
+				margin-top: 28px;
+			}
+		
+                var EVOLOK = {
+                "activeMeter"    : {
+                    "metername"  : "dft",
+                    "max"        : "6",
+                    "count"      : "1",
+                    "viewed"     : "0",
+                    "abGroup"    : "",
+                    "abValue"    : ""
+                },
+                "cnee"             : {
+                    "subscription" : "",
+                    "entitlement"  : "",
+                },
+                 "sessionInfo"    : {
+                    "ev_sid"     : "581f60dfe4b04531e54ff33a",
+                    "ev_did"     : "",
+                    "ev_ss"      : "",
+                },
+                "exceededMeter"  : "0",
+                "pid"            : "",
+                "paywall_status" : "ALLOW_ACCESS"
+            };
+            
+                if ( typeof EVOLOK === "undefined" ) {
+                    /* Default Object */
+                    var EVOLOK = {
+                        "activeMeter": { "metername": "", "max": "", "count": "", "viewed": "0", "abGroup": "", "abValue": ""  },
+                        "cnee": { "subscription": "", "entitlement": "" },
+                        "sessionInfo": { "ev_sid": "", "ev_did": "", "ev_ss": "" },
+                        "exceededMeter": "0",
+                        "pid": "",
+                        "paywall_status": "ALLOW_ACCESS"
+                    };
+                }
+
+                /* Quick and dirty cookie set */
+                if ( EVOLOK.sessionInfo.ev_sid !== "" ) {
+                    matchsid = document.cookie.match(new RegExp('ev_sid' + '=([^;]+)'));
+                    if ( matchsid === null || ( matchsid && ( matchsid[1] !== EVOLOK.sessionInfo.ev_sid ) ) ) {
+                        // Set the cookie, or replace an existing sid cookie that doesn't match the sid
+                        document.cookie = "ev_sid=" + EVOLOK.sessionInfo.ev_sid +";domain=.newyorker.com;path=/;max-age=" + ( 60*60*24*30 ); // 30 days
+                    }
+                }
+                if ( EVOLOK.sessionInfo.ev_did !== "" ) {
+                    matchdid = document.cookie.match(new RegExp('ev_did' + '=([^;]+)'));
+                    if ( matchdid === null || ( matchdid && ( matchdid[1] !== EVOLOK.sessionInfo.ev_did ) ) ) {
+                        // Set the cookie, or replace an existing did cookie that doesn't match the did
+                        document.cookie = "ev_did=" + EVOLOK.sessionInfo.ev_did +";domain=.newyorker.com;path=/;max-age=" + ( 60*60*24*30 ); // 30 days
+                    }
+                }
+
+                /* TNY object */
+                var TNY = TNY || {};
+                TNY.meterVar = {
+                    'meter_name'     : EVOLOK.activeMeter.metername || "",
+                    'meter_max'      : EVOLOK.activeMeter.max || "",           // Max articles to view
+                    'meter_count'    : EVOLOK.activeMeter.count || "",         // Articles viewed
+                    'meter_viewed'   : EVOLOK.activeMeter.viewed || "0",       // Previously viewed article - [ 'false' || 'true' ]
+                    'meter_ab_group' : EVOLOK.activeMeter.abGroup || "",
+                    'meter_ab_value' : EVOLOK.activeMeter.abValue || "",
+                    'subscription'   : EVOLOK.cnee.subscription || "false",    // User has a subscription [ Active || 'false' ]
+                    'entitlement'    : EVOLOK.cnee.entitlement || "false",          // comma-separated list of strings that were passed back by the CNEE auth API
+                    'loggedin'       : "false",
+                    'barrier_status' : "none",                                 // none || half || full
+                    'paywall_status' : EVOLOK.paywall_status || "ALLOW_ACCESS" // ALLOW_ACCESS || REQUIRE_LOGIN || REQUIRE_ENTITLEMENT
+                };
+
+                if ( ( TNY.meterVar.meter_count == ( (TNY.meterVar.meter_max/2)+1 ) ) ) {
+                    /* User has seen half */
+                    TNY.meterVar.barrier_status = 'half';
+
+                } else if ( TNY.meterVar.paywall_status !== 'ALLOW_ACCESS' ) {
+                    /* Full barrier time! */
+                    TNY.meterVar.barrier_status = 'full';
+                }
+
+                // Check for amg_user cookie
+                matchee_login = document.cookie.match(new RegExp('amg_user' + '=([^;]+)'))
+                if ( matchee_login != null && matchee_login[1] !== '' ) {
+                    TNY.meterVar.loggedin = 'true';
+                }
+
+                // Check for ee_status cookie
+                matchee_status = document.cookie.match(new RegExp('ee_status' + '=([^;]+)'));
+                if ( matchee_status != null && matchee_status[1] == 'true' ) {
+                    TNY.meterVar.subscription = 'Active';
+                }
+
+                // Check for ev_entitlements cookie
+                matchee_details = document.cookie.match(new RegExp('ev_entitlements' + '=([^;]+)'));
+                if ( matchee_details != null && matchee_details[1] != 'false' ) {
+                    TNY.meterVar.entitlement = JSON.parse( matchee_details[1] );
+                }
+
+                // Manage the localStorage variables that omniture uses for barrier tracking
+                if ( typeof localStorage !== undefined ) {
+                    // Meter Counting
+                    var current_meter = TNY.meterVar.meter_name;
+                    if ( TNY.meterVar.meter_count <= TNY.meterVar.meter_max && EVOLOK.exceededMeter !== '1' ) {
+                        // If user hasn't exceeded the meter, sync the meter_count and visitedCount.
+                        localStorage.setItem( "visitedCount_"+current_meter, TNY.meterVar.meter_count );
+                    } else {
+                        // Once the meter is exceeded start incrementing local storage from the current value
+                        visitedCount = localStorage.getItem( "visitedCount_"+current_meter );
+                        if ( TNY.meterVar.meter_viewed !== '1' ) {
+                            visitedCount++;
+                        }
+                        localStorage.setItem( "visitedCount_"+current_meter, visitedCount );
+                    }
+                }
+
+                /* Default to no barriers */
+                TNY.meterVar.isBarrierHalf = false;
+                TNY.meterVar.isBarrierFull = false;
+
+                if ( TNY.meterVar.meter_count === "" || TNY.meterVar.meter_max === "" ) {
+                    /* oh noes, default values */
+
+                } else if ( TNY.meterVar.meter_viewed === '1' || TNY.meterVar.subscription === 'Active' ) {
+                    /* Page was already viewed, or user has a subscription */
+
+                } else if ( TNY.meterVar.barrier_status === 'half' && TNY.meterVar.meter_viewed !== '1' ) {
+                    /* User has seen half */
+                    TNY.meterVar.isBarrierHalf = true;
+
+                } else if ( TNY.meterVar.barrier_status === 'full' && TNY.meterVar.meter_viewed !== '1' ) {
+                    /* Full barrier time! */
+                    TNY.meterVar.isBarrierFull = true;
+                }
+            
+
+
+			
+			
+		
+			
+								
+								
+						Sections
+					
+					
+						Latest
+					
+					
+						Popular
+					
+					
+						
+						Search
+					
+					
+						        
+          
+          
+            Subscribe
+          
+        					
+				
+				
+						Sign in
+						My Account | Sign Out
+					
+					
+						
+							TNY Store
+						
+					
+					
+
+						          
+            
+            
+              
+          					
+				
+						
+									
+		
+		 
+				Bonus Daily Cartoon: Sunday, November 6th
+				by Benjamin Schwartz
+			
+		
+		
+		
+		 
+				Just a Few Notes for Our New Babysitter!
+				by Lane Moore
+			
+		
+		
+		
+		 
+				The Indefinable Cartoonist Bob Weber
+				by David Sipress
+			
+		
+		
+		
+		 
+				A Brief History of Death
+				by Nir Baram
+			
+		
+			
+					
+					
+						
+									
+		
+		 
+				Putin Appears with Trump in Flurry of Swing-State Rallies
+				by Andy Borowitz
+			
+		
+		
+		
+		 
+				Queen Offers to Restore British Rule Over United States
+				by Andy Borowitz
+			
+		
+		
+		
+		 
+				Stephen Hawking Angers Trump Supporters with Baffling Array of Long Words
+				by Andy Borowitz
+			
+		
+		
+		
+		 
+				Clinton Investigation Mania, Part Two
+				by Jeffrey Toobin
+			
+		
+			
+					
+					
+						
+							
+								Go
+							
+						
+					
+				
+		
+				Sign in
+				My Account | Sign Out
+			
+			Election
+News
+Culture
+Books
+Business & Tech
+Humor
+Cartoons
+Magazine
+Video
+Archive
+Goings On
+
+				
+					Search
+				
+			
+				        
+          
+          
+            
+        
+        
+          
+          
+            
+              Subscribe to The New Yorker
+            
+          
+        			
+
+		
+	
+		
+
+	
+			
+	
+	
+		var TNY = TNY || {};
+		TNY.tags = ["post","Cartoons","Humor","","cartoons","bob-mankoff","the-story-of-how-about-never"];
+	
+	
+
+	
+			
+								
+		
+
+				 
+										
+						From the Desk of Bob Mankoff
+					
+																		
+				The Story of “How About Never”
+		
+		
+								
+								By  Robert Mankoff
+									,
+					March 27, 2014
+
+		
+		
+		
+	
+
+			
+			
+				
+					
+		
+
+		
+
+			
+			
+				
+					
+		
+
+		
+
+			
+			
+				
+					
+		
+
+		
+
+			
+			
+				
+					
+		
+
+
+	
+		
+			
+	
+
+		
+			
+
+				
+			
+				
+			
+		
+				Publishing a memoir naturally engenders certain questions, one of which is what I think my “legacy” will be. And because questions of legacy naturally engender thoughts of mortality, my preference is to avoid both the question and the thoughts, so I usually deflect them by joking that I’d like my legacy to be not dying.   But it’s time to reflect rather than deflect.         If the question is what I’d like to be remembered by, well, that’s two things. One is the creation of The Cartoon Bank, in 1991, which, starting in 1997, archived and made available the cartoons of The New Yorker, while also assuring that cartoonists would be paid when their cartoons where bought and reused. So, do them, me, and yourself a favor and use it.  Second is how, with the editor David Remnick’s support, I helped to bring a new generation of cartoonists into the magazine, cartoonists such as Matt Diffee, Alex Gregory, David Sipress, Zach Kanin, Bill Haefeli, Farley Katz, Joe Dator, Kim Warp, Emily Flake, Carolita Johnson, and many others.     So that’s what I’d like to be remembered for. However, what I will be remembered for is the cartoon that stands as the title for my memoir:   I drew this cartoon back in 1993, and now the phrase is firmly entrenched in the culture—so much so that it can be referred to as though it were an anonymous aphorisim. Nancy Pelosi did just that during the 2012 election:   It has been included in “The Yale Book of Quotations”   along with such other noted humorists as Mao Zedong.    It’s probably just a coincidence that the marketing mavens at Henry Holt & Co chose it for the memoir’s title. That cartoon has also earned me the dubious distinction of being ripped off for t-shirts, decals, and this lovely thong:   My lawyers have never been able to get me any anything for all the times that it’s been ripped off—although, if some ongoing negotiations work out, it looks like some free thongs will be coming my way.   For most of the over nine hundred and fifty cartoons I’ve done for The New Yorker, I can’t remember how this or that idea came about. Not surprisingly, for this one, I do. Recently, I told that story in a video interview with theWall Street Journal:   Even though I didn’t think very much of that cartoon when I drew it, I’ve got to admit that it has always been very good to me. And while I often have that line quoted back to me, I take care never to use it myself. However, looping back on the whole mortality theme, I do have it in my back pocket for one occasion:  P.S. If you want to be either inspired or discouraged about getting your own cartoon in The New Yorker, check out the wonderful “60 Minutes” segment that ran last Sunday.  			
+		
+
+		
+		
+			
+		
+				
+					Bob Mankoff is the cartoon editor of The New Yorker.
+					
+							More
+						
+										
+			
+	
+			
+More:
+					
+							
+								Humor
+							
+						
+												
+							
+								Cartoons
+							
+						
+											
+          
+          
+            
+              Read something that means something
+              Try The New Yorker for only a dollar a week. Subscribe Now.
+            
+          
+        
+
+		
+
+					
+						
+							
+														
+						
+					
+
+										
+						
+							
+
+							
+		Most Popular
+		
+				
+					Putin Appears with Trump in Flurry of Swing-State Rallies
+				
+				
+					by Andy Borowitz
+				
+			
+						
+				
+					Queen Offers to Restore British Rule Over United States
+				
+				
+					by Andy Borowitz
+				
+			
+						
+				
+					Stephen Hawking Angers Trump Supporters with Baffling Array of Long Words
+				
+				
+					by Andy Borowitz
+				
+			
+						
+				
+					Clinton Investigation Mania, Part Two
+				
+				
+					by Jeffrey Toobin
+				
+			
+						
+				
+					Who Are All These Trump Supporters?
+				
+				
+					by George Saunders
+				
+			
+			
+		
+			Our thirty most popular
+		
+
+	
+
+		
+			
+		
+	
+
+
+
+						
+					
+										
+						
+							
+								 
+								Where to Go, what to do
+								
+								See our new Goings On About Town, The New Yorker’s online guide to the city’s best in culture, from ballet to bagels. » 
+								
+								 
+								
+									
+								
+							
+						
+					
+					
+
+				
+					
+	
+	
+
+		More From the New Yorker
+			
+				
+										
+						
+							
+
+						
+												Borowitz Report
+						Putin Appears with Trump in Flurry of Swing-State Rallies
+														By Andy Borowitz
+											
+
+					
+						
+							
+
+						
+												Borowitz Report
+						Queen Offers to Restore British Rule Over United States
+														By Andy Borowitz
+											
+
+				
+			
+		
+
+
+
+#the-modal-overlay{
+  z-index:9999999999!important;
+}
+
+  
+        
+      
+              
+              
+              
+              
+            
+        
+    
+
+
+
+
+
+
+	div#b-modal-overlay.modal-frame{
+		z-index: 99999931 !important;
+		overflow: visible;
+	}
+
+	div#b-modal-overlay iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+	}
+
+	div#main_overlay{
+		z-index:9999999;
+	}
+
+	#close-b-modal {
+		z-index: 1;
+	}
+
+	div.barrier-type[style]{
+		position:static!important;
+		max-width:none;
+	}
+
+	div.half-b {
+		max-width:90%;
+		min-width: 465px;
+		top: 10px;
+		position: relative;
+		overflow: hidden;
+	}
+	.desktop-barrier .half-b-inset {
+		min-width:0px;
+		width: 520px;
+	}
+
+	.modal-inset {
+		min-width: 0; 
+	}
+
+	div#PAYWALL_BARRIER_wrapper {
+		width: 100%;
+		height: 100%;
+	}
+
+	.mob-notification-container {
+		position: absolute;
+		bottom: 0;
+		background-color: #322F31;
+		color: #FFF;
+		text-align: center;
+		min-height: 58px;
+		margin: 0 auto auto auto;
+		margin-top: 8%;
+		width: 100%;
+		left: 0;
+	}
+
+	.mob-notification-item:nth-child(1),
+	.mob-notification-item:nth-child(3) {
+		margin: 0 auto;
+	}
+
+	@media only screen and (max-width: 600px) {
+		div.half-b {
+			min-width: 0;
+		}
+	}
+
+	@media screen and ( max-height: 610px) {
+	  #b-modal-overlay {
+	    display: block;
+	  }
+
+	  #b-modal-overlay .modal {
+	    margin: 0 auto;
+	  }
+	}
+
+
+
+	
+		
+
+			
+				
+					
+					
+					
+					
+		        
+		          
+		          
+								
+		          
+		        
+		        
+		          
+		          
+		          	
+		          
+		        
+					
+					
+						
+						Link your  subscription
+						Link your subscription
+					
+					
+						Have a login?
+						Sign In
+					
+					
+						Already have a login?
+						Sign in
+					
+					
+						Link YourSubscription
+						
+						Have a login?
+							Sign in
+						
+					
+				
+			
+		
+	
+
+
+  var CN = CN || {};
+  /* <![CDATA[ */
+  var platformEnvironment = "production";
+  var sitehost = "http://www.newyorker.com";
+  var omniture_init = [];
+  CN.omniture = CN.omniture || {};
+  CN.omniture.conf = {"s_account":"conde-newyorker","server":"stats2.newyorker.com","secureServer":"sstats.newyorker.com","internalFilters":"javascript:,newyorker.com,advancemags.com"};
+  /* ]]> */
+
+var TNY = TNY || {}; 
+TNY.Stats = TNY.Stats || {}; 
+TNY.Stats.omniture = TNY.Stats.omniture || {}; 
+TNY.Stats.omniture._conditions = TNY.Stats.omniture._conditions || {
+contentId: "1596311", 
+cnUserServices: "true", 
+templateName: "Article", 
+keywordsList: "bob-mankoff|cartoons-tag|humor-tag|article|robert_mankoff", 
+deviceViewCallback: function(){  var dv = "mobile";
+  if ( typeof jQuery != "undefined") {
+    dv = jQuery.devices.getDeviceView();
+  } else { if (navigator.userAgent.match(/Mobi/)||navigator.userAgent.match(/Androi/)||navigator.userAgent.match(/Silk/)) {
+    if (document.documentElement.clientWidth >= 768) { dv="tablet"; } else { dv="mobile"; }
+  } else { dv = "desktop"; } }  return dv;
+}()
+,
+isSingular: true, 
+setContentId: "1596311", 
+isPost: true, 
+isPostOrArticle: true, 
+id: "1596311", 
+setAuthorName: "Robert Mankoff", 
+contributor: "Robert Mankoff", 
+dateTimePublished: "2014-03-27 17:07:45", 
+dateTimeSince: "22919h|954d", 
+hero: "Eustace Tilley"
+};
+var digitalData = {
+  "pageType": "Article",
+  "section": "channel_none",
+  "canonical": location.origin + location.pathname,
+  "tags": "bob-mankoff|cartoons-tag|humor-tag|article|robert_mankoff" 
+};
+
+
+
+/* Get the in Site Catalyst object instance. This is done by using the s_account variable or similar */
+var _scObj = s_gi(CN.omniture.conf.s_account);
+/* create instance of DIL*/
+var scDil = DIL.create({
+  partner : "condenast",
+  uuidCookie:{
+     name:'aam_uuid',
+     days:30
+   }
+  });
+/*Pass the dil Instance and SC instance to this module*/
+DIL.modules.siteCatalyst.init(_scObj, scDil);
+
+            //<!--
+                CN.site.init({
+                    code:             'NYR',
+                    title:            'The New Yorker',
+                    name:             'newyorker',
+                    alias:            'newyorker.com',
+                    domain:           'newyorker.com',
+                    tld:              'newyorker.com',
+                    baseUrl:          'http://www.newyorker.com',
+                    mobilecompatible: 'true',
+                    httpStatusCode:    200,
+            userServiceUrl: 'https://user-service.condenastdigital.com',
+userServiceKey: 'xTqYrbfganJDRIpQjk9DyPG76bQ=',
+ecomUrl: 'https://subscribe.newyorker.com/api/circ/xml/Transaction',
+                    env: 'PROD'  // Put something consistent last so we don't have a trailing comma (appease IE)
+                });
+
+                CN.isMobile = TNY.initIsMobile;
+                CN.isTablet = jQuery.devices.tablet();
+                CN.checkDeviceView = jQuery.devices.checkDeviceView;
+            //-->
+            
+                //<!--
+                    CN.dartKwsArray = [ "bob_mankoff","cartoons_tag","humor_tag","cartoons","the_story_of_how_about_never","article","robert_mankoff" ];
+
+                
+                                /* Add keywords when the barriers are active */
+                if ( TNY.meterVar.isBarrierHalf ){
+                    CN.dartKwsArray.push('novideo');
+                    CN.dartKwsArray.push('paywall');
+                    CN.dartKwsArray.push('paywallhalf');
+
+                }
+                if ( TNY.meterVar.isBarrierFull ){
+                    CN.dartKwsArray.push('noads');
+                    CN.dartKwsArray.push('paywall');
+                    CN.dartKwsArray.push('paywallfull');
+                }
+
+                /* Add keywords for subscriber status */
+                if ( TNY.meterVar.subscription === 'Active' ) {
+                    CN.dartKwsArray.push('subscriber');
+                } else {
+                    CN.dartKwsArray.push('nonsubscriber');
+                }
+                
+                    CN.dart.init({
+                        adUnits: {
+                            unit1: CN.isMobile ? 'newyorker.mobile.dart' : 'newyorker.dart',
+                            unit2: 'cartoons',
+                            unit3: 'bob-mankoff',
+                            unit4: ''
+                        },
+                        kws: CN.dartKwsArray,
+                        contentType: 'Article',
+                                            gptCallback : function(event){TNY.Ads.eventPubadsCallback(event)},
+                                            charmap : {' ' : '+', '-' : '_'}
+                    });
+                                //-->
+                    
+                CN.popups = CN.popups || {};
+                CN.popups.setCookieLife(48);
+                // No pops!  NONE!
+                CN.popups.setArriving(false).setExiting(false).setLayer(false);
+                CN.popups.setATGArriving(false).setATGExiting(false).setATGLayer(false);
+                CN.popups.init();
+            
+  
+
+
+(function(s, p, d) {
+  var h=d.location.protocol, i=p+"-"+s,
+      e=d.getElementById(i), r=d.getElementById(p+"-root"),
+      u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+      :"static."+p+".com";
+  if (e) return;
+  e = d.createElement(s); e.id = i; e.async = true;
+  e.setAttribute('data-cfasync', 'false'); e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+})("script", "parsely", document);
+
+            //<!--
+                CN.config.set({
+                    title        : document.title,
+                                    facebook     : {pageid: "9258148868"},
+                                    isiFrame     : true
+                });
+            //-->
+            About
+			    Careers
+				Cartoon Bank
+
+				Contact
+
+				Customer Care
+
+				FAQ
+
+				Media Kit
+				
+
+				On The Town
+		 		Press
+
+		 		Reprints
+
+				RSS
+
+		 		Site Map
+
+	
+				Store
+				Strongbox
+			  
+
+      
+          AboutAboutCareersCartoon BankContactCustomer CareFAQMedia KitOn The TownPressReprintsRSSSite MapStoreStrongbox
+  
+
+  
+    Condé Nast Digital
+  
+  
+  © 2016 Condé Nast. All rights reserved. Use of this site constitutes acceptance of our  user agreement (effective 1/2/2016) and  privacy policy  (effective 1/2/2016).  Your California privacy rights. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with prior written permission of Condé Nast.  
+  
+      
+          Our sitesAllureArchitectural DigestArs TechnicaBackchannelBon AppétitBrides.comCondé Nast TravelerEpicuriousGlamourGolf DigestGolf WorldGQGQ StylePitchforkSelfTeen VogueVanity FairVogueWWired
+  
+   
+  © 2016 Condé Nast. All rights reserved. Use of this site constitutes acceptance of our  user agreement (effective 1/2/2016) and  privacy policy  (effective 1/2/2016).  Your California privacy rights. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with prior written permission of Condé Nast.  
+
+		

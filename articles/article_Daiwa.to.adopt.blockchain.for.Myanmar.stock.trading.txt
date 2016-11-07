@@ -1,0 +1,1246 @@
+Daiwa to adopt blockchain for Myanmar stock trading- Nikkei Asian Review
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+		(function() {
+			var gads = document.createElement("script");
+			gads.async = true;
+			gads.type = "text/javascript";
+			var useSSL = "https:" == document.location.protocol;
+			gads.src = (useSSL ? "https:" : "http:") + "//www.googletagservices.com/tag/js/gpt.js";
+			node =document.getElementsByTagName("script")[0];
+			node.parentNode.insertBefore(gads, node);
+		})();
+	
+		googletag.cmd.push(function() {
+															googletag.defineSlot('/7049/NikkeiEnglish_728*90', [728, 90], 'div-gpt-ad-1375148224113-0').addService(googletag.pubads());
+																																				googletag.defineSlot('/7049/NikkeiEnglish_300*250_1', [300, 250], 'div-gpt-ad-1375148072299-0').addService(googletag.pubads());
+																googletag.defineSlot('/7049/NikkeiEnglish_300*250_2', [300, 250], 'div-gpt-ad-1375260461786-0').addService(googletag.pubads());
+																googletag.defineSlot('/7049/NikkeiEnglish_300*250_3', [300, 250], 'div-gpt-ad-1404116812193-0').addService(googletag.pubads());
+																googletag.defineSlot('/7049/NikkeiEnglish_InRead_Article', [1, 1],'div-gpt-ad-1396427317542-0').addService(googletag.pubads());
+																googletag.defineSlot('/7049/NikkeiEnglish_InBoard_Article', [1, 1], 'div-gpt-ad-1410933087819-0').addService(googletag.pubads());
+										
+		googletag.pubads().enableSingleRequest();
+		googletag.pubads().collapseEmptyDivs();
+		googletag.enableServices();
+		});
+	
+		var YUI3_config = {base: "/extension/ezjscore/design/standard/lib/yui/3.9.0/build/", modules: {}, combine: false};
+		var YUI2_config = {base: "/extension/ezjscore/design/standard/lib/yui/2.8.2/build/", modules: {}, combine: false};
+	
+				<!--
+		user_category ="";
+	
+					login_flag = false;
+					var authority = "A1";
+					var memberId = "";
+					var aid = "";
+					var contractId = "" ; 
+					var contractName = "" ; 
+				-->
+				<!--
+	
+	$(function() {
+		if(("user_section" in window) && ("user_status" in window)){
+			if (user_section == 1 && user_status == 2){
+				if(!NAR_js.has_cookie('odm')) {
+					NAR_js.modal_gd('02_01');
+					NAR_js.set_oneday_cookie('odm');
+				}
+			}
+		}
+	});
+	-->(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '1076130949081971']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+
+<!--
+	articleAuthor = "";
+-->
+
+		<!--
+										release_flag = false;
+						article_limit_free = Number( "5" );
+			article_limit = Number( "5" );
+			
+			article_limit_alert_free = "1:2,2:2,3:1,4:1,5:1".split(",");
+			var article_limit_alert_free_list = [];
+			for (var prop in article_limit_alert_free){
+				article_limit_alert_free_list.push( article_limit_alert_free[prop].split(":"));
+			}
+			article_limit_alert = "1:2,2:2,3:1,4:1,5:1".split(",");
+			var article_limit_alert_list = [];
+			for (var prop in article_limit_alert){
+				article_limit_alert_list.push( article_limit_alert[prop].split(":"));
+			}
+
+			expiration_notice = Number( "7" );
+			
+			all_campaign_aid = "AwFd4qxtQ2";
+			all_campaign_end_date = "2016/12/01";
+			
+		-->
+		
+
+
+    window.fbAsyncInit = function() {
+        // FB initialize 
+        FB.init({
+          appId      : '250799988299057',
+          xfbml      : true,
+          version    : 'v2.5'
+        });
+        // Subscribe to the Like event
+        FB.Event.subscribe('edge.create',function(response){
+                var narURL = window.location.href;
+                ga('send', 'social', {
+                    'socialNetwork': 'Facebook',
+                    'socialAction': 'follow',
+                    'socialTarget': narURL
+                 });
+                ga('send', 'event', 'Facebook', 'follow', 'Facebook-follow',0, {nonInteraction:true});
+        });
+        // Subscribe to the UnLike event
+        FB.Event.subscribe('edge.remove',function(response){
+                var narURL = window.location.href;
+                ga('send', 'social', {
+                    'socialNetwork': 'Facebook',
+                    'socialAction': 'unfollow',
+                    'socialTarget': narURL
+                 });
+                ga('send', 'event', 'Facebook', 'unfollow', 'Facebook-unfollow',0, {nonInteraction:true});
+        });
+    };
+(function(d, s, id){
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+  t = window.twttr || {};
+  if (d.getElementById(id)) return;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+  return t;
+}(document, "script", "twitter-wjs"));
+
+			
+					
+
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1375148224113-0'); });
+
+
+									
+							
+				 NAR_js.pr_header(); 
+			
+				
+				
+					Log in
+	Subscribe
+	About Nikkei Asian Review
+
+
+						Sort by Region
+							Mainland China
+																										North Korea
+								South Korea
+																										Japan
+								Taiwan
+																										Hong Kong, Macau
+								Vietnam
+																										Laos, Cambodia, Myanmar
+								Thailand
+																										Malaysia
+								Singapore
+																										Philippines
+								Indonesia
+																										India
+								Pakistan, Bangladesh,Sri Lanka, Nepal, Bhutan
+																										Mongolia, Central Asia, Afghanistan
+								Russia, Caucasus
+																										Australia, New Zealand, Pacific Islands
+								Turkey
+																										Iran
+								Middle East, North Africa
+																										Sub-Saharan Africa
+								Europe
+																										North America
+								Latin America
+								
+						
+						
+							
+								search
+								
+							
+						
+						
+							jQuery('#header-autocomplete-rs').css('width', '174px');
+							var autocomplete = new eZAJAXAutoComplete({
+								url: "/ezjscore/call/custom::autocomplete",
+								inputid: 'SearchText',
+								containerid: 'header-autocomplete-rs',
+								minquerylength: 2,
+								resultlimit: 5
+							});
+						
+						
+						
+							
+								search
+							
+						
+						
+					
+				
+				
+		
+		
+		
+			Log in
+			
+				E-mail address/ID
+					
+						
+					
+					PasswordForgot password?
+					
+						
+					
+				Remember me
+								Log in
+								
+		
+	
+	close
+	<!--
+	$(document).ready( function() { $("#js_form-login-balloon").submit( function() { NAR_js.login($("#js_form-login-balloon")); return false; }); });
+	-->
+			
+			
+				
+					Home
+
+Politics & Economy
+
+Policy & Politics
+Economy
+International Relations
+
+
+
+Business
+
+Companies
+  Asia300
+Trends
+Deals
+Executive Lounge
+Consumers
+
+
+
+
+Markets
+
+Capital Markets
+Equities
+Currencies
+Commodities
+Property
+Tokyo Market
+Nikkei PMI
+
+
+
+Tech & Science
+
+Tech
+Science
+
+
+
+Viewpoints
+
+Viewpoints
+Editorial
+
+
+
+
+Life & Arts
+
+Life
+Arts
+Japan Trends
+Education
+Milestone
+
+
+
+
+Features
+
+US election
+Thailand in mourning
+Pyongyang provocation
+Duterte's Philippines
+Dhanin Chearavanont
+China up close
+CEO in the news
+Company in focus
+Tea Leaves
+
+
+Japan Update
+Print Edition
+
+
+			
+		
+
+		
+						
+												
+							
+					BusinessCompanies
+					
+					
+													
+					
+						Print
+																								Facebook
+							Twitter
+							LinkedIn
+							Google+
+							Mail
+								
+									
+											
+						
+							
+														November 1, 2016 4:00 pm JST
+																				Daiwa to adopt blockchain for Myanmar stock trading
+													
+
+																																	
+			
+																							
+								
+																									A golden stupa stands in a temple compound surrounded by modern buildings in Yangon, Myanmar. 
+								
+																																			
+											© AP
+										
+								
+								
+	
+														
+								
+				
+
+						
+					
+										
+							
+								TOKYO -- Daiwa Securities Group is set to adopt blockchain technology in payments for stock trading in Myanmar, hoping to put the technology to practical use within two years.Blockchain, the shared record-keeping protocol central to virtual currencies, is easy to use even in countries with poor infrastructure. It also allows brokerages easier entry to the market. The Japanese securities company will negotiate with the Myanmar government to introduce the system.Daiwa Institute of Research Holdings and other units of Daiwa tested the system from June to September using general-purpose servers that are available in Myanmar. On the assumption of using blockchain to connect the Yangon Stock Exchange and local brokerages, the test was conducted to gauge how the system would work in the country, which is often hit by power outages and phone lines going dead. Blockchain technology shares transaction records with multiple computers. Stock trading is typically saved in servers at bourses, but records cannot be referenced when communications infrastructure fails. Using blockchain systems, brokerages can continue a minimum of operations, such as checking past transaction records and outstanding balances even when failures occur, although new transactions cannot be checked. Stock trading began in Myanmar in March. There are currently five brokerages, but that number is expected to increase. With blockchain systems, brokerages can enter the market simply by participating in the system. No stock exchange has introduced blockchain technology in trading of listed stocks, according to a Daiwa Securities Group representative.Blockchain is unfit for high-speed trading, but the Yangon Stock Exchange only matches buy and sell orders twice a day, at 11 a.m. and 1 p.m., unlike the continuous matching that happens at most bourses. Therefore, Daiwa expects no technical issues to bar introduction of the system.  (Nikkei)
+							
+						
+		
+								
+
+									
+
+																					
+						
+																					Daiwa Securities Group Inc.
+							Japan
+							Market(Ticker):
+									TKS(8601)
+								Sector:Industry:
+									FinanceInvestment Banks/Brokers
+								Market cap(USD):
+									10,175.6M
+								Shares:
+									1,749.38M
+								
+								about Daiwa Securities Group Inc.
+							
+						
+					
+									
+		
+
+										
+
+						
+
+						
+			Related companies
+			
+																	Daiwa Securities Group Inc.										
+		
+		
+																
+
+																		
+							Related stories
+							Japan CPA body, Daiwa to train Myanmar accountants
+
+																																																										Myanmar's stock market gets off to a promising start
+
+																																																										Mitsubishi UFJ Trust to buy trust bank for credit associations
+
+																						
+						
+
+
+											
+						
+						
+						
+
+Follow Nikkei Asian Review
+
+
+The best content posted
+Follow @NAR
+
+The latest headlines tweeted
+
+
+				
+
+						
+				<!--
+															cms_section = 8;
+					
+										FREE = Number( 7 );
+					MAGAZINE_FREE = Number( 11 );
+					MEMBERS_ONLY = Number( 9 );
+					SUBSCRIPTION = Number( 8 );
+					MAGAZINE_SUBSCRIPTION = Number( 10 );
+					PAY =  Number( 2 );
+					IP_AUTH =  Number( 4 );
+					TRIAL = Number( 3 );
+				-->
+				
+				<!--
+										if( cms_section == SUBSCRIPTION || cms_section == MAGAZINE_SUBSCRIPTION ){
+												now_date = new Date();
+						cookie_name =  String(now_date.getFullYear())+String(now_date.getMonth()+1)+"vc";
+						cookie_nameList = cookie_name+"l";
+
+												user_view_article_list = getCookieList(cookie_nameList);
+						article = 140617;
+
+
+						var in_array_flag = false;
+						for(var i = 0; i < user_view_article_list.length; i++) {
+							if(user_view_article_list[i] == article) {
+								in_array_flag = true;
+							}
+						}
+												if( !in_array_flag ){
+														user_view_article_list.push(article);
+
+														user_view_count = getCookie(cookie_name);
+							if(user_view_count == ""){
+								user_view_count = 1;
+							}else{
+								user_view_count = Number(user_view_count) + 1;
+							}
+						}else{
+													user_view_count = getCookie(cookie_name);
+						}
+					}
+					
+										var page = 1
+					var count_flag = user_check();
+
+										if( (cms_section == SUBSCRIPTION || cms_section == MAGAZINE_SUBSCRIPTION) && count_flag ){
+						NAR_js.isCount = true;
+						NAR_js.user_view_count = user_view_count;
+						setCookie(cookie_name, user_view_count, 40);
+						setCookieList(cookie_nameList, user_view_article_list, 40);
+					}
+					
+				-->
+				
+				<!--
+				$(function() {
+					var printFlag = false;
+					if( user_category == IP_AUTH ){
+						printFlag = true;
+					}
+					if( login_flag ){
+						if( user_section == PAY ){
+							printFlag = true;
+						}
+					}
+					if(location.href.match(/^https:\/\/asia.staging/)) {
+						printFlag = true;
+					}
+					else if(cms_section == FREE || cms_section == MAGAZINE_FREE){
+						printFlag = true;
+					}
+
+					if (printFlag) {
+						var snsicon = $("ul.snsicon-list");
+						var print = snsicon.find("li.print");
+						print.css("display","inline-block");
+					}
+				});
+				-->
+				
+					<!--
+
+					$(function(){
+						if(!$(".limit_page").get(0) && !$(".selection.page-1").get(0)){
+							href = location.href;
+							params = href.split("?");
+							if(params.length>1){
+								paramsList = params[1].split("&");
+								for ( i = 0; i < paramsList.length; i++ ) {
+									if(paramsList[i].match(/page\=.*/)){
+										paramsList.splice( i , 1);
+										break;
+									}
+								}
+								if(paramsList.length>0){
+									p ="";
+									for ( i = 0; i < paramsList.length; i++ ) {
+										p = p + paramsList[i];
+										if(i<paramsList.length-1) p = p + "&";
+									}
+									location.href = params[0] + "?" + p;
+								}else{
+									location.href = params[0];
+								}
+							}
+						}
+					});
+					$(function(){
+						$(".pagination.no-border").pagination({
+														items: $(".selection").length,
+														offset: 1
+						})
+					});
+					-->
+					
+			
+												
+
+		
+			
+					
+							
+			
+			
+		
+						
+				Exclusive: Foxconn plans to expand its chip ambitions
+						
+								 
+																												[Taiwan]
+																																																[China/Hong Kong]
+																						
+					
+		
+			
+						
+				Ag Bank of China fined $215m for anti-money laundering violations
+						
+								 
+																																											[China/Hong Kong]
+																																							[North America]
+																
+					
+		
+			
+						
+				Tata riven over removal of Mistry as chairman of group companies
+						
+								 
+																												[India]
+																
+					
+		
+			
+						
+				SingPost ramps up e-commerce initiatives despite growing pains
+						
+								 
+																												[Singapore]
+																
+					
+		
+			
+						
+				Germany's Kuka sees Chinese takeover as potential 'win-win'
+						
+								 
+																																											[China/Hong Kong]
+																																																																		[Europe]
+																
+					
+		
+		
+		
+							more
+					
+	
+	
+		About Asia300
+	
+
+
+
+
+
+				
+			
+
+
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1375148072299-0'); });
+
+
+		
+			
+					
+			
+
+Follow Nikkei Asian Review
+
+The best content posted
+Follow @NAR 
+
+The latest headlines tweeted
+
+		
+			
+	
+		Latest headlines
+		
+						Asia watches anxiously as US presidential race tightens
+		
+			
+						ShinMaywa's automated jet bridges connect in Southeast Asia
+		
+			
+						Global automakers sticking with UK despite Brexit fears
+		
+			
+						Cosplay website to offer costume tips, anime scenes
+		
+			
+						Singles' Day paints bright but hazy picture of Chinese spending
+		
+		more
+
+
+
+		Editor's picks
+							
+
+
+						
+		
+						
+		Unicharm rolls out new products for elderly dogs
+		
+	
+	
+						
+		
+						
+		Japan faces uphill battle in tackling excessive overtime
+		
+	
+	
+						
+		
+						
+		China up close: Xi Jinping becomes 'core leader' -- at a cost
+		
+	
+	
+						
+		
+						
+		Thais dyeing clothes black for free amid shortages
+		
+	
+	
+						
+		
+						
+		Are Japanese car dealers scamming Pakistani buyers? 
+		
+	
+
+
+
+		Most read
+		
+			Protests turn violent in Jakarta over governor's alleged blasphemy
+		
+						
+			Malaysia awards record contracts to China
+		
+						
+			Takata readies Chapter 11 filing for US unit
+		
+						
+			Emptying seas, mounting tensions in fish-hungry Asia
+		
+						
+			Japan, Russia chasing different goals via economic cooperation
+		
+			
+
+				
+			
+
+
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1375260461786-0'); });
+
+
+
+		
+			
+					
+			
+
+Videos
+
+
+
+The Myanmar Princess resort for the environment
+
+
+
+
+Long-delayed Indonesia coal-powered plant on track
+
+
+
+
+Baselworld 2016 Luxe Watch Interview [Sponsored]
+
+
+
+more
+
+		
+			
+							
+			
+var meta_tags = document.getElementsByTagName('meta');
+for(i=0;i<meta_tags.length;i++){
+if(meta_tags[i].getAttribute("property")=="og:url"){
+var og_url=meta_tags[i].getAttribute("content");
+}
+}
+
+document.write('<div class="OUTBRAIN" data-src="' + og_url + '" data-widget-id="SB_1" data-ob-template="Nikkei_Asian_Review_EN"></div>');
+
+
+
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1404116812193-0'); });
+
+
+
+		
+			
+					
+			
+
+
+var obCheck = document.querySelectorAll('.articleBodyText p').length;
+var vdCheck = document.querySelectorAll('.BrightcoveExperience param').length;
+
+if ((obCheck >= 1) && !(vdCheck >= 1)) {
+if((authority == "A1" || authority == "A2") && (cms_section == 8 || cms_section == 10)){
+var current_cookie_name = String(now_date.getFullYear())+String(now_date.getMonth()+1)+"vc";
+var current_user_view_count = getCookie(current_cookie_name);
+var current_cookie_nameList = current_cookie_name+"l";
+var current_user_view_article_list = getCookieList(current_cookie_nameList);
+var in_array_flag = false;
+
+for(var i = 0; i < current_user_view_article_list.length; i++) {
+if(current_user_view_article_list[i] == article) {
+in_array_flag = true;
+}
+}
+
+if((authority == "A1") && (current_user_view_count >= article_limit) && !in_array_flag){
+} else if((authority == "A2") && (current_user_view_count >= article_limit_free) && !in_array_flag) {
+} else {
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1396427317542-0'); });
+}
+} else if((authority == "A1" || authority == "A2") && (cms_section == 9)){
+} else {
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1396427317542-0'); });
+}
+}
+
+		
+			
+					
+			
+
+
+var obCheck = document.querySelectorAll('.articleBodyText p').length;
+var vdCheck = document.querySelectorAll('.BrightcoveExperience param').length;
+if ((obCheck >= 1) && !(vdCheck >= 1)) {
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1410933087819-0'); });
+}
+
+		
+			
+	
+
+
+							
+					
+						
+			
+	
+        Facebook
+            Twitter
+            LinkedIn
+            Google+
+            YouTube
+            RSS
+        
+            
+        
+
+About Nikkei Asian Review
+	Site map
+	Help
+	Contact us
+	Terms of use
+	Copyright
+	Privacy & cookie policy
+	Advertising
+	Announcements
+
+				Nikkei Inc. No reproduction without permission.
+				
+					Japanese
+						Chinese
+					
+			
+		
+
+																
+				Mobile site
+				
+			
+	You have 2 FREE ARTICLES left this month.
+	
+		Subscribe to get unlimited access to all articles.
+		
+			
+			Get unlimited access
+		
+	
+	Close
+	
+
+
+
+
+	You have 2 FREE ARTICLES left this month.
+	
+		Take advantage of this limited offer
+- three months for just $9
+		
+			
+			Get discount now
+		
+	
+	Close
+	
+
+
+
+
+	You have 2 FREE ARTICLES left this month.
+	
+		We could not renew your subscription.You need to update your payment information.
+		
+			
+			Update
+		
+	
+	Close
+	
+
+
+
+
+	Your trial period will end soon
+	
+		
+Subscribe today to continue enjoying NAR.
+• Unlimited access to asia.nikkei.com
+• Unlimited access to NAR mobile and tablet apps
+• Add delivery of NAR in print each week
+
+
+		See all offers and subscribe
+	
+	Close
+        
+
+
+
+
+
+	To read the full story, Subscribe or Log in
+	
+		
+			
+Get your first month for $0.99
+Redeemable only through the Subscribe button below
+
+Once subscribed, you can…
+Read all stories with unlimited access (5 articles per month without subscription)
+Use our smartphone and tablet apps
+
+ 
+		
+		
+			Subscribe
+			Log in
+		
+		
+			About Nikkei Asian Review
+			
+		
+	
+	
+
+
+
+
+	To read the full story, Subscribe or Log in
+	
+		
+			
+Subscribe today to read the full story 
+- three months for just $9
+
+Once subscribed, you can…
+Read all stories with unlimited access (5 articles per month without subscription)
+Use our smartphone and tablet apps
+
+
+		
+		
+			Subscribe
+			Log in
+		
+		
+			About Nikkei Asian Review
+			
+		
+	
+	
+
+
+
+
+	To read the full story, Update your account
+	
+		
+			
+We could not renew your subscription.You need to update your payment information.
+
+
+		
+		
+			Update
+		
+		
+			About Nikkei Asian Review
+			
+		
+	
+	
+
+
+
+
+	To read the full story, Subscribe or Log in
+	
+		
+			
+Once subscribed, you can…
+Read all stories with unlimited access (5 articles per month without subscription)
+Use our smartphone and tablet apps
+
+
+		
+		
+			Subscribe
+			Log in
+		
+		
+			About Nikkei Asian Review
+			
+		
+	
+	
+
+
+
+
+	To read the full story, Subscribe or Log in
+	
+		
+			
+Subscribe today to read the full story 
+- three months for just $9
+
+Once subscribed, you can…
+Read all stories with unlimited access (5 articles per month without subscription)
+Use our smartphone and tablet apps
+
+
+		
+		
+			Subscribe
+			Log in
+		
+		
+			About Nikkei Asian Review
+			
+		
+	
+	
+
+
+
+
+	To read the full story, Update your account
+	
+		
+			
+We could not renew your subscription.You need to update your payment information.
+
+
+		
+		
+			Update
+		
+		
+			About Nikkei Asian Review
+			
+		
+	
+	
+
+
+
+
+
+
+	Update your payment information
+	
+		Your subscription renewal could not be processed. Please update your payment information to continue enjoying the Nikkei Asian Review.
+		Resubscribe now
+	
+	Close 
+	
+
+
+
+
+
+	Your trial period has expired
+	
+		
+Subscribe today to continue enjoying NAR.
+• Unlimited access to asia.nikkei.com
+• Unlimited access to NAR mobile and tablet apps
+• Add delivery of NAR in print each week
+
+
+		See all offers and subscribe
+	
+	Close 
+		
+
+
+
+
+	
+  
+	
+          Nikkei Asian Review is the only publication that brings you Insight  about Asia, from the inside out.
+          XXcontractNameXX has enabled you free full access to Nikkei Asian Review.
+	
+        Close this message
+        Close
+	
+	
+   
+
+
+
+
+
+
+var page = "1";
+
+if(typeof authority === "undefined"){
+	var authority = "";
+}
+if(typeof memberId === "undefined"){
+	var memberId = "";
+}
+
+if(typeof contractId === "undefined"){
+	var contractId = "";
+}
+var viewMode = "PC";
+
+
+var now = new Date();
+var pageName = location.href;
+var channel = "NAR";
+var server = document.domain;
+var pageType = "";
+
+					
+								
+								
+			
+					
+var prop1 = "NAR-Business";
+var prop2 = "NAR-Business-Companies";
+var prop3 = "Daiwa to adopt blockchain for Myanmar stock trading";
+var prop4 = "140617";
+var prop5 = page;
+var prop6 = now.getHours();
+var prop9 = "";
+var prop10 = "";
+var prop11 = "";
+var prop12 = "Not selection";
+var prop25 = "Bond/money market";
+	var prop26 = "Laos, Cambodia, Myanmar";
+var prop27 = "";
+var prop28 = authority;
+var prop29 = "1";
+var prop30 = getCookie(String(now.getFullYear())+String(now.getMonth()+1)+"vc");
+var prop33 = "05HWCT-E";
+var prop34 = viewMode;
+var prop35 = contractId;
+var prop44 = memberId;
+
+<!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//-->
+
+
+
+
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-44606671-1', 'asia.nikkei.com');
+
+
+	// Set custom dimension
+	if(login_flag != "undefined"){
+		ga('set', 'dimension1', login_flag);
+	}
+	if(authority != "undefined" && authority != ""){
+		ga('set','dimension2', authority);
+	}
+	if(memberId != "undefined" && memberId !=""){
+		ga('set','dimension3', memberId);
+	}
+	if( aid != ""){
+		ga('set','dimension4', aid);
+	}
+	if(viewMode != "undefined"){
+		ga('set','dimension5', viewMode);
+	}
+	if(contractId != "undefined"){
+		ga('set','dimension6', contractId);
+	}
+
+	// Send view
+	ga('send', 'pageview');
+
+	// Send event
+	if(NAR_js.isCount == true){
+        	ga('send', 'event', 'Article', 'countUp', 'Article-countUp', NAR_js.user_view_count, {nonInteraction:true});
+	}
+	if(NAR_js.oneClickFree == true){
+		ga('send', 'event', 'OneClickFree', 'view', 'OneClickFree-view',{nonInteraction:true} );
+	}
+	
+
+     // Twitter api
+     twttr.ready(function (twttr) {
+         twttr.events.bind(
+           'follow',
+           function (event) {
+             var narURL = window.location.href;
+             ga('send', 'social', {
+                 'socialNetwork': 'Twitter',
+                 'socialAction': 'follow',
+                 'socialTarget':  narURL
+             });
+              ga('send', 'event', 'Twitter', 'follow', 'Twitter-follow',0,{nonInteraction:true});
+           }
+         );
+     });
+
+/* <![CDATA[ */
+var google_conversion_id = 1000997403;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+
+
+
+
+
+
+    window._tfa = window._tfa || [];
+    _tfa.push({notify:"action", name: 'page_view'});
+
+_satellite.pageBottom();

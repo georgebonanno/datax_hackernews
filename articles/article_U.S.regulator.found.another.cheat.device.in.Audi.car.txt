@@ -1,0 +1,1493 @@
+ var parallelMediaHosts = new Array(); parallelMediaHosts.push("s1.reutersmedia.net");parallelMediaHosts.push("s2.reutersmedia.net");parallelMediaHosts.push("s3.reutersmedia.net");parallelMediaHosts.push("s4.reutersmedia.net");
+@font-face
+{ font-family: 'knowledge-reg'; src: url('/resources_v2/fonts/Knowledge-Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face
+{ font-family: 'knowledge-light'; src: url('/resources_v2/fonts/Knowledge-Light.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face
+{ font-family: 'knowledge-medium'; src: url('/resources_v2/fonts/Knowledge-Medium.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+		U.S. regulator found another cheat device in Audi car: report
+| Reuters
+
+
+    {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http://www.reuters.com/article/us-volkswagen-emissions-audi-idUSKBN1300V7"
+        },
+        "headline": "U.S. regulator found another cheat device in Audi car: report",
+        "url": "http://www.reuters.com/article/us-volkswagen-emissions-audi-idUSKBN1300V7",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://s3.reutersmedia.net/resources/r/?m=02&d=20161106&t=2&i=1160460967&w=&fh=545px&fw=&ll=&pl=&sq=&r=LYNXMPECA40N7",
+            "width": "800",
+            "height": "800"
+        },
+        "thumbnailUrl": "http://s3.reutersmedia.net/resources/r/?m=02&d=20161106&t=2&i=1160460967&w=&fh=545px&fw=&ll=&pl=&sq=&r=LYNXMPECA40N7",
+        "dateCreated": "2016-11-06T08:05:54+0000",
+        "dateModified": "2016-11-06T08:05:54+0000",
+        "datePublished": "2016-11-06T08:05:54+0000",
+        "author": {
+            "@type": "Person",
+            "name": "Reuters Editorial"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Reuters",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "http://s3.reutersmedia.net/resources_v3/images/Reuters_AMP_logo.png",
+                "width": "264",
+                "height": "60"
+            }
+        },
+        "description": "A U.S. regulator found software in some Audi vehicles that lowered their carbon dioxide emissions if it detected they were being used under test conditions, Bild am Sonntag reported.",
+        "articleSection": "Business",
+        "creator": ["Reuters Editorial"],
+        "keywords": ["United States","United States","US","VOLKSWAGEN","EMISSIONS","AUDI","United States","Auto and Truck Manufacturers (TRBC)","Europe","Company News","Carbon / Emissions Markets","Disasters / Accidents","Environment","Crime / Law / Justice","Science","Auto : Truck and Motorcycle Parts (TRBC)","Gasoline","Automobiles and Auto Parts (TRBC)","Auto Vehicles : Parts and Service Retailers (TRBC)","Pollution","Judicial Process / Court Cases / Court Decisions","Corporate Events","Western Europe","Automobiles / Auto Parts (Legacy)","Germany","Software (TRBC)","Regulation", "Article", "Top News","Business","Autos"],
+        "about":"Article"
+    }
+
+.tweet_embed.rlo {
+    display: block !important;
+}
+.graphiq_embed{
+width:100% !important;
+}
+
+#videoButton1{position: absolute;
+z-index: 9;
+bottom: 20px;
+left: 20px;}
+
+.cmb-playhead{width: 87px;
+height: 46px;
+position: absolute;
+float: left;
+background: url(http://s3.reutersmedia.net/resources_v2/images/playhead-icon.png) top left no-repeat;
+bottom: 10px;
+left: 10px;}
+
+#rlo{display:block !important; width:100%;}
+.rubric{display:none;}
+
+
+$( document ).ready(function() {
+
+     $( "#videoButton1" ).click(function() {
+          $("#pimage").hide();
+          $("#videoButton1").hide();
+          $("#rlo").show();
+     });
+
+    $( "#pimage" ).click(function() {
+          $("#pimage").hide();
+          $("#videoButton1").hide();
+          $("#rlo").show();
+     });
+
+});
+
+$(document).ready(function(){
+    if ($('meta[name="DCSext.ContentChannel"]').length>0){
+        if ($('meta[name="DCSext.ContentChannel"]').attr("content") == "dataDive"){
+            $('.primary-asset').hide();
+        }
+    }
+});
+
+
+
+
+dataLayer = [];
+var _default_analyticsAttributes = {};
+(function() {
+    var _videoSource = '';
+    var _videoLength = '';
+    var _interactionClickName = '';
+    var _sessionEndedViewTime = '';
+    <!-- No Video found -->
+    
+    _default_analyticsAttributes = {
+            'videoSource': _videoSource,
+            'videoLength': _videoLength,
+            'interactionClickName': _interactionClickName,
+            'sessionEndedViewTime': _sessionEndedViewTime
+    }    
+})();
+dataLayer.push({'analyticsAttributes': _default_analyticsAttributes});
+
+if (location.href.indexOf('/commentsChild?') == -1){ (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})
+(window,document,'script','dataLayer','GTM-W9SLGS'); }
+        var _sf_startpt=(new Date()).getTime();
+        var _sf_async_config={};
+        
+        _sf_async_config.uid = 52639; 
+        _sf_async_config.domain = 'reuters.com'; 
+        _sf_async_config.sections = 'Business'; 
+        _sf_async_config.autoDetect = false;
+        
+        _sf_async_config.type = 'Article'; 
+        _sf_async_config.path = $('link[rel=canonical]').attr('href').replace('http://www.','');
+        
+
+        (function(){
+          function loadChartbeat() {
+            window._sf_endpt=(new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src', '//static.chartbeat.com/js/chartbeat_video.js');
+            document.body.appendChild(e);
+          }
+          var oldonload = window.onload;
+          window.onload = (typeof window.onload != 'function') ?
+             loadChartbeat : function() { oldonload(); loadChartbeat(); };
+        })();
+    
+            
+                Reuters
+            
+            
+                Menu
+                Search
+            
+            
+                
+                |
+                  
+            
+        
+        
+            Menu
+            Close
+        
+        
+            Search
+            Close
+        
+    
+      
+        Edition:
+        United States
+
+      Africa
+    América Latina
+    عربي
+    Argentina
+    Brasil
+    Canada
+    中国
+    Deutschland
+    España
+    France
+    India
+    Italia
+    日本
+    México
+    РОССИЯ
+    United Kingdom
+    United States
+
+      
+    
+        Top News
+          
+    
+      
+    
+            Business
+            
+                       ADventures
+                    
+                       Legal
+                    
+                       Deals
+                    
+                       Aerospace & Defense
+                    
+                       Finance
+                    
+                       Autos
+                    
+                       Data Dive
+                    
+              
+        
+            Markets
+            
+                       Stocks
+                    
+                       Bonds
+                    
+                       Currencies
+                    
+                       Commodities
+                    
+                       Funds
+                    
+                       Earnings
+                    
+              
+        
+            World
+            
+                       U.S
+                    
+                       Special Reports
+                    
+                       Reuters Investigates
+                    
+                       Euro Zone
+                    
+                       Middle East
+                    
+                       China
+                    
+                       Japan
+                    
+                       Mexico
+                    
+                       Brazil
+                    
+                       Africa
+                    
+                       Russia
+                    
+                       India
+                    
+              
+        
+            Politics
+            
+                       Election 2016
+                    
+                       Polling Explorer
+                    
+                       What Voters Want
+                    
+                       Supreme Court
+                    
+              
+        
+            Technology
+            
+                       Science
+                    
+                       Environment
+                    
+                       Top 100 Innovators 2015
+                    
+              
+        
+            Commentary
+            
+        
+            Breakingviews
+            
+        
+            Money
+            
+                       Retirement
+                    
+              
+        
+            Life
+            
+                       Health
+                    
+                       Sports
+                    
+                       Arts
+                    
+                       Entertainment
+                    
+                       Oddly Enough
+                    
+              
+        
+            Pictures
+            
+                       The Wider Image
+                    
+                       Photographers
+                    
+                       Focus 360
+                    
+              
+        
+            Video
+            
+                       Top News
+                    
+                       Most Popular
+                    
+                       Business
+                    
+                       Editor's Choice
+                    
+                       First Images
+                    
+                       World
+                    
+                       Technology
+                    
+                       Entertainment
+                    
+                       Oddly Enough
+                    
+                       Breakingviews
+                    
+                       Politics
+                    
+                       Investigates
+                    
+                       Dateline Asia
+                    
+              
+        
+      
+        X
+      
+    
+    
+  
+    $(document).ready(function () {
+        Reuters.search.enableSearchBox('searchfield');
+        //Search Event
+        Reuters.win.event.fire_form($("#searchForm"), function (event) {
+            Reuters.win.event.fire("Search Event", {
+                "Action": "user-search",
+                "Search Term": $("#searchfield").val()
+            });
+        });
+        Reuters.win.event.fire_delegate_link_callback($('#suggestion'), 'li a', function (event) {
+            var li = $(event.target).closest('li');
+            var searchTerm = li.attr('suggsearch');
+            Reuters.win.event.fire("Search Event", {
+                "Action": "auto-suggest",
+                "Search Term": searchTerm
+            });
+        });
+        //Menu Event - Logo Click
+        Reuters.win.event.fire_link($(".reuters-logo a"),
+            "Menu Event", {
+                "Action": "Logo Click"
+            }
+        );
+        //Menu Event - Expand
+        $('.reuters-nav-menu').on('click', function () {
+            Reuters.win.event.fire("Menu Event", {
+                "Action": "Expand"
+            });
+        });
+        //Menu Event - List Click
+        Reuters.win.event.fire_link_callback($(".section-nav a:not(ul.edition-nav a)"), function (e) {
+            var sectionName = $(e.target).text();
+            Reuters.win.event.fire("Menu Event", {
+                "Action": "List Click",
+                "Section Name": sectionName
+            });
+        });
+        //Edition Event
+        Reuters.win.event.fire_link_callback($("ul.edition-nav a"), function (e) {
+            var edition = $(e.target).text();
+            Reuters.win.event.fire("Edition Event", {
+                "Action": "Edition Switch",
+                "Edition Switch": edition
+            });
+        });
+    });
+    function validateSearch() {
+        var searchBlob = document.getElementById('searchfield').value;
+        if (searchbox.value != "") { return true; } else { return false; }
+    }
+  
+
+    
+        X
+        
+            
+        
+        
+            
+            
+    
+
+
+
+function drawBreakingNews(res) {
+	
+    if (typeof res === 'undefined' || $.isEmptyObject(res) || isClosedBreakingNews(res)) {
+        return;
+    }
+
+    if (res.type !== '') {
+        var typeKey = "breakingNews." + res.type;
+        var typeStr = '' + res.label + ':';
+        $('.breaking-news-type').text(typeStr);
+        var typeClass = res.type;
+    } else {
+        var typeClass = 'happening no-type';
+    }
+
+    $('#breakingNews').addClass(typeClass);
+    var breakingNewsContent = '';
+    if (res.url != '') {
+        breakingNewsContent = $('<a>').attr('href', res.url).html(res.headline);
+    } else {
+        breakingNewsContent = res.headline;
+    }
+    $('.breaking-news-content').html(res.headline);
+    if (res.url != '') {
+        var linkTxt = 'VIEW MORE';
+        var link = $('<a>').attr({href: res.url, id:'notification-link', onClick:'linkCloseBreakingNews()'}).html(linkTxt);
+        $('.breaking-news-content').append(link);
+    }
+    
+    $('#breakingNewsContainer').data('breakingNewsJson', res);
+    $('#breakingNewsContainer').removeClass('hidden');
+}
+
+function isClosedBreakingNews(obj) {
+    var flag = false;
+    var lastCloseNews = Reuters.utils.getFromLocalStorage('lastclose.breakingnews');
+    if (lastCloseNews) {
+        if (obj.headline === lastCloseNews.headline 
+                && obj.url === lastCloseNews.url && obj.type === lastCloseNews.type) {
+            flag = true;
+        }
+    }
+    return flag;
+}
+
+function saveClosedBreakingNews(obj) {
+    Reuters.utils.setToLocalStorage('lastclose.breakingnews', obj);
+}
+
+function linkCloseBreakingNews() {
+    var breakingNewsObj = $('#breakingNewsContainer').data('breakingNewsJson');
+    saveClosedBreakingNews(breakingNewsObj);
+}
+
+$(function() {
+    $('.close-btn').on('click', function() {
+        $('#breakingNewsContainer').addClass('hidden');
+        var breakingNewsObj = $('#breakingNewsContainer').data('breakingNewsJson');
+        saveClosedBreakingNews(breakingNewsObj);
+    });
+    Reuters.utils.loadScript("breakingNewsAjax","http://www.reuters.com/assets/breakingNews?view=json&sp=drawBreakingNews");
+});
+
+   var ref = document.referrer;
+   console.log("document.referrer : " + ref);
+   var articleTitle = {};
+   if (ref.match("/^https?:\/\/([^\/]+\.)?reuters\.com(\/|$)/i") || ref.indexOf(window.location.host) != -1) {
+     
+       articleTitle.url = '/business';
+       articleTitle.name = 'Business';
+     
+    }else{
+      articleTitle.url = '/business';
+      articleTitle.name = 'Business';
+    }
+
+    $('nav.section-name').append('<a href="' + articleTitle.url + '">' + articleTitle.name + '</a>');
+  
+		
+				Sun Nov 6, 2016 | 3:05 AM EST
+		U.S. regulator found another cheat device in Audi car: report
+	
+
+                    
+    					
+								
+									
+									The logo of German car maker Audi is seen outside a garage in Vienna, Austria, September 29, 2016.   
+									
+										
+                    	Reuters/Leonhard Foeger
+										
+									
+								
+						
+				
+                
+                    var screenSizeWidth     = window.innerWidth;
+                    var photoWidth;
+                    if (window.innerHeight < window.innerWidth) {
+                        photoWidth = screenSizeWidth/2;
+                        $('.primary-asset .photo-container').css({
+                            'float': 'right',
+                            'margin': '10px 10px 0 20px',
+                            'width': '50%'
+                        });
+                        $(document).ready(function() {
+                            $(document).find('.reuters-share').first().css({'float': 'right','width': '50%'})
+                        });
+                    }
+                    $(document).ready(function() {
+                        $(window).resize(function() {
+                            if (window.innerHeight < window.innerWidth) {
+                                $('.primary-asset .photo-container').css({
+                                    'float': 'right',
+                                    'margin': '10px 10px 0 20px',
+                                    'width': '50%'
+                                });
+                                $(document).find('.reuters-share').first().css({'float': 'right','width': '50%'})
+                            } else {
+                                $('.primary-asset .photo-container').css({
+                                    'float': 'none',
+                                    'margin': '0',
+                                    'width': '100%'
+                                });
+                                $(document).find('.reuters-share').first().css({'float': 'none','width': 'auto'})
+                            }
+                        })
+                    });
+                
+            
+        
+            FRANKFURT A U.S. regulator found software in some Audi vehicles that lowered their carbon dioxide emissions if it detected they were being used under test conditions, Bild am Sonntag reported.
+
+                                
+                            The California Air Resources Board (CARB) discovered the software in an automatic transmission Audi last summer, the German weekly newspaper said, without citing any sources.
+
+                                
+                            CARB and Audi declined to comment on Sunday's Bild am Sonntag report. 
+
+                                
+                            The paper said the device, which was not the same as the one which triggered last year's diesel emissions scandal at Audi parent Volkswagen (VOWG_p.DE), was also used in diesel and gasoline-powered cars in Europe.
+
+                                
+                            VW's admission that it had installed software that deactivated pollution controls on more than 11 million diesel vehicles sold worldwide, triggered the deepest business crisis in the German carmaker's history.
+
+                                
+                            
+                                Audi, the main contributor to VW group profit, has also admitted its 3.0 liter V6 diesel engine was fitted with emissions-control software.
+
+                                
+                            Bild am Sonntag said the software discovered by CARB, which was installed in vehicles with certain automatic transmissions, detected whether a car's steering wheel was turned.
+
+                                
+                            
+                                If it was not, indicating laboratory testing conditions, the software turned on a gear-shifting program which produced less carbon dioxide than in normal road driving. If the wheel was turned in any direction by more than 15 degrees, the program was switched off, the paper said.
+
+                                
+                            Audi stopped using the software in May 2016, just before CARB discovered the manipulation in an older model, the paper  said, adding that the carmaker had suspended several engineers in connection with the matter.
+
+                                
+                            
+                                Bild am Sonntag said a spokesman for Audi had declined to comment, citing ongoing talks with U.S. and California regulators on a proposed fix for cars with 3.0 liter engines.
+
+                                
+                            
+                             (Reporting by Maria Sheahan; Additional reporting by Andreas Cremer and Joe White; Editing by Alexander Smith and Adrian Croft)
+
+                                
+                            
+
+        
+
+    
+
+       ADVERTISEMENT
+    
+           
+            $('#div_gpt_mpu').insertBefore('.first-article-divide');
+            displayAd("div_gpt_mpu", TR3.extractDartZone(), [[300, 250],[320,50]], "type=mpu;template=article" + adParams);
+            
+             setTimeout(function(){ var size = $('#div_gpt_mpu_ad_container div ').width();   TR3.log('width:' + size);   if(size=='320'){$('#div_gpt_mpu_ad_container').css("margin-left", "-10px");}  }, 2000);
+            setTimeout(function(){ var size2 = $('#div_gpt_mpu_ad_container iframe').width();   TR3.log('width:' + size2);   if(size2=='320'){ $('#div_gpt_mpu_ad_container').css("margin-left", "-10px");}  }, 2000);              
+
+         
+             
+       
+
+ 
+  var $relatedItems     = $(''),
+      $relatedItems     = $relatedItems.slice(0,10),
+      relatedBlockLimit = Number('6'),
+      relatedItemsTotal = $relatedItems.length,
+      $paragraphTags    = $('.article-text p'),
+      contentParagraphs = 0,
+      minParagraphs     = Number("8");
+
+  for (i=0; i < $paragraphTags.length; i++) {
+    if ($paragraphTags[i].innerText.trim().length > 0) {
+      contentParagraphs = contentParagraphs + 1;
+    }
+  }
+
+  if (contentParagraphs > minParagraphs) {
+    setTimeout(function(){
+      if (relatedItemsTotal > relatedBlockLimit) {
+        console.log('soos');
+        $('.first-article-divide').append('');
+        $('.third-article-divide').append('');
+        var median                  = (relatedItemsTotal / 2);
+        var $relatedContentGroupOne = $('.article-related-coverage.group-one ul');
+        var $relatedContentGroupTwo = $('.article-related-coverage.group-two ul');
+
+        $.each($relatedItems, function(k,v) {
+          if (k + 1 <= median) {
+            $relatedContentGroupOne.append($relatedItems[k]);
+          } else {
+            $relatedContentGroupTwo.append($relatedItems[k]);
+          }
+        }); 
+      } else {
+        console.log('SOOS');
+        $('.third-article-divide').append($(''));
+        $('.article-related-coverage ul').append($relatedItems);
+      }
+    },500); 
+  }
+
+        $(window).load(function() {
+            $(".secondary-asset").prependTo(".second-article-divide");
+        });
+        
+            
+		
+			
+				NEXT IN ${channelName}
+			
+			
+				
+				Volkswagen emissions scandal deepens as prosecutors probe chairman
+	
+			
+		
+	
+
+	
+	  	var moduleTitle  = 'NEXT IN ${channelName}';
+	  	var sectionTitle = $('nav.section-name').text();
+	  	if(moduleTitle.indexOf("${channelName}") > 0){
+			$('div.next-article-info.container h3').text(moduleTitle.replace("${channelName}", sectionTitle));
+	  	}
+	  	if (sectionTitle == '') {
+	  		$('div.next-article-info.container h3').text('NEXT ARTICLE');
+	  	}
+	
+				
+						Trending Stories
+						
+				
+	
+		
+	
+
+			
+	(function(){
+		var $container = $('script').last().prevAll("div.more-link");
+		if(!$container.length){
+			$container = $('script').last().prevAll("div.more-link-container");
+		}
+		$(document).ready(function() {
+			Reuters.win.event.fire_delegate_link($container, "a", 
+				"More Link Click", 
+				{
+					"interactionType" : "",
+					"mainInterType" : "",
+					"subInterType" : "" 
+				}
+			);
+		});
+	})();
+	
+        var video_btn_url = '<img src="http://s3.reutersmedia.net/resources_v3/images/btn_rel_video.gif" border="0" height="11px" width="43px" alt="Video" />';
+        var _raw_json_note = "not in use for this version";
+	var max_json_num = 5;
+	var filter_str = "/news/pictures";
+	var filter_arr = [];
+        filter_arr = filter_str.split(",");
+ 
+	var parselyObjects= [{"data":[{"title":"Obama speaks up for protester but is derided by Trump","_hits":"861","source":"charbeat","video_link":"http:\/\/www.reuters.com\/article\/video\/idUSKBN12Z2MU?videoId=370366547","url":"http:\/\/www.reuters.com\/article\/us-usa-election-obama-idUSKBN12Z2MU"},{"title":"Clinton's charity confirms Qatar's $1 million gift while she was at State Dept","_hits":"394","source":"charbeat","video_link":"","url":"http:\/\/www.reuters.com\/article\/us-usa-election-foundation-idUSKBN12Z2SL"},{"title":"Amid scandal, bluster and insults, Trump closes in on White House","_hits":"391","source":"charbeat","video_link":"","url":"http:\/\/www.reuters.com\/article\/us-usa-election-trump-profile-idUSKBN1310KA"},{"title":"Fending off foes, Clinton blazes a trail with White House in sight","_hits":"346","source":"charbeat","video_link":"","url":"http:\/\/www.reuters.com\/article\/us-usa-election-clinton-profile-idUSKBN1310K2"},{"title":"Mosul advance slows as militants melt away, then strike","_hits":"320","source":"charbeat","video_link":"","url":"http:\/\/www.reuters.com\/article\/us-mideast-crisis-iraq-blasts-idUSKBN13107V"}]}];
+	
+		if (typeof Reuters.parsely.parseParsely == 'function') { Reuters.parsely.parseParsely(parselyObjects); } 
+	
+					SPONSORED STORIES
+						
+				
+
+
+
+(function()
+{ var rcel = document.createElement("script"); rcel.id = 'rc_' + Math.floor(Math.random() * 1000); rcel.type = 'text/javascript'; rcel.src = "http://trends.revcontent.com/serve.js.php?w=18808&t="+rcel.id+"&c="+(new Date()).getTime()+"&width="+(window.outerWidth || document.documentElement.clientWidth); rcel.async = true; var rcds = document.getElementById("rcjsload_fef10f"); rcds.appendChild(rcel); }
+)();
+
+
+					SPONSORED CONTENT
+						
+				
+
+
+(function(e,t){if(t._ym===void 0){t._ym="";var m=e.createElement("script");m.type="text/javascript",m.async=!0,m.src="//static.yieldmo.com/ym.m3.js",(e.getElementsByTagName("head")[0]||e.getElementsByTagName("body")[0]).appendChild(m)}else t._ym instanceof String||void 0===t._ym.chkPls||t._ym.chkPls()})(document,window);
+
+
+Reuters.YoplayerStatus = {
+   state: false,
+   isReady: false,
+   videoPlayed_ : false,
+   videoPlayEnded_ : false,
+   videoPlayPaused_:false,
+   currentPlayTime: 0
+}
+
+
+var rcom_vps = Object.create(Reuters.YoplayerStatus); //rcom video player status
+
+function artUsCbVideoStrategy(player) {
+  this.player_ = player;
+  this.ready_ = false;
+  this.currentAdPosition_ = undefined;
+  this.videoPlayed_ = false;
+  this.videoPlayEnded_ = false;
+  this.videoPlayPaused_ = false;
+  this.viewStartTime_ = new Date().getTime(); 
+  this.videoStartTime_ = undefined;
+}
+
+
+artUsCbVideoStrategy.ContentType = {
+  AD: 'ad',
+  CONTENT: 'ct'
+};
+
+
+artUsCbVideoStrategy.AdPosition = {
+  PREROLL: 'a1',
+  MIDROLL: 'a2',
+  POSTROLL:'a3',
+  OVERLAY: 'a4',
+  SPECIAL: 'a5'
+};
+
+
+artUsCbVideoStrategy.VideoState = {
+  UNPLAYED: 's1',
+  PLAYED: 's2',
+  STOPPED: 's3',
+  COMPLETED: 's4'
+};
+
+
+artUsCbVideoStrategy.prototype.isReady = function() {
+  this.viewStartTime_ = new Date().getTime(); 
+  return rcom_vps.isReady; 
+};
+
+
+artUsCbVideoStrategy.prototype.getTitle = function() { 
+	return Reuters.yovideo.title; 
+};
+
+
+artUsCbVideoStrategy.prototype.getVideoPath = function() { 
+     return Reuters.yovideo.rcomvid; 
+}; 
+
+
+artUsCbVideoStrategy.prototype.getContentType = function() { 
+  return "ct"; 
+};
+
+
+artUsCbVideoStrategy.prototype.getAdPosition = function() { 
+  return  ''; 
+};
+
+
+artUsCbVideoStrategy.prototype.getTotalDuration = function() { 
+    return this.getTimeInSeconds_(Reuters.yovideo.durationInSec);
+};
+
+
+artUsCbVideoStrategy.prototype.getState = function() { 
+  if ( rcom_vps.videoPlayPaused_ ) {
+    return artUsCbVideoStrategy.VideoState.STOPPED;
+  }
+
+  if( rcom_vps.videoPlayEnded ) {
+    return artUsCbVideoStrategy.VideoState.COMPLETED;
+  }
+
+  if( ! rcom_vps.videoPlayed_ ) {
+    return artUsCbVideoStrategy.VideoState.UNPLAYED;
+  }
+ 
+  return artUsCbVideoStrategy.VideoState.PLAYED;
+};
+
+
+artUsCbVideoStrategy.prototype.getCurrentPlayTime = function() { 
+  var pt =  rcom_vps.currentPlayTime;
+  return this.getTimeInSeconds_(pt); 
+};
+
+
+artUsCbVideoStrategy.prototype.getBitrate = function() { return 1240;};
+
+
+artUsCbVideoStrategy.prototype.getThumbnailPath = function() { 
+     return Reuters.yovideo.thumb; 
+};
+
+artUsCbVideoStrategy.prototype.getPlayerType = function() { 
+   return "yospace";
+};
+
+
+
+artUsCbVideoStrategy.prototype.timeElapsed_ = function(timestamp) {
+  if (timestamp === undefined) {
+    return 0;
+  }
+  var t = new Date().getTime();
+  return t - timestamp;
+};
+
+
+artUsCbVideoStrategy.prototype.getViewStartTime = function() { 
+  if (isNaN(this.viewStartTime_)) {
+    return 0;
+  }
+
+  return this.timeElapsed_(this.viewStartTime_);
+};
+
+
+artUsCbVideoStrategy.prototype.getViewPlayTime = function() { 
+  if ( rcom_vps.videoPlayed_ ) {
+    return this.timeElapsed_(this.viewStartTime_);
+  }
+  return -1;
+};
+
+
+artUsCbVideoStrategy.prototype.getViewAdPlayTime = function() { 
+  return -1;
+};
+
+
+artUsCbVideoStrategy.prototype.getTimeInSeconds_ = function(t) {
+  return ((t === -1 || isNaN(t)) ? -1 : t * 1000);
+};
+
+artUsCbVideoStrategy.verify = function(player) {
+  return true;
+};
+
+
+  window['_cbv_strategies'] = window['_cbv_strategies'] || [];
+  window['_cbv_strategies'].push(artUsCbVideoStrategy);
+      
+  var cbv_player = null;
+  var _cbv = window._cbv || (window._cbv = []);
+  _cbv.push(cbv_player);
+
+
+
+(function() {
+    var videoMode;
+    var fireArticleEvent = function(params) {
+        Reuters.win.event.fire("Article Event", params);
+    };
+    
+    var articleProps = Reuters.utils.getArticleProps();
+    
+    var fireArticleEventAction = function(action) {
+        var props = {"Action": action};
+        $.extend(props, articleProps);
+        fireArticleEvent(props);
+    };
+    /* CKB - 10539 */
+    var fireVideoEnd = function(){
+        var video_status = $("video")[0];
+        if(videoMode) {
+            
+            var props = {"Action": "Video End", "Video View Time" : Math.round(article_video_plugin.playHeadPos)};
+            $.extend(props, articleProps);
+            fireArticleEvent(props);
+        }   
+        
+    };
+    Reuters.win.event.listen("Page View", function(event, params) {
+        var props = {"Action": "View Begin"};
+        $.extend(props, articleProps);
+        fireArticleEvent(props);
+    });
+    
+	Reuters.win.event.listen("Scroll 25% Down", function( event, params ) {  
+		fireArticleEventAction("Scroll 25% Down");
+	});
+	Reuters.win.event.listen("Scroll 50% Down", function( event, params ) {  
+		fireArticleEventAction("Scroll 50% Down");
+	});
+	Reuters.win.event.listen("Scroll 75% Down", function( event, params ) {  
+		fireArticleEventAction("Scroll 75% Down");
+	});
+	Reuters.win.event.listen("Scroll 100% Down", function( event, params ) {  
+		fireArticleEventAction("Scroll 100% Down");
+	});
+	Reuters.win.event.listen("Scroll 25% Up", function( event, params ) {  
+		fireArticleEventAction("Scroll 25% Up");
+	});
+	Reuters.win.event.listen("Scroll 50% Up", function( event, params ) {  
+		fireArticleEventAction("Scroll 50% Up");
+	});
+	Reuters.win.event.listen("Scroll 75% Up", function( event, params ) {  
+		fireArticleEventAction("Scroll 75% Up");
+	});
+	Reuters.win.event.listen("Scroll 100% Up", function( event, params ) {  
+		fireArticleEventAction("Scroll 100% Up");
+	});
+    
+    Reuters.win.event.listen("Share", function(event, params) {
+       var props = {"Action": "Share"};
+       $.extend(props, params, articleProps);
+       fireArticleEvent(props);
+    });
+    
+    var articleType = $('meta[name=win-tracking-article-type]').attr('content');
+    var lastSlideIndex = 0;
+    if (articleType == 'Slideshow' || articleType =='Video-Slideshow') {
+        var slideshowTotal = $('meta[name=win-tracking-slideshow-total]').attr('content');
+        slideshowTotal = parseInt(slideshowTotal);
+        $('.slide-container').on('init', function(slick) {
+            var slide = $('div.slick-slide[aria-hidden="false"]');
+            //var title = slide.data('slideshow-title');
+            var title = $('meta[name=win-tracking-article-title]').attr('content');
+            var num = slide.data('slideshow-num');
+            var props = {
+                    "Action": "Slideshow View",
+                    "Slideshow Title": title,
+                    "Slideshow Number": num + 1,
+                    "Slideshow Total": slideshowTotal,
+                    "Navigation": ""
+                    };
+            $.extend(props, articleProps);
+            //fireArticleEvent(props);
+            lastSlideIndex = parseInt(num);
+        });
+        
+        $('.slide-container').on('afterChange', function(slick,currentSlide) {
+            var slide = $('div.slick-slide[aria-hidden="false"]');
+            //var title = slide.data('slideshow-title');
+            var title = $('meta[name=win-tracking-article-title]').attr('content');
+            var num = slide.data('slideshow-num');
+            num = parseInt(num);
+            var nav = Reuters.utils.getSlideshowNavigation(num, lastSlideIndex, slideshowTotal);
+           
+            var props = {
+                    "Action": "Slideshow View",
+                    "Slideshow Title": title,
+                    "Slideshow Number": num + 1,
+                    "Slideshow Total": slideshowTotal,
+                    "Navigation": nav
+                    };
+            $.extend(props, articleProps);
+            fireArticleEvent(props);
+            var interType = "Main Slideshow";
+            if (articleType =='Video-Slideshow') {
+            	interType = "Sub Slideshow";
+            }
+            var slideInteractionPros = {
+                    "Action": "Content Interaction",
+                    "Interaction Type": interType
+            };
+            $.extend(slideInteractionPros, articleProps);
+            fireArticleEvent(slideInteractionPros);
+            
+            lastSlideIndex = num;
+        });
+	}
+    
+    //track main video interaction
+    if (articleType == 'Video' || articleType =='Video-Slideshow') {
+    	$.extend(articleProps, {"Video Type": Reuters.inlinevideo.type});
+    	
+        var mainVideoInteractionProps = {
+        	"Action": "Content Interaction",
+            "Interaction Type": "Main Video"
+        };
+        $.extend(mainVideoInteractionProps, articleProps);
+        /** Play event do NOT fired on mobile device
+        Reuters.win.event.listen("Video First Play", function(event, params) {
+        	fireArticleEvent(mainVideoInteractionProps);
+        	var vStartProps = {"Action": "Video Start", "Video Length" : Reuters.inlinevideo.lengthseconds};
+        	$.extend(vStartProps, articleProps);
+        	fireArticleEvent(vStartProps);
+        	
+        });
+        **/
+		Reuters.win.event.listen("Video Play", function(event, params) {
+			//fireArticleEvent(mainVideoInteractionProps);
+        });
+		Reuters.win.event.listen("Video Pause", function(event, params) {
+			//fireArticleEvent(mainVideoInteractionProps);
+        });
+		
+		Reuters.win.event.listen("Video 00%", function(event, params) {
+        	fireArticleEvent(mainVideoInteractionProps);
+        	var vStartProps = {"Action": "Video Start", "Video Length" : Reuters.inlinevideo.lengthseconds};
+        	$.extend(vStartProps, articleProps);
+        	fireArticleEvent(vStartProps);
+        	article_video_plugin._already_click_play = true;
+            videoMode = true;
+		});
+
+		
+		Reuters.win.event.listen("Video 25%", function(event, params) {
+			var v25Props = {"Action": "Video 25%"};
+			$.extend(v25Props, articleProps);
+			fireArticleEvent(v25Props);
+		});
+		
+		Reuters.win.event.listen("Video 50%", function(event, params) {
+			var v50Props = {"Action": "Video 50%"};
+			$.extend(v50Props, articleProps);
+			fireArticleEvent(v50Props);
+		});
+		
+		Reuters.win.event.listen("Video 75%", function(event, params) {
+			var v75Props = {"Action": "Video 75%"};
+			$.extend(v75Props, articleProps);
+			fireArticleEvent(v75Props);
+		});
+		
+	    //Video End
+		$(window).load(function() {
+		    if($("video").length > 0){	//html5 player
+		    	//user manually exits the video on iPhone
+		    	$("video").bind('webkitendfullscreen', function(){
+		    		if(article_video_plugin._already_click_play){
+						var vEndProps = {"Action": "Video End", "Video View Time" : Math.round(article_video_plugin.playHeadPos)};
+						$.extend(vEndProps, articleProps);
+						fireArticleEvent(vEndProps);
+		    		}
+		    	});
+		    	
+		    	$("video").bind("ended", function(){ 
+					var v100Props = {"Action": "Video 100%"};
+					$.extend(v100Props, articleProps);
+					fireArticleEvent(v100Props);
+					
+					var vEndProps = {"Action": "Video End", "Video View Time" : Reuters.inlinevideo.lengthseconds};
+					$.extend(vEndProps, articleProps);
+					fireArticleEvent(vEndProps);
+		    		
+			        //reset all event flags
+			        article_video_plugin._already_click_play = false;
+			        article_video_plugin.fired00 = false;
+			        article_video_plugin.fired25 = false;
+			        article_video_plugin.fired50 = false;
+			        article_video_plugin.fired75 = false;
+		 		});
+
+                $("video").bind("play",function() {
+                    $(this).paused ? videoMode = false : videoMode = true;
+                });
+		    }else{
+				Reuters.win.event.listen("Video Complete", function(event, params) {
+					var v100Props = {"Action": "Video 100%"};
+					$.extend(v100Props, articleProps);
+					fireArticleEvent(v100Props);
+					
+					var vEndProps = {"Action": "Video End", "Video View Time" : params["playHeadPos"]};
+					$.extend(vEndProps, articleProps);
+					fireArticleEvent(vEndProps);
+				});
+				
+				Reuters.win.event.listen("Video Stop", function(event, params) {
+					var vEndProps = {"Action": "Video End", "Video View Time" : params["playHeadPos"]};
+					$.extend(vEndProps, articleProps);
+					fireArticleEvent(vEndProps);
+				});
+		    }
+		});
+        $(window).unload(function(){
+            fireVideoEnd();
+        });
+    }
+    
+    //tracking next article interaction
+    var nextArticle = $('.next-article-info').parent('a');
+    var nextArticleHeadline = $('.next-article-headline a');
+    var nextArticleHeadlineImg = $('.next-article-photo img').parent('a');
+    var nextArticleInteractionPros = {"Action" : "Content Interaction", "Interaction Type": "Next Article"};
+    $.extend(nextArticleInteractionPros, articleProps);
+    Reuters.win.event.fire_link(nextArticle, 'Article Event', nextArticleInteractionPros);
+    Reuters.win.event.fire_link(nextArticleHeadline, 'Article Event', nextArticleInteractionPros);
+    Reuters.win.event.fire_link(nextArticleHeadlineImg, 'Article Event', nextArticleInteractionPros);
+    
+    //tracking related video interaction
+    var relatedCoveVideo = $('.related-video-body h2 a');
+    var relatedCoveVideoImg = $('.related-video-body .photo a');
+    var relatedCoveVideoInteractionProps = {"Action" : "Content Interaction", "Interaction Type": "Related Video"};
+    $.extend(relatedCoveVideoInteractionProps, articleProps);
+    Reuters.win.event.fire_link(relatedCoveVideo, 'Article Event', relatedCoveVideoInteractionProps);
+    Reuters.win.event.fire_link(relatedCoveVideoImg, 'Article Event', relatedCoveVideoInteractionProps);
+    
+    //tracking related converge interaction
+    var relatedCoverge = $('.related-coverage-body li a');
+    var relatedCovergeProps = {"Action" : "Content Interaction", "Interaction Type": "Related Coverage"};
+    $.extend(relatedCovergeProps, articleProps);
+    Reuters.win.event.fire_link(relatedCoverge, 'Article Event', relatedCovergeProps);
+    
+    //tracing trending 
+    Reuters.win.event.listen("Trending Stories Click", function(event, params) {
+    	var trendingProps = {"Action" : "Content Interaction", "Interaction Type": "Trending"};
+    	$.extend(trendingProps, articleProps);
+    	fireArticleEvent(trendingProps);
+    });
+
+})();
+
+.footer .section-follow-buttons{
+padding: 6px 0 !important;
+}
+.footer .section-follow-buttons span{
+margin-left: 10px;
+}
+Follow Reuters: 
+  Follow Us On Twitter
+  Follow Us On Facebook
+  Follow Us On LinkedIn
+  
+  Follow Us Via RSS
+
+
+  Subscribe:  Newsletters | Apps
+  
+  
+    
+  
+    Reuters is the news and media division of Thomson Reuters. Thomson Reuters is the world's largest international multimedia news agency, providing investing news, world news, business news, technology news, headline news, small business news, news alerts, personal finance, stock market, and mutual funds information available on Reuters.com, video, mobile, and interactive television platforms.
+*All quotes delayed a minimum of 15 minutes. See here for a complete list of exchanges and delays.
+  
+  
+    
+      Feedback | Advertise with Us | Site Index |  Terms of Use  | Privacy Policy  | Ad Choices
+    
+  
+    
+  
+    
+      
+      	var year = new Date();
+      	document.write('&copy;  '  + year.getFullYear() + ' Reuters All Rights Reserved');
+      
+  
+
+
+
+// determine if cookie exists
+var x = readCookie('r_inter');
+
+if (x=='true') {
+  // if cookie exists, do nothing
+ TR3.log('inter cookie:true');
+}
+else{  
+// if cookie doesnt exist, write cookie and fire ad
+  
+   setTimeout(function(){close_pop2();}, 15000);
+   displayAd("div_gpt_intro",TR3.extractDartZone(), '', "type=intro_gpt" + adParams );
+    createCookie('r_inter','true',1);
+}
+
+function close_pop2(){
+   $( '#div_gpt_intro').fadeOut();
+}
+
+function createCookie(name,value,days) {
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+	}
+	else var expires = "";
+	document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+}
+
+function eraseCookie(name) {
+	createCookie(name,"",-1);
+}
+
+
+
+$(function(){
+    
+	var sectionName = $('meta[name=win-tracking-section-name]').attr('content');
+	var pageType = $('meta[name=win-tracking-page-type]').attr('content');
+	var landingType = ($('meta[name=win-tracking-page-type]').attr('content') == "Article") ? "Article" : $('meta[name=win-tracking-landing-type]').attr('content');
+	var videoType = $('meta[name=win-tracking-video-page-type]').attr('content');
+	
+	var pageLoadSpeed = "";
+	var performance = window.performance || window.webkitPerformance || window.msPerformance || window.mozPerformance;
+	if(performance && performance.timing){
+		pageLoadSpeed = performance.timing.domContentLoadedEventStart - performance.timing.requestStart;
+	}else{
+		pageLoadSpeed = "unsupported";
+	}
+	
+	
+	
+	//Page View
+	/*** old
+	if(Reuters.utils.getFromLocalStorage("reuters.win.last.page") && Reuters.utils.getFromLocalStorage("reuters.win.last.page") == document.location.href) {
+		Reuters.win.event.fire("Page View", {  
+			"Action Type" : "Page Refresh",
+			"Section Name" : sectionName,
+			"Page Load Speed" : pageLoadSpeed,
+			"Landing Type" : landingType
+		});
+		Reuters.win.event.fire("Page Refresh", {"Page Load Speed" : pageLoadSpeed});
+	} else {
+		Reuters.win.event.fire("Page View", {  
+			"Action Type" : "Page Load",
+			"Section Name" : sectionName,
+			"Page Load Speed" : pageLoadSpeed,
+			"Landing Type" : landingType
+		});
+		Reuters.win.event.fire("Page Load", {"Page Load Speed" : pageLoadSpeed});
+	}
+	***/
+
+	if(Reuters.utils.getFromLocalStorage("reuters.win.last.page") && Reuters.utils.getFromLocalStorage("reuters.win.last.page") == document.location.href) {
+		
+		listenEvent("Page Refresh");
+		Reuters.win.event.fire("Page Refresh", {"Page Load Speed" : pageLoadSpeed});
+
+	} else {
+			
+			listenEvent("Page Load");
+			Reuters.win.event.fire("Page Load", {"Page Load Speed" : pageLoadSpeed});
+	}
+	function listenEvent (eventName){
+		Reuters.win.event.listen(eventName, function( event, params ) {  
+			fireLandingEvent(eventName, params);
+		});
+	};
+	function fireLandingEvent (actionType, params){
+		var props = { "Action" : actionType,
+			"Section Name" : sectionName,
+			"Page Load Speed" : pageLoadSpeed,
+			"Landing Type" : landingType
+		};
+		
+		if(landingType == "Video"){
+			if (videoType == "landing") { 
+				var videoProps = {"Video Page Type" : "Landing"};
+			}
+			else {
+				var videoProps = {"Video Page Type" : "Individual"};
+			}
+		}
+		else if(landingType == "Pictures"){
+			if (sectionName == "Pictures" ) { 
+				var videoProps = {"Pictures Page Type" : "Landing"};
+			}
+			else {
+				var videoProps = {"Pictures Page Type" : "Individual"};
+			}
+		}
+		else
+		{
+			var videoProps = {}
+		}
+			
+		$.extend(props, videoProps);
+		if(params){
+			$.extend(props, params);
+		}
+		Reuters.win.event.fire("Page View", props);
+	}
+
+	//Session Start&Session Ended
+	var currentTime = parseInt(($.now() / 1000).toFixed(0));	//seconds
+	var expire = 30*60; //seconds. expire in 30 minutes
+	var expire24Hours = 24*60*60; // seconds. expire 24 hours
+	var isNewSession = true;
+	var sessionType = "";
+	if(Reuters.utils.getFromLocalStorage("reuters.win.session.startTime") && Reuters.utils.getFromLocalStorage("reuters.win.last.pageTime")){
+		var lastPageTime = Reuters.utils.getFromLocalStorage('reuters.win.last.pageTime');
+		lastPageTime = parseInt(lastPageTime);
+		if(currentTime - lastPageTime > expire){
+			var sessionStartTime = Reuters.utils.getFromLocalStorage('reuters.win.session.startTime');
+			sessionStartTime = parseInt(sessionStartTime);
+			var sessionEndTime = lastPageTime + expire;
+			Reuters.win.event.fire("Session Ended", {  
+				"Session Time Spent" : (sessionEndTime - sessionStartTime),
+				"Single Page Session" : Reuters.utils.getFromLocalStorage("reuters.win.session.singlePage"),
+				"Session Start Time" : $.format.date(new Date(sessionStartTime * 1000), "yyyy-MM-dd HH:mm:ss"),
+				"Session End Time" : $.format.date(new Date(sessionEndTime * 1000), "yyyy-MM-dd HH:mm:ss"),
+				"Exit Page" : Reuters.utils.getFromLocalStorage("reuters.win.last.sectionName")
+			});
+			if (currentTime - lastPageTime < expire24Hours) {
+				sessionType = "returning";
+			} else {
+			    sessionType = "new";
+			}
+		}else{
+			isNewSession = false;
+			Reuters.utils.setToLocalStorage("reuters.win.session.singlePage", false);
+		}
+	}else{
+		sessionType = "new";
+	}
+	
+	if(isNewSession){
+		Reuters.utils.setToLocalStorage("reuters.win.session.startTime", currentTime);
+		Reuters.utils.setToLocalStorage("reuters.win.session.singlePage", true);
+		Reuters.win.event.fire("Session Start", {  
+			"Session Type" : sessionType,
+			"Session Time Spent" : 0,
+			"Session Start Time" : $.format.date(new Date(currentTime * 1000), "yyyy-MM-dd HH:mm:ss"),
+			"Entry Page" : sectionName
+		});
+	}
+	
+	//Scroll Event
+	var fired25Down = false;
+	var fired50Down = false;
+	var fired75Down = false;
+	var fired25Up = true;
+	var fired50Up = true;
+	var fired75Up = true;
+	$(window).scroll(function() {
+		var scrollTop = $(window).scrollTop();
+		var scrollDistance = $(document).height() - $(window).height();
+		
+		if(scrollTop == 0){
+			Reuters.win.event.fire("Scroll 100% Up", {});
+		}
+		
+		if(!fired25Down && (scrollTop >= scrollDistance/4)){
+      fired25Down = true;
+      fired25Up = false;
+			Reuters.win.event.fire("Scroll 25% Down", {});
+		}
+		if(!fired25Up && (scrollTop < scrollDistance/4)){
+      fired25Down = false;
+      fired25Up = true;
+			Reuters.win.event.fire("Scroll 75% Up", {});
+		}
+		
+		if(!fired50Down && (scrollTop >= scrollDistance/2)){
+      fired50Down = true;
+      fired50Up = false;
+			Reuters.win.event.fire("Scroll 50% Down", {});
+		}
+		if(!fired50Up && (scrollTop < scrollDistance/2)){
+      fired50Down = false;
+      fired50Up = true;
+			Reuters.win.event.fire("Scroll 50% Up", {});
+		}
+		
+		if(!fired75Down && (scrollTop >= scrollDistance * 3/4)){
+      fired75Down = true;
+      fired75Up = false;
+			Reuters.win.event.fire("Scroll 75% Down", {});
+		}
+		if(!fired75Up && (scrollTop < scrollDistance * 3/4)){
+      fired75Down = false;
+      fired75Up = true;
+			Reuters.win.event.fire("Scroll 25% Up", {});
+		}
+		
+		if(scrollTop == scrollDistance){
+			Reuters.win.event.fire("Scroll 100% Down", {});
+		}
+	});
+	
+	var defaultViewTime =  30*60; //seconds. expire in 30 minutes
+	var lastPageType = Reuters.utils.getFromLocalStorage("reuters.win.last.pageType");
+	if (lastPageType === "Article" && lastPageTime) {
+	    var lastArticleProps = Reuters.utils.getFromLocalStorage("reuters.win.last.articleProps");
+	    if (lastArticleProps) {
+	        var viewTime = currentTime - lastPageTime;
+	        if (viewTime > expire24Hours) {
+	            viewTime = defaultViewTime;
+	        }
+	        var props = {"Action": "View End", "View Time": viewTime};
+	        $.extend(props, lastArticleProps);
+	        Reuters.win.event.fire("Article Event", props);
+	    }
+	}
+	
+	if(pageType === "Article") {
+	    Reuters.utils.setToLocalStorage("reuters.win.last.articleProps", Reuters.utils.getArticleProps());
+	}
+	
+	Reuters.utils.setToLocalStorage("reuters.win.last.page", document.location.href);
+	Reuters.utils.setToLocalStorage("reuters.win.last.sectionName", sectionName);
+	Reuters.utils.setToLocalStorage("reuters.win.last.pageTime", currentTime);
+	Reuters.utils.setToLocalStorage("reuters.win.last.pageType", pageType);
+	
+	
+	//Footer Sign In Event
+	Reuters.win.event.fire_link($(".section-follow-buttons span.follow-twitter").parent(), 
+		"Footer Sign In Event", 
+		{ "Action" : "twitter" }
+	);
+	Reuters.win.event.fire_link($(".section-follow-buttons span.follow-facebook").parent(), 
+		"Footer Sign In Event", 
+		{ "Action" : "facebook" }
+	);
+	Reuters.win.event.fire_link($(".section-follow-buttons span.follow-linkedin").parent(), 
+		"Footer Sign In Event", 
+		{ "Action" : "linkedin" }
+	);
+	Reuters.win.event.fire_link($(".section-follow-buttons span.follow-google").parent(), 
+		"Footer Sign In Event", 
+		{ "Action" : "google" }
+	);
+	Reuters.win.event.fire_link($(".section-follow-buttons span.follow-rss").parent(), 
+		"Footer Sign In Event", 
+		{ "Action" : "reuters" }
+	);
+	
+	//Footer Events
+	/**
+	Reuters.win.event.fire_link($(".footer .footer-signup-download a:eq(0)"), 
+		"Footer Event", 
+		{ "Action" : "Newsletters" }
+	);
+	Reuters.win.event.fire_link($(".footer .footer-signup-download a:eq(1)"), 
+		"Footer Event", 
+		{ "Action" : "App Download" }
+	);
+	**/
+
+  Reuters.win.event.fire_link_callback($(".footer .footer-signup-download a"), function(e){
+    var para = $(e.target).data('event-para');
+    Reuters.win.event.fire("Footer Event", para);
+  });
+	
+	Reuters.win.event.fire_link_callback($(".footer .footer-links a"), function(e){
+		var action = $(e.target).text();
+		Reuters.win.event.fire("Footer Event", { "Action" : action });
+	});
+	
+});
+

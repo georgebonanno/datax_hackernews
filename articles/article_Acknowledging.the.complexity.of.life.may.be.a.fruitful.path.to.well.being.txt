@@ -1,0 +1,565 @@
+Negative Emotions Are Key to Well-Being - Scientific Americanvar A17 = window.A17 || {};A17.svgSupport = document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1");A17.browserSpec = (typeof document.querySelectorAll && 'addEventListener' in window && A17.svgSupport) ? "html5" : "html4";var element = document.createElement('x');element.style.cssText = 'pointer-events:auto';(function(){var doc = document.documentElement;var str = " js "+(A17.svgSupport ? " svg" : " no-svg") + (element.style.pointerEvents === 'auto' ? " csspointerevents" : " no-csspointerevents");doc.className = doc.className.replace(/\bno-js\b/,str);})();A17.loadCSS = function(href){"use strict";var ss = window.document.createElement( "link" );var ref = window.document.getElementsByTagName( "script" )[ 0 ];var sheets = window.document.styleSheets;ss.rel = "stylesheet";ss.href = href;ss.media = "only x";ref.parentNode.insertBefore( ss, ref );ss.onloadcssdefined = function( cb ){var defined;for( var i = 0; i < sheets.length; i++ ){if( sheets[ i ].href && sheets[ i ].href.indexOf( href ) > -1 ){defined = true;}}if( defined ){cb();} else {setTimeout(function() {ss.onloadcssdefined( cb );});}};ss.onloadcssdefined(function() {ss.media = "all";});return ss;};A17.loadCSS("/public/resources/icons-06fa504bebbd60bd1e26e3ea776d5d39.css");userHasAccessOptimizely = false;
+initMura({
+	loginURL:"?display=login",
+	siteid:"sciam",
+	contentid:"02E2E923-F752-B9B9-4252F43BE4A10E55",
+	contenthistid:"337D0E4E-4BEE-455F-9C9B8AFA920B23CD",
+	type:"Page",
+	subtype:"PrintArticle",
+	ismind:"true",
+	siteID:"sciam",
+	context:"",
+	jslib:"jquery",
+	nocache:0,
+	assetpath:"/sciam",
+	siteConfig:"/requirements",
+	themepath:"/sciam/includes/themes/responsive",
+	rb:"en",
+	reCAPTCHALanguage:"",
+	preloaderMarkup: "",
+	mobileformat: "false",
+	adminpreview: "false",
+	windowdocumentdomain: "",
+	dtExample:"11/10/2018",
+	dtCh:"/",
+	dtFormat:[0,1,2],
+	dtLocale:"en-US"
+	});
+
+	window.Krux||((Krux=function()
+	{Krux.q.push(arguments)}
+	).q=[]);
+	(function(){
+	var k=document.createElement('script');k.type='text/javascript';k.async=true;
+	var m,src=(m=location.href.match(/\bkxsrc=([^&]+)/))&&decodeURIComponent(m[1]);
+	k.src = /^https?:\/\/([a-z0-9_\-\.]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" :(location.protocol==="https:"?"https:":"http:")+"//cdn.krxd.net/controltag?confid=Jn7TXKj3";
+	var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+	}());
+
+	window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]); (function(){
+	function retrieve(n){
+	var m, k='kx'+n;
+	if (window.localStorage) {
+	return window.localStorage[k] || "";
+	} else if (navigator.cookieEnabled) {
+	m = document.cookie.match(k+'=([^;]*)'); return (m && unescape(m[1])) || "";
+	 } else {
+	 return '';
+	} }
+	Krux.user = retrieve('user');
+	Krux.segments = retrieve('segs') && retrieve('segs').split(',') || [];
+	})();
+
+ window.Krux || ((Krux = function() {
+ Krux.q.push(arguments);
+ }).q = []);
+ (function() {
+ function retrieve(n) {
+ var m, k = 'kx' + n;
+ if (window.localStorage) {
+ return window.localStorage[k] || "";
+ } else if (navigator.cookieEnabled) {
+ m = document.cookie.match(k + '=([^;]*)');
+ return (m && unescape(m[1])) || "";
+ } else {
+ return '';
+ }
+ }
+ Krux.user = retrieve('user');
+ Krux.segments = retrieve('segs') ? retrieve('segs').split(',') : []; 
+ var dfpp = [];
+ if (Krux.user) {
+ dfpp.push('kuid=' + Krux.user);
+ }
+ for (var i = 0; i < Krux.segments.length; i++) {
+ dfpp.push('ksg=' + Krux.segments[i]);
+ }
+ Krux.dfppKeyValues = dfpp.length ? dfpp.join(';') + ';' : '';
+ })();
+
+	 var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+		(function() {
+		var gads = document.createElement('script');
+		gads.async = true;
+		var useSSL = 'https:' == document.location.protocol;
+		gads.src = (useSSL ? 'https:' : 'http:') +
+		 '//www.googletagservices.com/tag/js/gpt.js';
+		var node = document.getElementsByTagName('script')[0];
+		node.parentNode.insertBefore(gads, node);
+	})();
+
+// PubNation
+window._pnq = window._pnq || [];
+_pnq.push(['setId', 'pn-d2de07196d68657e']);
+(function() {
+ var pnr = document.createElement('script');
+ pnr.type = 'text/javascript';
+ pnr.async = true;
+ pnr.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'report-ads-to.pubnation.com/dist/pnr.js?t=pn-d2de07196d68657e';
+ var s = document.getElementsByTagName('script')[0];
+ s.parentNode.insertBefore(pnr, s);
+})();
+ 
+dfp = {};
+
+dfp.targeting = {"primary-cat":"mind","topic":"mind","ref-url":"https://www.facebook.com/?ref=tn_tnmn","type":"article","author":"tori rodriguez","title":"negative emotions are key to well-being","tags":"","section":"scientific american mind volume 24,issue 2"};
+
+
+function get_screen_size(screenWidth) {
+	if (screenWidth > 1023) {
+		return "desktop";
+	}
+	else if (screenWidth <= 1023 && screenWidth > 767) {
+		return "tablet";
+	}
+	else {
+		return "mobile";
+	}
+}
+
+// refresh Ads on screen resize
+dfp.screen_size = get_screen_size(window.innerWidth);
+dfp.targeting['screen_size'] = dfp.screen_size;
+
+window.addEventListener("resize", function(){
+	var newSize = get_screen_size(window.innerWidth);
+	if (newSize != dfp.screen_size) {
+		dfp.screen_size = newSize;
+		googletag.cmd.push(function() {
+			googletag.pubads().refresh();
+		});
+	}
+});
+
+
+var gptadslots=[];
+dfp.adUnit = "/67238587/sciam.com/mind-and-brain";
+dfp.adslots = {};
+
+dfp.top = {
+	sizes : "[320, 50]",
+	name: "div-gpt-ad-top-",
+	count : 0
+};
+
+dfp.middle = {
+	sizes : "[320, 50]",
+	name: "div-gpt-ad-middle1-",
+	count : 0
+};
+
+dfp.right = {
+	sizes : "[300, 250]",
+	name: "div-gpt-ad-right1-",
+	count : 0
+};
+
+dfp.right2 = {
+	sizes : "[300, 250]",
+	name: "div-gpt-ad-right2-",
+	count : 0
+};
+
+dfp.slideshow = {
+	sizes : "[300, 250]",
+	name: "div-gpt-ad-slideshow-",
+	count : 0
+};
+
+
+googletag.cmd.push(function() {
+	dfp.top.mapping = googletag.sizeMapping().
+		addSize([1, 1 ], [320, 50]).
+		addSize([767, 1 ], [728, 90]).
+		addSize([1023, 1 ], [[728, 90], [970, 90]]).
+		build();
+
+	dfp.middle.mapping = googletag.sizeMapping().
+		addSize([1, 1 ], [320, 50]).
+		addSize([767, 1 ], [728, 90]).
+		addSize([1023, 1 ], [[728, 90], [970, 90], [970, 250]]).
+		build();
+
+	dfp.right.mapping = googletag.sizeMapping().
+		addSize([1023, 1 ], [[300, 250], [300, 600]]).
+		addSize([767, 1 ], [[300, 250], [300, 600]]).
+		addSize([1, 1 ], [300, 250]).
+		build();
+
+	dfp.right2.mapping = googletag.sizeMapping().
+		addSize([1023, 1 ], [300, 250]).
+		addSize([767, 1 ], [300, 250]).
+		addSize([1, 1 ], [300, 250]).
+		build();
+
+	dfp.slideshow.mapping = googletag.sizeMapping().
+		addSize([1023, 1 ], [300, 250]).
+		addSize([767, 1 ], [300, 250]).
+		addSize([1, 1 ], [300, 250]).
+		build();
+	
+	gptadslots[0] = googletag.defineSlot('/67238587/sciam.com/mind-and-brain', [300, 50], 'div-gpt-ad-top-1').defineSizeMapping(dfp.top.mapping).setTargeting('position',['top']).addService(googletag.pubads());
+
+	gptadslots[1] = googletag.defineOutOfPageSlot('/67238587/sciam.com/mind-and-brain', 'div-gpt-ad-interstitial-1').addService(googletag.pubads());
+
+
+	// All page-level DFP Custom Tagging goes here
+	googletag.pubads()
+		.setTargeting('section', dfp.targeting['section'])
+		.setTargeting('type', dfp.targeting['mediatype'])
+		.setTargeting('primary-cat', dfp.targeting['primary-cat'])
+		.setTargeting('topic', dfp.targeting['topic'])
+		.setTargeting('title', dfp.targeting['title'])
+		.setTargeting('tags', dfp.targeting['tags'])
+		.setTargeting('author', dfp.targeting['author'])
+		
+		.setTargeting('device', dfp.screen_size)
+		.setTargeting('ref-url', dfp.targeting['ref-url']);
+
+	googletag.pubads().setTargeting("ksg", Krux.segments);
+	googletag.pubads().setTargeting("kuid", Krux.user);
+	
+	googletag.pubads().enableSingleRequest();
+	googletag.pubads().enableAsyncRendering();
+	googletag.enableServices();
+});
+
+dfp.load_dfp_ad = function(adName, positionName, adContainer, adOffset) {
+	var isAdActive = false;
+
+	if (adOffset === undefined || !adOffset.length) {
+		adOffset = document.getElementById(adContainer).offsetTop-500;
+	}
+
+	window.addEventListener('scroll', function() {
+		var pageOffset = window.pageYOffset;
+
+		if((pageOffset > adOffset) && !isAdActive) {
+			isAdActive = true;
+
+			dfp[adName].count++;
+			var slotName = dfp[adName].name + dfp[adName].count;
+
+			var adSlotDiv = document.createElement('div');
+ 			adSlotDiv.id = slotName;
+ 			document.getElementById(adContainer).appendChild(adSlotDiv);
+
+ 			if (positionName == "") {
+ 				positionName = adName+dfp[adName].count;
+ 			}
+			
+			googletag.cmd.push(function() {
+				gptadslots.push( googletag.defineSlot(dfp.adUnit, dfp[adName].sizes, slotName).
+				defineSizeMapping(dfp[adName].mapping).
+				setTargeting('position',[positionName]).
+				addService(googletag.pubads()) );
+
+				dfp.adslots[positionName] = googletag.display(slotName);
+				//googletag.pubads().refresh([slot]);
+			});
+
+			//PubNation
+			window._pnq.push(['addListeners']);
+		}
+	});
+};
+
+
+(function() {
+
+		var DFP_id = dfp.adUnit;
+		//var DFP_id = "/7814368/NativeAdUnit"; // for testing purposes only
+
+		var compiledTemplateHomePopular = "";
+		var compiledTemplateHomeLatest = "";
+		var compiledTemplateHomeAgenda = "";
+		var compiledTemplateTagLatest = "";
+		var compiledTemplateArticleLatest = "";
+
+		templates();
+
+		window.NATIVEADS = window.NATIVEADS || {};
+		window.NATIVEADS_QUEUE = window.NATIVEADS_QUEUE || [];
+
+		var q = function() {
+			return window.NATIVEADS_QUEUE;
+		};
+
+		q().push(["setPropertyID", "NA-SCIEAMERLIVE-11237933"]);
+
+		switch (mura.subtype) {
+			case 'Home':
+				
+					q().push(["insertPreview", {
+						label: "HomeLatest",
+						unit: {
+							"server": "dfp",
+							"id": DFP_id,
+							"size": "2x2",
+							"targets": renderTagerting('n-latest3')
+						},
+						location: "#latest-news > article.listing:eq(2)",
+						infoText: "",
+						infoButtonText: "",
+						template: compiledTemplateHomeLatest,
+						onRender: function($element) {
+							var parent = document.getElementById('latest-news');
+							var lastChild = parent.children[5];
+							parent.removeChild(lastChild);
+						},
+						onFill: function(data) {
+							getFormattedDate(data);
+						},
+						onError: function(error) { }
+					}]); 
+				 
+
+				
+					q().push(["insertPreview", {
+						label: "HomeAgenda",
+						unit: {
+							"server": "dfp",
+							"id": DFP_id,
+							"size": "2x2",
+							"targets": renderTagerting('n-agenda4')
+						},
+						location: "#agenda-latest > article:nth-child(3)",
+						infoText: "",
+						infoButtonText: "",
+						template: compiledTemplateHomeAgenda,
+						onRender: function($element) {
+							var parent = document.getElementById('agenda-latest');
+							parent.removeChild(parent.lastChild);
+						},
+						onFill: function(data) {
+							getFormattedDate(data);
+						},
+						onError: function(error) { }
+					}]);
+				
+				
+			case 'Topic':
+
+				
+					q().push(["insertPreview", {	
+						label: "HomePopular",
+						unit: {
+							"server": "dfp",
+							"id": DFP_id,
+							"size": "2x2",
+							"targets": renderTagerting('n-popular3')
+						},
+						location: ".most-popular__grid > div.grid__col:eq(2)",
+						template: compiledTemplateHomePopular,
+						onRender: function($element) {
+							var parent = document.getElementsByClassName('most-popular')[0];
+							var parentBody = parent.children[0];
+							parentBody.removeChild(parentBody.lastChild);
+							
+						},
+						onFill: function(data) {
+							getFormattedDate(data);
+						},
+						onError: function(error) {}
+					}]);
+				
+
+			break;
+
+
+			case 'Section':
+				
+					q().push(["insertPreview", {
+						label: "TagLatest",
+							unit: {
+								"server": "dfp",
+								"id": DFP_id,
+								"size": "2x2",
+								"targets": renderTagerting('n-tag3')
+							},
+						location: "div.section-latest > article:nth-child(3)",
+						infoText: "",
+						infoButtonText: "",
+						template: compiledTemplateTagLatest,
+						onRender: function($element) {
+							var parent = document.getElementsByClassName('section-latest')[0];
+							parent.removeChild(parent.lastChild);
+						},
+						onFill: function(data) {
+							getFormattedDate(data);
+						},
+						onError: function(error) { }
+					}]);
+				
+			break;
+
+			case 'Article':
+			case 'PrintArticle':
+			case 'PartnerArticle':
+			case 'BlogPost':
+				
+					q().push(["insertPreview", {
+						label: "ArticleLatest",
+						unit: {
+							"server": "dfp",
+							"id": DFP_id,
+							"size": "2x2",
+							"targets": renderTagerting('n-article')
+						},
+						location: "#read-next > div.aside-block__body > div.related-article-group > div:nth-child(6)",
+						infoText: "",
+						infoButtonText: "",
+						template: compiledTemplateArticleLatest,
+						onRender: function($element) {
+							var parent = document.getElementById('read-next');
+							var parentBody = parent.children[1].children[0];
+							parentBody.removeChild(parentBody.lastChild);
+						},
+						onFill: function(data) {
+							getFormattedDate(data);
+						},
+						onError: function(error) { }
+					}]);
+				
+			break;
+		}
+		
+
+
+
+	q().push(["configureSecondaryPage", {
+		track: function() {
+			// if(isSponsored){
+			// return 'inbound';
+			// }
+		}
+	}]);
+
+	function templates () {
+
+
+
+		compiledTemplateHomePopular = function (Handlebars,depth0,helpers,partials,data) { this.compilerInfo = [4,'>= 1.0.0'];helpers = this.merge(helpers, Handlebars.helpers); data = data || {}; var buffer = "", stack1, stack2, options, functionType="function", escapeExpression=this.escapeExpression, helperMissing=helpers.helperMissing, self=this;function program1(depth0,data) { var buffer = "", stack1; buffer += "— " + escapeExpression(((stack1 = ((stack1 = depth0.author),stack1 == null || stack1 === false ? stack1 : stack1.name)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)); return buffer; } buffer += "\n<div class=\"grid__col large-up-1 medium-1-2\">\n <article class=\"listing-wide\" data-listing-template=\"Home_Popular\" data-listing-title=\""; if (stack1 = helpers.title) { stack1 = stack1.call(depth0, {hash:{},data:data}); } else { stack1 = depth0.title; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; } buffer += escapeExpression(stack1) + "\">\n <div class=\"listing-wide__thumb\">\n <a href=\""; if (stack1 = helpers.link) { stack1 = stack1.call(depth0, {hash:{},data:data}); } else { stack1 = depth0.link; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; } buffer += escapeExpression(stack1) + "\">\n <picture>\n <source media=\"(max-width: 767px)\" srcset=\""; options = {hash:{ 'width': (80), 'height': (80) },data:data}; buffer += escapeExpression(((stack1 = helpers.getThumbHref || depth0.getThumbHref),stack1 ? stack1.call(depth0, options) : helperMissing.call(depth0, "getThumbHref", options))) + "\">\n <source media=\"(min-width: 768px) and (max-width: 1023px)\" srcset=\""; options = {hash:{ 'width': (210), 'height': (140) },data:data}; buffer += escapeExpression(((stack1 = helpers.getThumbHref || depth0.getThumbHref),stack1 ? stack1.call(depth0, options) : helperMissing.call(depth0, "getThumbHref", options))) + "\">\n <img src=\""; options = {hash:{ 'width': (275), 'height': (183) },data:data}; buffer += escapeExpression(((stack1 = helpers.getThumbHref || depth0.getThumbHref),stack1 ? stack1.call(depth0, options) : helperMissing.call(depth0, "getThumbHref", options))) + "\" alt=\""; if (stack2 = helpers.title) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.title; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + "\"></picture>\n <div class=\"listing-wide__thumb__category listing-wide__thumb__sponsor " + escapeExpression(((stack1 = ((stack1 = depth0.custom),stack1 == null || stack1 === false ? stack1 : stack1.AdType)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)) +"\">" + escapeExpression(((stack1 = ((stack1 = depth0.custom),stack1 == null || stack1 === false ? stack1 : stack1.Eyebrow)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)) + "</div>\n </a>\n </div>\n <div class=\"listing-wide__inner\">\n <h3 class=\"t_listing-title\">\n <a href=\""; if (stack2 = helpers.link) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.link; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + "\">"; if (stack2 = helpers.title) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.title; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + "</a>\n </h3>\n <p class=\"t_body listing-wide__inner__desc\">\n "; if (stack2 = helpers.summary) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.summary; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + "\n </p>\n <div class=\"t_meta\">"; if (stack2 = helpers.pubDate) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.pubDate; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + " "; stack2 = helpers['if'].call(depth0, ((stack1 = depth0.author),stack1 == null || stack1 === false ? stack1 : stack1.name), {hash:{},inverse:self.noop,fn:self.program(1, program1, data),data:data}); if(stack2 || stack2 === 0) { buffer += stack2; } buffer += "</div>\n <div class=\"listing-wide__inner__small-sponsor\">" + escapeExpression(((stack1 = ((stack1 = depth0.custom),stack1 == null || stack1 === false ? stack1 : stack1.Eyebrow)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)) + "</div>\n </div>\n </article>\n</div>"; return buffer; };
+
+		compiledTemplateHomeLatest = function (Handlebars,depth0,helpers,partials,data) { this.compilerInfo = [4,'>= 1.0.0'];helpers = this.merge(helpers, Handlebars.helpers); data = data || {}; var buffer = "", stack1, stack2, functionType="function", escapeExpression=this.escapeExpression, self=this;function program1(depth0,data) { var buffer = "", stack1; buffer += "— " + escapeExpression(((stack1 = ((stack1 = depth0.author),stack1 == null || stack1 === false ? stack1 : stack1.name)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)); return buffer; } buffer += "<article class=\"listing listing--with-thumb \" data-listing-count=\"6\" data-listing-template=\"Home\" data-listing-title=\""; if (stack1 = helpers.title) { stack1 = stack1.call(depth0, {hash:{},data:data}); } else { stack1 = depth0.title; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; } buffer += escapeExpression(stack1) + "\">\n <div class=\"t_tag medium-up-hide\">" + escapeExpression(((stack1 = ((stack1 = depth0.custom),stack1 == null || stack1 === false ? stack1 : stack1.Eyebrow)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)) + "</div>\n <div class=\"t_tag small-hide\">" + escapeExpression(((stack1 = ((stack1 = depth0.custom),stack1 == null || stack1 === false ? stack1 : stack1.Eyebrow)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)) + "</div>\n <div class=\"t_meta\">" + escapeExpression(((stack1 = ((stack1 = depth0.custom),stack1 == null || stack1 === false ? stack1 : stack1.SponsorLabel)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)) + "</div>\n <h2 class=\"t_small-listing-title\"><a href=\""; if (stack2 = helpers.link) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.link; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + "\">"; if (stack2 = helpers.title) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.title; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + "</a></h2>\n <p class=\"t_meta listing__meta\">"; if (stack2 = helpers.pubDate) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.pubDate; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + " "; stack2 = helpers['if'].call(depth0, ((stack1 = depth0.author),stack1 == null || stack1 === false ? stack1 : stack1.name), {hash:{},inverse:self.noop,fn:self.program(1, program1, data),data:data}); if(stack2 || stack2 === 0) { buffer += stack2; } buffer += "</p>\n</article>"; return buffer; };
+
+		compiledTemplateTagLatest = function (Handlebars,depth0,helpers,partials,data) { this.compilerInfo = [4,'>= 1.0.0'];helpers = this.merge(helpers, Handlebars.helpers); data = data || {}; var buffer = "", stack1, stack2, options, functionType="function", escapeExpression=this.escapeExpression, helperMissing=helpers.helperMissing, self=this;function program1(depth0,data) { var buffer = "", stack1; buffer += "— " + escapeExpression(((stack1 = ((stack1 = depth0.author),stack1 == null || stack1 === false ? stack1 : stack1.name)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)); return buffer; } buffer += "\n<article class=\"listing-wide\" data-listing-template=\"Section\" data-listing-title=\""; if (stack1 = helpers.title) { stack1 = stack1.call(depth0, {hash:{},data:data}); } else { stack1 = depth0.title; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; } buffer += escapeExpression(stack1) + "\">\n <div class=\"listing-wide__thumb\">\n <a href=\""; if (stack1 = helpers.link) { stack1 = stack1.call(depth0, {hash:{},data:data}); } else { stack1 = depth0.link; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; } buffer += escapeExpression(stack1) + "\">\n <picture>\n <source media=\"(max-width: 767px)\" srcset=\""; options = {hash:{ 'width': (80), 'height': (80) },data:data}; buffer += escapeExpression(((stack1 = helpers.getThumbHref || depth0.getThumbHref),stack1 ? stack1.call(depth0, options) : helperMissing.call(depth0, "getThumbHref", options))) + "\">\n <source media=\"(min-width: 768px) and (max-width: 1023px)\" srcset=\""; options = {hash:{ 'width': (210), 'height': (140) },data:data}; buffer += escapeExpression(((stack1 = helpers.getThumbHref || depth0.getThumbHref),stack1 ? stack1.call(depth0, options) : helperMissing.call(depth0, "getThumbHref", options))) + "\">\n <img src=\""; options = {hash:{ 'width': (275), 'height': (183) },data:data}; buffer += escapeExpression(((stack1 = helpers.getThumbHref || depth0.getThumbHref),stack1 ? stack1.call(depth0, options) : helperMissing.call(depth0, "getThumbHref", options))) + "\" alt=\""; if (stack2 = helpers.title) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.title; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + "\">\n </picture>\n <div class=\"listing-wide__thumb__category listing-wide__thumb__sponsor " + escapeExpression(((stack1 = ((stack1 = depth0.custom),stack1 == null || stack1 === false ? stack1 : stack1.AdType)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)) +"\">" + escapeExpression(((stack1 = ((stack1 = depth0.custom),stack1 == null || stack1 === false ? stack1 : stack1.Eyebrow)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)) +"</div>\n </a>\n </div>\n <div class=\"listing-wide__inner\">\n <h2 class=\"t_listing-title\"><a href=\""; if (stack2 = helpers.link) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.link; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + "\">"; if (stack2 = helpers.title) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.title; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + "</a></h2>\n <p class=\"t_body listing-wide__inner__desc\">\n "; if (stack2 = helpers.summary) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.summary; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + "\n </p>\n <div class=\"t_meta\">"; if (stack2 = helpers.pubDate) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.pubDate; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + " "; stack2 = helpers['if'].call(depth0, ((stack1 = depth0.author),stack1 == null || stack1 === false ? stack1 : stack1.name), {hash:{},inverse:self.noop,fn:self.program(1, program1, data),data:data}); if(stack2 || stack2 === 0) { buffer += stack2; } buffer += "</div>\n <div class=\"listing-wide__inner__small-sponsor\">" + escapeExpression(((stack1 = ((stack1 = depth0.custom),stack1 == null || stack1 === false ? stack1 : stack1.Eyebrow)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)) +"</div>\n </div>\n</article>"; return buffer; };
+
+		compiledTemplateHomeAgenda = function (Handlebars,depth0,helpers,partials,data) { this.compilerInfo = [4,'>= 1.0.0'];helpers = this.merge(helpers, Handlebars.helpers); data = data || {}; var buffer = "", stack1, stack2, options, functionType="function", escapeExpression=this.escapeExpression, helperMissing=helpers.helperMissing, self=this;function program1(depth0,data) { var buffer = "", stack1; buffer += "— " + escapeExpression(((stack1 = ((stack1 = depth0.author),stack1 == null || stack1 === false ? stack1 : stack1.name)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)); return buffer; } buffer += "<article class=\"listing listing--with-thumb \" data-listing-count=\"4\" data-listing-template=\"Home\" data-listing-title=\""; if (stack1 = helpers.title) { stack1 = stack1.call(depth0, {hash:{},data:data}); } else { stack1 = depth0.title; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; } buffer += escapeExpression(stack1) + "\">\n <div class=\"t_tag medium-up-hide\">"+ escapeExpression(((stack1 = ((stack1 = depth0.custom),stack1 == null || stack1 === false ? stack1 : stack1.Eyebrow)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)) +"</div>\n <div class=\"t_thumb listing__thumb \">\n <a href=\""; if (stack1 = helpers.link) { stack1 = stack1.call(depth0, {hash:{},data:data}); } else { stack1 = depth0.link; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; } buffer += escapeExpression(stack1) + "\">\n <picture>\n <source media=\"(max-width: 767px)\" srcset=\""; options = {hash:{ 'width': (280), 'height': (187) },data:data}; buffer += escapeExpression(((stack1 = helpers.getThumbHref || depth0.getThumbHref),stack1 ? stack1.call(depth0, options) : helperMissing.call(depth0, "getThumbHref", options))) + "\">\n <source media=\"(min-width: 768px) and (max-width: 1023px)\" srcset=\""; options = {hash:{ 'width': (690), 'height': (460) },data:data}; buffer += escapeExpression(((stack1 = helpers.getThumbHref || depth0.getThumbHref),stack1 ? stack1.call(depth0, options) : helperMissing.call(depth0, "getThumbHref", options))) + "\">\n <source media=\"(min-width: 1024px) and (max-width: 1279px)\" srcset=\""; options = {hash:{ 'width': (450), 'height': (300) },data:data}; buffer += escapeExpression(((stack1 = helpers.getThumbHref || depth0.getThumbHref),stack1 ? stack1.call(depth0, options) : helperMissing.call(depth0, "getThumbHref", options))) + "\">\n <img src=\""; options = {hash:{ 'width': (590), 'height': (393) },data:data}; buffer += escapeExpression(((stack1 = helpers.getThumbHref || depth0.getThumbHref),stack1 ? stack1.call(depth0, options) : helperMissing.call(depth0, "getThumbHref", options))) + "\" alt=\""; if (stack2 = helpers.title) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.title; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + "\"></picture>\n <div class=\"listing-wide__thumb__category listing-wide__thumb__sponsor "+ escapeExpression(((stack1 = ((stack1 = depth0.custom),stack1 == null || stack1 === false ? stack1 : stack1.AdType)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)) +"\">"+ escapeExpression(((stack1 = ((stack1 = depth0.custom),stack1 == null || stack1 === false ? stack1 : stack1.Eyebrow)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)) +"</div>\n </a>\n </div>\n <h2 class=\"t_small-listing-title\">\n <a href=\""; if (stack2 = helpers.link) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.link; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + "\">"; if (stack2 = helpers.title) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.title; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + "</a>\n </h2>\n <p class=\"t_meta listing__meta\">"; if (stack2 = helpers.pubDate) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.pubDate; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + " "; stack2 = helpers['if'].call(depth0, ((stack1 = depth0.author),stack1 == null || stack1 === false ? stack1 : stack1.name), {hash:{},inverse:self.noop,fn:self.program(1, program1, data),data:data}); if(stack2 || stack2 === 0) { buffer += stack2; } buffer += "</p>\n</article>"; return buffer; };
+
+		compiledTemplateArticleLatest = function (Handlebars,depth0,helpers,partials,data) { this.compilerInfo = [4,'>= 1.0.0'];helpers = this.merge(helpers, Handlebars.helpers); data = data || {}; var buffer = "", stack1, stack2, options, functionType="function", escapeExpression=this.escapeExpression, helperMissing=helpers.helperMissing, self=this;function program1(depth0,data) { var buffer = "", stack1; buffer += "— " + escapeExpression(((stack1 = ((stack1 = depth0.author),stack1 == null || stack1 === false ? stack1 : stack1.name)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)); return buffer; } buffer += "<div class=\"related-article-group__item\">\n <a href=\""; if (stack1 = helpers.link) { stack1 = stack1.call(depth0, {hash:{},data:data}); } else { stack1 = depth0.link; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; } buffer += escapeExpression(stack1) + "\" class=\"large-up-title-link\">\n <section class=\"related-article\">\n <div class=\"related-article__thumb\">\n <div class=\"t_tag related-article__thumb__sponsor " + escapeExpression(((stack1 = ((stack1 = depth0.custom),stack1 == null || stack1 === false ? stack1 : stack1.AdType)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)) +"\">" + escapeExpression(((stack1 = ((stack1 = depth0.custom),stack1 == null || stack1 === false ? stack1 : stack1.Eyebrow)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)) +"</div>\n <picture>\n <source media=\"(min-width: 768px) and (max-width: 1023px)\" srcset=\""; options = {hash:{ 'width': (330), 'height': (220) },data:data}; buffer += escapeExpression(((stack1 = helpers.getThumbHref || depth0.getThumbHref),stack1 ? stack1.call(depth0, options) : helperMissing.call(depth0, "getThumbHref", options))) + "\">\n <source media=\"(max-width: 767px)\" srcset=\""; options = {hash:{ 'width': (80), 'height': (80) },data:data}; buffer += escapeExpression(((stack1 = helpers.getThumbHref || depth0.getThumbHref),stack1 ? stack1.call(depth0, options) : helperMissing.call(depth0, "getThumbHref", options))) + "\">\n <img src=\""; options = {hash:{ 'width': (170), 'height': (113) },data:data}; buffer += escapeExpression(((stack1 = helpers.getThumbHref || depth0.getThumbHref),stack1 ? stack1.call(depth0, options) : helperMissing.call(depth0, "getThumbHref", options))) + "\" alt=\""; if (stack2 = helpers.title) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.title; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + "\"></picture>\n </div>\n <div class=\"related-article__body\">\n <div class=\"t_meta related-article__sponsor medium-down-hide\">" + escapeExpression(((stack1 = ((stack1 = depth0.custom),stack1 == null || stack1 === false ? stack1 : stack1.SponsorLabel)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1)) +"</div>\n <h3 class=\"related-article__title\">"; if (stack2 = helpers.title) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.title; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + "</h3>\n <p class=\"related-article__meta\">"; if (stack2 = helpers.pubDate) { stack2 = stack2.call(depth0, {hash:{},data:data}); } else { stack2 = depth0.pubDate; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; } buffer += escapeExpression(stack2) + " "; stack2 = helpers['if'].call(depth0, ((stack1 = depth0.author),stack1 == null || stack1 === false ? stack1 : stack1.name), {hash:{},inverse:self.noop,fn:self.program(1, program1, data),data:data}); if(stack2 || stack2 === 0) { buffer += stack2; } buffer += "</p>\n </div>\n </section>\n </a>\n</div>"; return buffer; };
+	}
+
+	function getFormattedDate(data) {
+		var monthNames = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+		var d = new Date(data.pubDate);
+		data.pubDate = monthNames[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+
+		if (data.custom.AdType == 'Product'){
+			data.custom.AdType = "sponsor--blue";
+		}
+		else {
+			data.custom.AdType = "";
+		}
+
+		return data;
+	}
+
+})();
+
+(function(d, s, id) {
+ var js, fjs = d.getElementsByTagName(s)[0], p = d.location.protocol;
+ if (d.getElementById(id)) {return;}
+ js = d.createElement(s);
+ js.id = id; js.type = "text/javascript"; js.async = true;
+ js.src = ((p == "https:") ? p : "http:") + "//plugin.mediavoice.com/plugin.js";
+ fjs.parentNode.insertBefore(js, fjs);
+})(document, "script", "nativeads-plugin");
+
+
+
+function renderTagerting(pos) {
+	var polarTargeting = JSON.parse(JSON.stringify(dfp.targeting));
+	var ppos = [];
+	if (pos !== 'undefined') {
+		ppos = [pos];
+	}
+
+	polarTargeting['position'] = ppos;
+	return polarTargeting;
+}
+googletag.cmd.push(function() {googletag.display("div-gpt-ad-interstitial-1");});We use cookies to provide you with a better onsite experience. By continuing to browse the site you are agreeing to our use of cookies in accordance with our Cookie Policy.Skip to main contentgoogletag.cmd.push(function() {googletag.display("div-gpt-ad-top-1");});SubscribeMenuScientific AmericanEnglish Cart 0Sign In  |   RegisterEmail:Password:Forgot password?LoginNot yet registered?	SearchSubscribeEnglishEspañolالعربيةOther EditionsSearch  CloseSearchThe SciencesMindHealth TechSustainabilityEducationVideoPodcastsBlogsStoreSubscribeCurrent IssueCartSign InRegisterFacebookTwitterGoogle+YouTubeRSS	 Mind	Negative Emotions Are Key to Well-BeingFeeling sad, mad, critical or otherwise awful? Surprise: negative emotions are essential for mental healthBy Tori Rodriguez on May 1, 2013  51
+		أعرض هذا باللغة العربية
+	Share on FacebookShare on TwitterShare on RedditEmailPrintShare viaGoogle+Stumble UponCredit: SÉBASTIEN THIBAULTif (dfp.screen_size != "desktop"){dfp.load_dfp_ad("right", "right1", "dfp-right-article-mobile");}Advertisement | Report Ad
+A client sits before me, seeking help untangling his relationship problems. As a psychotherapist, I strive to be warm, nonjudgmental and encouraging. I am a bit unsettled, then, when in the midst of describing his painful experiences, he says, “I'm sorry for being so negative.”
+
+A crucial goal of therapy is to learn to acknowledge and express a full range of emotions, and here was a client apologizing for doing just that. In my psychotherapy practice, many of my clients struggle with highly distressing emotions, such as extreme anger, or with suicidal thoughts. In recent years I have noticed an increase in the number of people who also feel guilty or ashamed about what they perceive to be negativity. Such reactions undoubtedly stem from our culture's overriding bias toward positive thinking. Although positive emotions are worth cultivating, problems arise when people start believing they must be upbeat all the time.
+
+In fact, anger and sadness are an important part of life, and new research shows that experiencing and accepting such emotions are vital to our mental health. Attempting to suppress thoughts can backfire and even diminish our sense of contentment. “Acknowledging the complexity of life may be an especially fruitful path to psychological well-being,” says psychologist Jonathan M. Adler of the Franklin W. Olin College of Engineering.
+
+Meaningful Misery
+Positive thoughts and emotions can, of course, benefit mental health. Hedonic theories define well-being as the presence of positive emotion, the relative absence of negative emotion and a sense of life satisfaction. Taken to an extreme, however, that definition is not congruent with the messiness of real life. In addition, people's outlook can become so rosy that they ignore dangers or become complacent [see “Can Positive Thinking Be Negative?” by Scott O. Lilienfeld and Hal Arkowitz; Scientific American Mind, May/June 2011].
+
+Eudaemonic approaches, on the other hand, emphasize a sense of meaning, personal growth and understanding of the self—goals that require confronting life's adversities. Unpleasant feelings are just as crucial as the enjoyable ones in helping you make sense of life's ups and downs. “Remember, one of the primary reasons we have emotions in the first place is to help us evaluate our experiences,” Adler says.
+
+Adler and Hal E. Hershfield, a professor of marketing at New York University, investigated the link between mixed emotional experience and psychological welfare in a group of people undergoing 12 sessions of psychotherapy. Before each session, participants completed a questionnaire that assessed their psychological well-being. They also wrote narratives describing their life events and their time in therapy, which were coded for emotional content. As Adler and Hershfield reported in 2012, feeling cheerful and dejected at the same time—for example, “I feel sad at times because of everything I've been through, but I'm also happy and hopeful because I'm working through my issues”—preceded improvements in well-being over the next week or two for subjects, even if the mixed feelings were unpleasant at the time. “Taking the good and the bad together may detoxify the bad experiences, allowing you to make meaning out of them in a way that supports psychological well-being,” the researchers found.
+
+Negative emotions also most likely aid in our survival. Bad feelings can be vital clues that a health issue, relationship or other important matter needs attention, Adler points out. The survival value of negative thoughts and emotions may help explain why suppressing them is so fruitless. In a 2009 study psychologist David J. Kavanagh of Queensland University of Technology in Australia and his colleagues asked people in treatment for alcohol abuse and addiction to complete a questionnaire that assessed their drinking-related urges and cravings, as well as any attempts to suppress thoughts related to booze over the previous 24 hours. They found that those who often fought against intrusive alcohol-related thoughts actually harbored more of them. Similar findings from a 2010 study suggested that pushing back negative emotions could spawn more emotional overeating than simply recognizing that you were, say, upset, agitated or blue.
+
+
+Even if you successfully avoid contemplating a topic, your subconscious may still dwell on it. In a 2011 study psychologist Richard A. Bryant and his colleagues at the University of New South Wales in Sydney told some participants, but not others, to suppress an unwanted thought prior to sleep. Those who tried to muffle the thought reported dreaming about it more, a phenomenon called dream rebound.
+
+Suppressing thoughts and feelings can even be harmful. In a 2012 study psychotherapist Eric L. Garland of Florida State University and his associates measured a stress response based on heart rate in 58 adults in treatment for alcohol dependence while exposing them to alcohol-related cues. Subjects also completed a measure of their tendency to suppress thoughts. The researchers found that those who restrained their thinking more often had stronger stress responses to the cues than did those who suppressed their thoughts less frequently.
+
+Accepting the Pain
+Instead of backing away from negative emotions, accept them. Acknowledge how you are feeling without rushing to change your emotional state. Many people find it helpful to breathe slowly and deeply while learning to tolerate strong feelings or to imagine the feelings as floating clouds, as a reminder that they will pass. I often tell my clients that a thought is just a thought and a feeling just a feeling, nothing more.
+
+If the emotion is overwhelming, you may want to express how you feel in a journal or to another person. The exercise may shift your perspective and bring a sense of closure. If the discomfort lingers, consider taking action. You may want to tell a friend her comment was hurtful or take steps to leave the job that makes you miserable.
+
+You may also try doing mindfulness exercises to help you become aware of your present experience without passing judgment on it. One way to train yourself to adopt this state is to focus on your breathing while meditating and simply acknowledge any fleeting thoughts or feelings. This practice may make it easier to accept unpleasant thoughts [see “Being in the Now,” by Amishi P. Jha; Scientific American Mind, March/April 2013]. Earlier this year Garland and his colleagues found that among 125 individuals with a history of trauma who were also in treatment for substance dependence, those who were naturally more mindful both coped better with their trauma and craved their drug less. Likewise, in a 2012 study psychologist Shannon Sauer-Zavala of Boston University and her co-workers found that a therapy that included mindfulness training helped individuals overcome anxiety disorders. It worked not by minimizing the number of negative feelings but by training patients to accept those feelings.
+
+“It is impossible to avoid negative emotions altogether because to live is to experience setbacks and conflicts,” Sauer-Zavala says. Learning how to cope with those emotions is the key, she adds. Indeed, once my client accepted his thoughts and feelings, shaking off his shame and guilt, he saw his problems with greater clarity and proceeded down the path to recovery.This article was originally published with the title "Taking the Bad with the Good"dfp.load_dfp_ad("right2", "right2", "dfp-right2-article");Advertisement | Report Ad
+	(Further Reading)
+
+	Mindfulness for Beginners: Reclaiming the Present Moment—and Your Life. Jon Kabat-Zinn. Sounds True, 2011.
+
+	The Antidote: Happiness for People Who Can't Stand Positive Thinking. Oliver Burkeman. Faber & Faber, 2012.ABOUT THE AUTHOR(S)TORI RODRIGUEZ is a writer and psychotherapist in private practice in Atlanta.Load commentsif (dfp.screen_size == "desktop"){dfp.load_dfp_ad("right", "right1", "dfp-right-article");}Advertisement | Report AdLatest NewsEvolutionThe Biggest Saber Cat7 minutes ago  —  Brian SwitekBehavior & SocietyLearn to Be Happier with Second BestNovember 1, 2016  —  Jessica SchmerlerPublic HealthOnline Sociality Linked to Lower Death Risk13 hours ago  —  Christopher IntagliataEnergyThe U.S.'s First Offshore Wind Farm is Scheduled to Open This Month21 hours ago  —  Jeremy HsuEnergyCan Small Fusion Energy Start-Ups Conquer the Problems That Killed the Giants?22 hours ago  —  W. Wayt GibbsArts & CultureWhy do post-mortem reviews seem destined to fail?20 hours ago  —  Krystal D'CostaIn the storeMindScientific American Mind Volume 24, Issue 2$7.95dfp.load_dfp_ad("middle", "bottom", "dfp-middle-footer");Report AdShareLatestSA Mind provides essential reading on the science of you.Memory. Relationships. Intelligence. Emotions. Brain health.Subscribe Now!Follow usFacebookTwitterGoogle+YouTubeRSS
+	Store
+		About
+		Press Room
+		More 
+	
+
+
+	FAQs
+		Contact Us
+		Site Map
+	
+
+
+	Advertise
+		Special Ad Sections
+		SA Custom Media
+	
+
+
+	Terms of Use
+		Privacy Policy
+		Use of Cookies
+	Scientific American is part of Springer Nature, which owns or has commercial relations with thousands of scientific publications (many of them can be found at www.springernature.com/us). Scientific American maintains a strict policy of editorial independence in reporting developments in science to our readers.© 2016 Scientific American, a Division of Nature America, Inc.All Rights Reserved.Scientific American MIND Mobile AppDownload it for free on your Android or iOS device.GET APPWT={"sa_cstatus_registrant":"0","sa_access_status":"free_to_air","sa_cstatus_customer":"0","sa_cattop":"","sa_cat":"Mind","doi":"10.1038/scientificamericanmind0513-26","sa_authors":"Tori Rodriguez","sa_article_id":"02E2E923-F752-B9B9-4252F43BE4A10E55","dcssip":"www.sciam.com","cg_s":"SA Mind: Perspectives","sa_cstatus_subscriber":"0","z_cg_ecollection":"","z_css":"desktop","cg_n":"Scientific American","sa_cstatus_sitelicense":"0","sa_issue":"Scientific American Mind Volume 24, Issue 2","sa_pubdate":"2013/05/01","css":""};
+		
+	
+	
+		(function(s, p, d) {
+		 var h=d.location.protocol, i=p+"-"+s,
+		 e=d.getElementById(i), r=d.getElementById(p+"-root"),
+		 u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+		 :"static."+p+".com";
+		 if (e) return;
+		 e = d.createElement(s); e.id = i; e.async = true;
+		 e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+		})("script", "parsely", document);
+	
+			{"thumbnailUrl":"https://www.scientificamerican.com/sciam/cache/file/3AF238AE-3D54-4D1F-939687447DEF3F8A_small.jpg","keywords":["Mind","sciam"],"creator":["Tori Rodriguez"],"@context":"http://schema.org","@type":"NewsArticle","headline":"Negative Emotions Are Key to Well-Being","articleSection":"SA Mind: Perspectives","url":"https://www.scientificamerican.com/article/negative-emotions-key-well-being/","dateCreated":"2013-04-02T12:48:52Z-0400"}
+		

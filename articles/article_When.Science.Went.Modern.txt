@@ -1,0 +1,248 @@
+IASC: The Hedgehog Review - Volume 18, No. 3 (Fall 2016) - When Science Went Modern -
+
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+function MM_callJS(jsStr) { //v2.0
+  return eval(jsStr)
+}
+
+function send(contact, subject) {
+  var hostname = "virginia.edu"; //the fqdn of the mailserver 
+  location.href = "mailto:" + contact + "@" + hostname + "?subject=" + subject; 
+}
+
+function sendArticle() {
+  var pageURL = document.location; //the fqdn of the mailserver 
+  location.href = "mailto:" + "?subject=" + "Hedgehog Review Article" + "&body=" + "Here is a link to an article you may want to read:%0A%0A" + pageURL + "%0A"; 
+}
+//-->
+
+
+  
+    
+    
+  INSTITUTE for ADVANCED STUDIES in CULTURE | UVa
+  
+    Home
+      Blogs
+      THR Blog
+        The Infernal Machine
+        Common Place
+      
+      About
+      Issues
+      Contact
+      Search
+      
+    
+
+  
+  
+  
+
+
+  
+    
+      
+
+  Recent Issues
+  
+    Fall 2016
+    View Contents | Order
+  
+  
+    Summer 2016
+    View Contents | Order
+  
+  
+    Spring 2016
+    View Contents | Order
+  
+
+  
+  
+  
+    
+  
+  
+
+      
+    
+    
+      The Hedgehog Review: Vol. 18 No. 3 (Fall 2016)
+    When Science Went Modern
+    Lorraine Daston
+          
+      
+        
+        The Hedgehog Review: Fall 2016
+        (Volume 18 | Issue 3)
+        
+
+
+
+
+
+
+
+
+Issue TOC >>
+          Print Article >>
+          Subscribe >>
+        
+The history of science is punctuated by not one, not two, but three modernities: the first, in the seventeenth century, known as “the Scientific Revolution”; the second, circa 1800, often referred to as “the second Scientific Revolution”; and the third, in the first quarter of the twentieth century, when relativity theory and quantum mechanics not only overturned the achievements of Galileo and Newton but also challenged our deepest intuitions about space, time, and causation. Each of these moments transformed science, both as a body of knowledge and as a social and political force. The first modernity of the seventeenth century displaced the Earth from the center of the cosmos, showered Europeans with new discoveries, from new continents to new planets, created new forms of inquiry such as field observation and the laboratory experiment, added prediction to explanation as an ideal toward which science should strive, and unified the physics of heaven and earth in Newton’s magisterial synthesis that served as the inspiration for the political reformers and revolutionaries of the Enlightenment. The second modernity of the early nineteenth century unified light, heat, electricity, magnetism, and gravitation into the single, fungible currency of energy, put that energy to work by creating the first science-based technologies to become gigantic industries (e.g., the manufacture of dyestuffs from coal tar derivatives), turned science into a salaried profession and allied it with state power in every realm, from combating epidemics to waging wars. The third modernity, of the early twentieth century, toppled the certainties of Newton and Kant, inspired the avant-garde in the arts, and paved the way for what were probably the two most politically consequential inventions of the last hundred years: the mass media and the atomic bomb.The aftershocks of all three of these earthquakes of modernity are still reverberating today: in heated debates, from Saudi Arabia to Sri Lanka to Senegal, about the significance of the Enlightenment for human rights and intellectual freedom; in the assessment of how science-driven technology and industrialization may have altered the climate of the entire planet; in anxious negotiations about nuclear disarmament and utopian visions of a global polity linked by the worldwide Net. No one denies the world-shaking and world-making significance of any of these three moments of scientific modernity.Yet from the perspective of the scientists themselves, the experience of modernity coincides with none of these seismic episodes. The most unsettling shift in scientific self-understanding—about what science was and where it was going—began in the middle decades of the nineteenth century, reaching its climax circa 1900. It was around that time that scientists began to wonder uneasily about whether scientific progress was compatible with scientific truth. If advances in knowledge were never-ending, could any scientific theory or empirical result count as real knowledge—true forever and always? Or was science, like the monarchies of Europe’s anciens régimes and the boundaries of its states and principalities, doomed to perpetual revision and revolution? By 1900, when the International Congress of Physics scheduled its inaugural meeting to coincide with the Exposition Universelle in Paris, these anxieties had become acute: The most spectacular recent scientific discoveries, such as x-rays and radioactivity, and theoretical advances, such as the challenges to Newtonian absolute space and the electromagnetic ether, were also experienced by the scientists themselves as dizzying symptoms of malaise—or even of violence. The American historian and statesman Henry Adams, writing about the state of science in 1903, reached for metaphors of anarchist terrorism: “The man of science must have been sleepy indeed who did not jump from his chair like a scared dog when, in 1898, Mme. Curie threw on his desk the metaphysical bomb she called radium.”1 Scientific advances were hurtling forward with the speed and force of a locomotive—but no one knew its final destination, or even whether there was a destination. All one could do was hang on for dear life.2
+
+
+The Great Acceleration
+
+This was the moment when science went modern, when science became not only an active motor of what historian C.A. Bayly has called “the Great Acceleration of 1890–1914,”3 but also its breathless subject, swept up like everyone and everything else in gale-force winds of change. For the scientists, the realization that progress might have its dark side had been germinating since the mid-nineteenth century, when they noticed with consternation that their publications were no longer read after a decade or so and that it had become necessary to revise university curricula and textbooks several times a generation. Last year’s scientific truths, they noted with alarm, were becoming obsolete almost as rapidly as last year’s fashion in millinery. By the 1890s, the pell-mell accumulation of novelties on both the theoretical and empirical fronts threatened to bury the scientists like an avalanche and to undermine the foundations of even the most stable sciences, astronomy and physics.This was also the moment when, as a response to this experience of modernity as acceleration en route to who-knew-where, scientists and later historians of science rethought the relationship of science to history in the broadest sense: not just the past, but also the present and future. As part of a larger effort to explore how the experience of scientific modernity circa 1900 prompted scientists and historians to reimagine the past and the future of science—and indeed the nature of modernity itself—I will here examine the scientists’ own disquieting experience of modernity, science in the as-it-is-happening present tense. It was exactly because that experience appeared to trap them in the hurly-burly present, severed from the past and unable to extrapolate into the future, that scientists in the latter half of the nineteenth century began to redirect their energies and resources to building archives for future research, in the hope that at least these would endure long after all other past scientific work was forgotten. By the 1920s, philosophers and historians began to reflect on the significance of science past—since about the seventeenth century—for modernity tout court. They concluded that science had made the modern world, and, even more consequentially, had created what they called “the modern mentality.” In their view, it was an intellectual revolution of world-shaking dimensions, but one with an ultimately tragic outcome: the loss of lived experience.
+
+
+Science Under Permanent Construction
+
+A few words about the who, when, and what. First, the who: My materials are drawn from the writings of scientists, historians, and philosophers working in Europe and the United States. Second, the when: The “circa” in my anchor date of “circa 1900” should be interpreted with some latitude. I will on occasion reach as far back as the mid-nineteenth century and as far forward as the mid-twentieth century. And third, the what: Although my focus will be the natural sciences, I will also have occasion to include some of the human sciences, particularly classical philology. This is in part because the scope of the word science (as rendered in English and French) and, especially, the German word Wissenschaft was wider than it is now, encompassing all branches of learning, but also in part because the experience of galloping scientific modernity was very much shared by the philologists—indeed, in many respects, classical philology was the first discipline to inaugurate modern ideals of research, institutionalize advanced training in university seminars, establish learned journals for the swift publication (and contradiction) of new results, and visit upon its practitioners the anxious sensation of being overtaken by one’s own students in an ever-accelerating race to produce new results. The metaphors the scientists themselves (and not only the scientists) used to describe modernity were architectural: of building upon solid new foundations after tearing down antiquated, dilapidated structures from earlier times. They imagined the modern flourishing of science as Karl Friedrich Schinkel had imagined the efflorescence of ancient Greece in his painting Blick in Griechenlands Blüte (A view of Greece in its prime) (1825), as the construction of a new and beautiful city, as Aufbau. Conversely, they regarded the outmoded theories and ideas that were flattened by modernity as “ruins”: not as romantic, classical ruins, but, rather, as complete devastation. In science as in city planning, modernity was always associated with a kind of violence. The old and new could not coexist peacefully. By the mid-nineteenth century, however, the uncompromising violence of modernity had begun to alarm even the scientists themselves.These anxieties shaped the experience of modernity among scientists, starting in the mid-nineteenth century. In contrast with the intellectual exhilaration associated with the breakthroughs of the three previously delineated moments of modernity in the history of science, the experience of scientific modernity was disorienting, even frightening, for participants. If science was not about the discovery of eternal truths, what then was its raison d’être? If the achievements of one generation would almost certainly be overthrown by the next, and so on ad infinitum (or perhaps ad nauseam), what was the point of dedicating one’s life to such a Sisyphean task? These were the questions that haunted the scientists confronted with the specter of their own success, starting circa 1840. Although this moment of self-doubt does not align with any of the three moments of modernity in the history of science, I will argue that it captured a certain melancholy that has tinged our understanding of that term ever since. It is a cliché of intellectual history that the doctrine of progress emerges in the seventeenth century, and that Francis Bacon was its prophet.4 For Bacon, it was technology rather than science that was the prototypical progressive enterprise; indeed, he reproached stagnant natural philosophy with the example of the advancing mechanical arts.5 But by the late eighteenth century, the foremost exemplars of progress had become mathematics and the exact sciences. The French mathematician and philosophe Jean d’Alembert, writing in 1751, held up “geometry, astronomy, and mechanics, which are destined by their nature always to be perfecting themselves.”6 Between about 1750 and 1840, a steady stream of histories of various sciences poured from the presses, all purporting to demonstrate the existence and extent of progress in those disciplines.7 Some of the publicists of scientific progress, like the Marquis de Condorcet, claimed that it was not only inexorable but contagious, that the “progress of the physical sciences, which neither the passions nor self-interest can disturb,” would eventually correct “all errors in politics and morals.”8What is striking about late-eighteenth-century and early-nineteenth-century views of scientific progress is not only their buoyant optimism but also their circumscribed understanding of change. Scientific knowledge steadily improved, but it was not renovated. Once the foundations for the new science had been laid in the seventeenth century, so went the standard story, the edifice could be expanded but not remodeled. Certain achievements, Newtonian mechanics being the most often-cited example, were permanent. Even Adam Smith’s remarkable history of astronomy, which treated systems of natural philosophy “as mere inventions of the imagination, to connect together the otherwise discordant and disjointed phaenomena of nature,” concluded with a tribute to the Newtonian system, “the most universal empire that was ever established in philosophy.”9 Other fields—botany, chemistry, political economy—might await their Newtons, and in this sense scientific progress was open-ended. But the open-endedness was expansionist at the fringes, not transformative at the stable center. To continue Smith’s imperial metaphor, new territories awaited scientific conquest, but old victories remained forever safe from reversal.Such underlying conservatism inspired early-nineteenth-century commentators to contrast scientific progress with more wrenching forms of change in society, politics, and letters. In his famous essay “The Spirit of the Age” (1831), John Stuart Mill located his own era in the sign of Proteus: “The conviction is already not far from being universal, that the times are pregnant with change; and that the nineteenth century will be known to posterity as the era of one of the greatest revolutions of which history has preserved the remembrance in the human mind, and in the whole constitution of society.”10 Mill’s was “an age of transition” between periods of stability, an age in which institutions and learning were all in flux, in which “mankind have outgrown old institutions and old doctrines, and have not yet acquired new ones.”11 Although a self-declared political radical, Mill found this vacuum in legitimate authority, intellectual as well as social, more alarming than exciting.Amid this confusion, Mill made out the physical sciences to be a beacon: “While these two contending parties [past and present] are measuring their sophistries against one another, the man who is capable of other ideas than those of his age, has an example in the present state of physical science, and in the manner in which men shape their thoughts and actions within its sphere, of what is to be hoped for and labored for in all other departments of human knowledge; and what, beyond all possibility of doubt, will one day be attained.”12 In the physical sciences, Mill believed, unanimity had been achieved without recourse, for example, to the nasty inquisitorial methods the medieval Catholic Church had used to persuade heretics. Simply because this unanimity rested upon truth rather than force, it was enduring. Science would never again be shaken to its roots by an age of transition: “The physical sciences, therefore, (speaking of them generally) are continually growing, but never changing: in every age they receive indeed mighty improvement, but for them the age of transition is past.”13 This was science in permanent Aufbau, each generation adding cumulatively to the work already accomplished by its predecessors.Science was thus the model of the permanent revolution, accomplished only once and once and for all, never undone by reaction, restoration, or new revolutions. The language of “revolution” in fact gradually declined among nineteenth-century scientists, perhaps in self-conscious distinction to multiplying examples of all-too-impermanent political revolutions.14 Other pundits of the 1830s, such as Auguste Comte and his followers, echoed Mill’s optimism about how scientific progress could be the model for orderly, sedate political and social progress, without rupture or violence.15 But this complacency was short-lived.It is difficult to date just when the perceived progress of science accelerated to the point of vertigo for its practitioners. Already in 1844 Alexander von Humboldt had concluded the preface to his monumental Kosmos with a disquieting reflection on transitory science versus enduring literature:
+
+ It has often been a source of unhappy contemplation that while the purely literary products of the mind are rooted in the depths of emotions and imagination, everything that relates to empiricism and inquiry into natural phenomena and physical laws takes on a different cast in a few decades…indeed, as many say, older works in the natural sciences are consigned to oblivion as unreadable.16
+
+Humboldt consoled himself with the familiar credo that many parts of science had, like celestial mechanics, already reached a “firm, not easily shaken foundation,” and in 1867 the French astronomer Charles-Eugène Delaunay expressed the view that it was “impossible to imagine a more brilliant proof” for Newtonian astronomical theory than the discovery of the planet Neptune.17 But by 1892 the French mathematician and physicist Henri Poincaré was calling for ever more precise techniques of approximation in order to test whether Newton’s law alone could explain all astronomical phenomena, and was warning that the law of gravitation might hang in the balance of certain divergent series.18 The great construction of science, the project of many generations, was beginning to look more like the Tower of Babel, ripe for a divine thunderbolt. The image of the Tower of Babel is used advisedly, for philology was also experiencing the stresses of accelerated advances—and indeed, in this respect and many others, had anticipated developments in the natural sciences by several decades, especially in Germany. Classical philology had pioneered the research-centered institutions of the advanced seminar in Göttingen and Berlin, professional societies that met annually to present papers on the latest results in the field, and journals that published these results speedily—all innovations that were subsequently copied by scientists, first in Germany and then in research-oriented universities all over the world.19 It was also the classical philologists who in 1850 invented Big Science—both the word and the thing—and thereby once again excited the envy and emulation of the scientists, who fretted that all the money was going to the humanities. It is important to keep in mind that it was the philologists who first defined the ideals of research, created the institutions to train and propel research, persuaded governments to bankroll huge projects, and upheld the cult of specialized methods and exactitude. Not for nothing did the French Orientalist Ernest Renan, writing in 1848, credit philology and physics with dispelling the fantasies of “the primitive dream with the clear views of the scientific age,” and praise both disciplines for establishing the “intellectual habits created by modern methods.”20 And the philologists were also the first to experience the obsolescence of their work before their careers had ended, most painfully when their own students wrote scathing reviews criticizing the older generation’s outmoded methods.21 Scientists like Poincaré had been caught up in what Adams in 1907 called the “vertiginous violence”22 of late-nineteenth-century scientific progress. Theories succeeded one another at an ever-accelerating pace; facts pointed to contradictory conclusions. There was no firm theoretical ground safe from such upheavals, for even Newtonian celestial mechanics had begun to quake. The history of science would not stay written, for at any moment a theory that had been solemnly pronounced dead might be revived. The expectations for scientific progress voiced in the early nineteenth century had not been disappointed; rather, they had been fulfilled with a vengeance. Never before had science bustled and flourished as it did in the latter half of the nineteenth century. No one doubted the hurtling progress of science; it was, as Adams shuddered, as real as bombs or wireless telegraphy or airships.23 But scientists themselves seemed sickened by the speed of it, and to have lost their bearings and their nerve. As Adams remarked of his scientific reading, “Chapter after chapter closed with phrases such as one never met in the older literature: ‘The cause of this phenomenon is not understood’; ‘science no longer ventures to explain causes’; ‘the first step towards a causal explanation still remains to be taken’; ‘opinions are very much divided’; ‘in spite of the contradictions involved’; ‘science gets on only by adopting different theories, sometimes contradictory.’”24 Adams, like his entire generation, had read his Mill, and trusted scientists to find the truth and point it out at least in their own domain. He was shocked when they defaulted.
+
+
+Chastened Modernity
+
+As Adams observed, the tone of scientific progress had shifted from confidence to caution. The Berlin physiologist Rudolf Virchow registered the political implications of this change in an 1872 lecture, “Die Freiheit der Wissenschaften im modernen Staatsleben” (The freedom of the sciences in the modern life of the state):
+
+Let us not forget that when a doctrine that had been presented as certain, proven, reliable, and with claims to complete generality is [then] shown to be fundamentally mistaken…many people will lose their faith in science. Then begin the reproaches: You yourselves are not even sure of your doctrines; your truth of today is tomorrow’s lie. How can you demand that your doctrines should become the subject of instruction [in schools] and public knowledge?25 
+
+This was the nightmare of scientific progress: The truths of today would become the falsehoods—or at least the errors—of tomorrow. Or, in the words of Marx and Engels on the revolutionary impact of the bourgeoisie on European society, “All that is solid melts into air; all that is holy is profaned.”The scientists themselves drew different lessons from this dizzying experience of open-ended progress. Some, like the Austrian physicist Ernst Mach, preached caution and self-restraint: Scientists must confine themselves to what can be observed and stop speculating about merely theoretical entities like forces and atoms. The past success of a theory was no guarantee of its future stability. Mach opposed the kinetic theory of gases not simply because atoms and molecules were unobservable, but because of the historical fragility of the unobservable, writing that the theory “must at every moment reckon with the contradiction of new facts, however much it may have previously contributed to an overview of the properties of gases.”26 Others, like Max Weber, went even further, from self-restraint to asceticism. In his 1917 lecture Wissenschaft als Beruf (Science as vocation), Weber warned all those who contemplated pursuing a career in science that they must resign themselves to the depressing fact that in one or two generations everything they had worked for would be forgotten, left far behind by the inexorable progress of science. He seconded Tolstoy’s judgment that modern science was “meaningless” (sinnlos) because it could lead us neither to God nor art nor even nature.27 Those who chose science as a vocation must practice self-denial and resignation on a scale unequaled even by the anonymous builders of medieval cathedrals. The names of the latter might have been forgotten, but they had not labored in vain: Their handiwork still stood and commanded admiration centuries after their deaths. Modern scientists, in contrast, were condemned to oblivion along with everything they had worked for, martyrs to progress.But no longer martyrs to truth. There had been a minor genre of nineteenth-century literature with titles like Martyrs of Science that had celebrated those heroic figures, such as Giordano Bruno and Galileo, who had suffered for the cause of truth, usually at the hands of the benighted and dogmatic Catholic Church.28 By the late nineteenth century, however, any number of prominent scientists, such as Mach, the German chemist Wilhelm Ostwald, and Poincaré, recommended more modest goals, in light of how quickly scientific truths appeared to change. Mach drew a Heraclitean moral from the history of science: “In science more than in any other domain the words of Heraclitus hold: ‘One cannot step twice into the same river’…. One gradually accustoms oneself to the fact that science is unfinished, changeable.”29 Science might be changeable, but could the same apply to truth? The bitter lines in Alfred Tennyson’s poem “Locksley Hall Sixty Years After” (1866) must have struck a chord with many scientists: “Truth for truth, and good for good! The Good, the True, the Pure, the Just / Take the charm ‘For ever’ from them, and they crumble into dust.”This is a chastened modernity, and it stands in stark contrast with the creative furor associated with more familiar moments of scientific modernity. The scientific revolutions of the seventeenth and early nineteenth centuries, like the rise of the new physics in the early twentieth century, were intoxicated with the idea of destroying the old in order to create the new. This was as much an aesthetic as a scientific and philosophical conviction. When in 1637 Descartes wanted to rally support for his radical break with Aristotelian natural philosophy, he chose an architectural metaphor: “Similarly, those ancient towns which were originally nothing but hamlets, and in the course of time have become great cities, are ordinarily very badly arranged compared to one of the symmetrical metropolitan districts which a city planner has laid out in an open plain according to his own designs.”30 According to the modernists, whether in the seventeenth century or the twentieth, innovation means tearing down the old—literally, in the case of cities—in order to make room for the new. Modernism revises everything, fundamentally. Foundations is a word borrowed from the modernists’ own vocabulary: Because the old has been obliterated, the new must be built upon its own, carefully laid foundations. Modernists are not bricoleurs.Nor do they believe in organic growth—or, indeed, organic anything. Modernists negate the slow accretions of history: They do not want to learn from the past; they want to break with it. This is why the scientific and aesthetic dreams of modernists are so relentlessly radical, whatever their century. For those who want to start afresh, the only possible stance toward the past is rejection. Or, to recur to Descartes’s urban planning metaphor, the only way to build the new city is to raze the old one to the ground. But modernist radicalism doesn’t stop there. In its purest form, it seeks to annihilate not only the past but the future as well. The new city erected on the smoldering ruins of the old one is intended to stand for all time, perfect and therefore ageless. This is why it is so difficult to locate modernism along the political spectrum of the reactionary right and the progressive left. Both right and left define themselves in relation to an unsatisfactory present: The right wants to return to a better past; the left wants to move on to a better future. The modernists may seem progressive as compared to the right, but they often look reactionary as compared to the left. In truth, they belong to neither party, because they aspire to be the architects of an eternal present. Once modernists have fulfilled their vision, time stops—until the next wave of modernist fervor. 
+
+
+Modernism of a Melancholy Cast
+
+But modernism cannot live with the vision that it comes in recurrent waves. Nothing is more fatal to a movement that seeks to remake art or science or politics from the ground up than to repeat itself. Once-and-for-all is thrilling; twice-and-for-all, embarrassing; thrice-and-for-all, simply ludicrous. Modernity cannot begin in the seventeenth, the nineteenth, and the twentieth century without becoming something like a joke told once too often. This is why the three modernities of the history of science cannot peacefully coexist. There would be no difficulty in characterizing all three as moments of epoch-making change, as indeed all three undoubtedly were. But change, no matter how transformative, falls short of the accolade “modernity.” Modernity aims to be the change that is so vehement, so thorough, so fundamental, that no further change thereafter is conceivable. There is thus always a simmering argument among the proponents of each of the three modernities in the history of science as to which is the real one, the implication being that the others are imposters, mere revolutions masquerading as the one and only modernity.This is also why the prestissimo pace and aimless trajectory of modern science left the political imagination cold. To understand the depth of the disappointment, one must return to Mill’s hopeful prophecies of 1831. For Mill, the burning issue of the modern age was legitimate authority, and he found his model in the physical sciences. In contrast with the squabbles of politics, in which everyone felt qualified to voice an opinion, “we never hear of the right of private judgment in science,”31 he wrote. Of course, one could in principle object to every article of natural philosophy, but the perfection of scientific method and the near-unanimity of scientists combined to silence would-be dissenters. Science ruled in the sign of truth, and was therefore authoritarian but not tyrannical. When society followed science in settling from its present “transitional state” back into a “natural state,” the uninstructed would once again defer to those “in whom they trust for finding the right, and for pointing it out.”32For Mill, science had disclosed truths that would endure until the end of human history. By the turn of the twentieth century, few scientists could advance such claims so brazenly. Never before had science seemed so successful; never before had scientists been so reluctant to press their claims to truth. This was the paradox of breakneck scientific progress, for truths had become too temporary to merit the name. In the 1830s, Mill had believed scientific truths worthy of an almost religious fervor. In a passage that is all the more telling for being so uncharacteristic, he expressed admiration for the Catholic clergy’s passion for its faith. Not that Mill approved of burning heretics; yet he longed for this passion to be transplanted in all its intensity to the truth: “But the deep earnest feeling of firm and unwavering conviction, which [the burning of heretics] pre-supposes, we may, without being unreasonable, lament that it was impossible and could not but be impossible, in the intellectual anarchy of a general revolution in opinion, to transfer unimpaired to the truth.”33Did the passion, like the authority that once attached to scientific truths, simply evaporate when these truths began to rush past one another at the speed of a landscape viewed from a railcar window? This is the gauntlet modern science flung at the feet of the political imagination: Can passion be harnessed to vision if the vision is not solidified by truth? Or (a still more daunting challenge) can a new ideal of truth be imagined that can encompass the fact that all truths are embedded in time? Although modern philosophers respect science as the gold standard of rationality, if not of reason, they have been loath to draw the consequences from a concept of truth that dates back millennia, one that yoked the perfect polity to a Platonic heaven of eternal ideas. Enlightenment visions of the perfect polity were anything but Platonic; yet they were still undergirded by allegedly universal, eternal truths, mightier than the powers that be and certain to triumph in the fullness of time. But when scientific progress turned explosionist in the mid-nineteenth century, these foundations of the political imagination melted away. Science had succeeded brilliantly in understanding ever more of the universe, ever more profoundly—but its understanding was a permanent work in progress.The modernism that overtook the scientists circa 1900 was of a melancholy, less triumphal cast. Their imagination was possessed not by visions of new cities built upon indestructible foundations but by visions of ruins. The scientists did not annihilate time; rather, time annihilated them. Their experience of the modernist predicament was one of evanescence and futility. As Poincaré sighed in La science et l’hypothèse (1903), “Every century makes fun of the preceding one, accusing it of having generalized too quickly and too naïvely. Descartes pitied the Ionians; Descartes in his turn makes us smile; doubtless our sons will laugh at us one day.”34 The scientists cultivated an ambivalent modernism, enamored of the new while at the same time nostalgic for the old. Starting in the 1840s, with a crescendo reached in the 1890s, their writings express sadness, yearning, and resignation. This elegiac mood is in some ways paradoxical. During this period, the sciences were by every measure fabulously successful: Brilliant theoretical and experimental breakthroughs in chemistry, bacteriology, and electromagnetism filled learned journals and daily newspapers; science-based technologies boomed; the prestige (and pay) of scientists soared. Yet the victories rang hollow. What was the value of a scientific truth that might last less than the lifetime of a scientist? And if scientific truths were the sturdiest truths of all, what was the value of capital-T Truth?>br/>
+Very few scientists succumbed to skepticism, but many, if not most, felt obliged to revise their expectations downward. Perhaps science did not seek eternal truths, but something more modest: objectivity, or utility, or precision. Many late-nineteenth-century scientists (and humanists) attempted to salvage something permanent from progress in the form of archives for the future. Whether they succeeded or not is another question. The question of how to reconcile breakneck scientific progress with durable scientific truth is still very much with us, as the confusion surrounding each new medical study that contradicts the recommendations of the previous one shows all too clearly. But we the public—and, a fortiori, the scientists—have by now become accustomed to the short half-life of scientific truths. For the scientists of the latter half of the nineteenth century, however, the conflict between scientific progress and scientific truth was new and alarming—so alarming that Poincaré tried to replace Descartes’s ur-modernist metaphor of ripping up old cities in order to build new ones with something more organic: “We should not compare the advance of science to the transformations of a city, where the old edifices are pitilessly torn down to make room for new constructions, but to the continuous evolution of zoological species that constantly develop and end up by becoming unrecognizable to vulgar eyes, but in which a practiced eye can always find the traces of the earlier work of past centuries.”35 Poincaré did not mention Descartes by name, but no Frenchman drilled on the Discours de la méthode in a Troisième République lycée would have missed the allusion. Modern science had seceded from the spirit of modernity. 
+
+
+
+
+Endnotes       
+	Henry Adams, The Education of Henry Adams: An Autobiography (Boston, MA: Houghton Mifflin, 1961), 452. First published 1918.
+John L. Heilbron, “Fin-de-Siècle Physics,” in Science, Technology, and Society in the Time of Alfred Nobel, ed. Carl G. Bernhard (Oxford, England: Pergamon, 1982), 51–73; Richard Staley, Einstein’s Generation: The Origins of the Relativity Revolution (Chicago, IL: University of Chicago Press, 2008). 
+C.A. Bayly, The Birth of the Modern World 1780–1914: Global Connections and Comparisons (Oxford, England: Blackwell, 2004), 456.
+J.B. Bury, The Idea of Progress (London, England: Macmillan, 1920); Sidney Pollard, The Idea of Progress (Harmondsworth, England: Penguin, 1971); Richard Foster Jones, Ancients and Moderns (New York, NY: Dover, 1982, first published 1936). 
+Francis Bacon, Novum organum (first published 1620), in The Works of Francis Bacon, Lord Chancellor of England: A New Edition, 16 vols., ed. Basil Montagu (London, England: William Pickering, 1825–34), vol. 14, bk. I, aph. 74.
+Jean d’Alembert, Preliminary Discourse to the Encyclopedia of Diderot, trans. Richard N. Schwab (Indianapolis, IN: Bobbs-Merrill, 1963), 96. First published 1751.
+Rachel Laudan, “Histories of Sciences and Their Uses: A Review to 1913,” History of Science 31 (1993): 1–34.
+M.J.A.N. Condorcet, Sketch for a Historical Picture of the Progress of the Human Mind, trans. June Barraclough, with an introduction by Stuart Hampshire (London, England: Weidenfeld and Nicolson, 1955), 164, 163. First published 1795.
+Adam Smith, The Principles Which Lead and Direct Philosophical Enquiries: Illustrated by the History of Astronomy (first published 1795), in The Works of Adam Smith: With an Account of His Life and Writings by Dugald Stewart, 5 vols. (London, England: T. Cadell and W. Davies, 1811), vol. 5, 188–89. 
+John Stuart Mill, “The Spirit of the Age,” (first published 1831), in The Collected Works of John Stuart Mill, ed. J.M. Robson et al., 33 vols. (Toronto, Canada: University of Toronto Press, 1963–1991), vol. 32, 228–29.
+Ibid., 230.
+Ibid., 239.
+Ibid., 239–40; emphasis in the original.
+I. Bernard Cohen, Revolutions in Science (Cambridge, MA: Harvard University Press, 1985), 273–80.
+August Comte, Cours de philosophie positive (Course in Positive Philosophy), 6 vols. (Paris, France: Bachelier, 1830–42), vol. 1, 2–4.
+Alexander von Humboldt, Kosmos (Cosmos), 4 vols. (Stuttgart, Germany: J.G. Cotta, 1874), vol. 1, xxiv. First published 1845−62. Quoted passage translated by the present author.
+Charles-Eugène Delaunay, Rapport sur le progrès de l’astronomie (Report on the Progress of Astronomy) (Paris, France: Imprimerie Impériale, 1867), 14.
+Henri Poincaré, Les méthodes nouvelles de la mécanique céleste (New Methods of Celestial Mechanics), 3 vols. (Paris, France: Gauthier-Villars, 1892–99), vol. 1, 3–4.
+William Clark, Academic Charisma and the Origins of the Research University (Chicago, IL: University of Chicago Press, 2006); Kathryn Olesko, Physics as a Calling: Discipline and Practice in the Königsberg Seminar for Physics (Ithaca, NY: Cornell University Press, 1991); R. Steven Turner, “Historicism, Kritik, and the Prussian Professoriate, 1790–1840,” in Philologie et herméneutique au 19. siècle (Philosophy and Hermeneutics in the Nineteenth Century), eds. M. Bollack and H. Wismann (Göttingen, Germany: Vanderhoek und Ruprecht, 1983), 450–89.
+Ernest Renan, L’Avenir de la science (The Future of Science), ed. Annie Petit (Paris, France: Garnier Flammarion, 1995), 114, completed 1848, first published 1890; cp. Friedrich August Wolf, Darstellung der Alterthumswissenschaft, nebst einer Auswahl seiner kleinen Schriften (Presentation of the Sciences of Antiquity, with a Selection of Brief Writings), ed. S.F.W. Hoffmann (Leipzig, Germany: Lehhold’sche Buchhandlung, 1839), 25, on the exactitude of philological Kritik approximating the certainty of the exact sciences.
+Turner, “Historicism,” 467.
+Adams, The Education of Henry Adams, 452, 495.
+Ibid., 496.
+	Ibid., 497.
+	Rudolf Virchow, “Die Freiheit der Wissenschaften im Modernen Staatsleben” (The Freedom of the Sciences in the Modern Life of the State) (1872), Amtlicher Bericht über die Versammlung Deutscher Naturforscher und Ärtzte (Official report of the German Association of Scientists and Doctors) 50 (1877): 65–77, 73. Quoted passage translated by the present author.
+	Ernst Mach, Die Principien der Wärmelehre: Historisch-kritisch entwickelt (Principles of the Theory of Heat: Historically and Critically Elucidated) (Leipzig, Germany: Johann Ambrosius Barth, 1896), 115. Quoted passage translated by the present author.
+	Max Weber, “Wissenschaft als Beruf” (Science as Vocation), first published 1918, in Gesammelte Aufsätze zur Wissenschaftslehre (Collected Essays on Epistemology), 3rd ed., ed. Johannes Winckelmann (Tübingen, Germany: J.C.B. Mohr, 1968), 524−55, 534−36. Quoted passage translated by the present author.
+	See, for example, David Brewster, The Martyrs of Science; or, The Lives of Galileo, Tycho Brahe, and Kepler (New York, NY: Harper, 1841).
+	Ernst Mach, Die Geschichte und die Wurzel des Satzes von der Erhaltung der Arbeit (The History and Origins of the Principle of the Conservation of Energy), 2nd ed. (Leipzig, Germany: Verlag von Johann Ambrosius Barth, 1909), 3. First published 1872. Quoted passage translated by the present author.
+	René Descartes, Discourse on Method in Discourse on Method and Meditations, trans. and ed. Laurence J. Lafleur (Indianapolis, IN: Bobbs-Merrill, 1979), Part II, 10. First published 1637.
+	Mill, “The Spirit of the Age,” 239. 
+	Ibid., 304.
+	Ibid., 305.
+	Henri Poincaré, La Science et l’hypothèse (Science and Hypothesis) (Paris, France: Flammarion, 1968), 157. First published 1903. Quoted passage translated by the present author.
+	Henri Poincaré, La Valeur de la science (The Value of Science) (Paris, France: Flammarion, 1970), 23. First published 1905. Quoted passage translated by the present author.
+
+Lorraine Daston is director of the Max Planck Institute for the History of Science, Berlin, and a visiting professor in the Committee on Social Thought, University of Chicago. Her many books, authored, coauthored, and edited, include Objectivity (with Peter Galison, 2007), How Reason Almost Lost Its Mind: The Strange Career of Cold War Rationality (with Paul Erickson et al., 2014), and Science in the Archives (2016). This essay is adapted from one part of her Page-Barbour Lectures, delivered at the University of Virginia in 2016.
+
+Reprinted from The Hedgehog Review 18.3 (Fall 2016). This essay may not be resold, reprinted, or redistributed for compensation of any kind without prior written permission. Please contact The Hedgehog Review for further details.
+
+
+
+    
+  
+  
+  
+  
+    Who We Are
+    Published three times a year by the Institute for Advanced Studies in Culture, The Hedgehog Review offers critical reflections on contemporary culture—how we shape it, and how it shapes us.
+    IASC Home | Research | Scholars | Events | Media
+  
+
+  
+    IASC Newsletter Signup
+    
+      First Name
+          Last Name
+          Email Address
+        
+            
+          
+          
+         
+           
+          
+              
+        
+      
+      Follow Us . . . 
+    
+  
+  
+
+
+
+  
+    THR Home | About | Issues | Contact | Order
+    
+    Copyright © 2007-2016, IASC. All rights reserved. Site map.
+  
+
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9374130-1']);
+  _gaq.push(['_setAllowAnchor', true]); 
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+

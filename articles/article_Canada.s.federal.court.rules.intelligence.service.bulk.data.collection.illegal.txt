@@ -1,0 +1,1520 @@
+In scathing ruling, Federal Court says CSIS bulk data collection illegal - The Globe and Mail
+var $g_conf = {
+publicationUrl : 'http://www.theglobeandmail.com/',
+mediaUrl:'http://beta.images.theglobeandmail.com',
+watchlistUrl: 'http://www.theglobeandmail.com/globe-investor/my-watchlist/',
+securePubUrl: 'https://sec.theglobeandmail.com',
+secureMediaUrl: 'https://sec.images.theglobeandmail.com',
+mct: ["news","blog","column","csv","poll","recipe","review","textgallery","audioarticle","infographic","embeddable","asf"],
+exmct: 'picture,media,embeddable,video,vmevideo,videobinary,gallery,textgallery,infographic,audioarticle,link,audio,factbox',
+servicesHost: 'gamservices.theglobeandmail.com',
+stocks: {
+summary: {name:'Stock Quote',uniquename:'stocksummary',url:'http://www.theglobeandmail.com/globe-investor/markets/stocks/summary/'},
+news: {name:'News',uniquename:'stocknews',url:'http://www.theglobeandmail.com/globe-investor/markets/stocks/news/'},
+chart: {name:'Chart',uniquename:'stockchart',url:'http://www.theglobeandmail.com/globe-investor/markets/stocks/chart/'}
+},
+funds: {
+summary: {name:'Fund Quote',uniquename:'fundsummary',url:'http://www.theglobeandmail.com/globe-investor/funds-and-etfs/funds/summary/'}
+},
+indexes: {
+summary: {name:'Index Quote',uniquename:'indexsummary',url:'http://www.theglobeandmail.com/globe-investor/markets/indexes/summary/'},
+news: {name:'News',uniquename:'indexnews',url:'http://www.theglobeandmail.com/globe-investor/markets/indexes/news/'},
+chart: {name:'Chart',uniquename:'indexchart',url:'http://www.theglobeandmail.com/globe-investor/markets/indexes/chart/'}
+}
+};
+$g_conf.current = { articleId: "32669448", sectionId: "152" };
+var adv = {
+__config: {
+mobi:false,
+slimcut:true,
+canvas:true,
+env:'production',
+domination:false,
+async:true,
+mode:'page'
+}
+};
+
+TGAMD.user.set('referrer','');
+TGAMD.user.set('lang',function _lang(){return ''.split(',')[0];});
+(function(u){
+u.set({
+country:'',
+guid:'',
+postal:'',
+birthYear:'',
+gender:'',
+industry:'',
+position:'',
+incomeRange:'',
+newsletters:'',
+watchlist:'',
+prizm:''});
+})(TGAMD.user);
+adv.site = "theglobeandmail.com";
+adv.vertical = "news";
+adv.region = "";
+adv.zone = "national";
+adv.crumb = "-pubRoot-news-national-article";
+adv.loc = "art";
+adv.adpg = "national";
+adv.reg.postal = TGAMD.user.get('postal');
+adv.reg.watchlist = TGAMD.user.get('watchlist');
+adv.reg.pz = TGAMD.user.get('prizm');
+if ($g.getCookie("BRIEFCASE_VIEW") != null) {
+adv.reg.dv = $g.getCookie("BRIEFCASE_VIEW") == "hidden" ? '0' : '1';
+}
+adv.reg.cg = TGAMD.user.get('role');
+if(util.getCookie('AMCV_02A4210654EF032A0A4C98A7%40AdobeOrg')){
+var amcv_array = util.getCookie("AMCV_02A4210654EF032A0A4C98A7%40AdobeOrg").split("|");
+for (var amcv_counter = 0; amcv_counter < amcv_array.length; amcv_counter++) {
+if (amcv_array[amcv_counter] == 'MCMID') {
+adv.mcmid = amcv_array[amcv_counter + 1];
+}
+}
+}
+var _ls = util.getStoredValue('gmn_lsec');
+if (typeof _ls === 'undefined') {
+_ls = "national";
+}
+adv.lastSection = _ls;
+adv.art = {};
+adv.art.headline = "In scathing ruling, Federal Court says CSIS bulk data collection illegal";
+adv.art.id = "32669448";
+adv.art.sections = "news,national,home";
+adv.art.topics = "Canadian Security Intelligence Service,Federal Court,Canada";
+adv.art.keywords = "Federal Court;Canadian Security Intelligence Service;csis;Security Intelligence Review Committee;Canada;data collection;illegal;ruling;bulk;";
+adv.art.byline = "COLIN FREEZE";
+adv.art.sectionsHier = "news,news:national,homepage";
+adv.art.credit = "globe and mail update";
+adv.art.type = "news";
+
+// set default data layer values for anonymous user
+var ensightenLayer = {
+userID: "",
+userAccountType: "Anonymous User",
+kruxID: "",
+loggedIn: "false",
+postalCode: "",
+prizmc2: "",
+birthYear: "",
+gender: "",
+industry: "",
+position: "",
+incomeRange: "",
+ssvcs: "",
+newsletter: "",
+articleID: "",
+headline: "",
+byline: "",
+articleType: "section",
+creditline: "",
+topics: "",
+keywords: "",
+articleColour:"",
+siteSectionPageName: "ece_frontpage|news|national",
+pageName: "news:national:article",
+environment: "production",
+mobile: "false",
+identity: {
+propensity: (typeof $g.getStoredValue("threshwall_propensity_str") === undefined) ? "normal" : $g.getStoredValue("threshwall_propensity_str")
+}
+};
+ensightenLayer.articleID = "32669448";
+ensightenLayer.headline = "In scathing ruling, Federal Court says CSIS bulk data collection illegal";
+ensightenLayer.byline = "COLIN FREEZE";
+ensightenLayer.articleType = "news";
+ensightenLayer.creditline = "globe and mail update";
+ensightenLayer.topics = "Canadian Security Intelligence Service;Federal Court;Canada";
+ensightenLayer.keywords = "Federal Court;Canadian Security Intelligence Service;csis;Security Intelligence Review Committee;Canada;data collection;illegal;ruling;bulk;";
+ensightenLayer.articleColour ="yellow";
+ensightenLayer.ownership = "staff writer";
+ensightenLayer.icx_url= "http://license.icopyright.net/3.7441?icx_id=32669448";
+ensightenLayer.paywallSrc = "piano";
+ensightenLayer.evar62 = "Encountered Hard Paywall"
+// if user is logged in, update data layer values with MT login-defined properties
+// WEBCEM-3 add annon logic to capture MCMID value
+if (TGAMD.user.is.anonymous == false) {
+ensightenLayer.userAccountType = TGAMD.analytics.user.role();
+ensightenLayer.loggedIn = "true";
+ensightenLayer.userID = TGAMD.user.get('guid');
+ensightenLayer.postalCode = TGAMD.user.get('postal').substring(0, 3);
+ensightenLayer.prizmc2 = TGAMD.user.get('prizm');
+ensightenLayer.kruxID = TGAMD.user.get('kuser');
+ensightenLayer.birthYear = (TGAMD.user.get('birthYear') === '0' ? '0' : '1');
+ensightenLayer.gender = (TGAMD.user.get('gender') === '' ? '0' : '1');
+ensightenLayer.industry = (TGAMD.user.get('industry') === '' ? '0' : '1');
+ensightenLayer.position = (TGAMD.user.get('position') === '' ? '0' : '1');
+ensightenLayer.incomeRange = (TGAMD.user.get('incomeRange') === '' ? '0' : '1');
+ensightenLayer.newsletter = TGAMD.user.get('newsletter');
+ensightenLayer.ssvcs = TGAMD.user.get('ssvcs');
+} else {
+var adobeCookie = util.getCookie('AMCV_02A4210654EF032A0A4C98A7%40AdobeOrg');
+if (!!adobeCookie){
+adobeCookie = adobeCookie.split('|');
+var MCMID = adobeCookie.indexOf("MCMID");
+ensightenLayer.userID = adobeCookie[MCMID+1];
+}
+}
+
+
+
+
+
+
+googletag.cmd.push(function() {
+googletag.display('ldbd-gpt-1');
+});
+
+
+
+
+
+Jump to main navigationJump to main content
+
+
+
+News Search
+News
+
+
+
+by eluta.ca
+
+Search Jobs at eluta.ca
+Jobs
+
+
+
+
+
+Login
+
+
+Register
+
+
+
+
+18 
+Toronto
+
+
+
+$g_user.renderMastLinks();
+Subscribe
+Help
+
+
+AdChoices
+
+
+
+ Home
+
+
+
+
+
+ News
+
+
+
+
+
+
+ Opinion
+
+
+
+
+ Business
+
+
+
+
+ Investing
+
+
+
+
+ Sports
+
+
+
+
+ Life
+
+
+
+
+ Arts
+
+
+
+
+ Tech
+
+
+
+
+ Drive
+
+
+
+
+ Real Estate
+
+
+
+
+National
+
+
+
+
+
+Politics
+
+
+
+
+British Columbia
+
+
+
+
+Alberta
+
+
+
+
+Toronto
+
+
+
+
+World
+
+
+
+
+Video
+
+
+
+Home»
+News»
+National
+
+
+
+
+
+
+
+
+A sign for the Canadian Security Intelligence Service building is shown in Ottawa on May 14, 2013. (Sean Kilpatrick/THE CANADIAN PRESS)
+
+
+
+A sign for the Canadian Security Intelligence Service building is shown in Ottawa on May 14, 2013.(Sean Kilpatrick/THE CANADIAN PRESS)
+
+
+In scathing ruling, Federal Court says CSIS bulk data collection illegal
+Add to ...
+
+
+
+Colin Freeze
+
+
+
+
+
+The Globe and Mail
+
+
+Published
+Thursday, Nov. 03, 2016 4:36PM EDT
+Last updated
+Thursday, Nov. 03, 2016 10:02PM EDT
+
+
+
+
+
+
+
+
+
+
+Comments
+
+
+
+
+
+Print /License
+
+
+AA
+
+
+
+.custom-horoscope__register {
+display: none !important;
+}
+.custom-horoscope__content {
+display: none !important;
+}
+
+
+
+
+
+googletag.cmd.push(function() {
+googletag.display('tile-gpt-1');
+});
+
+
+
+
+The Federal Court of Canada has faulted Canada’s domestic spy agency for unlawfully retaining data and for not being truthful with judges who authorize its intelligence programs. Separately, the court also revealed that the spy agency no longer needs warrants to collect Canadians’ tax records.All this has been exposed in a rare ruling about the growing scope of Canadian intelligence collection disclosed by the court on Thursday. At issue is how the federal domestic spy service has been pushing past its legal boundaries in the name of collecting data, in hopes of rounding out the holdings of a little-known Canadian intelligence facility dubbed the “operational data analysis centre.”
+
+Many corporations and government agencies are now gravitating toward so-called big data computer analytics that can predict patterns of future behaviour based upon records about what has happened in the past. Spy agencies are no different, and the centre in question appears to be the Canadian Security Intelligence Service’s equivalent of a crystal ball – a place where intelligence analysts attempt to deduce future threats by examining, and re-examining, volumes of data.Read more: CSIS suspends bulk data mining pending new guidelinesRead more: Concerns over Bill C-51 prompt CSIS to brief other agencies on operationsFor subscribers: Liberals’ delay in changing Bill C-51 raises suspicionsThe fundamental question is whether CSIS should be allowed to do this, by means that include retaining information relating to its wiretaps indefinitely, and indiscriminately keeping information about as many people as it can.What the Federal Court has decided is that such retention violates federal laws. Under the 1984 CSIS Act, the agency’s intelligence officers can only hold onto data deemed “strictly necessary” to keep.Yet, for a decade it appears the spy agency was secretively holding onto phone logs and e-mail trails that it had mapped out around targets of past investigations, even when it was forced to destroy the underlying intercepted conversations. Retaining such communications metadata – or what CSIS calls associated data – would appear to mean the government is keeping records relating to the family, friends and acquaintances of former terrorism suspects.Such practices are hard to square with Canada’s Charter of Rights and Freedoms, and CSIS officials and their Justice Department lawyers suspected Canada’s judges might feel this way if ever apprised. The Federal Court, which authorizes CSIS’s wiretapping bids, said it had never been given any idea about the spy service’s designs on big data. Even when judges finally figured out they should press CSIS on what it was doing with the data associated with wiretaps, it found the spy agency evasive.“The Court had never before been fully informed of the existence of the program. The Court, during the hearings, learned that the program had been in existence since 2006 yet it had never heard nor seen any evidence on the matter,” reads the ruling.The ruling from Judge Simon Noël is significant because it is the second time in three years that a senior Federal Court judge has ruled CSIS has not been truthful to the court in its applications for wiretaps. And this time, judges had to team up as a collective – or to meet en banc – on several occasions to call witnesses before determining the spy service was not meeting its “duty of candour.”“It took four days of en banc hearings, several witnesses and five affidavits for the CSIS to explain the ‘associated data’ retention program and to answer the designated judges’ questions,” Justice Noël wrote. He stressed that CSIS “cannot abuse its unique position” and “has certainly not enhanced the Court’s trust.”But there is no apparent fallout from this for CSIS yet. While the spy agency says it will stop analyzing the contentious data, there are no indications that it will destroy the data.Following the ruling, Public Safety Minister Ralph Goodale released a statement that was equal parts stern and upbeat.“I will be pursuing this criticism with the executive management of the service,” he said. But Mr. Goodale added that the judges mentioned that CSIS’s data-analytics program “has yielded some useful intelligence results.” He suggested the program could be bolstered with a few legislative changes. “The CSIS Act is now more than 30 years old and showing its age as global affairs, threat profiles, technology and public expectations have rapidly evolved,” Mr. Goodale wrote.Though the minister is currently canvassing Canadians on what powers they think CSIS should have, he has never apprised the public on the kinds of frictions CSIS’s operational data analysis centre is causing. While CSIS won’t speak to what other kinds of data it holds, its officials say the centre’s work continues.That’s because there are other ways to populate it. In one telling passage, Justice Noël points out that controversial legislation passed in the Conservative government’s dying days has vastly increased CSIS’s access to data held by other federal departments. “CSIS no longer needs a warrant to obtain information from the Canada Revenue Agency,” the ruling reads at one point.
+
+
+Report Typo/Error
+
+Follow Colin Freeze on Twitter: @colinfreeze
+
+
+
+Also on The Globe and Mail
+
+
+
+try { var bcadurl = fnTkt('a'+'ai',576,324,ai,'bca',nc); } catch(err) { } // configure ad code url
+document.write('<object id="myExperience_" class="BrightcoveExperience">');
+document.write('<param name="bgcolor" value="#FFFFFF" />');
+document.write('<param name="width" value="620px" />');
+document.write('<param name="height" value="349px" />');
+document.write('<param name="playerID" value="" />');
+document.write('<param name="playerKey" value="AQ~~,AAABdx1wZGk~,QB6UWLKoZelemKX7zjogaXZnbchH5tkH" />');
+document.write('<param name="isVid" value="true" />');
+document.write('<param name="isUI" value="true" />');
+document.write('<param name="@videoPlayer" value="ref:escenic-27482634">');
+document.write('<param name="dynamicStreaming" value="true" />');
+document.write('<param name="includeAPI" value="true" />');
+document.write('<param name="templateLoadHandler" value="BCL.onTemplateLoad" />');
+document.write('<param name="templateReadyHandler" value="BCL.onTemplateReady" /> ');
+document.write('<param name="autoStart" value="false" />');
+if (typeof bcadurl == 'string') { document.write('<param name="adServerURL" value="' + bcadurl + '?" />'); }
+document.write('</object>');
+
+RCMP boss wants warrant-less access to Internet subscriber data (CP Video)
+
+
+
+
+ 
+
+
+
+More Related to this Story
+
+
+
+CSIS suspends bulk data mining pending new guidelines
+
+
+
+
+
+
+New spy-accountability bill will create easily muzzled watchdog, report says
+
+
+
+
+
+
+RCMP’s counterterrorism centre in Ottawa serves as intersection of information
+
+
+
+
+
+Topics
+Canadian Security Intelligence Service
+
+Federal Court
+
+Canada
+
+
+
+
+
+Comments
+
+
+
+
+
+
+Print /License
+
+
+AA
+
+
+
+
+var recommendationServer = 'http://prdapimain-elb-mmqwpdexwx2z-461677252.us-east-1.elb.amazonaws.com/v1/',
+platform='desktop';
+Next story| Learn More
+
+Discover content from The Globe and Mail that you might otherwise not have come across. Here we’ll provide you with fresh suggestions where we will continue to make even better ones as we get to know you better.You can let us know if a suggestion is not to your liking by hitting the ‘’ close button to the right of the headline.
+
+
+
+
+
+
+{{article_sprite}}
+
+{{title}}
+{{published_at}}
+
+
+
+
+.preloader{display:none;}
+
+
+
+
+
+
+googletag.cmd.push(function () {
+googletag.display('boxr-gpt-1');
+});
+
+
+In the know
+
+
+
+BABAD'S WEEKEND
+
+
+How Ottawa is ‘at the mercy of the economy’
+
+
+
+
+
+
+TRAVEL
+
+
+A postwar getaway at Gleneagles in Scotland’s rolling hills
+
+
+
+
+
+
+News
+
+
+
+Growing pains: How Toronto and the GTA are battling urban sprawl
+
+
+
+
+
+
+FINANCIAL FACELIFT
+
+
+Is a cross-country retirement move within this couple’s grasp?
+
+
+
+
+
+
+Life
+
+
+Are you an early bird or night owl? Find out before the clocks change
+
+
+
+
+
+The Globe Recommends
+
+
+div.secondary section.hdlist:nth-of-type(2) {
+display: none;
+}
+
+var recommendationServer = 'http://prdapimain-elb-mmqwpdexwx2z-461677252.us-east-1.elb.amazonaws.com/v1/',
+platform='desktop';
+
+
+{{title}}
+
+
+
+
+.preloader{display:none;}
+
+Most popular videos »
+
+
+
+
+
+
+
+
+ News
+
+
+The origins of Daylight Saving Time
+
+
+
+
+
+ News
+
+
+Donald Trump rushed off stage in Nevada by security agents
+
+
+
+
+
+ Life
+
+
+Hate sticky oatmeal? Here's how to make it perfectly every time
+
+
+
+
+
+ News
+
+
+Bill Murray crashes the White House briefing room, takes questions from reporters
+
+
+
+
+
+
+
+ News
+
+
+Growing pains: How Toronto and the GTA are battling urban sprawl
+
+
+
+
+
+ News
+
+
+Visiting the slice of the U.S. attached to B.C. (ahead of the presidential election)
+
+
+
+
+
+ News
+
+
+He's not an evolved soul to me: Jay Z on Trump
+
+
+
+
+
+ News
+
+
+Obama chastises Clinton backers who react to protester supporting Trump
+
+
+
+
+
+
+
+ Report on Business
+
+
+Mariah Carey reportedly earns $1-million at Hudson's Bay window unveiling
+
+
+
+
+
+ Life
+
+
+B.C. fisherman lands three-metre-long sturgeon
+
+
+
+
+
+ Report on Business
+
+
+How to cut ties with your financial adviser
+
+
+
+
+
+ Life
+
+
+Qantas Airways pilot proposes to his girlfriend mid-flight
+
+
+
+
+◀
+●
+●
+●
+▶
+
+
+
+
+
+Highlights
+
+
+
+
+
+
+Sports
+
+
+Canada’s tennis surge creates cheers – but also challenges
+
+
+
+
+
+
+
+
+Report on Business
+
+
+How obscure retailers can gain a customer’s trust online
+
+
+
+
+
+
+More from The Globe and Mail
+
+
+
+
+
+
+ Report on Business
+
+
+Seven ways your lizard brain can improve your persuasion skills
+
+
+
+
+
+
+
+
+ Arts
+
+
+John Doyle: JFK Jr. documentary lends perspective to modern politics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+googletag.cmd.push(function() {
+googletag.display('halfpager-gpt-1');
+});
+
+
+Most popular
+
+
+
+
+
+Security scare for Trump in final days before election
+
+
+
+
+
+
+Nov. 6: Your lookahead horoscope
+
+
+
+
+
+
+Why is the U.S. election so close?
+
+
+
+
+
+
+Dear America: Please don’t vote for Donald Trump
+
+
+
+
+
+
+Follow the money to see why Putin wants a Trump victory
+
+
+
+
+
+
+
+
+
+
+
+X
+
+
+
+  
+  
+ 
+ connect with us 
+  
+  
+  
+
+
+Products
+
+
+
+The Globe and Mail Newspaper
+Newspaper delivered to your doorstep.
+Subscribe to the newspaper
+
+
+
+
+
+
+Globe Unlimited
+Digital all access pass across devices.
+Subscribe to Globe Unlimited
+
+
+
+
+
+
+Globe2Go
+The digital replica of our newspaper.
+Subscribe to Globe2Go
+
+
+
+
+
+
+Globe Email Newsletters
+Get top Globe stories sent to your inbox.
+Subscribe to email newsletters
+
+
+
+
+
+
+Globe eBooks
+A collection of articles by the Globe.
+View the library
+
+
+
+Advertise with us
+
+
+GlobeLink.ca
+
+Your number one partner for reaching Canada's Influential Achievers.
+
+
+Or go directly to:
+Newspaper
+Magazine
+Digital
+Globe Alliance: extend your reach
+Globe Edge: custom content
+Classifieds
+The Globe at your Workplace
+
+Globe Corporate Sales
+Globe Unlimited digital edition and Globe2Go e-paper group discounts available.
+Learn more
+
+
+Corporate financial data and content licensing for your organization.
+Learn more
+
+
+Or go directly to:
+Report On Business Top 1000
+DataStore essential business intelligence
+Our Company
+About us
+Work at The Globe
+Staff
+Secure Services
+Secure Drop
+Staff PGP Directory
+Customer Service
+Contact Us
+Customer Preference Center
+FAQs
+Customer Care website
+Digital subscription services
+Print subscription services
+Change your delivery address
+Vacation Stops
+Mobile Apps
+News
+
+
+
+NEWS APP
+
+Available for download on the following devices
+iPhone
+iPad
+Android
+Blackberry
+
+
+Other Sections
+Appointments
+Art Store
+Births & Announcements
+Corrections
+Classifieds
+Classroom Edition
+Deaths
+Newspaper Ads
+Real Estate
+Special Reports
+Site Map
+
+Terms & Conditions
+Privacy Policy
+Disclaimer
+Accessibility Policy
+Community Guidelines
+Globe sustainability
+Editorial Code of Conduct
+
+
+Copyright 2016 The Globe and Mail Inc. All Rights Reserved.
+
+
+444 Front St. W.,
+Toronto, 
+ON 
+Canada 
+M5V 2S9
+Phillip Crawley, Publisher
+
+
+
+
+
+var s_account = "bellgmpnewprod";
+
+var tlu = {"name":'tgam_limited_user', "val":util.getStoredValue('tgam_limited_user')};
+function omniSubscribeSuccess() {
+var start = util.getStoredIndex(tlu.name, 2);
+var stamp = util.getStoredIndex(tlu.name, 0);
+var omni_start = new Date(start), omni_stamp = new Date(stamp);
+var omni_end = new Date(util.getStoredIndex(tlu.name, 3, '|'));
+if (start == 'na' && stamp != 'na') {
+omni_start = omni_stamp;
+}
+var one_day = 1000 * 60 * 60 * 24;
+return Math.ceil((omni_end.getTime() - omni_start.getTime()) / (one_day));
+}
+try {
+s.prop25 = TGAMD.user.get('prizm');
+s.prop65 = TGAMD.user.get('kuser');
+// set event4 for login events, remove local storage flag
+if (s.Util.getQueryParam('ord') == "0" || s.Util.getQueryParam('ord') == "1") {
+s.events = s.apl(s.events, 'event4', ',', 1);
+}
+if ( !TGAMD.analytics.user.is.anonymous ) {
+s.prop2 = s.getAndPersistValue("Logged In", "s_user_login_status");
+s.prop4 = s.getAndPersistValue(TGAMD.user.get('country'), "s_user_country", (365 * 5));
+s.prop9 = TGAMD.user.get('guid');
+s.eVar9 = "D=c9";
+} else {
+s.prop2 = s.getAndPersistValue("Not Logged In", "s_user_login_status");
+s.prop4 = s.getAndPersistValue("Not Set", "s_user_country", (365 * 5));
+}
+s.eVar3 = "D=c2";
+s.eVar4 = "D=c4";
+s.prop10 = TGAMD.analytics.user.role();
+s.eVar10 = "D=c10";
+s.eVar53 = TGAMD.analytics.referrer(TGAMD.user.get('referrer')).short;
+s.eVar54 = TGAMD.analytics.referrer(TGAMD.user.get('referrer')).original;
+s.eVar86 = typeof $g.getStoredValue("threshwall_propensity") === "undefined" ? "50" : $g.getStoredValue("threshwall_propensity");
+s.prop16 = "32669448";
+s.prop14 = "globe and mail update";
+s.prop15 = "http://www.theglobeandmail.com/news/national/in-scathing-ruling-federal-court-says-csis-bulk-data-collection-illegal/article32669448/";
+s.prop12 = "In scathing ruling, Federal Court says CSIS bulk data collection illegal";
+s.prop13 = "COLIN FREEZE";
+s.eVar68 = "+1";
+s.prop58 = "yellow";
+s.prop34 = "Federal Court;Canadian Security Intelligence Service;csis;Security Intelligence Review Committee;Canada;data collection;illegal;ruling;bulk;";
+s.prop55 = "Yes";
+s.prop37 = "news";
+s.prop36 = "art";
+s.prop54 = "3";
+s.eVar33 = "D=c37";
+s.pageName = "news:national:article";
+s.prop1 = "Single Page View - No Pagination";
+s.prop23 = "news:national";
+s.eVar58 = "D=c58";
+s.prop24 = "Canadian Security Intelligence Service;Federal Court;Canada";
+s.prop50 = "Weekend";
+s.eVar19 = "D=c24";
+s.prop22 = "news:national";
+s.prop44 = "news:national";
+s.eVar61 = "+1";
+s.prop43 = "news";
+s.prop69 = "In Scathing Ruling Federal Court Says Csis Bulk Data Collection Illegal";
+s.prop48 = "Sunday";
+s.prop47 = "news:national";
+s.prop46 = "news:national";
+s.prop45 = "news:national";
+s.account = "bellgmpnewprod";
+s.prop49 = "08:42AM";
+s.channel = "news";
+s.prop8 = "Not Top 10/Other";
+} catch (e) {
+}
+try {
+if (tlu.val == undefined) {
+util.store(tlu.name, "na|" + new Date() + "|na|na|32669448|na");
+} else {
+var omni_meterIdindex = util.getStoredIndex(tlu.name, 4, '|');
+if (omni_meterIdindex == 'na') {
+util.storeIndexValue(tlu.name, 4, '32669448', '|');
+}
+if ((omni_meterIdindex.search("32669448") == -1) && omni_meterIdindex != 'na') {
+var artArr = omni_meterIdindex.split('~'), meterIdsArr = [], meterIds = "", meterIdsStr = "";
+var meterIdsData = omni_meterIdindex + "~32669448";
+if (artArr.length == 15) {
+var artArrFull = meterIdsData.split('~');
+for (var mi = 0, bi = artArrFull.length; mi < bi; mi++) {
+if (mi > 0) {
+var zi = mi < bi - 1 ? '~' : '';
+meterIdsArr.push(artArrFull[mi]);
+meterIdsStr += artArrFull[mi] + zi;
+}
+}
+meterIds = meterIdsArr.toString();
+util.storeIndexValue(tlu.name, 4, meterIdsStr, '|');
+} else {
+meterIds = meterIdsData.split('~').toString();
+util.storeIndexValue(tlu.name, 4, meterIdsData, '|');
+}
+s.eVar65 = meterIds;
+} else {
+s.eVar65 = '32669448';
+util.storeIndexValue(tlu.name, 4, '32669448', '|');
+}
+}
+} catch (e) {
+}
+try {
+if (omni_meter.count != undefined) {
+s.prop59 = omni_meter.count == '' ? 0 : omni_meter.count;
+s.eVar60 = "D=c59";
+}
+} catch (e) {
+}
+try {
+if ((typeof omni_meter == 'undefined' || omni_meter != undefined) && omni_meterPaywall == 'true') {
+s.events = s.apl(s.events, "event56", ",", 1);
+}
+} catch (e) {
+}
+try {
+if ((omni_meter.count == omni_meter.limit) && omni_meter != undefined) {
+s.events = "event54,event56";
+s.linkTrackEvents = s.events;
+s.eVar62 = "Encountered Paywall Growl - " + omni_meter.limit;
+s.eVar63 = s.eVar62;
+}
+} catch (e) {
+}
+if (location.href.indexOf("comments") != -1) {
+s.prop42 = "comments";
+s.eVar42 = "D=c42";
+}
+if (s.prop37.indexOf("gallery") != -1 ) {
+s.events = "event35,event36"; //view on page load
+}
+window.localStorage.removeItem('tgam_imgGallery');
+function trackPhotoView(index, length) {
+var tig = {"name":'tgam_imgGallery', "val":util.getStoredValue('tgam_imgGallery')};
+var linkName = "Photo gallery view";
+var half = Math.round(length / 2) + 1;
+s.prop1 = index;
+s.eVar1 = index;
+s.events = "event35";
+/* Check for half-way point */
+if (index == (half - 1)) {
+if (util.getStoredValue(tig.name) == undefined) {
+s.events = s.apl(s.events, "event37", ",", 1);
+linkName = "Half-way photo gallery view";
+}
+}
+/* Check for complete */
+if (index == (length)) {
+if (util.getStoredValue(tig.name) == undefined) {
+s.events = s.apl(s.events, "event38", ",", 1);
+linkName = "Completed photo gallery";
+util.store(tig.name, 'true');
+}
+}
+s.linkTrackVars = 'events,eVar1,prop1';
+s.linkTrackEvents = s.events;
+s.tl(this, 'o', linkName);
+/* call comscore pageview for every gallery image */
+udm_('http' + (document.location.href.charAt(4) == 's' ? 's://sb' : '://b') + '.scorecardresearch.com/b?c1=2&c2=10251187');
+$.ajax({
+url: "http://www.theglobeandmail.com/template/ajax/comscore.pageview.xml",
+success: {},
+cache: false
+});
+}
+(function(global){
+var g = global.TGAMD || false; return g && g.analytics ? g.analytics.bootstrap() : false
+})(window);
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var meterExcludeFlag = 'false';
+var isArticle = location.toString().indexOf("/article") != -1;
+var isComment = location.toString().indexOf("/comment") != -1;
+if(!((isArticle &&(!isComment))&&(TGAMD.user.role() !=2) && (meterExcludeFlag == 'false' || (meterExcludeFlag == 'true'&& ensightenLayer.articleColour == 'red')) && ((ensightenLayer.articleColour != null) && (ensightenLayer.articleColour == 'red' || ensightenLayer.articleColour == 'yellow' || ensightenLayer.articleColour == 'blue')))){
+try{
+var s_code = s.t();
+if (s_code)document.write(s_code);//--><///-->
+} catch (e) {}
+}
+
+<!--
+if (navigator.appVersion.indexOf('MSIE') >= 0)document.write(unescape('%3C') + '\!-' + '-') // -->
+
+(function(root, $, util) {
+root.bm_website_code = '85251E4B22C44CBD';
+$(function(){
+util.loadScript('asset.pagefair.com/measure.min.js');
+util.loadScript('asset.pagefair.net/ads.min.js');
+});
+})(this,jQuery,util);
+
+
+
+
+
+
+
+Add to Watchlist
+
+
+
+
+Add to Watchlist
+
+
+
+
+
+
+
+
+
+
+
+
+
+We've run into a glitch. Please try again later.
+
+
+
+
+
+
+We've run into a glitch. Please try again later.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var ltData = [
+{
+"name": "sidebar stories",
+"ltname": "sidebar_stories",
+"view": "aside",
+"wId": ".lt1322526"
+},
+{
+"name": "related stories",
+"ltname": "related_stories",
+"view": "stories",
+"wId": ".lt644525"
+},
+{
+"name": "in-the-know",
+"ltname": "in-the-know",
+"view": "storyheadline",
+"wId": ".lt13299594"
+},
+{
+"name": "in-the-know",
+"ltname": "in-the-know",
+"view": "storyheadline",
+"wId": ".lt13299599"
+},
+{
+"name": "in-the-know",
+"ltname": "in-the-know",
+"view": "storyheadline",
+"wId": ".lt20737385"
+},
+{
+"name": "in-the-know",
+"ltname": "in-the-know",
+"view": "storyheadline",
+"wId": ".lt29633950"
+},
+{
+"name": "in-the-know",
+"ltname": "in-the-know",
+"view": "storyheadline",
+"wId": ".lt13295670"
+},
+{
+"name": "most popular videos",
+"ltname": "most_popular_videos",
+"view": "slider",
+"wId": ".lt4381250"
+},
+{
+"name": "highlights",
+"ltname": "highlights",
+"view": "storypicture",
+"wId": ".lt10037053"
+},
+{
+"name": "highlights",
+"ltname": "highlights",
+"view": "storypicture",
+"wId": ".lt6159672"
+},
+{
+"name": "more from the globe and mail",
+"ltname": "more_from_the_globe_and_mail",
+"view": "storypicture",
+"wId": ".lt2231"
+},
+{
+"name": "more from the globe and mail",
+"ltname": "more_from_the_globe_and_mail",
+"view": "storypicture",
+"wId": ".lt4223134"
+},
+{
+"name": "most popular stories",
+"ltname": "most_popular_stories",
+"view": "storyheadline",
+"wId": ".lt17409849"
+},
+{
+"name": "unlimited tout - top banner",
+"ltname": "unlimited_tout_-_top_banner",
+"view": "pencil",
+"wId": "#topSubscribeBanner"
+}
+];
+$.each(ltData,function(i) {
+$('div'+ ltData[i].wId).find('a[name^="lt_"],button[name^="lt_"],input[name^="lt_"]').each(function(e,elm){
+var title = $(this).text(), ltTitle = title.replace(title,'_'+title).toLowerCase(),clk,nam,artId;
+var namAttr = $(this).attr('name').slice(3),gaqIndex = $(this).attr('name').replace('lt_','');
+var dname = ltData[i].name.replace("'","\'"), dltname = ltData[i].ltname.replace("'","\'");
+/*console.log("dname ="+dname);
+console.log("dltname ="+dltname);*/
+if($(this).attr('href')!=undefined && $(this).attr('href').substring(1,0)!="#"){
+var urlArr = $(this).attr('href').split("/");
+$.each(urlArr,function(o,no){
+if(no.indexOf("article") != -1){artId = no.replace('article','');}
+});
+}
+if($(this).attr('href')==undefined && $(this).attr('title')) {
+urlArr = $(this).attr('title').split("/");
+$.each(urlArr,function(o,no){
+if(no.indexOf("article") != -1){artId = no.replace('article','');}
+});
+}
+if(artId==undefined&&ltData[i].view !='feature'){
+if(ltData[i].view =='topbar'|| dname =='growl' || dname =='paywall'){
+clk="var s=s_gi('bellgmpnewprod');s.linkTrackVars='prop38,prop39,eVar34,eVar35';s.prop38='"+namAttr+"';s.prop39='"+dname+"';s.eVar34='"+namAttr+"';s.eVar35='"+dname+"';s.tl(this,'o','"+namAttr+"');";
+nam="&lpos="+dname+"&lid="+namAttr;
+}else{
+clk="s_objectID='"+dltname+"|"+namAttr.toLowerCase()+":"+ltTitle+"'";
+nam="&lpos="+dname+"&lid="+namAttr+":"+title;
+}
+}else{
+clk="s_objectID='"+artId+"-"+dltname+"';";
+nam='&lpos=art-national'+'-'+dname +'-'+ ltData[i].view + '&lid='+namAttr;
+}
+$(this).attr('onclick',clk).attr('name',nam);
+});
+$('aside'+ ltData[i].wId).find('a[name^="lt_"],button[name^="lt_"],input[name^="lt_"]').each(function(e,elm){
+var title = $(this).text(), ltTitle = title.replace(title,'_'+title).toLowerCase(),clk,nam,artId;
+var namAttr = $(this).attr('name').slice(3),gaqIndex = $(this).attr('name').replace('lt_','');
+var dname = ltData[i].name.replace("'","\'"), dltname = ltData[i].ltname.replace("'","\'");
+/* console.log("111");
+console.log("dname ="+dname);
+console.log("dltname ="+dltname); */
+if($(this).attr('href')!=undefined && $(this).attr('href').substring(1,0)!="#"){
+var urlArr = $(this).attr('href').split("/");
+$.each(urlArr,function(o,no){
+if(no.indexOf("article") != -1){artId = no.replace('article','');}
+});
+}
+if(artId==undefined&&ltData[i].view !='feature'){
+if(ltData[i].view =='topbar'|| dname =='growl' || dname =='paywall'){
+clk="var s=s_gi('bellgmpnewprod');s.linkTrackVars='prop38,prop39,eVar34,eVar35';s.prop38='"+namAttr+"';s.prop39='"+dname+"';s.eVar34='"+namAttr+"';s.eVar35='"+dname+"';s.tl(this,'o','"+namAttr+"');";
+nam="&lpos="+dname+"&lid="+namAttr;
+}else{
+clk="s_objectID='"+dltname+"|"+namAttr.toLowerCase()+":"+ltTitle+"'";
+nam="&lpos="+dname+"&lid="+namAttr+":"+title;
+}
+}else{
+clk="s_objectID='"+artId+"-"+dltname+"';";
+nam='&lpos=art-national'+'-'+dname +'-'+ ltData[i].view + '&lid='+namAttr;
+}
+$(this).attr('onclick',clk).attr('name',nam);
+});
+});
+
+window.__gigyaConf = { connectWithoutLoginBehavior: 'alwaysLogin' };
+try { util.mobile_redirect() } catch(e) {}
+
+(function() { var ev = document.createElement('script'); ev.type = 'text/javascript'; ev.async = true; ev.setAttribute('data-ev-tag-pid',3796);ev.setAttribute('data-ev-tag-ocid',3480); ev.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'c.betrad.com/pub/tag.js'; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ev, s);}
+)();
+
+$( window ).load(function() {
+if (adv.gpt_slimcut){
+util.loadScript("https://static.freeskreen.com/publisher/229/freeskreen.min.js");
+}
+});
+
+globe.gigya.comments.articleInfo('Production','art','32669448');
+$(document).ready(function() {
+window.TGAMLS = new GlobeLiveSuggest(jQuery, 'http://www.theglobeandmail.com/template/search/livesuggest.jsp?news=10&stocks=5&keywords=0&authors=3&sections=0&showHidden=false&q=');
+window.TGAMLS.addHandlers();
+});
+(function( root ){
+if ( !root.TGAMD ) return;
+if ( TGAMD.user.is.premium ) {
+$('.js-masthead-subscribe-button').remove();
+}
+})( this );
+$(document).ready(function() {
+var _gigya_sb = new ShareBar({
+userMessage: "",
+title: "In scathing ruling, Federal Court says CSIS bulk data collection illegal",
+link: "http://www.theglobeandmail.com/news/national/in-scathing-ruling-federal-court-says-csis-bulk-data-collection-illegal/article32669448/",
+desc: "Federal Court of Canada also reveals that CSIS no longer needs warrants to collect&nbsp; Canadians’ tax records because of changes wrought by Bill C-51",
+linktext: "Read this on The Globe and Mail",
+image: "http://static.theglobeandmail.ca/658/news/national/article32669447.ece/ALTERNATES/w220/web-na-spying-1103.JPG"
+});
+_gigya_sb.init();
+});
+var parkedImage = 'http://static.theglobeandmail.ca/e09/video/article27482631.ece/ALTERNATES/w620/Video%3A+RCMP+boss+%27all+for%27+warrantless+access+to+Internet+subscriber+data';
+var playlistProperties = [];
+var playlistStory = {
+title: 'RCMP boss wants warrant-less access to Internet subscriber data',
+brightcoveID: 'escenic-27482634',
+escenicID: '27482634',
+deck: 'The RCMP commissioner says child exploitation is among online crimes that present the need for police to have warrantless access to Internet subscriber information. Bob Paulson spoke at a security conference Wednesday in Ottawa.',
+credit: 'CP Video',
+publishedDate: 'Nov. 26 2015, 11:36 AM EST',
+label: '',
+image: 'http://static.theglobeandmail.ca/e09/video/article27482631.ece/ALTERNATES/w620/Video%3A+RCMP+boss+%27all+for%27+warrantless+access+to+Internet+subscriber+data',
+url: 'http://www.theglobeandmail.com/news/news-video/video-rcmp-boss-all-for-warrantless-access-to-internet-subscriber-data/article27482634/',
+prop22: 'news:newsvideo',
+prop23: 'news:newsvideo',
+prop44: 'news:newsvideo',
+prop45: 'news:newsvideo',
+prop46: 'news:newsvideo',
+prop47: 'news:newsvideo',
+ownerUniqueName: 'news',
+prop37: 'vmevideo_excluded',
+prop54: '346',
+advSite: 'theglobeandmail.com',
+uniqueName: 'newsvideo',
+articletype: 'vmevideo',
+topics: 'NationalVideo,RoyalCanadianMountedPolice',
+keywords: 'BobPaulson;RCMPCommissioner;onlinesurveillance;charterofrightsandfreedoms;internetcrime;cybercrime;internetsafety;warrantlessaccess;subscriberinformation;',
+prop55: 'No',
+prop58: 'yellow_excluded',
+asfID: '27482634',
+asfHeadline: 'RCMP boss wants warrant-less access to Internet subscriber data',
+asfPosition: 'asfrelbodybottom'
+}
+playlistProperties.push(playlistStory);
+(function(p) {
+var cfg = {
+persist: false,
+txt:'Try Globe Unlimited- 99\u00A2/week for the first 4 weeks',
+url:'https://sec.theglobeandmail.com/subscription/',
+img:'',
+buttonTxt:'See my options!',
+advPencil: true,
+advSponsorship: false,
+advRemovePencil: typeof advRemovePencil == 'undefined' ? false : true,
+advStopPencil: typeof advStopPencil == 'undefined' ? false : true,
+replaceAsset: false
+};
+p.init(cfg);
+})( TGAMD.pencilAd );
+$(document).ready(function($) {
+$('.lt_track').each(function(index) {
+$(this).find('a[name^="lt_"],button[name^="lt_"],input[name^="lt_"]').each(function(e, elm) {
+var $link = $(this);
+$link.on("click", { link: $link }, clickTrack);
+});
+});
+});
+function clickTrack(e) {
+//e.preventDefault();
+var $clickedLink = e.data.link;
+var title = $.trim($clickedLink.text());
+var name = $.trim($clickedLink.attr('name'));
+var ltTitle = "_"+title.toLowerCase();
+var clk, nam, artId;
+var namAttr = name.slice(3);
+var gaqIndex = name.replace('lt_', '');
+var ltview = $.trim($clickedLink.attr('ltview'));
+var ltname = $.trim($clickedLink.attr('ltname'));
+var dltname = ltname.replace(/'/g, "\'");
+var dname = dltname.replace(/_/g, " ");
+if ($clickedLink.attr('href') != undefined && $clickedLink.attr('href').substring(1, 0) != "#") {
+var urlArr = $clickedLink.attr('href').split("/");
+$.each(urlArr, function(o, no) {
+if (no.indexOf("article") != -1) { artId = no.replace('article', ''); }
+});
+}
+if (artId == undefined && ltview != 'feature') {
+if (ltview == 'topbar' || dname == 'growl' || dname == 'paywall' || dname == 'upsellFooter') {
+clk = "var s=s_gi('bellgmpnewprod');s.linkTrackVars='prop38,prop39,eVar34,eVar35';s.prop38='" + namAttr + "';s.prop39='" + dname + "';s.eVar34='" + namAttr + "';s.eVar35='" + dname + "';s.tl(this,'o','" + namAttr + "');";
+nam = "&lpos=" + dname + "&lid=" + namAttr;
+} else {
+clk = "s_objectID='" + dltname + "|" + namAttr.toLowerCase() + ":" + ltTitle + "'";
+nam = "&lpos=" + dname + "&lid=" + namAttr + ":" + title;
+}
+} else {
+clk="s_objectID='"+artId+"-"+dltname+"';";
+nam='&lpos=art-national'+'-'+dname +'-'+ ltview + '&lid='+namAttr;
+}
+$clickedLink.attr('name',nam);
+eval(clk);
+}
+var clientDT = new Date().getTime();
+document.write('<img style="display:none;" src="http://ece5stats1.theglobeandmail.com/analysis-logger/Logger?rt=1&ctxId=152&pubId=8&cat=&meta=read-news&objId=32669448&type=article&title=In+scathing+ruling%2c+Federal+Court+says+CSIS+bulk+data+collection+illegal&url=http%3a%2f%2fwww.theglobeandmail.com%2fnews%2fnational%2fin-scathing-ruling-federal-court-says-csis-bulk-data-collection-illegal%2farticle32669448%2f&amp;clientDT=' + clientDT + '" alt="" width="1" height="1"/>');
+
+
+
+x
+Customize your reading font
+
+XS
+S
+M
+L
+XL
+
+
+
+The quick brown fox jumps over the lazy dog
+The quick brown fox jumps over the lazy dog
+The quick brown fox jumps over the lazy dog
+The quick brown fox jumps over the lazy dog
+The quick brown fox jumps over the lazy dog
+
+
+

@@ -1,0 +1,1841 @@
+Elon Musk says SpaceX finally knows what caused the latest rocket failure - The Verge
+(function(d) {
+  try {
+    if (localStorage.getItem('chorus-fonts-7dd4715c9932ad91b9cb67f5848f9fd7') === 'yes') {
+      d.documentElement.className += ' fonts-loaded';
+    }
+  } catch (e) {}
+  var fontUrls = ["https://fonts.voxmedia.com/unison/stylesheets/verge.7a4973b180ca1d2156edfdd996177503.css"];
+  var ss = d.styleSheets;
+  for (var i=0; i<fontUrls.length; i++) {
+    var l = d.createElement('link');
+    var n = d.getElementById('chorus-fonts');
+    l.href = fontUrls[i];
+    l.rel = 'stylesheet';
+    l.media = 'none';
+    n.parentNode.insertBefore(l, n);
+  }
+  
+  function onload() {
+    var i = ss.length;
+    while (i--) {
+      var idx = fontUrls.indexOf(ss[i].href)
+      if (idx > -1) {
+        ss[i].ownerNode.media = 'all';
+        fontUrls.splice(idx, 1);
+      }
+    }
+    if (fontUrls.length > 0) {
+      setTimeout(onload, 0);
+    }
+  }
+  onload();
+
+
+})(document);
+
+  
+  
+   dataLayer = [{"Network":"theverge","Community":"theverge","GA Primary ID":"UA-26533115-1","GA CrossDomains":"theverge.com","Content ID":"13297941","Entry Groups":"front-page:science:space:spacex","Author":"Loren Grush","Last Time Updated":"2016-11-05 11:56","Hour of Update":"11","Publish Date":"2016-11-05 11:56","Hour of Publish":"11","Demand Post":"no","All Chorus Categories":"theverge:theverge:front-page:science:space:spacex","Content Type":"article","chartbeat_domain":"theverge.com","chartbeat_zone":"172968584/verge","chartbeat_authors":"Loren Grush","Logged in Status":"Logged Out","Day of Week":"sunday","Hour of Day":"10"}];
+ 
+window._umbel = window._umbel || [];
+(function() {
+var d = new Date();
+d.setDate(d.getDate() + 365);
+document.cookie = "umbel_api_key=lrjhazrpqbgtnrij; expires=" + d.toUTCString();
+if (document.location.href.indexOf('utm_source=umbel') !== -1) {
+if (typeof Chorus !== 'undefined' && typeof Chorus.Video !== 'undefined') {
+Chorus.Video.autoplay = true;
+jQuery(document).ready(function(){
+document.location.hash = jQuery('.chorus-video-embed').first().attr('id');
+});
+}
+}
+})();
+
+  var ChorusAds = ChorusAds || {};ChorusAds.adsBlocked = true;
+  var pbjs = pbjs || {};pbjs.que = pbjs.que || [];
+  var googletag = googletag || {};googletag.cmd = googletag.cmd || [];
+  var PREBID_TIMEOUT = 1500;
+  ChorusAds.recorded_slots = [{"name":"cfa_athena","sizes":[[1030,590]],"context":{"device_type":null,"browser_width":{"min":0,"max":0}}},{"name":"reskin","sizes":[[2,2]],"context":{"device_type":["desktop"],"browser_width":{"min":"881","max":0}}},{"name":"cfa_cardstack_interstitial","sizes":[[1400,900]],"context":{"device_type":null,"browser_width":{"min":0,"max":0}}},{"name":"cfa_maps","sizes":[[300,250]],"context":{"device_type":null,"browser_width":{"min":0,"max":0}}},{"name":"cfa_cardstack_mobile_leaderboard","sizes":[[320,50]],"context":{"device_type":null,"browser_width":{"min":"0","max":"727"}}},{"name":"cfa_cardstack_leaderboard","sizes":[[728,90]],"context":{"device_type":null,"browser_width":{"min":"728","max":0}}},{"name":"prelude_front_page","sizes":[[1400,600]],"context":{"device_type":["desktop"],"browser_width":{"min":"881","max":0}}},{"name":"prelude","sizes":[[1400,600]],"context":{"device_type":["desktop"],"browser_width":{"min":"881","max":0}}},{"name":"desktop_leaderboard_variable","sizes":[[728,90],[970,250],[970,90],[1020,90]],"context":{"device_type":["desktop"],"browser_width":{"min":"881","max":0}}},{"name":"tablet_leaderboard","sizes":[[728,90]],"context":{"device_type":["tablet"],"browser_width":{"min":"601","max":0}}},{"name":"mobile_leaderboard","sizes":[[320,50],[300,250]],"context":{"device_type":["mobile"],"browser_width":{"min":"0","max":"728"}}},{"name":"mobile_med_rec_athena","sizes":[[300,250],[1030,590],[300,265]],"context":{"device_type":["mobile"],"browser_width":{"min":"0","max":"728"}}},{"name":"mobile_footer","sizes":[[320,50],[300,250]],"context":{"device_type":["mobile"],"browser_width":{"min":"0","max":"728"}}},{"name":"mobile_article_body","sizes":[[300,250],[1030,590],[300,265]],"context":{"device_type":["mobile"],"browser_width":{"min":"0","max":"600"}}},{"name":"btf_leaderboard_variable","sizes":[[728,90],[1020,90]],"context":{"device_type":["desktop"],"browser_width":{"min":"881","max":0}}},{"name":"tablet_btf_leaderboard","sizes":[[728,90]],"context":{"device_type":["tablet"],"browser_width":{"min":"601","max":0}}},{"name":"medium_rectangle_variable","sizes":[[300,250],[300,600]],"context":{"device_type":["desktop"],"browser_width":{"min":"0","max":0}}},{"name":"btf_medium_rectangle_variable","sizes":[[300,250]],"context":{"device_type":["desktop"],"browser_width":{"min":"0","max":0}}},{"name":"tablet_medium_rectangle","sizes":[[300,250]],"context":{"device_type":["tablet"],"browser_width":{"min":"601","max":0}}},{"name":"btf_tablet_medium_rectangle","sizes":[[300,250]],"context":{"device_type":["tablet"],"browser_width":{"min":"601","max":0}}},{"name":"athena","sizes":[[1030,590],[970,250],[728,90]],"context":{"device_type":["desktop"],"browser_width":{"min":"601","max":0}}},{"name":"cfa_athena_only","sizes":[[1030,590]],"context":{"device_type":null,"browser_width":{"min":0,"max":0}}},{"name":"tablet_athena","sizes":[[1030,590]],"context":{"device_type":["tablet"],"browser_width":{"min":"0","max":0}}},{"name":"athena_features","sizes":[[1030,590],[970,250],[728,90]],"context":{"device_type":["tablet","desktop"],"browser_width":{"min":"601","max":0}}},{"name":"native_ad_video","sizes":[[200,200]],"context":{"device_type":null,"browser_width":{"min":0,"max":0}}},{"name":"native_ad_latest","sizes":[[300,100]],"context":{"device_type":["desktop","tablet","mobile"],"browser_width":{"min":"0","max":0}}},{"name":"native_ad_content_link","sizes":[[650,150]],"context":{"device_type":["desktop","tablet","mobile"],"browser_width":{"min":"0","max":0}}},{"name":"native_ad_mobile","sizes":[[300,265],[300,250]],"context":{"device_type":["mobile"],"browser_width":{"min":"0","max":0}}},{"name":"native_ad_ymal_link","sizes":[[1200,100]],"context":{"device_type":["desktop","tablet","mobile"],"browser_width":{"min":"0","max":0}}},{"name":"native_ad_linkset_link","sizes":[[1200,100]],"context":{"device_type":["desktop","tablet","mobile"],"browser_width":{"min":"0","max":0}}},{"name":"in_map","sizes":[[300,250]],"context":{"device_type":null,"browser_width":{"min":"0","max":0}}}];
+  ChorusAds.slug = "/172968584/verge";
+  ChorusAds.front_page = false;
+  ChorusAds.production = true;
+  
+  pbjs.que.push(function() { ChorusAds.addVariable("network", ["verge"]);
+ ChorusAds.addVariable("affiliation", ["general"]);
+ ChorusAds.addVariable("unison", [true]);
+ ChorusAds.addVariable("entry_id", [13297941]);
+ ChorusAds.addVariable("entry_type", ["article"]);
+ ChorusAds.addVariable("entry_slug", ["2016/11/5/13533900/elon-musk-spacex-falcon-9-failure-cause-solved"]);
+ ChorusAds.addVariable("entry_author", ["Loren Grush"]);
+ ChorusAds.addVariable("entry_group", ["front-page","science","space","spacex"]);
+ ChorusAds.addVariable("hub_page", ["science"]);
+ ChorusAds.addVariable("page_type", ["interior_page"]);
+ ChorusAds.addVariable("keywords", "elon musk says spacex finally knows what caused the latest rocket failure the verge");});
+  var Chorus=Chorus||{};Chorus.AddScript=function(o){var n=document.createElement("script");n.async=!0,n.type="text/javascript",n.src=o;var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(n,t)},Chorus.OnLoad=function(o){var n=window.onload;"function"!=typeof window.onload?window.onload=o:window.onload=function(){n(),o()}};
+
+
+article quote em:before {
+content: none;
+}
+
+var chorusInitQueue=[];
+    
+    
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8JKW6');
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("reskin");});
+
+
+
+      clockmenumore-arrow
+    
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("prelude");});
+
+
+
+    
+
+    
+
+    
+      
+        
+          
+            
+        
+        
+          
+            
+        
+        
+        
+      
+    
+    
+      
+            
+      
+          
+            
+      
+          
+            
+      
+      
+    
+    
+      
+        Log In or Sign Up
+        
+        
+            Log In
+          
+          
+            Sign Up
+          
+        
+    
+    
+    
+      
+    
+    
+    
+    
+              
+              
+                
+              Tech
+              
+                
+              
+              
+            
+          
+            
+              
+              
+                
+              Science
+              
+                
+              
+              
+            
+          
+            
+              
+              
+                
+              Culture
+              
+                
+              
+              
+            
+          
+            
+              
+              
+                
+              Cars
+              
+                
+              
+              
+            
+          
+            
+              
+              
+                
+              Reviews
+              
+                
+              
+              
+            
+          
+            
+              
+              
+                
+              Longform
+              
+              
+            
+          
+            
+              
+              
+                
+              Video
+              
+              
+            
+          
+            
+              
+              
+                
+              Circuit Breaker
+              
+              
+            
+          
+            
+              
+              
+                
+              TL;DR
+              
+              
+            
+          
+            
+              
+              
+                
+              Forums
+              
+              
+            
+          
+        
+        
+          
+            more
+            
+            
+          
+        
+      
+  
+
+
+  
+    
+        
+          
+            Tech
+            
+              
+        
+
+         
+            
+            
+              
+                  
+                    
+                    
+                      
+                        Apple
+                      
+                    
+                    
+                    
+                      
+                        Google
+                      
+                    
+                    
+                    
+                      
+                        Microsoft
+                      
+                    
+                    
+                    
+                      
+                        Apps
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        Photography
+                      
+                    
+                    
+                    
+                      
+                        Virtual Reality
+                      
+                    
+                    
+                    
+                      
+                        All Tech
+                      
+                    
+                    
+                  
+                    
+                  
+                
+              
+      
+        
+        
+          
+            Science
+            
+              
+        
+
+         
+            
+            
+              
+                  
+                    
+                    
+                      
+                        Space
+                      
+                    
+                    
+                    
+                      
+                        Energy
+                      
+                    
+                    
+                    
+                      
+                        Health
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        Environment
+                      
+                    
+                    
+                    
+                      
+                        All Science
+                      
+                    
+                    
+                  
+                    
+                  
+                
+              
+      
+        
+        
+          
+            Culture
+            
+              
+        
+
+         
+            
+            
+              
+                  
+                    
+                    
+                      
+                        Web
+                      
+                    
+                    
+                    
+                      
+                        TV
+                      
+                    
+                    
+                    
+                      
+                        Film
+                      
+                    
+                    
+                    
+                      
+                        Games
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        Comics
+                      
+                    
+                    
+                    
+                      
+                        Music
+                      
+                    
+                    
+                    
+                      
+                        All Culture
+                      
+                    
+                    
+                  
+                    
+                  
+                
+              
+      
+        
+        
+          
+            Cars
+            
+              
+        
+
+         
+            
+            
+              
+                  
+                    
+                    
+                      
+                        Ride-Sharing
+                      
+                    
+                    
+                    
+                      
+                        Cars
+                      
+                    
+                    
+                    
+                      
+                        Mass Transit
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        Aviation
+                      
+                    
+                    
+                    
+                      
+                        Rideables
+                      
+                    
+                    
+                    
+                      
+                        All Transportation
+                      
+                    
+                    
+                  
+                    
+                  
+                
+              
+      
+        
+        
+          
+            Reviews
+            
+              
+        
+
+         
+            
+            
+              
+                  
+                    
+                    
+                      
+                        Phones
+                      
+                    
+                    
+                    
+                      
+                        Laptops
+                      
+                    
+                    
+                    
+                      
+                        Cameras
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        Tablets
+                      
+                    
+                    
+                    
+                      
+                        Headphones
+                      
+                    
+                    
+                    
+                      
+                        Smartwatches
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        VR Headsets
+                      
+                    
+                    
+                    
+                      
+                        All Reviews
+                      
+                    
+                    
+                  
+                    
+                  
+                
+              
+      
+        
+        
+          
+            Longform
+            
+          
+        
+
+         
+        
+      
+        
+        
+          
+            Video
+            
+          
+        
+
+         
+        
+      
+        
+        
+          
+            Circuit Breaker
+            
+          
+        
+
+         
+        
+      
+        
+        
+          
+            TL;DR
+            
+          
+        
+
+         
+        
+      
+        
+        
+          
+            Forums
+            
+          
+        
+
+         
+        
+      
+      ✕
+    
+
+
+
+    
+    
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("desktop_leaderboard_variable");});
+
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("tablet_leaderboard");});
+
+
+
+    
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("mobile_leaderboard");});
+
+
+
+    
+  
+
+    
+  
+  
+  
+  
+  
+    
+
+      
+            
+              
+              Science
+            
+          
+        
+          
+            
+              
+              Space
+            
+          
+        
+          
+            
+              
+              SpaceX
+            
+          
+        
+      
+
+  
+    Elon Musk says SpaceX finally knows what caused the latest rocket failure
+
+    
+  
+  And he predicts getting back to flight in mid-December
+
+  
+    
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      Loren Grush@lorengrush
+    
+
+    
+      
+        Nov 5, 2016, 11:56am EDT
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+  
+  
+
+
+
+
+
+  
+      
+        
+          
+            share
+          
+        
+      
+    
+  
+    
+      
+        
+          
+            tweet
+          
+        
+      
+    
+  
+    
+      
+        
+          
+            Linkedin
+          
+        
+      
+    
+  
+  
+
+
+  
+    
+    
+      
+  
+
+  SpaceX CEO Elon Musk says that his company has finally gotten to the bottom of the September 1st Falcon 9 explosion — claiming it was the “toughest puzzle” they’ve ever had to solve. And now that the problem is known, he expects SpaceX to return to flight in mid-December.
+Speaking on CNBC yesterday, Musk said “it basically involves liquid helium, advanced carbon fiber composites, and solid oxygen. Oxygen so cold that it actually enters solid phase.”
+“Oxygen so cold that it actually enters solid phase.”So what does that mean exactly? Musk gave some hints a little while ago during a speech he gave to the National Reconnaissance Office. According to a transcript received by Space News, he argued that the supercooled liquid oxygen that SpaceX uses as propellant actually became so cold that it turned into a solid. And that’s not supposed to happen.
+This solid oxygen may have had a bad reaction with another piece of hardware — one of the vehicle’s liquid helium pressure vessels. Three of these vessels sit inside the upper oxygen tank that holds the supercooled liquid oxygen propellant. They’re responsible for filling and pressurizing the empty space that’s left when the propellant leaves the tank. The vessels are also over wrapped with a carbon fiber composite material. The solid oxygen that formed could have ignited with the carbon, causing the explosion that destroyed the rocket.      
+        
+
+  pbjs.que.push(function() {ChorusAds.showAd("mobile_article_body");});
+
+      
+
+SpaceX isn’t giving too many more details about the process, and the company declined to give further clarification about what Musk said on CNBC. Plus, it’s unclear what caused the solid oxygen to form. There’s speculation from the New York Times that if liquid helium was used in the pressure vessels, which Musk seems to have indicated, it might have been cold enough to freeze the liquid oxygen into a solid. Liquid helium exists at -452 degrees Fahrenheit, a lot colder than SpaceX’s liquid oxygen propellant at -340 degrees Fahrenheit. And oxygen solidifies at -361 degrees Fahrenheit.
+Despite all this, SpaceX is confident about getting back to flight by the end of the year, based on what the company has found. And in a recent update, SpaceX claims to be focused on improving its helium loading processes so this accident doesn’t happen again.
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("tablet_medium_rectangle");});
+
+
+
+
+
+
+    
+  
+    
+    Next Up In
+    
+    
+      Science
+    
+  
+  
+        
+        After successful Antares launch, NASA wants Orbital ATK to launch on ULA’s rocket again
+        
+      
+    
+      
+        
+        We now know exactly how many DNA mutations smoking causes
+        
+      
+    
+      
+        
+        A mutation in the Ebola virus made the epidemic in West Africa even more deadly
+        
+      
+    
+      
+        
+        Scientists develop magnetic ink that lets gadgets self-heal when they break
+        
+      
+    
+      
+        
+        You can now calculate how much Arctic sea ice you’re destroying with your CO2 emissions
+        
+      
+    
+      
+        
+        The world's best effort to curb global warming probably won't prevent catastrophe
+        
+      
+    
+    
+
+  pbjs.que.push(function() {ChorusAds.showAd("native_ad_linkset_link");});
+
+
+  
+    
+      
+        
+
+
+      
+    
+  
+
+
+
+
+  
+  
+
+
+  
+    
+      
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("mobile_med_rec_athena");});
+
+
+
+  
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("tablet_medium_rectangle");});
+
+
+
+  
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("medium_rectangle_variable");});
+
+
+
+
+    
+      
+    
+    
+      
+        
+          Now Trending
+        
+      
+    
+  
+  
+    
+        
+          
+            
+              
+
+
+            
+          
+          MacBook Pro review: the Air apparent
+        
+        
+      
+    
+      
+        
+          
+            
+              
+
+
+            
+          
+          DJI Mavic Pro Review: a new dimension
+        
+        
+      
+    
+      
+        
+          
+            
+              
+
+
+            
+          
+          Question Club: Westworld threatens to collapse under its endless mysteries
+        
+        
+      
+    
+    
+  pbjs.que.push(function() {ChorusAds.showAd("native_ad_latest");});
+
+
+    
+  
+pbjs.que.push(function() {ChorusAds.addVariable("trending_sidebar", ["true"])});
+
+
+    
+
+
+
+
+
+
+  This Article has a component height of 8. The sidebar size is medium.
+
+
+    
+
+
+
+  
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("athena");});
+
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("tablet_athena");});
+
+
+
+  
+
+
+  
+    
+  
+  
+    
+      
+      The Latest
+    
+  
+  
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              US & World
+            
+          
+        
+          
+            
+              
+              Politics
+            
+          
+        
+          
+            
+              
+              Transportation
+            
+          
+        
+      
+
+    
+    Make the most of this garbage election by voting for better trains and buses
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      Andrew J . Hawkins@andyjayhawk
+    
+
+    
+      
+        Nov 6, 2016, 10:00am EST
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      This election has been an exhausting slog, winding down to the final days of anxiety and apocalyptic fears. If I had to judge the current mood of the electorate, I’d say it resembles the look on Harvey Firestein’s face in Independence Day right...
+    
+    
+  
+  
+
+
+    
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              Entertainment
+            
+          
+        
+          
+            
+              
+              Politics
+            
+          
+        
+          
+            
+              
+              TV
+            
+          
+        
+      
+
+    
+    Kate McKinnon and Alec Baldwin break character to urge people to vote
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      Andrew Liptak@AndrewLiptak
+    
+
+    
+      
+        Nov 6, 2016, 9:52am EST
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      In its last show before the 2016 Presidential election, Saturday Night Live checked in with Alec Baldwin’s Donald Trump and Kate McKinnon’s Hillary Clinton one final time before Tuesday, with both actors breaking character to urge voters to head...
+    
+    
+  
+  
+
+
+    
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              Gaming
+            
+          
+        
+          
+            
+              
+              Entertainment
+            
+          
+        
+          
+            
+              
+              Tech
+            
+          
+        
+      
+
+    
+    Battlefield 1 is an anti-war message trapped in a best-selling shooter
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      Nick Statt@nickstatt
+    
+
+    
+      
+        Nov 6, 2016, 9:00am EST
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      One of the most iconic moments in the WWII film Saving Private Ryan occurs near the end, when sniper Private Daniel Jackson strikes down soldier after soldier from a clocktower post. His scope settles on the turret of a German Tiger tank, which...
+    
+    
+  
+  
+    
+      
+  
+    
+      
+        2
+      
+      comments
+    
+  
+  
+
+
+    
+  
+
+
+    
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              Apps
+            
+          
+        
+          
+            
+              
+              Tech
+            
+          
+        
+          
+            
+              
+              Food
+            
+          
+        
+      
+
+    
+    You will soon be able to order McDonalds from your smartphone
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      Andrew Liptak@AndrewLiptak
+    
+
+    
+      
+        Nov 5, 2016, 3:11pm EDT
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      McDonalds has long been a leader in the fast food industry, but it has fallen behind its competitors in one big way: it hasn’t provided customers with a way to order and pay for their meals via smartphone or other mobile device. Now, the company...
+    
+    
+  
+  
+    
+      
+  
+    
+      
+        15
+      
+      comments
+    
+  
+  
+
+
+    
+  
+
+
+    
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              TL;DR
+            
+          
+        
+          
+            
+              
+              Memes
+            
+          
+        
+          
+            
+              
+              Culture
+            
+          
+        
+      
+
+    
+    Can you figure out the song lyrics in these natural science illustrations?
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      Chaim Gartenberg@cgartenberg
+    
+
+    
+      
+        Nov 5, 2016, 2:00pm EDT
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      There’s an appealing aesthetic to old fashioned natural science illustrations, so when Katrina McHugh was looking for a subject for the 100 Day Project, she looked to a set of set of vintage encyclopedias that she had inherited from her...
+    
+    
+  
+  
+    
+      
+  
+    
+      
+        0
+      
+      comments
+    
+  
+  
+
+
+    
+  
+
+
+    
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              Apple
+            
+          
+        
+          
+            
+              
+              Tech
+            
+          
+        
+          
+            
+              
+              USB-C
+            
+          
+        
+      
+
+    
+    I have lived the USB-C #donglelife. Here’s what you’re in for
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      Dieter Bohn@backlon
+    
+
+    
+      
+        Nov 5, 2016, 1:22pm EDT
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      There has been more talk of dongles now that Apple has gone and done it: excised all ports on the new MacBook Pros except one: USB-C. It is good and right to be unhappy that there aren’t any standard USB-A ports, MagSafe, nor SD card slots on...
+    
+    
+  
+  
+    
+      
+  
+    
+      
+        167
+      
+      comments
+    
+  
+  
+
+
+    
+  
+
+
+    
+    
+  
+  
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("native_ad_ymal_link");});
+
+
+
+
+
+  
+    
+      
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("btf_medium_rectangle_variable");});
+
+
+
+
+    
+
+
+  
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("btf_leaderboard_variable");});
+
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("tablet_btf_leaderboard");});
+
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("mobile_footer");});
+
+
+
+    
+    
+      
+        
+          Chorus
+      
+    
+
+    
+      Terms of Use
+        
+          Privacy Policy
+        
+          Communications Preferences
+        
+      Contact
+        
+          Tip Us
+        
+          Community Guidelines
+        
+          About
+        
+          Ethics Statement
+        
+      
+        
+  All Systems Operational
+  Check out our status page for more details.
+
+
+      
+    
+
+    
+      Vox Media
+      
+        Advertise with us
+      
+        Jobs @ Vox Media
+      
+      © 2016 Vox Media, Inc. All Rights Reserved
+      
+      
+    
+  
+
+  
+    
+      
+  
+      
+        
+          
+            tweet
+          
+        
+      
+    
+  
+    
+      
+        
+          
+            share
+          
+        
+      
+    
+  
+  
+
+
+  
+
+    chorusInitQueue.forEach(function(fn) { (typeof fn === 'function') && fn(jQuery) })
+//<![CDATA[
+Providence=function(){var e={};return e.contexts=[],e.fire_event=function(e,n,t,o){t="undefined"!=typeof t?t:{},o="undefined"!=typeof o?o:Providence.contexts,jQuery.get("https://providence.voxmedia.com/event",{event_name:e,location:n,host:window.location.host,metadata:JSON.stringify(t),contexts:o},function(e){})},e.init=function(e){"undefined"!=typeof e&&(Providence.contexts=e);var n=window.location.host+window.location.pathname;Providence.fire_event("page_view",n,{title:document.title});var t=Providence.contexts.slice();t.push("referrals:"+n),Providence.fire_event("referral",document.referrer.split("/")[2],{},t)},"undefined"!=typeof Chorus&&"undefined"!=typeof Chorus.EventDispatcher&&!function(e,n){function t(e){jQuery("#"+e.player.elementId);Providence.fire_event("video_play",e.player.getEmbedCode(),{title:e.player.getCurrentItemTitle()}),n.unsubscribe("ooyalaVideoPlay",t)}n.subscribe("ooyalaVideoPlay",t)}(jQuery,Chorus.EventDispatcher),e}(),"undefined"!=typeof jQuery&&jQuery(document).ready(function(e){Providence.init(["network:verge"])});
+//]]>
+
+    if (typeof ChorusAds !== "undefined") {
+      Chorus.OnLoad(function() {
+        if (ChorusAds.adsBlocked) {
+          Providence.fire_event('adblocked_view', document.location.href);
+    }});}
+  
+//<![CDATA[
+
+          var phonographEvents = phonographEvents || [];
+          if (window.dataLayer && window.Context) {
+            Context.fetch().then(function() {
+              var data = {'Page Title': document.title, 'GA Track Prefix': 't1.', 'User ID': Context.currentUser.get('id') || null};
+              for (var i=0; i < dataLayer.length; i++) {
+                if (dataLayer[i]['Network']) {
+                  Object.keys(dataLayer[i]).forEach(function(k) { data[k] = dataLayer[i][k]; });
+                  break;
+                }
+              }
+              phonographEvents.push(['pageload', data]);
+            });
+          } else {
+            phonographEvents.push(['pageload', {'Page Title': document.title}]);
+          }
+        
+//]]>
+

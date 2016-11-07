@@ -1,0 +1,1356 @@
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"bed08a364b","applicationID":"16192845","transactionName":"Jg1fEkIMXl4HQU0ERRELUgpVEB1BClwV","queueTime":5,"applicationTime":95,"agent":""}window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);What Happens When Crowds Try To Flee For Their Lives | Atlas Obscura
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-8347316-6', 'auto');
+  ga('send', 'pageview');
+(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+  var fbds = document.createElement('script');
+  fbds.async = true;
+  fbds.src = '//connect.facebook.net/en_US/fbds.js';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(fbds, s);
+  _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '1494388927542275']);
+  })();
+  window._fbq = window._fbq || [];
+  window._fbq.push(['track', 'PixelInitialized', {}]);
+
+  !function(d,s,id){
+    var js,fjs=d.getElementsByTagName(s)[0];
+    if(!d.getElementById(id)){
+      js=d.createElement(s);
+      js.id=id;
+      js.async=true;
+      js.src="https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js,fjs);}
+    }
+  (document,"script","twitter-wjs");
+  
+      __reach_config = {
+        pid: '55b80192736b79f8db0000ae',
+        title: 'What Happens When Crowds Try To Flee For Their Lives',
+        //SR will use og:url
+        date: '2016-11-04 20:00:00 UTC',
+        authors: [ 'Lauren J Young'],
+        channels: ['articles'],
+        tags: ["features", "evacuations", "virtual reality", "crowd control", "panic week"],
+        ignore_errors: false
+      };
+      (function(){
+        var s = document.createElement('script');
+        s.async = true;
+        s.type = 'text/javascript';
+        s.src = document.location.protocol + '//d8rk54i4mohrb.cloudfront.net/js/reach.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
+      })()
+    
+      window.AtlasObscura = {};
+    
+    window.lazySizesConfig = window.lazySizesConfig || {};
+    lazySizesConfig.lazyClass = 'lazy';
+    lazySizesConfig.loadMode = 1;
+    
+      AtlasObscura.current_article = {"id":7359,"title":"What Happens When Crowds Try To Flee For Their Lives","associated_places":[]};
+    .lazy,.lazyloading{background-image:asset-url("icons/ao.svg");}
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+      (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+          '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+      })();
+    
+  googletag.cmd.push(function() {
+    googletag.defineOutOfPageSlot('/9729793/1x1_tracking_pixel', 'div-gpt-ad-1438011102027-12')
+    .addService(googletag.pubads());
+
+
+
+      var avoidSiderailAd = ( !isSmallScreen() && false );
+      if ( !avoidSiderailAd ) {
+        var btfSize = googletag.sizeMapping()
+          //in a sizeMapping, [0,0] denotes the fallback.It matches any size
+          .addSize([0, 0], [300, 250])
+          //[668,0] is a min width of 668px
+          //permitted sizes are in order of precedence
+          .addSize([668, 0], [[300, 600], [300, 250]])
+          .build();
+
+        googletag.defineSlot('/9729793/300x250_300x600_box_btf', [[300, 600], [300, 250]], 'div-gpt-ad-1438011102027-1')
+        .defineSizeMapping(btfSize)
+        .addService(googletag.pubads());
+      }
+
+      var avoidSecondarySlot = ( !isSmallScreen() || isHomePage() );
+      if ( !avoidSecondarySlot ) {
+        var btfSecondarySize = googletag.sizeMapping()
+          .addSize([0, 0], [300, 250])
+          .addSize([668, 0], [])
+          .build();
+
+        googletag.defineSlot('/9729793/300x250_300x600_secondary', [[300, 250], [300, 600]], 'div-gpt-ad-1438011102027-11')
+          .defineSizeMapping(btfSecondarySize)
+          .setCollapseEmptyDiv(true)
+          .addService(googletag.pubads());
+      }
+
+      var leadboardSize = googletag.sizeMapping()
+        .addSize([0, 0], [])
+        .addSize([668, 0], [[728, 90], [970, 250]])
+        .build();
+
+      googletag.defineSlot('/9729793/970x250_728x90_below_nav', [[728, 90], [970, 250]], 'div-gpt-ad-1438011102027-10')
+      .defineSizeMapping(leadboardSize)
+      .addService(googletag.pubads());
+
+      var colSize = googletag.sizeMapping()
+        .addSize([0, 0], [[1,1], [300, 400]])
+        .addSize([668, 0], [[1,1], [535, 400]]);
+
+      googletag.defineSlot('/9729793/1x1_video_btf', [[1, 1],[300, 400], [535, 400]], 'div-gpt-ad-1438011102027-9')
+        .defineSizeMapping(colSize)
+        .setCollapseEmptyDiv(true)
+        .addService(googletag.pubads());
+        googletag.pubads().addEventListener('slotRenderEnded', function(e){
+          //this will add a background to all 400 height ads...should be desireable
+          if(e.size[1]===400) {
+            $('#div-gpt-ad-1438011102027-9').addClass('ad-background');
+          };
+        })
+
+
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+
+    googletag.cmd.push(function() {
+      googletag.pubads().setTargeting("page", "article")
+        .setTargeting("pid", "article-7359");
+    });
+  
+      googletag.cmd.push(function() {
+        googletag.pubads().setTargeting("environment", "production");
+      });
+    
+      /* Version: 0.7 */
+      /* <![CDATA[ */
+      try {
+      var _mag = _mag || {};
+      _mag.kw = "features,evacuations,virtual reality,crowd control,panic week";
+      _mag.kw_encoded = 0;
+      _mag.shortName = 'atlasobscura-travel';
+      _mag.default_protocol = ('https:' == document.location.protocol ? 'https:' : 'http:');
+      _mag.startTime = (new Date()).getTime();
+      (function(d,t) {
+      var mag = d.createElement('script'); mag.type = 'text/javascript'; mag.async = true; mag.src = t;
+      var head = d.getElementsByTagName('head')[0] || d.documentElement; head.insertBefore(mag, head.firstChild);
+      })(document,  _mag.default_protocol + '//d3ezl4ajpp2zy8.cloudfront.net/atlasobscura-travel_tag.js');
+      } catch (e) {}
+      /* ]]> */
+    
+
+
+
+Order our new book, Atlas Obscura: An Explorer’s Guide to the World’s Hidden Wonders
+
+
+
+
+
+
+
+
+
+  $(function () {
+    if (!Cookies.get('disable_top_notification')) {
+      showSiteTopNotification();
+    }
+    $('.js-dismiss-link').click(function (e) {
+      e.preventDefault();
+      Cookies.set('disable_top_notification', true, { expires: 365 });
+      hideSiteTopNotification();
+      ga('send', 'event', 'Notification Bar', 'Dismissed', 'Dismiss Book Notice');
+    });
+    function hideSiteTopNotification() {
+      $('.site-top-notification-link').hide();
+      $('.js-notification-spaceable').addClass('hide-spacer');
+    }
+    function showSiteTopNotification() {
+      $('.site-top-notification-link').show();
+      $('.js-notification-spaceable').removeClass('hide-spacer');
+    }
+  });
+
+
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '206394544492',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+    FB.Event.subscribe('edge.create', function(response) {
+      Cookies.set('fb_subscriber', '1', { expires: 200, path: '/' });
+    });
+    FB.Event.subscribe('edge.remove', function(response) {
+      Cookies.set('fb_subscriber', '0', { expires: 200, path: '/' });
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sign In
+
+Join
+
+
+
+
+
+
+Find
+
+
+Near
+
+
+ 
+
+
+The Atlas
+
+
+
+
+
+
+
+Top Destinations
+
+
+
+
+Newly Added Places
+
+
+
+
+Most Popular Places
+
+
+
+
+Random Place
+
+
+
+
+
+Add a Place
+
+
+
+
+Newly Added Places
+
+
+Lord Howe Island, Australia
+Lord Howe Island's Time
+
+-31.5533, 159.0768
+
+ 
+Budapest, Hungary
+Labyrinth of Buda Castle 
+
+47.5003, 19.0342
+
+ 
+Derbyshire, England
+Winnats Pass
+
+53.3414, -1.7921
+
+ 
+Columbus, Ohio
+The Handprint
+
+40.0010, -83.0116
+
+ 
+
+
+Top Destinations
+
+
+
+Countries
+
+
+Australia
+
+
+Canada
+
+
+China
+
+
+France
+
+
+Germany
+
+
+India
+
+
+Italy
+
+
+Japan
+
+
+
+
+Cities
+
+
+Amsterdam
+
+
+Barcelona
+
+
+Beijing
+
+
+Berlin
+
+
+Boston
+
+
+Budapest
+
+
+Chicago
+
+
+London
+
+
+Los Angeles
+
+
+Mexico City
+
+
+Montreal
+
+
+Moscow
+
+
+New Orleans
+
+
+New York
+
+
+Paris
+
+
+Philadelphia
+
+
+Prague
+
+
+Rome
+
+
+San Francisco
+
+
+Seattle
+
+
+Stockholm
+
+
+Tokyo
+
+
+Toronto
+
+
+Vienna
+
+
+
+
+
+SEE ALL 
+5418 DESTINATIONS IN THE ATLAS
+
+
+
+
+
+
+
+
+Stories
+
+
+
+
+
+BROWSE STORIES BY
+Columns
+Features
+Interactive
+News
+Video
+Visual
+
+
+Most Recent Stories
+
+
+What Happens When Crowds Try To Flee For Their Lives
+
+ 
+Giant Snowballs Have Appeared on the Siberian Coast
+
+ 
+The Wunderkind Writer Who Disappeared Without a Trace at Age 25
+
+ 
+Manic Panic Isn't Just a Hair Dye Brand: It Was the First Punk Store in America
+
+ 
+
+
+
+
+
+
+Events
+
+
+
+
+
+Quick Links
+All Events
+All Trips
+Explore Events
+Chicago
+Los Angeles
+New York
+Philadelphia
+San Francisco
+Seattle
+Washington, D.C.
+
+
+Upcoming Events
+
+
+
+
+Nov
+ 8
+
+
+New York
+
+After-Hours at a Bookbinding Workshop
+
+ 
+
+
+Nov
+ 9
+
+
+Havana
+
+Explore Cuba with Atlas Obscura, Nov. 9-13
+
+ 
+
+
+Nov
+11
+
+
+Los Angeles
+
+A Night on the Battleship
+
+ 
+
+
+Nov
+12
+
+
+Poolesville
+
+The Ruins of Seneca Quarry
+
+ 
+
+
+
+
+
+
+
+ 
+
+Sign In
+
+
+Join
+
+
+
+
+
+Search
+ 
+
+
+
+Find
+
+
+Near
+
+
+Search
+
+ 
+
+
+
+
+
+
+55.8591, -4.2581
+
+
+The Highlandman's Umbrella, Scotland
+
+ 
+
+
+
+  googletag.cmd.push(function() { googletag.display('div-gpt-ad-1438011102027-12'); });
+
+
+
+ What's near me?
+ 
+
+
+ 
+
+
+    if (!isSmallScreen()) {
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1438011102027-10'); });
+    }
+  
+
+
+
+
+What Happens When Crowds Try To Flee For Their Lives
+
+
+Researchers study past tragedies to try and prevent them in the future.
+
+
+by Lauren Young
+November 04, 2016
+
+
+
+
+Panic Week
+Try to stay calm. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Email This Article
+
+
+
+From
+
+To
+Please separate multiple addresses with commas. We won't share addresses with third parties.
+
+
+Subscribe me to the
+Atlas Obscura Newsletter
+
+
+
+
+
+
+
+
+
+  displayFbCount('http://www.atlasobscura.com/articles/what-happens-when-crowds-try-to-flee-for-their-lives', '.js-facebook-count');
+
+
+
+
+
+
+
+Enjoying This Story?
+
+
+
+
+Get our latest, delivered straight to your inbox by subscribing to our newsletter.
+
+
+
+
+Subscribe to our newsletter and get our latest, sent right to your inbox.
+
+
+
+
+Subscribe
+
+Thanks for subscribing!
+
+
+ 
+
+
+
+
+
+
+Related Stories
+
+
+
+Voting Booths Were a Radical 19th Century Reform to Stop Election Fraud
+Manic Panic Isn't Just a Hair Dye Brand: It Was the First Punk Store in America
+Panic in Comfort With the Modern Safe Room
+
+
+
+
+
+People innocently packed into the Love Parade 2010 venue just moments before a chaotic outbreak. Arne Müseler/CC BY-SA 3.0Early Sunday morning on January 27, 2013, the band Gurizada Fandangueira was playing to a packed house at the Kiss nightclub in Santa Maria, Brazil. Hundreds of people, including many university students, were dancing to the group’s upbeat country pop music on the last weekend of Brazil’s summer break. The band shot sparkler columns up into the air, a dazzling display that audiences expected at every Gurizada Fandangueira show. But as one of the guitarists was getting ready for the sixth song of the set, he saw embers float down.
+Flames quickly engulfed the acoustic foam insulation on the ceiling. Hot ash fell over the band members and dancers and the venue filled with thick smoke. The approximately 2,000 people inside the Kiss nightclub (1,000 over the building’s capacity) fled towards the only windowless exit. At first security guards thought patrons were trying to leave without paying and blocked exits, trapping victims inside. 
+Many patrons ran towards the restrooms. Some were following the flow of people and mistook the restrooms as exits, while others went to the small space to hide. Black smoke impaired vision. The narrow hallway that led to the exit became clogged. Pushing and shoving ensued. One person fell, causing another, and another. 
+The tragic scene investigators and survivors described was nightmarish and chaotic. Two hundred and forty-two people perished in the tragic Kiss nightclub fire, and another 630 were injured. When emergency responders arrived at the scene at 3 a.m., people said the Kiss nightclub looked “like a war zone.”
+A memorial of flowers, photos, and notes for those lost in the fire lie outside of the scorched Kiss nightclub in Santa Maria, Brazil. Leandro LV/CC BY-SA 3.0“There were lots of casualties and a lot of people who ran to the restrooms,” says computer scientist Sharad Sharma, who has recreated a simulation of the Kiss nightclub fire at the Bowie State University Virtual Reality Laboratory in Maryland. “According to the data, there were 180 victims [in the restroom] and it’s really surprising how 180 people can fit in a small space.”
+Researchers investigate these kinds of disasters to understand when crowded events turn dangerous and why they spread. When studying crowds, many different factors come into play, from the behaviors of individuals, the social group behaviors, the disaster (if there is one), to the design of the space. Computer scientists try to incorporate all these variables in models of the movement patterns that ripple through the masses. Taking the information from past events, they also create virtual simulations and technologies in the hope of preventing future disasters.
+Defining crowd disasters is complex. In large mass gatherings, the mere shifting of hundreds and thousands of bodies filed in the confines of a space can lead to confusion, and sometimes a disastrous crowd collapse. Whereas, in the case of the Kiss nightclub tragedy, the fire initiated an evacuation which sent hundreds fleeing towards the exit. Many were crushed and trampled in the evacuation process.
+Crowds are not necessarily mindless, mob-like entities. James Cridland/CC BY 2.0Many media outlets referred to what happened as a “mass panic” or a “stampede.” But such terms are not appropriate to the situation, according to John Drury, a social psychologist at the University of Sussex.
+“People follow others when they perceive these others as relevant, so it is not mindless,” Drury says. “The problems come when the others don’t take the danger seriously enough. People more often die in emergencies through not evacuating quickly rather than through haste.”
+Stampeding is a primitive, instinctive behavior of herd animals, and panic implies a rashness or irrationality in response to a real or perceived danger, Drury writes on his academic blog. But crowds shouldn’t be compared to unintentional, mindless mobs. Instead Drury refers to these events as progressive crowd collapses.
+Cultural connections and social groups, such as being Chicago Cubs fans or sharing the same religion, can influence the behavior of a crowd, he explains. “Assuming that the crowd is simply made up of individuals who behave like particles or billiard balls in a mass doesn’t account for a number of features of crowds,” Drury and his colleague wrote in The Conversation. “Some physical crowds could contain many different psychological crowds, or groups with different social identities.”
+Law enforcement assessing the crowds after the tragedy on the Bund in Shanghai. Konrad Lembcke/CC BY-ND 2.0Computer scientists try to factor in the psychological variables. There are artificial intelligence and logic algorithms, such as the ”fuzzy logic” model, that account for unpredictable factors and emotional behaviors, or “fuzzy” characteristics, such as stress, anger, and panic. Still, the variability of emotions remains a challenge to compute. In the Megacity collaborative virtual reality environment, Sharma was able to program different agents or roles with hostile, selfish, altruistic, and leadership behaviors. Users who participate in the scenarios can be assigned a behavior to help make the simulation more lifelike.
+“Some researchers argue that there is no panic in models because it’s too difficult to quantify panic,” says Jian Ma, an evacuation dynamics and pedestrian traffic researcher at Southwest Jiaotong University in China. “Without a definition or a computation, you cannot say that panic induced this mass fleeing.”
+Ma instead describes the “spread of panic” as a spread and flux in pressure. When crowds reach a critical density, a certain amount of force, push, or a fall can cause a domino effect, he says. This spread of movement causes different kinds of patterns within the crowd.
+The narrow tunnel that was packed with people during the 2010 Love Parade in Germany. kaʁstn/CC BY-SA 3.0In 2014, hundreds of thousands of people were shuffling on a small ramp at Chen Yi Square on the Bund riverfront in Shanghai to get a good view of the New Year’s Eve light show. So many people were crammed on the narrow passageway that linked the upper and lower levels of the deck that they were at a standstill. Yet, those with obscured views continued to push forward, causing a problematic counter flow movement.
+As the density of people continued to build, the counter flow behavior triggered the crowd collapse, says Ma. Thirty-six died and 50 were injured.
+“This situation is quite common in other disasters,” Ma says. “It’s very important to control the flow direction and to avoid counter flow situations.”
+The ramp in Chen Yi Square that was at the root of the New Year’s Eve disaster has since been remodeled, Ma says. The passage is much wider and slopes in a more optimal fashion.
+The small staircase ramp shown near the bottom of the photo was the sight of the disaster at the Bund riverfront. It has since been reconstructed. Mulligan/Stu/CC BY 2.0Often times people cannot see how much congestion there is at the head of the crowd, Drury writes. People also commonly try to escape from the place in which they entered. This can cause clogging at the doors, a kind of heart pumping, push-and-pull behavior, Sharma explains. In the case of a fire, evacuees may not see through the smoke or be able to get to the exit closest to them.
+In Germany, 21 people died of suffocation at the Love Parade musical festival in 2010. Ma obtained the video footage of the crowd mobbed inside a compact tunnel—the only passageway into the venue. The underpass had been closed by police who said there were already 1.4 million attendees inside, which left the people stuck in the tunnel with nowhere to turn. Over loudspeakers, people inside the festival were instructed to exit, which caused even more congestion.
+There were as many as 11 people crammed into a square meter, unleashing a kind of “special earthquake” in the frozen crowd, Ma explains. The pressure release caused a “crowd turbulent flow movement”, which is much like a stop-and-go traffic wave. There hasn’t been another Love Parade festival since the horrific event. 
+A screenshot of the Kiss nightclub simulation by the Virtual Reality Lab at Bowie State University. Sharad Sharma/Bowie State University Virtual Reality Laboratory“There are some design features that make successful evacuation more likely,” says Drury. “Knowing the building layout and fire exits is also important.” However, this can be a challenge if those exits are obstructed from view.  To help people in real-time, Sharma and his research lab have been working on an augmented reality phone app that pinpoints a person on a floor map of the building, guiding them to the best possible exit.
+The team ran a test with the blueprint of Bowie State University’s library and used Wi-Fi bay stations to help triangulate a person’s location. The app is placed in front of a marker that projects the floorplan and visually shows the exits. Sharma hopes the lab can further develop the app so that they can find where everyone is in a building and provide escape routes. “If you have a known location of all the people, you can give users specific instructions on what exit to take, what exit not to take, and how to respond to the situation,” he says.
+Other real-time crowd management tools have been deployed during mass religious gatherings. In response to the 2015 crush during the pilgrimage to Mecca in Saudi Arabia, this year the Saudi Ministry of Hajj gave pilgrims electronic bracelets with individual tracking GPS and vibrating alert systems to inform when they should slow down. Additionally, Sharma’s Oculus Rift and Samsung Gear VR virtual reality simulations of subways, airplanes, college campuses, and urban environments are being further developed to serve as training grounds for emergency responders.
+While they may be painful to relive, researchers take the data from these catastrophic events to try to prevent them from happening again—spinning alternate scenarios to be better prepared for the unexpected future. Simulating evacuation situations in a virtual space gives more flexibility, and provides more opportunities to grab better data.
+“Humans and the factors of these events are so unpredictable,” says Sharma. In these studies “you can come up with these lessons from different behaviors and learn how to prevent chaos.”   
+
+
+
+
+
+
+
+Panic Week
+Try to stay calm. 
+ 
+
+
+
+#evacuations#crowd control#virtual reality#panic week#features
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+Read Next
+
+
+
+Giant Snowballs Have Appeared on the Siberian Coast
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1438011102027-1'); });
+
+
+
+Recent Stories
+
+
+Giant Snowballs Have Appeared on the Siberian Coast
+Nature is getting ready for a fight.
+
+November 04, 2016
+
+
+
+The Wunderkind Writer Who Disappeared Without a Trace at Age 25
+Barbara Newhall Follett was poised to be a force in 20th century letters. What happened? 
+
+November 04, 2016
+
+
+
+Manic Panic Isn't Just a Hair Dye Brand: It Was the First Punk Store in America
+Tish and Snooky Bellomo have always been cool. 
+
+November 04, 2016
+
+
+
+Places Near You
+
+
+
+
+
+
+
+
+
+
+Related Stories
+
+
+
+
+
+
+story
+panic week
+
+The First People to Push the Panic Button Were Korean War Pilots
+
+What started as a last-ditch safety tool became a way for soldiers to make fun of each other.
+
+November 04, 2016
+
+
+
+
+
+
+
+story
+panic week
+
+Did a Silent Film About a Train Really Cause Audiences to Stampede?
+
+A closer look at an enduring tale of movie-induced panic.
+
+November 03, 2016
+
+
+
+
+
+
+
+story
+meteorites
+
+Exploring Mexico’s Zone of Silence, Where Radio Signals Fail and Meteorites Crash
+
+The Mexican version of the Bermuda Triangle has its fair share of alien rumors.
+
+November 03, 2016
+
+
+
+
+
+
+
+story
+panic week
+
+32 Things We Are Not Panicking About
+
+But totally could be. 
+
+November 03, 2016
+
+
+
+
+
+
+
+
+
+
+
+From Elsewhere
+
+
+
+
+
+
+
+
+  (function() {
+    var zergnet = document.createElement('script');
+    zergnet.type = 'text/javascript'; zergnet.async = true;
+    zergnet.src = 'http://www.zergnet.com/zerg.js?id=30991';
+    var znscr = document.getElementsByTagName('script')[0];
+    znscr.parentNode.insertBefore(zergnet, znscr);
+  })();
+ 
+ 
+Recent Stories
+
+
+Giant Snowballs Have Appeared on the Siberian Coast
+Nature is getting ready for a fight.
+
+November 04, 2016
+
+
+
+The Wunderkind Writer Who Disappeared Without a Trace at Age 25
+Barbara Newhall Follett was poised to be a force in 20th century letters. What happened? 
+
+November 04, 2016
+
+
+
+Manic Panic Isn't Just a Hair Dye Brand: It Was the First Punk Store in America
+Tish and Snooky Bellomo have always been cool. 
+
+November 04, 2016
+
+
+
+
+
+
+
+
+
+ 
+
+
+  googletag.cmd.push(function() { googletag.display('div-gpt-ad-1438011102027-11'); });
+
+
+
+
+Places Near You
+
+
+
+
+ 
+
+  pinterestAllContent();
+  googletag.cmd.push(function() {
+    googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+      listenForElementsIn( 'body', 'iframe', noPinWithin, '.ad-wrapper' );
+    });
+  });
+
+  $(".article-image").each(function(){
+    $(this).attr("onload", stablePinOn(this));
+  });
+  noPinWithin('.content-siderail');
+  noPinWithin('.recirc-footer-wrap');
+
+  if( isIE() ){
+    $("#article-body .article-image").removeAttr("width");
+  }
+
+$(function () {
+  var ArticleBodyState = {};
+  var $articleContent = $('.content-body #article-body').children();
+  placeTeads($articleContent);
+
+
+  if (!isSubscribed()) {
+    placeInterruptContent($articleContent, hasImageContent, placeArticleEmailAsk);
+  } else {
+    placeInterruptContent($articleContent, hasImageContent, placeRelatedArticlesInterrupt);
+  }
+
+
+  function placeInterruptContent($content, nodeCheckFunction, placingFunction, limit) {
+    var limit = (typeof limit !== 'undefined') ?  limit : 7;
+
+    var n = 0;
+    var contentWasPlaced = false;
+
+    $content.each(function (index, p) {
+      // nodeCheckFunction must take a node &
+      // return true/false about its content
+      if ( nodeCheckFunction( $(p) ) ) { return; }
+      n++;
+
+      if (n >= limit) {
+        if ( nodeCheckFunction($(p).next()) ) { return; }
+
+        placingFunction(p);
+        contentWasPlaced = true;
+        return false;
+      }
+    });
+
+    if (!contentWasPlaced) {
+      placingFunction($articleContent.last());
+    }
+  }
+
+  function placeTeads($content) {
+
+    var videoDfp = "<!-- /9729793/1x1_video_btf -->\n<div id=\"video-body-ad\" style=\"line-height: 0; min-height: 1px; position: relative; bottom: 14px;\">\n  <div id=\'div-gpt-ad-1438011102027-9\' class=\'ad-wrapper\' >\n  <script type=\'text/javascript\'>\n  googletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1438011102027-9\'); });\n  <\/script>\n  <\/div>\n<\/div>\n\n";
+    var n = 0;
+    var limit = 5;
+
+    $content.each(function (index, p) {
+      if (isNotBodyText(p)) { return; }
+
+      n++;
+      if (n >= limit) {
+        if (hasImageContent($(p).next())) { return; }
+        $(p).after(videoDfp);
+        return false;
+      }
+    });
+  }
+
+  function placeArticleEmailAsk(p) {
+    ArticleBodyState.emailAsk = $('#newsletter-email-ask').detach();
+    ArticleBodyState.emailAsk.insertAfter(p);
+    ArticleBodyState.emailAsk.removeClass("hidden");
+    attachEmailAskListeners();
+  }
+
+  function placeRelatedArticlesInterrupt(p) {
+    if ($('#js-related-articles-interrupt').length > 0) {
+      ArticleBodyState.relatedArticles = $('#js-related-articles-interrupt').detach();
+      ArticleBodyState.relatedArticles.insertAfter(p);
+      ArticleBodyState.relatedArticles.removeClass('hidden');
+    }
+  }
+
+  function attachEmailAskListeners() {
+    ArticleBodyState.emailAsk.on('click', 'a', function (e) {
+      e.preventDefault();
+    });
+
+    ArticleBodyState.emailAsk.on('click', function (e) {
+      e.preventDefault();
+      ArticleBodyState.emailAsk.find('.input-container')
+        .slideToggle(200);
+    });
+
+    ArticleBodyState.emailAsk.find('#email').on('click', function (e) {
+      e.stopPropagation();
+    });
+
+    ArticleBodyState.emailAsk.find('button').on('click', function (e) {
+      e.stopPropagation();
+    });
+  }
+
+  function placeInBodyAd(p) {
+    var bodyWithNow = $("body.articles")[0].offsetWidth;
+    ArticleBodyState.featureAdMarkup = "<div class='ad-background-intra-body'>" +
+      "<!-- /9729793/content_body_responsive -->\n<div id=\'div-gpt-ad-1438011102027-13\' class=\'ad-wrapper\'><\/div>\n<script type=\'text/javascript\'>\n  googletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1438011102027-13\'); });\n<\/script>\n" +
+      "</div>";
+    Content = $articleContent;
+    $(p).after( ArticleBodyState.featureAdMarkup );
+  }
+});
+
+  var _ain = {
+      id: "1426",
+      url: "http://www.atlasobscura.com/articles/what-happens-when-crowds-try-to-flee-for-their-lives",
+      postid: "article-7359",
+      maincontent: "#article-body",
+      title: "What Happens When Crowds Try To Flee For Their Lives",
+      pubdate: "2016-11-04 20:00:00 UTC",
+      authors: "Lauren Young",
+      sections: "",
+      tags: "features, evacuations, virtual reality, crowd control, panic week",
+      comments: ""
+  };
+  (function (d, s) {
+  var sf = d.createElement(s); sf.type = 'text/javascript'; sf.async = true;
+  sf.src = (('https:' == d.location.protocol) ? 'https://d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com' : 'http://t.contentinsights.com')+'/stf.js';
+  var t = d.getElementsByTagName(s)[0]; t.parentNode.insertBefore(sf, t);
+  })(document, 'script');
+
+
+
+
+
+The Atlas 
+
+
+Recently Added
+Most Popular
+Random
+Curious Facts
+Add a Place
+
+
+
+Events 
+
+
+Upcoming Events
+Upcoming Trips
+
+
+
+
+
+Stories 
+
+
+Columns
+Features
+Interactive
+News
+Video
+Visual
+
+
+
+
+Company 
+
+
+About
+Email Us
+FAQ
+Work With Us
+Advertising
+Privacy Policy
+Terms of Use
+
+
+
+Subscribe to the Atlas Obscura Newsletter and get our latest, delivered straight to your inbox.
+Thanks for subscribing!
+
+
+
+
+
+
+
+
+
+
+© 2016 Atlas Obscura. All rights reserved.
+
+
+
+
+
+
+© 2016 Atlas Obscura. All rights reserved.
+
+
+
+Issues with the site? Please let us know.
+
+ 
+
+
+
+
+
+
+
+
+Join Atlas Obscura
+Email Address
+
+Password
+
+Confirm password
+
+How many arms does an octopus have?
+
+
+
+Subscribe me to the
+Atlas Obscura Newsletter
+
+
+
+Or
+
+ Join with Facebook
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sign In to Continue
+Email address
+
+
+Password
+
+Forgot your password?
+
+
+
+Or
+
+ Log In with Facebook
+
+
+
+
+Not a Member? Join  
+  
+
+
+    
+  
+
+  
+  
+    
+      
+  
+  
+    
+      
+
+      Escape the Beaten Path
+        Subscribe to the Atlas Obscura Newsletter and get our latest, delivered straight to your inbox.
+        
+        
+        
+          
+            
+              Subscribe
+          
+        No Thanks
+            
+  
+
+
+    
+  
+
+  
+  
+    
+      
+  
+  
+    
+      
+
+      We'd Like You to Like Us
+        Like Atlas Obscura and get our latest and greatest stories in your Facebook feed.
+        
+        
+        No Thanks
+            
+  
+
+
+    
+  
+
+
+
+    
+      
+      Like Us on Facebook
+      
+        
+        
+      
+    
+
+    
+      
+        
+        
+          
+        
+        
+      
+    
+
+      
+      var _comscore = _comscore || [];
+      _comscore.push({ c1: "2", c2: "17564338" });
+      (function() {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+      })();
+    
+      
+    
+
+    
+    
+    var _qevents = _qevents || [];
+
+    (function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+    })();
+    
+    _qevents.push({
+    qacct:"p-wCQ2x-2BzmYPY"
+    });
+    
+      
+    
+
+      
+        ga('set', 'dimension1', 'Guest');
+      /* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */

@@ -1,0 +1,803 @@
+Public Living Rooms Fight Loneliness With Tea and Conversation - CityLab
+        {
+              "@context": "http://schema.org",
+              "@type": "Organization",
+              "url": "http://www.citylab.com",
+              "logo": "http://cdn.citylab.com/static/citylab/img/logos/logo_social_600x315.png",
+              "sameAs" : [
+                "https://www.facebook.com/thisiscitylab",
+                "https://twitter.com/citylab",
+                "https://plus.google.com/+citylab/posts"]
+        }
+        
+        // Chartbeat head
+        var _sf_async_config = _sf_async_config || {};
+        _sf_async_config.uid = 17396; // ACCOUNT NUMBER
+        _sf_async_config.domain = window.location.host; // DOMAIN 
+        _sf_async_config.flickerControl = false;
+        _sf_async_config.path = "" || window.location.pathname; 
+        var _sf_startpt = (new Date()).getTime();
+    
+            var Atlantic = {};
+            Atlantic.page_info = {
+  "tall_ads_suppressed": false, 
+  "domain": "www.citylab.com", 
+  "image": "http://cdn.citylab.com/media/img/citylab/2016/11/Screen_Shot_2016_11_04_at_12.19.14_PM/facebook.png?1478290580", 
+  "channels": [
+    "navigator"
+  ], 
+  "article_type": "citylab", 
+  "twitter_image": "", 
+  "canonical_url": "http://www.citylab.com/navigator/2016/11/fighting-loneliness-with-public-living-rooms/506360/", 
+  "is_amp": false, 
+  "is_freelance": false, 
+  "original_url": "http://www.citylab.com/navigator/2016/11/fighting-loneliness-with-public-living-rooms/506360/", 
+  "seo_title": "Public Living Rooms Fight Loneliness With Tea and Conversation", 
+  "site_url": "http://www.citylab.com", 
+  "regions": [], 
+  "primary_channel": "navigator", 
+  "share_dek": "In England, one group is fighting social isolation with public living rooms. ", 
+  "is_instant": false, 
+  "share_title": "Fending Off Loneliness With Cups of Tea", 
+  "description": "Meet the group combating social isolation through cups of tea.", 
+  "tags": [], 
+  "is_404": false, 
+  "has_full_width_content": false, 
+  "kicker": "how-to", 
+  "authors": [
+    "Jessica Leigh Hester"
+  ], 
+  "date": "2016-11-04T14:33:00-04:00", 
+  "path": "/navigator/2016/11/fighting-loneliness-with-public-living-rooms/506360/", 
+  "cities": [], 
+  "article_id": 506360, 
+  "share_text": "", 
+  "countries": [], 
+  "url": "http://www.citylab.com/navigator/2016/11/fighting-loneliness-with-public-living-rooms/506360/", 
+  "is_sponsored": false, 
+  "title": "Fighting Loneliness With Public Living Rooms", 
+  "og_type": "article", 
+  "report": "", 
+  "view": "article"
+};
+            Atlantic.MEDIA_URL = "http://cdn.citylab.com/media/";
+            Atlantic.STATIC_URL = "http://cdn.citylab.com/static/b/";
+
+            // Used for comment counts
+            var disqus_shortname = 'theatlanticcities';
+            var s_account = "atlanticcities-prod";
+        
+(function (s) {
+    // Set all mandatory properties that don't change.
+    s.account = "atlanticcities-prod";
+    s.charSet="UTF-8";
+    s.currencyCode="USD";
+    s.trackDownloadLinks=true;
+    s.trackExternalLinks=true;
+    s.trackInlineStats=true;
+    s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls";
+    s.linkInternalFilters="javascript:,thewire.com,citylab.com,theatlantic.com,localhost";
+    s.linkLeaveQueryString=false;
+    s.linkTrackVars="None";
+    s.linkTrackEvents="None";
+    s.visitorNamespace="atlanticmedia";
+    s.trackingServer="atlanticmedia.122.2o7.net";
+
+    // Optimizely Adobe Analytics SiteCatalyst Integration
+     window.optimizely = window.optimizely || [];
+     window.optimizely.push("activateSiteCatalyst");
+
+    // We don't want to track page views for iframes loaded on TheAtlantic.com
+    // to prevent pages from being double counted
+    var track_page_views = true;
+    try {
+        if (window.parent !== window && window.parent.location.hostname === "www.theatlantic.com") {
+            track_page_views = false;
+        }
+    } catch(e) {}
+
+    if (track_page_views && s.t) {
+        /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+        var s_code = s.t();
+        if (s_code) document.write(s_code)
+        if (navigator.appVersion.indexOf('MSIE') >= 0) document.write(unescape('%3C') + '\!-' + '-');
+    }
+})(window.s);
+
+        // Duplicate a few existing s.props to be passed with linkTrackVars. If
+        // we just reused the existing s.props, data would be recorded twice.
+        s.prop66 = location.pathname;
+        s.prop67 = Atlantic.page_info.view;
+        s.prop68 = s.prop23; // Device type
+        s.linkTrackVars = "prop66,prop67,prop68";
+        
+        
+
+
+        
+            
+
+    
+    
+        
+            
+                From The Atlantic
+                
+                    CityLab
+                
+            
+        
+
+        
+            Menu
+            Commute
+                    Work
+                    Housing
+                    Weather
+                    Crime
+                    Politics
+                    Design
+                    Tech
+                
+                    Navigator
+                        CityFixer
+                        Maps
+                        Photos
+                        Videos
+                        Search
+                        
+                            
+                                
+                                
+                                
+                            
+                    
+                
+                    
+                
+            
+    
+
+            
+
+
+    var disqus_identifier = "post_506360";
+    var disqus_title = "Fighting Loneliness With Public Living Rooms";
+
+    
+        
+
+    
+    
+        
+
+
+
+
+
+    Ads are being blocked
+
+    
+        For us to continue writing great stories, we need to display ads.
+    
+
+    Un-block
+    Learn more
+
+
+
+
+    Back
+
+    Whitelist
+
+    
+        Please select the extension that is blocking ads.
+    
+
+    
+        
+            
+            Ad Block Plus
+        
+        
+            
+            Ghostery
+        
+        
+            
+            uBlock
+        
+        
+            Other Blockers
+        
+    
+
+
+
+
+    Back
+
+    
+        
+    
+
+    Please follow the steps below
+
+    
+
+    
+
+
+Navigator
+    
+    Fighting Loneliness With Public Living Rooms
+    Meet the group combating social isolation through cups of tea.
+    
+            
+                
+        
+
+    Jessica Leigh Hester
+        
+        
+        
+        @jessicahester
+        
+        
+        
+
+        
+            Nov 4, 2016
+        
+        Comments
+    
+    Share on Facebook
+    Tweet
+    
+    
+    
+
+                        Courtesy of Camerados
+
+                        
+                            (The Living Room in Blackpool, England)
+                        
+                    
+        Crumbs and stripes of jam are left behind on plates, sitting on a polka-dot tablecloth. Clusters of people lounge and chat on sofas and armchairs sprayed with floral patterns or stripes. The space “probably looks a lot like your grandma’s house,” says Maff Potts. “I don’t know if that’s a compliment.” It’s cozy and unpretentious; it invites plopping down and staying put for a while.
+
+Last spring, in cooperation with the local city council, Potts launched the space he calls the Living Room in a public library in Blackpool, England; another location opened last month in the town of Rotherham. Now, the campaign is expanding across the ocean. Two locations are slated to open in New York City this winter: one in Manhattan, and one in Brooklyn. Potts calls the spots a “hub of kindness,” pivotal places to fend off loneliness and build community around shared struggles.
+
+
+Related Story
+
+In a Lonely City, This Group Is Here to Listen
+
+Urban Confessional lends a helping ear to strangers on the street.
+
+The Living Rooms are a project of Potts’s organization, Camerados, which derived its moniker from a line in the Walt Whitman poem “Song of the Open Road,” in which the speaker hails a buddy to join him on a journey. The nonprofit is committed to ending social isolation, which can sink and settle, rippling out to exacerbate other issues in someone’s life, Potts says.
+
+Potts spent decades working in social services, and noticed a common denominator underlying the push to connect folks with concrete services: a cloud of loneliness and a harried pace. People struggling with homelessness, addiction, or health problems often feel hustled through the process of filling out forms or rushed through medical appointments, Potts says. The Living Rooms offer another model: “You can come sit all day,” he adds. “It’s up to you to engage with it as much as you want.”
+
+Looking for solace from strangers can be a tricky thing to navigate in public spaces: it can be hard to figure out how much empathy to dole out, and to gauge when you’re overstepping boundaries. Potts hopes the Living Rooms will be neutral spaces to seek and receive support. There are conversation prompts, he says, but no pressure and no to-do list. But if you’re going to hang out, you’ve got to pitch in. Potts believes in fostering empathy and agency through mutual aid; people buckling under their own stresses might find a bit of relief from helping others. “We’ll also put an apron on you and ask you to make a coffee for someone else and talk to them,” Potts says.
+
+One regular who spent most of his time sequestered indoors used to dial 999—an emergency hotline—multiple times a day just to hear a human voice, Potts says. Another frequent Living Room visitor sunk into a depression after getting sober; for a long stretch, he rarely ventured out of his apartment. Visiting the Living Room helped him re-acclimate to social settings, because he could duck out whenever he felt overwhelmed, he told the Washington Post.
+
+Visitors share cups of tea at the Living Room. (Courtesy of Camerados)To bring the Living Room concept to New York, Camerados is teaming up with Kindness.org, a platform dedicated to encouraging people to do nice things for each other. This site, which launched this fall, invites users to tackle some easy challenges: leaving a sketch or hand-drawn card for someone to find, or dropping a copy of a favorite book, hoping that a stranger will connect with the story held in its pages.
+
+Intuitively, kindness seems like a no-brainer, but it’s a bit nebulous. Kindness has been shown to cement relationships, predicting marital satisfaction—but on a broader scale, its benefits are more difficult to quantify. The Kindness.org founder Jaclyn Lindsey says the group is setting itself to the task of gauging exactly what kindness can accomplish. To tease out the effects of kindness, Lindsey’s organization partnered with Oliver Scott Curry, director of the Oxford Morals Project at University of Oxford. Curry and collaborators recently conducted a literature review of 21 studies examining kindness—many of which didn’t stand up well to scrutiny. “Our research suggests performing acts of kindness will not change your life, but might help nudge it in the right direction,” Curry said in a statement. Lindsey says she’s hoping to conduct more research in the future, in an effort to tease out how kindness might have long-term reverberations.
+
+Acts of kindness aren’t an alternative to interventions that aim to curb homelessness and other issues. In fact, Potts thinks they can operate in concert with more granular policy. In England, he collaborated with hospital emergency departments, encouraging medical staff to spread the word that discharged patients could stop in and talk about their stresses.
+
+Small gestures, Lindsey adds, might not repair a person’s life, but they can shift the course of someone’s day and—for a moment, at least—“tie us together across our differences” over a cup of tea.
+
+
+        
+    
+
+
+
+
+
+    Share on Facebook
+    Tweet
+    
+    
+    
+
+        Presented by
+        
+
+    
+
+    
+            
+                Previous
+                Berlin Is Bringing Back Subway Trains From the 1950s
+            
+        
+        
+
+        
+        
+            
+                Next
+                Every Tree in New York City, Mapped
+            
+        
+        
+    
+
+(function() {
+var referer="";try{if(referer=document.referrer,"undefined"==typeof referer)throw"undefined"}catch(exception){referer=document.location.href,(""==referer||"undefined"==typeof referer)&&(referer=document.URL)}referer=referer.substr(0,700);
+var rcel = document.createElement("script");
+rcel.id = 'rc_' + Math.floor(Math.random() * 1000);
+rcel.type = 'text/javascript';
+rcel.src = "https://trends.revcontent.com/serve.js.php?w=33773&t="+rcel.id+"&c="+(new Date()).getTime()+"&width="+(window.outerWidth || document.documentElement.clientWidth)+"&referer="+referer;
+rcel.async = true;
+var rcds = document.getElementById("rcjsload_148c84"); rcds.appendChild(rcel);
+})();
+About the Author
+        
+    
+
+        
+        
+            
+                
+        
+    
+    
+        
+            Jessica Leigh Hester is a senior associate editor at CityLab. She writes about culture, sustainability, and green spaces, and lives in Brooklyn.
+
+            
+        
+    
+
+    All Posts
+        
+        
+        @jessicahester
+        
+        Feed
+    
+
+
+            
+        
+
+
+
+
+
+
+
+Most Popular
+
+    Berlin Is Bringing Back Subway Trains From the 1950s
+        
+        Fighting Loneliness With Public Living Rooms
+        
+        What Dubai's Newest Theme Park Reveals About Its Urbanism
+        
+        The Devil's Hair Dryer
+        
+        Why Are European Cities So Dense? 
+        
+        The Ideal Cycling Speed Is 8 to 9 MPH, Says Science
+        
+        Preservation in Hanoi, Demolition in Ho Chi Minh City
+        
+        Every Tree in New York City, Mapped
+        
+        Psychology Researchers Found New Evidence for the 'Broken Windows' Policing Theory 
+        
+        This Japanese Town Shows How 'Zero Waste' Is Done
+        
+    See All Stories
+
+
+
+    
+
+
+
+
+
+    
+
+    
+    
+            
+                Newsletters
+            
+            
+                
+                CityLab, Straight to Your Inbox: Sign Up Here
+                Go
+            
+
+            
+                
+
+    
+        
+    
+            
+                Let's Be Friends
+            
+            
+                
+                Don't Miss Our Latest Stories
+                Go
+            
+
+            
+                
+
+    
+        
+         
+            
+                Store
+            
+            
+                
+                T-Shirts, Mugs, and More
+                Go
+            
+
+            
+        
+        
+    
+
+
+    Back To Top
+
+
+
+    
+
+    
+
+
+
+
+
+    
+        
+
+    
+    
+    
+
+
+
+CityLab
+    Share
+    Tweet
+    Menu
+
+        
+
+        
+        
+
+
+
+
+        Through original reporting, sharp analysis, and visual
+            storytelling, CityLab informs and inspires the people who are
+            creating the cities of the future—and those who want to live
+            there.
+
+            Follow
+            
+                
+                
+                
+            
+            Newsletter sign up
+            
+                
+                        Today’s Top Stories
+                    
+
+                    
+                        This Week’s Most Popular Stories
+                    
+
+                    
+                        
+                            I want to receive updates from partners and sponsors.
+                        
+                    
+                
+            
+            
+        More About CityLab
+            
+                Special Reports
+                    FAQ
+                    Masthead
+                    Contact Us
+                    Store
+                    Atlantic Media
+                    Jobs
+                    Advertise
+                    Advertising Guidelines
+                    Privacy
+                    Terms & Conditions
+                
+        Elsewhere at Atlantic Media
+            
+
+                
+                
+                
+                    
+                    
+                    
+                        
+                            The Atlantic
+                            The Next Fight to Expand Voting Has Already Begun
+                            
+                                2016: The Year Latinos Saved America?
+                            
+                                Track of the Day: ‘The Sidewinder’
+                            
+                            
+                    
+                
+                    
+                        
+                            Quartz
+                            The average American will waste 1.3 years over a lifetime looking for something to watch on TV
+                            
+                                No matter who wins the US presidential election, Social Security loses
+                            
+                                Should doctors be allowed to bring their religion to work?
+                            
+                            
+                    
+                    
+                    
+                
+                
+            
+
+        
+    
+        Copyright 2016  The Atlantic Monthly Group.
+    
+
+    
+    
+        
+            () Skip Ad &gt   
+        
+    
+    Advertisement
+        
+
+            
+                
+
+    
+        
+    
+
+
+
+    Atlantic.ad_queue = Atlantic.ad_queue || [];
+    Atlantic.ad_queue.push(function(){
+        Atlantic.Ad.sizeListener(/welcome/, function($ad, size){
+            if (!size) {
+                return false;
+            }
+            var $lightbox = $('#lightbox');
+            $lightbox.addClass("active format-" + size.join("x"));
+            if (typeof window.welcomeScreen === 'undefined') {
+                window.welcomeScreen = new Atlantic.WelcomeScreen();
+            }
+            window.welcomeScreen.show();
+        });
+    });
+
+
+
+    {
+        "globals": {
+  "src": "article", 
+  "byline": [
+    "jessica-leigh-hester"
+  ], 
+  "kicker": "how-to", 
+  "title": "fighting-loneliness-with-public-living-rooms"
+},
+        "zone": "/4624/cities/channel_navigator",
+        "peer39": true,
+        "amazon": "3239",
+        "adtest_domain": "citiestest",
+        "lazy_load": 1,
+        "outofpage": true,
+        "headerbidding": true,
+        "krux": true,
+        "adomik": true,
+        "detective": {
+            "url": "http://cdn.citylab.com/static/b/citylab/img/sherlock.gif"
+        }
+    }
+
+    if (/adtest\=1/.test(window.location.search) || /adtest\./.test(window.location.hostname)) {
+        amznads.debug_mode = true;
+    }
+
+    <aside>
+    <form id="injector-signup-citylab-daily-email-promo" action="https://theatlantic.us2.list-manage.com/subscribe/post?u=ed2d318978b7dc9b30b1f464f&amp;amp;id=f2eeb0a9f3" method="post"  data-newsletter-signup="1">
+        <p>
+            Love CityLab? Make sure you're signed up for our free e-mail newsletter.
+        </p>
+        <input type="hidden" value="1" name="group[7045][1]"><input type="email" name="EMAIL" class="email-address" placeholder="Email"><input type="submit" value="Sign up">
+        <p class="message"></p>
+    </form>
+</aside>
+
+Atlantic.PersistentHeader();
+    // Remove tall ads for articles with full-width art
+    (function(){
+        var ad = document.getElementById("ad-boxtop");
+        if (Atlantic.page_info.has_full_width_content && ad) {
+            $(ad).parent('.sticky-container').trigger('detach.ScrollToFixed');
+        }
+
+        if (Atlantic.page_info.tall_ads_suppressed && ad) {
+            var child, sizes;
+            for (var i = 0; i < ad.children.length; i++) {
+                child = ad.children[i];
+                sizes = JSON.parse(child.getAttribute("sizes"));
+                if (sizes) {
+                    sizes = $.grep(sizes, function(size){
+                        return !(size[0] === 300 && size[1] === 600)
+                    });
+                    child.setAttribute("sizes", JSON.stringify(sizes));
+                }
+            };
+        }
+    })();
+
+  window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+  (function(){
+    var k=document.createElement('script');k.type='text/javascript';k.async=true;
+    var m,src=(m=location.href.match(/\bkxsrc=([^&]+)/))&&decodeURIComponent(m[1]);
+    k.src = /^https?:\/\/([a-z0-9_\-\.]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" :
+      (location.protocol==="https:"?"https:":"http:")+"//cdn.krxd.net/controltag?confid=qrixug7rm";
+    var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+  }());
+
+    // Chartbeat footer
+    var _sf_async_config = _sf_async_config || {};
+    _sf_async_config.title = Atlantic.page_info.title;
+
+    // Hack. All our video players live in theatlantic.com
+    _sf_async_config.playerdomain = "www.theatlantic.com";
+
+    _sf_async_config.sections = (function(page){
+        var sections = [];
+
+        switch(page.article_type) {
+            case "note":
+            case "thread":
+                sections.push("notes");
+                break;
+            case "blog":
+            case "citylab":
+            case "wire":
+                // Not meaningful
+                break;
+            case "":
+                // Pages without articles types are landing pages
+                // and have primary channels.
+                sections.push(page.primary_channel);
+            default:
+                sections.push(page.article_type);
+        }
+
+        // Add all the channels
+        sections = sections.concat(page.channels);
+
+        return sections.join(",");
+    })(Atlantic.page_info);
+
+    _sf_async_config.authors = Atlantic.page_info.authors.join(",");
+
+    if (Atlantic.page_info.is_sponsored) {
+        _sf_async_config.zone='sponsored';
+    }
+
+    if (Atlantic.page_info.sponsor) {
+        _sf_async_config.sponsorName = Atlantic.page_info.sponsor;
+    }
+
+    window._sf_endpt=(new Date()).getTime();
+
+//<![CDATA[
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "6463921" });
+
+  
+
+
+        
+
+
+(function () {
+var d = new Image(1, 1);
+d.onerror = d.onload = function () {
+d.onerror = d.onload = null;
+};
+d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-906344h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+})();
+
+
+
+
+
+        
+
+window.GoogleAnalyticsObject = "ga";
+window.ga = window.ga || function() {
+    (window["ga"].q = window["ga"].q || []).push(arguments)
+}
+window["ga"].l = 1 * new Date();
+ga('create', 'UA-25706000-1', 'auto' );
+ga('send', 'pageview');
+
+__reach_config = {
+  "channels": [
+    "navigator"
+  ], 
+  "date": "2016-11-04T14:33:00", 
+  "title": "Fighting Loneliness With Public Living Rooms", 
+  "url": "http://www.citylab.com/navigator/2016/11/fighting-loneliness-with-public-living-rooms/506360/", 
+  "authors": [
+    "jessica-leigh-hester"
+  ], 
+  "pid": "516eed884240cfbf3000002c", 
+  "tags": [
+    "How To"
+  ], 
+  "page_url": "http://www.citylab.com/navigator/2016/11/fighting-loneliness-with-public-living-rooms/506360/"
+}
+
+    var ezt = ezt ||[];
+    ezt.push({
+        qacct: 'p-b0K-eQJGBXxXE',
+        uid: '',
+        labels: "CityLab.Editorial.Title.Fighting Loneliness With Public Living Rooms, CityLab.Editorial.Author.Jessica Leigh Hester, CityLab.Editorial.Channel.Navigator"
+    });
+
+  
+
+
+
+        
+        
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId: '149043611894677',
+      xfbml      : false,
+      version    : 'v2.7'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+

@@ -1,0 +1,1580 @@
+
+      document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js' %3E%3C/script%3E"));
+    
+    if (typeof COMSCORE !== 'undefined') {
+      COMSCORE.beacon({
+        c1:"2", c2: "18406752", c4: "http://www.slate.com/articles/health_and_science/do_the_math/2013/05/yitang_zhang_twin_primes_conjecture_a_huge_discovery_about_prime_numbers.html"
+      });
+    } else {
+      (function (w, d) {
+        d.addEventListener('DOMContentLoaded', function(event) {
+          var img = d.createElement('img');
+          img.src = 'http://b.scorecardresearch.com/p?c1=2&c2=18406752&c3=&c4=http://www.slate.com/articles/health_and_science/do_the_math/2013/05/yitang_zhang_twin_primes_conjecture_a_huge_discovery_about_prime_numbers.html&c5=&c6=&c15=&cj=1';
+          d.body.appendChild(img);
+        });
+      } (window, document));
+    }
+    
+      
+      var _qevents = _qevents || [];
+
+      (function() {
+        var elem = document.createElement('script');
+        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+        elem.async = true;
+        elem.type = "text/javascript";
+        var scpt = document.getElementsByTagName('script')[0];
+        scpt.parentNode.insertBefore(elem, scpt);
+        })();
+
+        _qevents.push({
+          qacct:"p-fw53_-Tq3MNK1"
+        });
+      
+      
+      
+      
+      //Reload to canonical if you try to paste in the print page
+      if (window.location.search.indexOf("print") > -1) {
+        if (document.referrer.indexOf("http://www.slate.com/articles/health_and_science/do_the_math/2013/05/yitang_zhang_twin_primes_conjecture_a_huge_discovery_about_prime_numbers.html") != 0) {
+          window.location = "http://www.slate.com/articles/health_and_science/do_the_math/2013/05/yitang_zhang_twin_primes_conjecture_a_huge_discovery_about_prime_numbers.html";
+        }
+      }
+      //-- Stop hiding script -->
+    
+      var slate_public_url = "http://www.slate.com/";
+    Yitang Zhang, twin primes conjecture: A huge discovery about prime numbers—and what it means for the future of math.
+      
+      var commercialNode = 'life/math';
+      
+      var commercialPageType = 'article';
+      var selectedText = "";
+    !function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_base_css_cache&&localStorage.font_base_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_base_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_base_css_cache=n.responseText,localStorage.font_base_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_base_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="http://static.cdnslate.com/etc/designs/slate/css/slate-fonts-base.bcb407b3.bcb407b3.css";window.localStorage&&localStorage.font_base_css_cache||document.cookie.indexOf("font_base_css_cache")>-1?n():e(document,"DOMContentLoaded",n)}();
+      // Load Apres Light for Mobile
+      if (window.matchMedia('(max-width: 1023px)').matches) {
+        !function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_mobile_css_cache&&localStorage.font_mobile_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_mobile_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_mobile_css_cache=n.responseText,localStorage.font_mobile_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_mobile_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="http://static.cdnslate.com/etc/designs/slate/css/slate-fonts-mobile.015046cd.015046cd.css";window.localStorage&&localStorage.font_mobile_css_cache||document.cookie.indexOf("font_mobile_css_cache")>-1?n():e(document,"DOMContentLoaded",n)}();
+      }
+    
+    requirejs.createNode = function (config, moduleName) {
+      var node = config.xhtml ?
+                 document.createElementNS('http://www.w3.org/1999/xhtml', 'html:script') :
+                 document.createElement('script');
+
+      node.type = config.scriptType || 'text/javascript';
+      node.charset = 'utf-8';
+      node.async = true;
+
+      if (moduleName == "slateAds") {
+        node.setAttribute('data-ad-site', 'slate');
+        node.setAttribute('data-ad-page-type', 'responsive');
+      }
+      return node;
+    };
+    requirejs.config({
+      "baseUrl": "http://static.cdnslate.com/etc/designs/slate/js",
+      "waitSeconds": 0,
+      "paths": {
+        "jquery": "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min",
+        "jqueryui": "//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min",
+        "modernizr": "/etc/designs/slate/js/libs/modernizr-2.6.1.min",
+        "announcements": "/etc/designs/slate/js/announcements",
+        "slate": "/etc/designs/slate/lib",
+        "hogan": "libs/hogan-2.0.0",
+        "facebook": "//connect.facebook.net/en_US/all",
+        "twitter": "//platform.twitter.com/widgets",
+        "livefyre": "//cdn.livefyre.com/Livefyre",
+        "newbrightcoveplayer": "components/brightcovevideosingle/newbrightcoveplayer",
+        "brightcove": "https://sadmin.brightcove.com/js/BrightcoveExperiences",
+        "brightcovetracking": "/etc/designs/slate/js/components/brightcovevideosingle/brightcovetracking",
+        "videojs-omniture": "/etc/designs/slate/js/components/brightcovevideosingle/videojs.analytic.omniture",
+        "mobileredirection": "libs/redirection_mobile_1.0.0.min",
+        "optimizely": [
+          "//cdn.optimizely.com/js/37441550",
+          "nooooo"
+        ],
+        
+          
+          
+            "outbrain": [
+              "//widgets.outbrain.com/outbrain",
+              "nooooo"
+            ],
+          
+        
+        "shared": "http://static.cdnslate.com/etc/designs/shared/js",
+        "instafeed": "/etc/designs/slate/js/instafeed",
+        "campaigns": "http://campaigns.slate.com/campaigns/slate",
+        "clipboard": "libs/zeroclipboard/ZeroClipboard.min",
+        "waypoints": "libs/jquery-plugins/jquery.waypoints",
+        //janrain
+        "rpxnow": window.location.protocol === 'https:' ? 'https://rpxnow.com/load/login.slate.com?noext' : 'http://widget-cdn.rpxnow.com/load/login.slate.com?noext',
+        'promise': 'requirejs-promise',
+        'youtube': "/etc/designs/slate/js/youtube",
+        'youtubeapi' : "https://www.youtube.com/iframe_api?noext",
+        "keywee": "https://dc8xl0ndzn2cb.cloudfront.net/js/slate/v0/keywee.min",
+        "slateAds": [
+          "http://ads.cdnslate.com/wp-srv/ad/loaders/latest/js/min/loader.min.js?noext",
+          "showme"
+        ]
+      },
+      "shim": {
+        "devicemode": ["modernizr"],
+        "hcs/script": ["jquery", "modernizr", "devicemode"],
+        "libs/jquery-plugins/jquery.browser": ["jquery"],
+        "hcs/plugins/jquery.transit": ["jquery"],
+        "hcs/plugins/SGFootnote.jquery": ["jquery"],
+        "hcs/plugins/SGSocialIcons.jquery": ["jquery", "hcs/script"],
+        "hcs/plugins/SGNavDropdown.jquery": ["jquery"],
+        "hcs/plugins/SGRollup.jquery": ["jquery", "hcs/script"],
+        "hcs/plugins/SGGlobalNav.jquery": ["jquery", "hcs/script"],
+        "hcs/plugins/SGLightbox.jquery": ["jquery"],
+        "hcs/plugins/jQuery.highlighter": ["jquery"],
+        "hcs/libs/swipe": ["jquery"],
+        "hcs/libs/magnific": ["jquery"],
+        "hcs/plugins/jquery.swipebox": ["jquery"],
+        "hcs/plugins/SGBigSlider.jquery": ["jquery", "hcs/script", "hcs/libs/swipe"],
+        "hcs/plugins/jquery.placeholder.min": ["jquery"],
+        "libs/jquery-plugins/jquery.timeago": ["jquery"],
+        "libs/jquery-plugins/jquery.form": ["jquery"],
+        "libs/jquery-plugins/jquery.cookie": ["jquery"],
+        "libs/jquery-plugins/jquery.fittext": ["jquery"],
+        "libs/jquery-plugins/jquery.backgroundSize": ["jquery"],
+        "libs/jquery-plugins/jquery.flexslider": ["jquery"],
+        "libs/jquery-plugins/purl": ["jquery"],
+        "libs/jquery-plugins/jquery.colorbox": [ "jquery" ],
+        "libs/jquery-plugins/jquery.sticky": ["jquery"],
+        "libs/jquery-plugins/jquery.autoComplete": ["jquery"],
+        "libs/jquery-plugins/jquery.boxfit": ["jquery"],
+        "libs/jquery-plugins/jquery.dateformat": ["jquery"],
+        "libs/jquery-plugins/jquery.lazyloadxt": ["jquery"],
+        "libs/jquery-plugins/jquery.lazyloadxt.extra": ["jquery"],
+        "libs/jquery-plugins/jquery.lazyloadxt.bg": ["jquery"],
+        "libs/jquery-plugins/jquery.lazyloadxt.widget": ["jquery"],
+        "libs/jquery-plugins/jquery.storageapi": ["jquery"],
+        "libs/jquery-plugins/jquery.ba-throttle-debounce": ["jquery"],
+        "libs/jquery-plugins/jquery.visible": ["jquery"],
+        "libs/jquery-plugins/jquery.event.move": ["jquery"],
+        "libs/jquery-plugins/jquery.twentytwenty": ["jquery"],
+        "optimizely": ["jquery"],
+        "facebook": {
+            deps: ["site-bottom"],
+            exports: "FB"
+        },
+        "livefyre": {
+            exports: "fyre"
+        },
+        "brightcove": {
+            "exports": "brightcove"
+        },
+        "mobileredirection": {
+                "exports": "mobileredirection"
+        },
+        "hogan": {
+          	"exports": "Hogan"
+        },
+        "outbrain": {
+          "exports": "OBR"
+        }
+      },
+      map: {
+        '*': {
+          'css': 'libs/require-css/css'
+        }
+      }
+    });
+
+    
+    define("config", {
+      "env": {
+        "edit": false,
+        "environment": "prod"
+      },
+      "janrain": {
+        "siteConfig": {
+          "enabled": true,
+          "propertyId": "login.slate.com",
+          "raceConditionTimeout": +"1500".replace(/\D/gi, ''),
+          "jsNamespace": "slateJanrain",
+          "userMessage": ""
+        },
+        "appUrl": "https://login.slate.com",
+        "tokenUrl": "http://www.slate.com",
+        "capture": {
+          "appId": "dbuhzej2qm7k436x6jg4qpef3f",
+          "captureServer": "https://profile.slate.com",
+          "clientId": "sskdd3tv7ekxx8mt6gq5hnu7mdxpmpha",
+          "accessTokenLifeHours": +"730".replace(/\D/gi, ''),
+          "returnExperienceUserData": "uuid,displayName,email".split(",").map(function(item) { return item.trim(); }),
+          "flowVersion": "HEAD"
+        }
+      },
+      "myslate": {
+        "site_base_domain": "slate.com",
+        "site_path": "/",
+        "site_url": "//www.slate.com/",
+        "myslate_domain": "//my.slate.com/",
+        "myslateTokenPath": "proxies/livefyre/token/",
+        "myslateJanrainTokenPath": "proxies/janrain/token/",
+        "myslateVerifyPath": "proxies/janrain/verify/",
+        "myslateSubscriptionsManagePath": "subscriptions/manage/",
+        "myslatePageInfoPath": "users/slate_page_info/",
+        "myslatePopularAuthorsPath": "articles/popular_authors/",
+        "myslateEventsPath": "subscriptions/events/",
+        "myslateRecommendationsPath": "recommendations/get_combined_json/",
+        "myslateIscrollRecommendationsPath": "contentapi/recommendations/v2/",
+        "myslateSegmentsPath": "store/segments/",
+        "myslateUserUpdatePath": "users/update/",
+        "myslatePartnersPath": "recommendations/partner_links/",
+        "myslate_https": true,
+        "fb_xd_receiver": "http://www.slate.com/xd_receiver.htm",
+        "fb_app_id": 142011022527753,
+      },
+      "iscroll": {
+        "hideStoryEvents": "",
+        "showThirdParties": true,
+        "hideScripts": "",
+        "disabled": false,
+        "mobile": true,
+        "bannerHTML": ""
+      },
+      "livefyre": {
+        "network": "slate.fyre.co",
+        "jsSourceUrl": "http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js",
+        "siteId": "337720",
+        "loadTiming": "immediate"
+      },
+      "campaigns": {
+        "domain":"campaigns.slate.com",
+        "loadTiming": "immediate"
+      },
+      "site": {
+        "site": "slate",
+        "title": "Slate",
+        "staticUrl": "http://static.cdnslate.com",
+        "omniturePrefix": "sl"
+      },
+      "data_domain": "http://www.slate.com/",
+      "page": {
+        "articleId": "100130522014",
+        "roadblocked": false,
+        "embeddedContent": false,
+        "slateplus": false,
+        "enableIssueCollector": false,
+        "contentCreated": "2013-05-22T16:44:35"
+      },
+      "ads": {
+        "showme": false,
+        "enableHomepageViewability": false,
+        "enableStoryViewability": true,
+        "viewabilityEnabled": true,
+        "viewability": {
+          "leaderboardRollup": true,
+          "leaderboardRollupDisabledList": "",
+          "refreshInterval": "120",
+          "refreshPolar": false,
+          "testPageList": "news,life,arts,sports,technology,blogs,business,science,doublex,podvideo,podcasts,news,briefing,life,arts,sports,technology,blogs,business,science,doublex,video,podvideo,podcasts",
+          "lazyload": {
+            "homepageBB": true,
+            "leaderboard_2": true,
+            "tiffTiles": true,
+            "rightflex": true,
+            "billboard": false
+          }
+        },
+        "enablePageFair": false
+      },
+      "_log": [],
+      "log": function(data) {
+        requirejs(["config"], function(config) {
+          if (typeof console != "undefined" && typeof console.log != "undefined") {
+            console.log(data);
+          }
+          config._log.push(data);
+        });
+      }
+    });
+    
+    
+    requirejs(['config'], function(config) {
+      var documentDomain = 'slate.com';
+      if (config.janrain.siteConfig.enabled) {
+        documentDomain = config.myslate.site_base_domain;
+      }
+      document.domain = documentDomain;
+    });
+    
+    var homepagePolarSpot = 'b1';
+    
+requirejs([
+  'jquery',
+  'config',
+  's_code',
+  'libs/jquery-plugins/jquery.cookie'
+], function($, config, s, unused) {
+
+        s.currencyCode="usd";
+        s.charSet="utf-8";
+        s.trackDownloadLinks=true;
+        s.trackExternalLinks=true;
+        s.trackInlineStats=true;
+        s.linkDownloadFileTypes="exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls";
+        s.linkInternalFilters="javascript:,slate.com,traffic.outbrain.com";
+        s.linkTrackVars="none";
+        s.linkTrackEvents="none";
+        s.pageName="health and science:article - 20130522 - yitang zhang, twin primes conjecture: a huge discovery about prime numbers—and what it means for the future of math.";
+        s.channel="sl - health and science";
+        s.server="www.slate.com";
+        s.prop2="do the math";
+        s.prop3="article";
+        s.prop4="slate";
+        s.prop5="jordan ellenberg";
+        s.prop12="100130522014";
+        s.prop13="yitang zhang, twin primes conjecture: a huge discovery about prime numbers—and what it means for the future of math.";
+        s.prop14="1";
+        s.prop34="4.9.18";
+        s.prop36="general";
+        s.prop39="life/math";
+        s.prop40="science, math";
+        s.hier1="health and science|do the math|article";
+        s.eVar8="jordan ellenberg";
+        s.eVar17="article";
+    s.prop75 = "1";
+    s.eVar4 = "1";
+    s.prop32 = $.cookie('spf') || 'false';
+    /**
+     * Check for AdBlock
+     */
+    if (typeof placeAd2 === 'undefined') {
+      $.cookie('spf', true, {
+        expires: 365,
+        path: '/',
+        domain: config.myslate.site_base_domain
+      });
+    }
+    s.t();
+});
+               
+      var _isNavMoving = false; // acts as a global (sorry) mutex for keeping track of when our nav panels are moving around. Allows us to prevent overlapping actions.
+    var wp_meta_data = {"authors":["Jordan Ellenberg"],"contentType":"article","page_id":"100130522014","keywords":"science,Do The Math,math,yitang zhang, tom zhang, twin primes conjecture, twin prime conjecture, bounded gaps conjecture, yitang zhang proof, twin primes proof, twin prime proof, bounded gaps proof, prime numbers","section":"Health and Science","rubric":"Do The Math"};
+        var teadsEnabled = true;
+        requirejs(["jquery","myslate"], function($,myslate) {
+            if(myslate.isSlatePlusUser) {
+                teadsEnabled = false;
+            }
+        });
+        
+        {"@context":"http://schema.org","url":"http://www.slate.com/articles/health_and_science/do_the_math/2013/05/yitang_zhang_twin_primes_conjecture_a_huge_discovery_about_prime_numbers.html","@type":"Article","mainEntityOfPage":"True","articleBody":"Last week, Yitang \u201cTom\u201d Zhang, a popular math professor at the University of New Hampshire, stunned the world of pure mathematics when he announced that he had proven the \u201cbounded gaps\u201d conjecture about the distribution of prime numbers\u2014a crucial milestone on the way to the even more elusive twin primes conjecture, and a major achievement in itself. The stereotype, outmoded though it is, is that new mathematical discoveries emerge from the minds of dewy young geniuses. But Zhang is over 50. What\u2019s more, he hasn\u2019t published a paper since 2001. Some of the world\u2019s most prominent number theorists have been hammering on the bounded gaps problem for decades now, so the sudden resolution of the problem by a seemingly inactive mathematician far from the action at Harvard, Princeton, and Stanford came as a tremendous surprise. But the fact that the conjecture is true was no surprise at all. Mathematicians have a reputation of being no-bullshit hard cases who don\u2019t believe a thing until it\u2019s locked down and proved. That\u2019s not quite true. All of us believed the bounded gaps conjecture before Zhang\u2019s big reveal, and we all believe the twin primes conjecture even though it remains unproven. Why? Let\u2019s start with what the conjectures say. The prime numbers are those numbers greater than 1 that aren\u2019t multiples of any number smaller than themselves and greater than 1; so 7 is a prime, but 9 is not, because it\u2019s divisible by 3. The first few primes are: 2, 3, 5, 7, 11, 13 \u2026 Every positive number can be expressed in just one way as a product of prime numbers. For instance, 60 is made up of two 2s, one 3, and one 5. (This is why we don\u2019t take 1 to be a prime, though some mathematicians have done so in the past; it breaks the uniqueness, because if 1 counts as prime, 60 could be written as 2 x 2 x 3 x 5 and 1 x 2 x 2 x 3 x 5 and 1 x 1 x 2 x 2 x 3 x 5 ...) The primes are the atoms of number theory, the basic indivisible entities of which all numbers are made. As such, they\u2019ve been the object of intense study ever since number theory started. One of the very first theorems in number theory is that of Euclid, which tells us that the primes are infinite in number; we will never run out, no matter how far along the number line we let our minds range. But mathematicians are greedy types, not inclined to be satisfied with mere assertion of infinitude. After all, there\u2019s infinite and then there\u2019s infinite. There are infinitely many powers of 2, but they\u2019re very rare. Among the first 1,000 numbers, there are only 10 powers of 2: 1, 2, 4, 8, 16, 32, 64, 128, 256, and 512. There are infinitely many even numbers, too, but they\u2019re much more common: exactly 500 out of the first 1,000. In fact, it\u2019s pretty apparent that out of the first X numbers, just about (1/2)X will be even. Primes, it turns out, are intermediate\u2014more common than the powers of 2 but rarer than even numbers. Among the first X numbers, about X/log(X) are prime; this is the Prime Number Theorem, proven at the end of the 19th century by Hadamard and de la Vallée Poussin. This means, in particular, that prime numbers get less and less common as the numbers get bigger, though the decrease is very slow; a random number with 20 digits is half as likely to be prime as a random number with 10 digits. Naturally, one imagines that the more common a certain type of number, the smaller the gaps between instances of that type of number. If you\u2019re looking at an even number, you never have to travel farther than 2 numbers forward to encounter the next even; in fact, the gaps between the even numbers are always exactly of size 2. For the powers of 2, it\u2019s a different story. The gaps between successive powers of 2 grow exponentially, and there are finitely many gaps of any given size; once you get past 16, for instance, you will never again see two powers of 2 separated by a gap of size 15 or less. Those two problems are easy, but the question of gaps between consecutive primes is harder. It\u2019s so hard that, even after Zhang\u2019s breakthrough, it remains a mystery in many respects. And yet we think we know what to expect, thanks to a remarkably fruitful point of view\u2014we think of primes as random numbers. The reason the fruitfulness of this viewpoint is so remarkable is that the viewpoint is so very, very false. Primes are not random! Nothing about them is arbitrary or subject to chance. Quite the opposite\u2014we take them as immutable features of the universe, and carve them on the golden records we shoot out into interstellar space to prove to the ETs that we\u2019re no dopes. If you start thinking really hard about what \u201crandom\u201d really means, first you get a little nauseated, and a little after that you find you\u2019re doing analytic philosophy. So let\u2019s not go down that road. Instead, take the mathematician\u2019s path. The primes are not random, but it turns out that in many ways they act as if they were. For example, when you divide a random number by 3, the remainder is either 0, 1, or 2, and each case arises equally often. When you divide a big prime number by 3, the quotient can\u2019t come out even; otherwise, the so-called prime would be divisible by 3, which would mean it wasn\u2019t really a prime at all. But an old theorem of Dirichlet tells us that remainder 1 shows up about equally often as remainder 2, just as is the case for random numbers. So as far as \u201cremainder modulo 3\u201d goes, prime numbers, apart from not being multiples of 3, look random. What about the gaps between consecutive primes? You might think that, because prime numbers get rarer and rarer as numbers get bigger, that they also get farther and farther apart. On average, that\u2019s indeed the case. But what Yitang Zhang just proved is that there are infinitely many pairs of primes that differ by at most 70,000,000. In other words, that the gap between one prime and the next is bounded by 70,000,000 infinitely often\u2014thus, the \u201cbounded gaps\u201d conjecture. On first glance, this might seem a miraculous phenomenon. If the primes are tending to be farther and farther apart, what\u2019s causing there to be so many pairs that are close together? Is it some kind of prime gravity? Nothing of the kind. If you strew numbers at random, it\u2019s very likely that some pairs will, by chance, land very close together. (The left-hand picture on this page is a nice illustration of how this works in the plane; the points are chosen independently and completely randomly, but you see some clumps and clusters all the same.) It\u2019s not hard to compute that, if prime numbers behaved like random numbers, you\u2019d see precisely the behavior that Zhang demonstrated. Even more: You\u2019d expect to see infinitely many pairs of primes that are separated by only 2, as the twin primes conjecture claims. (The one computation in this article follows. If you\u2019re not onboard, avert your eyes and rejoin the text where it says \u201cAnd a lot of twin primes \u2026\u201d) Among the first N numbers, about N/log N of them are primes. If these were distributed randomly, each number n would have a 1/log N chance of being prime. The chance that n and n+2 are both prime should thus be about (1/log N)^2. So how many pairs of primes separated by 2 should we expect to see? There are about N pairs (n, n+2) in the range of interest, and each one has a (1/log N)^2 chance of being a twin prime, so one should expect to find about N/(log N)^2 twin primes in the interval. There are some deviations from pure randomness whose small effects number theorists know how to handle; a more refined analysis taking these into account suggests that the number of twin primes should in fact be about 32 percent greater than N/(log N)^2. This better approximation gives a prediction that the number of twin primes less than a quadrillion should be about 1.1 trillion; the actual figure is 1,177,209,242,304. That\u2019s a lot of twin primes. And a lot of twin primes is exactly what number theorists expect to find no matter how big the numbers get\u2014not because we think there\u2019s a deep, miraculous structure hidden in the primes, but precisely because we don\u2019t think so. We expect the primes to be tossed around at random like dirt. If the twin primes conjecture were false, that would be a miracle, requiring that some hitherto unknown force be pushing the primes apart. Not to pull back the curtain too much, but a lot of famous conjectures in number theory are like this. The Goldbach conjecture that every even number is the sum of two primes? The ABC conjecture, for which Shin Mochizuki controversially claimed a proof last fall? The conjecture that the primes contain arbitrarily long arithmetic progressions, whose resolution by Ben Green and Terry Tao in 2004 helped win Tao a Fields Medal? All are immensely difficult, but they are all exactly what one is guided to believe by the example of random numbers. It\u2019s one thing to know what to expect and quite another to prove one\u2019s expectation is correct. Despite the apparent simplicity of the bounded gaps conjecture, Zhang\u2019s proof requires some of the deepest theorems of modern mathematics, like Pierre Deligne\u2019s results relating averages of number-theoretic functions with the geometry of high-dimensional spaces. (More classically minded analytic number theorists are already wondering whether Zhang\u2019s proof can be modified to avoid such abstruse stuff.) Building on the work of many predecessors, Zhang is able to show in a rather precise sense that the prime numbers look random in the first way we mentioned, concerning the remainders obtained after division by many different integers. From this (following a path laid out by Goldston, Pintz, and Yıldırım, the last people to make any progress on prime gaps) he can show that the prime numbers look random in a totally different sense, having to do with the sizes of the gaps between them. Random is random! Zhang\u2019s success (along with the work of Green and Tao) points to a prospect even more exciting than any individual result about primes\u2014that we might, in the end, be on our way to developing a richer theory of randomness. How wonderfully paradoxical: What helps us break down the final mysteries about prime numbers may be new mathematical ideas that structure the concept of structurelessness itself. (A few suggestions for further reading for those with more technical tastes: Number theorist Emmanuel Kowalski offers a first report on Zhang\u2019s paper. And here\u2019s Terry Tao on the dichotomy between structure and randomness.)","headline":"A Huge Discovery About Prime Numbers\u2014and What It Means for the Future of Math","datePublished":"2013-05-22T16:44:35-04:00","author":"Jordan Ellenberg","image":{"@list":["http://www.slate.com/content/dam/slate/articles/health_and_science/Do_The_Math/2013/05/130522_MATH_Zhang.jpg.CROP.promo-mediumlarge.jpg"]}}
+        
+      window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+      (function(){
+        var k=document.createElement('script');k.type='text/javascript';k.async=true;
+        var m,src=(m=location.href.match(/\bkxsrc=([^&]+)/))&&decodeURIComponent(m[1]);
+        k.src = /^https?:\/\/([a-z0-9_\-\.]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" :
+          (location.protocol==="https:"?"https:":"http:")+"//cdn.krxd.net/controltag?confid=KGU_SbHX"
+      ;
+        var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+      }());
+
+      
+      window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+      (function(){
+          function retrieve(n){
+        var m, k='kxslate_'+n;
+        if(window.localStorage){
+            return window.localStorage[k] || "";
+        }else if(navigator.cookieEnabled){
+            m = document.cookie.match(k+'=([^;]*)');
+            return (m && unescape(m[1])) || "";
+        }else{
+            return '';
+        }
+          }
+          Krux.user = retrieve('user');
+          Krux.segments = retrieve('segs') && retrieve('segs').split(',') || [];
+      })();
+    
+
+    
+        
+
+        
+        
+          
+
+
+
+
+
+
+
+
+    Slate
+    
+    
+    
+    
+      
+      Sign In
+      Sign Up
+      
+    
+  
+  
+
+      
+    
+
+      
+        
+          
+        
+        
+      
+
+    
+    
+    
+    
+    
+    
+
+
+
+
+    
+    
+      
+
+        
+          
+            
+            
+            
+            
+            
+              
+                A Huge Discovery About Prime Numbers—and What It Means for the Future of Math
+              
+            
+          
+        
+
+        
+          
+            
+            
+            
+            
+              
+                A Huge Discovery About Prime Numbers—and What It Means for the Future of Math
+              
+            
+          
+        
+
+      
+
+      
+
+
+
+    
+      
+      
+    
+
+    
+    
+      
+      
+    
+    
+
+    
+      
+        
+      
+    
+
+     
+        
+      
+
+
+
+    
+    
+      
+
+
+
+
+
+
+
+
+    Slate
+    
+    
+    
+    
+      
+      Sign In
+      Sign Up
+      
+    
+  
+  
+
+  
+   
+
+  
+  
+    
+    
+    
+
+
+
+@media (min-width: 641px) {
+.custom .landing-header.thin.rollup .sponsor-logo img {
+    height: 25px;
+    width: auto;
+}
+}
+
+@media (max-width: 640px) {
+.custom .landing-header.thin.rollup .sponsor-logo img {
+    height: auto;
+    max-width: 100px;
+    position: absolute;
+    right: auto;
+    top: 15px;
+    left: 155px;
+}
+}
+
+
+
+
+
+
+    
+
+
+
+
+        SlateDo The MathA mathematician's guide to the news.May 22 2013 4:44 PM
+    
+    
+    
+    The Beauty of Bounded Gaps
+    
+
+
+ 
+    
+      
+      
+    
+    
+    
+       
+    
+    
+    
+    
+      
+        
+        
+      
+    
+ 
+
+
+    A huge discovery about prime numbers—and what it means for the future of math.
+    
+    
+        By Jordan Ellenberg
+    
+    
+    
+
+
+
+
+
+  
+  
+  
+
+
+
+  
+    
+      
+        
+        
+      
+    
+  
+  
+    
+      
+      
+    
+  
+  
+    
+       
+    
+    
+  
+
+  
+  
+    
+       
+    
+  
+  
+  
+
+  
+    
+      
+       
+    
+  
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+ 
+        Yitang Zhang, lecturer in mathematics at the University of New Hampshire.Photo courtesy of Lisa Nugent/UNH Photographic Services 
+        
+        
+        requirejs(["jquery"], function($) {
+            if ($(window).width() < 640) {
+                $(".slate_image figure").width("100%");
+            }
+        });
+        
+
+
+
+Last week, Yitang “Tom” Zhang, a popular math professor at the University of New Hampshire, stunned the world of pure mathematics when he announced that he had proven the “bounded gaps” conjecture about the distribution of prime numbers—a crucial milestone on the way to the even more elusive twin primes conjecture, and a major achievement in itself.
+
+
+
+
+
+
+
+
+
+
+The stereotype, outmoded though it is, is that new mathematical discoveries emerge from the minds of dewy young geniuses. But Zhang is over 50. What’s more, he hasn’t published a paper since 2001. Some of the world’s most prominent number theorists have been hammering on the bounded gaps problem for decades now, so the sudden resolution of the problem by a seemingly inactive mathematician far from the action at Harvard, Princeton, and Stanford came as a tremendous surprise.
+
+
+
+
+
+
+But the fact that the conjecture is true was no surprise at all. Mathematicians have a reputation of being no-bullshit hard cases who don’t believe a thing until it’s locked down and proved. That’s not quite true. All of us believed the bounded gaps conjecture before Zhang’s big reveal, and we all believe the twin primes conjecture even though it remains unproven. Why?
+
+
+
+
+
+
+
+
+    
+       Advertisement  
+
+    
+      
+
+
+    
+
+
+
+
+
+Let’s start with what the conjectures say. The prime numbers are those numbers greater than 1 that aren’t multiples of any number smaller than themselves and greater than 1; so 7 is a prime, but 9 is not, because it’s divisible by 3. The first few primes are: 2, 3, 5, 7, 11, 13 …
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Every positive number can be expressed in just one way as a product of prime numbers. For instance, 60 is made up of two 2s, one 3, and one 5. (This is why we don’t take 1 to be a prime, though some mathematicians have done so in the past; it breaks the uniqueness, because if 1 counts as prime, 60 could be written as 2 x 2 x 3 x 5 and 1 x 2 x 2 x 3 x 5 and 1 x 1 x 2 x 2 x 3 x 5 ...)
+
+
+
+
+
+
+The primes are the atoms of number theory, the basic indivisible entities of which all numbers are made. As such, they’ve been the object of intense study ever since number theory started. One of the very first theorems in number theory is that of Euclid, which tells us that the primes are infinite in number; we will never run out, no matter how far along the number line we let our minds range.
+
+
+
+
+
+
+But mathematicians are greedy types, not inclined to be satisfied with mere assertion of infinitude. After all, there’s infinite and then there’s infinite. There are infinitely many powers of 2, but they’re very rare. Among the first 1,000 numbers, there are only 10 powers of 2: 1, 2, 4, 8, 16, 32, 64, 128, 256, and 512.
+
+
+
+
+
+
+
+
+    
+       Advertisement  
+
+    
+      
+
+
+    
+
+
+
+
+
+There are infinitely many even numbers, too, but they’re much more common: exactly 500 out of the first 1,000. In fact, it’s pretty apparent that out of the first X numbers, just about (1/2)X will be even.
+
+
+
+
+
+
+Primes, it turns out, are intermediate—more common than the powers of 2 but rarer than even numbers. Among the first X numbers, about X/log(X) are prime; this is the Prime Number Theorem, proven at the end of the 19th century by Hadamard and de la Vallée Poussin. This means, in particular, that prime numbers get less and less common as the numbers get bigger, though the decrease is very slow; a random number with 20 digits is half as likely to be prime as a random number with 10 digits.
+
+
+
+
+
+
+Naturally, one imagines that the more common a certain type of number, the smaller the gaps between instances of that type of number. If you’re looking at an even number, you never have to travel farther than 2 numbers forward to encounter the next even; in fact, the gaps between the even numbers are always exactly of size 2. For the powers of 2, it’s a different story. The gaps between successive powers of 2 grow exponentially, and there are finitely many gaps of any given size; once you get past 16, for instance, you will never again see two powers of 2 separated by a gap of size 15 or less.
+
+
+
+
+
+
+Those two problems are easy, but the question of gaps between consecutive primes is harder. It’s so hard that, even after Zhang’s breakthrough, it remains a mystery in many respects.
+
+
+
+
+
+
+
+
+    
+       Advertisement  
+
+    
+      
+
+
+    
+
+
+
+
+
+And yet we think we know what to expect, thanks to a remarkably fruitful point of view—we think of primes as random numbers. The reason the fruitfulness of this viewpoint is so remarkable is that the viewpoint is so very, very false. Primes are not random! Nothing about them is arbitrary or subject to chance. Quite the opposite—we take them as immutable features of the universe, and carve them on the golden records we shoot out into interstellar space to prove to the ETs that we’re no dopes.
+
+
+
+
+
+
+If you start thinking really hard about what “random” really means, first you get a little nauseated, and a little after that you find you’re doing analytic philosophy. So let’s not go down that road.
+
+
+
+
+
+
+Instead, take the mathematician’s path. The primes are not random, but it turns out that in many ways they act as if they were. For example, when you divide a random number by 3, the remainder is either 0, 1, or 2, and each case arises equally often. When you divide a big prime number by 3, the quotient can’t come out even; otherwise, the so-called prime would be divisible by 3, which would mean it wasn’t really a prime at all. But an old theorem of Dirichlet tells us that remainder 1 shows up about equally often as remainder 2, just as is the case for random numbers. So as far as “remainder modulo 3” goes, prime numbers, apart from not being multiples of 3, look random.
+
+
+
+
+
+
+
+
+
+
+What about the gaps between consecutive primes? You might think that, because prime numbers get rarer and rarer as numbers get bigger, that they also get farther and farther apart. On average, that’s indeed the case. But what Yitang Zhang just proved is that there are infinitely many pairs of primes that differ by at most 70,000,000. In other words, that the gap between one prime and the next is bounded by 70,000,000 infinitely often—thus, the “bounded gaps” conjecture.
+
+
+
+
+
+
+
+
+    
+       Advertisement  
+
+    
+      
+
+
+    
+
+
+
+
+
+On first glance, this might seem a miraculous phenomenon. If the primes are tending to be farther and farther apart, what’s causing there to be so many pairs that are close together? Is it some kind of prime gravity?
+
+
+
+
+
+
+Nothing of the kind. If you strew numbers at random, it’s very likely that some pairs will, by chance, land very close together. (The left-hand picture on this page is a nice illustration of how this works in the plane; the points are chosen independently and completely randomly, but you see some clumps and clusters all the same.)
+
+
+
+
+
+
+It’s not hard to compute that, if prime numbers behaved like random numbers, you’d see precisely the behavior that Zhang demonstrated. Even more: You’d expect to see infinitely many pairs of primes that are separated by only 2, as the twin primes conjecture claims.
+
+
+
+
+
+
+(The one computation in this article follows. If you’re not onboard, avert your eyes and rejoin the text where it says “And a lot of twin primes …”)
+
+
+
+
+
+
+
+
+    
+       Advertisement  
+
+    
+      
+
+
+    
+
+
+
+
+
+Among the first N numbers, about N/log N of them are primes. If these were distributed randomly, each number n would have a 1/log N chance of being prime. The chance that n and n+2 are both prime should thus be about (1/log N)^2. So how many pairs of primes separated by 2 should we expect to see? There are about N pairs (n, n+2) in the range of interest, and each one has a (1/log N)^2 chance of being a twin prime, so one should expect to find about N/(log N)^2 twin primes in the interval.
+
+
+
+
+
+
+There are some deviations from pure randomness whose small effects number theorists know how to handle; a more refined analysis taking these into account suggests that the number of twin primes should in fact be about 32 percent greater than N/(log N)^2. This better approximation gives a prediction that the number of twin primes less than a quadrillion should be about 1.1 trillion; the actual figure is 1,177,209,242,304. That’s a lot of twin primes.
+
+
+
+
+
+
+And a lot of twin primes is exactly what number theorists expect to find no matter how big the numbers get—not because we think there’s a deep, miraculous structure hidden in the primes, but precisely because we don’t think so. We expect the primes to be tossed around at random like dirt. If the twin primes conjecture were false, that would be a miracle, requiring that some hitherto unknown force be pushing the primes apart.
+
+
+
+
+
+
+Not to pull back the curtain too much, but a lot of famous conjectures in number theory are like this. The Goldbach conjecture that every even number is the sum of two primes? The ABC conjecture, for which Shin Mochizuki controversially claimed a proof last fall? The conjecture that the primes contain arbitrarily long arithmetic progressions, whose resolution by Ben Green and Terry Tao in 2004 helped win Tao a Fields Medal? All are immensely difficult, but they are all exactly what one is guided to believe by the example of random numbers.
+
+
+
+
+
+
+
+
+    
+       Advertisement  
+
+    
+      
+
+
+    
+
+
+
+
+
+It’s one thing to know what to expect and quite another to prove one’s expectation is correct. Despite the apparent simplicity of the bounded gaps conjecture, Zhang’s proof requires some of the deepest theorems of modern mathematics, like Pierre Deligne’s results relating averages of number-theoretic functions with the geometry of high-dimensional spaces. (More classically minded analytic number theorists are already wondering whether Zhang’s proof can be modified to avoid such abstruse stuff.)
+
+
+
+
+
+
+Building on the work of many predecessors, Zhang is able to show in a rather precise sense that the prime numbers look random in the first way we mentioned, concerning the remainders obtained after division by many different integers. From this (following a path laid out by Goldston, Pintz, and Yıldırım, the last people to make any progress on prime gaps) he can show that the prime numbers look random in a totally different sense, having to do with the sizes of the gaps between them. Random is random!
+
+
+
+
+
+
+
+
+
+
+
+Zhang’s success (along with the work of Green and Tao) points to a prospect even more exciting than any individual result about primes—that we might, in the end, be on our way to developing a richer theory of randomness. How wonderfully paradoxical: What helps us break down the final mysteries about prime numbers may be new mathematical ideas that structure the concept of structurelessness itself.
+
+
+
+
+
+
+(A few suggestions for further reading for those with more technical tastes: Number theorist Emmanuel Kowalski offers a first report on Zhang’s paper. And here’s Terry Tao on the dichotomy between structure and randomness.)
+
+
+
+
+
+    
+
+
+        
+        
+        SINGLE PAGE
+            1
+                
+                2
+                
+                NEXT
+            
+        
+            requirejs(["jquery","myslate"], function($,myslate) {
+                myslate.paginate();
+            });
+        
+
+    
+      
+
+
+    
+
+      
+        
+        
+      
+    
+    
+       
+    
+    
+    
+      
+        
+          
+          
+        
+      
+    
+
+
+    
+
+    
+   
+
+
+
+
+
+
+  
+  
+  
+
+
+  
+    
+      
+        
+        
+      
+    
+  
+  
+    
+      
+      
+    
+  
+  
+    
+       
+    
+    
+  
+
+  
+  
+  
+    
+       
+    
+  
+  
+
+  
+    
+      
+       
+    
+  
+
+
+
+    
+    
+    
+
+    
+    
+    
+
+  
+  	
+      Load Comments
+    
+  
+  Powered by Livefyre
+
+
+
+  
+  
+  
+    
+  
+
+
+
+requirejs(['config', 'jquery', 'slatelivefyre'], function(config, $, slatelivefyre) {
+  $('#livefyre .lf-loader').html([
+    '<div style="color: #999;">Loading...</div>',
+    '<div style="color: #999; font-size: smaller; margin: 20px auto">',
+    'Are Slate\'s comments not loading even after a few seconds? ',
+    '<br/><a target="_blank" href="http://www.slate.com/features/browser-data-comment.html" class="issue-collector" data-issue-collector-value="11019">',
+    'Send us your browser and operating system information.</a>',
+    '</div>'
+  ].join(''));
+
+  $.extend(config.livefyre, {
+    collectionMeta: 'eyJhbGciOiJIUzI1NiJ9.eyJ0aXRsZSI6IkEgSHVnZSBEaXNjb3ZlcnkgQWJvdXQgUHJpbWUgTnVtYmVyc-KAlGFuZCBXaGF0IEl0IE1lYW5zIGZvciB0aGUgRnV0dXJlIG9mIE1hdGgiLCJ1cmwiOiJodHRwOi8vd3d3LnNsYXRlLmNvbS9hcnRpY2xlcy9oZWFsdGhfYW5kX3NjaWVuY2UvZG9fdGhlX21hdGgvMjAxMy8wNS95aXRhbmdfemhhbmdfdHdpbl9wcmltZXNfY29uamVjdHVyZV9hX2h1Z2VfZGlzY292ZXJ5X2Fib3V0X3ByaW1lX251bWJlcnMuaHRtbD93cGlzcmNcdTAwM2RsZiIsInRhZ3MiOiJzY2llbmNlLG1hdGgiLCJjaGVja3N1bSI6ImY0NGYzMmNiYWY1YjVkOGYxM2MxYTgwZjljZDY4ZjIxIiwiYXJ0aWNsZUlkIjoiY3EtMTAwMTMwNTIyMDE0In0.08Q2bNyz9iJVEWc3gbHCwUKIfQwui0YkPy8IhqJUBek'
+  });
+
+  if (config.iscroll.disabled) {
+    slatelivefyre.loadLivefyre(config.page.articleId, config.livefyre.collectionMeta);
+  }
+});
+
+
+
+
+
+
+    
+
+    
+    
+      
+        
+          
+        
+        
+      
+    
+    
+
+  
+      
+      
+      
+      
+
+
+
+
+
+
+  
+  
+  
+
+
+
+    Slate
+    
+    
+    
+    
+      
+      Sign In
+      Sign Up
+      
+    
+  
+  
+
+
+
+
+requirejs(['jquery'], function($) {
+  if (mobileMode()) {
+    $(".rightrailstories section").remove();
+  }
+});
+
+
+
+
+
+
+
+
+      
+    
+  
+
+
+
+
+  
+    
+      body > .bottom {
+        text-align: center;
+        padding: 10px 0;
+      }
+      .bottom > #slug_leaderboard_2 {
+        position: relative;
+        width: auto;
+        text-align: center;
+      }
+    
+        
+          
+            
+          
+          
+        
+      
+    
+
+
+
+
+
+
+
+    
+          FOLLOW SLATE
+          
+              Twitter
+            
+            
+              Facebook
+            
+            
+              Instagram
+            
+          
+
+    
+      SLATE ON
+      IPHONE
+        ANDROID
+        KINDLE
+      
+
+    Reprints
+      Advertise with us
+    
+
+      
+        ABOUT US
+          CONTACT US
+          WORK WITH US
+          USER AGREEMENT
+          PRIVACY POLICY
+          FAQ
+        FEEDBACK
+          CORRECTIONS
+        
+
+      
+        Slate Group
+      
+
+      
+        Panoply
+      
+
+      Slate is published by The Slate Group, a Graham Holdings Company. All contents ©
+        2016  The Slate Group LLC. All rights reserved.
+
+  
+
+
+
+
+requirejs(["jquery", "hcs/libs/iscroll-lite", "modernizr", "hcs/script", "hcs/plugins/SGGlobalNav.jquery", "hcs/plugins/jQuery.highlighter","hcs/plugins/SGGlobalNav.jquery","libs/jquery-plugins/jquery.timeago","announcements","myslate"], function($, iScroll, unused0, unused1, unused2, unused3, unused4, unused5, announcements, myslate) {
+  $(document).ready(function() {
+    announcements.deleteOldCookies();
+    
+    $("span.timeago").timeago();
+  });
+  function pageLoadedForScrolling(){
+
+
+    scroller = new iScroll('main_sidebar', {
+      hScroll: false,
+      hScrollbar: false,
+      bounce: false
+    });
+
+    if(!mobileMode() && tabletMode() && $('html').hasClass('touch')){
+      // Nav gets iScroll if we're on an actual tablet.
+      window.tabletScroller = new iScroll('nav_sections', {
+        hScroll: false,
+        hScrollbar: false,
+        bounce: false,
+        onBeforeScrollStart: function (e) {
+          var target = e.target;
+          while (target.nodeType != 1) target = target.parentNode;
+
+          if (target.tagName != 'SELECT' && target.tagName != 'INPUT' && target.tagName != 'TEXTAREA')
+          e.preventDefault();
+        }
+      });
+    }
+
+  }
+
+  // We institute fancy scrolling on iscroll only on mobile webkit.
+
+  // Webkit detection script
+  Modernizr.addTest('webkit', function(){
+    return RegExp(" AppleWebKit/").test(navigator.userAgent);
+  });
+
+  // Mobile Webkit
+  Modernizr.addTest('mobile', function(){
+    return RegExp(" Mobile/").test(navigator.userAgent);
+  });
+
+  if(Modernizr.webkit && Modernizr.mobile){
+    if (document.addEventListener){
+      document.addEventListener('DOMContentLoaded', function () { setTimeout(pageLoadedForScrolling, 200); }, false);
+    } else if (document.attachEvent){
+      document.attachEvent('DOMContentLoaded', function () { setTimeout(pageLoadedForScrolling, 200); }, false);
+    }
+  }
+
+
+
+  $(function(){
+
+    if ($('body').hasClass('home')
+        || $('body').hasClass('landing')
+        || $('body').hasClass('settings')) {
+      $('.nav-header').SGGlobalNav({
+        noRollup: true, // Need to tell the homepage and landing etc that there's no rollup here, which causes things to behave differently.
+        noBurgerScroll: $('body').hasClass('no-burger-scroll'),
+        isSlatePlusUser: myslate.isSlatePlusUser
+      });
+    } else {
+      $('.nav-header').SGGlobalNav({
+        isSlatePlusUser: myslate.isSlatePlusUser
+      });
+    }
+
+
+    // Input field placeholder plugin to account for placeholder fallbacks.
+    jQuery(document).ready(function($) {
+      $(".field-with-placeholder").placeholder();
+    });
+
+
+    $('.content').highlighter({
+      'selector': '.highlighter-container',
+      'noHighlightIds': $('#podcast-slateplus-page'),
+      'minWords': 0,
+      'complete': function (data) {
+        // Here we have the selected string for use.
+        // console.log(data);
+        selectedText = data;
+      }
+    });
+
+  });
+
+
+  $(document).ready(function() {
+    $(".sticky").each(function() {
+      var stickyTop = $(".sticky").offset().top; // returns number
+      $(window).scroll(function() { // scroll event
+        var windowTop = $(window).scrollTop() + 57 + parseInt($(".sticky").css("margin-top").split("px")[0]); // returns number
+        if (stickyTop < windowTop) {
+          $(".sticky").css({ position: "fixed", top: "53px" });
+        } else {
+          $(".sticky").css("position","static");
+        }
+      });
+    })
+  });
+
+  watchSocialWelcomeNotifications();
+
+});
+    
+requirejs(["jquery", "myslate", "hcs/script", "hcs/plugins/SGNavDropdown.jquery",
+		"hcs/plugins/SGBigSlider.jquery","hcs/plugins/SGFootnote.jquery","hcs/plugins/SGRollup.jquery",
+		"hcs/plugins/SGNavDropdown.jquery","hcs/plugins/SGLightbox.jquery"],
+		function($, myslate, unused0, unused1, unused2, unused3, unused4, unused5, unused6) {
+
+    $(function(){
+
+      $('.footnote').SGFootnote();
+      var multipartArticleRollup = $('#article_rollup');
+
+      var subHed = $('#sub_hed');
+      if(subHed.length > 0){
+        subHed.SGNavDropdown({ // Multipart rollup triggered by tapping the subhed.
+          extraId: 'subhed', // Used to name events inside the plugin, so we can be sure to bind/unbind the correct stuff.
+          targetId: '#multipart_nav', // The thing to show.
+          leftOffset: function(){ return $('#sub_hed').position().left; },
+          topOffset: function(){ return $('#sub_hed').position().top + $('#sub_hed').outerHeight(true); },
+          onShow: function(){
+            $('#multipart_nav').css('position', 'absolute');
+            $('#multipart_nav').css('height', 'auto');
+            $('#multipart_nav').css('overflow', 'auto');
+            // subHed.find('.toggle').addClass('open-toggle');
+          },
+          onHide: function(){
+            // subHed.find('.toggle').removeClass('open-toggle');
+          }
+        });
+      }
+
+      if($('#article_header').length > 0){
+        // The roll up.
+        $('#main_sidebar').SGRollup({ // The main element assigned to this plugin is used to trigger the drop of the rollup on desktop mode.
+          rollupEl: multipartArticleRollup,
+          topOffset: $('#slate_logo').height(),
+          leftOffset: $('#article_header').offset().left,
+          tablet: {el: $('#article_header'), topOffset: $('#article_header').height()}, // Indicate the visibility triggers for tablet mode.
+          mobile: {el: $('#tablet_header'), topOffset: $('#tablet_header').height()},// Indicate the visibility triggers for mobile mode.
+          onHide: function(){
+            // On roll back up make sure to hide the nav if it's open, assuming it was opened by the rollup toggle.
+            if(multipartArticleRollup.data('plugin_SGNavDropdown').isTargetVisible() && $('#multipart_nav').data('openedByRollup')){
+              multipartArticleRollup.data('plugin_SGNavDropdown').close();
+            }
+          }
+        });
+      }
+
+    // Multipart dropdown triggered by the rollup in the multipart nav.
+      multipartArticleRollup.SGNavDropdown({
+        targetId: '#multipart_nav', // The thing to show.
+        extraSpecificHandle: '.handle',
+        extraId: 'multipart', // Used to name events inside the plugin, so we can be sure to bind/unbind the correct stuff.
+        leftOffset: function(){ return multipartArticleRollup.find('.main').offset().left; },
+        topOffset: function(){
+          return multipartArticleRollup.outerHeight(true)
+        },
+        onShow: function(){
+          $('#multipart_nav').css('position', ''); // undo the absolute bit we might have affixed in subHed.SGNavDropdown().
+          $('#multipart_nav').addClass('fixed').data('openedByRollup', true);
+          $('#multipart_nav').css('max-height', (mobileMode() ? $(window).outerHeight(true) + 10 : $(window).height() - $('#article_rollup').height()));
+          $('#multipart_nav').css('overflow', 'scroll');
+          if(mobileMode()){
+            $('#multipart_nav').css('right', 0);
+          }
+        },
+        onHide: function(){
+          $('#multipart_nav').data('openedByRollup', false);
+        }
+      });
+
+
+
+
+
+      // Trigger the slideshow lightbox for from the .slideshow-preview example.
+        $('#slideshow_preview_link').SGLightbox({
+          type: 'slideshow',
+          slideshowElement: $('#the_slideshow')
+        });
+
+
+      watchMobileRollupSocialToggle();
+
+      $('.expandable').find('.toggle').click(function(e){
+        $(this).closest('.social').toggleClass('visible');
+        $('#main_byline').toggle();
+        e.preventDefault();
+      });
+
+      $('.full-width').setFullWidth();
+
+    });
+});
+    
+    // Manage the social horizontal toggles on the landing pages.
+requirejs(["jquery", "hcs/script"],
+		function($, unused0) {
+
+      $(function(){
+        $('.social').find('.toggle').click(function(e){
+          e.preventDefault();
+          $(this).closest('.social').toggleClass('visible');
+        });
+      });
+});
+    
+  
+
+
+
+  var parselyLoaded = false,
+      parselyActionname = 'noniscrollstory';
+
+  
+
+
+  
+
+  // Call Parsely Onload Handler
+  PARSELY = {
+    autotrack: false,
+    onload: function() {
+      parselyLoaded = true;
+      PARSELY.beacon.trackPageView(parselyEvent);
+    }
+  };
+
+  // Load Parsely API Script
+  (function(s, p, d) {
+    var h=d.location.protocol, i=p+"-"+s,
+        e=d.getElementById(i), r=d.getElementById(p+"-root"),
+        u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+        :"static."+p+".com";
+    if (e) return;
+    e = d.createElement(s); e.id = i; e.async = true;
+    e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+  })("script", "parsely", document);
+
+            requirejs(["sgads"], function(slateads) {
+                slateads.wire("http://ads.cdnslate.com/wp-srv/ad/loaders/latest/js/min/loader.min.js");
+            });
+        
+  Slate
+  
+
+
+
+
+
+      
+      
+
+
+
+
+
+
+  
+  
+  
+
+
+
+    Slate
+    
+    
+    
+    
+      
+      Sign In
+      Sign Up
+      
+    
+  
+  
+
+
+    
+
+    
+    
+      
+        
+          
+        
+        
+          
+        
+        
+          
+            
+          
+        
+      
+        
+        
+    
+    
+
+
+    
+    requirejs(['spoken-layer']);

@@ -1,0 +1,192 @@
+Why I won't recommend Signal anymore - Sander Venema
+
+	Sander Venema
+			
+		Menu
+			Skip to content
+			Home
+Talks
+TV
+About
+		
+
+	
+		
+
+			
+				
+	Why I won’t recommend Signal anymore
+								
+			One of the things I do is cryptography and infosec training for investigative journalists who have a need to keep either their sources and communications confidential so they can more safely do their work in the public interest. Often they work in places which are heavily surveilled, like Europe, or the United States. Ed Snowden’s documents explain a thing or two about how the US intelligence apparatus goes about its day-to-day business. They sometimes also work in places in the world where rubber hose cryptanalysis is more common than in say the U.S. or Europe. Which is why crypto tools alone are not the Alpha and the Omega of (personal) security. This requires careful consideration of what to use when, and in what situation. One of the things I have recommended in the past for various cases is the OpenWhisperSystems’ app called Signal, available for Android and iOS. In this article, I want to explain my reasons why I won’t be recommending Signal in the future.
+To be clear: the reason for this is not security. To the best of my knowledge, the Signal protocol is cryptographically sound, and your communications should still be secure. The reason has much more to do with the way the project is run, the focus and certain dependencies of the official (Android) Signal app, as well as the future of the Internet, and what future we would like to build and live in. This post was mostly sparked by Signal’s Giphy experiment, which shows a direction for the project that I wouldn’t have taken. There are other, bigger issues which deserve our attention.
+What is Signal?
+Signal is an app published by OpenWhisperSystems, a company run by Moxie Marlinspike. It has published an official Signal app for Google Android, and Apple iOS. Signal has been instrumental in providing an easy-to-use, cryptographically secure texting and calling app. It is a combination of the previously separate apps TextSecure and Redphone, which were combined into one app called Signal.
+One of the main reasons why I recommended it previously to people was that it was easy to use, next to the cryptographic security. This is one good thing Signal has going for it. People could just install it and then communicate securely. Cryptographic software needs to be much more simple to use, and use securely, and Signal is doing its thing on the mobile platforms to create an easy-to-use secure messaging platform. I do appreciate them for that. I wanted to get that out of the way.
+Multiple problems with Signal
+There are however, multiple issues with Signal, namely:
+Lack of federation
+Dependency on Google Cloud Messaging
+Your contact list is not private
+The RedPhone server is not open-source
+I’ll go into these one at a time.
+Lack of federation
+There is a modified version of Signal called LibreSignal, that removed the Google dependency from the Signal app, allowing Signal to be run on other (Android) devices, like CopperheadOS, or Jolla phones (with Android compatibility layer). In May this year, however, Moxie made it clear that he does not want LibreSignal to use the Signal servers, and that he does not approve of the name. The name is something that can change, that is not a problem. What is a problem, however, is the fact that he does not want LibreSignal to use the Signal servers. Which would be fine if he allowed LibreSignal to federate across using their own servers. This was tried once (Cyanogenmod, and also offered to Telegram, of all people) but subsequently abandoned, because Moxie believes it slows down changes to the app and/or protocol.
+The whole problem with his position however, is that I don’t see the point of doing any of this secure messaging stuff, without having federation. The internet was built on federation. Multiple e-mail providers and servers for instance, can communicate effortlessly with one another, so I can send an e-mail to someone who has a Gmail address or a corporate address, etc. without effort and it all works. This works because of federation, because the protocols are all open standards and there are multiple implementations of the standards who can cooperate and communicate together. Another example would be the Jabber/XMPP protocol, which also has multiple clients on multiple platforms who can communicate securely with one another, despite one having a Jabber account on another server than the other.
+If we don’t federate, if we don’t cooperate, what is there to stop the internet from becoming a bunch of proprietary walled gardens again? Is the internet then really nothing more than just a platform for us to use certain proprietary silo services on? Signal then, just happens to be a (partly proprietary) silo on which your messages are transmitted securely.
+Dependency on Google Cloud Messaging
+Currently, the official Signal client depends on Google Cloud Messaging to work correctly. The alternative that has been developed by the people of LibreSignal has removed that dependency, so people running other software, like Jolla or CopperheadOS can run Signal. Unfortunately, the policy decisions of OpenWhisperSystems and Moxie Marlinspike make it so that it became impossible to reliably run unofficial Signal clients that use the same server infrastructure, so people can communicate. Also, federation, like explained in the previous section, is expressly hindered and prohibited by OpenWhisperSystems, so it is not an option for LibreSignal to simply run their own servers and then federate within the wider Signal network, allowing people to contact each other across clients.
+What is Google Cloud Messaging?
+The Google Cloud Messaging service is used by Signal with empty messages in order to wake up the device before the actual messages are pushed to the device by Signal’s servers.[1] There is a way to use Signal without depending on GCM, but that uses microg, and that asks people to basically re-compile their kernel (at least I had to in my case). This is not something you can ask of non-technical users. I would like to be able to run an official Signal client (or any secure messaging client) on hardware that runs CopperheadOS for example.
+Unrelated to GCM directly, but since on Android devices, Google usually has root access to the phone, there’s the issue of integrity. Google is still cooperating with the NSA and other intelligence agencies. PRISM is also still a thing. I’m pretty sure that Google could serve a specially modified update or version of Signal to specific targets for surveillance, and they would be none the wiser that they installed malware on their phones. For this reason it would also be strongly preferable to run a secure messaging client on a more secure platform. Currently when it comes to Signal this cannot be done in any official way, and it would help for the people who really need secure messaging services (instead of the people who merely use it as a replacement of say WhatsApp), if the software runs on other Android distributions, like Copperhead.[2]
+Your contact list (social graph) is not private
+Here is the permission list of Signal, including OpenWhisperSystems’ explanation for the need for them. As you can clearly see, Signal is allowed (if you install it), to read and modify your contacts. Signal associates phone numbers with names in a similar way that Whatsapp is doing, and this is a big reason why they feel they need to read your contact list. Also, there’s a usability thing where they display the contacts’ names and pictures in the Signal app. It hashes them before sending them to the server, but since the space of possible hashes is so small for phone numbers, this does not provide a lot of security. Moxie has stated previously (in 2014) that the problem of private contact discovery is difficult, lays out different strategies that don’t work or do not give satisfying performance, and then admits it’s still an unsolved problem. Discussion regarding this seemed to have moved from a Github issue to a mailing list, and I don’t know of any improvement on this front.[2]
+This could of course all been done differently, by using usernames to connect users instead of their phone numbers (incidentally, this would also allow people who use multiple phone numbers on the same device to use Signal reliably). And last time I checked, if you use the same phone number on a different device, Signal will get deregistered on the old device.
+Another issue, and a plus for using usernames, is that you may want to use Signal with people you don’t necessarily want to give your phone number to. And federation would also be easier with usernames, and servers, separated by a symbol, like the @. Just like in the case of Jabber/XMPP. I also see no usability issues here, as even very non-technical people generally get the concept of an address, or an e-mail address, and this would be very similar.
+RedPhone not open source
+The phone component of Signal is called RedPhone. The server component of this is unfortunately not open source (so people are prevented from running their own phone servers, and this is also probably the reason why secure encrypted phone calls don’t work in e.g. LibreSignal.)
+I don’t know exactly what prevents the RedPhone server code from being released (whether it is legal issues or simple unwillingness), but I do think it is strange that there is no movement whatsoever to move to a different/alternative solution, that respects users’ rights.
+Moving forward
+
+The big question now, as also said by @shiromarieke on Twitter, is what post-Signal tool we want to use. I don’t know the answer to that question yet, but I will lay out my minimum requirements of such a piece of software here. We as a community need to come up with a viable solution and alternative to Signal that is easy to use and that does in fact respect people’s choices, both in the hardware and software that they choose to run.
+In my view, there should be a tool that is fully free software (as defined by the GNU GPL), that respects users’ freedoms to freely inspect, use, modify the software and distribute modified copies of the software. Also, this tool should not have dependencies on corporate infrastructure like Google’s (basically any partner in PRISM), that allows these parties to control the correct working of the software. The fact that Signal depends on Google Cloud Messaging, and Google technology in general is something that should be avoided.
+In the end, I think we need to move to an Internet where there are more federated services, not less, where information is openly shared, and services publicly run by multiple people all over the world. Otherwise, we’ll be in danger of ending up in an neo-90s Internet, with walled gardens and pay walls all over the place. You already see this trend happening in journalism.
+We need to remember that we’re fighting not only against government surveillance, but also against corporate surveillance as well. We need ways to defend against this, and using corporate solutions that create a dependency on these solutions, even if the communications themselves are not readable to them, there’s still the issue of metadata, and of course general availability of Google’s services to Signal.
+It’s really unfortunate that OpenWhisperSystems isn’t more friendly to initiatives like LibreSignal, since these people did a lot of work which is now basically going to be thrown away because the person running Signal is not friendly to these initiatives.
+We need to cooperate more as a community instead of creating these little islands, otherwise we are not going to succeed in defeating or even meaningfully defending against Big Brother. Remember, our enemy knows how to divide and conquer. Divide et impere. It’s been a basic government subjugation tactic since the Roman times. We should not allow our own petty egos and quest for eternal hacker fame to get in the way of our actual goal: dismantling the surveillance states globally.
+Notes:[1]: An earlier version of this article stated incorrectly that GCM was used to transport Signal messages. While correct for a previous version of TextSecure, this is in fact not correct anymore for Signal. I’ve updated it, in response to this HN comment:  https://news.ycombinator.com/item?id=12882815.[2]: Clarified my position re Google and GCM and the contact list / private contact discovery issue a bit.
+					
+		
+		
+			This entry was posted in Intelligence, Internet, Software, Surveillance, Technical and tagged free software, internet, Signal, surveillance on November 5, 2016 by Sander Venema.								Post navigation
+					← Automatically update WordPress to the latest version
+					
+				
+
+	
+	
+	
+
+			
+		
+	
+
+
+			
+			
+				
+					Search for:
+					
+			Twitter
+RSS Feed
+		Recent Posts		
+				Why I won’t recommend Signal anymore
+						
+					
+				Automatically update WordPress to the latest version
+						
+					
+				Snoopers’ Charter Remix
+						
+					
+				The Panama Papers: Dirty Money or Dirty Media?
+						
+					
+				The TTIP Tragedy
+						
+					
+				RT Interview About Facebook Tracking
+						
+					
+				Belgian Privacy Commission Found Facebook in Violation of EU and Belgian Privacy Law
+						
+					
+				Dutch Data Retention Law Struck Down
+						
+					
+				RT Going Underground Interview About Regin
+						
+					
+				With Politicians Like These, Who Needs Terrorists?
+						
+				Categories		Analyses
+
+	Censorship
+
+	Civil Rights
+
+	Culture
+
+	Drones
+
+	Economy
+
+	Extraordinary Rendition
+
+	Finance
+
+	Hardware
+
+	Intelligence
+
+	Internet
+
+	Iraq
+
+	Law
+
+	Malware
+
+	Media
+
+	Policy
+
+	Security
+
+	Social Networks
+
+	Software
+
+	Surveillance
+
+	Talks
+
+	Technical
+
+	Tracking
+
+	TV
+
+	Ukraine
+
+	Uncategorized
+
+		Archives		November 2016
+	September 2016
+	April 2016
+	July 2015
+	May 2015
+	March 2015
+	January 2015
+	December 2014
+	November 2014
+	October 2014
+	September 2014
+	June 2014
+	May 2014
+	March 2014
+	February 2014
+	December 2013
+	November 2013
+	October 2013
+	September 2013
+	August 2013
+	July 2013
+	June 2013
+		
+		
+	
+			Unless otherwise specified, this work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+		
+	
+
+

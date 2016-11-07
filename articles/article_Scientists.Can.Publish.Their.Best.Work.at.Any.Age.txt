@@ -1,0 +1,1016 @@
+
+		Scientists can publish their best work at any age : Nature News & Comment
+	
+        {"@context": "http://schema.org", "@type": "NewsArticle", "headline": "Scientists can publish their best work at any age", "url": "http://www.nature.com/news/scientists-can-publish-their-best-work-at-any-age-1.20926", "thumbnailUrl":"http://www.nature.com/polopoly_fs/7.40321.1478181459!/image/WEB_Sinatra-POLOPOLY-CROP.jpg_gen/derivatives/nature_homepage/WEB_Sinatra-POLOPOLY-CROP.jpg","articleSection": "News", "creator": ["Philip Ball"],"keywords": ["Authorship","Publishing","Careers","Mathematics and computing"], "dateCreated": "2016-11-03T00:00:00-05:00"}
+        (function(h){h.className=h.className.replace('js-disabled','js-enabled')})(document.getElementsByTagName('html')[0])
+
+
+
+var dropCookie = true;                     
+var cookieDuration = 14;                   
+var cookieName = 'complianceCookie';        
+var cookieValue = 'on';                     
+ 
+function createDiv(){
+    var bodytag = document.getElementsByTagName('div')[0];
+    var div = document.createElement('div');
+    div.setAttribute('id','constrain-header');
+    div.setAttribute('class','cleared show-eu-cookie-notice')
+    div.innerHTML = '<div class="eu-cookie-notice"><div class="cookie-wrapper"><p class="intro">Welcome to nature.com</p><p class="content">This website uses cookies. By using this website and agreeing to this policy, you consent to our use of cookies in accordance with the terms of this <a href="/info/cookies.html">policy</a>.</p><form method="get" action=""><button type="submit" name="cookies" value="accepted">Accept and close</button></form></div></div>';
+
+    bodytag.insertBefore(div,bodytag.firstChild); 
+    document.getElementsByTagName('div')[1].className+=' cookiebanner'; 
+    createCookie(window.cookieName,window.cookieValue, window.cookieDuration); 
+}
+
+
+function createCookie(name,value,days) {
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime()+(days*24*60*60*1000));
+        var expires = "; expires="+date.toGMTString();
+    }
+    else var expires = "";
+    if(window.dropCookie) {
+        document.cookie = name+"="+value+expires+"; path=/";
+    }
+}
+
+function checkCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+function eraseCookie(name) {
+    createCookie(name,"",-1);
+}
+
+window.onload = function(){
+    if(checkCookie(window.cookieName) != window.cookieValue){
+        createDiv();
+    }
+}
+
+function removeMe(){
+    var element = document.getElementById('cookie-law');
+    element.parentNode.removeChild(element);
+}
+	
+
+					
+	nature.com
+		Sitemap	
+							Register
+				Login
+						
+									
+					
+        
+	
+									
+
+
+
+                    
+
+
+
+
+    
+        
+            
+    
+
+			
+      				
+					
+		
+
+		
+        
+	
+									
+
+		Nature
+			International weekly journal of science
+		
+	Search
+		Go
+
+				Advanced search
+			
+				
+																						Home
+				News & Comment
+				Research
+				Careers & Jobs
+				Current Issue
+				Archive
+				Audio & Video
+				For Authors
+			
+	
+			
+			
+						
+				
+										
+									
+									
+			
+												
+											
+				
+			News & Comment
+																																									News
+																																									2016
+																																									November
+																																														Article
+								
+		
+
+
+						
+			
+				
+																									
+											
+
+
+window.nature = window.nature || {};
+window.nature.showRelatedLinksPosition = 10;
+
+		
+				
+	
+	
+				
+					Nature
+					|
+					News
+				
+
+				
+	Sharing
+	
+			
+				
+				
+		
+		
+		
+		
+			
+				
+				
+			
+				
+						
+							
+							
+					
+					
+						
+							
+							
+					
+					
+						
+							
+							
+					
+					
+						
+							
+							
+					
+					
+						
+							
+							
+					
+					
+						
+							
+							
+					
+					
+						
+							
+							
+					
+					
+						
+							
+							
+					
+				
+		
+	
+			
+
+			
+			Scientists can publish their best work at any age
+												
+						New equation also suggests way to predict a researcher's potential to produce top work.
+					
+				
+				
+
+	    	    	    	
+    	    				    				    				    				    				    						
+		
+	
+
+
+	
+	
+	
+											Philip Ball
+			03 November 2016
+				
+				
+				
+	Article tools
+		Rights & Permissions
+	
+						
+			
+
+																						
+		
+	
+			
+			
+								
+	
+		
+							
+					
+			
+
+
+																										Hoping that your next paper will be the big one? It just might be — the chance that your next article will be your best-cited is as good as ever, no matter where you are in your career.																				That’s the finding of a team led by Albert-László Barabási at Northeastern University in Boston, Massachusetts. The researchers analysed the papers of thousands of scientists from different disciplines. Considering their publication records as a sequence of articles, the most highly-cited were equally likely to be found at the beginning, middle or end of the sequence1.																				“We scientists are random,” Barabási says. “Every time we publish a paper, we have the same chance of publishing our biggest hit as we do with any other paper.”																				This might seem to conflict with the well-documented finding that big discoveries and high-impact work tend to happen early in a scientist’s career. But there’s no contradiction, because the new work also shows that productivity — the number of papers produced per year — tends to slowly decline over a typical career.  A scientist’s chance of securing a ‘greatest hit’ accordingly decreases over time, simply because they have fewer shots at it.																											
+
+
+
+
+
+
+
+
+				
+
+
+
+
+	 		
+		Image: Kim Albrecht. Data Image: Roberta Sinatra.		Each circular line represents a scientists' career, where the bumps represent the impact of papers. If a career is regarded as a sequence of papers, then success is randomly distributed within the sequence, researchers say.		
+	
+
+																										Innate potential?																				But the researchers also make a more contentious calculation. They devise a simple mathematical model that describes the probability that any particular paper will be a hit. This depends on only two factors, they argue: an element of luck, and a certain quality, or Q factor, that measures an individual scientist’s ability to boost the impact of any project.																				Testing their model against the publication records of 2,887 physicists, the team found that the equation implies that the ‘luck’ factor is the same for all scientists. The Q factor is obtained from a researcher’s citation record: it is proportional to the logarithm of the number of citations that a scientist has received over a certain time frame.																				The researchers anticipated that Q would increase over the course of a scientific career, as an individual becomes more experienced. To their surprise, they found that it remains mostly constant.																				That’s shocking because it seems to imply that Q — the multiplier that makes someone capable of capitalizing on luck to produce a big hit — is a quality that a scientist brings to their work at the outset, and which they cannot easily change thereafter.																				“I hate to call it innate,” Barabási says, “but it seems to be a combination of your ability and education. Once you start your career, you have it and it stays with you.”																				And it does seem to carry predictive value: high Q values pick out Nobel laureates and other prize-winning physicists more reliably than do other metrics, such as the widely-used h-index, which measures cumulative productivity and the impact of publications. (A scientist with an h-index of 20 has published 20 papers, each of which has at least 20 citations.																				Q is predictive even early in a scientific career, the team says. Calculating a scientist’s Q value after they have published 20 papers enables accurate prediction of what their h-index will be after 40 papers for 74% of researchers studied.																				But a high Q alone doesn’t guarantee a glittering career. Scientists need to sustain their motivation, too: the chance of writing a ‘hit paper’ depends not just on Q and a degree of luck but also on productivity.																				“The novelty here is that one can extract a measure of individual potential that could indicate whether or not someone will ever achieve greatness, if she has not already,” says Santo Fortunato, a physicist who specializes in informatics at Indiana University Bloomington.																				Predicting impact																				Barabási and his colleagues have previously described a model that allows them to predict how many citations a paper will gain on the basis of its previous citation history2. But attempts to predict scientists’ future performance have had mixed results.																				Q, then, might be destined to join the group of indices — the h-index most prominently among them — by which scientists are ranked and potentially assessed.																				Barabási has mixed feelings about whether that’s a good thing, but says that it is up to the community to decide how Q is applied. If metrics are to be used at all, he says, then diversity is good, not least because it can avoid over-dependence on a few metrics that might be applied beyond their limitations. “The h-index is not always being well used," he says.																				“I wouldn’t favour the idea of supporting only the highest-Q scientists,” says Anthony van Raan, who conducts quantitative studies of science at Leiden University in the Netherlands. But he admits that such preferential support “could be interesting in this time of so many scientists and restricted resources”.																				But perhaps, says Barabási, Q is already a kind of selection factor, whereby individuals with a low Q score drop out of an academic scientific career at an early stage. The challenge now, he feels, is to work out what determines Q. If education does indeed play a big part, then maybe the knowledge can be used to assess and improve the way scientists are trained.												
+			
+			
+			Journal name:
+				Nature
+																				DOI:
+				doi:10.1038/nature.2016.20926
+							
+	
+				References
+				
+					
+							Sinatra, R., Wang, D., Deville, P., Song, C. & Barabási, A.-L. Science 354, aaf5239 (2016).
+																																																
+											
+							Wang, D., Song, C. & Barabási, A-L., Science 342, 127–132 (2013).
+																																																
+										
+			
+		
+				Related stories and links
+
+				
+									From nature.com
+					Divinations of academic success may be flawed08 November 2013Who is the best scientist of them all?06 November 2013Formula predicts research papers' future citations03 October 2013Halt the avalanche of performance metrics14 August 2013
+			
+		
+		
+
+	
+			
+	
+			Author information
+			
+												
+								
+								
+								
+					Author details
+					
+																Philip Ball
+								
+																									
+																												Philip is a freelance science writer and a consultant editor for Nature. He can often be heard on radio and television, and is the author of several scientific books for the lay reader, including H2O: A Biography of Water (shortlisted for a National Book Critics Circle Award); and Critical Mass (win…
+										Read more
+																																	
+									Search for this author in
+									NPG journals
+										PubMed
+										Google Scholar
+									
+							
+											
+			
+		
+	
+
+		
+					
+
+
+		
+			
+
+
+   For the best commenting experience, please login or register as a user and agree to our Community Guidelines. You will be re-directed back to this page where you will see comments updating in real-time and have the ability to recommend comments to other users.
+
+	
+
+
+
+
+
+
+	
+Comments
+	Comments Subscribe to comments
+	There are currently no comments.
+
+	 	
+	
+
+			See other News & Comment articles from Nature
+			
+				
+								
+										
+											Hard work, little reward: Nature readers reveal working hours and research challenges
+											
+ 		
+
+
+
+
+
+		
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Machine-learning algorithm quantifies gender bias in astronomy
+											
+ 		
+
+
+
+
+
+		
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Psychologists argue about whether smiling makes cartoons funnier
+											
+ 		
+
+
+
+
+
+				
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Scientists can publish their best work at any age
+											
+ 		
+
+
+
+
+
+			
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Tracker flags up failures to report clinical trials
+											
+ 		
+
+
+
+
+
+		
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Ant genomes rewrite history of Panama land bridge
+											
+ 		
+
+
+
+
+
+				
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Cryptography: Calligraphic conundrum
+											
+ 		
+
+
+
+
+
+		
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Zoology: Animal crackers
+											
+ 		
+
+
+
+
+
+		
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Axion alert! Exotic-particle detector may miss out on dark matter
+											
+ 		
+
+
+
+
+
+				
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Earthquakes in Italy, cholera vaccines and turmoil in Turkish universities
+											
+ 		
+
+
+
+
+
+				
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Bridge the planetary divide
+											
+ 		
+
+
+
+
+
+				
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Can wind and solar fuel Africa's future?
+											
+ 		
+
+
+
+
+
+				
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Plant-genome hackers seek better ways to produce customized crops
+											
+ 		
+
+
+
+
+
+				
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Good data are not enough
+											
+ 		
+
+
+
+
+
+				
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Young scientists ditch postdocs for biotech start-ups
+											
+ 		
+
+
+
+
+
+				
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Geneticists should offer data to participants
+											
+ 		
+
+
+
+
+
+			
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Publisher pulls 58 articles by Iranian scientists over authorship manipulation
+											
+ 		
+
+
+
+
+
+		
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Beyond Trump vs Clinton: A scientist’s guide to the US election
+											
+ 		
+
+
+
+
+
+				
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Embattled mega-telescope gets back-up site in Canary Islands
+											
+ 		
+
+
+
+
+
+				
+
+
+
+
+	
+									
+								
+																								
+								
+										
+											Wildlife in decline: Earth's vertebrates fall 58% in past four decades
+											
+ 		
+
+
+
+
+
+				
+
+
+
+
+	
+									
+								
+															
+		
+	
+								
+											
+        
+	
+																	
+		Social Media Box - AML
+		
+			E-alert				RSS				Facebook									
+						Twitter
+								
+				Close
+				Follow @naturenews
+			
+					
+	
+
+						Suffering in science
+					
+			Young, talented and fed-up: scientists tell their stories
+		
+		Scientists starting labs say that they are under historically high pressure to publish, secure funding and earn permanent positions — leaving precious little time for actual research.
+
+	
+
+(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+											
+
+
+
+                    
+
+
+
+
+    
+        
+            
+    
+
+											
+	
+				
+		
+				
+				Top Content - Article Page
+		
+				
+									
+						Recent
+						
+							
+		Hard work, little reward: Nature readers reveal working hours and research challenges
+			Nature 
+				04 November 2016
+		
+	
+		Machine-learning algorithm quantifies gender bias in astronomy
+			Nature 
+				04 November 2016
+		
+	
+		Psychologists argue about whether smiling makes cartoons funnier
+			Nature 
+				03 November 2016
+		
+
+													
+					
+									
+						Read
+						
+							
+	
+
+
+			
+				Majority of mathematicians hail from just 24 scientific ‘families’
+																									
+					Nature 26 Aug 2016
+				
+					
+				How to raise a genius: lessons from a 45-year study of super-smart children
+																									
+					Nature 07 Sep 2016
+				
+					
+				Earth-sized planet around nearby star is astronomy dream come true
+																									
+					Nature 24 Aug 2016
+				
+				
+							View all						
+					
+									
+						Commented
+						
+							
+
+
+
+
+
+			
+				Hillary Clinton will make a fine US president
+															Nature 19 Oct 201639 comments
+				
+					
+				Young, talented and fed-up: scientists tell their stories
+															Nature 26 Oct 201625 comments
+				
+					
+				Computing glitch may have doomed Mars lander
+															Nature 25 Oct 201612 comments
+				
+				
+							View all						
+					
+								
+			
+		
+	Newsletter
+	The best science news from Nature and beyond, direct to your inbox every day.
+	
+  	Your browser does not support iframes.
+	
+
+											
+						HIV history
+					
+			HIV’s Patient Zero exonerated
+		
+		A study clarifies when HIV entered the United States and dispels the myth that one man instigated the AIDS epidemic in North America.
+
+	
+
+						Autism advance
+					
+			Autism study finds early intervention has lasting effects
+		
+		Some autism symptoms reduced in children six years after their parents receive communications training.
+
+	
+
+    
+        
+            
+    
+
+											
+						ExoMars
+					
+			Computing glitch may have doomed Mars lander
+		
+		Researchers sift through clues after Schiaparelli crash in hopes of averting mistakes in 2020 mission.
+
+	
+
+						US presidential race
+					
+			The scientists who support Donald Trump
+		
+		Science policy fades into background for many who back Republican candidate in US presidential race.
+
+	
+
+						Nature Podcast
+					
+			Listen
+		
+		This week, the challenges facing young scientists, pseudo-pseudogenes, and the history of HIV in the US.
+
+	
+
+    
+        
+            
+    
+
+											
+	
+			Science jobs from nature jobs
+			
+						Faculty Position for Research Director of the Animal BSL3 Facility at Duke-NUS
+						DUKE-NUS Medical school
+					
+									
+					
+						Ph.D. Program and Integrated MS-Ph.D. Program of IBS School-UST
+						Institute for Basic Science
+					
+									
+					
+						Chief of Newborn Medicine
+						Mass General for Children at North Shore Medical Center (NSMC)
+					
+									
+					
+						Assistant Professor in Virology
+						Department of Microbiology and Immunobiology Harvard Medical School
+					
+									
+					
+						Faculty Position in Physics department of NYU Shanghai
+						NYU SHANGHAI
+					
+							Post a JobMore Science Jobs
+	
+							
+
+			
+				
+        
+	
+									Nature
+		ISSN: 0028-0836
+		EISSN: 1476-4687
+	
+
+		About us
+			Contact us
+			Accessibility statement
+			Help
+		Privacy policy
+			Use of cookies
+			Legal notice
+			Terms
+		Nature jobs
+			Nature Asia
+			Nature Education
+			RSS web feeds
+		About Nature
+			Contact Nature
+			About the Editors
+			Nature awards
+		
+	Search
+		Go
+
+			
+		
+		
+			© 2016 Macmillan Publishers Limited, part of Springer Nature. All Rights Reserved. 
+			partner of AGORA, HINARI, OARE, INASP, CrossRef and COUNTER
+		
+
+	
+
+		
+	
+		
+	
+
+		
+
+
+
+                    
+
+
+
+
+
+
+			 
+		
+	
+

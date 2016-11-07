@@ -1,0 +1,1593 @@
+Samsung is building its own AI assistant for the Galaxy S8  |  TechCrunchvar _sf_startpt = (new Date()).getTime()window.bN_cfg={h:window.location.hostname};
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+/* <![CDATA[ */
+var Live_Cache = {"ajaxurl":"https:\/\/techcrunch.com","auto_updates":{"live-cache-widget-1-title":"#live-cache-widget-1 h2","live-cache-widget-1-text":"#live-cache-widget-1 div","live-cache-subtitle":".live-island .live-subtitle","live-cache-text":".live-island .vid-caption","live-cache-stream-pause":".live-island .stream-pause","live-cache-fb-stream-src":".live-island .fb-stream-src","live-cache-title-livecaster":".livecaster-title","live-cache-text-livecaster":".livecaster-text"}};
+var gravityInsightsParams = {"type":"content","action":"","site_guid":"fca4fa8af1286d8a77f26033fdeed202"};
+var tcOmniture = {"pageName":"Samsung is building its own AI assistant for the Galaxy S8","prop1":"article","prop2":"artificial-intelligence-2","prop54":"wordpress","prop9":"tcr:1412602","prop16":"standard-article","prop19":"samsung|galaxy s8","prop23":"11-07-2016","prop64":"gravity","prop65":"original_content","prop22":"brian-heater","omni_env":"prod"};
+var TC_Async_Head_Scripts = {"tc_ads_wrapper_omniture":"https:\/\/s.aolcdn.com\/os_merge\/?file=\/ads\/adsWrapper.js&file=\/moat\/prod\/moatuac.js"};
+var TC_Google_Analytics_Config = {"account":"UA-991406-1","domain":"techcrunch.com"};
+/* ]]> */
+
+   {"@context":"http:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/techcrunch.com\/2016\/11\/07\/samsung-ai\/"},"headline":"Samsung is building its own AI assistant for the Galaxy&nbsp;S8","url":"https:\/\/techcrunch.com\/2016\/11\/07\/samsung-ai\/","thumbnailUrl":"https:\/\/tctechcrunch2011.files.wordpress.com\/2016\/03\/00005-mts-18_43_11_19-still0011.jpg?w=150","image":{"@type":"ImageObject","url":"https:\/\/tctechcrunch2011.files.wordpress.com\/2016\/03\/00005-mts-18_43_11_19-still0011.jpg?w=150"},"dateCreated":"2016-11-07T14:34:12Z","datePublished":"2016-11-07T14:34:12Z","dateModified":"1970-01-01T00:00:00Z","articleSection":"Artificial Intelligence","author":[{"@type":"Person","name":"Brian Heater"}],"creator":["Brian Heater"],"publisher":{"@type":"Organization","name":"TechCrunch"},"keywords":["samsung","galaxy s8"]}   
+		window._taboola = window._taboola || [];
+		_taboola.push(
+			{article:'auto'}
+		);
+		!function (e, f, u)
+		{ e.async = 1; e.src = u; f.parentNode.insertBefore(e, f); }
+		(document.createElement('script'),
+			document.getElementsByTagName('script')[0],
+			'//cdn.taboola.com/libtrc/aol-techcrunch/loader.js');
+	var ajaxurl = "https://techcrunch.com/wp-admin/admin-ajax.php"#site-logo { background: url(https://s0.wp.com/wp-content/themes/vip/techcrunch-2013/images/logos/green.png) no-repeat !important; }
+
+	
+		
+
+/* <![CDATA[ */
+if (ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412602;kvcmsid=tcr:1412602;kvugc=0;kvsubj=982665:983462:980487:981259:978508:978826:979377:982982:978794;kvent=3803932:4083250:3532294:3688889:4062164:4958885:4967332:5524268');
+			window.htmlAdWH('93484974', "320", "50", 'f', 'adsDive763def4e4');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+	
+		
+			
+				Menu
+				
+				Search
+				
+
+				
+
+					
+						Follow Us
+								Facebook
+							
+								Instagram
+							
+								Twitter
+							
+								Youtube
+							
+								Flipboard
+							
+								LinkedIn
+							
+								Google+
+							
+								RSS
+							
+							
+								More
+								
+										Youtube
+									
+										Flipboard
+									
+										LinkedIn
+									
+										Google+
+									
+										RSS
+									
+								
+						
+							
+								Got a tip? Let us know.
+							
+						
+					
+
+					
+			News
+
+			
+				Channels
+					Startups
+Mobile
+Gadgets
+Enterprise
+Social
+Europe
+Asia
+Crunch Network
+Unicorn Leaderboard
+Gift Guides
+
+					All Topics
+					All Galleries
+					All Timelines
+				
+			
+		
+		
+			Video
+
+			
+				Shows
+				Apps
+News
+Crunch Report
+Disrupt SF 2016
+Gadgets
+Reviews
+Interviews
+TC Features
+
+				
+					All Shows
+				
+				
+					All Videos
+				
+			
+		
+		
+			Events
+
+			
+				TechCrunch Events
+					Disrupt
+Startup Battlefield
+Crunchies
+Meetups
+International City Events
+Hackathon
+Include
+NFL’s 1ST and Future
+TechCrunch Store
+News About
+					Mobile World Congress
+CES
+
+				
+					All Events
+				
+			
+		
+		
+			Crunchbase
+		
+	
+					Trending
+					
+				
+				Tesla
+Google
+Facebook
+			
+					News
+				
+				Startups
+Mobile
+Gadgets
+Enterprise
+Social
+Europe
+			
+						
+							Message Us
+						
+					
+
+										
+						Search TechCrunch
+							Search TechCrunch
+							
+								
+								Search
+							
+							
+								
+								Search
+							
+						
+				
+			
+
+		
+	
+
+	
+		
+			
+				
+	×
+	
+		
+
+
+	Hi!
+	
+		You are about to activate our Facebook Messenger news bot. Once subscribed, the bot will send you a digest of trending stories once a day. You can also customize the types of stories it sends you.
+	
+	
+		Click on the button below to subscribe and wait for a new Facebook message from the TC Messenger news bot.
+	
+	
+		Thanks,
+		TC Team
+	
+
+	
+	
+		
+		
+		  window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '1678638095724206',
+		      xfbml      : true,
+		      version    : 'v2.6'
+		    });
+			FB.Event.subscribe('xfbml.render', function() {
+				jQuery('.fb-messenger-loading').detach()
+			});
+		  };
+
+		  (function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "//connect.facebook.net/en_US/sdk.js";
+		     fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
+
+		   function getCookie(name) {
+		      var matches = document.cookie.match(new RegExp(
+		        "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+		      ));
+		      return matches ? decodeURIComponent(matches[1]) : undefined;
+		   }
+
+		   window.onload = function() {
+		     var gravity_guid = getCookie('grvinsights');
+		     var btn = document.getElementById('fb-send-to-messenger');
+		     if (btn != undefined && btn != null) {
+			   btn.setAttribute('data-ref', gravity_guid)
+			 }
+		   }
+
+		
+			
+		
+	
+
+
+
+	
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412602;kvcmsid=tcr:1412602;kvugc=0;kvsubj=982665:983462:980487:981259:978508:978826:979377:982982:978794;kvent=3803932:4083250:3532294:3688889:4062164:4958885:4967332:5524268');
+			window.htmlAdWH('93484975', "LB", "LB", 'f', 'adsDiv08ef7126ec');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+
+		
+			
+				
+										
+						
+														
+							Hardware BattlefieldLaunch Your Hardware Product At CES With TechCrunch								
+																			Apply for Hardware Battlefield																												
+																	
+						
+						
+					
+				
+			
+		
+		
+
+
+	
+	
+
+			
+			
+				
+				
+				
+				
+	
+			
+				Artificial Intelligence
+
+				
+					
+			
+				
+					
+						iRobot says 20 percent of the world’s vacuums are now robots
+
+						
+							
+								
+						
+					
+				
+			
+		
+			
+			
+				
+					
+						Would you let an algorithm choose the next U.S. president?
+
+						
+							
+								
+						
+					
+				
+			
+		
+			
+			
+				
+					
+						Google and Blizzard team up on a StarCraft made just for AIs
+
+						
+							
+								
+						
+					
+				
+			
+		
+	
+	
+		
+			
+				
+					Browse more...
+				
+			
+		
+	
+
+			
+		
+			
+				Samsung
+
+				
+					
+			
+				
+					
+						Samsung will release a software update to stop unreturned Note 7s from charging above 60%
+
+						
+							
+								
+						
+					
+				
+			
+		
+			
+			
+				
+					
+						Samsung is cutting the Note 7’s access to mobile networks in New Zealand
+
+						
+							
+								
+						
+					
+				
+			
+		
+			
+			
+				
+					
+						Samsung recalls washing machines over injury reports from malfunctioning units
+
+						
+							
+								
+						
+					
+				
+			
+		
+	
+	
+		
+			
+				
+					Browse more...
+				
+			
+		
+	
+
+			
+		
+			
+				galaxy s8
+
+				
+					
+			
+				
+					
+						Samsung is focused on the Galaxy S8 and is already promising discounts to loyal users
+
+						
+							
+								
+						
+					
+				
+			
+		
+	
+	
+		
+			
+				
+					Browse more...
+				
+			
+		
+	
+
+			
+		
+
+
+					
+					Samsung is building its own AI assistant for the Galaxy S8
+					
+					
+	Posted 2 hours ago by Brian Heater (@bheater)
+
+
+	
+			0SHARES
+		
+							
+				
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+			
+
+
+	
+		
+		
+		
+		
+		
+	
+
+	
+		
+		
+		
+		
+		
+	
+
+
+
+
+					
+					
+						Next Story
+						
+							Blippar launches self-service suite of tools so developers can build their own AR
+						
+					
+				
+
+					
+					
+						
+							
+
+
+Samsung needs something big next year. And not necessarily big in the sense of a giant screen. After all, it’s precisely that line that put the company in its current position, up against the ropes during the time of year that ought be its most profitable.
+In a number of ways, the Note 7 fiasco couldn’t have come at a less opportune time, heading into the holidays, just prior to the launch of a new iPhone, and as countless newcomers are vying for the public’s attention/affection with low price/high-speced takes on Android. And then it went and recalled 2.8 million washing machines. Insult, meet injury.
+But the company has clearly been thinking big for the next generation. Fresh off a unification of its mobile line to number 7 across the board, Samsung went out and picked up Viv, a forward-looking AI assistant designed by the folks who gave the world Siri.
+We’ve heard some rumblings about an assistant on the forthcoming Galaxy S8, but now the company has confirmed that it will be launching a new service, built in part upon that recent Viv acquisition when the device is released early next year. Details are still few and far between this early on, but the company does plan to offer third-party interoperability.
+“Developers can attach and upload services to our agent,” a VP for the company told Reuters.
+In an era when companies tend to go silent prior to the release of a new handset, there’s little question why Samsung is letting some info slip months ahead of a potential launch, as it attempts to placate customers and investors alike.
+A good AI could further set the company apart from other Android manufacturers, and Samsung’s mobile team take another step toward the connected home and the like. The company has its work ahead of it if it plans to catch up to the likes of Google, Amazon, Apple and Microsoft .
+
+
+
+								
+							
+
+
+	
+			0SHARES
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+		
+			
+		
+	
+
+if( !ads.isMobile() ){ window.TechCrunch.loader.on( 'gravity-beacon', function(){ window.tc_loadGravityScript( 'recirculation' ); } ); }
+
+	(function($) {
+		window._taboola = window._taboola || [];
+
+		if ($('body').hasClass('single-post-mobile-collapse') && $(window).width() < 637) {
+			$('.article-entry').append($(document.getElementById('taboola-below-article-thumbnails')).detach());
+		}
+
+		_taboola.push(
+			{ mode: 'thumbnails-a', container: 'taboola-below-article-thumbnails', placement: 'Below Article Thumbnails', target_type: 'mix' }
+		);
+	})(window.jQuery);
+
+	
+		
+			Advertisement		
+	
+	
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412602;kvcmsid=tcr:1412602;kvugc=0;kvsubj=982665:983462:980487:981259:978508:978826:979377:982982:978794;kvent=3803932:4083250:3532294:3688889:4062164:4958885:4967332:5524268');
+			window.htmlAdWH('93484978', "250", "125", 'f', 'adsDiv06769f7c74');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412602;kvcmsid=tcr:1412602;kvugc=0;kvsubj=982665:983462:980487:981259:978508:978826:979377:982982:978794;kvent=3803932:4083250:3532294:3688889:4062164:4958885:4967332:5524268');
+			window.htmlAdWH('93484979', "250", "125", 'f', 'adsDiv97a570dd29');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+						
+					
+					
+					
+
+					
+					
+
+	
+		
+			Advertisement		
+	
+	
+		
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412602;kvcmsid=tcr:1412602;kvugc=0;kvsubj=982665:983462:980487:981259:978508:978826:979377:982982:978794;kvent=3803932:4083250:3532294:3688889:4062164:4958885:4967332:5524268');
+			window.htmlAdWH('93484976', "RR", "RR", 'f', 'adsDivf44e9d6626');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+
+
+Crunchbase
+
+
+
+		
+			
+				Samsung Electronics			
+		
+
+		
+		
+						Founded
+						1969
+					
+										
+						Overview
+						Samsung Electronics is a South Korean multinational electronics company engaged in consumer electronics, information technology and mobile communications, and device solutions businesses worldwide.
+
+
+The company develops, manufactures, and sells various consumer products, including mobile phones, tablets, televisions, Blu-ray players, DVD players, home theater systems, digital cameras, and camcorders; …
+					
+
+																								
+								Location
+								
+																		Suwon, 17
+								
+							
+						
+																			
+								Categories
+								
+																													Medical Device, 																													Hardware, 																													Software, 																													Electronics								
+							
+											
+										
+						Website
+						
+							http://www.samsung.com/us						
+					
+							
+			Full profile for Samsung Electronics		
+		
+		
+		
+
+
+
+
+	
+		
+
+	Newsletter Subscriptions
+
+
+
+
+	
+		
+			
+				
+						
+						The Daily Crunch
+						Get the top tech stories of the day delivered to your inbox
+					
+				
+						
+						TC Weekly Roundup
+						Get a weekly recap of the biggest tech stories
+					
+				
+						
+						Crunchbase Daily
+						The latest startup funding announcements
+					
+				
+
+			Enter Address
+				Subscribe
+			
+	
+	
+
+
+		Latest Crunch Report	
+	
+		
+				
+	
+		
+			Facebook's Election Hub | Crunch Report			
+		
+			
+
+			
+		Watch More Episodes
+	
+
+	
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412602;kvcmsid=tcr:1412602;kvugc=0;kvsubj=982665:983462:980487:981259:978508:978826:979377:982982:978794;kvent=3803932:4083250:3532294:3688889:4062164:4958885:4967332:5524268');
+			window.adSetInView('D');
+			window.htmlAdWH('93484977', "RR", "RR", 'f', 'adsDiva5fdd46cf8');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+					
+					
+
+				
+				
+
+				
+			
+			
+
+			
+			
+				
+
+		
+										
+						
+							galaxy s8						
+					
+				
+														
+										
+						
+							Samsung						
+					
+				
+														
+										
+						
+							Artificial Intelligence						
+					
+				
+														
+					Popular Posts
+					
+								
+		
+			(function(window){
+				try {
+					window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function() {
+						if (!window.ads.isMobile()) {
+							window.adSetInView('1');
+							window.htmlAdWH('93484965', '320', '115', 'text', 'acc-native-ad');
+							window.adSetInView('0');
+						}
+					});
+				} catch (e) {
+					// Assume this is just no ad placement for this page load
+				}
+			}(this));
+		
+							if( !ads.isMobile() ){ window.TechCrunch.loader.on( 'gravity-beacon', function(){ window.tc_loadGravityScript( 'recirculation-accordion' ); } ); }	
+				
+				
+
+
+			
+			
+
+		
+	
+	
+		
+	
+		
+			
+				Featured Stories
+			
+			
+					
+						
+							
+						
+							Gmail’s iOS app gets a familiar new look, improved search and undo send
+
+							1 hour ago | Brian Heater
+						
+					
+				
+								
+					
+						
+							
+						
+							WTF is CRISPR?
+
+							12 hours ago | Sarah Buhr
+						
+					
+				
+								
+					
+						
+							
+						
+							Sinovation Ventures’ Dr. Kai-Fu Lee is betting big on artificial intelligence
+
+							13 hours ago | Romain Dillet
+						
+					
+				
+								
+					
+						
+							
+						
+							The new 64-bit Orange Pi is a quad-core computer for $20
+
+							15 hours ago | John Biggs
+						
+					
+				
+							
+	
+
+		
+	
+		
+			
+				Latest From TechCrunch
+			
+			
+					
+						
+							
+						
+							Tech companies don’t want to talk about the lack of disability diversity reporting
+
+							8 minutes ago | Steve O'Hear
+						
+					
+				
+								
+					
+						
+							
+						
+							PetSmart takes on Amazon with launch of same-day delivery and subscriptions
+
+							41 minutes ago | Sarah Perez
+						
+					
+				
+								
+					
+						
+							
+						
+							Google quietly shutters standalone Google Showtimes movie site
+
+							1 hour ago | Ingrid Lunden
+						
+					
+				
+								
+					
+						
+							
+						
+							Tesla to charge new owners for Supercharger use after around 1K miles
+
+							1 hour ago | Darrell Etherington
+						
+					
+				
+							
+	
+
+		
+
+		
+			
+	
+
+/* <![CDATA[ */
+if (ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412602;kvcmsid=tcr:1412602;kvugc=0;kvsubj=982665:983462:980487:981259:978508:978826:979377:982982:978794;kvent=3803932:4083250:3532294:3688889:4062164:4958885:4967332:5524268');
+			window.adSetInView('1');
+			window.htmlAdWH('93484973', "mm", "mm", 'f', 'adsDivb880857b24');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+		
+	
+
+
+
+	
+
+		
+		
+			
+				
+
+													
+							
+								
+									
+									
+								
+									Comment moderation powered by 
+								
+																		
+				
+		
+		
+
+		
+		
+			
+				
+					
+						
+							Up Next
+							Blippar launches self-service suite of tools so developers can build their own AR
+							
+	Posted 2 hours ago						
+					
+				
+	
+		CrunchBoard
+
+		
+			Job Listings
+			
+						
+							Manager of Product Development at Financial Fitness Group (San Diego, CA, United States)
+						
+					
+									
+						
+							Staff Cyber Security Engineer  at GE Power (Atlanta, GA, United States; )
+						
+					
+									
+						
+							Senior Application Development Analyst (JO#4336) (SF or SAC) at Judicial Council of California (San Francisco Bay Area)
+						
+					
+									
+						
+							Director of Engineering, Cloud @ Sauce Labs at Sauce Labs (Vancouver, BC, Canada)
+						
+					
+									
+						
+							Java Software Engineer - Product Development (m/f) at eGym GmbH (München, Deutschland)
+						
+					
+							
+				More from CrunchBoard
+			
+		
+	
+		
+		
+
+	
+
+
+
+
+
+
+
+
+	
+	
+		
+			Advertisement		
+	
+	
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412602;kvcmsid=tcr:1412602;kvugc=0;kvsubj=982665:983462:980487:981259:978508:978826:979377:982982:978794;kvent=3803932:4083250:3532294:3688889:4062164:4958885:4967332:5524268');
+			window.htmlAdWH('93484978', "250", "125", 'f', 'adsDiv1fd40b155c');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+/* <![CDATA[ */
+if (!ads.isMobile()) {
+	(function(window,$){
+		window.TechCrunch.loader.on('tc_ads_wrapper_omniture', function(){
+			if ( !window.ads.isAdPageSet ){
+				if ( typeof window.adSetAdURL == 'function' ) {
+					window.adSetAdURL('/wp-content/themes/vip/techcrunch-2013/_uac/adpage.html');
+					window.ads.isAdPageSet = true;
+				}
+				if ( typeof window.adsResizePortrait === 'function' ) {
+					window.adsResizePortrait('1');
+				}
+				window.console.log('ADS WIDTH:');
+				window.console.log(ads);
+			}
+			window.adSetOthAT('kventryid=1412602;kvcmsid=tcr:1412602;kvugc=0;kvsubj=982665:983462:980487:981259:978508:978826:979377:982982:978794;kvent=3803932:4083250:3532294:3688889:4062164:4958885:4967332:5524268');
+			window.htmlAdWH('93484979', "250", "125", 'f', 'adsDivb56bfa3bc1');
+		});
+	}(this,this.jQuery));
+}
+/* ]]> */
+
+
+
+
+
+
+
+		
+		TechCrunch
+
+			
+
+				
+				
+					
+					
+						News
+Video
+Events
+Crunchbase
+TechCrunch Store
+
+				
+				
+
+				
+				
+					About
+					
+						Staff
+Contact Us
+Advertise With Us
+Send Us A Tip
+
+				
+				
+
+				
+				
+					International
+					
+						China
+Europe
+Japan
+
+				
+				
+
+			
+		
+
+			
+			
+				
+					Follow TechCrunch
+					Facebook
+						Twitter
+						Google+
+						LinkedIn
+						Youtube
+						Pinterest
+						Tumblr
+						Instagram
+						StumbleUpon
+						Feed
+					
+			
+			
+
+			
+			
+				TechCrunch Apps
+				iOS
+					Android
+					Windows 8
+				
+			
+
+			
+			
+				
+Subscribe to The Daily Crunch
+
+	Latest headlines delivered to you daily
+	
+		
+			Subscribe to <span class="no-mobile">Subscribe to </span>The Daily Crunch
+				Enter Email Address
+				Subscribe
+			
+	
+			
+			
+
+		
+		
+
+		
+		
+			
+				
+					© 2013-2016 AOL Inc. All rights reserved.
+				
+				
+					Aol Tech
+					Privacy Policy
+					About Our Ads
+					Anti Harassment Policy
+					Terms of Service
+				
+				
+					Powered by WordPress.com VIP
+				
+				
+					Fonts by 
+				
+			
+		
+		
+
+	
+
+  
+
+
+(function(s, p, d) {
+  var h=d.location.protocol, i=p+"-"+s,
+      e=d.getElementById(i), r=d.getElementById(p+"-root"),
+      u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+      :"static."+p+".com";
+  if (e) return;
+  e = d.createElement(s); e.id = i; e.async = true;
+  e.setAttribute('data-cfasync', 'false'); e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+})("script", "parsely", document);
+
+		{"@context":"http:\/\/schema.org","@type":"Article","url":"https:\/\/techcrunch.com\/2016\/11\/07\/samsung-ai\/","author":{"@type":"Person","name":"Brian Heater"},"headline":"Samsung is building its own AI assistant for","articleBody":"Samsung needs something big next year. And not necessarily big in the sense of a giant screen. After all, it\u2019s precisely that line that put the company in its current position, up against the ropes during the time of year that ought be its most profitable.\n\nIn a number of ways, the Note 7 fiasco couldn\u2019t have come at a less opportune time, heading into the holidays, just prior to the launch of a new iPhone, and as countless newcomers are vying for the public\u2019s attention\/affection with low price\/high-speced takes on Android. And then it went and recalled 2.8 million washing machines. Insult, meet injury.\n\nBut the company has clearly been thinking big for the next generation. Fresh off a unification of its mobile line to number 7 across the board, Samsung\u00a0went out and picked up Viv, a forward-looking AI assistant designed by the folks who gave the world Siri.\n\nWe\u2019ve heard some rumblings about an assistant on the forthcoming Galaxy S8, but now the company has confirmed that it will be launching a new service, built in part upon that recent Viv acquisition when the device is released early next year. Details are still few and far between this early on, but the company does plan to offer third-party interoperability.\n\n\"Developers can attach and upload services to our agent,\" a VP for the company told Reuters.\n\nIn an era when companies tend to go silent prior to the release of a new handset, there\u2019s little question why Samsung is letting some info slip months ahead of a potential launch, as it attempts to placate customers and investors alike.\n\nA good AI could further set the company apart from other Android manufacturers, and Samsung's mobile team take another step toward the connected home and the like. The company has its work ahead of it if it plans to\u00a0catch up to the likes of\u00a0Google, Amazon, Apple and Microsoft .","datePublished":"2016-11-07T14:34:12+00:00","mainEntityOfPage":"True","image":{"@list":["https:\/\/tctechcrunch2011.files.wordpress.com\/2016\/03\/00005-mts-18_43_11_19-still0011.jpg"]}}	
+		window._taboola = window._taboola || [];
+		_taboola.push(
+			{flush: true}
+		);
+	
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	
+	
+
+/* <![CDATA[ */
+var PushUpNotificationSettings = {"domain":"https:\/\/tctechcrunch2011.wordpress.com","userID":"271","websitePushID":"web.com.wordpress.tctechcrunch2011","webServiceURL":"https:\/\/push.10up.com","prompt":"1"};
+/* ]]> */
+
+/* <![CDATA[ */
+var wpcomVipAnalytics = {"is_404":"0","is_home":"0","is_single":"1","is_front_page":"0","is_archive":"0","percentToTrack":"1"};
+/* ]]> */
+
+/* <![CDATA[ */
+var TC_VideoLoader_Settings = {"yt_key":"AIzaSyBhsoyL5FHDdWDh-w7DgTTHaC8PS2dvFdI"};
+var TC_Language_Settings = {"ajax_url":{"chinese":"https:\/\/techcrunch.com\/chinesemodal"},"chinese":["zh","zh-hk","zh-cn","zh-sg","zh-tw"],"english":["en","en-au","en-bz","en-ca","en-ie","en-jm","en-nz","en-ph","en-za","en-tt","en-gb","en-us","en-zw"],"japanese":["ja"]};
+var TC_Header_Settings = {"mobile_collapse_offset":"300","hide_on_mobile_scroll_down":"1"};
+var TC_Async_Scripts = {"tc-mediavoice-MCtc":"https:\/\/cdn.mediavoice.com\/nativeads\/script\/aolibrands\/MCtc.js","tc_livefyre":"\/\/cdn.livefyre.com\/libs\/commentcount\/v1.0\/commentcount.js","tc_gravity":"https:\/\/b-ssl.grvcdn.com\/moth-min.js","commscore":"https:\/\/sb.scorecardresearch.com\/beacon.js","aol_universal_navbar":"https:\/\/s.aolcdn.com\/os\/aol\/unb.min.js","skimlinks":"https:\/\/s.skimresources.com\/js\/72705X1553005.skimlinks.js","swiftype_crawler":"\/\/s.swiftypecdn.com\/cc\/zYD5B5-eXtZN9_epXvoo.js"};
+/* ]]> */
+
+/* <![CDATA[ */
+var _sf_async_config = {"uid":"2905","domain":"techcrunch.com"};
+/* ]]> */
+
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'24588526','blog_tz':'-8','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'24588526','v':'wpcom','tz':'-8','user_id':'0','post':'1412602','subd':'tctechcrunch2011'}]);
+function st_vt() {var x=document.createElement("img");x.src="https://pixel.wp.com/g.gif?blog=24588526&v=wpcomvt&tz=-8&user_id=0&post=1412602&subd=tctechcrunch2011&rand="+Math.random();}
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTdsV05haVJbcGxtJjNRPStQNVpUOHlbPUJnQi45Py5telFkWjZDbj9PX2RIVjlBbjZvUXRCRENYX2FMfENoRF1bTDFuWEQrbE9WOU5NSGlYTXkvTmlHJnJJRnY0a1h5T3h+WHZPT2tKVi4ubCVoUm9jTUhWci9VWFEzYiwtLVVpNTlQaXlfLndyby9FWUsrUUJfcm0yQWtQbGFXM1twNDhJWX5PRmp8cXRKRGgmRw=='}]);
+_stq.push([ 'clickTrackerInit', '24588526', '1412602' ]);
+	
+
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+
+	
+		
+				
+					
+				
+					
+				
+			
+			
+				
+						News
+						
+							
+						
+					
+					Startups
+Mobile
+Gadgets
+Enterprise
+Social
+Europe
+Asia
+Crunch Network
+Unicorn Leaderboard
+Gift Guides
+All GalleriesAll Timelines
+			
+				
+						Videos
+						
+							
+						
+					
+					Apps
+News
+Crunch Report
+Disrupt SF 2016
+All ShowsAll Videos
+			
+				
+						Events
+						
+							
+						
+					
+					Disrupt
+Startup Battlefield
+Crunchies
+Meetups
+International City Events
+Hackathon
+Include
+NFL’s 1ST and Future
+TechCrunch Store
+All Events
+			
+				Crunchbase
+			
+		
+			
+				
+					
+				
+			
+		
+		
+			
+				
+				Message Us			
+		
+	
+
+
+
+ 	
+		
+			
+				
+			
+
+			
+				Most Popular
+			
+		
+		
+			
+						
+							
+								The new 64-bit Orange Pi is a quad-core computer for $20							
+							
+								15 hours ago by John Biggs							
+						
+
+				
+						
+							
+								WTF is CRISPR?							
+							
+								12 hours ago by Sarah Buhr							
+						
+
+				
+						
+							
+								What Tesla’s new Gigafactory means for electric vehicles							
+							
+								22 hours ago by Jussi Pikkarainen							
+						
+
+				
+						
+							
+								Tesla to charge new owners for Supercharger use after around 1K miles							
+							
+								1 hour ago by Darrell Etherington							
+						
+
+				
+						
+							
+								Alibaba’s Trojan Horse for Southeast Asia							
+							
+								6 hours ago by Sheji Ho							
+						
+
+				
+						
+							
+								China’s new cybersecurity law is bad news for business							
+							
+								11 hours ago by Kate Conger							
+						
+
+				
+						
+							
+								Google’s Firebase developer platform gets better analytics, crash reporting and more							
+							
+								6 hours ago by Frederic Lardinois							
+						
+
+				
+						
+							
+								FCC ushers in a troublesome new world for online privacy							
+							
+								5 hours ago by David J. Farber, Christopher S. Yoo							
+						
+
+									
+	
+	
+		(function (window, $, undefined) {
+			var document = window.document;
+
+			function loadChartbeat() {
+				window._sf_endpt = (new Date()).getTime();
+				var e = document.createElement('script'),
+					url = ("https:" === document.location.protocol) ? "https://s3.amazonaws.com/" : "http://";
+				url += "static.chartbeat.com/js/chartbeat.js";
+				e.setAttribute('language', 'javascript');
+				e.setAttribute('type', 'text/javascript');
+				e.async = true;
+				e.setAttribute('src', url);
+				document.body.appendChild(e);
+			}
+
+			$(loadChartbeat);
+		}(this, this.jQuery));
+	

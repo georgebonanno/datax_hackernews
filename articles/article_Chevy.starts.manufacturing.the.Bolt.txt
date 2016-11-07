@@ -1,0 +1,1873 @@
+Chevy starts manufacturing the Bolt
+    var _sf_startpt = (new Date()).getTime(), Sitevars = { geoCountry: "mlt", activeEdition: "mlt" };
+    <!--
+function runOmni(){
+s_265.pfxID="weg";
+s_265.pageName=s_265.pfxID+' : '+"Chevy starts manufacturing the Bolt";
+s_265.server=location.protocol+'//'+location.host;
+s_265.channel="us.engadget";
+s_265.linkInternalFilters="javascript:,engadget.com,joystiq.com,massively.com,tuaw.com,switched.com,techcrunch.com";
+s_265.mmxgo=true;
+s_265.prop12=document.location;
+s_265.prop1="article";
+s_265.prop2="transportation";
+s_265.prop8="bss:21";
+s_265.prop45="aws";
+s_265.prop54="blogsmith";
+s_265.prop62="video_novideo";
+s_265.prop9="bsd:21599400";
+s_265.prop18="transportation|gear|green";
+s_265.prop19="bolt|car|chevrolet|chevy|electriccar|electricvehicle|ev|gear|gm|green|transportation|@gear|@green|@livefyre|@transportation|@uk";
+s_265.prop22="jon-fingas";
+s_265.prop23="11-05-2016";
+s_265.prop65="original_content";
+s_265.eVar14="amp-ex";
+s_265.t();
+}
+var s_account="aolwbengadget,aolsvc";
+
+var bN_cfg={h:location.hostname,p:{"dL_ch":"us.engadget","dL_dpt":document.title,"dL_sDpt":document.title,"cms_src":"AMP","dL_siteID":"bss:21","dL_cmsID":"bsd:21599400","dL_categories":"transportation|gear|green","dL_tags":"bolt|car|chevrolet|chevy|electriccar|electricvehicle|ev|gear|gm|green|transportation|@gear|@green|@livefyre|@transportation|@uk","dL_author":"jon-fingas","dL_published":"11-05-2016","dL_source":"original_content","dL_vid":"video_novideo"}};
+(function(d){var s=d.createElement('script'),h=d.getElementsByTagName('head')[0];s.src='//s.aolcdn.com/os_merge/?file=/aol/omniture.min.js&file=/aol/beacon.min.js';h.appendChild(s);})(document);//-->
+    window._taboola = window._taboola || [];
+    _taboola.push({article: 'auto'});
+    !function (e, f, u) {
+      e.async = 1;
+      e.src = u;
+      f.parentNode.insertBefore(e, f);
+    }(document.createElement('script'),
+        document.getElementsByTagName('script')[0],
+        '//cdn.taboola.com/libtrc/aol-engadget/loader.js');
+  
+
+
+    
+
+        
+                        
+
+      
+      
+      
+        
+          
+            
+            
+            
+          
+        
+        
+        			
+			
+			  Engadget
+			
+		        
+      
+      
+                      
+                            Login
+                          
+                    
+                                                                                                                              
+          
+      
+
+          
+      
+
+  
+
+        
+    
+
+  
+    
+  
+    
+      
+        Home
+      
+    
+      
+
+
+                    
+
+  
+    
+      
+        Gear
+      
+    
+      
+
+              
+
+  
+    
+      
+        Gaming
+      
+    
+      
+
+              
+
+  
+    
+      
+        Culture
+      
+    
+      
+
+              
+
+  
+    
+      
+        Entertainment
+      
+    
+      
+
+              
+
+  
+    
+      
+        Science
+      
+    
+      
+
+              
+
+  
+    
+      
+        Video
+      
+    
+      
+
+              
+
+  
+    
+      
+        Reviews
+      
+    
+      
+
+              
+
+  
+    
+      
+        Public Access
+      
+    
+      
+
+      
+	                		
+		      
+
+  
+    
+      
+        US Edition
+      
+    
+      
+
+        
+      
+    
+  
+    
+      
+        Log in
+      
+    
+      
+
+              
+
+  
+    
+      
+        Sign up
+      
+    
+      
+
+          
+                
+                    
+                
+                    
+                
+                    
+            
+            
+
+  
+
+    
+      
+        
+          
+
+        
+          
+        
+          
+      
+    
+  
+  
+      
+        
+          
+            
+              
+              
+              
+            
+          
+
+          
+            
+          
+        
+      
+
+      
+        
+          
+            Show More Results
+          
+        
+      
+    
+  
+
+            
+
+
+
+    
+
+      
+
+        
+
+          
+
+                      
+              Engadget
+		  
+          
+
+                  
+            
+                3 related articles
+                
+        
+    
+        
+
+        
+
+                  
+            
+                
+
+                    
+                    
+                            
+    
+                                                                                            
+            
+                
+        
+        
+            
+                
+        
+        
+            
+                
+        
+        
+            
+                
+        
+
+            
+
+                    
+
+                                        
+                                
+                                  
+                                                                          Login
+                                                                        
+                                
+                            
+                                            
+            
+        
+    
+          
+            
+              
+          
+
+        
+
+      
+
+    
+
+                                            
+                
+                                                              
+                                                
+                            
+                                    
+                                
+                                    Uber settles big sexual assault cases in the US
+                                
+                            
+                    
+                                                              
+                                                
+                            
+                                    
+                                
+                                    The Morning After Weekend Edition
+                                
+                            
+                    
+                                                              
+                                                
+                            
+                                    
+                                
+                                    Tesla added an all-glass roof to the Model S
+                                
+                            
+                    
+                                    
+            
+        
+
+
+    
+
+      
+        
+          
+                                                                                                                                                                                                                                                    
+                        
+              
+                
+
+      
+    Latest in Gear
+  
+
+
+                
+
+                                              
+                                      
+                  
+                                                
+                                
+              
+          
+          
+              
+                Google snaps up the creators of a game-focused Android emulator
+              
+          
+
+                            
+
+  
+  10h ago
+
+            
+          View
+
+        
+
+      
+                                      
+                  
+                                                
+                                
+              
+          
+          
+              
+                Six innovative wind turbine designs
+              
+          
+
+                            
+
+  
+  14h ago
+
+            
+          View
+
+        
+
+      
+                                      
+                  
+                                                
+                                
+              
+          
+          
+              
+                Chevy starts manufacturing the Bolt
+              
+          
+
+                            
+
+  
+  16h ago
+
+            
+          View
+
+        
+
+      
+                                      
+                  
+                                                
+                                                                                              
+    
+        15
+    
+
+              
+          
+          
+              
+                24 hours with the Olympus OM-D E-M1 Mark II
+              
+          
+
+                            
+
+  
+  17h ago
+
+            
+          View
+
+        
+
+      
+
+
+            
+
+          
+          
+              
+
+      
+
+                
+          
+            Image credit: AP Photo/Duane Burleson
+          
+        
+        
+        
+
+    
+
+      
+
+        
+          
+
+  
+    save
+            
+    
+      
+        Save
+      
+    
+  
+
+        
+
+        
+              
+                                                                
+            
+                
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                
+            
+            
+                
+
+  
+    share
+            
+        
+    
+    
+
+        
+
+      
+
+      
+                  Chevy starts manufacturing the Bolt
+                      It's the first of a new generation of mainstream electric cars to reach factories.
+                
+
+       
+    
+      
+
+    
+      
+        
+    
+
+
+
+            Jon Fingas
+                    , @jonfingas
+                    
+      16h ago
+              in Transportation
+          
+
+    
+    
+      
+        
+                      
+
+Comments
+                  
+        
+                  
+831
+Shares
+                
+        
+          
+        
+    
+                                                                                            
+            
+                
+            
+                
+                    
+                        Share
+                        
+                    
+                
+            
+        
+        
+            
+                
+            
+                
+                    
+                        Tweet
+                        
+                    
+                
+            
+        
+        
+            
+                
+            
+                
+                    
+                        Share
+                        
+                    
+                
+            
+        
+                            
+                    
+                        
+                    
+                        
+                            
+                                Save
+                                
+                            
+                        
+                    
+                
+                            
+
+
+        
+      
+    
+  
+
+
+ 
+
+
+
+            
+
+                                                
+
+
+
+
+    
+                
+        
+            
+                                    
+
+                
+                
+                
+                  window._taboola = window._taboola || [];
+                  _taboola.push({
+                    mode: 'thumbnails-e',
+                    container: 'taboola-right-rail-thumbnails',
+                    placement: 'Right Rail Thumbnails',
+                    target_type: 'mix'
+                  });
+                
+
+                                                    
+                                                                  AP Photo/Duane Burleson
+                                
+                                
+    
+
+    
+    
+      
+        
+          
+                          A new wave of affordable yet practical electric cars is finally reaching production lines.  GM has started manufacturing the Chevy Bolt at a plant in Orion Township, Michigan, putting it on track to sell the $30,000 (after tax credits) EV in California and Oregon by the end of the year.  It's not certain just who'll get first crack at the Bolt besides Lyft drivers (there are no reservations, as the AP notes), but it's safe to say that Chevy is beating Tesla to the punch -- the Model 3 doesn't enter production until mid-2017.
+                      
+        
+      
+    
+
+    
+        
+    
+    
+
+            
+      
+        
+          
+            
+                                  
+  
+  
+  The Bolt probably won't be a strong seller, at least at first.  IHS estimates that Chevy will move fewer than 30,000 Bolts in the first year, which is a pale shadow of Tesla's 400,000-plus pre-orders for the Model 3.  It's a cautious step forward for a conventional automaker where Tesla, whose very business revolves around electric power, is jumping in with both feet.However, it might just get the ball rolling for the electric car industry, at least in the US.  Right now, your choices for EVs are generally split between long-ranged but relatively costly offerings (such as the BMW i3 or Tesla Model S) or affordable but range-limited machines like the Nissan Leaf.  The Bolt changes all that.  Its post-credit cost is less expensive than the typical $34,000 selling price for a new car in the US (according to Kelley Blue Book), but its 238-mile range is long enough that you shouldn't worry about it running out of energy during lengthy commutes.  The biggest limitation is cross-country travel.  While Tesla has its Supercharger network to power some long trips, it's harder to guarantee that you can drive coast-to-coast in other EVs.
+
+                          
+          
+        
+      
+      
+      
+      
+      
+                                      
+                            
+        Source:
+                AP (Yahoo)
+                    
+    	            In this article:
+    
+                    bolt,                car,                chevrolet,                chevy,                electriccar,                electricvehicle,                ev,                gear,                gm,                green,                transportation              
+    
+    
+                    
+                  
+                                        
+    
+        831
+        Shares
+    
+    
+        
+                
+    
+                                                                                            
+            
+                
+            
+                
+                    
+                        Share
+                        
+                    
+                
+            
+        
+        
+            
+                
+            
+                
+                    
+                        Tweet
+                        
+                    
+                
+            
+        
+        
+            
+                
+            
+                
+                    
+                        Share
+                        
+                    
+                
+            
+        
+                            
+                    
+                        
+                    
+                        
+                            
+                                Save
+                                
+                            
+                        
+                    
+                
+                            
+
+        
+    
+
+
+
+            
+                
+                    
+                
+                    
+                        
+                    
+                    Comments
+                
+            
+        
+        
+            
+                
+                    Sign In
+                
+            
+            
+                
+        
+    
+          
+      
+
+                              
+            
+
+          
+
+        
+
+    
+
+  
+
+            
+
+            
+                              
+
+
+    
+
+    
+    6h 
+
+
+
+    
+      
+
+                                
+
+
+
+
+    
+
+
+
+
+  
+
+    
+      
+                                                                            
+
+  
+  6h ago in
+
+
+
+  
+    Food and Drink
+  
+
+
+      
+                  
+              
+                  Uber gets slapped with lawsuit over missing food delivery tips
+              
+                
+
+                                                
+                          Uber says it's the restaurants' responsibility to make sure delivery personnel get those extra $$$.                      
+              
+      
+        
+
+  
+
+    
+
+                        
+            
+          
+              
+                        
+              
+            By 
+                M. Moon, 
+                 6h ago    
+
+          
+
+  
+    save
+  
+    
+      
+        Save
+      
+    
+  
+
+                      
+                                                                
+            
+                
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                
+            
+            
+                
+
+  
+    share
+            
+        
+    
+    
+
+    
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+
+
+      
+
+    
+
+  
+
+
+
+
+  
+
+  
+    View
+  
+
+
+        
+            
+            
+                              
+
+
+    
+
+    
+    8h 
+
+
+
+    
+      
+
+                                
+
+
+
+
+    
+
+
+
+
+  
+
+    
+      
+                                                                            
+
+  
+  8h ago in
+
+
+
+  
+    AV
+  
+
+
+      
+                  
+              
+                  Nintendo is reviving the NES' hint line for one weekend
+              
+                
+
+                                                
+                          You can call into the Power Line from November 11th through the 13th.                      
+              
+      
+        
+
+  
+
+    
+
+                        
+            
+          
+              
+                        
+              
+            By 
+                J. Fingas, 
+                 8h ago    
+
+          
+
+  
+    save
+  
+    
+      
+        Save
+      
+    
+  
+
+                      
+                                                                
+            
+                
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                
+            
+            
+                
+
+  
+    share
+            
+        
+    
+    
+
+    
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+
+
+      
+
+    
+
+  
+
+
+
+
+  
+
+  
+    View
+  
+
+
+        
+            
+            
+                              
+
+
+    
+
+    
+    10h 
+
+
+
+    
+      
+
+                                
+
+
+
+
+    
+
+
+
+
+  
+
+    
+      
+                                                                            
+
+  
+  10h ago in
+
+
+
+  
+    Mobile
+  
+
+
+      
+                  
+              
+                  Google snaps up the creators of a game-focused Android emulator
+              
+                
+
+                                                
+                          The LeapDroid move could help Chromebooks play games, or make life easier for developers.                      
+              
+      
+        
+
+  
+
+    
+
+                        
+            
+          
+              
+                        
+              
+            By 
+                J. Fingas, 
+                 10h ago    
+
+          
+
+  
+    save
+  
+    
+      
+        Save
+      
+    
+  
+
+                      
+                                                                
+            
+                
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                
+            
+            
+                
+
+  
+    share
+            
+        
+    
+    
+
+    
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+
+
+      
+
+    
+
+  
+
+
+
+
+  
+
+  
+    View
+  
+
+
+        
+            
+            
+                              
+
+
+    
+
+    
+    11h 
+
+
+
+    
+      
+
+                                
+
+
+
+
+    
+
+
+
+
+  
+
+    
+      
+                                                                            
+
+  
+  11h ago in
+
+
+
+  
+    Transportation
+  
+
+
+      
+                  
+              
+                  Uber settles big sexual assault cases in the US
+              
+                
+
+                                                
+                          Two women wanted to hold the company responsible for its drivers' actions.                       
+              
+      
+        
+
+  
+
+    
+
+                        
+            
+          
+              
+                        
+              
+            By 
+                M. Moon, 
+                 11h ago    
+
+          
+
+  
+    save
+  
+    
+      
+        Save
+      
+    
+  
+
+                      
+                                                                
+            
+                
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                
+            
+            
+                
+
+  
+    share
+            
+        
+    
+    
+
+    
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+
+
+      
+
+    
+
+  
+
+
+
+
+  
+
+  
+    View
+  
+
+
+        
+            
+            
+                              
+
+
+    
+
+    
+    13h 
+
+
+
+    
+      
+
+                                
+
+
+
+
+    
+
+
+
+
+  
+
+    
+      
+                                                                            
+
+  
+  13h ago in
+
+
+
+  
+    Politics
+  
+
+
+      
+                  
+              
+                  US is ready to hack Russia if it interferes with the election
+              
+                
+
+                                                
+                          It could compromise key infrastructure if Putin and supporters cause significant chaos.                      
+              
+      
+        
+
+  
+
+    
+
+                        
+            
+          
+              
+                        
+              
+            By 
+                J. Fingas, 
+                 13h ago    
+
+          
+
+  
+    save
+  
+    
+      
+        Save
+      
+    
+  
+
+                      
+                                                                
+            
+                
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                    
+                        
+                            
+                    
+                
+            
+            
+                
+
+  
+    share
+            
+        
+    
+    
+
+    
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+
+
+      
+
+    
+
+  
+
+
+
+
+  
+
+  
+    View
+  
+
+
+        
+    	
+						    
+            More Stories
+        
+    
+    
+    From around the web  
+
+
+    
+      
+        
+          
+          
+            window._taboola = window._taboola || [];
+            _taboola.push({
+              mode: 'thumbnails-b',
+              container: 'taboola-below-article-thumbnails',
+              placement: 'Below Article Thumbnails',
+              target_type: 'mix'
+            });
+          
+      
+    
+
+  
+      
+      
+          
+        
+      
+  
+      
+  
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "url": "https://www.engadget.com/2016/11/05/chevy-starts-manufacturing-bolt/",
+      "author": [
+        {
+          "@type": "Person",
+          "url": "https://www.engadget.com/about/editors/jon-fingas",
+          "name": "Jon Fingas"
+        }
+      ],
+      "headline": "Chevy starts manufacturing the Bolt",
+      "datePublished": "2016-11-05 15:28:00.000000",
+      "mainEntityOfPage": "True",
+      "thumbnailUrl": "https://s.aolcdn.com/dims-shared/dims3/GLOB/crop/5760x3509+0+0/resize/1600x975!/format/jpg/quality/85/https://s.aolcdn.com/hss/storage/midas/16dd849dbcf8179e5aca64bf27b501ee/204551315/d86be8560f524d4a950b952793d43825.jpeg",
+      "image": [
+        {
+          "@type": "ImageObject",
+          "url": "https://s.aolcdn.com/dims5/amp:767c2e9072f9317a0cfdf225db487380330c6368/t:640,480/q:80/?url=https%3A%2F%2Fs.aolcdn.com%2Fdims-shared%2Fdims3%2FGLOB%2Fcrop%2F5760x3509%2B0%2B0%2Fresize%2F1600x975%21%2Fformat%2Fjpg%2Fquality%2F85%2Fhttps%3A%2F%2Fs.aolcdn.com%2Fhss%2Fstorage%2Fmidas%2F16dd849dbcf8179e5aca64bf27b501ee%2F204551315%2Fd86be8560f524d4a950b952793d43825.jpeg",
+          "width": "640px",
+          "height": "480px"
+        }
+      ],
+      "articleBody": "A new wave of affordable yet practical electric cars is finally reaching production lines.  GM has started manufacturing the Chevy Bolt at a plant in Orion Township, Michigan, putting it on track to sell the $30,000 (after tax credits) EV in California and Oregon by the end of the year.  It's not certain just who'll get first crack at the Bolt besides Lyft drivers (there are no reservations, as the AP notes), but it's safe to say that Chevy is beating Tesla to the punch -- the Model 3 doesn't enter production until mid-2017. The Bolt probably won't be a strong seller, at least at first.  IHS estimates that Chevy will move fewer than 30,000 Bolts in the first year, which is a pale shadow of Tesla's 400,000-plus pre-orders for the Model 3.  It's a cautious step forward for a conventional automaker where Tesla, whose very business revolves around electric power, is jumping in with both feet.\n\nHowever, it might just get the ball rolling for the electric car industry, at least in the US.  Right now, your choices for EVs are generally split between long-ranged but relatively costly offerings (such as the BMW i3 or Tesla Model S) or affordable but range-limited machines like the Nissan Leaf.  The Bolt changes all that.  Its post-credit cost is less expensive than the typical $34,000 selling price for a new car in the US (according to Kelley Blue Book), but its 238-mile range is long enough that you shouldn't worry about it running out of energy during lengthy commutes.  The biggest limitation is cross-country travel.  While Tesla has its Supercharger network to power some long trips, it's harder to guarantee that you can drive coast-to-coast in other EVs.",
+      "articleSection": "Gear",
+      "keywords": ["bolt","car","chevrolet","chevy","electriccar","electricvehicle","ev","gear","gm","green","transportation"],
+      "publisher": [
+        {
+          "@type": "Organization",
+          "name": "Engadget",
+          "url": "https://www.engadget.com",
+          "logo": [
+            {
+              "@type": "ImageObject",
+              "url": "https://www.engadget.com/assets/images/eng-e-128.png",
+              "width": "128px",
+              "height": "128px"
+            }
+          ]
+        }
+      ],
+      "dateModified": "2016-11-05 12:27:00.000000"
+    }
+  
+      
+                  
+            
+      
+    About
+  
+
+
+              About Engadget
+                                                                        About Our Ads
+                                                                        Advertise
+                                                                        Brand Kit
+                                                                        Contact Us
+                                                                        RSS Feed
+                                                
+                  
+            
+      
+    Sections
+  
+
+
+              Reviews
+                                                                        Gear
+                                                                        Culture
+                                                                        Entertainment
+                                                                        Gaming
+                                                                        Science
+                                                                        Public Access
+                                                                        Video
+                                                                        Podcasts
+                                                                        Deals
+                                                
+                  
+            
+      
+    Contribute
+  
+
+
+              Public Access
+                                                                        Send us a tip!
+                                                                        Support
+                                                
+                  
+            
+      
+    International
+  
+
+
+              Español
+                                                                        繁體中文
+                                                                        简体中文
+                                                                        日本版
+                                                                        Deutschland
+                                                                        UK
+                                                
+                  
+            
+      
+    Apps
+  
+
+
+              Android
+                                                                        iPhone
+                                                                        iPad
+                                                
+              
+    
+  
+      
+        
+            
+              Join Our Newsletter
+
+              
+                
+                  
+                    Subscribe
+                  
+                
+              
+
+            
+          
+        
+
+            Follow Us
+
+            
+                
+                  
+              
+              
+                
+                  
+              
+              
+                
+                  
+              
+              
+                
+                  
+              
+              
+                
+                  
+              
+              
+                
+                  
+              
+              
+                
+                  
+              
+            
+
+        
+    
+  
+
+    
+      
+        
+          
+
+        
+          
+            © 2016 AOL Inc. All rights reserved.
+          
+          
+            Reprints and Permissions
+              Privacy
+                  Policy
+              Terms
+                  of Use
+              Trademarks
+              Advertise
+              
+            
+
+        
+      
+    
+
+  
+
+
+
+
+    
+
+      
+
+
+  
+    ear iconeye icontext file
+
+    
+    
+
+        
+    window._taboola = window._taboola || [];
+    _taboola.push({flush: true});
+  
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-818999-11', 'auto');
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+
+    
+        
+      
+      
+          (function(s, p, d) {
+            var h=d.location.protocol, i=p+"-"+s,
+                e=d.getElementById(i), r=d.getElementById(p+"-root"),
+                u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net"
+                :"static."+p+".com";
+            if (e) return;
+            e = d.createElement(s); e.id = i; e.async = true;
+            e.src = h+"//"+u+"/p.js"; r.appendChild(e);
+          })("script", "parsely", document);
+      
+
+    

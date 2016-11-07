@@ -1,0 +1,299 @@
+Indie Hackers: Learn from Profitable Businesses and Projects
+/* global ga */
+
+/* eslint-disable */
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+/* eslint-enable */
+
+ga('create', 'UA-81418423-2', 'auto');
+
+ga('require', 'cleanUrlTracker', {
+  queryDimensionIndex: 1,
+  stripQuery: true,
+  trailingSlash: 'remove',
+});
+
+ga('require', 'outboundFormTracker');
+
+ga('require', 'outboundLinkTracker');
+
+ga('require', 'pageVisibilityTracker', {
+  sessionTimeout: 30, // minutes; must be same as setting in Google Analytics
+});
+
+ga('require', 'socialWidgetTracker');
+
+ga('require', 'urlChangeTracker', {
+  fieldsObj: {
+    dimension2: 'virtual',
+  },
+});
+
+ga('send', 'pageview', { dimension2: 'pageload' });
+
+
+    
+  
+  
+
+    
+  
+    Home
+  
+
+  
+    Submit
+  
+
+  
+    Forum
+  
+
+  
+    Timeline
+  
+
+  
+    About
+  
+
+  
+
+
+
+    
+      Subscribe
+    
+
+
+
+
+  
+  HumanPredictions
+
+  
+    Elliott Garms explains how building a strong team with the right domain knowledge helped his recruiting tool hit $18,000/mo in its first year.
+  
+
+
+Tell us about yourself and what you're working on.
+Hi, I'm Elliott Garms. I grew up in a family of recruiters. I'm very extroverted, and I did not do well in school growing up. I've always been an entrepreneur at heart and was always more interested in starting little businesses than I was trying to get good grades.
+I've been working professionally for 10 years, and most of those 10 years were spent running a small recruiting company in Chicago where I am known by many as the talent agent for developers. In addition to running my own business, I also did a stint at Groupon where I did tech recruiting. After that, I cofounded Dev Bootcamp in Chicago, where I was primarily responsible for making sure all the students graduating the program found jobs after graduation.
+My business is called HumanPredictions. We have a SaaS product that's a database of tech people (engineers, designers, QA, DevOps, data scientists, and product folks) that highlights which of these people is most likely to change jobs based on how they are updating public social profiles. We primarily work with engineering leadership and/or recruiters within tech companies to help them avoid working with shady agency recruiters and instead do all of their recruiting themselves in-house.
+We are bootstrapped with no plans of raising any money. We have 3 full-time founders and 5 part-time contractors. The contractors vary in how much work they do week to week.
+How'd you come up with the idea for HumanPredictions?
+My partner, "h", and I were running a small recruiting company in Chicago. Our recruiting company was run like a talent agency for tech people in Chicago. Instead of working on behalf of companies who were all looking for senior developers, we focused on hanging out with senior developers as much as possible. Whenever any of those developers were ready to make a move, we wanted to help them make that move and explore the cool things happening in Chicago.
+I've always been a big relationship recruiter, and I believe in getting to know people before trying to pitch them job opportunities. At the time I was having ~20 meetings a week with tech people, many of whom I'd met in the past and some who I'd just met or been introduced to. Of those 20ish meetings each week, I was finding 1-2 new people who were ready to change jobs. That ratio felt inefficient to me, so I tried an experiment and scheduled a week of 20 meetings but only with people who had been at their job for 2+ years. That week I had seven people who weren't all "actively" looking for a new job but were all down to go have coffees with founders/CTOs/etc and explore what else was out there.
+A light bulb turned on, and I realized that ranking the people I was meeting up with week-to-week by tenure had a huge impact on my business. That solution would become HumanPredictions.
+What did it take to get the product off the ground?
+One of the seven people from the experimental week was my friend David who worked at Braintree. He told me, "I'm not looking for another tech job. I've built a little nest egg, and I want to take a risk and do a startup. Instead of showing me tech jobs, tell me about startups you know that are very early stage where the founders have domain knowledge." David is now our CTO :-)
+Like David, I also had a small nest egg, since Dev Bootcamp had been acquired by Kaplan in 2014. We asked David to help us hack together a tool for our recruiting business to better rank and prioritize people in Chicago for who we should be trying to meet with that week or month. David started nights and weekends, and in a matter of a week or two he had a working MVP which h and I were using for our recruiting biz. The tool prioritized who I should try and setup meetings with, and the first week of using it lead to a handful of great meetings, one of which lead to a successful placement via our recruiting biz.
+What convinced you guys to dive in full-time?
+We started telling a few other CTO/recruiter friends about what we had built, and they were interested in trying it. It worked well for them, so they asked if they could pay us to keep using it. David implemented Braintree over the weekend, and the following week we took our first payment. HumanPredictions quickly started to take on a life of its own from there.
+Meanwhile my mentor Dave Hoover was in between gigs and doing some angel investing with other early stage startups in town. Between the team, our domain knowledge, and the fact that we were already having success with our internal tool/MVP, he was definitely feeding the fire and telling us we should pursue this. From a startup standpoint, he thought we were the right team to build this.
+Around this time I also met a guy named Justin Massa who had built a data-driven business in the food industry and who knew the data/product space much better than I did. Justin quickly turned into a mentor of mine as well, and he also felt strongly that we should pursue this.
+After a few friends tried our app and liked it, we wanted to see if people who didn't know us would feel the same. I got on LinkedIn and found a few recruiters/engineering leaders who I didn't know, and I reached out to them. I ended up landing a few demos and was able to convert them into customers. When we saw that it wasn't just our friends who liked our app, we realized we might be on to something.
+A week after that David decided to quit his job to work with us full-time. At the same time, h and I decided to shut down the recruiting business and focus on the product full-time. We launched with a very bare bones MVP. We decided early on we wanted to target cool companies who understand quality recruiting and let them and their feedback drive the product forward from there.
+How have you attracted users and grown your business?
+We officially launched HumanPredictions in October of 2015. There was no real build up to launch — it happened pretty organically and pretty quickly. To date, we still haven't done much sales or marketing. The way we get new customers is through word of mouth from current customers and through direct sales. I find recruiters, engineering leaders, and startup founders on LinkedIn and reach out to them via email. But other than sending cold emails and showing the product to friends, we've done zero marketing thus far.
+Currently we have 45 companies using us and about 60 users in total. Given the fact that we've been more focused on product than sales/marketing, we haven't been very scientific about tracking conversion rates or things like that. That said, we have roughly a 70% conversion rate for the customers for whom we do demos.
+Here's our Google Analytics as far back as it goes :-)
+
+What's the story behind your revenue?
+We started charging the day we officially launched the product. We all had day jobs, so we figured if we were going to walk away from them we wanted to make sure the product we were building was something people would pay for. Our initial financial goals were simple: Every month we should see revenue growth, and if that didn't happen then we should seriously talk about whether there was a market for this product.
+Our CTO came from Braintree, so rigging up payments was easier for us than others :-) We choose Braintree for that reason, and were up-and-running in a couple of days.
+When we launched, we were charging $200 a month per user. We kind of made up our initial price. We'd used other recruiting products, and we knew we wanted to charge less than them since we were so new and our product was truly an MVP. We charged per user for unlimited access to our database of people.
+We've increased pricing a couple of times since then, first from $200 to $300/month, and finally to today's price of $350/month. We are currently working on some big updates to the app and planning to raise prices again in Q1 of 2017. We also discontinued our monthly option and started charging quarterly or yearly ($900/quarter or $3k/year) as a way to boost revenue and have longer relationships with our clients. We found that our clients were most successful when they kept investing time in recruiting and relationships instead of using the app for a month or two here and there. When they signed up for at least a quarter, we had more time to demonstrate our value and earn them as a long-term user.
+HumanPredictions is currently making $12,750/month in MRR with another ~$5k/month in new customers. Our biggest month to date was August where we made $19,000 between new customers and renewing customers.
+
+What are your goals for the future?
+I want to have a six figure month in 2017. I want to have 500+ companies using our app. All I've ever wanted to do was build a business. I want HumanPredictions to be the first product of the next generation of recruiting products.
+We recently started as the inaugural company in IDEO's new Startup Fellowship program, and we will be working closely with IDEO over the next year. IDEO is focused on guiding us and partnering on innovation, and then we handle the execution. We know how to build software and we understand our customers, but IDEO fills huge gaps with their Interaction Design chops and their Design/Services/Business Research depth. The IDEO team for our first sprint was an Interaction Designer, a cognitive psychologist, and an anthropologist! We're also working with their internal teams to help them wherever we can. We don't want to just take their knowledge without giving something back. And that giving back is also leading to our product getting better for design and UX recruiting.
+If you had to start over, what would you do differently?
+When we launched we were selling to recruiting agencies. We quickly learned that most agencies take a transactional and spammy approach to recruiting. After working on the product for 3 months we realized that tech companies were a much better target customer, and they gave us the kind of feedback we were interested in. Agencies wanted to batch-select all of the people who we thought were looking and send spam to them. Tech companies are intentional about who they are trying to recruit and go after specific people for specific reasons. The feedback from tech companies has driven a lot of changes that have greatly improved our app. For the first 3 months that we were in business we were taking feedback from agencies and building based on that. If I could go back, I would've launched by focusing on selling our product to tech companies instead of agencies.
+Additionally, I would have been much smarter with saving my money to make it last longer so I wouldn't have had to worry about finances as much. I was used to making a lot more money before starting this company, but didn't save enough.
+We are currently distributed, which is great, but it has its challenges. We are still getting better at over-communicating and going over the top to make sure we are all on the same page. Being distributed still poses its challenges, but we are constantly putting new process in place to ensure we stay on the same page and are all working towards the same goals. Working in a crowded space with lots of competition is difficult as well.
+What has been really helpful to you?
+A mentor told me when I was younger, "Don't start a company right away. Find an industry you like, work your ass off, and learn the industry inside and out, then start a company". I'm really proud of our team's domain knowledge. Our CTO has deep data expertise and has worked at a couple of growth stage companies, so he's experienced the good, bad, and ugly of tech recruiting on both sides. I grew up in a family of recruiters and have done tech recruiting my entire professional career. h has run recruiting and people ops for some very well-known software companies: ThoughtWorks, DRW Trading, Prismatic, to name a few.
+What advice would you share with aspiring indie hackers?
+Being an entrepreneur is scary. Be gentle with yourself. Some days you wonder what the hell you're doing. All of the feedback I've gotten from mentors, podcasts, and startup reading says that this is very normal. Be resilient.
+Personally, I'm really into mentors. I love finding people who have been successful on their own and getting advice from them. Not only do mentors give great advice, but many become fans of what you're working on and go out of their way to help you. Find mentors, buy them coffee/beer/whatever, and get their advice and help.
+Another piece of advice is to be intentional about the people you work with. Find people who you trust (you can't run a startup with people you don't trust) who are aligned on values and who have complementary skills.
+Finally, build a company in a space that you know well.
+Where can we learn more?
+Email: david@humanpredictions.io / h@humanpredictions.io / elliott@humanpredictions.io
+Twitter: @davidpick / @hisnice / @elliottgarms
+LinkedIn: dapick / johnhundrieser / elliottgarms
+You can also check out this write-up from Crain's, a blog post I wrote called The Future of Recruiting, and our feature as #3 on the top HR tech and recruiting tools of 2016.
+
+
+  
+    Ask your own questions about HumanPredictions!
+
+
+  
+    
+    Loading comments...
+  
+
+  
+
+  Enjoy reading this interview?
+
+
+  Every week I interview founders about how their apps and projects are making money. Enter your email below, and I'll send you new stories once a week. Unsubscribe whenever you want! 🤗
+
+
+
+	
+    
+
+  
+      Subscribe
+  
+
+
+
+
+  If you're curious, feel free to check out my previous emails. Thanks for reading!
+
+
+
+  —Courtland (@csallen)
+
+
+
+
+  HumanPredictions
+
+  
+    
+      2015
+    
+    Founded
+  
+
+  
+    
+      USA
+    
+    Country
+  
+
+  
+    
+      3
+    
+    
+      Founders
+    
+  
+
+  
+    
+      8
+    
+    
+      Employees
+    
+  
+
+  
+      
+        $18k
+      
+      Avg. Monthly Revenue
+  
+
+
+
+  
+    
+      
+      Back to Home
+    
+    
+      Read the stories behind over 50 profitable businesses and side projects.
+    
+
+      
+  Old Geek Jobs
+  Tech Jobs for Ages 35+
+  
+      $1k/mo
+
+    
+      John Wheeler
+    
+  
+
+
+      
+  EDM Hunters
+  Music Discovery App
+  
+      $900/mo
+
+    
+      Jaskaran Rana
+    
+  
+
+
+      
+  Instapainting
+  Photo-to-Painting Service
+  
+      $32k/mo
+
+    
+      Chris Chen
+    
+  
+
+  
+    
+
+
+
+
+
+
+  
+    
+  
+    by @csallen
+  
+
+  
+
+  
+    
+    Follow @IndieHackers
+  
+
+
+
+
+
+    
+      window.fbAsyncInit = function() {
+        FB.init({ appId: '1128541620537360', xfbml: true, version: 'v2.7' });
+      };
+
+      (function(w, d, s, id){
+        function load() {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.async = true;
+          js.src = '//connect.facebook.net/en_US/sdk.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+        if (w.addEventListener) { w.addEventListener('load', load, false); }
+        else if (w.attachEvent) { w.attachEvent('onload', load); }
+      }(window, document, 'script', 'facebook-jssdk'));
+    

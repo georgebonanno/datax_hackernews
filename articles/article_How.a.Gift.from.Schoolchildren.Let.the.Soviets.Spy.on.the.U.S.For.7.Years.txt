@@ -1,0 +1,1339 @@
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"bed08a364b","applicationID":"16192845","transactionName":"Jg1fEkIMXl4HQU0ERRELUgpVEB1BClwV","queueTime":0,"applicationTime":92,"agent":""}window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-998.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);How a Gift from Schoolchildren Let the Soviets Spy on the U.S. for 7 Years | Atlas Obscura
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-8347316-6', 'auto');
+  ga('send', 'pageview');
+(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+  var fbds = document.createElement('script');
+  fbds.async = true;
+  fbds.src = '//connect.facebook.net/en_US/fbds.js';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(fbds, s);
+  _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '1494388927542275']);
+  })();
+  window._fbq = window._fbq || [];
+  window._fbq.push(['track', 'PixelInitialized', {}]);
+
+  !function(d,s,id){
+    var js,fjs=d.getElementsByTagName(s)[0];
+    if(!d.getElementById(id)){
+      js=d.createElement(s);
+      js.id=id;
+      js.async=true;
+      js.src="https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js,fjs);}
+    }
+  (document,"script","twitter-wjs");
+  
+      __reach_config = {
+        pid: '55b80192736b79f8db0000ae',
+        title: 'How a Gift from Schoolchildren Let the Soviets Spy on the U.S. for 7 Years',
+        //SR will use og:url
+        date: '2016-06-21 12:47:00 UTC',
+        authors: [ 'matttt'],
+        channels: ['articles'],
+        tags: ["espionage", "politics", "soviet history", "bug week"],
+        ignore_errors: false
+      };
+      (function(){
+        var s = document.createElement('script');
+        s.async = true;
+        s.type = 'text/javascript';
+        s.src = document.location.protocol + '//d8rk54i4mohrb.cloudfront.net/js/reach.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
+      })()
+    
+      window.AtlasObscura = {};
+    
+    window.lazySizesConfig = window.lazySizesConfig || {};
+    lazySizesConfig.lazyClass = 'lazy';
+    lazySizesConfig.loadMode = 1;
+    
+      AtlasObscura.current_article = {"id":6241,"title":"How a Gift from Schoolchildren Let the Soviets Spy on the U.S. for 7 Years","associated_places":[]};
+    .lazy,.lazyloading{background-image:asset-url("icons/ao.svg");}
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+      (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+          '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+      })();
+    
+  googletag.cmd.push(function() {
+    googletag.defineOutOfPageSlot('/9729793/1x1_tracking_pixel', 'div-gpt-ad-1438011102027-12')
+    .addService(googletag.pubads());
+
+
+
+      var avoidSiderailAd = ( !isSmallScreen() && false );
+      if ( !avoidSiderailAd ) {
+        var btfSize = googletag.sizeMapping()
+          //in a sizeMapping, [0,0] denotes the fallback.It matches any size
+          .addSize([0, 0], [300, 250])
+          //[668,0] is a min width of 668px
+          //permitted sizes are in order of precedence
+          .addSize([668, 0], [[300, 600], [300, 250]])
+          .build();
+
+        googletag.defineSlot('/9729793/300x250_300x600_box_btf', [[300, 600], [300, 250]], 'div-gpt-ad-1438011102027-1')
+        .defineSizeMapping(btfSize)
+        .addService(googletag.pubads());
+      }
+
+      var avoidSecondarySlot = ( !isSmallScreen() || isHomePage() );
+      if ( !avoidSecondarySlot ) {
+        var btfSecondarySize = googletag.sizeMapping()
+          .addSize([0, 0], [300, 250])
+          .addSize([668, 0], [])
+          .build();
+
+        googletag.defineSlot('/9729793/300x250_300x600_secondary', [[300, 250], [300, 600]], 'div-gpt-ad-1438011102027-11')
+          .defineSizeMapping(btfSecondarySize)
+          .setCollapseEmptyDiv(true)
+          .addService(googletag.pubads());
+      }
+
+      var leadboardSize = googletag.sizeMapping()
+        .addSize([0, 0], [])
+        .addSize([668, 0], [[728, 90], [970, 250]])
+        .build();
+
+      googletag.defineSlot('/9729793/970x250_728x90_below_nav', [[728, 90], [970, 250]], 'div-gpt-ad-1438011102027-10')
+      .defineSizeMapping(leadboardSize)
+      .addService(googletag.pubads());
+
+      var colSize = googletag.sizeMapping()
+        .addSize([0, 0], [[1,1], [300, 400]])
+        .addSize([668, 0], [[1,1], [535, 400]]);
+
+      googletag.defineSlot('/9729793/1x1_video_btf', [[1, 1],[300, 400], [535, 400]], 'div-gpt-ad-1438011102027-9')
+        .defineSizeMapping(colSize)
+        .setCollapseEmptyDiv(true)
+        .addService(googletag.pubads());
+        googletag.pubads().addEventListener('slotRenderEnded', function(e){
+          //this will add a background to all 400 height ads...should be desireable
+          if(e.size[1]===400) {
+            $('#div-gpt-ad-1438011102027-9').addClass('ad-background');
+          };
+        })
+
+
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+
+    googletag.cmd.push(function() {
+      googletag.pubads().setTargeting("page", "article")
+        .setTargeting("pid", "article-6241");
+    });
+  
+      googletag.cmd.push(function() {
+        googletag.pubads().setTargeting("environment", "production");
+      });
+    
+      /* Version: 0.7 */
+      /* <![CDATA[ */
+      try {
+      var _mag = _mag || {};
+      _mag.kw = "espionage,politics,soviet history,bug week";
+      _mag.kw_encoded = 0;
+      _mag.shortName = 'atlasobscura-travel';
+      _mag.default_protocol = ('https:' == document.location.protocol ? 'https:' : 'http:');
+      _mag.startTime = (new Date()).getTime();
+      (function(d,t) {
+      var mag = d.createElement('script'); mag.type = 'text/javascript'; mag.async = true; mag.src = t;
+      var head = d.getElementsByTagName('head')[0] || d.documentElement; head.insertBefore(mag, head.firstChild);
+      })(document,  _mag.default_protocol + '//d3ezl4ajpp2zy8.cloudfront.net/atlasobscura-travel_tag.js');
+      } catch (e) {}
+      /* ]]> */
+    
+
+
+
+Order our new book, Atlas Obscura: An Explorer’s Guide to the World’s Hidden Wonders
+
+
+
+
+
+
+
+
+
+  $(function () {
+    if (!Cookies.get('disable_top_notification')) {
+      showSiteTopNotification();
+    }
+    $('.js-dismiss-link').click(function (e) {
+      e.preventDefault();
+      Cookies.set('disable_top_notification', true, { expires: 365 });
+      hideSiteTopNotification();
+      ga('send', 'event', 'Notification Bar', 'Dismissed', 'Dismiss Book Notice');
+    });
+    function hideSiteTopNotification() {
+      $('.site-top-notification-link').hide();
+      $('.js-notification-spaceable').addClass('hide-spacer');
+    }
+    function showSiteTopNotification() {
+      $('.site-top-notification-link').show();
+      $('.js-notification-spaceable').removeClass('hide-spacer');
+    }
+  });
+
+
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '206394544492',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+    FB.Event.subscribe('edge.create', function(response) {
+      Cookies.set('fb_subscriber', '1', { expires: 200, path: '/' });
+    });
+    FB.Event.subscribe('edge.remove', function(response) {
+      Cookies.set('fb_subscriber', '0', { expires: 200, path: '/' });
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sign In
+
+Join
+
+
+
+
+
+
+Find
+
+
+Near
+
+
+ 
+
+
+The Atlas
+
+
+
+
+
+
+
+Top Destinations
+
+
+
+
+Newly Added Places
+
+
+
+
+Most Popular Places
+
+
+
+
+Random Place
+
+
+
+
+
+Add a Place
+
+
+
+
+Newly Added Places
+
+
+Budapest, Hungary
+Labyrinth of Buda Castle 
+
+47.5003, 19.0342
+
+ 
+Castleton, England
+Winnats Pass
+
+53.3414, -1.7921
+
+ 
+Columbus, Ohio
+The Handprint
+
+40.0010, -83.0116
+
+ 
+Winamac, Indiana
+World of Motorcycles Museum
+
+41.1579, -86.7725
+
+ 
+
+
+Top Destinations
+
+
+
+Countries
+
+
+Australia
+
+
+Canada
+
+
+China
+
+
+France
+
+
+Germany
+
+
+India
+
+
+Italy
+
+
+Japan
+
+
+
+
+Cities
+
+
+Amsterdam
+
+
+Barcelona
+
+
+Beijing
+
+
+Berlin
+
+
+Boston
+
+
+Budapest
+
+
+Chicago
+
+
+London
+
+
+Los Angeles
+
+
+Mexico City
+
+
+Montreal
+
+
+Moscow
+
+
+New Orleans
+
+
+New York
+
+
+Paris
+
+
+Philadelphia
+
+
+Prague
+
+
+Rome
+
+
+San Francisco
+
+
+Seattle
+
+
+Stockholm
+
+
+Tokyo
+
+
+Toronto
+
+
+Vienna
+
+
+
+
+
+SEE ALL 
+5417 DESTINATIONS IN THE ATLAS
+
+
+
+
+
+
+
+
+Stories
+
+
+
+
+
+BROWSE STORIES BY
+Columns
+Features
+Interactive
+News
+Video
+Visual
+
+
+Most Recent Stories
+
+
+What Happens When Crowds Try To Flee For Their Lives
+
+ 
+Giant Snowballs Have Appeared on the Siberian Coast
+
+ 
+The Wunderkind Writer Who Disappeared Without a Trace at Age 25
+
+ 
+Manic Panic Isn't Just a Hair Dye Brand: It Was the First Punk Store in America
+
+ 
+
+
+
+
+
+
+Events
+
+
+
+
+
+Quick Links
+All Events
+All Trips
+Explore Events
+Chicago
+Los Angeles
+New York
+Philadelphia
+San Francisco
+Seattle
+Washington, D.C.
+
+
+Upcoming Events
+
+
+
+
+Nov
+ 6
+
+
+Seattle
+
+Denny Hill Regrade Walk 
+
+ 
+
+
+Nov
+ 6
+
+
+Brooklyn
+
+Vladimir Putin: Beyond Good and Evil
+
+ 
+
+
+Nov
+ 8
+
+
+New York
+
+After-Hours at a Bookbinding Workshop
+
+ 
+
+
+Nov
+ 9
+
+
+Havana
+
+Explore Cuba with Atlas Obscura, Nov. 9-13
+
+ 
+
+
+
+
+
+
+
+ 
+
+Sign In
+
+
+Join
+
+
+
+
+
+Search
+ 
+
+
+
+Find
+
+
+Near
+
+
+Search
+
+ 
+
+
+
+
+
+
+33.5101, -112.0741
+
+
+Curious Nature, Arizona
+
+ 
+
+
+
+  googletag.cmd.push(function() { googletag.display('div-gpt-ad-1438011102027-12'); });
+
+
+
+ What's near me?
+ 
+
+
+ 
+
+
+    if (!isSmallScreen()) {
+      googletag.cmd.push(function() { googletag.display('div-gpt-ad-1438011102027-10'); });
+    }
+  
+
+
+
+
+How a Gift from Schoolchildren Let the Soviets Spy on the U.S. for 7 Years
+
+
+Attention, ambassadors: inspect every present carefully.
+
+
+by Matt Soniak
+June 21, 2016
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Email This Article
+
+
+
+From
+
+To
+Please separate multiple addresses with commas. We won't share addresses with third parties.
+
+
+Subscribe me to the
+Atlas Obscura Newsletter
+
+
+
+
+
+
+
+
+
+  displayFbCount('http://www.atlasobscura.com/articles/how-a-gift-from-schoolchildren-let-the-soviets-spy-on-the-us-for-7-years', '.js-facebook-count');
+
+
+
+
+
+
+
+Enjoying This Story?
+
+
+
+
+Get our latest, delivered straight to your inbox by subscribing to our newsletter.
+
+
+
+
+Subscribe to our newsletter and get our latest, sent right to your inbox.
+
+
+
+
+Subscribe
+
+Thanks for subscribing!
+
+
+ 
+
+
+
+
+
+
+Related Stories
+
+
+
+The Story Behind the Comically Villainous Octopus Logo of U.S. Spy Agency
+The American Textile Industry Was Woven From Espionage
+ How the Military Ran Its 1970s Psychic Intelligence Program—Many Memos, Naturally
+
+
+
+
+
+The Great Seal that held a listening device. (Photo: NSA/Public Domain)
+In 1946, a group of Russian children from the Vladimir Lenin All-Union Pioneer Organisation (sort of a Soviet scouting group) presented a carved wooden replica of the Great Seal of the United States to Averell Harriman, the U.S. Ambassador to the Soviet Union. 
+The gift, a gesture of friendship to the USSR’s World War II ally, was hung in the ambassador’s official residence at Spaso House in Moscow. It stayed there on a wall in the study for seven years until, through accident and a ruse, the State Department discovered that the seal was more than a mere decoration. 
+It was a bug. 
+The Soviets had built a listening device—dubbed “The Thing” by the U.S. intelligence community—into the replica seal and had been eavesdropping on Harriman and his successors the whole time it was in the house. “It represented, for that day, a fantastically advanced bit of applied electronics,” wrote George Kennan, the ambassador at the time the device was found. “I have the impression that with its discovery the whole art of intergovernmental eavesdropping was raised to a new technological level.”
+Diplomats and other Americans working in the USSR had long assumed that the walls in Moscow had ears. “Russia’s notoriety for eavesdropping and espionage stretches back even to the czars,” Representative Henry J. Hyde told the House of Representatives toward the end of the Cold War. “James Buchanan, U.S. minister in St. Petersburg during 1832-33 and later U.S. President, recounted that ‘we are continually surrounded by spies both of high and low degree. You can scarcely hire a servant who is not a secret agent of the police.’”
+In the early 20th century, human espionage and eavesdropping was augmented by new technology like wiretaps and small, concealable listening and recording devices. Guests at Spaso House were given cards on arrival warning them that all rooms and even the garden were monitored. The Thing was one of the most sophisticated of these bugs. It was designed by Lev Sergeyevich Termen, better known to Americans as Leon Theremin, inventor of the theremin. Theremin had lived in the US for a while, but returned home to Russia just before WWII when he ran into financial problems. There, Theremin was sent to prison for “rehabilitation” and eventually put to work in a sharashka (a secret lab in the Gulag labor camp system), tasked with finding a better way to bug Spaso House.
+Spaso House, the U.S. Ambassador’s official residence in Moscow and home to “The Thing” for seven years. (Photo: US Government/Public Domain)
+The device he came up with consisted of an antenna and a cylinder with a thin membrane that acted as a microphone. Soviet agents stationed across the street from Spaso House would turn the device “on” by focusing a radio signal on it, which then bounced back to their radio receiver. When the ambassador or anyone else in the study spoke, the sound waves caused the membrane to resonate and alter the signal that returned to the Soviets, allowing them to hear the conversation. 
+“The triumph of the Great Seal Bug was its simplicity,” said Robert Brown in his book on early technical surveillance, Electronic Invasion. “It had no power pack of its own, no wires that could be discovered, no batteries to wear out,” and was active only when the Soviets “illuminated” it with a radio signal, making it nearly impossible to detect. 
+The State Department only became suspicious that the Soviets had developed this novel bug in the early 1950s, when British and American military radio operators monitoring Soviet military radio traffic independently and accidentally picked up the voices on their receivers that appeared to belong to their respective diplomats. 
+Those incidents and the refurbishing of Spaso House by Soviet workers for ambassador George Kennan’s arrival in 1952—a perfect opportunity to plant devices—led to several security sweeps of the house, which turned up nothing.
+“The air of innocence presented by the walls of the old building was so bland and bright as to suggest either that there had been a complete change of practice on the part of our Soviet hosts (of which in other respects there was decidedly no evidence) or that our methods of detection were out of date,” Kennan wrote in his memoirs.
+George Kennan, former Ambassador to the Soviet Union, in 1966. (Photo: Library of Congress/LC-DIG-ds-07025)
+In case the latter was true, State Department security technicians John Ford and Joseph Bezjian arrived in Moscow in September to conduct a more thorough search. Bezjian, nicknamed the “the Rug Merchant” by his colleagues, suspected that the Soviets had removed their bugs prior to the other sweeps and replanted them when the coast was clear. To keep them from doing that again, he posed as Kennan’s house guest. He had his equipment sent, well hidden, ahead of his arrival and spent several days hanging out, playing cards and observing the house staff while hunting for bugs at night. When they still couldn’t find anything, Ford and Bezjian suggested that they might have more luck if Kennan gave the eavesdroppers something to listen to. 
+One evening, the ambassador sat in the study with his secretary, going through the motions of dictating a classified diplomatic dispatch (actually one that had already been sent years ago, declassified and printed in a volume of the Department of State’s Foreign Relations of the United States series), while Ford and Bezjian went around the house with their detection instruments. 
+Kennan recounts in his memoirs that as he “droned on with the dictation,” Bezjian picked up Kennan’s voice on his radio receiver and followed the signal to its source. Bezjian went to the study and implored Kennan, “by signs and whispers, to ‘keep on, keep on.’” He left to grab Ford and the two men returned to work their way around the room. The signal carrying Kennan’s voice appeared to be coming from the wall behind the seal. Bezjian removed the wood carving, Kennan wrote, “took up a mason’s hammer, and began, to my bewilderment and consternation, to hack to pieces the brick wall where the seal had been.” As he did this, the signal cut out. Bezjian realized that the bug wasn’t in the wall but in the seal, and took his hammer to the Soviets’ gift. 
+“I, continuing to mumble my dispatch, remained a fascinated but passive spectator of this extraordinary procedure,” Kennan wrote. “In a few moments, however, it was over. Quivering with excitement, the technician extracted from the shattered depths of the seal a small device, not much larger than a pencil.”
+A replica of the inside of the Great Seal Bug, showing the listening device. (Photo: Austin Mills/CC BY-SA 2.0)
+At this revelation, wrote Kennan, “one was acutely conscious of the unseen presence in the room of a third person: our attentive monitor. It seemed that one could almost hear his breathing. All were aware that a strange and sinister drama was in progress.”
+That night, Bezjian slept with the bug under his pillow so that Soviet agents couldn’t retrieve it. The next day, it was sent to Washington to be studied and replicated by American intelligence agencies, kicking off an arms race between the Soviets and Americans to develop similar and improved versions of the bug and countermeasures against them.
+In the years The Thing hung on the wall, Spaso House was full of activity, high-level guests — including General Eisenhower, White House staffers and a dozen congressmen — and information. A member of the Soviet team that monitored the house via The Thing later revealed that it allowed them to “get specific and very important information which gave us certain advantages in the prediction and performance of world politics in the difficult period of the cold war.” 
+Whatever information the Soviets may have gained from The Thing, the wooden eagle would ultimately come back to bite them. In May 1, 1960, the Soviets shot down an American U-2 plane over Soviet airspace. At a meeting of the United Nations Security Council later that month, they accused the United States of spying and drafted a resolution to condemn the U-2 flights as aggressive acts and stop them. After sitting through several days of verbal attacks from the Soviets, Henry Cabot Lodge, Jr., the U.S. Ambassador to the UN, countered by displaying the replica seal and the bug inside for the Security Council and the press as proof that the Soviets were also spying on Americans. The next day, the Soviet resolution was defeated 7-2.
+Khrushchev inspects the wreckage from the U-2 spyplane, 1960. (Photo: US Government/Public Domain)
+As tense and weird as the discovery of The Thing was, George Kennan said that having the listening device in his home also provided some amusement in hindsight. He recalled that when he first moved into Spaso House, he often practiced his Russian by reading aloud to himself in the bugged study. He looked for material that covered events and people relevant to world politics and diplomacy, and the scripts for Voice of America broadcasts, full of “vigorous and eloquent polemics against Soviet policies,” fit the bill. 
+“I have often wondered what was the effect on my unseen monitors, and on those who read their tapes, when they heard these perfectly phrased anti-Soviet diatribes issuing in purest Russian from what was unquestionably my mouth, in my own study, in the depths of the night,” Kennan wrote. “Who, I wonder, did they think was with me? Or did they conclude I was trying to make fun of them?”
+
+
+
+#espionage#bug week#soviet history#politics
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+Read Next
+
+
+
+Mystery Bugs Rain Down On Colorado Neighborhood
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1438011102027-1'); });
+
+
+
+Recent Stories
+
+
+What Happens When Crowds Try To Flee For Their Lives
+Researchers study past tragedies to try and prevent them in the future.
+
+November 04, 2016
+
+
+
+Giant Snowballs Have Appeared on the Siberian Coast
+Nature is getting ready for a fight.
+
+November 04, 2016
+
+
+
+The Wunderkind Writer Who Disappeared Without a Trace at Age 25
+Barbara Newhall Follett was poised to be a force in 20th century letters. What happened? 
+
+November 04, 2016
+
+
+
+Places Near You
+
+
+
+
+
+
+
+
+
+
+Related Stories
+
+
+
+
+
+
+story
+hitler
+
+The Wildly Misunderstood Photos of Hitler in Disguise
+
+The legend of how a make-up artist reimagined the German dictator blossomed in the internet age.
+
+August 17, 2016
+
+
+
+
+
+
+
+story
+france
+
+The Incredible Chevalier d'Eon, Who Left France as a Male Spy and Returned as a Christian Woman
+
+Celebrity, scandal, tell-all books, palace intrigue, political protest and more.
+
+July 29, 2016
+
+
+
+
+
+
+
+story
+cia
+
+9 Places Where You Can See Spying and Surveillance in Action
+
+A different sort of listening party. 
+
+June 24, 2016
+
+
+
+
+
+
+
+story
+espionage
+
+17th-Century Female Spies Smuggled Information Through Eggs and Artichokes
+
+
+
+February 12, 2016
+
+
+
+
+
+
+
+
+
+
+
+From Elsewhere
+
+
+
+
+
+
+
+
+  (function() {
+    var zergnet = document.createElement('script');
+    zergnet.type = 'text/javascript'; zergnet.async = true;
+    zergnet.src = 'http://www.zergnet.com/zerg.js?id=30991';
+    var znscr = document.getElementsByTagName('script')[0];
+    znscr.parentNode.insertBefore(zergnet, znscr);
+  })();
+ 
+ 
+Recent Stories
+
+
+What Happens When Crowds Try To Flee For Their Lives
+Researchers study past tragedies to try and prevent them in the future.
+
+November 04, 2016
+
+
+
+Giant Snowballs Have Appeared on the Siberian Coast
+Nature is getting ready for a fight.
+
+November 04, 2016
+
+
+
+The Wunderkind Writer Who Disappeared Without a Trace at Age 25
+Barbara Newhall Follett was poised to be a force in 20th century letters. What happened? 
+
+November 04, 2016
+
+
+
+
+
+
+
+
+
+ 
+
+
+  googletag.cmd.push(function() { googletag.display('div-gpt-ad-1438011102027-11'); });
+
+
+
+
+Places Near You
+
+
+
+
+ 
+
+  pinterestAllContent();
+  googletag.cmd.push(function() {
+    googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+      listenForElementsIn( 'body', 'iframe', noPinWithin, '.ad-wrapper' );
+    });
+  });
+
+  $(".article-image").each(function(){
+    $(this).attr("onload", stablePinOn(this));
+  });
+  noPinWithin('.content-siderail');
+  noPinWithin('.recirc-footer-wrap');
+
+  if( isIE() ){
+    $("#article-body .article-image").removeAttr("width");
+  }
+
+$(function () {
+  var ArticleBodyState = {};
+  var $articleContent = $('.content-body #article-body').children();
+  placeTeads($articleContent);
+
+
+  if (!isSubscribed()) {
+    placeInterruptContent($articleContent, hasImageContent, placeArticleEmailAsk);
+  } else {
+    placeInterruptContent($articleContent, hasImageContent, placeRelatedArticlesInterrupt);
+  }
+
+
+  function placeInterruptContent($content, nodeCheckFunction, placingFunction, limit) {
+    var limit = (typeof limit !== 'undefined') ?  limit : 7;
+
+    var n = 0;
+    var contentWasPlaced = false;
+
+    $content.each(function (index, p) {
+      // nodeCheckFunction must take a node &
+      // return true/false about its content
+      if ( nodeCheckFunction( $(p) ) ) { return; }
+      n++;
+
+      if (n >= limit) {
+        if ( nodeCheckFunction($(p).next()) ) { return; }
+
+        placingFunction(p);
+        contentWasPlaced = true;
+        return false;
+      }
+    });
+
+    if (!contentWasPlaced) {
+      placingFunction($articleContent.last());
+    }
+  }
+
+  function placeTeads($content) {
+
+    var videoDfp = "<!-- /9729793/1x1_video_btf -->\n<div id=\"video-body-ad\" style=\"line-height: 0; min-height: 1px; position: relative; bottom: 14px;\">\n  <div id=\'div-gpt-ad-1438011102027-9\' class=\'ad-wrapper\' >\n  <script type=\'text/javascript\'>\n  googletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1438011102027-9\'); });\n  <\/script>\n  <\/div>\n<\/div>\n\n";
+    var n = 0;
+    var limit = 5;
+
+    $content.each(function (index, p) {
+      if (isNotBodyText(p)) { return; }
+
+      n++;
+      if (n >= limit) {
+        if (hasImageContent($(p).next())) { return; }
+        $(p).after(videoDfp);
+        return false;
+      }
+    });
+  }
+
+  function placeArticleEmailAsk(p) {
+    ArticleBodyState.emailAsk = $('#newsletter-email-ask').detach();
+    ArticleBodyState.emailAsk.insertAfter(p);
+    ArticleBodyState.emailAsk.removeClass("hidden");
+    attachEmailAskListeners();
+  }
+
+  function placeRelatedArticlesInterrupt(p) {
+    if ($('#js-related-articles-interrupt').length > 0) {
+      ArticleBodyState.relatedArticles = $('#js-related-articles-interrupt').detach();
+      ArticleBodyState.relatedArticles.insertAfter(p);
+      ArticleBodyState.relatedArticles.removeClass('hidden');
+    }
+  }
+
+  function attachEmailAskListeners() {
+    ArticleBodyState.emailAsk.on('click', 'a', function (e) {
+      e.preventDefault();
+    });
+
+    ArticleBodyState.emailAsk.on('click', function (e) {
+      e.preventDefault();
+      ArticleBodyState.emailAsk.find('.input-container')
+        .slideToggle(200);
+    });
+
+    ArticleBodyState.emailAsk.find('#email').on('click', function (e) {
+      e.stopPropagation();
+    });
+
+    ArticleBodyState.emailAsk.find('button').on('click', function (e) {
+      e.stopPropagation();
+    });
+  }
+
+  function placeInBodyAd(p) {
+    var bodyWithNow = $("body.articles")[0].offsetWidth;
+    ArticleBodyState.featureAdMarkup = "<div class='ad-background-intra-body'>" +
+      "<!-- /9729793/content_body_responsive -->\n<div id=\'div-gpt-ad-1438011102027-13\' class=\'ad-wrapper\'><\/div>\n<script type=\'text/javascript\'>\n  googletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1438011102027-13\'); });\n<\/script>\n" +
+      "</div>";
+    Content = $articleContent;
+    $(p).after( ArticleBodyState.featureAdMarkup );
+  }
+});
+
+  var _ain = {
+      id: "1426",
+      url: "http://www.atlasobscura.com/articles/how-a-gift-from-schoolchildren-let-the-soviets-spy-on-the-us-for-7-years",
+      postid: "article-6241",
+      maincontent: "#article-body",
+      title: "How a Gift from Schoolchildren Let the Soviets Spy on the U.S. for 7 Years",
+      pubdate: "2016-06-21 12:47:00 UTC",
+      authors: "Matt Soniak",
+      sections: "",
+      tags: "espionage, politics, soviet history, bug week",
+      comments: ""
+  };
+  (function (d, s) {
+  var sf = d.createElement(s); sf.type = 'text/javascript'; sf.async = true;
+  sf.src = (('https:' == d.location.protocol) ? 'https://d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com' : 'http://t.contentinsights.com')+'/stf.js';
+  var t = d.getElementsByTagName(s)[0]; t.parentNode.insertBefore(sf, t);
+  })(document, 'script');
+
+
+
+
+
+The Atlas 
+
+
+Recently Added
+Most Popular
+Random
+Curious Facts
+Add a Place
+
+
+
+Events 
+
+
+Upcoming Events
+Upcoming Trips
+
+
+
+
+
+Stories 
+
+
+Columns
+Features
+Interactive
+News
+Video
+Visual
+
+
+
+
+Company 
+
+
+About
+Email Us
+FAQ
+Work With Us
+Advertising
+Privacy Policy
+Terms of Use
+
+
+
+Subscribe to the Atlas Obscura Newsletter and get our latest, delivered straight to your inbox.
+Thanks for subscribing!
+
+
+
+
+
+
+
+
+
+
+© 2016 Atlas Obscura. All rights reserved.
+
+
+
+
+
+
+© 2016 Atlas Obscura. All rights reserved.
+
+
+
+Issues with the site? Please let us know.
+
+ 
+
+
+
+
+
+
+
+
+Join Atlas Obscura
+Email Address
+
+Password
+
+Confirm password
+
+How many arms does an octopus have?
+
+
+
+Subscribe me to the
+Atlas Obscura Newsletter
+
+
+
+Or
+
+ Join with Facebook
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sign In to Continue
+Email address
+
+
+Password
+
+Forgot your password?
+
+
+
+Or
+
+ Log In with Facebook
+
+
+
+
+Not a Member? Join  
+  
+
+
+    
+  
+
+  
+  
+    
+      
+  
+  
+    
+      
+
+      Escape the Beaten Path
+        Subscribe to the Atlas Obscura Newsletter and get our latest, delivered straight to your inbox.
+        
+        
+        
+          
+            
+              Subscribe
+          
+        No Thanks
+            
+  
+
+
+    
+  
+
+  
+  
+    
+      
+  
+  
+    
+      
+
+      We'd Like You to Like Us
+        Like Atlas Obscura and get our latest and greatest stories in your Facebook feed.
+        
+        
+        No Thanks
+            
+  
+
+
+    
+  
+
+
+
+    
+      
+      Like Us on Facebook
+      
+        
+        
+      
+    
+
+    
+      
+        
+        
+          
+        
+        
+      
+    
+
+      
+      var _comscore = _comscore || [];
+      _comscore.push({ c1: "2", c2: "17564338" });
+      (function() {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+      })();
+    
+      
+    
+
+    
+    
+    var _qevents = _qevents || [];
+
+    (function() {
+    var elem = document.createElement('script');
+    elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+    elem.async = true;
+    elem.type = "text/javascript";
+    var scpt = document.getElementsByTagName('script')[0];
+    scpt.parentNode.insertBefore(elem, scpt);
+    })();
+    
+    _qevents.push({
+    qacct:"p-wCQ2x-2BzmYPY"
+    });
+    
+      
+    
+
+      
+        ga('set', 'dimension1', 'Guest');
+      /* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */

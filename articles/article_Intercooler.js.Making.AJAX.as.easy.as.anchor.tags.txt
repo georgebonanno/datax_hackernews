@@ -1,0 +1,711 @@
+GitHub - LeadDyno/intercooler-js: Making AJAX as easy as anchor tags
+    
+    Skip to content
+
+    
+    
+    
+
+
+
+          
+    
+      
+
+    
+      
+
+    
+      
+          Personal
+        
+          Open source
+        
+          Business
+        
+          Explore
+      
+            Sign up
+          Sign in
+      
+
+        Pricing
+          Blog
+          Support
+          Search GitHub
+              
+  
+    
+      This repository
+      
+
+
+        
+  
+
+
+      
+
+
+
+    
+        
+    
+      
+
+  
+
+    
+
+
+      
+    
+    Watch
+  
+  
+    76
+  
+
+  
+
+  
+      
+    
+    Star
+  
+
+    
+      1,422
+    
+
+  
+
+  
+      
+        
+        Fork
+      
+
+    
+      105
+    
+  
+
+  LeadDyno/intercooler-js
+
+
+
+  
+  
+    
+
+    
+      Code
+        
+
+    
+      
+        Issues
+        10
+            
+
+  
+    
+      Pull requests
+      0
+        
+
+  
+    
+    Projects
+    0
+
+
+
+  
+    
+    Pulse
+
+  
+    
+    Graphs
+
+
+
+
+
+
+  
+
+    
+
+  
+         Making AJAX as easy as anchor tags
+        http://intercoolerjs.org
+  
+
+
+
+
+
+  
+    
+    
+        
+            
+              492
+            
+            commits
+        
+      
+      
+        
+          
+            2
+          
+          branches
+        
+      
+
+      
+        
+          
+            16
+          
+          releases
+        
+      
+
+      
+          
+  
+      25
+    
+    contributors
+
+
+      
+        
+          
+            
+              MIT
+          
+        
+    
+        
+              
+                
+                HTML
+                53.6%
+              
+          
+          
+              
+                
+                JavaScript
+                46.1%
+              
+          
+          
+              
+                
+                Other
+                0.3%
+              
+          
+        
+    
+  
+
+
+  
+    HTML
+    JavaScript
+    Other
+  
+
+
+
+
+    
+  
+    Clone or download
+  
+
+  
+    
+      
+
+        
+          Clone with HTTPS
+          
+            
+        
+        
+          Use Git or checkout with SVN using the web URL.
+        
+
+        
+  
+    
+  
+
+
+      
+
+
+      
+        
+
+  Download ZIP
+
+
+      
+    
+  
+
+
+
+  
+
+    
+      Find file
+    
+  
+
+  
+
+  
+    Branch:
+    master
+  
+
+  
+
+    
+      
+        Switch branches/tags
+      
+
+      
+        
+          
+        
+          
+              Branches
+            
+            
+              Tags
+            
+          
+      
+
+      
+
+        
+
+
+            
+              
+                development
+              
+            
+            
+              
+                master
+              
+            
+        
+
+          Nothing to show
+      
+
+      
+        
+
+
+            
+              
+                v1.0.2
+              
+            
+            
+              
+                v1.0.1
+              
+            
+            
+              
+                v1.0.0
+              
+            
+            
+              
+                v0.9.7
+              
+            
+            
+              
+                v0.9.6
+              
+            
+            
+              
+                v0.9.5
+              
+            
+            
+              
+                v0.9.4
+              
+            
+            
+              
+                v0.9.3
+              
+            
+            
+              
+                v0.9.2
+              
+            
+            
+              
+                v0.9.1
+              
+            
+            
+              
+                v0.9.0
+              
+            
+            
+              
+                v0.4.10
+              
+            
+            
+              
+                v0.4.9
+              
+            
+            
+              
+                v0.3.2
+              
+            
+            
+              
+                v0.3.1
+              
+            
+            
+              
+                v0.3.0
+              
+            
+        
+
+        Nothing to show
+      
+
+    
+  
+
+
+
+      
+        New pull request
+      
+
+  
+    
+  
+
+
+
+
+
+
+  
+    
+      Latest commit
+      
+        1aa82b9
+      
+      Oct 28, 2016
+    
+
+
+    
+      carsongross
+        committed on GitHub
+    
+
+        Merge pull request #133 from mjmurphy/master
+          
+            …
+          
+    
+
+      Fix gitter.im link in main navigation of docs website
+  
+
+
+
+
+  Permalink
+
+  
+        Failed to load latest commit information.
+      
+            
+          
+            src
+          
+          
+            
+                  1.0.2 release
+            
+          
+          
+            Oct 18, 2016
+          
+        
+            
+          
+            test
+          
+          
+            
+                  1.0.2 release
+            
+          
+          
+            Oct 18, 2016
+          
+        
+            
+          
+            www
+          
+          
+            
+                  Fix gitter.im link in main navigation of docs website
+            
+          
+          
+            Oct 28, 2016
+          
+        
+            
+          
+            .gitignore
+          
+          
+            
+                  Updated Intercooler to support JS and modules.
+            
+          
+          
+            Sep 13, 2016
+          
+        
+            
+          
+            Gruntfile.js
+          
+          
+            
+                  Fix line endings... >.>
+            
+          
+          
+            Sep 16, 2016
+          
+        
+            
+          
+            LICENSE
+          
+          
+            
+                  Licence and site cleanup
+            
+          
+          
+            Jan 1, 2015
+          
+        
+            
+          
+            README.md
+          
+          
+            
+                  1.0.2 release
+            
+          
+          
+            Oct 18, 2016
+          
+        
+            
+          
+            bower.json
+          
+          
+            
+                  1.0.2 release
+            
+          
+          
+            Oct 18, 2016
+          
+        
+            
+          
+            package.json
+          
+          
+            
+                  1.0.2 release
+            
+          
+          
+            Oct 18, 2016
+          
+        
+
+
+
+  
+    
+      
+      README.md
+    
+
+      
+  
+
+
+Introduction
+
+Intercooler is a small (6.74KB gzipped) jQuery-based library that allows you to add AJAX to your application using
+HTML attributes.
+
+Here is an example:
+
+    <!-- When this button is clicked an AJAX POST request is sent to /example and the 
+         response content is swapped in to the body of the button -->
+    <button ic-post-to="/example">
+        Click Me!
+    </button>
+
+Despite this simplicity, intercooler supports quite a bit of functionality:
+
+It allows you to specify the UI event that triggers the AJAX request
+It makes progress indicators very simple to add
+It supports many custom HTTP response headers for things like client-side redirection
+It has a REST-ful dependency mechanism
+It has simple AJAX history & back-button support
+It provides a rich event model
+And much more...
+These features allow you to build modern web applications with little fuss, using a simple and intuitive REST-ful architecture that ensures good performance, excellent user experience and a minimum of complexity.
+
+It also is very easy to incrementally retrofit intercooler into existing web applications to add AJAX functionality where
+it is most valuable.
+
+Full documentation is available on the main intercooler website
+
+Installing
+
+Intercooler can be downloaded or hot-linked from the downloads page.
+
+Or installed via bower:
+
+ "dependencies": {
+    "intercooler-js" : "1.0.2"
+  }
+
+
+Intercooler depends on jQuery v1.10.0 or higher.
+
+License
+
+Intercooler is licenced under the MIT License
+
+Official Theme Music
+
+Rober Parker
+
+Contributing
+
+To contribute a change to intercooler:
+
+Fork the main intercooler repository
+Create a new feature branch based on the development branch with a reasonably descriptive name (e.g. fix_http_get_parameter_overriding)
+Implement your fix
+Add a test to /test/unit_tests.html.  (It's pretty easy!)
+Create a pull request for that branch against development in the main repository
+Thank you to all the contributors!
+
+
+
+
+
+  
+  
+
+
+
+    
+  
+
+    
+
+        
+  
+    Contact GitHub
+      API
+      Training
+      Shop
+        Blog
+        About
+
+    
+      
+    © 2016 GitHub, Inc.
+        Terms
+        Privacy
+        Security
+        Status
+        Help
+    
+
+
+
+
+    
+
+    
+      
+        
+      You can't perform that action at this time.
+    
+
+
+      
+      You signed in with another tab or window. Reload to refresh your session.
+      You signed out in another tab or window. Reload to refresh your session.
+    
+    
+  
+    
+    
+    
+      
+  
+
+
+  

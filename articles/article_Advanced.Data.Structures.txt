@@ -1,0 +1,19 @@
+6.851: Advanced Data Structures
+
+
+
+ 6.851: Advanced Data Structures
+Prof. Erik Demaine
+
+Welcome to Advanced Data Structures, a graduate class at MIT.
+Please choose your semester:
+
+ 2014 Spring 
+   2012 Spring 
+   2010 Spring 
+   2007 Spring 
+   2005 Spring (when the class was 6.897) 
+   2003 Spring (when the class was 6.897) 
+ 
+
+

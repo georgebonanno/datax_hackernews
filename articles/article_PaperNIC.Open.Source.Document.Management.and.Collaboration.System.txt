@@ -1,0 +1,609 @@
+GitHub - murat-cileli/papernic: Open Source Document Management & Collaboration System
+    
+    Skip to content
+
+    
+    
+    
+
+
+
+          
+    
+      
+
+    
+      
+
+    
+      
+          Personal
+        
+          Open source
+        
+          Business
+        
+          Explore
+      
+            Sign up
+          Sign in
+      
+
+        Pricing
+          Blog
+          Support
+          Search GitHub
+              
+  
+    
+      This repository
+      
+
+
+        
+  
+
+
+      
+
+
+
+    
+        
+    
+      
+
+  
+
+    
+
+
+      
+    
+    Watch
+  
+  
+    3
+  
+
+  
+
+  
+      
+    
+    Star
+  
+
+    
+      84
+    
+
+  
+
+  
+      
+        
+        Fork
+      
+
+    
+      2
+    
+  
+
+  murat-cileli/papernic
+
+
+
+  
+  
+    
+
+    
+      Code
+        
+
+    
+      
+        Issues
+        1
+            
+
+  
+    
+      Pull requests
+      0
+        
+
+  
+    
+    Projects
+    0
+
+
+
+  
+    
+    Pulse
+
+  
+    
+    Graphs
+
+
+
+
+
+
+  
+
+    
+
+  
+         Open Source Document Management & Collaboration System
+  
+
+
+
+
+
+  
+    
+    
+        
+            
+              9
+            
+            commits
+        
+      
+      
+        
+          
+            1
+          
+          branch
+        
+      
+
+      
+        
+          
+            0
+          
+          releases
+        
+      
+
+      
+          
+  
+      1
+    
+    contributor
+
+
+      
+        
+          
+            
+              GPL-3.0
+          
+        
+    
+        
+              
+                
+                CSS
+                46.7%
+              
+          
+          
+              
+                
+                PHP
+                29.1%
+              
+          
+          
+              
+                
+                HTML
+                15.3%
+              
+          
+          
+              
+                
+                JavaScript
+                8.2%
+              
+          
+          
+              
+                
+                ApacheConf
+                0.7%
+              
+          
+        
+    
+  
+
+
+  
+    CSS
+    PHP
+    HTML
+    JavaScript
+    ApacheConf
+  
+
+
+
+
+    
+  
+    Clone or download
+  
+
+  
+    
+      
+
+        
+          Clone with HTTPS
+          
+            
+        
+        
+          Use Git or checkout with SVN using the web URL.
+        
+
+        
+  
+    
+  
+
+
+      
+
+
+      
+        
+
+  Download ZIP
+
+
+      
+    
+  
+
+
+
+  
+
+    
+      Find file
+    
+  
+
+  
+
+  
+    Branch:
+    master
+  
+
+  
+
+    
+      
+        Switch branches/tags
+      
+
+      
+        
+          
+        
+          
+              Branches
+            
+            
+              Tags
+            
+          
+      
+
+      
+
+        
+
+
+            
+              
+                master
+              
+            
+        
+
+          Nothing to show
+      
+
+      
+        
+
+
+        
+
+        Nothing to show
+      
+
+    
+  
+
+
+
+      
+        New pull request
+      
+
+  
+    
+  
+
+
+
+
+
+
+  
+    
+      Latest commit
+      
+        cc13650
+      
+      Nov 6, 2016
+    
+
+
+    
+      murat-cileli
+        committed on GitHub
+    
+
+        Update composer.json
+    
+
+  
+
+
+
+
+  Permalink
+
+  
+        Failed to load latest commit information.
+      
+            
+          
+            app
+          
+          
+            
+                  First commit.
+            
+          
+          
+            Nov 5, 2016
+          
+        
+            
+          
+            bin
+          
+          
+            
+                  First commit.
+            
+          
+          
+            Nov 5, 2016
+          
+        
+            
+          
+            src
+          
+          
+            
+                  First commit.
+            
+          
+          
+            Nov 5, 2016
+          
+        
+            
+          
+            vendor
+          
+          
+            
+                  First commit.
+            
+          
+          
+            Nov 5, 2016
+          
+        
+            
+          
+            web
+          
+          
+            
+                  First commit.
+            
+          
+          
+            Nov 5, 2016
+          
+        
+            
+          
+            .gitignore
+          
+          
+            
+                  First commit.
+            
+          
+          
+            Nov 5, 2016
+          
+        
+            
+          
+            LICENSE.txt
+          
+          
+            
+                  Create LICENSE.txt
+            
+          
+          
+            Nov 6, 2016
+          
+        
+            
+          
+            README.md
+          
+          
+            
+                  Update README.md
+            
+          
+          
+            Nov 5, 2016
+          
+        
+            
+          
+            _DB_papernic.sql
+          
+          
+            
+                  First commit.
+            
+          
+          
+            Nov 5, 2016
+          
+        
+            
+          
+            composer.json
+          
+          
+            
+                  Update composer.json
+            
+          
+          
+            Nov 6, 2016
+          
+        
+            
+          
+            composer.lock
+          
+          
+            
+                  First commit.
+            
+          
+          
+            Nov 5, 2016
+          
+        
+
+
+
+  
+    
+      
+      README.md
+    
+
+      PaperNIC 
+
+Open Source Document Management & Collaboration System. PaperNIC transforms the way your business manages documents and information.
+
+Multi-User:  Supports multi-user environment with each user accessing documents from your database.
+Supports All Documents: Be it any file on your computer, you can just upload to PaperNIC without worrying about compatibility.
+Quick Search: To find document, all you need to do is type and hit enter and PaperNIC will fetch the document for you.
+Online Demo (English): https://panel.papernic.com/en/demo
+
+Online Demo (Turkish / Türkçe): https://panel.papernic.com/tr/demo
+
+
+
+
+
+  
+  
+
+
+
+    
+  
+
+    
+
+        
+  
+    Contact GitHub
+      API
+      Training
+      Shop
+        Blog
+        About
+
+    
+      
+    © 2016 GitHub, Inc.
+        Terms
+        Privacy
+        Security
+        Status
+        Help
+    
+
+
+
+
+    
+
+    
+      
+        
+      You can't perform that action at this time.
+    
+
+
+      
+      You signed in with another tab or window. Reload to refresh your session.
+      You signed out in another tab or window. Reload to refresh your session.
+    
+    
+  
+    
+    
+    
+      
+  
+
+
+  

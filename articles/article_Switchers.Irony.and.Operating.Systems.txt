@@ -1,0 +1,509 @@
+Brian Ketelsen | Training and Consulting
+    Skip to content 
+    
+  
+    
+    
+      
+        
+        
+        
+          
+            
+              
+                
+                  About Me
+                
+                Brian Ketelsen provides training and consulting services for Go, Distributed Applications, and Container Technologies.
+                Find out more 
+              
+              
+                
+                
+                  Contact Me
+                
+                
+                  
+                    
+                   +1(813) 434 1484
+                  
+                  
+                    
+                    me@brianketelsen.com
+                  
+                  
+                    
+                    Land O'Lakes, FL USA
+                  
+                
+              
+              
+                
+              
+            
+          
+        
+        
+        
+        
+          
+            
+              
+                
+                
+                
+                  Open
+                
+                
+                
+                
+                  
+                    
+                    
+                    
+                
+              
+            
+          
+        
+      
+      
+      
+      
+        
+          Search 
+          Close 
+        
+      
+      
+      
+      
+        
+          
+            
+              
+              
+                
+                  BrianKetelsen
+                
+              
+              Go Beyond
+            
+            
+            
+            
+            
+            
+          
+          
+          
+          
+          
+          
+          
+            
+            
+                Home
+              
+              
+		Training +
+              
+
+
+              
+		Consulting +
+              
+
+              
+		Books +
+              
+
+              
+		Blog +
+              
+
+              
+		About +
+              
+
+            
+          
+        
+      
+    
+  
+
+
+
+
+
+
+
+  
+    
+	    Switching - Irony and Operating systems
+      
+         Back to List
+      
+    
+    
+      
+      
+        
+        
+          
+            
+             Nov 06
+
+            
+              Brian
+
+          
+          
+            
+               hacks / i3 / windows
+              
+		      
+              
+              
+              
+               Sun 6 Nov 2016
+                 Erin
+              
+                
+			
+		TLDR; I’ve traded in my Mac on a Surface Pro.  Here’s why:
+
+I’ve been whining about Apple and the way they’ve ignored the power users for quite some time now.  I’ve been using Linux for development for several years, and always wanted a way to run Linux as my primary OS.  But the sad truth (for me) is that there are just some things that prevent me from using Linux as my full time operating system.  Email might be the biggest, but there are other apps that are missing or just sub-par.
+
+MacOS was always “close-enough” to Linux that most things worked well.  Docker made things a little more difficult initially, then a little better with the new Docker for Mac.  But it still wasn’t Linux, and it’s hard to argue that developing on the platform you ship to is the right choice.  The OS itself is still visually superior to anything else, but it’s been showing the signs of neglect for a few years now.  It’s clear from Apple’s recent announcements that they are a mobile OS/hardware company that happens to sell computers too.  They’re not sad to lose me, I’m sure.
+
+My article in July about Windows Subsystem for Linux hinted at my excitement about being able to run a solid desktop OS but still do the open source sort of development that really needs to be done on a Linux type operating system.  I abandoned that effort in July because it was still too alpha quality.  Too many things didn’t work.  But it’s November now, several builds later and Microsoft is shipping Ubuntu 16.04.1 in the latest Windows Insider releases.
+
+I took the plunge and bought a Surface Pro 4 when Microsoft announced the trade in program (still good until the 10th of November I think…) to give up to $650 off of a Surface device.  This Surface is just the right size for an airplane tray, has an i7 and 16GB of RAM, and most importantly the Linux subsystem just works for the most part.  I haven’t done anything yet that failed.  I’m sure there are still things that won’t work, but for my primary use – writing Go applications, teaching Kubernetes and Go, hacking on open source projects – it all works.
+
+I was even able to run i3 Window manager again.  No flaws, no errors.  Windows has solid email and calendar applications, and let’s face it; Chrome is Chrome on every OS, and we spend more time there than any other app besides the terminal.  SPEAKING OF THE TERMINAL, Microsoft has done some serious house cleaning there.  The terminal is fast, has true color support, transparency, auto layout correction on resizing, who knows what else has been fixed under the covers?  It’s 80% of what you’d expect from gnome-terminal.  And that’s a far cry from the old CMD.exe days.
+
+I don’t expect to be running X Windows often, when I’m deep in a hacking session I’ll probably open up i3 window manager, it’s still the most productive way to code.  Neovim and vim-go work perfectly in Windows bash, so it’s not a stretch to think I could just have a couple of bash windows open and alt-tab between them.  SSH and SCP work perfectly, and I can still cross-compile Go binaries for any platform (like my Raspberry Pi for my bbq app!).
+
+The most amazing part of all of this is that I simply git cloned my dotfiles from my Ubuntu installs and ran them un-altered.  It’s the same experience, but without the hardware headaches that Linux always brings, nor the lack of good quality applications.
+
+I think Apple has lost its hunger, and Microsoft found it.  The tables have turned from the funny switching campaigns with Justin Long looking hip and making fun of the frumpy John Hodgman.  Today’s Microsoft is a completely different animal.  They’re contributing heavily to open source projects, they’ve opened up the .Net platform, they’re embracing developers and open source enthusiasts openly while Apple counts dollar bills from iPhone sales in a vault in Switzerland somewhere.
+
+I got a lot of amused responses on Twitter when I announced my switch.  This environment may not yet be perfect, but my bet is on Microsoft for the future.  I’m surprised to be saying that, but the evidence is clear that Apple isn’t the company it was under Steve Jobs.  And Microsoft isn’t the company it was under Balmer.  The irony hurts.
+
+image credit wikipedia
+ 
+               
+              
+              
+              
+                
+                  Tags
+                
+		
+		hacks
+		
+		i3
+		
+		windows
+		
+              
+              
+              
+                
+              
+            
+          
+        
+        
+        
+	  
+      
+      
+        
+          
+          
+          
+            
+              
+                Search
+                
+                  Go!
+                
+              
+            
+          
+          
+	          
+          
+            
+              Tags
+            
+            
+
+    911
+  
+    about
+  
+    author
+  
+    books
+  
+    concurrencyt
+  
+    consulting
+  
+    contact
+  
+    corporate-training
+  
+    css
+  
+    docker
+  
+    dune
+  
+    experience
+  
+    frontend
+  
+    generate
+  
+    go
+  
+    goa
+  
+    hacks
+  
+    hugo
+  
+    i3
+  
+    javascript
+  
+    kubernetes
+  
+    lets-encrypt
+  
+    microservices
+  
+    new-tricks
+  
+    online
+  
+    open-source
+  
+    podcast
+  
+    privacy
+  
+    project-review
+  
+    recipes
+  
+    release
+  
+    rescue
+  
+    speaking
+  
+    spf13-vim
+  
+    testimonials
+  
+    training
+  
+    windows
+  
+            
+          
+
+          
+	            
+          
+            
+              Archive
+            
+            
+            November 2016
+             
+    Switching - Irony and Operating systems
+    
+    
+September 2016
+             
+    sync.ErrGroup
+    
+    
+August 2016
+             
+    Generate All The Things
+    
+    
+
+     
+    Go 1.7 Released
+    
+    
+
+     
+    Career 2.0 - Go Training, Videos, Speaking
+    
+    
+July 2016
+             
+    Running i3 Window Manager on Bash For Windows
+    
+    
+May 2016
+             
+    New Tricks - notes as I learn modern front-end development
+    
+    
+April 2016
+             
+    Old Dogs, New Tricks, and Cognitive Bias
+    
+    
+December 2015
+             
+    Tasty Worms
+    
+    
+November 2015
+             
+    Open Source Appreciation
+    
+    
+
+     
+    Caddy And Lets Encrypt
+    
+    
+
+     
+    Speaking Engagements
+    
+    
+
+     
+    Brian Ketelsen
+    
+    
+
+
+          
+	  
+          
+          
+             Subscribe via RSS feed
+          
+          
+          
+          
+            
+              Follow Me On
+            
+            
+            
+                 Twitter
+              
+              
+                 LinkedIn
+              
+              
+                 Google+
+              
+            
+ 
+	
+	
+      
+    
+  
+
+
+
+
+
+
+
+
+
+  
+
+    
+      
+        
+          
+            Contact Me
+          
+          
+            
+                
+                +1(813) 434 1484
+              
+              
+                
+                me@brianketelsen.com
+              
+              
+                
+                Land O'Lakes, FL USA
+              
+            
+      
+      
+      
+        
+          
+            About Me
+          
+          Brian Ketelsen provides training and consulting services for Go, Distributed Applications, and Container Technologies.
+        
+      
+      
+      
+        
+          
+            Newsletter
+          
+          Stay up to date with my latest news and course releases by signing up for my low-volume newsletter.
+          
+          
+            
+              Email
+              
+              
+                
+            
+          
+        
+      
+    
+    
+    
+      
+        Back To Top 
+      
+      
+        
+          Copyright 2016 © Brian Ketelsen
+        
+        
+          Contact Brian
+          
+      
+    
+  
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46945124-1', 'auto');
+  ga('send', 'pageview');
+
+

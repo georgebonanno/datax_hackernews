@@ -1,0 +1,821 @@
+Deep in New Zealand | by Kirsty Gunn | NYR Daily | The New York Review of Books
+/* <![CDATA[ */
+var tribe_this_week = {"ajaxurl":"http:\/\/www.nybooks.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+
+(function() {
+  __mtm = [ '52af55a723f1b9ed790002bf', 'd36wtdrdo22bqa.cloudfront.net/mngr', 'tdi.mezzobit.com' ];
+  var s = document.createElement('script');
+  s.async = 1;
+  s.src = '//' + __mtm[1] + '/mtm.js';
+  var e = document.getElementsByTagName('script')[0];
+  (e.parentNode || document.body).insertBefore(s, e);
+})();
+
+
+		
+
+		
+			
+				
+					
+						
+
+														
+								
+									Welcome 
+																			(sign in | sign up)
+																	
+							
+							
+							
+																
+									
+											
+												
+												Google+
+											
+										
+										
+											
+												
+												Facebook
+											
+										
+										
+											
+												
+												Twitter
+											
+										
+										
+											
+												
+												RSS
+											
+										
+									
+															
+						
+					
+				
+			
+
+						
+				
+					
+
+						
+							
+						
+
+						
+							
+							
+							
+						
+
+						
+							
+							
+
+						
+							
+								
+									
+									
+										
+											
+												
+											
+												Advanced Search
+											
+										
+									
+								
+							
+							
+								
+									
+									
+
+										
+											Welcome 
+																							(sign in | sign up)
+																					
+
+										
+
+			Subscribe
+
+			
+				
+							Start a Print Subscription
+						
+
+					
+						
+							Print Premium Subscription
+						
+
+					
+						
+							Give a Gift Subscription
+						
+
+					
+						
+							Renew a Subscription
+						
+
+					
+						
+							Online Edition
+						
+
+					
+						
+							Digital Editions
+						
+
+					
+						
+							Academic/Institutional
+						
+
+					
+						
+							Customer Service
+						
+
+					
+						
+							Subscriber Alert
+						
+
+									
+
+	
+		
+
+			Current Issue
+
+			
+		
+
+	
+		
+
+			NYR Daily
+
+			
+		
+
+	
+		
+
+			Calendar
+
+			
+		
+
+	
+		
+
+			Archive
+
+			
+		
+
+	
+		
+
+			Classifieds
+
+			
+		
+
+	
+		
+
+			Shop
+
+			
+				
+							Illustrations
+						
+
+									
+
+	
+		
+
+			Newsletters
+
+			
+		
+
+	
+	
+
+					Books
+		
+	
+
+
+								
+							
+						
+					
+				
+			
+			
+			
+
+					
+		
+			
+					
+						
+						
+				
+								
+					
+						
+							
+								
+							
+						
+						
+							Advanced Search
+						
+					
+				
+								
+					
+
+			Subscribe
+
+			
+				
+							Start a Print Subscription
+						
+
+					
+						
+							Print Premium Subscription
+						
+
+					
+						
+							Give a Gift Subscription
+						
+
+					
+						
+							Renew a Subscription
+						
+
+					
+						
+							Online Edition
+						
+
+					
+						
+							Digital Editions
+						
+
+					
+						
+							Academic/Institutional
+						
+
+					
+						
+							Customer Service
+						
+
+					
+						
+							Subscriber Alert
+						
+
+									
+
+	
+		
+
+			Current Issue
+
+			
+		
+
+	
+		
+
+			NYR Daily
+
+			
+		
+
+	
+		
+
+			Calendar
+
+			
+		
+
+	
+		
+
+			Archive
+
+			
+		
+
+	
+		
+
+			Classifieds
+
+			
+		
+
+	
+		
+
+			Shop
+
+			
+				
+							Illustrations
+						
+
+									
+
+	
+		
+
+			Newsletters
+
+			
+		
+
+	
+	
+
+					
+		
+	
+
+
+							
+	
+
+				
+	
+		
+				
+			
+			
+		
+	NYR Daily
+
+
+				
+				
+	
+		
+			
+					
+						
+								Email
+								
+	
+		
+			Email to share with
+			Send
+		
+		
+		x
+	
+							
+							
+								Print
+							
+						
+					
+
+						
+		Tweet
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+	
+		
+	
+
+				
+
+				Deep in New Zealand
+
+					
+						
+
+		
+		Kirsty Gunn					
+
+				Stuart Franklin/Magnum PhotosNative forest near Whakahoro, New Zealand, 2008At the end of the street where I lived in Wellington, at the southern end of the North Island of New Zealand, a street of gracious two-story houses set in large gardens that were planted with oak and ash and maple, with English herbaceous borders and flowering fruit trees and shrubberies, was a park.
+“A park?” you say.
+A park, yes. But not a park as you know a park to be, not what you would call a park. It was the place where we went to play, at the end of our street.
+This park was set with games areas for children as is the case with most parks, with railings around the green, and a swimming pool at the entrance. There was an avenue of magnolia trees that led from the front gate to the main picnic lawn. Places were set aside for different kinds of swings and slides, depending upon how adventurous you felt. Might it be the scary Witch’s Hat? Or the spinner Carousel for babies? The long red and blue see-saw or the short yellow one? You choose. In summer you ran around in your swimming things, wet from the pool. You laid out your towel to dry in the hot sun and ate an ice cream from the little kiosk by the changing rooms that sold sweets and fizzy drinks.
+But at the end of this “green and pleasant land” was a thick pelt of New Zealand bush, starting at the border of the swings and slides where the smooth lawn finished, and spreading into the hills behind it—a dark presence waiting at the end of all the brightness and play. It clambered back up and over the rises and falls in the landscape behind the city, clogging gullies and ditches, stopping when the suburbs gave out to open farmland, paddocks—never “fields”—but even then rising up again in pockets of thick growth, only really giving up when it reached the sea.
+That bush ran in thick seams through the New Zealand of my childhood. It waited at the ends of roads, growing dense and dark at the edge of clusters of houses; it might be there when you turned a corner, a broad sunlit street giving way suddenly to a narrow track that was cut through the side of a hill. Certainly, our park could barely hold it back. The second playground—”intermediate” it was called, where teenagers would never go although it had been created for grown-up children, with swings that went higher and a slide that was long and damaged with a frightening kink in the middle that could hurl you off halfway down—had bush growing right around it as though it were intended. It was dark and wet-smelling; half the things in it were rotting and the other half in bud. New Zealand bush does not have a season.
+“Well, it’s bush,” you say. “Bush doesn’t.”
+It grows and dies and grows again—all at the same time, all through the year, scattering seeds and rotting, hosting worms and larvae and beetles even as it puts forth new shoots and brighter leaves.
+“It’s bush.”
+Not woods. Not a forest. Nor a copse or a dell or a glade.
+“It’s bush. It doesn’t translate.”
+Perhaps it can change us, though?
+“Change us?”
+Perhaps.
+*
+After all, she could still hear the picnic, and see it, out of the corner of her eye, but with every step the girl was getting further and further from them. At one point, one of them called out: “Girl! Don’t you go too far! You be careful, hear? Stay close!”—but after that, nothing. There was a burst of laughter, raucous and yet dim, like she were listening to them through blankets, and though for a minute she’d stopped, just in case they were still watching, she knew she could walk on. She could go into the bush now if she wanted and she was going to; she was going to go right in. The heat… That was partly why she’d edged away, to find some relief from it, away from their bright picnic and their loud talking and songs, away from their picnic rugs and the boxes filled with beer and juice, their flasks of tea. Why did adults always have to make such a big fuss about everything, the girl had wondered earlier, when her mother and the aunts were unpacking the boxes and cooler bins they’d brought with them, the bags of swimming costumes and sun lotion and jerseys and towels. Why did they have to be like that? Be so busy? The girl had stood there, to one side, seeing them go backwards and forwards with their arms full. They were always packing and unpacking like that, she’d thought, making things to do for themselves when the weather was too hot to do anything but swim.
+Her father had said in the car as they drove toward the park, “Don’t worry, there’s bound to be a swimming pool there. You’ll have fun with the rest of them…,” meaning those paheka brothers and sisters of his, and his brother’s children, her cousins. “You will,” he’d told her, catching her eye in the rear-view mirror. The hot wind had entered through the open window, all yellow and green and the blue sky overhead and she’d wanted to close her eyes and laugh right into it. Instead, her father gave her a look again, and said, “It will be good for you seeing your cousins again. These parks down here, they’ve got everything, swimming pools and tennis courts. Plenty of facilities. You will have a good time. You will.”
+But when they arrived at the big park on the outskirts of town, there was no swimming pool, only swings and slides and a roundabout and she was too old for swing parks, she wasn’t a baby. She was tall for her age, heavy and thick set, “with a long torso” her mother said; the girl didn’t know what a “torso” was but it sounded like something rude. She had short strong legs, though, and strong legs were good. She knew that about herself, that she was strong, that there were things she could do that other girls couldn’t, knew it like she knew other secrets about her body and how it was changing… Hair, blood, and no longer being flat beneath her singlet and cotton dresses but pushing out and growing there… Didn’t her mother see? What was happening to her? Or did she not want to see? The girl was used to hiding from her mother at bath-times now, she hunched over when her parents talked to her so that she wouldn’t seem so tall and strong. She drew her shoulders together when either of them came close, so the folds of her clothing might cover her body and all of her self that her mother said she should be careful not to show. “Keep yourself covered up, hear me?” She nodded, mute, ashamed, ashamed of her mother’s shame. It was this morning her mother had said that, with the blood coming and the terrible pains in her belly…”Not another word,” she’d said, after she’d shown the girl what to do.
+*
+Because really, there’s not another word for it. Only bush, bush everywhere here, and everywhere it stays the same—bush, just bush, collective and uncompromising. Neither singular nor plural, but both, resisting always the indefinite article that would make it some dainty shrub or hedge as well as the metonym that would have it stand for something larger. Bush. Bush. Bush. And it was growing, all this, at the edge of the “park” at the end of our street. Look at what I’ve written in my notebook:
+How can we have ever played here? How can we have made this place our home for childish games? The fort where we pretended we were Daniel Boone hiding from the Indians is pitch black inside and damp, and the pongas and flax that were planted to be like a garden around it have half grown up, have covered it with a sort of spoor and in the vegetation have bred wetas and huge spiders that rattle out from under the dead leaves when we go into the dark interior. Then, over here, is the little stream running down by the picnic green—we used to call it “the burn,” remember? That Scottish word for a little stream, how could we have called it that?—when, look at it! Choked with weeds and mud slick, water sluggish and engorged with rotting leaves… My brother tried to dam it, to create a pool to sail his boat, but no toy boats could sail there!
+“You make it seem like it was a terrible place, this park. You make it seem dangerous and unpleasant.”
+And yet we did play there. We had walks. We had games, make-believe. We had tents, we made bows and arrows, we built shelters.
+“But?”
+Yes…
+“You were frightened?”
+Yes. It was terrifying there.
+*
+And she wasn’t a baby. She wasn’t. Her cousins, though, were teenagers, and older than her. Her parents had said that she would enjoy seeing them again, but the cousins were mean. The girl remembered, the minute she saw them. The boy picked at her clothes and the others stared and whispered. They mocked her silence. “Listen to her, Terry!” said the oldest girl. “Listen to what?” another one replied. “There’s nothing to listen to, dummy. She’s a rock. Big things like that don’t talk.” The cousin came up close to her, opened her mouth and closed it again, mouthing a silent word as though she were a frightening fish. “She’s like a maori-girl… Ain’t ya?” the cousin said. “Because I don’t think she speaks at all.”
+“Cut it out, Bethan!” the boy said then. “You sound like white shit.” He took one of the girl’s heavy plaits between his thumb and forefinger as if to measure it, weigh it. “Anyhow, I like her,” he said. “With her funny little country ways and her little itsy-bitsy dresses. And this hair-do here…” He ran his thumb and forefinger down the length of the plait while she stood, shock still, closing her eyes against him. “I like it too.”
+None of the adults heard, of course—and if they had? They would have laughed, or his mother would have cuffed Terry over the ears and he would have said, “Hey, steady, Ma.” He would have smiled his bright white smile that made him look like a movie star. The older girl and the twins, they just stared at her mostly, with a fixed expression on their faces like: What kind of a thing are you?
+“Does your mother make you wear your hair like that?” said one of them, after their brother had turned away. “Cause it’s really ugly.”
+Maybe the dictionary can help: Bush: n. a woody plant in size between a tree and an undershrub. That’s from the Chambers Twentieth Century Dictionary, a British Dictionary with “up-to-date English” as it states on the flyleaf, with “everyday words.” And sure enough, right before us, here’s the little British bush we all know so well, with its flowering leaves and dainty wooden branches, that “woody plant.” But coming straight after, there it is: Bush: wild uncultivated country: such country covered with bushes; the wild.—v.i. to grow thick or bushy.—v.t. to set bushes about: to cover. adj. bushed, lost in the bush: bewildered.
+And that word: bewildered…
+Though, the girl thought, she herself, she knew, could never be lost there…
+Even so, bewildered, yes.
+But never lost there.
+No. Never.
+*
+In the New Zealand of my childhood people used an expression within which was the nightmare of a place so overridden with manuka and scrub you might never escape it. This phrase, it seemed, existed permanently in a kind of future tense—that you might walk into and inhabit and be lost in: “Going Bush.” My father used to say it, about a friend who’d made the decision to go into remote and difficult country, allowing himself to be altered by that experience. “Ah yes, old Malcolm. He went bush in the end and you couldn’t get much sense out of him by then.” As though, my father seemed to imply, by walking into that dense growth, a person would never afterwards be freed from it; changed forever. “Poor old Malcolm wasn’t good for anything after that,” my father said, “he went bush, alright.” And friends of my parents would talk about it at parties, how they might go bush themselves—as a way of escaping from the easy daily routine, joking with each other about it, topping up their whiskies and laughing. The men saying that they might take a rifle in there and a fishing rod and think about never ever coming home again. “That sounds just fine to me!” Or people would use the phrase at the beginning of the summer, as a way of describing how they were planning to relax, like they were “going native,” another expression that intimated the horror of an irreversible change. Women did not use this expression, they had no need. For them, in those days, there was no other life that might claim them—or that is what we children thought. They refreshed their lipstick and shook their heads when their husbands offered them another sherry. Only men went in there, into the Tarawheras or the Ureweras or the Kaimanawa Ranges. They came home, sun-blackened and with beards or stubble on their faces, laughing and smelling of earth and drink and something else—seeds or mould or blood.
+The girl remembered all of this, what the adults were like, what her cousins were like, the things they did and said, from last time, a long time ago when her parents had driven down South to meet her father’s relations. Then, she’d been little and they had been tall. Now they were older but she was the tall one; she knew she was strong. Still, there were four of the cousins and only one of her. And how hot she was in the sun, in her dress that covered her up and the cardigan that went across her back like a rug. She wouldn’t be able to run away from them like last time when she’d fled them to find her mother who had taken her by the hand and let her stay close. Now she would never be able to escape fast enough, not with the vest and dress and cardigan all stifling her like a heavy trap.
+“Why doesn’t she take all that ugly stuff off?” said the oldest girl, who was wearing a bikini and nothing else, and who kept running her thumb along the waistband low down on her belly.
+“She must be baking, in all that stuff,” said another.
+“She’s cooking herself,” said the boy, and he caught the girl’s eye and smiled.
+“To be unobtainable,” my father tells me. “Going Bush. That’s what the expression means.”
+Te Ara-A-Hongi: Hongi’s Track.
+Puketapu: Sacred hill or mound.
+With roots, and mould, and spoor, and the tangle of new growth over everything, over any chance of a summer holiday at the beach, by a river or a lake.
+Puarenga: The stream which flows through Whakarewarewa.
+Te Puia: The burial hill at the edge of the geyser.
+All keeping you in there, stopping you at the names of the places that were in the midst of all the growth.
+Tarukenga: Place of slaughter.
+Whakarewarewa: A place of uprising.
+All bush, bush. The girl knows. How there at the edge of the bright sand, on the other side of the sparkling water, it was waiting for you.
+Whangapipiro: Evil-smelling place.
+When you swam to the other side of the bay where the water was in shadow, or turned a bend in the river and suddenly you were in deep.
+Because she was country, the girl was. So country, her cousins said, that they couldn’t understand a word her parents were saying. “Did you hear the way he asked for a beer?” said the one called Bethan, talking about the girl’s father. “Like straight off the pa…”
+“They’re all maoris up there,” said the boy.
+“They sure look that way,” said one of the twins, eyeing the girl as she stood, off to one side, trying not to see them, trying not to hear.
+And all these landmarks, locations, these long site-words, naming-words, complex, reaching and growing words, all seeding further meanings… Te Ara-A-Hongi, Puketapu…
+They had no meaning then, for me. Those words. The words that might break bush down, separate it, make of it this place here, or that place there. I didn’t have the parts of speech, the articulations, pronunciations. I didn’t have a way in, and bush gave, absolutely it gave, no quarter.
+“Don’t go in there again,” her mother had said. “It’s dangerous there, beyond the park where we’re going.”
+Because that dark would not be colonized by our games! We were little white children, little Pakehas the Maoris would have called us, lost in the midst of it: no synonym in English for the English noun that it devoured with its own reality.
+Bush.
+Just bush.
+“Don’t go in there,” her mother said.
+Adapted from Kirsty Gunn’s Going Bush, number 27 in the Cahier Series, published this month by Sylph Editions. Gunn’s My Katherine Mansfield Project will be published on November 15 by New York Review Books.
+
+				
+						October 27, 2016, 2:05 pm
+					
+					
+						
+							
+									Email
+								
+								
+									Print
+								
+							
+						
+
+							
+		Tweet
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+	
+		
+	
+
+					
+
+					
+	
+
+		Related
+
+		
+		
+
+			
+			
+				
+				
+				
+					Henry Green’s Universe
+				
+
+				
+			
+
+			
+				
+
+					
+
+		
+		Deborah Eisenberg
+				
+			
+
+			
+		
+
+		
+		
+
+			
+			
+				
+				
+				
+					California Notes
+				
+
+				
+			
+
+			
+				
+
+					
+
+		
+		Joan Didion
+				
+			
+
+			
+		
+
+		
+		
+
+			
+			
+				
+				
+				
+					‘The Touch of Autumn’
+				
+
+				
+			
+
+			
+				
+
+					
+
+		
+		Henry James
+				
+			
+
+			
+		
+
+		
+	
+
+
+				
+				
+			
+									
+
+				
+
+	
+	
+			Disciples of Distrust
+
+		
+			
+
+		
+		Garry Wills		
+
+	
+			Next Stop, Valhalla
+
+		
+			
+
+		
+		Geoffrey O’Brien		
+
+	
+			The Comey Morass
+
+		
+			
+
+		
+		Elizabeth Drew		
+
+	
+			The Trumputin Syndrome
+
+		
+			
+
+		
+		Masha Gessen		
+
+	
+			Bernhard on Bernhard
+
+		
+			
+
+		
+		Andrew Katzenstein		
+
+	
+									
+
+				
+	
+
+
+		From the Current Issue
+		—— November 24 ——
+					
+			Why You Won’t Get Your Day in Court 
+
+			
+					
+					
+		
+		Jed S. Rakoff			
+
+		
+					
+			At Last, a Black History Museum
+
+			
+					
+					
+		
+		Edward Ball			
+
+		
+					
+			Our Driverless Future
+
+			
+					
+					
+		
+		Sue Halpern			
+
+		
+					
+			The Beauty of Rajput Art
+
+			
+					
+					
+		
+		William Dalrymple			
+
+		
+					
+			Can We Escape from Time? 
+
+			
+					
+					
+		
+		John Lanchester			
+
+		More 
+
+
+				
+									
+
+				
+					
+   
+   
+   
+   
+
+
+jQuery(window).load(function() {var criteo_scrollingAd = jQuery('#criteoscroller');var criteo_adTop = criteo_scrollingAd.offset().top;
+    function fixDiv() {
+        var criteo_stoppingHeight = jQuery('.site_footer').offset().top;
+        if (jQuery(window).scrollTop() >= (criteo_stoppingHeight - 650))
+            criteo_scrollingAd.css({
+                'position': 'relative',
+                'top': (criteo_stoppingHeight - criteo_adTop - 650) + 'px'
+            });
+        else if (jQuery(window).scrollTop() >= (criteo_adTop - 10))
+            criteo_scrollingAd.css({
+                'position': 'fixed',
+                'top': '10px'
+            });
+        else
+            criteo_scrollingAd.css({
+                'position': 'static',
+                'top': 'auto'
+            });
+    }
+    jQuery(window).scroll(fixDiv);
+    fixDiv();
+});
+
+			
+					
+
+			
+
+						
+			    	
+			
+				
+					
+								Home
+							
+													
+								Contact Us
+							
+													
+								About
+							
+													
+								Subscribe
+							
+													
+								Advertise
+							
+													
+								University Press Listing
+							
+													
+								Independent Press Listing
+							
+													
+								Customer Service
+							
+													
+								Help/FAQ
+							
+													
+								Books
+							
+													
+								Terms of Service
+							
+													
+								Feeds
+							
+													
+								Newsletters
+							
+																
+			
+		
+		© 1963-2016 NYREV, Inc. All rights reserved.
+	
+
+		
+
+		
+/* <![CDATA[ */
+var doc_ajax = {"url":"http:\/\/www.nybooks.com\/wp-admin\/admin-ajax.php","nonce":"9d97802015"};
+/* ]]> */
+
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.0.2',blog:'103491281',post:'54561',tz:'-5',srv:'www.nybooks.com'} ]);
+	_stq.push([ 'clickTrackerInit', '103491281', '54561' ]);
+

@@ -1,0 +1,485 @@
+GitHub - avatsaev/touchbar_nyancat: Stupid nyancat animation on your +$2k MacBook Pro's Touchbar
+    
+    Skip to content
+
+    
+    
+    
+
+
+
+          
+    
+      
+
+    
+      
+
+    
+      
+          Personal
+        
+          Open source
+        
+          Business
+        
+          Explore
+      
+            Sign up
+          Sign in
+      
+
+        Pricing
+          Blog
+          Support
+          Search GitHub
+              
+  
+    
+      This repository
+      
+
+
+        
+  
+
+
+      
+
+
+
+    
+        
+    
+      
+
+  
+
+    
+
+
+      
+    
+    Watch
+  
+  
+    4
+  
+
+  
+
+  
+      
+    
+    Star
+  
+
+    
+      325
+    
+
+  
+
+  
+      
+        
+        Fork
+      
+
+    
+      6
+    
+  
+
+  avatsaev/touchbar_nyancat
+
+
+
+  
+  
+    
+
+    
+      Code
+        
+
+    
+      
+        Issues
+        0
+            
+
+  
+    
+      Pull requests
+      0
+        
+
+  
+    
+    Projects
+    0
+
+
+
+  
+    
+    Pulse
+
+  
+    
+    Graphs
+
+
+
+
+
+
+  
+
+    
+
+  
+         Stupid nyancat animation on your +$2k MacBook Pro's Touchbar
+  
+
+
+
+
+
+  
+    
+    
+        
+            
+              17
+            
+            commits
+        
+      
+      
+        
+          
+            1
+          
+          branch
+        
+      
+
+      
+        
+          
+            0
+          
+          releases
+        
+      
+
+      
+          
+  
+      1
+    
+    contributor
+
+
+      
+    
+        
+              
+                
+                Swift
+                100.0%
+              
+          
+        
+    
+  
+
+
+  
+    Swift
+  
+
+
+
+
+    
+  
+    Clone or download
+  
+
+  
+    
+      
+
+        
+          Clone with HTTPS
+          
+            
+        
+        
+          Use Git or checkout with SVN using the web URL.
+        
+
+        
+  
+    
+  
+
+
+      
+
+
+      
+        
+
+  Download ZIP
+
+
+      
+    
+  
+
+
+
+  
+
+    
+      Find file
+    
+  
+
+  
+
+  
+    Branch:
+    master
+  
+
+  
+
+    
+      
+        Switch branches/tags
+      
+
+      
+        
+          
+        
+          
+              Branches
+            
+            
+              Tags
+            
+          
+      
+
+      
+
+        
+
+
+            
+              
+                master
+              
+            
+        
+
+          Nothing to show
+      
+
+      
+        
+
+
+        
+
+        Nothing to show
+      
+
+    
+  
+
+
+
+      
+        New pull request
+      
+
+  
+    
+  
+
+
+
+
+
+
+  
+    
+      Latest commit
+      
+        a1d942e
+      
+      Nov 6, 2016
+    
+
+
+    
+      A. Vatsaev
+    
+
+        Merge branch 'master' of github.com:avatsaev/touchbar_nyancat
+    
+
+  
+
+
+
+
+  Permalink
+
+  
+        Failed to load latest commit information.
+      
+            
+          
+            touchbar_nyancat.app/Contents
+          
+          
+            
+                  longer nyan
+            
+          
+          
+            Nov 6, 2016
+          
+        
+            
+          
+            touchbar_nyancat.xcodeproj
+          
+          
+            
+                  longer nyan
+            
+          
+          
+            Nov 6, 2016
+          
+        
+            
+          
+            touchbar_nyancat
+          
+          
+            
+                  longer nyan
+            
+          
+          
+            Nov 6, 2016
+          
+        
+            
+          
+            README.md
+          
+          
+            
+                  Update README.md
+            
+          
+          
+            Nov 6, 2016
+          
+        
+            
+          
+            nyan_music.mp3
+          
+          
+            
+                  added executable w music
+            
+          
+          
+            Nov 5, 2016
+          
+        
+
+
+
+  
+    
+      
+      README.md
+    
+
+      Touchbar Nyancat
+
+Stupid nyancat animation on your +$2k MacBook Pro's Touchbar. Enjoy
+
+
+
+
+
+  
+  
+
+
+
+    
+  
+
+    
+
+        
+  
+    Contact GitHub
+      API
+      Training
+      Shop
+        Blog
+        About
+
+    
+      
+    © 2016 GitHub, Inc.
+        Terms
+        Privacy
+        Security
+        Status
+        Help
+    
+
+
+
+
+    
+
+    
+      
+        
+      You can't perform that action at this time.
+    
+
+
+      
+      You signed in with another tab or window. Reload to refresh your session.
+      You signed out in another tab or window. Reload to refresh your session.
+    
+    
+  
+    
+    
+    
+      
+  
+
+
+  

@@ -1,0 +1,263 @@
+
+  window.MemberfulOptions = {site: "https://sixcolors.memberful.com"};
+
+  (function() {
+    var s   = document.createElement('script');
+
+    s.type  = 'text/javascript';
+    s.async = true;
+    s.src   = 'https://d35xxde4fgg0cx.cloudfront.net/assets/embedded.js';
+
+    setup = function() { window.MemberfulEmbedded.setup(); }
+
+    if(s.addEventListener) { s.addEventListener("load", setup, false); } else { s.attachEvent("onload", setup); }
+
+    ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+  })();
+
+	jQuery(function($)
+	{
+	     $( '.menu-btn' ).click(function(){
+	     $('.responsive-menu').toggleClass('expand')
+	     })
+    })
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54497221-2', 'auto');
+  ga('send', 'pageview');
+
+ Review: On the road with the 13-inch MacBook Pro - Six Colors
+    $.bigfoot({
+	numberResetSelector: "div.post"
+});
+
+
+
+
+		
+		    
+		
+		
+			
+		    
+		
+		
+		
+		by Jason Snell & Dan Moren 
+		
+	
+	
+	     
+		     MENU
+	     
+	 
+	     
+	        About
+	           
+	           Advertise
+	           
+	           Archive
+	           
+         Podcasts
+	           
+	           Membership
+	           
+	           Topics
+	           iOS 10
+
+	           macOS Sierra
+
+	           Kindle
+
+	           Gift Guide
+	          
+	           Apple TV
+
+	           Apple Watch
+	           	           
+	           Podcasting
+	            
+	           Photos for Mac
+
+	           Reviews
+
+
+	        
+	     
+	  
+		
+	
+	
+		About
+			Advertise
+			Archive
+			Membership
+	           Podcasts
+			Topics
+iOS 10
+
+	           macOS Sierra
+
+	           Kindle
+
+	           Gift Guide
+	          
+	           Apple TV
+
+	           Apple Watch
+	           	           
+	           Podcasting
+	            
+	           Photos for Mac
+
+	           Reviews
+
+
+
+	
+
+
+
+
+
+	
+			 This week's sponsor
+
+Six Colors Subscriptions - Join to support the site and get an exclusive newsletter and weekly podcast.
+
+		 
+
+
+
+
+
+
+
+	
+
+
+
+
+
+			
+
+				
+					By Jason Snell
+					November  6, 2016 10:52 AM PT
+		
+				
+				
+					Review: On the road with the 13-inch MacBook Pro
+
+ The 13-inch MacBook Pro (top) and a 12-inch MacBook on a table in Ireland.
+
+When Apple provided me with a 13-inch MacBook Pro the day before I was set to spend 10 days traveling to Europe and back, I took it upon myself as a challenge to do one of the things that laptops are meant to do: provide computing power while you’re on the go. So I edited podcasts on planes, wrote articles in hotel rooms and airport departure lounges and even on trains zipping through the Irish countryside.
+
+As a MacBook Air user, I’ve paid attention to Apple’s statements likening the low-end 13-inch model with physical function keys and two USB-C/Thunderbolt 3 ports to the 13-inch MacBook Air. My preferred Air, the 11-inch model, is on the way out—and the regular MacBook is probably its best analog. (Could we get a second port on there?) But my wife’s a user of the 13-inch Air, and comparing this new MacBook Pro to her Air is illuminating.
+
+This model is more compact than the Air, with smaller bezels around the display leading to a more compact shape. It’s thicker at the trackpad end than the MacBook Air’s wedge shape, and it weighs an ounce more, but most notably it just feels more dense (and more solid).
+
+The big difference is the screen: It’s beautifully bright and with the Retina resolution you’d expect. Well, that and the price. The newer tech and that Retina screen make this MacBook Pro a 50 percent price premium over the Air, at $1499 (versus $999). The spread of Retina displays across most of the Mac product line is great, but it has come at a high price—literally.
+
+My review model came in Space Gray, marking the first time I’ve regularly used a non-silver laptop since the days of the Black MacBook. I like the darker shade, but wish Apple would give buyers even more color choices—and not just gold and rose gold as on the MacBook, but brighter colors, too.
+
+With this new MacBook Pro, Apple has gone all in on the USB-C connector. First debuting on the Mac with the MacBook in 2015, this model sports two USB-C connectors, but these are enhanced with Thunderbolt 3. This means that you can use adapters to connect them to older products that used either USB or Thunderbolt, and it simplifies the MacBook Pro by providing only a single connector type.
+
+I’m all for Thunderbolt 3 and USB-C, especially for the ability for this laptop to drive an external 5K display. But there are a few issues. First is the change, as on the MacBook, to use USB-C for charging. MagSafe is gone, so if you trip on your charging cable with this new MacBook Pro you are less likely to be saved by a breakaway cable. And by plugging in the laptop on one of its two ports, you’ve eliminated that part for use in attaching peripherals.
+
+You’ll need adapters, too. A friend brought me a USB stick last weekend and we chuckled for a moment when he realized he couldn’t plug it into this Mac. Fortunately, I had Apple’s USB-C to USB-A adapter, so I was able to copy off his files by attaching his drive to the end of a dangling dongle. To copy some of my system files onto this laptop, I used Apple’s blocky Thunderbolt 3 to Thunderbolt adapter and placed my old laptop in Target Disk Mode, which worked well.
+
+This MacBook Pro also doesn’t have an SD card reader, which will upset some photographers. My MacBook Air never offered a card reader, so I didn’t miss it. I’d wager that the reader was used by very few people, which is one reason Apple would’ve removed it, but if it was a convenience you relied on to rapidly offload an external device, it will be less convenient with this machine.
+
+The MacBook Pro’s keyboard isn’t like the one on the MacBook Air, or the previous-model MacBook Pro, either. Instead, it’s an updated version of the keyboard introduced with the MacBook last year. Apple told me that the keys don’t travel any farther than on the MacBook, but that this second-generation keyboard offers more feedback and feels more responsive than the one on the MacBook. That may be true, but there’s no doubt that this keyboard is a progression of the MacBook keyboard, not a revision of the previous MacBook Pro keyboard or Apple’s external Magic Keyboard.
+
+I have written on more than one occasion of my general dislike of the MacBook keyboard. The keyboard is an important tool in making my living, and while I can use just about any keyboard, I know what I like. And what I like is more travel than these keyboards offer. That said, I want to allay the fears of people who think these keyboards don’t do the job: They do. I find the lack of response in the keys unpleasant, but I can still type at full speed and accuracy when I use it. (I do keep hitting the wrong arrow keys, though. I’m still not a fan of the full-sized left and right arrow keys sharing space with half-height up and down arrows.)
+
+In any event, if you like the MacBook keyboard, you’ll liked this one even more. If you disliked the MacBook keyboard, you may find this one to be an improvement—but it’s a progression of that keyboard, not a replacement.
+
+Being on the road, I haven’t been able to do methodical speed or battery tests, but I can say that the battery life on this laptop seems to be a lot more than on the MacBook Air. It also handled some more intense work—editing multi-track audio in Logic Pro and removing noise from audio with iZotope RX 5—with aplomb. Some of that may be the result of the faster SSD in this model, but some of it is at least the responsibility of the processor.
+
+In the end, the low-end 13-inch MacBook Pro turned out to be a pretty fine traveling companion for the past ten days. As a loyal Air user, it’s been a delight to bring a Retina display with me and have the ability to pack a single brick (plus one cable) to charge my Mac, iPad, and iPhone. I’ve just had to remember to keep my adapters close by—it’s always smart to be prepared.
+
+Would I choose this model over the new MacBook Pro models with the Touch Bar and Touch ID? If money was no object, probably not. But if you’re a MacBook Air user (or were considering buying a MacBook Air), money will probably be relevant. This model is a tweener, to be sure, but it’s got a lot more than the MacBook can provide without the higher price tag of the Touch Bar models. Surely there’s a sweet spot there.
+
+
+
+
+
+
+
+
+
+
+
+
+
+[If you appreciate articles like this one, help us continue doing Six Colors (and get some fun benefits) by becoming a Six Colors subscriber.]
+
+
+
+
+
+
+
+
+   				
+			
+		
+
+
+
+
+		
+			
+Ads via the Deck
+			
+ 
+//<![CDATA[ 
+(function(id) { 
+document.write('<script type="text/javascript" src="' + 
+'//connect.decknetwork.net/deck' + id + '_js.php?' + 
+(new Date().getTime()) + '"></' + 'script>'); 
+})("SC"); 
+//]]> 
+ 
+
+
+
+
+
+
+		
+ 
+
+	
+	
+		Copyright © 2014-2016 The Incomparable Inc.    	           Sponsorship Info | RSS | Twitter | Search | My Account
+	
+var _merchantSettings=_merchantSettings || [];_merchantSettings.push(['AT', '10lMbH']);(function(){var autolink=document.createElement('script');autolink.type='text/javascript';autolink.async=true; autolink.src= ('https:' == document.location.protocol) ? 'https://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js' : 'http://autolinkmaker.itunes.apple.com/js/itunes_autolinkmaker.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(autolink, s);})();
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//sixcolors.com/localstats/";
+    _paq.push(['setTrackerUrl', u+'localstats.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'localstats.js'; s.parentNode.insertBefore(g,s);
+  })();
+
+
+
+
+var loc = window.location.href; 
+if (loc.includes('genius.it')) {
+    offset = loc.indexOf('genius.it');
+    newloc = loc.slice(0,offset)+ loc.slice(offset+'genius.it/'.length);
+    window.location.replace(newloc);
+    }
+

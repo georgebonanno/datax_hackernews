@@ -1,0 +1,362 @@
+How to make machines learn like humans: Brain-like AI & Machine Learning — N · A · I · S · Stry{Typekit.load();}catch(e){}SQUARESPACE_ROLLUPS = {};(function(rollups, name) { if (!rollups[name]) { rollups[name] = {}; } rollups[name].js = ["//static.squarespace.com/universal/scripts-compressed/common-18fc397af5eb591baa49-min.js"]; })(SQUARESPACE_ROLLUPS, 'squarespace-common');(function() {(function(a){function e(b){-1!==b.indexOf(".js")?document.write("<script "+f+'crossorigin="anonymous" src="'+b+'">\x3c/script>'):document.write('<link rel="stylesheet" type="text/css" href="'+b+'" />')}var g=function(){var b=window.location.search,a=b.indexOf("exclude=");return-1<a&&(b=b.substr(a+8).split("&")[0])?b.split(","):[]}(),f;f=window.__beta_flag_should_defer?'defer="defer" ':"";try{if(window.top!=window&&window.top.Squarespace&&window.top.Squarespace.frameAvailable){window.top.Squarespace.frameAvailable(window,
+SQUARESPACE_ROLLUPS);return}}catch(h){console.error(h)}for(var c in a)if(!(-1<g.indexOf(c))){if(a[c].js)for(var d=0;d<a[c].js.length;d++)e(a[c].js[d]);if(a[c].css)for(d=0;d<a[c].css.length;d++)e(a[c].css[d])}})(SQUARESPACE_ROLLUPS);
+})();(function() {var EXCLUDED_SIZES=function(){var a=window.location.search,b=a.indexOf("exclude_imageloader_sizes=");return-1<b&&(a=a.substr(b+26).split("&")[0])?a.split(",").map(function(a){return parseInt(a,10)}):[]}(),SQUARESPACE_SIZES=[2500,1500,1E3,750,500,300,100].filter(function(a){return-1===EXCLUDED_SIZES.indexOf(a)}),IMAGE_LOADING_CLASS="loading",ImageLoader=new function(){this.load=function(a,b){function d(a,b,c){var d=new Image;d.onload=b;d.onerror=c;d.src=a}a.getDOMNode&&(a=a.getDOMNode());var c=this._getDataFromNode(a,
+b),e=!(!c.dimensions||!c.dimensions.width||!c.dimensions.height),g=c.load+"";if("false"===g)return!1;var h=c.mode;if(e&&("fit"===h||"fill"===h)){h=a.parentNode;if(!h)return console.error("Not doing anything, parentNode not found."),!1;if(!this.refresh(a,b,h))return!1}var n=this._intendToLoad(a,c);if("string"===typeof n&&"viewport"!==g){var m=this.getUrl(n,c),g=a.getAttribute("data-image-resolution");a.getAttribute("src")!==m&&this.isValidResolution(n,g)&&(a.onload=function(){a.className=a.className.replace(IMAGE_LOADING_CLASS,
+" ").trim();a.setAttribute("data-image-resolution",n)},!a.getAttribute("src")&&-1===a.className.indexOf(IMAGE_LOADING_CLASS)&&(a.className+=(a.className?" ":"")+IMAGE_LOADING_CLASS),!a.getAttribute("src")&&e?(a.setAttribute("src",m),c.useBgImage&&(a.parentNode.style.backgroundImage="url("+m+")")):d(m,function(){e?a.setAttribute("src",m):(a.setAttribute("data-image-dimensions",this.width+"x"+this.height),ImageLoader.load(a,b))},function(){a.className=a.className.replace(IMAGE_LOADING_CLASS," ").trim();
+a.setAttribute("src",m)}));return!0}return n};this.refresh=function(a,b,d){a.getDOMNode&&(a=a.getDOMNode());d&&d.getDOMNode&&(d=d.getDOMNode());d=d||a.parentNode;if(!d)return console.error("Not doing anything, parentNode not found."),!1;var c=this._getDataFromNode(a,b),e=d.offsetWidth,g=d.offsetHeight;b=c.mode;if("none"!==b){var h=c.dimensions.width,n=c.dimensions.height,m=h/n,q=e/g;if(c.useBgImage&&"fill"===b&&"backgroundSize"in document.documentElement.style)return a.style.display="none",d.style.backgroundSize=
+"cover",d.style.backgroundPosition=100*c.focalPoint.x+"% "+100*c.focalPoint.y+"%",!0;if(c.fixedRatio)"fill"==b&&q>m||"fit"==b&&q<m?(k=100,l=100*(q/m),r=(100-l)*c.focalPoint.y,p=0):(k=100*(m/q),l=100,r=0,p=(100-k)*c.focalPoint.x),a.style.top=r+"%",a.style.left=p+"%",a.style.width=k+"%",a.style.height=l+"%";else{var f;"fill"===b?f=m>q?g/n:e/h:"fit"===b&&(f=m<q?g/n:e/h);!c.stretch&&"fit"==b&&1<f&&(f=1);var k=Math.ceil(h*f),l=Math.ceil(n*f);if(0===k||0===l)return!1;var p,r;"fill"===b?(p=Math.min(Math.max(e/
+2-k*c.focalPoint.x,e-k),0),r=Math.min(Math.max(g/2-l*c.focalPoint.y,g-l),0)):"fit"===b&&(f=c.fitAlignment,p=f.left?0:f.right?e-k:k<e?(e-k)/2:0,r=f.top?0:f.bottom?g-l:l<g?(g-l)/2:0,"inline"==this._getStyle(a,"display")&&(a.style.fontSize="0px"),this._resetAlt(a,function(){k-=a.offsetHeight-a.clientHeight;l-=a.offsetWidth-a.clientWidth}));a.style.top=Math.ceil(r)+"px";a.style.left=Math.ceil(p)+"px";a.style.width=Math.ceil(k)+"px";a.style.height=Math.ceil(l)+"px"}p=this._getStyle(d,"position");a.style.position=
+"relative"==p?"absolute":"relative";if("fill"==b&&(b=this._getStyle(d,"overflow"),!b||"hidden"!=b))d.style.overflow="hidden";return!0}};this._intendToLoad=function(a,b){function d(c,d){"none"===b.mode&&(a.style.width=null,a.style.height=null);var e=parseFloat(a.getAttribute(c)),f=parseFloat(e);if(!f||isNaN(f))e=h._getStyle(a,c),f=parseFloat(e);if(!f||isNaN(f))e=h._getStyle(a,"max-"+c,"max"+(c.substr(0,1).toUpperCase()+c.substr(1))),f=parseFloat(e);if(0===d||e)switch(h._stringType(e)){case "percentage":d=
+parseInt(e,10)/100*g["offset"+c.substr(0,1).toUpperCase()+c.substr(1)];break;case "number":d=parseInt(e,10)}!f&&0!==d&&!a.getAttribute("src")&&(d=0);return d}b=b||this._getDataFromNode(a);if(!b.source)return!1;var c=a.offsetWidth,e=a.offsetHeight,g=a.parentNode,h=this;this._resetAlt(a,function(){c=d("width",c);e=d("height",e)});0===c&&0===e?(c=b.dimensions.width,e=b.dimensions.height):0===c?c=this.getDimensionForValue("width",e,b):0===e&&(e=this.getDimensionForValue("height",c,b));"viewport"===b.load&&
+(a.style.width=Math.floor(c)+"px",a.style.height=Math.floor(e)+"px");return this.getSquarespaceSize(c,e,b)};this._getDataFromNode=function(a,b){b=b||{};var d={focalPoint:{x:0.5,y:0.5},dimensions:{width:null,height:null},mode:"none",fitAlignment:{center:!0},load:"true",stretch:!0,fixedRatio:!1};if(b.focalPoint)d.focalPoint=b.focalPoint;else{var c=a.getAttribute("data-image-focal-point");if(c&&(c=c.split(","))&&2==c.length)d.focalPoint={x:parseFloat(c[0]),y:parseFloat(c[1])}}if(b.dimensions)d.dimensions=
+b.dimensions;else if((c=a.getAttribute("data-image-dimensions"))&&(c=c.split("x"))&&2==c.length)d.dimensions={width:parseInt(c[0],10),height:parseInt(c[1],10)};b.mode?d.mode=b.mode:a.parentNode&&(c=a.parentNode.className,-1!==c.indexOf("content-fill")?d.mode="fill":-1!==c.indexOf("content-fit")&&(d.mode="fit"));if("fit"===d.mode&&a.parentNode&&(c=b.fitAlignment||a.getAttribute("data-alignment")||a.parentNode.getAttribute("data-alignment")))d.fitAlignment={top:-1!==c.indexOf("top"),left:-1!==c.indexOf("left"),
+center:-1!==c.indexOf("center"),right:-1!==c.indexOf("right"),bottom:-1!==c.indexOf("bottom")};b.load?d.load=b.load:(c=a.getAttribute("data-load"))&&(d.load=c);if("undefined"!==typeof b.stretch)d.stretch=b.stretch;else if(c=a.getAttribute("data-image-stretch"))d.stretch="true"===c?!0:!1;d.source=b.source?b.source:a.getAttribute("data-src");d.source&&this.isSquarespaceUrl(d.source)&&("http:"===d.source.substr(0,5)&&"https"===window.location.protocol.substr(0,5))&&(d.source=d.source.replace("http://",
+"https://"));if(b.fixedRatio)d.fixedRatio=b.fixedRatio;else if(c=a.getAttribute("data-fixed-ratio"))d.fixedRatio="true"==c;b.useBgImage?d.useBgImage=b.useBgImage:(c=a.getAttribute("data-use-bg-image"),d.useBgImage="true"===c||!0===c?!0:!1);return d};this._stringType=function(a){return"string"===typeof a&&-1!==a.indexOf("%")?"percentage":isNaN(parseInt(a,10))?NaN:"number"};this._getStyle=function(a,b,d){var c;a.currentStyle?c=a.currentStyle[d||b]:window.getComputedStyle&&(c=document.defaultView.getComputedStyle(a,
+null).getPropertyValue(b));return c};this._isVisible=function(a){a=a.getBoundingClientRect();return 0<=a.left&&0<=a.top||0<=a.bottom&&0<=a.right||0<=a.left&&0<=a.bottom||0<=a.right&&0<=a.top};this.getSquarespaceSize=function(a,b,d){a=Math.max(b/(d.dimensions.height/d.dimensions.width),a);"undefined"===typeof app&&"number"===typeof window.devicePixelRatio&&(a*=window.devicePixelRatio);for(b=1;b<SQUARESPACE_SIZES.length&&!(a>SQUARESPACE_SIZES[b]);b++);return SQUARESPACE_SIZES[b-1]+"w"};this.getDimensionForValue=
+function(a,b,d){var c=d.dimensions.width;d=d.dimensions.height;return"width"==a?c/d*b:"height"==a?d/c*b:NaN};this.getUrl=function(a,b){var d=b.source;return a&&("/"==d[0]||this.isSquarespaceUrl(d))?(-1===d.indexOf("format="+a)&&(d=d+(-1!==d.indexOf("?")?"&":"?")+"format="+a),d):b.source};this.isSquarespaceUrl=function(a){return-1!==a.indexOf("squarespace.com")||-1!==a.indexOf("squarespace.net")||-1!==a.indexOf("sqsp.net")};this.isValidResolution=function(a,b){a=parseInt(a,10);b=parseInt(b,10);return isNaN(a)||
+isNaN(b)?!0:a>b};this._resetAlt=function(a,b){var d=a.getAttribute("alt"),c=d&&0<d.length&&!a.getAttribute("src");if(c){var e=a.style.display;a.removeAttribute("alt");a.style.display="none";a.offsetHeight+0;a.style.display=e}b.call(this);c&&a.setAttribute("alt",d)};this.bootstrap=function(){var a=document.images;if(0<a.length)for(var b=0,d=a.length;b<d;b++)((a[b].hasAttribute?a[b].hasAttribute("data-image"):a[b].attributes["data-image"])||(a[b].hasAttribute?a[b].hasAttribute("data-src"):a[b].attributes["data-src"]))&&
+"false"!==(a[b].getAttribute?a[b].getAttribute("data-load"):a[b].attributes["data-load"])+""&&ImageLoader.load(a[b])}};window.ImageLoader=ImageLoader;window.YUI&&YUI.add("squarespace-imageloader",function(a){},"1.0",{requires:[]});
+})();Static.SQUARESPACE_CONTEXT = {"facebookAppId":"314192535267336","rollups":{"squarespace-announcement-bar":{"css":"//static.squarespace.com/universal/styles-compressed/announcement-bar-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/announcement-bar-081a14d9552fe9a2d956-min.js"},"squarespace-audio-player":{"css":"//static.squarespace.com/universal/styles-compressed/audio-player-76e4bfcc3f9830beb388bae2002fbe6c-min.css","js":"//static.squarespace.com/universal/scripts-compressed/audio-player-04c3d896d341ed37e66c-min.js"},"squarespace-blog-collection-list":{"css":"//static.squarespace.com/universal/styles-compressed/blog-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/blog-collection-list-86e0536506d57c3bc1ce-min.js"},"squarespace-calendar-block-renderer":{"css":"//static.squarespace.com/universal/styles-compressed/calendar-block-renderer-032634519fa160b1d2da6986dce0cdae-min.css","js":"//static.squarespace.com/universal/scripts-compressed/calendar-block-renderer-f8ab346ccf3a17da0754-min.js"},"squarespace-chartjs-helpers":{"css":"//static.squarespace.com/universal/styles-compressed/chartjs-helpers-9935a41d63cf08ca108505d288c1712e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/chartjs-helpers-962619aee62210450207-min.js"},"squarespace-comments":{"css":"//static.squarespace.com/universal/styles-compressed/comments-db79f121099c10e9346733da5bc6bb10-min.css","js":"//static.squarespace.com/universal/scripts-compressed/comments-46c31953e82341250ad5-min.js"},"squarespace-dialog":{"css":"//static.squarespace.com/universal/styles-compressed/dialog-41403d1f0d87846c1b05baa36a8d7c38-min.css","js":"//static.squarespace.com/universal/scripts-compressed/dialog-77350e7641239dcc8278-min.js"},"squarespace-events-collection":{"css":"//static.squarespace.com/universal/styles-compressed/events-collection-032634519fa160b1d2da6986dce0cdae-min.css","js":"//static.squarespace.com/universal/scripts-compressed/events-collection-9673b7181947b8418613-min.js"},"squarespace-gallery-collection-list":{"css":"//static.squarespace.com/universal/styles-compressed/gallery-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/gallery-collection-list-edf6da4cd1e1498d2ad2-min.js"},"squarespace-image-zoom":{"css":"//static.squarespace.com/universal/styles-compressed/image-zoom-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/image-zoom-9c94608f8d05cf97085c-min.js"},"squarespace-pinterest":{"css":"//static.squarespace.com/universal/styles-compressed/pinterest-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/pinterest-81d124b1384e40346afc-min.js"},"squarespace-product-quick-view":{"css":"//static.squarespace.com/universal/styles-compressed/product-quick-view-eb4b900ac0155bed2f175aa82e2a7c17-min.css","js":"//static.squarespace.com/universal/scripts-compressed/product-quick-view-cc5fdf113595b1a5a043-min.js"},"squarespace-products-collection-item-v2":{"css":"//static.squarespace.com/universal/styles-compressed/products-collection-item-v2-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/products-collection-item-v2-14c6fe50c6ab798c4d02-min.js"},"squarespace-products-collection-list-v2":{"css":"//static.squarespace.com/universal/styles-compressed/products-collection-list-v2-ae974921915aeccaff8ad60c60e19c31-min.css","js":"//static.squarespace.com/universal/scripts-compressed/products-collection-list-v2-f212db13320d72404b38-min.js"},"squarespace-search-page":{"css":"//static.squarespace.com/universal/styles-compressed/search-page-9e3daa07ec7490c2f0be98a39351cb63-min.css","js":"//static.squarespace.com/universal/scripts-compressed/search-page-79646e60c8674d587e22-min.js"},"squarespace-share-buttons":{"js":"//static.squarespace.com/universal/scripts-compressed/share-buttons-7c3e6a381b8e4efcc3d6-min.js"},"squarespace-simple-liking":{"css":"//static.squarespace.com/universal/styles-compressed/simple-liking-09fa291ec2800c97714f0d157fd0a6ca-min.css","js":"//static.squarespace.com/universal/scripts-compressed/simple-liking-461f340af95d75245abc-min.js"},"squarespace-social-buttons":{"css":"//static.squarespace.com/universal/styles-compressed/social-buttons-7a696232d1cd101fd62b5f174f9ae6ff-min.css","js":"//static.squarespace.com/universal/scripts-compressed/social-buttons-5588a90dcb990de77b96-min.js"},"squarespace-tourdates":{"css":"//static.squarespace.com/universal/styles-compressed/tourdates-d41d8cd98f00b204e9800998ecf8427e-min.css","js":"//static.squarespace.com/universal/scripts-compressed/tourdates-5d5fba7b6fd0f85cb99c-min.js"}},"pageType":50,"website":{"id":"5554afd4e4b03e9b3e7c0a44","identifier":"ed-fernandez-md02","websiteType":1,"contentModifiedOn":1473997910752,"cloneable":false,"siteStatus":{},"language":"en-US","timeZone":"America/New_York","machineTimeZoneOffset":-18000000,"timeZoneOffset":-18000000,"timeZoneAbbr":"EST","siteTitle":"N \u00B7 A \u00B7 I \u00B7 S \u00B7 S","siteTagLine":"N \u00B7 A \u00B7 I \u00B7 S \u00B7 S","siteDescription":"<p style=\"margin-left:0px; margin-right:0px\">THE WORLD NEEDS DREAMERS, THE WORLD NEEDS DOERS, BUT ABOVE ALL,&nbsp;<br />THE WORLD NEEDS DREAMERS WHO DO.<br />&nbsp;<br />NAISS IS A VENTURE CAPITAL MANAGEMENT BOUTIQUE HELPING OUTLIERS THRIVE WITH A MISSION DRIVEN - HANDS ON APPROACH.<br />&nbsp;<br />WE DEFINE AND IMPLEMENT GROWING STRATEGIES FOR TECHNOLOGY BASED STARTUPS, EARLY STAGE COMPANIES AND GROWN UPS WILLING TO DISRUPT THEMSELVES.</p><p>WE NURTURE THEM ALL THE WAY UP TO THE IPO IN ALTERNATIVE MARKETS (TO WHICH OUR PROCESS IS FULLY OPTIMISED) OR PREPARE THEM FOR AN M&amp;A EVENT (WHATEVER HAPPENS FIRST).</p><p>INVESTORS AND VENTURE FUNDS HIRE US TO ACCELERATE EXITS AND MAXIMISE PROFITS FROM THEIR PORTFOLIO COMPANIES.<br />&nbsp;<br />WE ARE PEOPLE ORIENTED AND BUSINESS ORIENTED, IN THIS PARTICULAR ORDER. WE CHOOSE CAREFULLY EVERY PROJECT ENGAGEMENT (NOT THE OTHER WAY AROUND) AND WE WORK ALWAYS WITH AN OUT-OF-THE-BOX APPROACH, BY CANONICAL DEFINITION.<br />&nbsp;<br />WE ARE MISSION DRIVEN INDIVIDUALS, WITH MORE THAN 75 YEARS OF OPERATIONAL EXPERIENCE COMBINED.&nbsp;<br />OUR TEAM COMPRISES ENGINEERING BACKGROUNDS PRIMARILY, BLENDING ENTP PERSONALITIES AND NERDS WITHOUT CREDENTIALS.<br />\u00A0</p>","location":{"mapZoom":11.0,"mapLat":37.42007317380311,"mapLng":-122.13151818774412,"markerLat":37.44251819999999,"markerLng":-122.16090659999998,"addressTitle":"naiss","addressLine1":"High Street","addressLine2":"Palo Alto, CA, 94301"},"shareButtonOptions":{"3":true,"1":true,"7":true,"4":true,"2":true,"6":true,"5":true,"8":true},"authenticUrl":"http://www.naiss.io","internalUrl":"http://ed-fernandez-md02.squarespace.com","baseUrl":"http://www.naiss.io","primaryDomain":"www.naiss.io","socialAccounts":[{"serviceId":14,"userId":"g-8fbDrS8u","userName":"eduardofernandez","screenname":"Ed Fernandez","addedOn":1443055043532,"profileUrl":"https://www.linkedin.com/company/naiss","iconUrl":"https://media.licdn.com/mpr/mprx/0_9Nf_3Q3Yn4YYtLCUn-py3L-2qZ2r-LiUq9Rp3Ll2Ig43DTqRst0775LGV9ualGGBcBDgaCfcid3N","iconEnabled":true,"serviceName":"linkedin"},{"serviceId":4,"userId":"14697711","userName":"efernandez","screenname":"ed fernandez","addedOn":1443055098364,"profileUrl":"https://twitter.com/naiss_io","iconUrl":"http://pbs.twimg.com/profile_images/515621118070120448/3AwvpOR2_normal.jpeg","collectionId":"560345fae4b040f1c18fd530","iconEnabled":true,"serviceName":"twitter"},{"serviceId":1,"userId":"1026672","userName":"ed.world@live.com","screenname":"Ed Fernandez","addedOn":1443055172680,"profileUrl":"https://foursquare.com/user/1026672","iconUrl":"","collectionId":"56034644e4b0cb7ca5d7a91d","iconEnabled":true,"serviceName":"foursquare"},{"serviceId":32,"screenname":"Medium","addedOn":1443055249384,"profileUrl":"https://medium.com/@efernandez","iconEnabled":true,"serviceName":"medium"},{"serviceId":4,"userId":"14697711","userName":"efernandez","screenname":"ed fernandez","addedOn":1446230136712,"profileUrl":"https://twitter.com/naiss_io","iconUrl":"http://pbs.twimg.com/profile_images/515621118070120448/3AwvpOR2_normal.jpeg","collectionId":"5633b878e4b08bc3ba8cade4","iconEnabled":true,"serviceName":"twitter"}],"typekitId":"","statsMigrated":false,"imageMetadataProcessingEnabled":false},"websiteSettings":{"id":"5554afd4e4b03e9b3e7c0a48","websiteId":"5554afd4e4b03e9b3e7c0a44","type":"Business","subjects":[],"country":"US","state":"FL","markdownMode":true,"simpleLikingEnabled":true,"mobileInfoBarSettings":{"style":2,"isContactEmailEnabled":false,"isContactPhoneNumberEnabled":false,"isLocationEnabled":false,"isBusinessHoursEnabled":false},"announcementBarSettings":{"style":2,"text":"<p>Fellowship program now rolling out</p>","clickthroughUrl":{"url":"/fellowship-program","newWindow":true}},"lastAgreedTermsOfService":2,"defaultPostFormat":"%y/%m/%d/%t","commentLikesAllowed":true,"commentAnonAllowed":true,"commentThreaded":true,"commentApprovalRequired":false,"commentAvatarsOn":true,"commentSortType":2,"commentFlagThreshold":3,"commentFlagsAllowed":true,"commentEnableByDefault":true,"commentDisableAfterDaysDefault":0,"disqusShortname":"","notFoundPageId":"55707a0ce4b072236bd945cd","homepageTitleFormat":"%s","collectionTitleFormat":"%c \u2014 %s","itemTitleFormat":"%i \u2014 %s","commentsEnabled":true,"contactPhoneNumber":"+14157998004","contactEmail":"","allowSquarespacePromotion":true,"storeSettings":{"returnPolicy":null,"termsOfService":null,"privacyPolicy":null,"orderRefundedSubjectFormat":"%s: Order #%o Refunded","orderRefundedTitleFormat":"Order Refunded: #%o","paymentSettings":{},"expressCheckout":false,"useLightCart":false,"showNoteField":false,"shippingCountryDefaultValue":"US","billToShippingDefaultValue":false,"showShippingPhoneNumber":true,"isShippingPhoneRequired":false,"showBillingPhoneNumber":true,"isBillingPhoneRequired":false,"currenciesSupported":["USD","CAD","GBP","AUD","EUR","CHF"],"defaultCurrency":"USD","selectedCurrency":"USD","measurementStandard":1,"showCustomCheckoutForm":false,"enableMailingListOptInByDefault":true,"contactLocation":{"mapZoom":12.0,"mapLat":37.4418834,"mapLng":-122.14301949999998,"markerLat":37.4418834,"markerLng":-122.14301949999998,"addressTitle":"naiss","addressLine1":"Naiss","addressLine2":"Palo Alto, California","addressCountry":"United States"},"businessName":"Naiss","sameAsRetailLocation":false,"businessId":"","stripeConnected":false,"isLive":false,"storeState":3},"useEscapeKeyToLogin":true,"ssBadgeType":1,"ssBadgePosition":4,"ssBadgeVisibility":1,"ssBadgeDevices":1,"pinterestOverlayOptions":{"mode":"disabled"},"ampEnabled":false},"websiteCloneable":false,"collection":{"title":"Zeitgeist","id":"55707a0ce4b072236bd945cd","fullUrl":"/blog/","publicCommentCount":114,"type":1},"item":{"title":"How to make machines learn like humans: Brain-like AI & Machine Learning","id":"574a935020c6471e63ed8c61","fullUrl":"/blog/2016/5/29/m76bvhww07z0algjbjmnl8gobjuakz","publicCommentCount":0,"commentState":1,"recordType":1},"subscribed":false,"appDomain":"squarespace.com","templateTweakable":true,"tweakJSON":{"gallery-auto-play":"true","gallery-style":"Full Bleed","gallery-transition":"Fade","galleryPlaySpeed":"4","index-aspect-ratio":"Auto","navigation-position":"Bottom","product-gallery-auto-crop":"true","product-image-auto-crop":"true"},"templateId":"50130f5be4b00a22f5c5a82a","pageFeatures":[1,2,4],"impersonatedSession":false,"demoCollections":[{"collectionId":"51478a54e4b051ba03b058f6","deleted":true},{"collectionId":"50130f1ae4b006ef41174e71","deleted":true},{"collectionId":"51476d9ce4b02a4966eeacd7","deleted":true},{"collectionId":"501fee7be4b03f6f4d16de7e","deleted":true},{"collectionId":"518c6625e4b0b32a949ce99c","deleted":true},{"collectionId":"518c5de4e4b05a04809730db","deleted":true},{"collectionId":"512699c8e4b07b19b4c1d520","deleted":true}],"isFacebookTab":false,"tzData":{"zones":[[-300,"US","E%sT",null]],"rules":{"US":[[1967,2006,null,"Oct","lastSun","2:00","0","S"],[1987,2006,null,"Apr","Sun>=1","2:00","1:00","D"],[2007,"max",null,"Mar","Sun>=8","2:00","1:00","D"],[2007,"max",null,"Nov","Sun>=1","2:00","0","S"]]}}}; SquarespaceFonts.loadViaContext(); Squarespace.load(window);{"@context":"http://schema.org","@type":"WebSite","url":"http://www.naiss.io","name":"N \u00B7 A \u00B7 I \u00B7 S \u00B7 S","description":"<p style=\"margin-left:0px; margin-right:0px\">THE WORLD NEEDS DREAMERS, THE WORLD NEEDS DOERS, BUT ABOVE ALL,&nbsp;<br />THE WORLD NEEDS DREAMERS WHO DO.<br />&nbsp;<br />NAISS IS A VENTURE CAPITAL MANAGEMENT BOUTIQUE HELPING OUTLIERS THRIVE WITH A MISSION DRIVEN - HANDS ON APPROACH.<br />&nbsp;<br />WE DEFINE AND IMPLEMENT GROWING STRATEGIES FOR TECHNOLOGY BASED STARTUPS, EARLY STAGE COMPANIES AND GROWN UPS WILLING TO DISRUPT THEMSELVES.</p><p>WE NURTURE THEM ALL THE WAY UP TO THE IPO IN ALTERNATIVE MARKETS (TO WHICH OUR PROCESS IS FULLY OPTIMISED) OR PREPARE THEM FOR AN M&amp;A EVENT (WHATEVER HAPPENS FIRST).</p><p>INVESTORS AND VENTURE FUNDS HIRE US TO ACCELERATE EXITS AND MAXIMISE PROFITS FROM THEIR PORTFOLIO COMPANIES.<br />&nbsp;<br />WE ARE PEOPLE ORIENTED AND BUSINESS ORIENTED, IN THIS PARTICULAR ORDER. WE CHOOSE CAREFULLY EVERY PROJECT ENGAGEMENT (NOT THE OTHER WAY AROUND) AND WE WORK ALWAYS WITH AN OUT-OF-THE-BOX APPROACH, BY CANONICAL DEFINITION.<br />&nbsp;<br />WE ARE MISSION DRIVEN INDIVIDUALS, WITH MORE THAN 75 YEARS OF OPERATIONAL EXPERIENCE COMBINED.&nbsp;<br />OUR TEAM COMPRISES ENGINEERING BACKGROUNDS PRIMARILY, BLENDING ENTP PERSONALITIES AND NERDS WITHOUT CREDENTIALS.<br />\u00A0</p>"}{"@context":"http://schema.org","@type":"Organization","legalName":"Naiss","address":"High Street\nPalo Alto, CA, 94301","email":"","telephone":"+14157998004"}{"@context":"http://schema.org","@type":"LocalBusiness","address":"Naiss\nPalo Alto, California\nUnited States"} var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-69508671-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); 
+
+  
+    
+      
+        
+            
+            
+              
+              
+                N · A · I · S · S
+              
+
+                
+                  Y.use('squarespace-ui-base', function(Y) {
+                    Y.one("#logo h1 a").plug(Y.Squarespace.TextShrink, {
+                      parentEl: Y.one('#logo h1')
+                    });
+                  });
+                
+
+        
+          In a nutshell
+        
+
+      
+    
+
+    
+
+  
+
+    
+      
+
+        
+          Venture Capital
+        
+
+      
+    
+
+    
+
+  
+
+    
+      
+
+        
+          Fellowship Program
+        
+
+      
+    
+
+    
+
+  
+
+    
+      
+
+        
+          About
+        
+
+      
+    
+
+    
+
+  
+
+    
+      
+
+        
+          Zeitgeist
+        
+
+      
+    
+
+    
+
+  
+
+    
+      
+
+        
+          » Cogitatum
+        
+
+      
+    
+
+    
+
+  
+
+    
+      
+
+        
+          Contact us
+        
+
+      
+    
+
+    
+
+  
+
+    
+      
+
+        
+          Privacy & Legal notice
+        
+
+      
+    
+
+    
+
+  
+  
+            
+            
+              
+                
+            
+            
+            
+              
+                
+            
+            
+            
+              
+                
+            
+            
+            
+              
+                
+            
+            
+            
+              
+                
+            
+            
+            
+              
+                
+              
+
+            
+
+        
+        
+          In a nutshell
+        
+        
+      
+
+      
+    
+      
+        
+        
+          Venture Capital
+        
+
+      
+    
+      
+
+      
+        
+          Fellowship Program
+        
+        
+      
+
+      
+    
+      
+
+      
+        
+          About
+        
+        
+      
+
+      
+    
+      
+
+      
+        
+          Zeitgeist
+        
+        
+      
+
+      
+    
+      
+
+      
+        
+          » Cogitatum
+        
+        
+      
+
+      
+    
+      
+
+      
+        
+          Contact us
+        
+        
+      
+
+      
+    
+      
+
+      
+        
+          Privacy & Legal notice
+        
+        
+      
+
+      
+    
+  
+
+      
+        
+            
+            
+              
+                
+                  Zeitgeist
+                
+                
+                  Zeit·geist = spirit, essence of a particular timeA collection of food-for-thought posts and articles by Peter J.M. Simons and Ed Fernandez on technology, business, leadership and management. 
+                
+              
+            
+            
+            
+            
+            
+
+            
+    
+      How to make machines learn like humans: Brain-like AI & Machine Learning
+    
+  
+
+  
+    AI and machine learning are all over us, a simple search on google draws 105 Million entries and counting, google trends shows a growing demand for this search term consistent with the exponential rise of deep learning since 2013, more or less when Google’s X Lab developed a machine learning algorithm able to autonomously browse YouTube to identify the videos that contained cats.
+	
+	
+		
+			
+				
+					
+			
+
+			
+
+		
+	
+	
+
+In 1959, Arthur Samuel defined machine learning as a
+    Field of study that gives computers the ability to learn without being explicitly programmed
+  
+  
+AI and machine learning changes the software paradigm computers have been based on for many decades.In the traditional computing domain, providing an input, we feed it into an algorithm to produce the desired output. This is the rule-based frameworkthe majority of the systems around us still work with.We set up our thermostat to a desire temperature (input) and a rule based programming (algorithm) will take care of reading a sensor and activating heating or AC machines to get to the room temperature we want (output).The industry has been working relentlessly for many years developing better hardware, software and apps to solve a gazillion problems and use cases around us with programmable solutions. But still, every new functionality or feature, every single new ‘learning’ has still to come via an update of the software (or the firmware itself in hardware).> Machine learning puts head over heels the rule-based paradigm.
+Given a dataset (input) and a known expected set of outcomes (output), machine learning will figure out the optimal matching algorithm so that, after trained (learning), it can autonomously predict the output corresponding to new inputs.The new AI and machine learning paradigm opens up the promise land of ‘self-programming’ machines, capable of finding the right algorithms to be used in any occasion, this is, providing availability of sufficient input training data, the bottleneck today.However, and despite all the incredible progress made in this field, including breakthroughs around deep learning in recent years, machines are far from matching human ability to learn new patterns, and worse, we don’t know how they learned what they learned nor how they come up with a decision or an specific (wrong) output. We just feed them with big data and ‘tweak’ the machine learning process till we get them to work and deliver the desired outputs within acceptable thresholds of accuracy, but the whole thing remains a ‘black box’ (Fodor & Pylyshyn 1988, Sun 2002).And they got very efficient and accurate, better than humans in many fronts, no question. AI, machine learning and neural networks are now behind any major service, predicting our credit score, detecting fraud, rendering face recognition, assisting us through Siri, Google, Cortana or Alexa, and soon driving our cars.But, as in the old computing paradigm, the process of learning still requires an ‘update’, what, in machine learning and neural networks jargon is called ‘retraining the network’ with a new dataset and new features required to incorporate a new learning or a new functionality.Retraining any AI network takes well experience engineers, top notch hardware (GPUs) and time, a lot of computing time.That’s why we can’t teach Siri, Google, Cortana or Alexa new things on the fly. If they don’t understand what we say they typically default to a simple search on the web, we can’t simply tell them ‘learn this new word’ or ‘remember my favorite team are the Red Sox’. Same applies for the rest of large neural networks behind other services, they need to be retrained with the new data and that takes days, weeks or even months depending on the size of the the network and the dataset.Now, imagine for a moment if we could teach machines ourselves and make them learn the same way we humans do, wouldn’t that be awesome?Imagine if we could teach Siri, Cortana, Google o Alexa new words or expressions, or even new action commands ‘hey Alexa, pull out my car from the garage’:The answer to this is in the brain.And some researchers, devoted to reverse engineer the recognition mechanisms of the brain have unlocked brain-like algorithms and new machine learning models solving this problem, turning the traditional machine learning ‘black box’ into a ‘clear box’ neural network where new learnings can happen on the fly, in real time and at a fraction of today’s computational cost (no retraining over the whole dataset required).In a simplistic way, the underlying problem is that all traditional machine learning models are primarily feedforward based, in other words, the basic calculations in the network happen ultimately in the form of a simple multiplication where the output Y is just the input X weighted (feedforward multiplied by W, the Weight). Y = W * XDetermining the set of weights W for a given input dataset X with a known labeled output Y is called ‘training the network’. The process is long, can take hours, days or even months for large networks, but, once all those weights W are calculated and refined (a process called optimization of weights) the network is capable of amazing wonders like facial recognition or natural language understanding.However, as mentioned, if you want the network to learn something new, you need to go back again through all the retraining process and start from the beginning, recalculating and optimizing the new set of weights W.But ‘this is not how the brain works’, Tsvi Achler, MD/PhD in neuroscience and BSEE from Berkeley, told us at a talk in Mountain View.‘The brain does not turn around and recalculates weights, it computes and learns differently during recognition while the context is still available, and it does not only do feedforward, all sensorial neural recognition mechanisms show some form of feedback loop’In all traditional machine learning methods (deep learning, convolutional networks, recurrent networks, support vector machines, perceptrons, etc) there is a ‘disconnect’ between the learning & training phase and the recognition phase. What Tsvi Achler proposes is not to recalculate (learn) weights but to determine neural network activation (Y, output) by optimizing during recognition, factoring in feedback as well as feedforward, and more importantly, focusing on the current pattern in context (vs all of the training dataset).With this approach and this new machine learning algorithm we can ‘see’ the weights and change them in real time, while recognizing, add new nodes to the network (patterns) and features on the fly without the need to go over the re-training process.At his startup Optimizing Mind, Tsvi ran his machine learning model on a Celeron Quad core laptop, 2GHz, 4GB memory, which is equivalent to a high end smartphone. He tested it against traditional methods such as SVM or KNN and the scalability results were astonishing, showing off up to two orders of magnitud of computational cost reduction.The ability to embed this new machine learning technology in a smartphone will enable true real time learning from end users’ interaction while preserving data locally (no need to go back and forth to servers).The time when we will be able finally to teach machines by ourselves, as well as learn from the environment, all in real time, is getting closer.This may be even a first very early step to enable machine to machine learning, and with that, who knows, exponential intelligence maybe?.Exciting times ahead, what a moment to be alive.@efernandez
+    
+  
+
+  
+
+  
+      
+      
+      
+      
+      
+        May 29, 2016
+        by ed fernandez
+
+        
+          
+  
+    
+    
+  
+
+
+          
+                
+      
+    
+  
+
+  
+
+
+  ← Let’s Get Paid Upfront: getting over the carrot-stick game
+    
+    
+      Two Duck-Rabbit Paradigm-Shift Anomalies in Physics and One in Machine Learning →
+    
+  
+                  Background video credit to Danes Drone https://www.youtube.com/watch?v=f76S330wipg&ab_channel=danesdroneWe value opinions and feedback, no matter what or from where. They help us grow and build upon them. If you did find value in any of the articles, do share it with others and talk to us. @efernandez @peterjmsimons 
+                
+            
+        
+
+      
+        
+      
+
+    
+  
+
+(function() {if(window.ImageLoader) { window.ImageLoader.bootstrap(); }})();Squarespace.afterBodyLoad(Y);

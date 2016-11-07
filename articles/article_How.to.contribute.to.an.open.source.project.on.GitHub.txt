@@ -1,0 +1,438 @@
+How to contribute to an open source project on GitHub
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/blog.davidecoppola.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-43256167-1']);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1201050879915648');
+fbq('track', 'PageView');
+
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+
+ 
+   
+
+
+  
+    
+      Bits of Bytes
+      bits of coding, gamedev, linux, webdev and other stuff
+
+  
+    
+    
+    
+    
+      
+About
+Contacts
+    
+    
+    
+  
+  
+      
+      How to contribute to an open source project on GitHub
+    
+    
+      Davide Coppola
+      November 5, 2016
+      7 Comments
+    
+    
+      Git
+      contribute, contributing, contribution, example, fork, GitHub, guide, howto, open, open source, project, step by step, steps, tutorial
+    
+    
+
+		A step by step guide that will show you how to contribute to an open source project on GitHub, one of the most popular and used git repository hosting services.
+
+
+GitHub is the home of many popular open source projects like Ruby on Rails, jQuery, Docker, Go and many others.
+The way people (usually) contribute to an open source project on GitHub is using pull requests. A pull request is basically a patch which includes more information and allows members to discuss it on the website.
+This tutorial will guide you through the whole process to generate a pull request for a project.
+1. Choose the project you want to contribute to
+If you decided to contribute to an open source project on GitHub it’s probably because you’ve been using that project and you found a bug or had an idea for a new feature.
+You can also explore featured and trending projects on GitHub or use the website search to find something in particular. When deciding to contribute to an open source project make sure to check it’s still active otherwise your work might remain a pull request forever.
+If you don’t have a feature or bugfix in mind you can check out the issues section of a project to find open tasks. It’s often useful to filter them using the labels created by the mantainers to find out available tasks not assigned to anyone yet.
+
+Sometimes mantainers highlight easy tasks to encourage new contributors to join the project, like for example the one tagged “easy fix” in libgit2.
+2. Check out how to contribute
+This is a very important step as it will avoid you (and the project mantainers) to waste a lot of time trying to help a project in a wrong way.
+For example some popular projects like the Linux kernel and git use GitHub as a mirror, but they don’t consider any contribution received on GitHub.
+Once you are on the main page of the project you want to contribute to look for notes and files that explain how the mantainers expect you contribute to the project.
+
+Often there’s a dedicated file with detailed instruction called CONTRIBUTING.md, but sometimes you’ll find notes in the README.md file which is displayed at the bottom of the page as well.
+Before starting to work on your contribution, It’s a good idea to check out existing (open) issues and pull requests to be sure you’re not going to do something which is already being done by someone else.
+3. Fork the project
+Once you have established that the project accepts pull requests and that your feature/bugfix has not already been taken, it’s time to fork the project.
+Forking the project creates a personal copy which will appear in your GitHub profile. to fork a project on GitHub simply click the Fork button on the top-right corner of a project page.
+
+4. Clone the forked project
+After you forked a project you need to clone it to have a copy on your machine you can work on.
+To clone a forked project go to the repositories section of your GitHub profile and open it. There you can click on the “clone or download” button to get the address to clone.
+
+GitHub gives you 2 protocols to clone a project: HTTPS and SSH. For more details about which one to use check out their detailed guide on the topic. From now on let’s assume you decided to use HTTPS.
+Once you have copied an URL you can clone the project using a git client or git in your shell:
+$ git clone https://github.com/YOUR_USERNAME/PROJECT.git
+Cloning a project will create a directory on your disk which contains the project and all the files used by git to keep track of it.
+5. Set up your cloned fork
+Enter the cloned directory and add the URL of the original project to your local repository so that you will be able to pull changes from it:
+$ git remote add upstream https://github.com/PROJECT_USERNAME/PROJECT.git
+I used upstream as remote repository name because it’s a convention for GitHub projects, but you can use any name you want.
+Now listing the remote repositories will show something like:
+$ git remote -v
+origin https://github.com/YOUR_USERNAME/PROJECT.git (fetch)
+origin https://github.com/YOUR_USERNAME/PROJECT.git (push)
+upstream https://github.com/PROJECT_USERNAME/PROJECT.git (fetch)
+upstream https://github.com/PROJECT_USERNAME/PROJECT.git (push)
+
+6. Create a branch
+Before starting to work on your feature or bugfix you need to create a local branch where to keep all your work. You can do that with the following git command:
+$ git checkout -b BRANCH_NAME
+This will create a new branch and will make it the active one in your local repository. Be sure to use a descriptive name for the branch name.
+You can check you are in the right branch using git:
+$ git branch
+  master
+* BRANCH_NAME
+The current active branch is the one with a * on the left.
+7. Work on your contribution
+Now it’s time to work on the project. It’s very important you keep this very specific and focused on a single feature or bugfix. Trying to squeeze multiple contributions in a single pull request means chaos because it makes it impossible to handle them separately.
+While working on your contribution make sure to pull changes from upstream (the original project) frequently or at least before pushing your changes to origin (your fork). That will force you to fix any possible conflict before submitting your pull request to the project.
+8. Create a pull request
+Once you finished to work on your contribution it’s time to push it to your forked repository on GitHub:
+$ git push origin BRANCH_NAME
+Now go back to your forked project on GitHub in your browser and you will find a new button at the top of the page to create a pull request:
+
+Click the button and you will get a new page which contains all the information on your pull request and where you can submit it to the original project.
+Before finalising the pull request make sure to have checked everything is fine and to include as much information as possible to help the mantainers of the project understand what you have done and why.
+9. Follow up
+Hopefully some of the project mantainers will check your pull request and will give you feedback or notify you they decided to merge your changes soon. They might also ask you to change something or decide not to use your contribution. Anyway everything will be discussed on GitHub and you will receive notifications via email every time someone comments your pull request.
+10. Clean up
+After your contribution has been merged to the main project (or rejected) you can delete the branch you used for it.
+To delete the branch in your local repository:
+git branch -D BRANCH_NAME
+To delete the branch on GitHub:
+git push origin --delete BRANCH_NAME
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+Conclusion
+I hope you enjoyed this tutorial explaining how to contribute to an open source project on GitHub. If you have any question feel free to leave a comment.
+If you found it useful feel free to share it on social media using the social buttons below.
+Subscribe
+Don’t forget to subscribe to the blog newsletter to get notified of future posts.
+You can also get updates following me on Google+, LinkedIn and Twitter.
+
+		
+	
+  ← Previous post
+   
+
+
+
+
+	    7 Comments
+
+		
+		
+			
+				Sverrir Sigmundarson November 5, 2016 at 7:36 pm
+
+			
+			
+				Excellent guide, but missing one very important and complicated aspect that is crucial. 
+How do you successfully update your fork and then your feature branch while still retaining your change commits when the upstream branch changes?
+Add that and this is pretty much complete.
+			 
+			   Reply ↓			
+			   			
+		
+	
+	
+		
+			
+				Stefan Gloutnikov November 5, 2016 at 8:49 pm
+
+			
+			
+				Great article! Only thing maybe to add is how to pull new changes from the original project into your local master, if there have been any since originally cloned:
+‘git fetch upstream’
+‘git checkout master’
+‘git merge upstream/master’
+			 
+			   Reply ↓			
+			   			
+		
+	
+	
+		
+			
+				Milosh Bilosh November 5, 2016 at 9:48 pm
+
+			
+			
+				Great article. I’ll definitely reference it to Github newcomers.
+			 
+			   Reply ↓			
+			   			
+		
+	
+	
+		
+			
+				Andrew Ribeiro November 5, 2016 at 9:57 pm
+
+			
+			
+				I’ll pass this out to some people that I always have to go over this with. Thanks for the article.
+			 
+			   Reply ↓			
+			   			
+		
+	
+	
+		
+			
+				David Phillips November 5, 2016 at 11:24 pm
+
+			
+			
+				You can update your local  branch using this command: git pull –rebase upstream master
+			 
+			   Reply ↓			
+			   			
+		
+	
+	
+		
+			
+				Pd November 6, 2016 at 1:37 am
+
+			
+			
+				Point 1 should be Choose not Chose.
+			 
+			   Reply ↓			
+			   			
+		
+	
+	
+		
+			
+				Adnan November 6, 2016 at 9:00 am
+
+			
+			
+				Awesome. Short and sweet. No useless nonsense.
+			 
+			   Reply ↓			
+			   			
+		
+	
+		
+			Leave a Comment Cancel reply				
+					Your email address will not be published. Required fields are marked * 
+ 
+ 
+				
+					
+		
+       
+   
+ Newsletter			
+
+    
+	Get post updates straight into your mailbox
+
+	Email Address 
+	
+	
+		
+		
+	    
+    
+    
+    
+
+
+(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);
+		 Follow Me! Sponsored by			
+
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+		 Categories		Android
+
+	AS3
+
+	Benchmarks
+
+	Blog & Website
+
+	C++
+
+	Desktop Stories
+
+	Gamedev
+
+	Git
+
+	Google+
+
+	libgit2
+
+	Libraries
+
+	Libraries and Frameworks
+
+	Linux
+
+	Projects
+
+	Qt
+
+	Rugby
+
+	Shade
+
+	Social Networks
+
+	System Administration
+
+	Unboxing
+
+	Uncategorized
+
+	Webdev
+
+	Websites
+
+	Work
+
+		 Hosted by			
+			
+
+		 Lend & Borrow Money			
+
+
+		
+		 Recent Posts	How to contribute to an open source project on GitHub
+			How to create an application with Qt and C++
+			How to traverse a git repository using libgit2 and C++
+			Performance of raw pointers vs smart pointers in C++11
+			New website launched: IndieDevMap
+			Sim Betting Football released for Android
+			Go to a particular commit of a git repository with submodules
+			Android version distribution history: April 2014 – 2016
+		 Google+			
+
+		 Linkedin			
+		 Twitter			Tweets by vivaladav 
+		 
+   
+			© 2014-2015 Davide Coppola
+		 
+ 
+
+        //<![CDATA[
+        
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      
+      window.___gcfg = {lang: "en"};
+		  (function() {
+		    var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;
+		    po.src = "https://apis.google.com/js/plusone.js";
+		    var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s);
+		  })();
+      
+        //]]>
+  		
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+    function path()
+    {
+      var args = arguments,
+          result = []
+          ;
+      for(var i = 0; i < args.length; i++)
+          result.push(args[i].replace('@', 'http://blog.davidecoppola.com/wp-content/plugins/syntax-highlighter-with-add-button-in-editor/scripts/'));
+      return result
+    };
+    SyntaxHighlighter.autoloader.apply(null, path(
+      'applescript            @shBrushAppleScript.js',
+      'actionscript3 as3      @shBrushAS3.js',
+      'bash shell             @shBrushBash.js',
+      'coldfusion cf          @shBrushColdFusion.js',
+      'cpp c                  @shBrushCpp.js',
+      'c# c-sharp csharp      @shBrushCSharp.js',
+      'css                    @shBrushCss.js',
+      'delphi pascal          @shBrushDelphi.js',
+      'diff patch pas         @shBrushDiff.js',
+      'erl erlang             @shBrushErlang.js',
+      'groovy                 @shBrushGroovy.js',
+      'java                   @shBrushJava.js',
+      'jfx javafx             @shBrushJavaFX.js',
+      'js jscript javascript  @shBrushJScript.js',
+      'perl pl                @shBrushPerl.js',
+      'php                    @shBrushPhp.js',
+      'text plain             @shBrushPlain.js',
+      'ps                     @shBrushPowerShell.js',
+      'py python              @shBrushPython.js',
+      'ruby rails ror rb      @shBrushRuby.js',
+      'sass scss              @shBrushSass.js',
+      'scala                  @shBrushScala.js',
+      'sql                    @shBrushSql.js',
+      'vb vbnet               @shBrushVb.js',
+      'xml xhtml xslt html    @shBrushXml.js',
+      'other                  @shBrushOther.js'
+    ));
+    SyntaxHighlighter.defaults['auto-links'] = true;
+    SyntaxHighlighter.defaults['collapse'] = false;
+    SyntaxHighlighter.defaults['first-line'] = 1;
+    SyntaxHighlighter.defaults['gutter'] = true;
+    SyntaxHighlighter.defaults['smart-tabs'] = true;
+    SyntaxHighlighter.defaults['tab-size'] = 4;
+    SyntaxHighlighter.defaults['toolbar'] = true;
+    SyntaxHighlighter.config.tagName = "pre";
+	SyntaxHighlighter.config.clipboardSwf = 'http://blog.davidecoppola.com/wp-content/plugins/syntax-highlighter-with-add-button-in-editor/scripts/clipboard.swf';
+    SyntaxHighlighter.all();
+    

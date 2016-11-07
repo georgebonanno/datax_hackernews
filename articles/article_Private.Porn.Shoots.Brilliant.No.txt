@@ -1,0 +1,343 @@
+Private Porn Shoots!  Brilliant?  No. | Popehat
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"https:\/\/popehat.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a){var c,d=b.createElement("canvas"),e=d.getContext&&d.getContext("2d");return e&&e.fillText?(e.textBaseline="top",e.font="600 32px Arial","flag"===a?(e.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),d.toDataURL().length>3e3):"diversity"===a?(e.fillText(String.fromCharCode(55356,57221),0,0),c=e.getImageData(16,16,1,1).data.toString(),e.fillText(String.fromCharCode(55356,57221,55356,57343),0,0),c!==e.getImageData(16,16,1,1).data.toString()):("simple"===a?e.fillText(String.fromCharCode(55357,56835),0,0):e.fillText(String.fromCharCode(55356,57135),0,0),0!==e.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//popehat.com/?wordfence_logHuman=1&hid=E7CD16D07C75323DB6F93A7F09DEA5F1');
+
+.nav-header {
+    margin-top: 50px;
+}
+.site-title a { background: url(https://popehat.com/wp-content/uploads/2015/08/popehat_logo_filled.png) no-repeat !important; }try{Typekit.load({ async: true });}catch(e){} .simple-social-icons ul li a, .simple-social-icons ul li a:hover { background-color: #f6f5f2 !important; border-radius: 3px; color: #aaaaaa !important; border: 0px #ffffff solid !important; font-size: 18px; padding: 9px; }  .simple-social-icons ul li a:hover { background-color: #000000 !important; border-color: #ffffff !important; color: #ffffff !important; }
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-60272044-1', 'auto');
+  ga('send', 'pageview');
+PopehatA Group Complaint about Law, Liberty, and LeisureAbout
+Free Speech Resources
+Blogroll
+Free Speech
+Criminal Justice
+Law
+Politics & Current Events
+Fun
+Art
+Geekery
+Gaming
+Private Porn Shoots!  Brilliant?  No. 
+November 6, 2016 by Randazza 5 Comments 
+I often get asked the question, "why isn't porn prostitution?"  That led to a post a while back, Why is Prostitution Illegal, but Pornography is Not?  And, perennially, a reporter will call me up and want a class on it.  See, e.g., What's the Difference Between Porn and Prostitution?  Being asked this so many times, I finally wrote a 42 page law review article answering that question in more detail.  Suffice to say that I know this shit.  Yeah, my mom is super proud. 
+What I wish I had put in that my law review article is the answer to the now-more-frequent follow up question, "If I bring a camera to a date with a hooker, does that make it legal?"  How about if I set up a brothel, but call it a "film studio?"  
+Nice try.
+As I explained in The Freedom to Film Pornography, courts that have considered the issue of porn v. prostitution acknowledge that you can't just add a camera to a crime and call it "art."  Otherwise, criminals would just strap on a helmet cam and go act like super-predators that haven't been brought to heel, right?  
+In the case of pornography, the actors are paid to be in the film, not for the sexual act. They are not filming prostitution, they are filming a sexual performance, and prohibiting this would be an unjustified infringement upon free expression. Accordingly, the state can not use a prostitution statute as a back door prohibition on adult film production. 
+So where is the line?
+It will partially depend on the state.  State prostitution statutes fall into two categories: Sexual gratification prohibitions, or sexual contact prohibitions.  
+If you're in a gratification prohibition state, like California or New Hampshire, then the law will prohibit you from exchanging money for sexual gratification.  However, exchanging money for sexual performances is ok.  See People v. Freeman, 758 P.2d 1128 (Cal. 1988); State v. Theriault, 960 A.2d 687 (N.H. 2008).  If you're in a contact state, then the performance might technically fit the prostitution statute, but either the First Amendment or the state constitution's free speech clause will protect the creation of a bona fide production.   
+So, why can't we just stick a tripod up and run a brothel?
+I really shouldn't publish this.  I get a handful of calls per year from guys who think they're the first geniuses to come up with the great idea of setting up a "Freeman Brothel" and calling it a "film studio." They're all disappointed when I tell them that they're not getting away with this "brilliant plan" unless they take so many steps to make it look legitimate that it will, in fact, become a legitimate porn production enterprise — in which case, why bother with the ruse in the first place?  
+So, lets just go over a few of the details.  
+If you get arrested, you're going to need to show that you were indeed creating a film, rather than just creating evidence of a crime.  IEven a third-rate prosecutor will be able to call out your bullshit, if bullshit it is.  
+What makes a bona fide film?  
+That can be a pretty low standard.   
+In State v. Theriault, Mr. Theriault came about as close to the line as I can imagine.   Robert Theriault was working as a court security officer when C.H. and J.S. came into the court to pay some fines. Theriault learned that the woman was “in a dire financial situation.” He then asked the couple if they “needed employment.”
+After informing them that he could not discuss the job at the courthouse, he met them in a parking lot behind a bank. The defendant asked the couple if they wanted to make “f . . . flicks.” The defendant specified the details: he would pay them fifty dollars per hour, he would rent a hotel room, and they would use temperature blankets and different condoms while the defendant videotaped them having intercourse. (Theriault, 960 A.2d at 688)
+If that sounds shady, at least Theriault conditioned the offer on the taping taking place in a private hotel room “so [they] didn’t feel uncomfortable.” The State charged him with violating the prostitution statute by offering to pay another to engage in sexual contact.
+The New Hampshire Supreme Court succinctly summarized the issues as follows:
+The facts boil down to the defendant offering to remunerate the couple to have sexual intercourse while being videotaped. There was no evidence or allegation that the defendant solicited this activity for the purpose of sexual arousal or gratification as opposed to making a video. The State did not charge the defendant under the “sexual contact” portion of the statute and therefore there was no finding by the trial court that the defendant acted for the purpose of sexual arousal or gratification. Thus, if the statute constitutionally prohibits the defendant’s conduct, a request to pay two individuals to make a sexually explicit video would be unprotected under the free speech guarantees of the State Constitution. (Id. at 690)
+Despite Theriault’s unorthodox proposal, the only evidence in the record was that Theriault intended to make pornography — not that he was just videotaping his jollies.  
+So what about your hypothetical "Freeman/Theriault Brothel?"  
+Lets go over the details…
+When you get busted, will there be evidence that you're actually making a film?  Is the "director" also starring in the movie.  That's a pretty sure sign that you're fucked, so to speak.    
+In United States v. Roeder, 526 F.2d 736, 737 (10th Cir. 1975) the defendant was prosecuted under the Mann Act.  The Mann Act prohibits the interstate transportation of any individual in order to have that person engage in prostitution.  Roeder was convicted when he was prosecuted for driving a woman from Missouri to Kansas to be in a porn film.  Since Roeder hired her to engage in sexual conduct, drove her across state lines for that purpose, it met the definition of “prostitution.”  The Tenth Circuit upheld the conviction.  The key fact was that Roeder himself was going to be in the movie along with the woman.  Therefore, “he fulfilled not only the broad Supreme Court definition of prostitution, but the more basic and narrower understanding of prostitution by being the ‘customer’ who paid a woman to have sex with him.”
+So, are you Roeder?  Are you going to pay a girl to screw you on camera?  Then don't expect a Freeman style defense to be easy.  Not impossible, but not easy.  If not, who is going to film the sex acts?  You gonna charge a guy $1,000 to screw a girl, and some other dude is in there with a camera?  I can't even jerk off to a porn video if the camera pans to the dude's face.  I'm gonna bang a girl with someone holding a go-pro aimed at my taint?  That might turn some of your clientele on, but that's not gonna work for mass market.  
+Who booked the girl?  How about the guy?  Who is the guy?  Is he an actor?  Is he someone that anyone wants to see in a porn movie?  Sure, that's just a matter of taste, but if this bust takes place in a hotel room in Vegas, where the "male lead" has the same mass-market sexual appeal of Karl Rove, and he just so happens to be in town for the National Association of Manufacturers conference, and he is starring in his first porn production, and the production took place on Saturday night after a bunch of drinks and blow, how the fuck do you think it looks, dumbass?  
+Ok, lets say that it looks legit.  Frankly, at that point, it looks about as legit as a rusty 1976 Econoline van with "FREE CANDY" spray painted on the side, with you driving in a clown suit with an ether soaked rag in your hand.  But, if you already got this far, and you're not yet convinced, you're a special kind of stupid… so lets continue.   
+Lets see your 2257 records.  
+What are those?  
+What are those, asks the "porn producer?"  Those are required for any commercial porn, or porn that you think might wind up being commercial, under 18 U.S.C. § 2257?  Did you take a copy of the two (or more) actors' ID cards?  Did you keep them?  Did you cross reference them?  No?  That's a five year felony, you imbecile.  
+So you're gonna tell Charlie Conventioneer that he can come to your handy dandy Freeman Brothel, and all he has to do is pay you for the girl, AND let you take a copy of his ID, and then he bangs the girl while some other guy runs around the room filming it?  
+And even if he agrees to all that, you still might not win.    
+How about other facts?  Do you have any storyboards?  Do you have any scripts?  Ok, lots of porn productions don't.  Do you have a business plan?  Any way that you intend to distribute it?  What kind of camera are you using?  Is this your first porn video?  
+Are you really going to argue that this is just for your private collection?  Do you HAVE a private collection?  If it is for a private collection, how did all these people wind up in your hotel room?    
+There is no one fact that will be dispositive, and you could certainly be a rank amateur, like Theriault, and get away with it — but, if you're just trying to throw a First Amendment cover over genuine prostitution, no judge or jury is likely to believe you.  
+But, by all means, give it a try.  
+I'll do my best to defend you, but you're gonna have to pay your money up front.
+No, it isn't going to be cheap.  
+
+Last 5 posts by RandazzaPrivate Porn Shoots!  Brilliant?  No. - November 6th, 2016Yes, Vote Swapping, Vote Pairing, Trump Trading is Legal - November 5th, 2016No, Porn is Not Prostitution - and you can film it anywhere in America - November 4th, 2016No, the ABA Did Not "Censor" a Story About Donald Trump Being a Censorious Asshat - October 26th, 2016Rejoice:  The 9th Circuit Fixed its Octane Fitness Problem - October 25th, 2016Click to share on Twitter (Opens in new window)Share on Facebook (Opens in new window)Click to share on Google+ (Opens in new window)Click to share on Reddit (Opens in new window)Click to share on LinkedIn (Opens in new window)Click to share on Tumblr (Opens in new window)Click to email this to a friend (Opens in new window)Click to share on Pinterest (Opens in new window)
+Filed Under: Law Comments
+	
+				M. Alan Thomas II says		 	
+
+			
+				November 6, 2016 at 4:02 pm
+		
+			
+			A lot of prorn these days is produced in part by the performers, but I imagine that in at least some of those cases, payment is essentially royalty-based rather than upfront, which would show both commercial intent and distance the payment from the sex at itself. (Think mom-and-pop productions. Alternatively, imagine how weird it would be for two people to hand each other identical amounts of money for an act they were jointly producing and starring in.) But I'm not an expert on business arrangements in these sorts of things.
+I'm also not sure that analysis works for customers paying for live webcam shows, but I'm not sure if those are within the mainstream porn business.
+I'm amazed that no-one has brought up the fact that actually participating in a quality porn shoot isn't necessarily sexually gratifying. Make all the jokes you want, but it's my impression that six straight hours of sex while being bossed around by a director is neither physically nor emotionally anywhere near as fun as recreational sex.
+		
+
+		
+		
+	
+
+	
+	
+				Paul says		 	
+
+			
+				November 6, 2016 at 6:39 pm
+		
+			
+			Posts like this are very comforting. They indicate that any of the possible reasons I may have for needing a defense attorney are almost certainly bound to be light-years from the most foolish or bizarre reasons said attorney has been approached.
+Maybe my life is a little too boring?
+		
+
+		
+		
+	
+
+	
+	
+				Dan says		 	
+
+			
+				November 7, 2016 at 5:51 am
+		
+			
+			CRAP!  Back to the drawing board.  What if I ran a "church" that took "donations" from "parishioners" who wanted to  "meditate" with the "nuns"… even better actually because it's tax-exempt!  BRB buying sexy nun outfits
+DISCLAIMER: The above is a joke and I have no intention of doing anything of the sort
+		
+
+		
+		
+	
+
+	
+	
+				Randazza says		 	
+
+			
+				November 7, 2016 at 8:16 am
+		
+			
+			Dammit!!!! NOW I HAVE TO WRITE ANOTHER POAST!
+		
+
+		
+		
+	
+
+	
+	
+				Joe Dokes says		 	
+
+			
+				November 7, 2016 at 8:35 am
+		
+			
+			Dan,
+Long story short, it's been tried and the court didn't buy it. 
+Regards,
+		
+
+		
+		
+	
+				
+			Leave a Reply Cancel reply				
+					Your email address will not be published. Required fields are marked *Comment Name * 
+Email * 
+Website 
+Notify me of follow-up comments by email.Notify me of new posts by email.				
+					
+		Search Site
+			
+
+(adsbygoogle = window.adsbygoogle || []).push({});
+
+					
+
+
+		Quote of the Month
+			"I'm only an abstract imaginary foil written to sound like an idiot and even I know that's really stupid" ~ Kenfoilhat (previous)
+		feed our server!
+			Browse (and buy!) our book and media recommendations at the:Popehat Amazon Store!
+ Amazon.com Widgets
+If you buy stuff through this link or via that search box or from the store, then our creature lives!
+		Twitface
+			Follow Popehat (mostly Ken & Patrick), David, Grandy, Charles, Via Angus, Adam, and Marc on Twitter.
+Become a fan on Facebook.
+
+		Subscribe
+			RSSComments RSS
+
+		Past Posts By Month
+		Past Posts By Month
+		Select Month November 2016  (6) October 2016  (11) September 2016  (6) August 2016  (6) July 2016  (7) June 2016  (14) May 2016  (6) April 2016  (21) March 2016  (6) February 2016  (17) January 2016  (20) December 2015  (40) November 2015  (6) October 2015  (10) September 2015  (21) August 2015  (15) July 2015  (14) June 2015  (13) May 2015  (15) April 2015  (18) March 2015  (10) February 2015  (6) January 2015  (7) December 2014  (4) November 2014  (16) October 2014  (12) September 2014  (42) August 2014  (20) July 2014  (15) June 2014  (3) May 2014  (10) April 2014  (14) March 2014  (9) February 2014  (14) January 2014  (22) December 2013  (28) November 2013  (60) October 2013  (71) September 2013  (43) August 2013  (49) July 2013  (40) June 2013  (20) May 2013  (34) April 2013  (56) March 2013  (45) February 2013  (31) January 2013  (6) December 2012  (32) November 2012  (31) October 2012  (46) September 2012  (33) August 2012  (17) July 2012  (51) June 2012  (64) May 2012  (99) April 2012  (22) March 2012  (33) February 2012  (8) January 2012  (35) December 2011  (35) November 2011  (1) October 2011  (38) September 2011  (52) August 2011  (33) July 2011  (24) June 2011  (58) May 2011  (115) April 2011  (26) March 2011  (26) February 2011  (16) January 2011  (29) December 2010  (57) November 2010  (85) October 2010  (40) September 2010  (24) August 2010  (81) July 2010  (82) June 2010  (45) May 2010  (40) April 2010  (64) March 2010  (62) February 2010  (30) January 2010  (31) December 2009  (38) November 2009  (67) October 2009  (83) September 2009  (108) August 2009  (79) July 2009  (91) June 2009  (133) May 2009  (90) April 2009  (100) March 2009  (88) February 2009  (93) January 2009  (117) December 2008  (102) November 2008  (85) October 2008  (29) September 2008  (128) August 2008  (143) July 2008  (209) June 2008  (213) May 2008  (197) April 2008  (209) March 2008  (131) February 2008  (87) January 2008  (93) December 2007  (49) November 2007  (103) October 2007  (50) September 2007  (4) April 2006  (1) November 2004  (12) September 2004  (10)Posts By Category
+Posts By CategorySelect CategoryAdoption  (43)Art  (95)Boardgames  (37)Books  (109)Culture  (272)Education  (8)Effluvia  (1,012)Food  (47)Fun  (101)Gaming  (233)Geekery  (328)History  (70)Humor  (269)In Memoriam  (3)Irksome  (307)Language  (62)Law  (1,111)Law Practice  (242)Life  (187)Meta  (209)Movies  (83)Music  (31)Philosophy  (11)Poetry  (7)Politics & Current Events  (1,593)Reruns  (55)Science  (126)Sports  (70)Technology  (141)Television  (65)Theater  (2)Travel  (17)Ur-Popehat  (23)WTF?  (437)
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "cat" );
+	function onCatChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+			location.href = "https://popehat.com/?cat=" + dropdown.options[ dropdown.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onCatChange;
+})();
+/* ]]> */
+    All content is copyright 2004-2016 by its respective identified authors. Google's Ad PolicyWebsite Design by CGD	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+		window.WPCOM_sharing_counts = {"https:\/\/popehat.com\/2016\/11\/06\/private-porn-shoots-brilliant-no\/":25836};
+	
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-twitter' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtwitter', 'menubar=1,resizable=1,width=600,height=350' );
+				return false;
+			});
+		});
+		
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-facebook' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );
+				return false;
+			});
+		});
+		
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-google-plus-1' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=480,height=550' );
+				return false;
+			});
+		});
+		
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-linkedin' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomlinkedin', 'menubar=1,resizable=1,width=580,height=450' );
+				return false;
+			});
+		});
+		
+			var windowOpen;
+		jQuery(document).on( 'ready post-load', function(){
+			jQuery( 'a.share-tumblr' ).on( 'click', function() {
+				if ( 'undefined' !== typeof windowOpen ){ // If there's another sharing window open, close it.
+					windowOpen.close();
+				}
+				windowOpen = window.open( jQuery(this).attr( 'href' ), 'wpcomtumblr', 'menubar=1,resizable=1,width=450,height=450' );
+				return false;
+			});
+		});
+		
+		
+			Send to Email Address
+			Your Name
+				Your Email Address
+				 document.getElementById('jetpack-source_f_name').value = ''; Cancel
+
+			
+				Post was not sent - check your email addresses!			
+
+			
+				Email check failed, please try again			
+
+			
+				Sorry, your blog cannot share posts by email.			
+		
+	
+		
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"https:\/\/popehat.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ...","cached":"1"};
+/* ]]> */
+
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+
+/* <![CDATA[ */
+var quicktagsL10n = {"closeAllOpenTags":"Close all open tags","closeTags":"close tags","enterURL":"Enter the URL","enterImageURL":"Enter the URL of the image","enterImageDescription":"Enter a description of the image","textdirection":"text direction","toggleTextdirection":"Toggle Editor Text Direction","dfw":"Distraction-free writing mode","strong":"Bold","strongClose":"Close bold tag","em":"Italic","emClose":"Close italic tag","link":"Insert link","blockquote":"Blockquote","blockquoteClose":"Close blockquote tag","del":"Deleted text (strikethrough)","delClose":"Close deleted text tag","ins":"Inserted text","insClose":"Close inserted text tag","image":"Insert image","ul":"Bulleted list","ulClose":"Close bulleted list tag","ol":"Numbered list","olClose":"Close numbered list tag","li":"List item","liClose":"Close list item tag","code":"Code","codeClose":"Close code tag","more":"Insert Read More tag"};
+/* ]]> */
+
+/* <![CDATA[ */
+var sharing_js_options = {"lang":"en","counts":"1"};
+/* ]]> */
+
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.8.3',blog:'3393078',post:'25836',tz:'-7',srv:'popehat.com'} ]);
+	_stq.push([ 'clickTrackerInit', '3393078', '25836' ]);
+

@@ -1,0 +1,69 @@
+Macintosh in 1984
+
+    
+      
+ GUIs Site News Xerox Visi On GEM Deskmate GEOS Desqview/X AmigaOS RISC OS BeOS QNX OS/2 Apple Linux/Unix Windows Win Shells Misc GUIs GUI Timeline GUI Sites
+            
+Location: GUIs > 
+ Apple > 
+Macintosh in 1984The Macintosh in 1984
+
+There are a number of Macintosh history sites out there,  but I
+wanted to post some early MacOS screen shots that I thought were interesting.
+These screenshots were made using the vMac
+emulator running MacOS 1.1,  I would have used 1.0, but it wouldn't
+run right under vMac. Aside from a couple of menu items added under the
+"Special" menu, 1.1 reportedly looks the same as 1.0 which was released
+on January 1984.
+As the Macintosh boots up it displays a happy macintosh picture to
+let the user know everything is OK.
+Typically, the Macintosh starts up the Finder application. The Finder
+is the MacOS's program for managing files and launching applications. The
+Finder's user interface is far superior to that of  the "MS-DOS Executive"
+used in Microsoft's Windows 1.x and 2.x or even the Program Manager / File
+Manager of Windows 3.x. It wasn't until Windows 95 (11 years later) that
+Microsoft would even come close to the look and feel of the Finder - then
+they threw it all away and replaced it with a web browser in Windows 98.
+Disks, when inserted, appear directly on the desktop allowing for very
+easy access to files. Double clicking the disk icon opens a file window.
+Finder windows open with a zooming effect.
+Finder windows can be dragged around the screen by "grabbing" the title
+bar with the mouse. Clicking the small box in the upper left of the window
+closes the window.
+Files and folders can be dragged to the desktop - although they do not
+actually exist there. The item is not copied or moved to another location,
+only the icon is displaced from the folder where it really is and displayed
+on the desktop instead  The Trash icon works in a similar manner,
+holding icons until the Empty Trash option is selected and the files are
+deleted.
+Files can be renamed by clicking on the name underneath the file's icon
+and typing the new name.
+Files and folder can be moved or copied by dragging and dropping them
+in to folders or drives.
+File folders can be viewed as icons (default) or as a list sorted by
+size, name, kind or date. The list view is not quite as friendly as the
+icon view in this early version of MacOS as list items can not be dragged
+like regular icons.
+The finder has a number of desktop accessories, including a rather
+visually compact control panel. The control panel lets you adjust the volume
+(sound in a 1984 IBM PC was unheard of, other than the beeper that couldn't
+be shut off), mouse speed (most 1984 PCs didn't even have anything to click
+at yet), the time (already Y2K compliant!), keyboard repeat rates, cursor
+blink speed, the background pattern, double click speed, and the number
+of times a menu item blinks when you select it.
+While the desktop accessories run windowed, other applications run
+using the entire screen (newer MacOS allows multiple programs to share
+the screen). They also get their own set of menus - there is always only
+one menu visible. This works very well on small displays as it conserves
+valuable screen space, but in my opinion, on very large displays this could
+sometimes be an annoyance.
+This is on a tour disk, and I found this particular option very interesting.
+All of this was designed to run in 128k of RAM. Makes you really wonder
+why Windows 2000 requires 128 MEGS to run. And the best thing about
+all of this is there is no stupid web "integration"!
+They killed Macintosh! You bastards! I guess this is the Macintosh
+equivalent of the BSOD.  I got this while trying to exit one of the
+programs. It could just be a problem with running under vMac.
+
+Back to The GUI Gallery          
+    

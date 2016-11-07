@@ -1,0 +1,247 @@
+blog dds: 2016.03.18 - Verifying the Substitution Cipher Folklore
+blog dds
+
+	
+	
+	2016.03.18Verifying the Substitution Cipher Folklore
+
+A substitution cipher has each letter substituted with another.
+Cryptography folklore has it that simple substitution ciphers
+are trivial
+to break by looking at the letter frequencies of the encrypted text.
+I tested the folklore and the results were not quite what I was expecting.
+
+
+
+Here is a series of examples I prepared for a course on the use of Unix
+command-line tools.
+
+Encryption
+
+Bob fetches a copy of Jane Austen's Pride and Prejudice
+and encrypts it with a rot13 cipher.
+(Each letter is substituted with the one 13 places after it.)
+
+curl -L http://www.gutenberg.org/ebooks/1342.txt.utf-8 >pride-and-prejudice.txt
+tr '[A-Za-z]' '[N-ZA-Mn-za-m]' <pride-and-prejudice.txt >secret
+head -40 secret
+
+
+Gur Cebwrpg Thgraoret RObbx bs Cevqr naq Cerwhqvpr, ol Wnar Nhfgra
+
+Guvf rObbx vf sbe gur hfr bs nalbar naljurer ng ab pbfg naq jvgu
+nyzbfg ab erfgevpgvbaf jungfbrire.  Lbh znl pbcl vg, tvir vg njnl be
+er-hfr vg haqre gur grezf bs gur Cebwrpg Thgraoret Yvprafr vapyhqrq
+jvgu guvf rObbx be bayvar ng jjj.thgraoret.bet
+
+
+Gvgyr: Cevqr naq Cerwhqvpr
+
+Nhgube: Wnar Nhfgra
+
+Cbfgvat Qngr: Nhthfg 26, 2008 [RObbx #1342]
+Eryrnfr Qngr: Whar, 1998
+Ynfg hcqngrq: Sroehnel 15, 2015]
+
+Ynathntr: Ratyvfu
+
+
+*** FGNEG BS GUVF CEBWRPG THGRAORET ROBBX CEVQR NAQ CERWHQVPR ***
+
+
+
+
+Cebqhprq ol Nabalzbhf Ibyhagrref
+
+
+
+
+
+CEVQR NAQ CERWHQVPR
+
+Ol Wnar Nhfgra
+
+
+
+Puncgre 1
+
+
+Vg vf n gehgu havirefnyyl npxabjyrqtrq, gung n fvatyr zna va cbffrffvba
+
+
+Derived Frequency Tables
+
+Alice, faced with the secret text, creates a function that
+creates a string of letters based on the frequency of their
+occurrence.
+This can then be readily passed to the Unix tr program.
+
+freqlist()
+{
+  # Add a newline after each character
+  sed 's/./&\
+/g' |
+  sort |
+  uniq -c |  # Count number of occurrences
+  sort -rn | # Order by frequency
+  # Output letters in order of frequency
+  awk 'BEGIN { ORS = ""} /[A-Za-z]/ { print $2 }'
+}
+echo bbbooooa | freqlist
+
+
+oba
+
+
+Decryption Using the Frequency Tables
+
+Alice, then fetches a copy of
+Fyodor Dostoyevsky's The Brothers Karamazov
+and uses its frequency table to decrypt the secret file.
+
+curl -L http://www.gutenberg.org/files/28054/28054-0.txt >karamazov.txt
+tr $(freqlist <secret) $(freqlist <karamazov.txt) <secret | head -40
+
+Given the size of the two volumes' text, I was expecting that this
+would yield an almost perfect result.
+In fact, the result still needs significant guesswork to decrypt.
+
+xie zsaGeyt Cutenbesg MTaak ac zshde ond zseGudhye, bw Oone Kurten
+
+xihr eTaak hr cas tie ure ac onwane onwfiese ot na yart ond fhti
+olmart na sertshythanr fiotraeves.  Dau mow yapw ht, ghve ht ofow as
+se-ure ht undes tie tesmr ac tie zsaGeyt Cutenbesg Whyenre hnyluded
+fhti tihr eTaak as anlhne ot fff.gutenbesg.asg
+
+
+xhtle: zshde ond zseGudhye
+
+Kutias: Oone Kurten
+
+zarthng Pote: Kugurt 26, 2008 [MTaak #1342]
+Eeleore Pote: Oune, 1998
+Wort updoted: Rebsuosw 15, 2015]
+
+Wonguoge: Mnglhri
+
+
+*** qxKEx LR xBIq zELOMFx CZxMNTMEC MTLLV zEIPM KNP zEMOZPIFM ***
+
+
+
+
+zsaduyed bw Knanwmaur Jalunteesr
+
+
+
+
+
+zEIPM KNP zEMOZPIFM
+
+Tw Oone Kurten
+
+
+
+Fioptes 1
+
+
+It hr o tsuti unhvesrollw oyknafledged, tiot o rhngle mon hn parrerrhan
+
+Analysis
+We can see what's behind this problem by juxtaposing  the frequency tables
+of the two original texts.
+freqtable()
+{
+  # Add a newline after each character
+  sed 's/./&\
+/g' |
+  sort |
+  uniq -c |  # Count number of occurrences
+  sort -rn   # Order by frequency
+}
+paste <(freqtable <pride-and-prejudice.txt) <(freqtable <karamazov.txt) |
+head -26
+
+
+ 113924  	 326094
+  70342 e	 179662 e
+  47281 t	 135591 t
+  42154 a	 119653 o
+  41137 o	 118778 a
+  38428 n	 100838 n
+  36272 i	  95854 h
+  33881 h	  94224 i
+  33292 r	  88808 s
+  33291 s	  79674 r
+  22246 d	  64746 d
+  21282 l	  61446 l
+  15441 u	  45870 u
+  13426 	  38943 m
+  13401 m	  37557 y
+  13394 c	  36483
+  12654 y	  32540 w
+  12177 f	  31728 c
+  11922 w	  30709 f
+  10160 g	  30629 ,
+   9280 ,	  28299 g
+   8386 p	  22813 .
+   8249 b	  21469 p
+   6396 .	  19873 b
+   5811 v	  18626 v
+   3553 "	  12940 k
+
+
+As you can see, the first two rows match the picture given in
+cryptology texts: the most frequent letters are indeed e and then t.
+However,
+then things get messier: o and a are swapped, as are h and i and r and s.
+Jane Austen's book contains 124 thousand words and yet a simple
+frequency analysis did not yield a good-enough decryption.
+Decrypting a message of only a few lines would be even more difficult.
+The moral of the story is that, contrary to what's often claimed
+in cryptology books, decrypting a simple substitution cipher
+may be easy but it's definitely not trivial.
+
+
+
+ Read and post comments, or share through   
+
+
+
+
+
+	
+	
+
+Navigation
+
+blog contents dds blog dds home comments« Raspberry Pi vs USB vs Mac Audio » The Computer Tube Tagged as
+SecurityUnix
+
+Debug Like a Master
+
+
+
+Compute with Style
+
+
+
+Wikipedialize
+
+
+
+		
+
+	
+
+
+
+
+Last modified: Friday, March 18, 2016 11:30 am
+
+Unless otherwise expressly stated, all original material on this page created by Diomidis Spinellis is licensed under a Creative Commons Attribution-Share Alike 3.0 Greece License.
+		
+
+
+
+

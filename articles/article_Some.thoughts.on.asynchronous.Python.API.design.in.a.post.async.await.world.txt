@@ -1,0 +1,2152 @@
+Some thoughts on asynchronous API design in a post-async/await world — njs blog
+  njs blog
+Atom
+My homepage
+    Blog archive
+
+    
+
+  Some thoughts on asynchronous API design in a post-async/await world
+    
+Sat 05 November 2016
+I've recently been exploring the exciting new world of asynchronous
+I/O libraries in Python 3 – specifically asyncio and curio. These two libraries make some
+different design choices. This is an essay that I wrote to try to
+explain to myself what those differences are and why I think they
+matter, and distill some principles for designing event loop APIs and
+asynchronous libraries in Python. This is a quickly changing area and
+the ideas here are very much still under development, so this text
+probably assumes all kinds of background knowledge and possibly that
+you live inside my head – but maybe you'll find it interesting
+anyway. I'd love to hear what you think or
+discuss further.
+
+Contents:
+The curious effectiveness of curio
+Callback soup considered harmful
+Example: a simple proxy serverThree examplesExample #1: asyncio, with callbacks
+Example #2: curio, with async/await
+Example #3: asyncio, with async/await
+
+Three bugsBug #1: backpressure
+Bug #2: read-side buffering
+Bug #3: closing time
+
+
+C-c-c-c-causality breakerWho needs causality, really?HTTP servers
+Websocket servers
+
+
+Other challenges for hybrid APIsTimeouts and cancellation
+Event loop lifecycle management
+Getting in touch with your event loop
+Context passing / task-local storage
+Implementation complexity
+
+Review and summing up: what is "async/await-native" anyway?
+Open questions...for async/await-native APIsOrphan tasks
+Cleanup in generators and async generators
+
+...for the Python asynchronous I/O ecosystemDo you really think everyone's going to abandon callbacks?
+So should I drop asyncio/twisted/etc. and rewrite everything using curio tomorrow?
+Should asyncio be "fixed" to have a curio-style async/await-native API?
+Okay, then should curio switch to using asyncio as a backend? Or what will the story be on cross-event-loop compatibility? I thought asyncio was supposed to be the event loop to end all event loops!
+
+
+Where next?
+Acknowledgements
+
+
+The curious effectiveness of curio
+So here's the tentative conclusion that spurred this essay, and which
+surprised the heck out of me: the more I work with curio, the more
+plausible it seems that in a few years, asyncio might find itself
+relegated to becoming one of those stdlib libraries that savvy
+developers avoid, like urllib2.
+I'm not saying that the library we'll all be using instead will
+necessarily be curio, or that asyncio can't possibly find some way
+to adapt and avoid this fate, or that you should go switch to curio
+right now – the practicalities of choosing a library are
+complicated. Let me put it in bold: This is not an essay about curio
+versus asyncio and which one is "the best". I'll talk a lot about
+those two libraries, but for present puroposes I'm profoundly
+uninterested in things like which one wins at such-and-such
+microbenchmark as of which-ever latest release, and I don't have any
+personal investment in either. The reason I talk about them is because
+they make good illustrative examples of two very different design
+strategies.
+The goal of this essay is to understand is the trade-offs between the
+"curio-style" design strategy versus the "asyncio-style" design
+strategy. So first, I'll try to articulate a conceptual framework for
+understanding what these two strategies actually are, and how they
+differ – this is something I haven't seen discussed elsewhere. Then to
+make that more concrete, I'll walk through some concrete examples
+using the two libraries, and see how these underlying design decisions
+play out in specific real world use cases. It turns out that in these
+examples, the "curio-style" produces better results; I'll try to pull
+out the general principles that explain why this happens, and that
+might give us hints on how to design or improve new APIs for both
+event loops and for the libraries that use them. Unfortunately, one of
+the conclusions I come to is that it's hard to see how these
+advantages could be "retrofitted" to asyncio – but I could be wrong,
+and at least once we understand them we can have a conversation about
+how to make Python's async I/O ecosystem as awesome as possible,
+whatever that ends up looking like; I'll conclude by sketching out
+some possible directions this could go.
+
+
+Callback soup considered harmful
+The basic difference between asyncio and curio comes down to their
+attitude towards Python 3.5's new async/await syntax. But before we
+talk about the best way to use async/await, lets digress to talk about
+why async/await even matters. ...Actually I'm going to digress even
+more then that. Let's start by talking about what programming
+languages are for.
+It's easy to forget sometimes just how much work a modern language
+like Python does to guide and constrain how you put together a
+program. Like, just for the most basic example, consider how simply
+juxtaposing two statements f(); g() expresses ordering: you know
+that g won't start executing until f has finished. Another
+example – the call stack tracks relationships between callers and
+callees, allowing us to decompose our program into loosely-coupled
+subroutines: a function doesn't need to keep track of who called it,
+it can just say return to fire a value into the void, and the
+language runtime makes some magic happen so the value and the control
+flow are delivered simultaneously to the right place. Exception
+handling defines a systematic, structured way to unwind these
+decoupled subroutines when something goes wrong; if you think about it
+this trick of taking the call stack and reusing it as the unwind
+stack is really quite clever. with blocks build on that by giving
+us an ergonomic way to pin the lifetime of resources – file handles
+and so forth – to the dynamic lifetime of these call
+stacks. Iterators track the state needed to bind control flow to the
+shape of data.
+These tools are so fundamental that they disappear into the background
+– when we're typing out code we don't usually stop to think about all
+the wacky ways that things could be done differently. Yet these all
+had to be invented. In functional languages, f(); g() doesn't
+express ordering. Back in the 1970s, the idea of limiting yourself
+to using just function calls, loops, and if statements – goto's
+hamstrung siblings – was *incredibly controversial*. There
+are great living languages that disagree with Python about lots of the
+points above. But Python's particular toolkit has been refined over
+decades, and fits together to provide a powerful scaffolding for
+structuring our code.
+...until you want to do some asynchronous I/O. The traditional way to
+do this is to have an event loop and use callback-based
+programming: the event loop keeps a big table of future events that
+you want to respond to when they happen (e.g., "this socket became
+readable", "that timer expired"), and for each event you have a
+corresponding callback. The event loop takes care of checking for
+events and invoking callbacks, but if you want structure beyond that –
+like the kind of things we just discussed above: causal sequencing,
+delegation to and return from subroutines, error unwinding, resource
+cleanup, iteration – then you get to build that yourself. You can do
+it, just like you can use goto to build loops and function
+calls. Frameworks like Twisted and its descendents have invented all
+kinds of useful strategies for keeping these callbacks organized, like
+protocols
+and deferreds
+/ futures
+<https://docs.python.org/3/library/asyncio-task.html#asyncio.Future>
+and even some kind of exception handling – but these
+are still a pretty thin layer of structure on top of the underlying
+unstructured callback soup, and from the perspective of regular Python
+they're like some other mutant alternative programming language.
+That's why PEP 492
+and async/await are so exciting: they let us take Python's regular
+toolkit for solving these problems, and start using it in asynchronous
+code. Which is awesome, because frankly, Twisted, I love you and
+deferreds are pretty cool, but as abstract languages for describing
+computation go then real-actual-Python is wayyy better.
+And with that background, then, I think I can articulate the key
+difference between asyncio-style event-loop APIs and curio-style
+event-loop APIs:
+Asyncio is first and foremost a traditional callback-based API, with
+async/await layered on top as a supplementary tool. And if you're
+starting from a callback-oriented base, then this is a great addition:
+async/await provide a major boost in usability without disrupting the
+basic framework. Asyncio is what we might call a "hybrid" system:
+callbacks plus async/await.
+Curio takes this a step further, and throws out the callback API
+altogether; it's async/await all the way down. Specifically, it still
+has an event loop, but instead of managing arbitrary callbacks, it
+manages async functions; there's exactly one way it can respond when
+an event fires, and that's by resuming an async call-stack. I'll call
+this the "async/await-native" approach.
+The main point I want to argue in this essay – the point of all the
+examples below – is that if you're using a hybrid API like asyncio,
+then you can ignore the callback API and write structured
+async/await code. But, even if you stick to async/await everywhere,
+the underlying abstractions are leaky, so don't get the full
+advantages. Your async/await functions are dumplings of local
+structure floating on top of callback soup, and this has far-reaching
+implications for the simplicity and correctness of your code. Python's
+structuring tools were designed to fit together as a system – e.g.,
+exception handling relies on the call stack, and with blocks rely
+on exception handling – and if you have a mix of structured and
+unstructured parts, then this creates lots of unnecessary problems,
+even if you stick to the structured async/await layer of the
+library. In a curio-style async/await-native API, by contrast, your
+whole program uses this one consistent set of structuring principles,
+and this consistency – it turns out – has pervasive benefits.
+What I'm arguing, in effect, is that asyncio is a victim of its own
+success: when it was designed, it used the best approach possible; but
+since then, work inspired by asyncio – like the addition of
+async/await – has shifted the landscape so that we can do even better,
+and now asyncio is hamstrung by its earlier commitments.
+To make that more specific, let's look at some concrete examples.
+
+
+Example: a simple proxy server
+For our main example, I'll take a simple proxy server, equivalent to
+socat -u TCP-LISTEN:$LOCAL_PORT
+TCP:$REMOTE_HOST:$REMOTE_PORT. Specifically, given a local port, a
+remote host, and a remote port, we want to:
+Listen for connections on the local port.
+Accept a single connection.
+Make a connection to the remote host + port.
+Copy data from the local port to the remote port. (One way only, to
+keep things simple.)
+Exit after all the data has been copied.
+In addition, I'll follow these rules, to the best of my ability:
+Readability counts: I'll write each version in as elegant a manner
+as I can.
+No cheating: Since this is a toy one-off program, there are things
+we could get away with that wouldn't fly if this were real, reusable
+library code – like using global variables, or leaving open sockets
+dangling to be cleaned up by the kernel when our program exits. To
+make this more representative of real code, I'll hold myself to
+those higher standards.
+
+Three examples
+
+Example #1: asyncio, with callbacks
+Let's start by showing what this looks like using a traditional
+callback approach. (The two examples after this will demonstrate curio
+and asyncio's version of async/await-based APIs, which is what most
+people will want to use – this first example is to provide context for
+those.) I'll demonstrate with asyncio's "protocol" API, though
+the basic design here is inherited almost directly from the immensely
+influential Twisted (a Twisted version
+is also available for the curious). Here's the complete code, and then
+I'll give some commentary on how it works:
+
+        
+        
+          Download source: asyncio-proxy-protocols.py
+        
+         1 import sys
+ 2 from functools import partial
+ 3 import traceback
+ 4 import asyncio
+ 5 
+ 6 class OneWayProxySource(asyncio.Protocol):
+ 7     def __init__(self, loop, server_task_container, dest_host, dest_port):
+ 8         self.loop = loop
+ 9         self.server_task = server_task_container[0]
+10         self.dest_host = dest_host
+11         self.dest_port = dest_port
+12 
+13     def connection_made(self, transport):
+14         # Stop listening for new connections
+15         self.server_task.cancel()
+16 
+17         # Save our transport
+18         self.transport = transport
+19 
+20         # Disable reading until the destination is ready.
+21         self.transport.pause_reading()
+22 
+23         # Connect to the destination
+24         self.dest_protocol = OneWayProxyDest(self.loop, self.transport)
+25         coro = self.loop.create_connection(lambda: self.dest_protocol,
+26                                            self.dest_host, self.dest_port)
+27         task = self.loop.create_task(coro)
+28         def connection_check_for_failure(fut):
+29             exc = fut.exception()
+30             if exc is not None:
+31                 print("Failed to connect:")
+32                 # This isn't really right -- it doesn't handle exception
+33                 # chaining etc. I lack the will to worry about it.
+34                 traceback.print_tb(exc.__traceback__)
+35                 self.transport.abort()
+36                 self.loop.stop()
+37         task.add_done_callback(connection_check_for_failure)
+38 
+39     def data_received(self, data):
+40         self.dest_protocol.send_data(data)
+41 
+42     def connection_lost(self, exc):
+43         self.dest_protocol.close()
+44 
+45 class OneWayProxyDest(asyncio.Protocol):
+46     def __init__(self, loop, source_transport):
+47         self.loop = loop
+48         self.source_transport = source_transport
+49 
+50     def connection_made(self, transport):
+51         self.transport = transport
+52         # Okay, now we're ready for data to start flowing
+53         self.source_transport.resume_reading()
+54 
+55     def send_data(self, data):
+56         self.transport.write(data)
+57 
+58     def close(self):
+59         self.transport.write_eof()
+60 
+61     def connection_lost(self, exc):
+62         self.source_transport.abort()
+63         self.loop.stop()
+64 
+65 def main(source_port, dest_host, dest_port):
+66     loop = asyncio.get_event_loop()
+67     server_task_container = []
+68     coro = loop.create_server(
+69         lambda: OneWayProxySource(loop, server_task_container,
+70                                   dest_host, dest_port),
+71         "localhost", source_port)
+72     server_task = loop.create_task(coro)
+73     server_task_container.append(server_task)
+74     loop.run_forever()
+75     loop.close()
+76 
+77 if __name__ == "__main__":
+78     try:
+79         args = [int(sys.argv[1]), sys.argv[2], int(sys.argv[3])]
+80     except Exception:
+81         print("Usage: {} SOURCE_PORT DEST_HOST DEST_PORT".format(__file__))
+82     else:
+83         main(*args)
+
+There's a lot going on here, and the details aren't that important;
+like I said, this is mostly here to provide context for the next two
+examples. As a rough outline to get the idea, though:
+OneWayProxySource manages the incoming connection. When a
+connection is made (line 13) it first does some bookkeeping, then
+starts the outgoing connection (lines 24-36). Then when incoming
+data is received, or the incoming connection is closed, it forwards
+that on to the outgoing connection (lines 38-42).
+OneWayProxyDest manages the outgoing connection. In particular,
+it's responsible for actually sending data (lines 54-58), and
+shutting down then program once all the data has been sent (lines
+60-61).
+main has the job of setting up the listening socket and
+arranging for incoming connections to be allocated a
+OneWayProxySource object (lines 66-69).
+And then there's the usual if __name__ == __main__ boilerplate
+at the bottom.
+There's two main things I want to take away here:
+The control flow is not at all straightforward or easy to follow.
+All the actual reading and writing takes place "off-screen". By the
+time our data_received callback is run, someone else has
+already done the work of reading data off the network and into
+memory, and when we send data using self.transport.write, that
+doesn't actually do any sending. (How could it? Writing data takes
+time, and we aren't allowed to block.) Instead, what it does is
+queue the data to be sent later. This is also why we can't just
+shut down after calling self.transport.write_eof() – that just
+schedules the socket to be closed later, and we have to wait until
+OneWayProxyDest.connection_lost is called to let us know that
+the closure has actually happened.
+
+
+Example #2: curio, with async/await
+Now here's the equivalent program, but with curio. It looks very
+different, and I'll go through it in more detail:
+
+        
+        
+          Download source: curio-proxy.py
+        
+         1 import sys
+ 2 from functools import partial
+ 3 import curio
+ 4 
+ 5 READ_SIZE = 20000
+ 6 
+ 7 async def main(source_port, dest_host, dest_port):
+ 8     main_task = await curio.current_task()
+ 9     bound_cb = partial(proxy, dest_host, dest_port, main_task)
+10     await curio.tcp_server("localhost", source_port, bound_cb)
+11 
+12 async def proxy(dest_host, dest_port, main_task, source_sock, addr):
+13     await main_task.cancel()
+14     dest_sock = await curio.open_connection(dest_host, dest_port)
+15     async with dest_sock:
+16         await copy_all(source_sock, dest_sock)
+17 
+18 async def copy_all(source_sock, dest_sock):
+19     while True:
+20         data = await source_sock.recv(READ_SIZE)
+21         if not data:  # EOF
+22             return
+23         await dest_sock.sendall(data)
+24 
+25 if __name__ == "__main__":
+26     try:
+27         args = [int(sys.argv[1]), sys.argv[2], int(sys.argv[3])]
+28     except Exception:
+29         print("Usage: {} SOURCE_PORT DEST_HOST DEST_PORT".format(__file__))
+30     else:
+31         curio.run(main(*args))
+
+First our main function sets up a listening socket, and arranges
+for the proxy function to be invoked on each incoming connection:
+
+        
+        
+          Download source: curio-proxy.py
+        
+         8 async def main(source_port, dest_host, dest_port):
+ 9     main_task = await curio.current_task()
+10     bound_cb = partial(proxy, dest_host, dest_port, main_task)
+11     await curio.tcp_server("localhost", source_port, bound_cb)
+
+When a connection arrives, proxy first tells main to stop
+listening (line 13), since we only want to handle one connection. Then
+it sets up the outgoing connection (line 14), and invokes copy_all:
+
+        
+        
+          Download source: curio-proxy.py
+        
+        13 async def proxy(dest_host, dest_port, main_task, source_sock, addr):
+14     await main_task.cancel()
+15     dest_sock = await curio.open_connection(dest_host, dest_port)
+16     async with dest_sock:
+17         await copy_all(source_sock, dest_sock)
+
+And copy_all, finally, implements the core logic of a proxy:
+copying data from one socket to another in a loop:
+
+        
+        
+          Download source: curio-proxy.py
+        
+        19 async def copy_all(source_sock, dest_sock):
+20     while True:
+21         data = await source_sock.recv(READ_SIZE)
+22         if not data:  # EOF
+23             return
+24         await dest_sock.sendall(data)
+
+I hope we can all agree that in terms of readability, this is a huge
+improvement over the callback-based version. Ignoring imports and the
+__main__ boilerplate, we've gone from 67 lines of code down to 17
+(four times shorter!), and the logic is now straightforward and
+procedural. Instead of having to manually check for everything that
+could go wrong and abort connections, we can just use with blocks
+and let exceptions propagate. That's the power of async/await.
+
+
+Example #3: asyncio, with async/await
+We can also write this example using asyncio's async/await-based
+"streams" API layer, and it looks very similar to the curio version:
+
+        
+        
+          Download source: asyncio-proxy-streams.py
+        
+         1 import sys
+ 2 from functools import partial
+ 3 from contextlib import closing
+ 4 import asyncio
+ 5 
+ 6 READ_SIZE = 20000
+ 7 
+ 8 async def main(loop, source_port, dest_host, dest_port):
+ 9     connect_event = asyncio.Event()
+10     server_closed_event = asyncio.Event()
+11     bound_cb = partial(proxy,
+12                        loop, connect_event, server_done_event,
+13                        dest_host, dest_port)
+14     server = await asyncio.start_server(bound_cb, "localhost", source_port,
+15                                         loop=loop)
+16     await connect_event.wait()
+17     server.close()
+18     await server.wait_closed()
+19     server_done_event.set()
+20 
+21 async def proxy(loop, connect_event, server_closed_event,
+22                 dest_host, dest_port,
+23                 source_reader, source_writer):
+24     connect_event.set()
+25     try:
+26         with closing(source_writer):
+27             tmp = await asyncio.open_connection(dest_host, dest_port, loop=loop)
+28             dest_reader, dest_writer = tmp
+29             with closing(dest_writer):
+30                 await copy_all(source_reader, dest_writer)
+31     finally:
+32         await server_done_event.wait()
+33         loop.stop()
+34 
+35 async def copy_all(source_reader, dest_writer):
+36     while True:
+37         data = await source_reader.read(READ_SIZE)
+38         if not data:  # EOF
+39             return
+40         dest_writer.write(data)
+41 
+42 if __name__ == "__main__":
+43     try:
+44         args = [int(sys.argv[1]), sys.argv[2], int(sys.argv[3])]
+45     except Exception:
+46         print("Usage: {} SOURCE_PORT DEST_HOST DEST_PORT".format(__file__))
+47     else:
+48         loop = asyncio.get_event_loop()
+49         loop.create_task(main(loop, *args))
+50         loop.run_forever()
+
+In particular, notice how the core copy_all function here is
+almost identical to the curio version, modulo some spelling
+adjustments like read versus recv.
+There is one source of extra complexity that ends up making the core
+logic here almost twice as long as in the curio version: the need to
+figure out when everything has completed so that the event loop can be
+safely shut down. In curio, the general rule is straightforward: the
+event loop exits when all (non-daemonic) tasks
+have finished. Here we have two tasks (main and proxy), so
+when they're both done, the loop exits. Asyncio doesn't provide any
+equivalent – we can use run_until_complete to run the loop until
+any one task exits, but this may leave arbitrary other tasks and
+callbacks unfinished. Instead, our two tasks have to manually
+coordinate to make sure that both have finished their work and cleaned
+up before we call loop.stop(), and this takes a bit of doing
+(lines 9-10, 16-19, 24, 32-33).
+There's also another difference that doesn't show up on the page: the
+curio code pretty much directly does what it says, e.g. await
+sock.recv initiates a read from the socket and suspends until it
+completes. The asyncio code, on the other hand, is written as a layer
+on top of the protocol/transport system we saw in the first
+example. Now you see why we needed that first example! In the asyncio
+code, even though it doesn't look like we're using protocols, there's
+still a data_received callback somewhere that's stashing data in
+an internal buffer where source_reader.read can find it, and when
+we call dest_writer.write that ultimately turns into a call to a
+transport.write method, which schedules the writing to happen
+off-screen. The idea is that this is something the end-user doesn't
+have to think about; unfortunately, as we'll see, it doesn't quite
+work out that way.
+And finally, there's one more extremely important difference between
+these examples: the asyncio protocols code has a showstopper bug. The
+asyncio async/await code has the same showstopper bug, plus a less
+important second bug... and a third, different, showstopper bug. Yet,
+remarkably, the curio code – despite being shorter and easier to
+understand – is correct as originally written.
+
+
+
+Three bugs
+
+Bug #1: backpressure
+This bug affects both of the asyncio examples, but not the curio
+example.
+Imagine that our example code is being used to proxy between two
+different networks that run at different speeds: data is arriving on
+the incoming socket at 3 MB/s, but the outgoing socket is only
+transmitting at 1 MB/s. What happens?
+
+
+
+Artist's impression: Lord OOM rising from the deep and turning
+its baleful gaze upon a containerized app.
+
+Remember what we said about how transport.write doesn't actually
+send any data, but rather just adds it to a buffer to be sent later?
+With the two asyncio examples shown above, that's exactly what will
+happen: each second we'll add 3 MB of data to the buffer, while 1 MB
+are removed, so on net our buffer will grow by 2 MB/s second until we
+eventually wake the out-of-memory killer. Of course, we probably won't
+catch this in testing, so it'll make a nice 2 am surprise someday.
+And even if we don't actually run out of memory, we'll introduce
+potentially epic amounts of latency: after 10 seconds, we'll have
+accumulated 20 MB in our buffer, which means that a byte that arrives
+from the sender will sit in our process for 20 seconds before being
+forwarded on to the receiver; after 10 minutes, well... you get the
+idea. We are failing to apply backpressure, one of the cardinal sins
+of network programming. The elements of a distributed system can't
+function well if they aren't getting accurate feedback from their
+peers – and even just a single TCP connection is already a complex
+distributed system involving two userspaces, two kernel socket layers,
+two kernel packet layers, and who knows how many routers and competing
+flows. Backpressure is important.
+For the asyncio protocols-based implementation, this can be fixed
+through some judicious use of the flow control callbacks
+and flow control commands. I'll
+leave the details as an exercise for the reader, but basically we want
+to call pause_reading after each chunk is received, and then define
+a resume_writing callback that calls resume_reading. (The
+Twisted protocol implementation also has
+this bug, and can be fixed in a similar way, albeit using some
+essentially undocumented APIs; issues around
+backpressure seem to be a perennial challenge for Twisted.)
+For the asyncio streams-based implementation, StreamReader
+automatically uses the {pause,resume}_reading methods to transmit
+backpressure upstream, and StreamWriter provides a friendly
+wrapper around {pause,resume}_writing to help us accept
+backpressure from downstream: the drain method
+– we just have to remember to use it. So in order to fix our proxy to
+transmit backpressure, all we need to do is to add one line of code to
+copy_all. Specifically, this line:
+
+
+        
+        
+          Download source: asyncio-proxy-streams-2.py
+        
+        36 async def copy_all(source_reader, dest_writer):
+37     while True:
+38         await dest_writer.drain()
+39         data = await source_reader.read(READ_SIZE)
+40         if not data:  # EOF
+41             return
+
+In curio, things are different, because of the critical await that
+was already present:
+
+        
+        
+          Download source: curio-proxy.py
+        
+        19 async def copy_all(source_sock, dest_sock):
+20     while True:
+21         data = await source_sock.recv(READ_SIZE)
+22         if not data:  # EOF
+23             return
+24         await dest_sock.sendall(data)
+
+In curio, there are no hidden buffers – sendall doesn't return
+until the OS has accepted the data to be sent. This has the effect of
+automatically propagating backpressure, without our having to remember
+to do anything. Our original example worked because in curio, it would
+take actual effort to get this wrong.
+
+
+Bug #2: read-side buffering
+This bug mostly affects the asyncio + async/await example, somewhat
+affects the asyncio + callbacks example, and doesn't affect the curio
+example.
+We mentioned above how we should try to minimize buffering in order to
+keep latency down. Unfortunately, there's another source of extraneous
+buffering in the streams-based asyncio code, on the StreamReader
+side.
+The asyncio internals can be difficult to follow, but I believe that
+at a steady state with data coming in faster than it can be processed,
+on Unix-like system, the user-space buffer in StreamReader will
+oscillate between 128 KiB and 384 KiB. (I calculated this as 128 KiB =
+twice
+the _DEFAULT_LIMIT;
+384 Kib = 128 KiB + 256 KiB.)
+For our proxy example, this is pretty bad – it's pure "bufferbloat",
+adding latency without adding any value. In our example with 1 MB/s
+outgoing bandwidth, this buffer adds an extra ~130-400 ms of
+steady-state latency for no good reason; on a slower connection
+(e.g. mobile) this could easily become multiple seconds.
+In the curio version, this problem doesn't arise, again because of
+curio's lack of userspace buffering: curio doesn't issue any recv
+syscalls until you actually call await sock.recv. This is really
+the right thing to do, because reading from a socket is
+(paradoxically!) a data transmitting action: after you call the
+recv syscall, the kernel will literally send out a packet to the
+remote peer asking them to send more data ("opening the receive
+window"). So you shouldn't call recv until you really are ready
+for more data, and you should always request exactly as much data as
+you're ready to process, no more. Curio makes this natural.
+As bugs go, StreamReader's buffering is not as severe as the
+other two we discuss here – it won't cause crashes or data corruption,
+and receive-side backpressure isn't as universal a concern as
+send-side backpressure. (Everyone has to be prepared to handle a slow
+client, but perhaps some programs can process incoming data so quickly
+that they don't need to worry about fast clients.) Still, proxies are
+one place where this matters, and if we were seriously implementing
+some kind of proxy – like a SOCKS or HTTP proxy, or ssh
+port-forwarding – then asyncio's streams layer is probably not a good
+choice as it currently stands. (Working directly at the protocol layer
+would be somewhat better, because the buffer is reduced, but it's
+still not ideal in this respect – the curio style still gives us more
+control over the receive window while being simpler to use.)
+I don't have a fix to show here. This seems to be an intrinsic
+limitation of the hybrid design strategy – because of the way the
+async/await-centric StreamReader is built on top of asyncio's
+callback-centric protocol layer, it's not obvious how or whether
+asyncio could switch to the just-in-time-recv model.
+
+
+Bug #3: closing time
+There's a final showstopper bug in the asyncio streams example (only),
+which is pretty obvious once you see it, but not so obvious how to
+fix. Here's the core of the proxy function again for
+reference. After the incoming connection has been closed, copy_all
+returns and the with closing(dest_writer) block calls
+dest_writer.close(), and then we stop the event loop:
+try:
+    with closing(source_writer):
+        tmp = await asyncio.open_connection(dest_host, dest_port, loop=loop)
+        dest_reader, dest_writer = tmp
+        with closing(dest_writer):
+            await copy_all(source_reader, dest_writer)
+finally:
+    await server_done_event.wait()
+    loop.stop()
+
+The problem is that again, it's dest_writer.close(), not await
+dest_writer.close() – we don't wait for the socket to actually
+close, we just make a note to close the socket later, once the send
+buffer has finished emptying out. But then we immediately stop the
+event loop before that can happen (maybe – it's a race condition), so
+some data will get dropped on the floor and lost. We need to wait for
+the close to complete before stopping the loop.
+But how? Unless I've missed something, the StreamWriter API
+actually does not provide any mechanism for detecting when the stream
+has been closed (!). But we might reason that since the close is
+delayed until all data has been written, we can trick the close into
+happening promptly by draining the send buffer first:
+try:
+    with closing(source_writer):
+        tmp = await asyncio.open_connection(dest_host, dest_port, loop=loop)
+        dest_reader, dest_writer = tmp
+        try:
+            await copy_all(source_reader, dest_writer)
+        finally:
+            await dest_writer.drain()
+            dest_writer.close()
+finally:
+    await server_done_event.wait()
+    loop.stop()
+
+Unfortunately, this isn't enough. As the docs warn us,
+drain doesn't actually block until all data is written; it only
+guarantees that the unwritten data is less than the "high water mark",
+whose default is undocumented but currently appears to be 64 KiB, and
+specifically tries to make sure that there's at least a "low water
+mark" worth of unsent data (default 16 KiB). So adding the drain
+call makes this bug harder to hit, and it might seem to work in
+testing (especially since you need a slow network connection to really
+increase the odds, and who runs their tests over a slow network
+connection?), but sooner or later we're going to randomly lose data.
+To really fix the problem, we need to get rid of this high-water mark
+thing. This can be done by calling
+transport.set_write_buffer_limits(0) on the underlying transport
+object; then drain will only return once the send buffer is
+completely empty. Unfortunately, the only supported way to get access
+to the transport object is to copy-paste
+the implementation of asyncio.open_connection into our code, and
+add the call there. (It's lucky we aren't implementing a
+bi-directional proxy; if we were, then we'd also have to do this to
+the implementation of asyncio.start_server – in general, all of
+the stream helper functions are seem to currently be unusable if you
+need to be able to cleanly shut down a write stream in a protocol
+where you have the last word.)
+Is this safe, though? The documentation specifically warns us not to do this:
+"Use of zero for either limit is generally sub-optimal as it reduces
+opportunities for doing I/O and computation concurrently."
+Superficially, this warning seems to make a lot of sense. Our network
+card can only send data at certain moments, and in a modern operating
+system with pre-emptive multi-tasking, there's no way to guarantee
+that our application will be ready to hand off a packet at the exact
+moment when the network card wants it. So we need some sort of buffer
+that we load up with data ahead of time, and that the network card can
+read at its leisure. And if this buffer ever runs completely empty,
+the network card will go idle, which would be bad and waste bandwidth
+– so our application needs to wake up to refill the buffer before
+it goes empty, to give us a bit of a cushion to keep things going
+while we're getting the new data ready. That's the concurrent
+computation and I/O that the docs are referring to, and
+low-water/high-water logic provides this cushion.
+But... while I'm not an expert on networking (certainly not like
+these folks!), and
+this stuff can be hella subtle... I'm pretty sure this reasoning is
+all completely wrong. Because the thing is... we already have a buffer
+that does all that stuff: the kernel's socket send buffer. The
+send syscall doesn't actually write packets to the network – it
+just enqueues our data into a buffer inside the kernel, where the
+lower-level networking stack knows to look for them when it wants
+them. select and friends don't wait for the send buffer to be
+empty before marking the socket writeable – they implement some
+low-water/high-water logic. And on modern systems, the kernel will
+even do fancy stuff like automatically tuning the buffer size
+depending on the speed of the connection and the amount of memory
+pressure the system is under. Plus, for various reasons the kernel
+buffer is usually too big. Adding
+a second user-space send buffer on top of this seems entirely
+superfluous. (Especially since the way asynchronous I/O works,
+whenever our application is blocked on the CPU then it means we aren't
+running through the event loop and letting it hand off data from the
+userspace buffer to the kernel. So how would this concurrent I/O and
+computation even work?)
+As far as I can tell, the historical reason the asyncio userspace send
+buffer exists has nothing to do with performance. It's a necessary
+evil motivated purely by the need to let transport.write be
+non-blocking, so that callback-based programming becomes less
+painful. The asyncio low-watermark/high-watermark logic seems to be
+based on it then being confused for a different kind of buffer. So the
+docs are wrong: for optimal performance the watermarks should always
+be set to zero, to reduce bufferbloat and let the kernel buffer do its
+job.
+Okay, phew. Having dealt with that, are we finally finished? Not
+quite.
+We can now be confident that all our data will be transmitted to the
+outgoing socket, but it's still possible that the socket itself will
+remain open at the time our event loop exits. This is a bit of a
+nit-picky point. In our example, it actually doesn't matter, because
+as soon as the event loop exits then the program exits as well, and
+that will close down the socket. But in general this can be
+important. For example, in your test suite you should probably be
+running each test with its own isolated event loop, to make sure that
+different tests can't interfere with each other – but if each event
+loop you shut down leaves behind some dangling resources, multiply
+that by the number of tests you run and you might have a
+problem. Twisted's unit test framework goes to great lengths to annoy
+people into getting this right.
+So, let's assume we'd like to actually, finally, for real, close our
+socket before we stop the event loop. We're calling close. What
+else do we need? Well, if we grovel around in the asyncio source for
+long enough, we discover that StreamWriter.close calls
+transport.close, but transport.close doesn't actually close
+the socket. Instead, it schedules a call
+to _call_connection_lost on the next event loop iteration, and
+that's
+what actually closes the socket. So if we want to actually close the
+socket, we have to yield to the event loop between our call to
+dest_stream.close() and our call to loop.stop(). I believe
+that yielding once should be enough to make this happen
+deterministically, since even if on the next iteration we get resumed
+first and call loop.stop() before the socket has closed, the event
+loop should still finish calling all currently-scheduled callbacks
+before it actually stops. I think. So long as those internal details
+don't change.
+I also wonder what about what happens if some error is detected during
+socket shutdown, and how that's supposed to propagate out through this
+API.
+Anyway.
+In conclusion, here's a final version of our simple asyncio
+streams-based proxy server. This version still has extraneous
+buffering on the receive side, but it now does transmit back-pressure
+and (I think) reliably and correctly cleans up after itself. The lines
+that had to be added/changed are highlighted:
+
+        
+        
+          Download source: asyncio-proxy-streams-3.py
+        
+         1 import sys
+ 2 from functools import partial
+ 3 from contextlib import closing
+ 4 import asyncio
+ 5 
+ 6 READ_SIZE = 20000
+ 7 
+ 8 # Contains code derived (and modified) from the asyncio library, which is
+ 9 # distributed under the Apache 2 license:
+10 #   https://github.com/python/asyncio/blob/master/COPYING
+11 # asyncio is copyright its authors:
+12 #   https://github.com/python/asyncio/blob/master/AUTHORS
+13 @asyncio.coroutine
+14 def fixed_open_connection(host=None, port=None, *,
+15                           loop=None, limit=65536, **kwds):
+16     if loop is None:
+17         loop = asyncio.get_event_loop()
+18     reader = asyncio.StreamReader(limit=limit, loop=loop)
+19     protocol = asyncio.StreamReaderProtocol(reader, loop=loop)
+20     transport, _ = yield from loop.create_connection(
+21         lambda: protocol, host, port, **kwds)
+22     ###### Following line added to fix buffering issues:
+23     transport.set_write_buffer_limits(0)
+24     ######
+25     writer = asyncio.StreamWriter(transport, protocol, reader, loop)
+26     return reader, writer
+27 
+28 async def main(loop, source_port, dest_host, dest_port):
+29     connect_event = asyncio.Event()
+30     server_closed_event = asyncio.Event()
+31     bound_cb = partial(proxy,
+32                        loop, connect_event, server_closed_event,
+33                        dest_host, dest_port)
+34     server = await asyncio.start_server(bound_cb, "localhost", source_port,
+35                                         loop=loop)
+36     await connect_event.wait()
+37     server.close()
+38     await server.wait_closed()
+39     server_closed_event.set()
+40 
+41 async def proxy(loop, connect_event, server_closed_event,
+42                 dest_host, dest_port,
+43                 source_reader, source_writer):
+44     connect_event.set()
+45     try:
+46         with closing(source_writer):
+47             tmp = await fixed_open_connection(dest_host, dest_port, loop=loop)
+48             dest_reader, dest_writer = tmp
+49             try:
+50                 await copy_all(source_reader, dest_writer)
+51             finally:
+52                 await dest_writer.drain()
+53                 dest_writer.close()
+54                 # To let the socket actually close
+55                 await asyncio.sleep(0, loop=loop)
+56     finally:
+57         await server_closed_event.wait()
+58         loop.stop()
+59 
+60 async def copy_all(source_reader, dest_writer):
+61     while True:
+62         await dest_writer.drain()
+63         data = await source_reader.read(READ_SIZE)
+64         if not data:  # EOF
+65             return
+66         dest_writer.write(data)
+67 
+68 if __name__ == "__main__":
+69     try:
+70         args = [int(sys.argv[1]), sys.argv[2], int(sys.argv[3])]
+71     except Exception:
+72         print("Usage: {} SOURCE_PORT DEST_HOST DEST_PORT".format(__file__))
+73     else:
+74         loop = asyncio.get_event_loop()
+75         loop.create_task(main(loop, *args))
+76         loop.run_forever()
+
+
+
+
+
+
+C-c-c-c-causality breaker
+Clearly, something, somewhere, has gone wrong. What happened? Some of
+these issues with the asyncio streams-based API seem like
+easily-fixable oversights (but why are there so many?); others seem to
+point to something deeper. It's obviously not that the asyncio
+developers are just "bad at their jobs" or something – compared to
+curio, asyncio has more developers, with (as far as I can tell) a
+higher average degree of network programming experience, and has been
+put through considerably more real-world scrutiny and usage. So why
+does curio perform so much better in this comparison? Is there a
+generalization behind all these weird little problems?
+I think so. I propose that the difference is that curio follows one of
+the core principles of an async/await-native API, which is that it
+should respect causality. Which is a term I just made up. But what I
+mean by this is pretty basic: in Python, normally, if we write f();
+g(), then we know that g won't start executing until after f
+has finished. If this is true then we say that f "respects
+causality". Causality is the fundamental property you rely on when
+writing imperative code, and Python is an imperative language.
+In Glyph's famous blog post Unyielding, he makes
+the point that if you have N logical threads concurrently executing a
+routine with Y yield points, then there are N**Y possible execution
+orders that you have to hold in your head. His point is that you can
+reduce this complexity by using cooperative threading like callbacks
+or async/await (= small Y) instead of pre-emptive threading (= large
+Y).
+Taking this further: Every time we schedule a callback – every time we
+call Future.add_done_callback or transport.write or
+loop.call_later or loop.add_reader or ... – then what we're
+implicitly doing is spawning a new logical thread of
+execution. Callback-based code has small Y, but large N. Which is
+another way of saying: traditional callback APIs show a flagrant
+disregard for causality. And this has infested even the async/await
+parts of asyncio. Most of our problems above happened because we
+started doing g (reading the next chunk of data, shutting down the
+event loop, ...) while f (writing the previous chunk of data,
+closing the socket, ...) looked like it had finished but was actually
+still going.
+Curio is different: every operation in curio is causal, except for
+the explicit concurrency-spawning primitives curio.spawn and
+curio.run_in_{thread,process,executor}. Curio-style code has small
+Y and small N.
+When it comes to reasoning about code, implicit concurrency
+is... unhelpful. And callbacks by their nature are all about implicit
+concurrency.
+
+
+
+Homer lays down the law.
+
+Of course it's possible to write causal APIs in asyncio, and
+non-causal APIs in Curio. But the underlying platform defaults have a
+major influence on what kind of APIs you'll tend to write, because
+causality is compositional: if some function is implemented using only
+causal subroutines, then it will necessarily also be causal. But if an
+API calls non-causal subroutines internally, then it will also be
+non-causal, unless it takes some explicit action to recover causality
+– which can be quite difficult.
+For example, here's the current implementation of
+asyncio.StreamWriter.write, which lives on the async/await layer
+but inherits its non-causality from the callback-layer
+transport.write:
+# Actual asyncio.StreamWriter.write
+def write(self, data):
+     self._transport.write(data)
+
+We could (try to) make it causal by explicitly waiting for the write
+to complete before returning:
+# Hypothetical improved StreamWriter.write
+async def write(self, data):
+     self._transport.write(data)
+     await self.drain()
+
+(But note that this version is still non-causal in the presence of
+cancellation – see Timeouts and cancellation below.)
+Similarly in curio we could define a non-causal write function,
+equivalent to the asyncio version above:
+# Curio equivalent to StreamWriter.write
+async def sendall_in_child_task(sock, data):
+    await curio.spawn(sock.sendall(data))
+
+We can even define a version that spawns a child task and then waits
+for it, more-or-less equivalent to our hypothetical improved
+StreamWriter.write:
+# Curio equivalent to the improved StreamWriter.write
+async def sendall_in_child_task(sock, data):
+    task = await curio.spawn(sock.sendall(data))
+    await task.join()
+
+But this would be extremely weird. Curio's decision to eliminate
+implicit concurrency and force all concurrency to start from an
+explicit await curio.spawn(...) makes concurrency a rare thing
+that you think about before using. It also has some more subtle
+consequences that together mean that when you do need concurrency,
+it's easier to manage:
+curio.spawn is an async function, which means that
+synchronous-colored functions
+cannot call it. Therefore, synchronous-colored functions are
+always causal – when a synchronous function call returns, we know
+its work has finished. Compare this to traditional callback-based
+APIs, where it's common to write innocent-looking code like f();
+g() but where the actual execution of f and g ends up
+overlapping. In curio you'd have to at least write await f();
+g().
+In asyncio, there are many different representations of logically
+concurrent threads of execution – loop.add_reader callbacks,
+asyncio.Task callstacks, Future callbacks, etc. In curio,
+there is only one kind of object that can represent a logical thread
+– curio.Task – and this allows us to handle them in a uniform
+way. We'll see below that this greatly simplifies Event loop
+lifecycle management and Context passing / task-local storage.
+Because the spawn code is routed through await, the event loop
+always knows not just what child task is being spawned, but which
+parent task is doing the spawning (i.e., it's whichever one emitted
+the magic yield). Currently curio uses this to propagate
+task-local context from parent tasks to child tasks; in the future
+it could potentially track and expose these relationships to allow
+for powerful operations like "cancel this task and all of its child
+tasks, recursively". I'm not sure if being able to explicitly
+reason about and manipulate trees of worker tasks like this will
+ultimately turn out to be useful, but it opens up interesting
+possibilities.
+But of course main advantage of curio's causal-by-default approach is
+that we can write straightforward imperative code like our example
+proxy server and get something that works. These are extra benefits on
+top of that.
+
+Who needs causality, really?
+I'm throwing around these fancy terms like "causality", but does it
+actually matter in the real world? Here I'll take what we learned from
+studying the toy proxy example, and see how some production codebases
+handle these issues.
+
+HTTP servers
+Here's a simple stress test for an HTTP server: send it lots of GET
+requests, without ever reading the responses:
+
+        
+        
+          Download source: constipation-attacks/get-flood.py
+        
+        import sys, socket
+
+host, port = sys.argv[1], int(sys.argv[2])
+
+with socket.create_connection((host, port)) as sock:
+    get = b"GET / HTTP/1.1\r\nHost: " + host.encode("ascii") + b"\r\n\r\n"
+    while True:
+        sock.sendall(get)
+
+It turns out that if you point this at a server running twisted.web,
+then our client will upload a few megabytes of data and then the
+server will crash. (Here's an example
+server in case you
+want to try at home; make sure to hit control-C before your laptop
+starts Death Swapping.) This is a backpressure bug: the server reads
+the first GET, generates the response, and writes that to its send
+buffer. Where it sits, because the client isn't reading. But the
+server isn't paying attention to the buffer, so as far as it's
+concerned the data has been sent, and it goes on to process the next
+request, generates another response, and appends that to the send
+buffer. Repeat until the send buffer swallows all available memory and
+the server falls over. We shouldn't exactly panic over this – this
+just is a denial-of-service attack, and it's impossible to fully
+defend against DoS. What makes this a bit embarrassing is the degree
+of amplification: if there's some URL on a server that returns, say, a
+100 KB response body, then each ~1 MB of upload from a single client
+will permanently swallow ~2 GB of memory.
+Aiohttp (example server) is more robust
+against this particular attack – it will also crash eventually, but
+doesn't show the severe amplification. The reason is that aiohttp
+calls StreamWriter.drain after processing each request, so the
+send buffer can't grow to unbounded sizes. The reason it still crashes
+eventually is a bit weird: it never applies back-pressure on the
+receive side,
+even though that's the case that StreamReader will actually handle
+for you automatically... but aiohttp turns out to use the protocol API
+instead and its own ad hoc buffering code, which happily accepts and
+queues infinitely many request bodies without ever pushing back. So
+the amplification factor here is just 1x – this is a bug, but a
+relatively minor one. If an attacker is willing to upload a few
+gigabytes of data to an aiohttp server, they can crash it – but there
+are probably other things an attacker can do with a few gigabytes of
+data that are even worse (e.g. opening tens of thousands of
+connections), so meh.
+On the other hand, remember the problems we had with data being lost
+at shutdown? It turns out that aiohttp has a "graceful shutdown" mode,
+which gives all current connections time to finish before exiting –
+but as far as I can tell this uses
+StreamWriter.close and doesn't disable the low-water mark stuff,
+so it actually has no way to know when the connections have finished
+closing. I haven't verified this experimentally, but I strongly
+suspect that the "graceful" shutdown is randomly chopping off some of
+those connections before they're finished.
+If we turn to look at the the toy curio-based HTTP server that I
+wrote for some docs
+(yes, this says something about the relative maturity of the
+twisted/asyncio/curio ecosystems), then it avoids all of these
+problems. (Well, technically, it doesn't implement graceful shutdown,
+but if it did then it wouldn't run into the StreamWriter.close
+bugs.) Now, you've probably figured out by now that I'm the kind of
+paranoid person who worries about these things, so I won't pretend
+that I didn't think about this at all while writing that code. But
+when I thought about it, I realized that with curio, the most obvious
+naive implementation actually was correct, so I didn't need to do
+anything special.
+With twisted and asyncio, you have to do something special. And
+everyone makes mistakes.
+
+
+Websocket servers
+Consider a websocket server that accepts connections and then sends
+the client an ongoing, infinite stream of messages. This is a pretty
+common configuration – examples would include IRC-style chat apps, or
+a live twitter feed viewer. Now imagine what happens if we connect to
+such a websocket and then go idle, never reading:
+
+        
+        
+          Download source: constipation-attacks/constipate-websocket.py
+        
+        import sys, asyncio, aiohttp
+
+URL = sys.argv[1]
+
+async def constipate(url):
+    session = aiohttp.ClientSession()
+    async with session.ws_connect(url) as ws:
+        await asyncio.sleep(100000000)
+
+asyncio.get_event_loop().run_until_complete(constipate(URL))
+
+A naive server that doesn't respond to backpressure will keep trying
+to send us messages, buffer them in memory, and eventually crash. This
+attack effectively has an amplification factor of infinity: all we
+have to do is send two packets to set up the connection, and then we
+can walk away while the server slowly leaks to death. In fact, this
+can easily happen by accident when a client establishes a connection
+and then crashes or otherwise goes offline.
+Do any Python websocket servers implement this naive buffering
+algorithm? As far as I can tell, yes, by default, they all do. In
+fact, they all use a very similar API for sending messages that makes
+it difficult to avoid: they provide some kind of synchronous-colored
+write_message method that queues a message and then returns
+immediately, and it causes the same kind of troubles that we had with
+asyncio's synchronous-colored write method above. [Edit: it
+turns out there's an exception that I missed – the websockets package provides exactly the API
+that I advocate. Awesome!]
+More specifically:
+aiohttp (example server): Doesn't
+respond to backpressure from slow clients by default. AFAICT has no
+API for doing so, so handling
+the disappearing client case is currently not possible without
+somehow changing the protocol use itself. The API for receiving
+messages does use await and thus should be able to transmit
+backpressure upstream to clients who send too fast (though I haven't
+tested whether this works myself).
+autobahn (example server): Doesn't
+respond to or transmit backpressure by default. When running on
+twisted, then it is possible to get backpressure notifications for
+slow clients
+using the twisted API I mentioned early. When running on asyncio,
+this seems to be unimplemented,
+so responding to backpressure is impossible. Doesn't have any API
+for transmitting backpressure upstream to clients who are sending
+data too quickly.
+tornado (example server): Doesn't respond to
+or transmit backpressure by default. Has APIs available that allow a
+sufficiently dedicated
+programmer to implement both upstream and downstream
+backpressure. (Tornado FWIW is also immune to the GET flood attack
+described above – they've clearly put a lot of thought into these
+kinds of issues.)
+Even for the libraries where handling websocket backpressure is
+possible in theory, I couldn't find any mention of this in their
+examples, so it's doubtful that there are many deployments that
+actually take advantage of this.
+My goal isn't to shame the authors of these packages – obviously
+they're helping people solve real problems right now, and all I have
+to offer is some hypothetically-improved vaporware! Rather, I want to
+point out that there's a whole set of nasty edge-cases that are very
+difficult to handle when using the conventions of traditional
+callback-based APIs. But if these servers had exposed a
+causality-respecting API for websockets – one with methods like
+async def receive_message and async def write_message – then
+these issues would simply go away. It's very rare that we can solve
+genuinely hard problems like this just by changing some API
+conventions – we should be excited!
+The tornado API is particularly instructive, because it's so close
+to what I recommend: their write_message method returns a future.
+This means that in the asyncio/tornado async/await integration that
+allows await to be applied to Futures, one can write code
+like await websock.write_message(...) and get correct backpressure
+handling. But, if we forget, and write websock.write_message(...)
+instead... then the code will still seem to work! So despite the
+similarity, this isn't really a causality-preserving method, the way
+it would be if it were implemented as an async method that required
+await to run. It's a method that spawns a concurrent thread of
+execution to do the actual work, while also providing an option to
+join that thread. Much better than nothing! But the end result is that
+if you look at their official examples, they don't actually check the
+return value.
+Of course tornado itself can't easily fix this, because they have to
+worry about backcompat and Python 2 support. But looking to the
+future, if we want to habitually write reliable software without
+breaking our brains, then causality needs to be opt-out, not opt-in,
+and the great thing about async/await is that it makes causal APIs
+just as easy to use as non-causal ones.
+
+
+
+
+Other challenges for hybrid APIs
+
+Timeouts and cancellation
+Timeouts are important, because they're ubiquitous – any code that
+does I/O and might be run unattended had better make sure that there
+are timeouts covering every single I/O operation. Yet, in many I/O
+frameworks, handling timeouts correctly is extremely difficult. For
+example, if you're doing synchronous I/O using the stdlib socket
+module, then you get the ability to set a timeout on each individual
+send and receive operation – but this is far too low-level.
+Curio instead offers a context manager that imposes a timeout on
+everything inside it. This means that we can straightforwardly take a
+function that performs some complex operation with multiple types of
+I/O, and impose a timeout on it as a whole:
+# A function that does some complex I/O
+async def upload_big_file_over_http(sock):
+    await sock.sendall(b"POST /upload HTTP/1.1\r\n"
+                       b"Host: example.com\r\n"
+                       b"Expect: 100-continue\r\n"
+                       b"Content-Length: 10000000\r\n\r\n")
+    # Read the server's interim response -- either telling us
+    # to go ahead, or giving a final rejection:
+    response = await read_http_response(sock)
+    if response.status == 100:  # 100 Continue
+        await sock.sendall(b"x" * 10000000)
+        response = await read_http_response(sock)
+    return response
+
+# Imposing a timeout on it from outside
+async def main():
+    sock = ...
+    async with curio.timeout_after(60):  # 1 minute
+        await upload_big_file_over_http(sock)
+
+This approach is really brilliant. In the traditional system, every
+function had to manually implement complex timeout logic and expose it
+as part of its API. Here, the code living inside the context manager
+does need to handle cancellation correctly, but otherwise can be
+completely oblivious to timeouts. We use exactly the same API to
+impose a timeout on a primitive send call and on a complex RPC
+operation. Timeouts can be nested. It's great.
+
+Of course this idea isn't unique to curio. You can implement the
+context manager style API in asyncio
+too. But – you can probably guess where I'm going to go with this –
+handling timeouts and cancellations in a hybrid callbacks+async/await
+system creates a number of unique and unnecessary challenges.
+First, since we can't assume that everyone is using async/await, our
+hybrid system needs to have some alternative, redundant system for
+handling timeouts and cancellations in callback-using code – in
+asyncio this is the Future cancellation system, and there isn't
+really a callback-level timeout system so you have to roll your
+own. In curio, there are no callbacks, so there's no need for a second
+system. In fact, in curio there's only the one way to express
+timeouts – timeout= kwargs simply don't exist. So we can focus
+our energies on making this one system as awesome as possible.
+Then, once you have two systems, you have to figure out how they
+interact. This is not trivial. For example, I suspect most people
+would find the behavior of this asyncio program surprising:
+
+        
+        
+          Download source: spooky-cancellation-at-a-distance.py
+        
+        import asyncio
+loop = asyncio.get_event_loop()
+
+async def child(name, fut, event):
+    print("{} started".format(name))
+    try:
+        event.set()
+        await fut
+    except asyncio.CancelledError:
+        print("{} cancelled".format(name))
+
+async def main():
+    fut = asyncio.Future()
+
+    # Start two tasks, and give them a chance to block on the same future.
+    event1 = asyncio.Event()
+    task1 = loop.create_task(child("task 1", fut, event1))
+    await event1.wait()
+
+    event2 = asyncio.Event()
+    task2 = loop.create_task(child("task 2", fut, event2))
+    await event2.wait()
+
+    # Cancel task1...
+    task1.cancel()
+    # ...then block on task2.
+    await task2
+
+loop.run_until_complete(main())
+
+(It prints: task 1 started / task 2 started / task 1 cancelled / task
+2 cancelled. Note that task 2 was not cancelled. Note also that if we
+comment out the call to event1.wait(), then the program hangs
+instead (which is probably the outcome we expected in the first place
+– but we might not have expected that line to affect the result). Note
+also also that if we move the cancellation to just after the call to
+event1.wait(), before spawning task2, then the program does
+not hang – so we can't avoid this by checking for multiple waiters
+when propagating cancellations from tasks->futures.)
+The fundamental problem here is that Futures often have a unique
+consumer but might have arbitrarily many, and that Futures are
+stuck half-way between being an abstraction representing
+communication and being an abstraction representing
+computation. The end result is that when a task is blocked on a
+Future, Task.cancel simply has no way to know whether that
+future should be considered to be "part of" the task. So it has to
+guess, and inevitably its guess will sometimes be wrong.  (An
+interesting case where this could arise in real code would be two
+asyncio.Tasks that both call await writer.drain() on the same
+StreamWriter; under the covers, they end up blocked on the same
+Future.) In curio, there are no Futures or callback chains,
+so this ambiguity never arises in the first place.
+Next, there's the problem of actually implementing cancellation. For
+callback-based operations, this is certainly possible. It's just
+really difficult to do, and every cancellable operation has to
+carefully implement it from scratch. And in practice, basic primitives
+like transport.write don't support cancellation, which makes it
+very difficult to write cancellation-safe code on top of them. For
+example, here's the asyncio version of our HTTP upload example:
+# asyncio version
+
+# Pretend that StreamWriter has been fixed to attempt to expose a
+# causal API -- this example shows that that still isn't enough :-(
+async def almost_causal_write(writer, data):
+     writer.write(data)
+     await writer.drain()
+
+async def upload_big_file_over_http(reader, writer):
+    await almost_causal_write(writer,
+                              b"POST /upload HTTP/1.1\r\n"
+                              b"Host: example.com\r\n"
+                              b"Expect: 100-continue\r\n"
+                              b"Content-Length: 10000000\r\n\r\n")
+    # Read the server's interim response telling us whether
+    # to go ahead:
+    response = await read_http_response(reader)
+    if response.status == 100:  # 100 Continue
+        await almost_causal_write(writer, b"x" * 10000000)
+        response = await read_http_response(sock)
+    return response
+
+# Imposing a timeout on it from outside
+async def main():
+    reader, writer = ...
+    from async_timeout import timeout
+    with timeout(60):  # 1 minute
+        await upload_big_file_over_http(reader, writer)
+
+There's an excellent chance that the timeout will fire after we've
+started the 10 MB upload, and are blocked in the drain call inside
+almost_causal_write. If this happens, then
+upload_big_file_over_http will return early but the upload will
+continue, because it's happening in a logically concurrent thread!
+And note that this is really a another special case of a
+non-causality. Our causal_write function does manage to be causal
+so long as it completes normally. But if it gets cancelled, then from
+the perspective of the caller it has returned (by raising an
+exception) – yet the underlying operation is still going, which is
+the definition of non-causal behavior.
+There are ways to work around this, but in general, any
+function that calls any cancellation-unsafe functions is also going to
+be cancellation-unsafe by default, and it's hard to write much code in
+asyncio without calling unsafe functions like transport.write. I'm
+not even sure what a cancellation-safe version of transport.write
+would look like :-(.
+In curio, supporting cancellation isn't free, but it's much much
+easier: all primitive operations are cancellation-safe, so we start
+from a solid foundation, and then beyond that it basically comes down
+to writing code that properly cleans up in the face of exceptions. And
+this kind of exception-safety is a local property we can check on a
+function-by-function basis, is something we have to worry about
+anyway, and is often easy to handle because we can let Python's tools
+like context managers to do the heavy lifting.
+
+
+Event loop lifecycle management
+Remember how up above in our initial discussion of the different
+example programs, even before we got into the bugs in the asyncio
+versions, we noted that the curio version was simpler because it was able to take advantage of curio's
+system for shutting down the event loop when all non-daemonic tasks
+were complete? This system is possible because curio restricts itself
+to managing only full-fledged async function callstacks, not arbitrary
+callback chains. This means that curio has a complete high-level
+representation of what tasks are running, and a standard place to
+store metadata like which ones should be considered daemonic. And this
+isn't just a convenience: it also means that curio can guarantee that
+every task's cleanup code (e.g. finally blocks) are executed
+before shutting down.
+Asyncio doesn't really have any way to do the equivalent, even in
+principle. It can't tell whether a loop.add_reader callback is
+"daemonic", i.e., whether it's associated with providing some
+background service like logging or whether it's some specific ongoing
+callback chain that's on the application's critical path; if it is a
+background service it has no way to tell whether it needs to be
+cleaned up somehow when the loop shuts down; and even if it does need
+some kind of cleanup, there's no way for the loop to "cancel" that
+callback chain and tell it to run its cleanup. Because callback-based
+execution threads are implicit, not reified, the user is left to keep
+track of these kinds of things manually. And any code that uses
+asyncio's protocol/transport layer is implicitly creating these kinds
+of anonymous callback chains. Obviously it's possible despite all this
+to write asyncio programs that correctly handle the event loop
+lifetime; the point is that because of asyncio's choice to use a
+hybrid design, it can't provide much help in solving these issues, so
+you're stuck doing it manually each time instead.
+
+
+Getting in touch with your event loop
+It's often useful to have multiple event loops in the same
+process. For example, we might want to spawn several OS-level threads
+and run an event loop in each, or we might want to give each of our
+tests its own event loop, so that we don't have stray callbacks left
+behind by test A firing while we're running test B. And this means
+that any code that does I/O has to have some mechanism to figure out
+which event loop it should be using.
+In principle, if you're using async/await, this should be trivial:
+async functions by definition have to be supervised by some sort of
+coroutine runner, and await provides dedicated syntax for talking
+to this supervisor. In curio, the supervisor is the event loop itself;
+in asyncio, technically the supervisor isn't the event loop itself but
+rather an `asyncio.Task object, but asyncio.Task objects hold
+a reference to the correct event loop. So if you're using async/await,
+this ambient event loop reference is always present and accessible in
+principle, and the language runtime makes sure that it's passed
+implicitly to callees without any effort on your part.
+But asyncio assumes that you might not be using async/await, so
+almost none of its APIs take advantage of this. Instead, it gives you
+two options. Option 1 is that you can manually pass along a reference
+to the correct event loop every time you call a function that might
+(recursively) do I/O. This is unpopular because it takes work and
+clutters up your code. (You can see a bit of this in the proxy
+examples above.) Plus it's frustrating since, as we said above, if
+you're a sensible person who uses async/await then this is forcing you
+to do redundant work that the runtime is already doing for you. Option
+2 is to be lazy, and to grab the global event loop whenever you need
+it (which asyncio makes very easy to do – all asyncio API functions
+will default to using the global event loop unless you explicitly tell
+them otherwise). Of course the problem with this is that as we saw
+above, you can't assume that there is just one global event loop,
+which is why instead of having a single global event loop, the asyncio
+API instead allows you to specify a global object implementing the
+AbstractEventLoopPolicy interface
+which encapsulates a strategy for introspecting the current context to
+determine which global event loop should be returned from each call to
+get_event_loop. So, you know, implement that and you're good to
+go. Just make sure the three different mechanisms for getting the
+event loop always give identical results and it'll work fine, because
+configuring redundant systems is always fun and certainly not error
+prone.
+I tease, of course. In practice this mostly works out well enough, and
+none of this is actually going to stop anyone from writing working
+programs with asyncio – this is probably the most minor issue
+discussed in this essay. But it's a source of ongoing friction, and causes real problems.
+OTOH, because curio is async/await all the way down, this friction
+just... goes away. Or rather, is never there in the first place. There
+are no global variables, no policy objects with LotsOfCapitalLetters,
+and nothing to pass around. If you need to issue some I/O, you call
+await whatever() and the Python interpreter automatically directs
+your request to the right event loop. (Sorta like how return
+values magically go to the right place.) Of course your test suite
+creates a fresh new event loop for each independent test and different
+tests never pollute each other's event loop by accident, that's just
+the easiest way to do it. Normally we don't even explicitly
+instantiate the event loop object; it's an internal implementation
+detail of curio.run.
+I don't see any way to fix this in asyncio, because it's – again – a
+sort of inevitable penalty for wanting to mix async/await and callback
+APIs in the same library. A small improvement would be to add a
+function like await asyncio.get_ambient_event_loop(), so that leaf
+async functions could at least summon the correct event loop reference
+on demand whenever they were about to transition to the callback API,
+without it having to be manually passed down the call stack. But this
+still requires an error-prone manual step at that transition point,
+and that seems unavoidable as long as we have a callback-friendly API
+at all. I guess for the asyncio entry points that already are async
+functions (e.g. asyncio.open_connection) we could change the
+default so that loop=None does a call to await
+asyncio.get_ambient_event_loop() rather than
+asyncio.get_event_loop(). But then, it could get pretty confusing
+if some API calls default to the right event loop, while others you
+have to make sure to pass it in explicitly because the defaults are
+different.
+[Edit: I may have been overly pessimistic! I'm told that asyncio's
+global event loop fetching API is going to be reworked in 3.6 and
+backported to 3.5.3. If I understand correctly (which is not 100%
+certain, and I don't think the actual code has been written yet
+[edit**2: here it is]), the new system will
+be: asyncio.get_event_loop(), instead of directly calling the
+currently-registered AbstractEventLoopPolicy's
+get_event_loop() method, will first check some thread-local global
+to see if a Task is currently executing, and if so it will
+immediately return the event loop associated with that Task (and
+otherwise it will continue to fall back on the
+AbstractEventLoopPolicy. This means that inside async functions it
+should now be guaranteed (via somewhat indirect means) that
+asyncio.get_event_loop() gives you the same event loop that you'd
+get by doing an await. And, more importantly, since
+asyncio.get_event_loop() is what the callback-level APIs use to
+pick a default event loop when one isn't specified, this also means
+that async/await code should be able to safely use callback-layer
+functions without explicitly specifying an event loop, which is a neat
+improvement over my suggestion above.
+I think it's still illustrative of my general point here that asyncio
+required three Python releases in order to settle on a system that
+uses multiple layers of complex logic just to get back to the place
+where curio started. But as long as end-users aren't peeking under the
+covers then they shouldn't notice much difference anymore, at least in
+this regard.]
+
+
+Context passing / task-local storage
+Suppose we have a server handling various requests, where each request
+triggers a complex set of events – RPCs, database calls,
+whatever. When monitoring and debugging such a server, it's very
+useful if we can arrange for each incoming request to be assigned a
+unique id, and then make sure that all the logs generated deep inside
+(for example) the database library are tagged with this unique id, so
+that we can later aggregate the logs to get a complete picture of an
+individual misbehaving request. But how does the logging code inside
+the database library find this id? Ideally we could pass it down as
+part of an explicit "context" object, but this isn't always practical,
+especially given that the Python stdlib logging module doesn't
+provide any way to do this. What we need is some sort of async
+equivalent to "thread-local storage", where we can stash data and make
+it accessible to a complete logical execution flow.
+
+In callback-based frameworks, this kind of context propagation
+requires modifying every callback-scheduling operation to capture the
+context when the callback is scheduled, store it, and then restore it
+before the callback is executed. This is challenging, because there
+are lots of callback-scheduling operations that need to implement this
+logic, and some of them are in third-party libraries.
+In a curio-style framework, the problem is almost trivial, because all
+code runs in the context of a Task, so we can store our task-local
+data there and immediately cover all uses cases. And if we want to
+propagate context to sub-tasks, then as described above, sub-task
+spawning goes through a single bottleneck inside the curio library, so
+this is also easy. I actually started writing a simple example here of
+how to implement this on curio to show how easy it was... but then I
+decided that probably it made more sense as a pull request, so now I don't have to
+argue that curio could easily support task-local storage, because it
+actually does! It took ~15 lines of code for the core functionality,
+and the rest is tests, comments, and glue to present a convenient
+threading.Local-style API on top; there's a concrete example
+to give a sense of what it looks like in action.
+I also recommend this interesting review of async context propagation
+mechanisms
+written by two developers at Google. A somewhat irreverant but (I
+think) fair summary would be (a) Dart baked a solution into the
+language, so that works great, (b) in Go, Google just forces everyone
+to pass around explicit context objects everywhere as part of their
+style guide, and they have enough leverage that everyone mostly goes along with it, (c) in C# they
+have the same system I implemented in curio (as I learned after
+implementing it!) and it works great because no-one uses callbacks,
+but (d) context propagation in Javascript is an ongoing disaster
+because Javascript uses callbacks, and no-one can get all the
+third-party libraries to agree on a single context-passing
+solution... partly because even the core packages like node.js can't
+decide on one.
+
+Note
+Incidentally, looking at Javascript makes me grateful again
+for the care and deliberateness of Python's maintainers. It's
+possible that asyncio and its hybrid approach might turn out to be
+a dead-end, but – if so, then, oh well, at the end of the day it's
+just a library. We can recover. Javascript OTOH is getting
+async/await any day now, but the
+language is all-in on callbacks, so Javascript's async/await will
+always be the hybrid kind, and AFAICT many of this essay's
+critiques apply. A libuv-backed curio running on PyPy 3
+might someday make an extraordinarily compelling competitor to
+node.js.
+
+So this is another domain where asyncio's hybrid nature creates a
+challenge: of course it would be easy enough to implement a task-local
+storage system that works only for asyncio Task objects, but then
+we'd still have the question of what to do for callback-based code,
+and how to handle the hand-off point between them. Probably there is
+some solution, but finding it seems like it would take a lot of work,
+and the benefit isn't clear given all the other issues that callbacks
+create.
+
+
+Implementation complexity
+Finally, I want to say a few words about internal implementation
+complexity. Just like you can implement anything with goto
+instead of structured programming, with enough work, it's almost
+certainly possible for asyncio to eventually fix these bugs, implement
+reliable cancellation for all of its callback-based primitives, and so
+forth, and eventually expose a curio-style API on top of some sort of
+callback-based infrastructure. And from the user's point of view, this
+would be fine – it doesn't necessarily matter to them what's happening
+under the hood, so long as the public semantics are right, and users
+could just ignore all that callback-based stuff.
+But... asyncio's internals are really hard to follow. This isn't a
+criticism of the authors. I've highlighted a number of problems here,
+but what you can't see is all the times that I was convinced that
+I'd found another nasty edge case bug, only to eventually realize that
+someone else had already noticed the problem and carefully arranged to
+handle it. Asyncio is very thoughtfully written callback soup; the
+problem is that callback soup is just too complicated for human minds
+– at least, my human mind – to understand.
+The end result is that I'd estimate it took me ~3x longer to
+understand the actual semantics of asyncio.StreamWriter's and
+asyncio.StreamReader's public APIs than it did to read all of
+curio's source code, implement task-local storage, and diagnose a
+concurrency bug
+in curio.Event. (By the way, I recommend reading through curio as
+an exercise; it's not perfect – as that Event bug indicates :-)
+– but overall it's remarkably small and straightforward.)
+And if that's what it takes me just to understand asyncio, then I
+wince to think how much energy was spent on implementing it and fixing
+all those edge cases in the first place. If you're an event-loop
+developer, or the author of a protocol library, then is this really
+how you want to be spending your time? On implementing complicated
+callback-based APIs, and then on implementing another complicated
+layer on top of that to cancel out all the problems introduced by the
+callback-based APIs, and then spending a lot of time trying to squash
+all the weird edge case bugs introduced by the impedence mismatch
+between the layers? It's all so unnecessary! It's 2016, and you don't
+have to live like that anymore! AFAICT going async/await-native is a
+direct path to fewer bugs and more happiness.
+
+
+
+Review and summing up: what is "async/await-native" anyway?
+In previous asynchronous APIs for Python, the use of callback-oriented
+programming led to the invention of a whole set of conventions that
+effectively make up an entire ad hoc programming language, in the
+sense that they provide their own methods for expressing basic
+computational constructs like sequencing, error handling, resource
+cleanup, and so forth. The result is somewhat analogous to the bad old
+days before structured programming, where basic constructs like
+function calls and loops had to be constructed on the fly out of
+primitive tools like goto. In theory, one can do anything. In
+practice, it's extraordinarily difficult to write correct code in this
+style, especially when one starts to think about edge conditions.
+Now that Python has async/await, it's possible to start using Python's
+native mechanisms to solve these problems. Python's tools are,
+unsurprisingly, a huge improvement over the old system; but, when used
+in a hybrid system layered on top of the older callback approach, many
+of these advantages are blunted or lost. We've seen above that going
+to a fully async/await-native approach let us easily solve a number of
+problems that arise in the hybrid approach, like handling
+backpressure, avoiding bufferbloat and race conditions, handling timeouts and cancellation, figuring out when our program was finished running, and context passing, while reducing our need for global
+state – and the code is
+simpler too, both for the library implementors and the library users!
+These advantages come from consistently following a set of
+structuring principles. What are these principles? What makes a
+Python app "async/await-native"? Here's a first attempt at codifying
+them:
+An async/await-native application consists of a set of cooperative
+threads (a.k.a. Tasks), each of which consists of some
+metadata plus an async callstack. Furthermore, this set is
+complete: all code must run on one of these threads.
+These threads are supervised: it's guaranteed that every
+callstack will run to completion – either organically, or after the
+injection of a cancellation exception.
+Thread spawning is always explicit, not implicit.
+Each frame in our callstacks is a regular sync- or async-colored
+Python function, executing regular imperative code from top to
+bottom. This requires that both API primitives and higher-level
+functions *respect causality* whenever possible.
+Errors, including cancellation and timeouts, are signaled via
+exceptions, which propagate through Python's regular callstack
+unwinding.
+Resource cleanup and error-handling is managed via exception
+handlers (with or try).
+These work together so that if each piece of our program follows the
+rules, we end up with strong global guarantees. For example, if an
+error occurs: (5) tells us that this raises an exception, (1) tells us
+that this exception will be on one of our thread's callstacks, (4)
+implies that the exception interrupts execution at a well-defined
+point in time (for example, we know that code that comes before the
+exception-raising point is no longer running once we start unwinding),
+and (6) implies that resources will be cleaned up appropriately as the
+exception unwinds. Or for any given resource, that analysis + rule (2)
+gives us confidence that the resource will eventually be cleaned up at
+an appropriate time. Rules (4) + (5) + (6) together justify the use of
+a with-style composable timeout API.
+These might seem almost too trivial to write down, and indeed, if you
+delete the word "async" then these regular synchronous Python code
+generally follows all of these rules without anyone bothering to
+mention them. Yet writing them down seems useful – until curio, every
+asynchronous I/O library for Python violated all of them!
+
+
+
+Open questions
+
+...for async/await-native APIs
+One of the nice things about this analysis is that it helps suggest
+ways in which curio or other libraries like it could be improved. In
+particular, it suggests we should focus on the two places where the
+above rules currently break down. In particular, AFAICT these are the
+unique two places where errors can pass silently.
+
+Orphan tasks
+Curio obviously supports spawning new Tasks, but once spawned it
+can be rather tricky to manage them properly. In particular, the event
+loop's supervision guarantees that they will eventually clean up and
+exit. But unless you're very careful it's easy to get into situations
+where a task has crashed and no-one notices, or where a parent task
+has been cancelled but the child task continues on oblivious. For
+example, a common pattern I've run into is where I want to spawn
+several worker tasks that act like "part of" the parent task: if any
+of them raises an exception then all of them should be cancelled + the
+parent raise an exception; if the parent is cancelled then they should
+be cancelled too. We need ergonomic tools for handling these kinds of
+patterns robustly.
+Fortunately, this is something that's easy to experiment with, and
+there's lots of inspiration we can draw from existing systems: Erlang
+certainly has some good ideas here. Or, curio makes much of the
+analogy between its event loop and an OS kernel; maybe there should be
+a way to let certain tasks sign up to act as PID 1 and catch failures
+in orphan tasks? I think we'll see rapid progress here.
+
+
+Cleanup in generators and async generators
+Generators and async generators present a somewhat stickier
+problem. If you think about it, a generator is something very like an
+independent thread of execution that runs arbitrary code. Given our
+analysis above, this should make us nervous!
+Fortunately, stepping through a generator with __iter__ and
+__next__ turns out to be compatible with our rules, because while
+the generator acts somewhat like an independent thread semantically,
+each step gets executed as regular function call that's sort of
+grafted onto a regular callstack – so the context is correct,
+exceptions will propagate, etc.
+The problem is that there's another piece to the generator API, that
+not everyone realizes is even there. It's the __del__ method. If
+we have a generator with some sort of cleanup code, like:
+def some_generator(path):
+    try:
+        handle = open(path)
+        yield ...
+    finally:
+        handle.close()
+
+
+Note
+While this essay focuses on async code, everything in this
+section actually applies equally to the use of regular generators
+in regular Python code. All the "async/await-native" principles we
+formulated above like "functions should respect causality" and "no
+implicit spawning of logical threads of execution" apply just as
+much to non-async code – it's just that in the non-async case
+they're so obvious that no-one needed to write them
+down. async/await forces us to go back and re-examine the
+foundations of how Python is put together, and take these implicit
+principles and make them explicit. An interesting side-effect of
+this is that once we've written them down, suddenly this hidden gap
+in Python's existing design jumps out at us!
+
+and we iterate it, but stop before reaching the end:
+for obj in some_generator(path):
+    break
+
+# or
+
+for obj in some_generator(path):
+    raise ...
+
+then eventually that finally block will be executed by the
+generator's __del__ method (see PEP 342 for details).
+And if we think about how __del__ works, we realize: it's another
+sneaky, non-causal implicit-threading API! __del__ does not get
+executed in the context of the callstack that's using the generator –
+it happens at some arbitrary time and place.
+In the special case where you're using CPython, and there are no
+reference loops involving your generator object, then CPython's use of
+reference counting does at least guarantee that __del__ will be
+called at the right time. I.e., as soon as the last reference is
+dropped then CPython will immediately pause the thread that dropped
+that reference and execute __del__ right there. However, this
+still takes places in a special context where exceptions are
+discarded. Besides which, in most general purpose code you probably
+shouldn't assume that you're on CPython and that there are no
+reference loops, in which case all bets are off: generator __del__
+methods can easily end up executing arbitrary code without respecting
+causality, exception propagation, access to the correct task-local
+storage, timeout restrictions, ... basically all of our rules and the
+guarantees they're trying to provide just go out the window.
+
+Note
+What about __del__ methods on other objects, besides
+generators? In theory they have the same problems, but (a) for most
+objects, like ints or whatever, we don't care when the object
+is collected, and (b) objects that do have non-trivial cleanup
+associated with them are mostly obvious "resources" like files or
+sockets or thread-pools, so it's easy to remember to stick them in
+a with block. Plus, when we write a class with a __del_
+method we're usually very aware of what we're doing. Generators are
+special because they're just as easy to write as regular functions,
+and in some programming styles just as common.  It's very very easy
+to throw a with or try inside some generator code and
+suddenly you've defined a __del__ method without even realizing
+it, and it feels like a function call, not the creation of a new
+resource type that needs managing.
+
+That's for regular, synchronous generators. Async generators are
+slightly different, because the reference counting GC part doesn't
+apply. Even if we're in the happy case on CPython where __del__
+gets called synchronously on our callstack, then it still can't
+actually run async cleanup code directly, because __del__ is
+sync-colored. (This is a consequence of the weird environment where
+__del__ methods run, similar to the reason they have to discard
+exceptions.) PEP 525 provides an API for async generator __del__
+methods to hand off to an event loop to spawn a full-fledged Task
+to run the actual cleanup. Compared to synchronous generators this is
+kind of an improvement, since regular __del__ methods can run at
+any moment, like pre-emptively scheduled threads – which Glyph told
+us is bad – while this async generator cleanup
+code at least gets scheduled on a cooperative thread and thus respects
+the use of yield points as a synchronization mechanism. But on the
+other hand, an implicitly spawned thread is still an implicitly
+spawned thread, and the fact that this is the only way to run async
+generator __del__ methods means that we lose even CPython's weak
+guarantees about when they'll run: so they will never respect
+causality, exception propagation, access to the correct task-local
+storage, timeout restrictions, etc.
+This one worries me, because it's basically the one remaining hole in
+the lovely interlocking set of rules described above – and here it's
+the Python language itself that's fighting us.
+For now, the only solution seems to be to make sure that you never,
+ever call a generator without explicitly pinning its lifetime with a
+with block. For synchronous generators, this looks like:
+def some_sync_generator(path):
+    with open(path) as ...:
+        yield ...
+
+# DON'T do this
+for obj in some_sync_generator(path):
+    ...
+
+# DO do this
+from contextlib import closing
+with closing(some_sync_generator(path)) as tmp:
+    for obj in tmp:
+        ...
+
+And for async generators, this looks like:
+async def some_async_generator(hostname, port):
+    async with open_connection(hostname, port) as ...:
+        yield ...
+
+# DON'T do this
+async for obj in some_async_generator(hostname, port):
+    ...
+
+# DO do this
+class aclosing:
+    def __init__(self, agen):
+        self._agen = agen
+
+    def __aenter__(self):
+        return self._agen
+
+    def __aclose__(self, *args):
+        await self._agen.aclose()
+
+async with aclosing(some_async_generator(hostname, port)) as tmp:
+    async for obj in tmp:
+        ...
+
+It might be possible for curio to subvert the PEP 525 __del__
+hooks to at least catch cases where async generators are accidentally
+used without with blocks and signal some kind of error.
+PEP 533 is one
+possible proposal for fixing this at the language level, by adding an
+explicit __iterclose__ method to the iterator protocol and
+adapting Python's iteration constructs like for accordingly.
+
+
+
+...for the Python asynchronous I/O ecosystem
+What does all this mean for the broader ecosystem? I don't have the
+answers, but I can try to make the questions more specific!
+
+Do you really think everyone's going to abandon callbacks?
+I hope so! Apparently the C# world has done this and they seem to be
+doing OK. Arguably it's how golang works too, if you squint. My guess
+is that Python will get there eventually. But... it certainly won't
+happen immediately.
+There's a lot of code out there using callbacks, and for all its
+flaws, it's a very well-understood paradigm that has been used for
+lots of large, successful systems. There are also, I think, some very
+compelling arguments for getting rid of them – hence this essay – but
+the async/await-native paradigm is still fairly immature and will take
+some time to settle down and prove itself. My suspicion is that
+anything you can do with callbacks can be done better without them,
+but I can't prove it until someone tries.
+This is another place where the goto/structured programming
+analogy is surprisingly apt. By 1968, the structured programming folks
+could show that all
+programs could be written without goto – but the construction
+was pretty ugly, and it left open the question of whether programs
+could be written elegantly without goto. And the answer was not
+obvious, especially considering that structured programming advocates
+of the time also liked to forbid the use of break, continue,
+and mid-function return on the grounds that they were too
+goto-like. (Exceptions were right out.)
+Similarly, one could implement an asyncio event loop on top of curio
+to prove that the curio paradigm is at least as powerful in principle
+– but this wouldn't really answer the question, and it's entirely
+possible that current implementations like curio are missing some
+harmless quality-of-life measures like break. It's pretty
+exciting: we're on the cusp of learning things! But there are a lot of
+open questions about what exactly this future looks like.
+
+
+So should I drop asyncio/twisted/etc. and rewrite everything using curio tomorrow?
+Well... that's a complicated question.
+If you want to start using the async/await-native approach today, then
+curio is currently the only game in town.
+But even if you agree that this is where we want to end up eventually,
+there are still very good reasons why you might decide not to switch
+yet. Twisted and tornado are extremely mature, asyncio is in the
+standard library, and curio is neither of those things. All have seen
+years of intensive development by lots of very smart people and are in
+production use at companies you've heard of; curio is currently
+experimental alpha-status software by basically one guy. There's a
+much larger ecosystem of supporting libraries around
+twisted/tornado/asyncio than curio. And while the callback-based
+paradigm has its faults, those faults and their magnitude is
+well-understood with known workarounds, while the "curio paradigm" is
+still under heavy development, and curio-the-software doesn't yet make
+any promises about API stability.
+
+
+On the other hand, if you find the async/await-native programming
+model compelling, and want to help flesh out a new paradigm, aren't
+reliant on the existing ecosystems (or are excited to help build a new
+one), and are comfortable with the risks, then you should totally go
+for it. Help us stride forward into a glorious Future-free
+future! Even if curio doesn't end up being the async/await-native API
+to end all APIs, we'll still learn something from the attempt.
+For me personally, it helps that (a) the programs I'm working with are
+on the smaller side; there are no 20-person teams and big budgets
+depending on my technology choices; I could always port to something
+else if I had to. And (b) based on my experience so far in submitting patches to curio versus
+just trying to understand asyncio's edge case semantics, I'm honestly
+uncertain whether – if worst came to worst – it would be more work to
+maintain a personal fork of curio or to use upstream asyncio. Asyncio
+isn't bad; async/await is just so good that it radically changes the
+usual maturity calculus.
+
+
+Should asyncio be "fixed" to have a curio-style async/await-native API?
+In many ways this would be the ideal solution, since it would let us
+keep a single standard-bearer library with its interoperability story
+and more-developed ecosystem. And there are APIs in asyncio, like
+loop.sock_sendall, that seem like they could be first steps in
+this direction. But there are also some significant challenges:
+I can't see how this could be done without substantially throwing
+out and rewriting most of asyncio. Currently, transports are
+asyncio's fundamental abstraction layer: this is the layer that
+abstracts across different kinds of communication channels
+(e.g. sockets versus processes) and it also does a lot of the heavy
+lifting in abstracting across different underlying APIs
+(e.g. Unix-style polling versus Windows IOCP). The transport layer
+is also, as we saw above, the layer whose callback-centric
+abstractions cause so many problems for async/await code. And below
+the transport layer we have the event loop itself, where the
+mismatch isn't quite as great, but it still isn't the most natural
+fit. I'm not an asyncio developer, so I could be missing
+something... but the callback chaining parts are pretty deeply baked
+into asyncio as it currently exists.
+As mentioned above, the whole concept of a "curio-style API" is
+still undergoing heavy development, while asyncio's position in the
+stdlib makes it a poor place to experiment with new paradigms. This
+seems like the kind of thing where the ecosystem may be better off
+letting it stew in a 3rd-party lib for a while.
+Presumably the point of giving asyncio a curio-style API is that it
+would make it easier to mix together curio-style code and
+callback-style code in the same program (since I assume asyncio's
+current APIs wouldn't be going away – this would be
+supplemental). But – my whole argument in this essay is that for the
+most part, you don't want to mix these. So it's not clear what the
+point would be, really. If we're going to end up with two
+separate-but-equal APIs that only communicate at arms-length, then
+sticking them into two separate namespaces seems like it would be a
+lot less confusing.
+So maybe this wouldn't be the best idea? I'll be very interested to
+see what the asyncio developers think.
+One possible future would be: asyncio remains as the standard-bearer
+for the callback/hybrid approach – which is obviously going to remain
+viable and in use indefinitely – while eventually fading into becoming
+a legacy library as async/await-native approach matures and takes over
+for new code. (This is a not-unfamiliar trajectory for stdlib
+libraries – see urllib2.)
+
+
+Okay, then should curio switch to using asyncio as a backend? Or what will the story be on cross-event-loop compatibility? I thought asyncio was supposed to be the event loop to end all event loops!
+Indeed, one of the original, compelling motivations for
+adding asyncio to the stdlib is that it could become a standard
+foundation layer, so we could start up one event loop in one thread
+and then use it to simultaneously run libraries written for twisted,
+tornado, ... well, mostly twisted and tornado. And as a secondary
+benefit, we could swap in different backends to work on Unix
+vs. Windows, or on a headless server vs. embedded in a GUI app where
+the GUI framework imposes a particular event loop. Plus it's nice if
+different libraries can share code, so not everyone has to implement,
+say, IOCP handling from scratch.
+Of course, this vision is rather predicated on the fact that until
+async/await came along, all these different event loops basically
+worked the same way, and the idea that there are lots of existing
+libraries that we want to use together.
+It's not clear that curio could run nicely on top of asyncio – in
+particular, it seems difficult to reconcile their different ideas of
+how to manage the lifecycle of the event loop itself, and as we've
+seen, asyncio's higher-level abstractions are not useful to
+curio. They do already share code in the form of the selectors
+module (which is a great addition that asyncio brought to the
+stdlib!). Unfortunately, selectors isn't high-level enough to
+abstract over the differences between Unix and Windows, and as a
+result curio doesn't currently have great Windows support... but
+unfortunately there currently is no such abstraction layer that could
+be shared between curio and asyncio, because as mentioned above,
+asyncio's IOCP abstractions rely on the transport interfaces, and
+those are not useful to curio. It would be great if there were a
+library that abstracted over these platform differences at a lower
+level than asyncio does – maybe libuv could serve as an inspiration.
+In addition, the main theme of this essay is that libraries written
+using async/await natively will be simpler and higher-quality than
+libraries written using callbacks, with or without an async/await
+layer added on top. So ideally we want to throw out those old
+libraries using the old APIs and replace them! This might be
+particularly true given the current interest in migrating to Sans I/O-style protocol libraries –
+which, in addition to their advantages in terms of design and
+maintainability, also make it much easier to migrate between
+incompatible I/O APIs, which makes direct interoperability less
+urgent.
+...but of course, while the "throw out all the legacy code" strategy
+might work okay for green-field projects using popular protocols like
+HTTP, it doesn't help with that legacy tornado app, and it's probably
+going to be a while until we see an async/await-native client for
+NNTP
+or IMAP4. So it
+would be nice to have some kind of interopability story. One approach
+would be: start two OS threads. In one thread, run your
+async/await-native event loop; in the other thread, run your twisted
+reactor. Communicate by message passing. This approach is really
+crude... but, the programming models are different enough that
+message-passing might be what you want to use anyway. (I mean, curio
+doesn't even have a Deferred / Future concept, and for good
+reasons.) So even this crude approach might give you 90% of what you'd
+get by merging the underlying event loops, and with much less fuss?
+This suggests that a library for cross-event-loop message passing
+might be an interesting short-term target for those who are worried
+about interoperability.
+As for plugging in different backends, like for GUI framework
+interoperability: I'm not sure how that might work, and am not enough
+of a GUI programmer to have any useful insight into how async/await
+affect GUI programming. Definitely an interesting open question.
+
+
+
+
+Where next?
+If you want to read more or talk about curio: there's the fine manual, the github page, and the discourse-based
+discussion forum.
+If you want to talk more about async API design in general, then the
+async-sig@python.org mailing list might be a
+good venue.
+You can also, of course, contact me in person –
+though for general discussion, I'd rather stick to a public forum
+where others can benefit and join in. I guess you can also "tweet at
+me"? I've only been on twitter
+for 2 days so I'm still figuring out the lingo.
+I'll add links here to any interesting responses or discussions I
+see.
+
+
+Acknowledgements
+Without twisted and tornado, there'd be no asyncio; without asyncio
+and PEP 342, there'd be
+no async/await; without asyncio and async/await, there'd be no curio;
+and without twisted, tornado, asyncio, curio, and others, then this
+essay wouldn't exist. So many thanks to all the folks who've spent the
+last 15+ years pushing forward on these hard and exciting problems.
+Thanks to Rose Lemberg for help with Russian.
+Thanks to Yury Selivanov, Andrew Svetlov, and David Beazley for
+providing feedback on draft versions of this essay. Any remaining
+errors and infelicities are, of course, entirely my fault.
+
+
+    
+  
+    Posted by 
+        Nathaniel J. Smith
+    
+  
+Sat 05 November 2016
+    
+Recent Posts
+    
+          Some thoughts on asynchronous API design in a post-async/await world
+      
+      
+          Emerging from the underworld
+      
+      
+          Stochastic descent
+      
+    
+  
+  
+    Copyright ©  2016  Nathaniel J. Smith —
+  Powered by Pelican
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-45985969-1', 'auto');
+
+    ga('send', 'pageview');
+    

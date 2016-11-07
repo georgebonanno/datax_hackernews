@@ -1,0 +1,327 @@
+Hyper.sh - Effortless Docker Hosting(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M6D33L');
+    
+          
+          Container Native Cloud
+        
+        FEATURES
+            HOW TO
+            PRICING
+            DOCS
+            FORUM
+          Sign In
+            Sign Up
+          ☰
+        
+          
+            
+              Effortless Docker Hosting
+              Deploy your container apps in 5 sec!
+              Sign up for $20 free credit
+            
+            
+              $ 
+              
+              
+              
+              
+              
+              
+              
+            
+            
+        
+      
+        
+      
+          
+            THE CLOUD
+            THAT WORKS LIKE
+            ONE SINGLE MACHINE
+          
+          
+            
+              
+                "OPS-LESS"
+                The entire Hyper.sh cloud works as a single server with infinite resources and always available. There is no VM node, cluster, or scheduler to manage. The workflow is simply:
+                
+                hyper pull nginx
+                  hyper run nginx
+                
+            
+            
+              
+                5-SECOND PROVISIONING
+                Pull your Docker image from Docker Hub, private registry, or even from S3, then hyper run to launch it. Your container will be live in 5 seconds!
+              
+            
+            
+              
+                PER SECOND BILLING
+                Forget about the expensive hourly rates. Hyper.sh uses a per-second billing model, which allows you to launch a new container in 5 seconds, run for 30s, shutdown in 1s. Pay as little as 5+30+1=36 seconds!
+              
+            
+            
+              
+                MICRO INSTANCE (64MB)
+                Breakdown your monolithic application into micro-services with Hyper.sh's micro containers (64MB mem). They are agile, efficient, and cost effective!
+              
+            
+          
+        
+        
+          
+            EVERYTHING YOU WANT,
+            NATIVELY ON CONTAINER
+          
+          
+            
+              
+                EBS-LIKE PERSISTENT VOLUME
+                Your containers are attached with EBS-like volumes. The data is automatically replicated, distributed and protected from failures. Moreover, you can create snapshots for backup/restore.
+              
+            
+            
+              
+                L2 PRIVATE NETWORK
+                Your containers will run in your own Layer-2 network. Your traffic is completely isolated from other users and the rest of the world!
+              
+            
+            
+              
+                AMAZING HARDWARE
+                
+                    Amazing Hardware: All our servers are built on powerful Octo-Core machines with dedicated ECC Ram and SSD storage.
+                  
+                  
+                    10 Gbps Network: Our internal network utilizes blazing fast 10Gbps connectivity, ensuring extremely low latency for incredible application performance.
+                  
+                  
+                    Full SSD: SSD hard drives come standard to deliver optimum performance for your container applications.
+                  
+                  
+                    Tier-1 Bandwidth: Advanced networking combined with top tier 1 ISP connectivity, for utmost reliability and performance.
+                  
+                
+            
+            
+              
+                Hosted in Los Angeles
+              
+            
+          
+        
+        
+          PRICING
+          
+              
+              
+              
+              
+                
+                  
+                  CPU
+                
+                
+                  
+                  Memory
+                
+                
+                  
+                  Disk
+                
+                
+                  
+                  Network
+                
+              
+            
+            
+              
+                
+                  
+                  S1
+                
+                
+                  
+                  S2
+                
+                
+                  
+                  S3
+                
+                
+                  
+                  S4
+                
+                
+                  
+                  M1
+                
+                
+                  
+                  M2
+                
+                
+                  
+                  M3
+                
+                
+                  
+                  L1
+                
+                
+                  
+                  L2
+                
+                
+                  
+                  L3
+                
+              
+              
+            
+            Learn More...
+          
+      
+          USE CASES
+          
+              
+                
+                  CI / CD
+                  Hyper.sh is the optimal container hosting service to create your CI/CD pipeline. No more long running costly VMs sitting waiting for build jobs. With Hyper.sh you only pay when you’re building.
+                
+              
+              
+                
+                  Dev / Test
+                  Hyper.sh allows you to focus on code. With our Docker native workflow, and no VM clusters to manage or upfront planning to perform, developing on Hyper.sh is the same as on your laptop. You know Docker, you know Hyper.sh.
+                
+              
+            
+            
+              
+                
+                  Serverless
+                  Build out your own serverless platform or app on Hyper.sh. The combination of incredibly fast boot times, coupled with strong isolation and ease of use, makes Hyper.sh a perfect service to run your event-driven workloads.
+                
+              
+              
+                
+                  Demo / Poc
+                  Need to showcase your new project or app? Deploying to Hyper.sh is incredible fast and with a few Docker commands, your app is up and running for the world to see.
+                
+              
+            
+          
+      
+          WHAT OUR USERS ARE SAYING
+              
+            
+          
+        
+      
+          
+            Get Started
+            
+                
+                  
+                
+                Create Account
+              
+              
+                
+                  
+                
+                Generate API Credential
+              
+              
+                
+                  
+                
+                Setup CLI on Your Laptop
+              
+            
+          
+            
+              
+                
+              
+          
+        
+        
+            Product
+            Features
+              How To
+              Pricing
+              Status
+            
+          
+            Learn
+            Documentation
+              Forum
+              Slack
+              FAQ
+            
+          
+            About
+            Company
+              Careers
+              Blog
+              Contact
+            
+          
+            Community
+            
+              
+              
+              
+            
+        © 2016. HyperHQ Inc All Rights Reserved
+        
+        
+        
+        
+        /* <![CDATA[ */
+        var google_conversion_id = 869259706;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+        
+        
+        
+        
+        
+        
+        
+        
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-79543607-2', 'auto');
+          ga('send', 'pageview');
+        
+        
+        
+        
+        
+        !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+        },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+        a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+        // Insert Twitter Pixel ID and Standard Event data below
+        twq('init','nvn3g');
+        twq('track','PageView');
+        
+        (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/zgytclad';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
+        
+          var delay = 30 * 1000;
+          setTimeout(function() {
+            window.Intercom("boot", {
+              app_id: "zgytclad"
+            });
+          }, delay);
+        

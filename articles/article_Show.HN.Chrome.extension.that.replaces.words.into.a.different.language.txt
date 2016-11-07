@@ -1,0 +1,72 @@
+
+
+            
+                alpharabi.us
+            
+
+            
+                language learning made simple, fácil, سهل, 
+आसान, facile, einfach, makkelijk
+            
+
+            
+
+            
+
+            
+
+                 alpharabi.us makes learning foreign language vocabulary easy, with just a google chrome extension. our first version simply swaps out words, in the articles of your favorite sites, that are essential to learning either  spanish, french, portuguese, or italian. that being said, our goal is to add more languages, more applicable websites, and increased grammatical complexity. stay tuned!
+
+            
+
+            
+                download
+
+            
+        
+            
+                 alpharabi.us works on all the following sites:
+                
+                
+                      
+                    
+                      
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+                
+            
+
+     
+           basil  +  shreyas  
+
+     
+            
+            $("#js-rotating").Morphext({
+                animation: "bounceIn",
+                separator: ",",
+                speed: 2000,
+                complete: function () {
+                }
+            });
+
+        

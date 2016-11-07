@@ -1,0 +1,1023 @@
+Thousands of people flew Allegiant thinking their planes wouldn’t fail. They were wrong. | investigations | Tampa Bay Times
+
+    
+  
+    
+    var act = new gigya.socialize.UserAction();
+    act.setTitle("Thousands of people flew Allegiant thinking their planes wouldn’t fail. They were wrong.");
+    act.setLinkBack("http://www.tampabay.com/projects/2016/investigations/allegiant-air/mechanical-breakdowns/");
+    act.addMediaItem({
+      type: 'image',
+      src: 'http://www.tampabay.com/projects/2016/investigations/allegiant-air/mechanical-breakdowns/assets/allegiant/social.jpg',
+      href: 'http://www.tampabay.com/projects/2016/investigations/allegiant-air/mechanical-breakdowns/'
+    });
+    var showShareBarUI_params = {
+      containerID: 'componentDivHeader',
+      shareButtons: [{
+        provider: 'Facebook',
+        iconImgOver: '//www.tampabay.com/projects/assets/sharing/fb_blWh.svg',
+        iconImgUp: '//www.tampabay.com/projects/assets/sharing/fb_wh.svg'
+      }, {
+        provider: 'Twitter',
+        iconImgOver: '//www.tampabay.com/projects/assets/sharing/tw_blWh.svg',
+        iconImgUp: '//www.tampabay.com/projects/assets/sharing/tw_wh.svg'
+      }, {
+        provider: 'Email',
+        iconImgOver: '//www.tampabay.com/projects/assets/sharing/email_blWh.svg',
+        iconImgUp: '//www.tampabay.com/projects/assets/sharing/email_wh.svg'
+      }, {
+        provider: 'Share',
+        iconImgOver: '//www.tampabay.com/projects/assets/sharing/more_blWh.svg',
+        iconImgUp: '//www.tampabay.com/projects/assets/sharing/more_wh.svg'
+      }],
+      iconsOnly: 'true',
+      showCounts: 'none',
+      userAction: act
+    }
+
+    
+    
+    
+    gigya.socialize.showShareBarUI(showShareBarUI_params);
+
+    
+
+            
+            
+  @media only screen {
+    #alle_winglede.fixedimg>.image { background-image: url(//s3.amazonaws.com/ledejs/resized/allegiant/480/alle_winglede.jpg); }
+  }
+  @media only screen and (min-width: 481px), screen and (min-height: 321px) {
+    #alle_winglede.fixedimg>.image { background-image: url(//s3.amazonaws.com/ledejs/resized/allegiant/600/alle_winglede.jpg); }
+  }
+  @media only screen and (min-width: 601px), screen and (min-height: 401px) {
+    #alle_winglede.fixedimg>.image { background-image: url(//s3.amazonaws.com/ledejs/resized/allegiant/1024/alle_winglede.jpg); }
+  }
+  @media only screen and (min-width: 1025px), screen and (min-height: 682px) {
+    #alle_winglede.fixedimg>.image { background-image: url(//s3.amazonaws.com/ledejs/resized/allegiant/1500/alle_winglede.jpg); }
+  }
+  @media only screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi) {
+    #alle_winglede.fixedimg>.image { background-image: url(//s3.amazonaws.com/ledejs/resized/allegiant/480/alle_winglede-2x.jpg); }
+  }
+  @media only screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-height: 321px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-height: 321px) and (min-resolution: 192dpi) {
+    #alle_winglede.fixedimg>.image { background-image: url(//s3.amazonaws.com/ledejs/resized/allegiant/600/alle_winglede-2x.jpg); }
+  }
+  @media only screen and (min-width: 601px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-height: 401px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 401px) and (min-resolution: 192dpi), screen and (min-height: 682px) and (min-resolution: 192dpi) {
+    #alle_winglede.fixedimg>.image { background-image: url(//s3.amazonaws.com/ledejs/resized/allegiant/1024/alle_winglede-2x.jpg); }
+  }
+  @media only screen and (min-width: 1500px), screen and (min-height: 1000px), screen and (min-width: 1025px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-height: 1000px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1025px) and (min-resolution: 192dpi), screen and (min-height: 1000px) and (min-resolution: 192dpi) {
+    #alle_winglede.fixedimg>.image { background-image: url(//s3.amazonaws.com/ledejs/resized/allegiant/1500/alle_winglede-2x.jpg); }
+  }
+
+  
+        
+        
+        Thousands of people flew Allegiant last year  thinking their planes wouldn’t fail in the air. They were wrong.
+        
+      
+    
+    Boise Airport
+      On a wing…then a prayer: After fuel vapors filled the plane, panicked passengers forced their way out of the cabin and onto the wing of Allegiant Air Flight 330 from Los Angeles to Boise, Idaho, in June 2015.
+    
+
+
+            BREAKDOWN
+AT 30,000 FEET
+            Nov. 2, 2016
+By NATHANIEL LASH, WILLIAM R. LEVESQUE and ANTHONY CORMIER
+Times Staff Writers
+
+
+
+
+
+            Lisa Cozzolino started to panic as Allegiant Air Flight 844 circled over Pinellas County, burning off fuel for an emergency landing. “All the bad things I’ve done in my life,” she said to her sister, “and now I’m going to die.”var act = new gigya.socialize.UserAction();act.setTitle("“Now I’m going to die,” thought Lisa Cozzolino as Allegiant Flight 844 prepared to make an unplanned landing.");act.setLinkBack("http://www.tampabay.com/projects/2016/investigations/allegiant-air/mechanical-breakdowns/?tweetline");var showShareBarUI_params={containerID: "componentDivtweetline_0", shareButtons: [{provider: "twitter", iconImgUp: "http://www.tampabay.com/projects/assets/sharing/twitter_inline.png"}], showCounts: "none", iconsOnly: "true", userAction: act};var params = {userAction:act, enabledProviders: "twitter"};gigya.socialize.showShareBarUI(showShareBarUI_params);
+Matt Jones fumbled with his cellphone, trying to call his wife to say goodbye, as crew members on Allegiant Flight 822 ordered him to tuck into crash position over Baltimore. “I said to myself, ‘I’m never going to see my wife or my kids or my grandkids again,’” he recalled.
+Jessica Stoffel was so afraid on Allegiant Flight 175 over Mesa, Ariz., that she grabbed the stranger next to her and squeezed his hand. “I was terrified and honestly did not think we were going to make it,” she said.
+            FlightAware
+    “Now I’m going to die.” FlightAware’s flight tracker shows Lisa Cozzolino’s flight, Allegiant Flight 844, circling the gulf and then returning for an unscheduled landing after taking off in June from St. Pete-Clearwater International Airport.All major airlines break down once in awhile. But none of them break down in midair more often than Allegiant.
+A Tampa Bay Times investigation — which included a first-of-its kind analysis of federal aviation records — has found that the budget carrier’s planes are four times as likely to fail during flight as those operated by other major U.S. airlines.var act = new gigya.socialize.UserAction();act.setTitle("A Tampa Bay Times analysis found Allegiant planes are four times as likely as other airlines to fail during flight.");act.setLinkBack("http://www.tampabay.com/projects/2016/investigations/allegiant-air/mechanical-breakdowns/?tweetline");var showShareBarUI_params={containerID: "componentDivtweetline_1", shareButtons: [{provider: "twitter", iconImgUp: "http://www.tampabay.com/projects/assets/sharing/twitter_inline.png"}], showCounts: "none", iconsOnly: "true", userAction: act};var params = {userAction:act, enabledProviders: "twitter"};gigya.socialize.showShareBarUI(showShareBarUI_params);
+In 2015, Allegiant jets were forced to make unexpected landings at least 77 times for serious mechanical failures.
+Cozzolino’s flight was interrupted by a leaky hydraulic system. Jones was on a plane with failing brakes. The engine on Stoffel’s plane caught fire during an aborted landing, and the jet dipped suddenly to one side. Its wing nearly touched the ground.
+None of the 77 incidents prompted enforcement action from the Federal Aviation Administration, which doesn’t compare airline breakdown records to look for warning signs.
+To create such a comparison, Times reporters built a database of more than 65,000 records from the FAA.
+Working through the data, they connected a year’s worth of flight records with documents showing mechanical problems at the 11 largest domestic carriers in the United States, including Allegiant. They interviewed 20 aviation experts, including former federal safety inspectors, aircraft engineers and mechanics.
+Then they traveled to Las Vegas and met with Allegiant executives for a series of interviews. The airline did not dispute the newspaper’s findings, which included:
+            Forty-two of Allegiant’s 86 planes broke down in mid-flight at least once in 2015. Among them were 15 forced to land by failing engines, nine by overheating tail compartments and six by smoke or the smell of something burning.After certain systems on Allegiant planes fail, the company repairs them and puts the planes back in service, only to see the same systems fail again. Eighteen times last year, key parts such as engines, sensors and electronics failed once in flight, got checked out, and then failed again, causing another unexpected landing.Allegiant’s jets are, on average, 22 years old. The average age of planes flown by other carriers is 12. Experts say planes as old as Allegiant’s require the most rigorous maintenance in the industry. But Allegiant doesn’t staff its own mechanics at 107 of the 118 airports it flies to.Allegiant relies most heavily on McDonnell Douglas MD-80s, an aging model retired by all but two other major U.S. carriers. The company’s MD-80s fail twice as often as those operated by American Airlines and three times as often as those flown by Delta.
+Allegiant’s troubles have not gone unnoticed. A string of emergency landings in recent years prompted websites, TV stations and newspapers, including the Times, to ask questions about the company’s safety record. Time and again, top executives downplayed concerns and said the airline was no different than others.  
+Amid the increased scrutiny, the FAA in April launched a three-month review of Allegiant’s maintenance, training and operations programs. The agency found problems with Allegiant’s maintenance paperwork, including a failure to report a mid-flight engine shutdown within a required time frame. But the FAA said nothing it discovered was severe enough to require a fine or other serious enforcement action.
+Instead, the agency required Allegiant to file a plan for addressing the FAA’s findings. The airline submitted it in September, and the FAA accepted it — essentially giving Allegiant a clean bill of health. “We were always a safe airline,” Allegiant’s chief operating officer Jude Bricker told the Associated Press on Sept. 30. “This gives credence to our claim.”
+                
+        What failed in flight
+        These parts and systems have forced Allegiant’s planes to land unexpectedly the most between January 2015 and September 2016.
+    
+            
+
+	
+	
+
+	
+		.g-artboard {
+			margin:0 auto;
+		}
+	
+		
+			#g-plane_small-Artboard_1{
+				position:relative;
+				overflow:hidden;
+				width:1280px;
+			}
+			.g-aiAbs{
+				position:absolute;
+			}
+			.g-aiImg{
+				display:block;
+				width:100% !important;
+			}
+			#g-plane_small-Artboard_1 p{
+				font-family:nyt-franklin,arial,helvetica,sans-serif;
+				font-size:13px;
+				line-height:18px;
+				margin:0;
+			}
+			#g-plane_small-Artboard_1 .g-aiPstyle0 {
+				font-size:35px;
+				line-height:61px;
+				text-align:center;
+				letter-spacing:-0.025em;
+				color:#000000;
+			}
+			#g-plane_small-Artboard_1 .g-aiPstyle1 {
+				font-size:45px;
+				line-height:61px;
+				text-align:center;
+				letter-spacing:-0.025em;
+				color:#ac4141;
+			}
+			.g-aiPtransformed p { white-space: nowrap; }
+		
+			
+				Cockpit instruments
+			
+			
+				Cabin pressure
+			
+			
+				6 times
+			
+			
+				9 times
+			
+			
+				Engines
+			
+			
+				39 times
+			
+			
+				Nose landing gear
+			
+			
+				7 times
+			
+			
+				Tail compartment
+			
+			
+				26 times
+			
+		
+	
+
+
+	
+
+
+
+
+	
+	
+
+	
+		.g-artboard {
+			margin:0 auto;
+		}
+	
+		
+			#g-plane_full-Artboard_1{
+				position:relative;
+				overflow:hidden;
+				 
+			}
+			.g-aiAbs{
+				position:absolute;
+			}
+			.g-aiImg{
+				display:block;
+				width:100% !important;
+			}
+			#g-plane_full-Artboard_1 p{
+				font-family:nyt-franklin,arial,helvetica,sans-serif;
+				font-size:13px;
+				line-height:18px;
+				margin:0;
+			}
+			#g-plane_full-Artboard_1 .g-aiPstyle0 {
+				font-size:16px;
+				line-height:27px;
+				text-align:center;
+				letter-spacing:-0.025em;
+				color:#000000;
+			}
+			#g-plane_full-Artboard_1 .g-aiPstyle1 {
+				font-size:20px;
+				line-height:27px;
+				text-align:center;
+				letter-spacing:-0.025em;
+				color:#ac4141;
+			}
+			.g-aiPtransformed p { white-space: nowrap; }
+		
+			
+				Cockpit instruments
+			
+			
+				Cabin pressure
+			
+			
+				6 times
+			
+			
+				9 times
+			
+			
+				Engines
+			
+			
+				39 times
+			
+			
+				Nose landing gear
+			
+			
+				7 times
+			
+			
+				Tail compartment
+			
+			
+				26 times
+			
+		
+	
+
+
+	
+
+
+
+
+                
+        Source: Times analysis of records from U.S. DOT and FlightAware
+        ELI ZHANG, NATHANIEL LASH | Times
+    
+            Plenty of people are rooting for Allegiant, including travelers who chafe at paying high airfares and officials in the out-of-the-way towns and smaller airports that Allegiant serves. Among them is St. Pete-Clearwater International Airport, where the airline accounts for about 95 percent of annual passenger traffic.
+But industry observers say there’s a reason most air travel is so expensive. It’s difficult both to offer great deals and spend the money needed for a reliable fleet.
+When the Times first reached out to Allegiant officials for this story, they declined to speak with reporters. Then, after the newspaper presented them with its findings, they asked for a meeting. During five hours of interviews at the company’s Las Vegas headquarters and training center, they acknowledged their planes break down too often and said the airline is changing the way it operates.
+“I can’t sit here and say that you’re wrong,” Allegiant CEO Maurice Gallagher Jr. said. “We’re very much focused on running a better operation.”var act = new gigya.socialize.UserAction();act.setTitle("“We’re very much focused on running a better operation,” said Allegiant CEO Maurice Gallagher Jr.");act.setLinkBack("http://www.tampabay.com/projects/2016/investigations/allegiant-air/mechanical-breakdowns/?tweetline");var showShareBarUI_params={containerID: "componentDivtweetline_2", shareButtons: [{provider: "twitter", iconImgUp: "http://www.tampabay.com/projects/assets/sharing/twitter_inline.png"}], showCounts: "none", iconsOnly: "true", userAction: act};var params = {userAction:act, enabledProviders: "twitter"};gigya.socialize.showShareBarUI(showShareBarUI_params);
+            
+  Watch the video
+  
+
+            [Read more: After Times investigation, Allegiant admits it had too many aircraft problems]
+Experts who reviewed Allegiant mechanical records at the Times’ request said improvements are needed.
+They said the records show Allegiant missed routine inspections. They said they found documentation that engines were fixed and then broke down again weeks later. They said the company appeared to allow minor problems to linger until they became major malfunctions.
+“Allegiant is probably going to have an accident,” said former FAA inspector Richard Wyeroski, who became a whistleblower in 2002. “That airline should basically be grounded and re-evaluated for their certificate.”
+            
+  SCOTT KEELER | Times
+      Emergency vehicles wait next to the runway at St. Pete-Clearwater International Airport in June after an Allegiant jet landed because of problems with its hydraulic system. The next day, after repairs, the same plane made another unscheduled landing, with Lisa Cozzolino on board.
+            No tracking
+            The FAA requires airlines to fill out forms called service difficulty reports when planes have serious breakdowns.
+Carriers also have to file monthly “mechanical interruption summary reports” — logs of failures that cause delays, diversions or cancellations.
+But the federal government doesn’t regularly check these documents for accuracy or completion, and it leaves it up to airlines to store them.
+As a matter of policy, the FAA also doesn’t compare airlines’ records to search for warning signs. Agency officials said one airline is so different from the next, in the types of planes it flies and the way it flies them, that such a comparison wouldn’t be useful.
+Instead, FAA inspectors examine each airline independent of the others.
+It’s a policy that has continued even though a majority of the FAA’s own inspectors say it should be changed. According to a 2013 report, three in four inspectors surveyed by the U.S. Department of Transportation said comparing airlines would make air travel safer.
+Former FAA inspector Edward Jeszka said it wasn’t unusual for inspectors to get together unofficially and swap information about airlines, “to see if there were any outliers.” But this was always done on the inspectors’ own time, said Jeszka, a whistleblower who said he was retaliated against after he reported mishandled money at the FAA.
+For this story, the Times used the Freedom of Information Act to obtain mechanical interruption summary reports for the 11 largest airlines in the United States.  Then reporters connected the reports with records of unexpected landings from the U.S. Department of Transportation and FlightAware, a company that collects aviation data.
+The result is the best available picture of how often mechanical problems cause midair emergencies at major airlines.
+            
+  DOUGLAS R. CLIFFORD  |  Times (2015)
+      Planes in Allegiant’s fleet are parked on the tarmac at St. Pete-Clearwater International Airport, where the airline accounts for more than 95 percent of passenger traffic.
+            Signs of trouble
+            The average U.S. airline has about three unexpected landings caused by mechanical problems for every 10,000 times it flies, the Times found.
+Southwest had the lowest rate of problems last year. It had about one in 10,000 flights end in an unexpected landing.
+JetBlue was in the middle of the pack. It had about three flights end in unexpected landings.
+American Airlines had one of the highest rates. It had five.
+Allegiant had 12.var act = new gigya.socialize.UserAction();act.setTitle("Allegiant had 12 unexpected landings per 10,000 flights — more than double the next highest airline.");act.setLinkBack("http://www.tampabay.com/projects/2016/investigations/allegiant-air/mechanical-breakdowns/?tweetline");var showShareBarUI_params={containerID: "componentDivtweetline_3", shareButtons: [{provider: "twitter", iconImgUp: "http://www.tampabay.com/projects/assets/sharing/twitter_inline.png"}], showCounts: "none", iconsOnly: "true", userAction: act};var params = {userAction:act, enabledProviders: "twitter"};gigya.socialize.showShareBarUI(showShareBarUI_params);
+                
+        The highest rate in the country
+        In 2015, Allegiant’s planes were four times as likely to make unexpected landings after midair mechanical problems than other U.S. airlines.
+    
+            
+        
+                    <![CDATA[ rect[data-color-index="0"] {
+                        fill: #a50026;
+                    }
+                    
+                    text[data-color-index="0"] {
+                        fill: #a50026;
+                    }
+                    
+                    @font-face {
+                        font-family: Khula-Light;
+                        font-style: normal;
+                        font-weight: 300;
+                        src: local(Khula Light), local(Khula-Light), url(data:application/font-woff2;base64,d09GMgABAAAAAAKsAA4AAAAABQQAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbDBwMBmAANBEICoEMgRIBNgIkAxQLDAAEIAWDZAc+GwsEyJ6aPAmKggIJbMMrFAQc8QA/7t9zH4A22glSKE6rS3+rcyhiieIv+7V3bvE2F8Sl2ReRioTOOqVdKuChaSX/v6dhAw5DDngA2mGwL07lJ8xYFsAAxnhtzuZcKGltDvONc1vPC1SgYt+mmZDPBoqMiI4Ysg2PEJ+VC8jhcxFBREwQkJFR83I0thL68RAfGnuGW92IKMwdwvyzwcGZCw82AOS7P2P4bwm4olgH2BR9Ey8BnXi9r4yixiV0plsnIFYe6HQfDA93LwjrpiKIw5bV6A6MwnYsnATfH2Lu7MpYOmqny6kTIe+4+ZAJOhLC79/Lyrx7t2x7Jrhj5dPHlY92jqCW52rH395/pQ/03v1PHH324NKdee3d+6OhyCPyat7H5sXu3q6ceUlcXPyMLN8LPr/SPgDFCvqxWYPs1avYuB+yySG82t/Cq6e+/vl/au5Tch9IbRYG8lmcfvXPHxtzn6R4DvHon22ASA1fiY33ICBuJ3/IjYMs0oCn2b3gWtIaLiEWgKABphdRIAmIqH5KwzGbiPtsEZHQCJPeLRgWVthBM/AQObsYFJruGDGku1JVX0dPkBkbDvSN2vSJ24bzX1UahkSUo+TQyVI5gybRYU9ck9KOCQMqFSA4hL2M1MFjoAbFHFN7yi/I0c0UYdAPj8Y00IMaE9f31eW08XImB6jBmB7BhjnwEU7T3sEcRVjNcAQzl6yNlAtq6pHG02bJ2UhA0LxONq0r5zQYFUOm03SS+Z/XIVFRug6s2/19HSsrjiASXnG595fv7oYP7WYGvSlTnW2EiQAA) format(woff2);
+                        unicode-range: ;
+                    }
+                    
+                    @font-face {
+                        font-family: Khula-Light;
+                        font-style: normal;
+                        font-weight: 300;
+                        src: local(Khula Light), local(Khula-Light), url(data:application/font-woff2;base64,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) format(woff2);
+                        unicode-range: ;
+                    }
+                    
+                    @font-face {
+                        font-family: Khula-Regular;
+                        font-style: normal;
+                        font-weight: 400;
+                        src: local(Khula), local(Khula-Regular), url(data:application/font-woff2;base64,d09GMgABAAAAAAKUAA4AAAAABPQAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbDBwMBmAANBEICoEEgQoBNgIkAxQLDAAEIAWDYAc5G/oDyJ6aPAmKAkYslr61UAoAowiKNXTvIYBgkwKQI1IMwoCrrO1EyAKpThUgjUccuJYf0RQRiy66iBYbj+gJBlI24PX/F2VfUMbVXGe2OvH//5vP1wLp+JhmGc+hbX4nfFn9NY0/yNykX6i3aSLMZ4IiERGjQ9rokPBZXaCM4IkQsppSoqvG4zQj45CcfGR2C4ebkxjMXyLy/eHi3PlXR7Zt4f5bhYt/i9hqnh0Hh9IXeZVNF4/3zRR1nKJJXbrYZPWg6yyYvdX2OMR8qBLkELKNHjYjiZ8dp8H/RuYqlBbHi3ZWFkesKP98UhKwx4UeLy1V8ujRkg3pko3Lv5av/5/n3EY2juTvbdj7qYQ+832nmi4+Wnhk6GYPmnb+yNt3Xir6OPiG29WpMXcUL+y3B3nqQJWTfigtXMC913+HtGfvi/7+vvuflv0WvrEpCpQFuUQlOx3ix/ZV6T1AnsXAbCR19iTb4l0gt53vuIPDbJPYXC/lybFCqzhF5rdFLsrgEhVKuNQwueXM53KfzeMKtMS4ixVGxSJncAoaAEgEhotG+oZKrTlyZR/1ocV1Per6CCGSEDis4tfy2t1kr3HFkUEroUqob8mYcAaAgvjbUH00Amhc3Jn5K/vSItlFAIV8xzjiAjltUnH/SEtRD61ouYOYzgwJjtzxHoVdPYI7RdjHYQgV8AS0ogHkkzbboyk6SsHFQyHeqoEiCURk4FNJP53utD6OCDNw5dD5j5uIP+cIiTQcIWUnMR42Y/zA+g0qAAAA) format(woff2);
+                        unicode-range: ;
+                    }
+                    
+                    @font-face {
+                        font-family: Khula-Regular;
+                        font-style: normal;
+                        font-weight: 400;
+                        src: local(Khula), local(Khula-Regular), url(data:application/font-woff2;base64,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) format(woff2);
+                        unicode-range: ;
+                    }
+                    
+                    @font-face {
+                        font-family: Khula-Bold;
+                        font-style: normal;
+                        font-weight: 700;
+                        src: local(Khula Bold), local(Khula-Bold), url(data:application/font-woff2;base64,d09GMgABAAAAAAKQAA4AAAAABQAAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbDBwMBmAANBEICoEMgRMBNgIkAxQLDAAEIAWDYgc5GwUEEZWLW7KfhbHjI1IZdKfzc80t6xPxR6LviyDix/HNPnzSDVCGj0hEVLoOIiEU6mKbHBVK+AgTTNtENCFi+e+9FAB/fy1+tMLpS7jG1bzNfz5tWFyF8dFhth4n4b5NE2E+ExQZER0d0cCxZl0rIoAbckohKAyCAC46TT2vzTl1EQs21zwEjmRDGQxMIPwNwt7G5uZGonCPf+h4/n8bXJE5C6zTn2wcEIUD98sa8EMjmWOIAgxFgahzYPg+3D1B2nWeAFiAKatALFCK2CacBP8QY0LH3R3dlld7D8Pi/vp1l4t44/aq0xWXly87Jv3xqe43b7p7Hp9cOenZ0YR13mHvZNuX8xcD6ha7mx3enT9xPrpyHfC/f/5OYHnm5JbMwcMeqftWnUcdr4zFXZ6Q4LmDGy60DnuW/QRzPA/w9O2/Q+RLH5w+/sv/v9Oj2HEXgtPbQoEFzXfd+y//R5tHMWs8A1jTwgSA8rML5gnbEcAyidM312ZQwRxw3XUa2eRIHxoxzsiChMoqnHBhNSn4sAY/yljLlwvrgJ9UveZBnnSIyN5vYmOWxTZLMUrq67O+Lh0j7pQ6WgKavpyyCrIUnJLL/dR1xlltjbgtIUrmKJ8YkdNf5FJxYHLJFM1W/QKou2mjqTP2gpQ8IEA4VrMkTGNQCpSByBCsTc5HYLOfwRQQFth22mh46kJMs440+7SD9U5Mfx6Ua7SiyioZ8qCi9tI8prLSo8+rw9/ri09bQFBoQfEmDThmplK20xoAAAA=) format(woff2);
+                        unicode-range: ;
+                    }
+                    
+                    @font-face {
+                        font-family: Khula-Bold;
+                        font-style: normal;
+                        font-weight: 700;
+                        src: local(Khula Bold), local(Khula-Bold), url(data:application/font-woff2;base64,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) format(woff2);
+                        unicode-range: ;
+                    }
+                    
+                    * {}
+                    
+                    svg.renderer-svg .svg-background {
+                        fill: #ffffff;
+                    }
+                    
+                    svg.renderer-svg tspan {
+                        height: 1em;
+                        line-height: 1em;
+                    }
+                    
+                    .d4 {
+                        font-size: 20px;
+                    }
+                    
+                    .d4 .leftAxis path.domain {
+                        display: none;
+                    }
+                    
+                    .d4 .axis .tick {
+                        font-family: Khula Light;
+                    }
+                    
+                    .d4 .axis .tick text {
+                        fill: #666666;
+                        shape-rendering: crispedges;
+                        text-anchor: middle;
+                    }
+                    
+                    .d4 .axis .tick:first-child text {
+                        text-anchor: middle;
+                    }
+                    
+                    .d4 .axis .tick line {
+                        fill: none;
+                        stroke: #dddddd;
+                        stroke-width: 1px;
+                        shape-rendering: crispedges;
+                    }
+                    
+                    .d4 .axis.leftAxis text {
+                        text-anchor: start;
+                    }
+                    
+                    .d4 .concealer-label {
+                        font-family: Khula Light;
+                    }
+                    
+                    .d4 .concealer-label text {
+                        fill: #666666;
+                    }
+                    
+                    .d4 .concealer-label rect {
+                        fill: #ffffff;
+                    }
+                    
+                    .d4 line.zero {
+                      /*  stroke: #333333;*/
+                        shape-rendering: crispedges;
+                    }
+                    
+                    .d4 .margins .label {
+                        /*font-family: Khula Light;*/
+                    }
+                    
+                    .d4 .column-label {
+                        fill: #666666;
+                    }
+                    
+                    .svg-text {
+                        /*font-family: Khula Light;*/
+                        font-size: 20px;
+                    }
+                    
+                    .svg-text.svg-text-credit {
+                        font-size: 12px;
+                        fill: #cccccc;
+                        text-anchor: start;
+                    }
+                    
+                    .svg-text.svg-text-source {
+                        font-size: 12px;
+                        fill: #cccccc;
+                    }
+                    
+                    .svg-text.svg-text-source.right {
+                        text-anchor: end;
+                    }
+                    
+                    .svg-text.svg-text-title {
+                        fill: #666666;
+                      /*  font-family: Khula;*/
+                        font-size: 20px;
+                    }
+                    
+                    .hidden-svg {
+                        visibility: hidden;
+                    }
+                    
+                    .medium .d4 {
+                        font-size: 20px;
+                    }
+                    
+                    .medium .svg-text {
+                        font-size: 20px;
+                    }
+                    
+                    .medium .svg-text.svg-text-credit {
+                        font-size: 12px;
+                    }
+                    
+                    .medium .svg-text.svg-text-source {
+                        font-size: 12px;
+
+                    }
+                    
+                    .medium .svg-text.svg-text-title {
+                        font-size: 20px;
+                    }
+                    
+                    ]]>
+                AllegiantAmericanDeltaAlaskaJetBlueVirginUnitedFrontierHawaiianSpiritSouthwest 12.25.13.53.53.32.12.01.91.81.81.2per 10,000 flightsAllegiantAmericanDeltaAlaskaJetBlueVirginUnitedFrontierHawaiianSpiritSouthwest 12.25.13.53.53.32.12.01.91.81.81.2
+                
+        Source: Times analysis of records from U.S. DOT and FlightAware
+        ELI ZHANG, NATHANIEL LASH | Times
+    
+            One of them was Flight 864, which was on its way to Hagers­town, Md., from St. Petersburg in June 2015 when the smell of smoke filled the cabin. The pilot circled back and 141 passengers scrambled down emergency slides onto the tarmac.var act = new gigya.socialize.UserAction();act.setTitle("The pilot circled back and 141 passengers scrambled down emergency slides onto the tarmac.");act.setLinkBack("http://www.tampabay.com/projects/2016/investigations/allegiant-air/mechanical-breakdowns/?tweetline");var showShareBarUI_params={containerID: "componentDivtweetline_4", shareButtons: [{provider: "twitter", iconImgUp: "http://www.tampabay.com/projects/assets/sharing/twitter_inline.png"}], showCounts: "none", iconsOnly: "true", userAction: act};var params = {userAction:act, enabledProviders: "twitter"};gigya.socialize.showShareBarUI(showShareBarUI_params); “Pandemonium broke out,” said passenger Bryan Dougherty. Nobody was hurt.
+Another was Flight 458, which was going to Indianapolis from Las Vegas when flames started shooting out of its left engine, rocking the passengers with explosions.var act = new gigya.socialize.UserAction();act.setTitle("On one flight, flames shot out of the left engine, rocking the passengers with explosions.");act.setLinkBack("http://www.tampabay.com/projects/2016/investigations/allegiant-air/mechanical-breakdowns/?tweetline");var showShareBarUI_params={containerID: "componentDivtweetline_5", shareButtons: [{provider: "twitter", iconImgUp: "http://www.tampabay.com/projects/assets/sharing/twitter_inline.png"}], showCounts: "none", iconsOnly: "true", userAction: act};var params = {userAction:act, enabledProviders: "twitter"};gigya.socialize.showShareBarUI(showShareBarUI_params); “Four bangs when you are in the air isn’t something you want to hear,” passenger Sheila Casey wrote on Facebook. The plane landed back in Las Vegas. Nobody was hurt.
+Another was Flight 848, which was headed to Richmond, Va., from St. Petersburg but diverted to Greensboro, N.C., in August 2015. The plane was cruising at 33,000 feet when passengers heard a loud bang and then a grinding noise coming from the engine.var act = new gigya.socialize.UserAction();act.setTitle("Cruising at 33,000 feet, passengers heard a bang and grinding noise coming from the engine.");act.setLinkBack("http://www.tampabay.com/projects/2016/investigations/allegiant-air/mechanical-breakdowns/?tweetline");var showShareBarUI_params={containerID: "componentDivtweetline_6", shareButtons: [{provider: "twitter", iconImgUp: "http://www.tampabay.com/projects/assets/sharing/twitter_inline.png"}], showCounts: "none", iconsOnly: "true", userAction: act};var params = {userAction:act, enabledProviders: "twitter"};gigya.socialize.showShareBarUI(showShareBarUI_params); Then the cabin started vibrating. “It’s like if you were sitting on a washing machine during the spin cycle,” passenger Grace Morse-McNelis said. “I was just quietly praying. I have four kids.” Nobody was hurt. Mechanics later discovered a problem with the plane’s throttle and removed an engine, records show.
+More than 15 experts who reviewed Allegiant records gathered by the Times pointed out a litany of problems.
+Seven of them said FAA documents suggest a scattershot approach to maintenance.  They said Allegiant too often missed deadlines or allowed planes to fly knowing parts were broken — something the FAA actually allows all airlines to do.
+Seven experts said Allegiant’s engines were overheating too often. An engine getting too hot is a sign that critical parts are deteriorating and should be replaced or repaired, they said. In 2015, engines overheated at least 32 times.
+An overheating engine “is not trivial and can be cause for immediate engine removal,” said Steven Kushnick, a former engineer who worked on jet engines for Pratt & Whitney. He added that high operating temperatures can be a sign that engines are near the point of failing.
+Five experts said repeated instances of smoke filling cabins and cockpits was a sign of problems in the air and engine systems that are not being repaired.
+                
+        A fleet of troubled planes
+        Nearly half of the planes Allegiant flew in 2015 were forced to land unexpectedly because of a mechanical problem.
+    
+            
+
+	
+	
+
+	
+		.g-artboard {
+			margin:0 auto;
+		}
+	
+		
+
+			#g-artboard-image-wide-Artboard_1{
+				position:relative;
+				overflow:hidden;
+				 
+			}
+			.g-aiAbs{
+				position:absolute;
+			}
+			.g-aiImg{
+				display:block;
+				width:100% !important;
+			}
+			#g-artboard-image-wide-Artboard_1 p{
+				font-family:nyt-franklin,arial,helvetica,sans-serif;
+				font-size:13px;
+				line-height:18px;
+				margin:0;
+			}
+			#g-artboard-image-wide-Artboard_1 .g-aiPstyle0 {
+				font-size:17px;
+				line-height:20px;
+				text-align:right;
+				color:#808080;
+			}
+			#g-artboard-image-wide-Artboard_1 .g-aiPstyle1 {
+				line-height:16px;
+				color:#808080;
+			}
+			#g-artboard-image-wide-Artboard_1 .g-aiPstyle2 {
+				font-size:12px;
+				line-height:14px;
+				text-align:right;
+				color:#999999;
+			}
+			.g-aiPtransformed p { white-space: nowrap; }
+
+			
+
+		
+			
+				Planes in Allegiant’s fleet
+			
+			
+				Broke down at least once
+			
+	
+		
+	
+
+
+	
+
+
+
+
+
+
+	
+	
+
+	
+		.g-artboard {
+			margin:0 auto;
+		}
+	
+		
+			#g-artboard-image-mobile-Artboard_1{
+				position:relative;
+				overflow:hidden;
+				width:491px;
+			}
+			.g-aiAbs{
+				position:absolute;
+			}
+			.g-aiImg{
+				display:block;
+				width:100% !important;
+			}
+			#g-artboard-image-mobile-Artboard_1 p{
+				font-family:nyt-franklin,arial,helvetica,sans-serif;
+				font-size:13px;
+				line-height:18px;
+				margin:0;
+			}
+			#g-artboard-image-mobile-Artboard_1 .g-aiPstyle0 {
+				font-size:24px;
+				line-height:29px;
+				color:#808080;
+			}
+			#g-artboard-image-mobile-Artboard_1 .g-aiPstyle1 {
+				font-size:11px;
+				line-height:13px;
+				text-align:right;
+				color:#999999;
+			}
+			.g-aiPtransformed p { white-space: nowrap; }
+		
+			
+				Broke down at least once
+			
+			
+				Planes in 
+				Allegiant’s fleet
+			
+
+		
+	
+
+
+	
+
+
+                
+        Source: Times analysis of records from U.S. DOT and FlightAware
+        ELI ZHANG, NATHANIEL LASH | Times
+    
+            Marcus Giordano, a former mechanic and maintenance supervisor with 30 years of experience working on jets, said smoke is often caused by worn seals in the engine that need to be replaced. “As a maintenance supervisor, I’d be like, ‘You need to look at the seals,’” he said.
+Based on his review of Allegiant mechanical records, Kushnick wrote: “Either the equipment at issue is very old (and tired, and due for failures), and/or the maintenance is superficial or performed inexpertly.var act = new gigya.socialize.UserAction();act.setTitle("Either the equipment is very old or the maintenance is performed inexpertly, says former mechanic.");act.setLinkBack("http://www.tampabay.com/projects/2016/investigations/allegiant-air/mechanical-breakdowns/?tweetline");var showShareBarUI_params={containerID: "componentDivtweetline_7", shareButtons: [{provider: "twitter", iconImgUp: "http://www.tampabay.com/projects/assets/sharing/twitter_inline.png"}], showCounts: "none", iconsOnly: "true", userAction: act};var params = {userAction:act, enabledProviders: "twitter"};gigya.socialize.showShareBarUI(showShareBarUI_params);
+“Either way, I have no warm fuzzy feeling for this airline or for their technicians.”
+In interviews with the Times, Allegiant executives said the company’s operations were “stressed” as the airline rapidly expanded in recent years. They said they now plan to update their fleet and concentrate their oldest planes in places where the company has the largest crews of mechanics.
+“Now we’ve gotten to a point where, hey, we need to take a step back, slow down growth, let’s standardize the fleet, and then we can get reliability where we want it to be,” said Bricker, the chief operating officer. “We’re moving really as rapidly as we can.”
+            
+  JAMES BORCHUCK  |  Times
+      Two maintenance crew members work on on the tail section of an Allegiant Air MD-80 at McCarran International Airport in Las Vegas on Oct. 25. Allegiant executives say they are phasing out the aging MD-80 model in coming years.
+            ‘We’re dead’
+            Nick Janovsky didn’t have to be a veteran mechanic to spot the signs of wear when he climbed aboard Allegiant Fight 872.
+A former flight attendant, Janovsky immediately noticed grime on the outside of the plane, as if it hadn’t been washed. The carpet was scuffed and dirty, and the seats were torn.
+It occurred to him that if Allegiant wasn’t on top of the little things, he had to wonder about the big things. His plane pushed back from the gate at St. Pete-Clearwater International, bound for Omaha, Neb., on Feb. 12.
+They were barely out of Florida before a strong electrical smell, like a burning hair dryer, spread through the rear of the cabin. Janovsky saw flight attendants rush past with looks of panic on their faces. Nobody knew what was going on.
+Then Janovsky and the other passengers were pitched forward in their seats. They were descending faster than any plane he had ever been on.var act = new gigya.socialize.UserAction();act.setTitle("Passengers were pitched forward in their seats and the plane was descending fast.");act.setLinkBack("http://www.tampabay.com/projects/2016/investigations/allegiant-air/mechanical-breakdowns/?tweetline");var showShareBarUI_params={containerID: "componentDivtweetline_8", shareButtons: [{provider: "twitter", iconImgUp: "http://www.tampabay.com/projects/assets/sharing/twitter_inline.png"}], showCounts: "none", iconsOnly: "true", userAction: act};var params = {userAction:act, enabledProviders: "twitter"};gigya.socialize.showShareBarUI(showShareBarUI_params); Janovsky got a feeling in his stomach like he was on a roller coaster. Somewhere in the cabin, a woman was screaming. Children started to cry.
+Janovsky looked out the window.
+“I saw clouds, and we were crashing through them,” he said. And then he thought to himself: “We’re going to slam into the rock. We’re dead.”
+The lighted signs in the cabin flickered out. The air conditioner jets stopped blowing.
+At last, a flight attendant got out a megaphone — the plane’s PA system had no power — and told the 153 passengers they were making an emergency landing.
+Janovsky pulled his seat belt as tight as he could. Around him, the other passengers dug their fingers into the armrests. “Everyone braced for the absolute worst,” Janovsky said.
+They made it down safely, landing at an airport in Birmingham, Ala. It felt like forever before they were allowed off the plane, Janovsky said.
+Federal records show that Janovsky’s plane had been forced to land due to a faulty air circulation fan, a key part of a system that keeps the cabin pressurized, among other things. It was one of at least four serious mechanical failures involving that jet in the past 15 months.
+Janovsky didn’t begin to relax until he was in the airport bar.
+Later, as he waited in Birmingham for a replacement plane, he heard that Allegiant had offered him and the other passengers $100 vouchers for future travel.
+No thanks, he thought.
+He hasn’t flown Allegiant since.
+            JAMES BORCHUCK  |   Times (2009)Passengers wait on the tarmac at St. Pete-Clearwater International Airport to board a flight to Lexington, Ky.An aging fleet
+            Flights like Janovsky’s happened at least 77 times last year.
+Nearly all of them had one thing in common.
+They were McDonnell Douglas MD-80s, a gas-guzzling jet that had its heyday in the late 1980s and ’90s.
+More than half of Allegiant’s fleet are the MD-80 series, bought secondhand from foreign airlines in the past 10 years. Their average age is 27 years old.var act = new gigya.socialize.UserAction();act.setTitle("More than half of Allegiant’s fleet are MD-80s, bought secondhand, with an average age of 27 years.");act.setLinkBack("http://www.tampabay.com/projects/2016/investigations/allegiant-air/mechanical-breakdowns/?tweetline");var showShareBarUI_params={containerID: "componentDivtweetline_9", shareButtons: [{provider: "twitter", iconImgUp: "http://www.tampabay.com/projects/assets/sharing/twitter_inline.png"}], showCounts: "none", iconsOnly: "true", userAction: act};var params = {userAction:act, enabledProviders: "twitter"};gigya.socialize.showShareBarUI(showShareBarUI_params);
+There’s nothing wrong with operating a fleet that relies on old planes, experts say — as long as the planes are meticulously maintained.
+“The MD-80 is a beautiful aircraft,” said Giordano, one of the longtime jet mechanics interviewed by the Times. “But let’s face it, parts that have not caused any problems for years and years may now be getting to the point where they start to fail. It’s hard to keep up with an aging fleet.”
+Allegiant says its maintenance program is adequate.
+“From our perspective, we’re doing everything we know to do,” Bricker said, “to increase the reliability of these aircraft.”
+But Allegiant’s MD-80s break down far more often than the aging planes of the same model operated by the other carriers.
+                
+        Allegiant’s MD-80s fail more often
+        Only three major U.S. carriers still use the MD-80 model jet as part of their regular fleet. Allegiant’s MD-80s are twice as likely to break down as those flown by the other two.
+    
+             
+        
+                    <![CDATA[ rect[data-color-index="2"] {
+                        fill: #d73027;
+                    }
+                    
+                    text[data-color-index="2"] {
+                        fill: #d73027;
+                    }
+                    
+                    @font-face {
+                        font-family: Khula-Light;
+                        font-style: normal;
+                        font-weight: 300;
+                        src: local(Khula Light), local(Khula-Light), url(data:application/font-woff2;base64,d09GMgABAAAAAAKsAA4AAAAABQQAAAJaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbDBwMBmAANBEICoEMgRIBNgIkAxQLDAAEIAWDZAc+GwsEyJ6aPAmKggIJbMMrFAQc8QA/7t9zH4A22glSKE6rS3+rcyhiieIv+7V3bvE2F8Sl2ReRioTOOqVdKuChaSX/v6dhAw5DDngA2mGwL07lJ8xYFsAAxnhtzuZcKGltDvONc1vPC1SgYt+mmZDPBoqMiI4Ysg2PEJ+VC8jhcxFBREwQkJFR83I0thL68RAfGnuGW92IKMwdwvyzwcGZCw82AOS7P2P4bwm4olgH2BR9Ey8BnXi9r4yixiV0plsnIFYe6HQfDA93LwjrpiKIw5bV6A6MwnYsnATfH2Lu7MpYOmqny6kTIe+4+ZAJOhLC79/Lyrx7t2x7Jrhj5dPHlY92jqCW52rH395/pQ/03v1PHH324NKdee3d+6OhyCPyat7H5sXu3q6ceUlcXPyMLN8LPr/SPgDFCvqxWYPs1avYuB+yySG82t/Cq6e+/vl/au5Tch9IbRYG8lmcfvXPHxtzn6R4DvHon22ASA1fiY33ICBuJ3/IjYMs0oCn2b3gWtIaLiEWgKABphdRIAmIqH5KwzGbiPtsEZHQCJPeLRgWVthBM/AQObsYFJruGDGku1JVX0dPkBkbDvSN2vSJ24bzX1UahkSUo+TQyVI5gybRYU9ck9KOCQMqFSA4hL2M1MFjoAbFHFN7yi/I0c0UYdAPj8Y00IMaE9f31eW08XImB6jBmB7BhjnwEU7T3sEcRVjNcAQzl6yNlAtq6pHG02bJ2UhA0LxONq0r5zQYFUOm03SS+Z/XIVFRug6s2/19HSsrjiASXnG595fv7oYP7WYGvSlTnW2EiQAA) format(woff2);
+                        unicode-range: ;
+                    }
+                    
+                    @font-face {
+                        font-family: Khula-Light;
+                        font-style: normal;
+                        font-weight: 300;
+                        src: local(Khula Light), local(Khula-Light), url(data:application/font-woff2;base64,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) format(woff2);
+                        unicode-range: ;
+                    }
+                    
+                    @font-face {
+                        font-family: Khula-Regular;
+                        font-style: normal;
+                        font-weight: 400;
+                        src: local(Khula), local(Khula-Regular), url(data:application/font-woff2;base64,d09GMgABAAAAAAKUAA4AAAAABPQAAAJBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbDBwMBmAANBEICoEEgQoBNgIkAxQLDAAEIAWDYAc5G/oDyJ6aPAmKAkYslr61UAoAowiKNXTvIYBgkwKQI1IMwoCrrO1EyAKpThUgjUccuJYf0RQRiy66iBYbj+gJBlI24PX/F2VfUMbVXGe2OvH//5vP1wLp+JhmGc+hbX4nfFn9NY0/yNykX6i3aSLMZ4IiERGjQ9rokPBZXaCM4IkQsppSoqvG4zQj45CcfGR2C4ebkxjMXyLy/eHi3PlXR7Zt4f5bhYt/i9hqnh0Hh9IXeZVNF4/3zRR1nKJJXbrYZPWg6yyYvdX2OMR8qBLkELKNHjYjiZ8dp8H/RuYqlBbHi3ZWFkesKP98UhKwx4UeLy1V8ujRkg3pko3Lv5av/5/n3EY2juTvbdj7qYQ+832nmi4+Wnhk6GYPmnb+yNt3Xir6OPiG29WpMXcUL+y3B3nqQJWTfigtXMC913+HtGfvi/7+vvuflv0WvrEpCpQFuUQlOx3ix/ZV6T1AnsXAbCR19iTb4l0gt53vuIPDbJPYXC/lybFCqzhF5rdFLsrgEhVKuNQwueXM53KfzeMKtMS4ixVGxSJncAoaAEgEhotG+oZKrTlyZR/1ocV1Per6CCGSEDis4tfy2t1kr3HFkUEroUqob8mYcAaAgvjbUH00Amhc3Jn5K/vSItlFAIV8xzjiAjltUnH/SEtRD61ouYOYzgwJjtzxHoVdPYI7RdjHYQgV8AS0ogHkkzbboyk6SsHFQyHeqoEiCURk4FNJP53utD6OCDNw5dD5j5uIP+cIiTQcIWUnMR42Y/zA+g0qAAAA) format(woff2);
+                        unicode-range: ;
+                    }
+                    
+                    @font-face {
+                        font-family: Khula-Regular;
+                        font-style: normal;
+                        font-weight: 400;
+                        src: local(Khula), local(Khula-Regular), url(data:application/font-woff2;base64,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) format(woff2);
+                        unicode-range: ;
+                    }
+                    
+                    @font-face {
+                        font-family: Khula-Bold;
+                        font-style: normal;
+                        font-weight: 700;
+                        src: local(Khula Bold), local(Khula-Bold), url(data:application/font-woff2;base64,d09GMgABAAAAAAKQAA4AAAAABQAAAAI8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbDBwMBmAANBEICoEMgRMBNgIkAxQLDAAEIAWDYgc5GwUEEZWLW7KfhbHjI1IZdKfzc80t6xPxR6LviyDix/HNPnzSDVCGj0hEVLoOIiEU6mKbHBVK+AgTTNtENCFi+e+9FAB/fy1+tMLpS7jG1bzNfz5tWFyF8dFhth4n4b5NE2E+ExQZER0d0cCxZl0rIoAbckohKAyCAC46TT2vzTl1EQs21zwEjmRDGQxMIPwNwt7G5uZGonCPf+h4/n8bXJE5C6zTn2wcEIUD98sa8EMjmWOIAgxFgahzYPg+3D1B2nWeAFiAKatALFCK2CacBP8QY0LH3R3dlld7D8Pi/vp1l4t44/aq0xWXly87Jv3xqe43b7p7Hp9cOenZ0YR13mHvZNuX8xcD6ha7mx3enT9xPrpyHfC/f/5OYHnm5JbMwcMeqftWnUcdr4zFXZ6Q4LmDGy60DnuW/QRzPA/w9O2/Q+RLH5w+/sv/v9Oj2HEXgtPbQoEFzXfd+y//R5tHMWs8A1jTwgSA8rML5gnbEcAyidM312ZQwRxw3XUa2eRIHxoxzsiChMoqnHBhNSn4sAY/yljLlwvrgJ9UveZBnnSIyN5vYmOWxTZLMUrq67O+Lh0j7pQ6WgKavpyyCrIUnJLL/dR1xlltjbgtIUrmKJ8YkdNf5FJxYHLJFM1W/QKou2mjqTP2gpQ8IEA4VrMkTGNQCpSByBCsTc5HYLOfwRQQFth22mh46kJMs440+7SD9U5Mfx6Ua7SiyioZ8qCi9tI8prLSo8+rw9/ri09bQFBoQfEmDThmplK20xoAAAA=) format(woff2);
+                        unicode-range: ;
+                    }
+                    
+                    @font-face {
+                        font-family: Khula-Bold;
+                        font-style: normal;
+                        font-weight: 700;
+                        src: local(Khula Bold), local(Khula-Bold), url(data:application/font-woff2;base64,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) format(woff2);
+                        unicode-range: ;
+                    }
+                    
+                    * {}
+                    
+                    svg.renderer-svg .svg-background {
+                        fill: #ffffff;
+                    }
+                    
+                    svg.renderer-svg tspan {
+                        height: 1em;
+                        line-height: 1em;
+                    }
+                    
+                    .d4 {
+                        font-size: 20px;
+                    }
+                    
+                    .d4 .leftAxis path.domain {
+                        display: none;
+                    }
+                    
+                    .d4 .axis .tick {
+                        font-family: Khula Light;
+                    }
+                    
+                    .d4 .axis .tick text {
+                        fill: #666666;
+                        shape-rendering: crispedges;
+                        text-anchor: middle;
+                    }
+                    
+                    .d4 .axis .tick:first-child text {
+                        text-anchor: middle;
+                    }
+                    
+                    .d4 .axis .tick line {
+                        fill: none;
+                        stroke: #dddddd;
+                        stroke-width: 1px;
+                        shape-rendering: crispedges;
+                    }
+                    
+                    .d4 .axis.leftAxis text {
+                        text-anchor: start;
+                    }
+                    
+                    .d4 .concealer-label {
+                        /*font-family: Khula Light;*/
+                    }
+                    
+                    .d4 .concealer-label text {
+                        fill: #666666;
+                    }
+                    
+                    .d4 .concealer-label rect {
+                        fill: #ffffff;
+                    }
+                    
+                    .d4 line.zero {
+                        /*stroke: #333333;*/
+                        shape-rendering: crispedges;
+                    }
+                    
+                    .d4 .margins .label {
+                       /* font-family: Khula Light;*/
+                    }
+                    
+                    .d4 .column-label {
+                        fill: #666666;
+                    }
+                    
+                    .svg-text {
+                        /*font-family: Khula Light;*/
+                       /* font-size: 20px;*/
+                    }
+                    
+                    .svg-text.svg-text-credit {
+                        font-size: 12px;
+                        fill: #cccccc;
+                        text-anchor: start;
+                    }
+                    
+                    .svg-text.svg-text-source {
+                        font-size: 12px;
+                        fill: #cccccc;
+                    }
+                    
+                    .svg-text.svg-text-source.right {
+                        text-anchor: end;
+                    }
+                    
+                    .svg-text.svg-text-title {
+                        fill: #666666;
+                       /* font-family: Khula;*/
+                        font-size: 20px;
+                    }
+                    
+                    .hidden-svg {
+                        visibility: hidden;
+                    }
+                    
+                    .medium .d4 {
+                        font-size: 20px;
+                    }
+                    
+                    .medium .svg-text {
+                        font-size: 20px;
+                    }
+                    
+                    .medium .svg-text.svg-text-credit {
+                        font-size: 12px;
+                    }
+                    
+                    .medium .svg-text.svg-text-source {
+                        font-size: 12px;
+                    }
+                    
+                    .medium .svg-text.svg-text-title {
+                        font-size: 20px;
+                    }
+                    
+                    ]]>
+                AllegiantAmericanDelta8.23.42.4per 10,000 flight hoursAllegiantAmericanDelta8.23.42.4
+                
+        Source: Times analysis of records from U.S. DOT and FlightAware
+        ELI ZHANG, NATHANIEL LASH | Times
+    
+            One 27-year-old MD-88 operated by Allegiant filled with smoke or the smell of burning wires seven times from October 2015 to March 2016.
+Another plane, a 21-year-old MD-83, had its landing gear malfunction three times in the same week in August 2015. Before that, its tail compartment overheated three times in two weeks.
+Yet another plane, a 31-year-old MD-81, had its fuel tank circuitry fail twice in 10 days, its right engine overheat three times in four weeks and its landing gear malfunction three times in just over a month. All of the breakdowns took place in the four months from June to September 2015.
+Despite 21 incidents in 10 months, the FAA took no enforcement action.var act = new gigya.socialize.UserAction();act.setTitle("Despite 21 incidents in 10 months, the FAA took no enforcement action.");act.setLinkBack("http://www.tampabay.com/projects/2016/investigations/allegiant-air/mechanical-breakdowns/?tweetline");var showShareBarUI_params={containerID: "componentDivtweetline_10", shareButtons: [{provider: "twitter", iconImgUp: "http://www.tampabay.com/projects/assets/sharing/twitter_inline.png"}], showCounts: "none", iconsOnly: "true", userAction: act};var params = {userAction:act, enabledProviders: "twitter"};gigya.socialize.showShareBarUI(showShareBarUI_params);
+In July, Allegiant leaders announced plans to buy new planes — Airbuses — for the first time in the company’s history. They also said they would phase out the MD-80s altogether.
+That won’t happen until the end of 2019, they said.
+“In retrospect, I wish we started the program earlier to replace the fleet,” Bricker, the chief operating officer, told the Times. “If we could go back in time, we would have gone a lot heavier into the (Airbuses) earlier.”
+            JAMES BORCHUCK  |  Times
+    Allegiant Air chairman and CEO Maurice Gallagher Jr. spoke with reporters at the company’s Las Vegas headquarters in October. He acknowledged that the company had too many unexpected landings and vowed to slow down growth to become a more reliable airline.Problems persist
+            In interviews with the Times, Allegiant executives said they are investing $1 billion in the airline’s fleet and slowing a push for growth.
+“We’ve taken steps to improve ourselves, and I think some of the numbers are showing it this year,” said Gallagher, the CEO.
+In the first half of this year, Allegiant did post a sharp decrease in breakdowns compared to the same period last year.
+From January to June 2015, they had 58 mechanical failures, records show. From January to June of this year, a period that overlaps with the FAA’s review of Allegiant, they had 33.
+But the same records show breakdowns continue. This July alone, Allegiant had nine unexpected landings caused by mechanical failures, compared to 12 last July.
+One of them was Flight 749, which took off from South Bend, Ind., for Orlando on July 7.
+More than halfway through the trip, an odor like “burning popcorn” permeated the cabin of the 21-year-old MD-83. Then the plane began to vibrate, terrifying the 166 passengers on board.var act = new gigya.socialize.UserAction();act.setTitle("Then the plane began to vibrate, terrifying the 166 passengers on board.");act.setLinkBack("http://www.tampabay.com/projects/2016/investigations/allegiant-air/mechanical-breakdowns/?tweetline");var showShareBarUI_params={containerID: "componentDivtweetline_11", shareButtons: [{provider: "twitter", iconImgUp: "http://www.tampabay.com/projects/assets/sharing/twitter_inline.png"}], showCounts: "none", iconsOnly: "true", userAction: act};var params = {userAction:act, enabledProviders: "twitter"};gigya.socialize.showShareBarUI(showShareBarUI_params);
+The plane made an emergency landing in Jacksonville.
+Mechanics eventually discovered that a cabin light fixture was loose, causing electrical wires to spark.
+It was the plane’s fourth emergency landing in 15 months.
+            
+  This story was updated on Nov. 2 to reflect the following correction: Southwest Airlines had the lowest rate of unexpected landings caused by mechanical problems for every 10,000 flights, at 1.2. Hawaiian and Spirit each had 1.8.
+Times researchers John Martin, Carolyn Edds and Caryn Baird contributed to this report. Designed by Lyra Solochek. Graphics by Eli Zhang and Nathaniel Lash. Contact Nathaniel Lash at nlash@tampabay.com. Follow @Nat_Lash. Contact William R. Levesque at levesque@tampabay.com. Follow @Times_Levesque. Contact Anthony Cormier at acormier@tampabay.com. Follow @Cormier_Times.
+How we did the story: To compare the 11 major U.S. passenger airlines, the Tampa Bay Times set out to build the most comprehensive database of in-flight mechanical breakdowns ever created. A team of journalists used the Freedom of Information Act to obtain records of mechanical problems known as “mechanical summary interruption reports” from the Federal Aviation Administration. Then they connected those records with data from the U.S. Department of Transportation and the aviation tracking company FlightAware. Working through 65,000 records, they identified midair incidents caused by mechanical breakdowns by matching tail numbers, flight numbers, origin and destination and date fields. In cases where those details didn’t match up, the incidents were discounted. The database was built by Times staff writers Neil Bedi, Anthony Cormier, Carolyn Edds, Connie Humburg, Michael LaForgia, Nathaniel Lash, William R. Levesque, Eli Murray, Adam Playford and Eli Zhang.
+
+            JIM DAMASKE  |  Times (2015)
+    Allegiant plans to retire its fleet of MD-80s, like this one leaving St. Pete-Clearwater International Airport. The vast majority of unexpected landings at Allegiant happen on this model jet.
+          
+        
+  
+    
+      Load comments
+      
+    
+  
+
+
+
+  var comments = document.querySelector('#commentsDiv_allegiant');
+  var button = document.querySelector('#commentbtn');
+  var params = {
+    categoryID: 'tpc_comments',
+    streamID: 'allegiant',
+    version: 2,
+    containerID: 'commentsDiv_allegiant',
+    cid:'',
+    enabledShareProviders: 'facebook,twitter,yahoo,linkedin',
+    onLoad: function() {
+      if(typeof tpca_commentload === "function") {
+        tpca_commentload();
+      }
+      comments.style.width = "100%";
+      button.style.display = 'none';
+    },
+    onCommentVoted: function(e) {
+      if(typeof tpca_commentvote === "function") {
+        tpca_commentvote(e.comment.ID, e.streamID, e.comment.commentText,
+            (e.vote === 'pos' ? 1 : (e.vote == 'neg' ? -1 : 0)),
+            e.comment.posVotes, e.comment.negVotes);
+      }
+    },
+    onBeforeCommentSubmitted: function(a) {
+      if(typeof tpca_commentpost === "function") {
+        tpca_commentpost(a.commentText);
+      }
+      return true;
+    },
+    onCommentSubmitted: function(actionName, description) {
+      var socialUserAction = new gigya.services.socialize.UserAction();
+      socialUserAction.setLinkBack(window.location.href);
+      socialUserAction.setTitle(document.title);
+      socialUserAction.setActionName(actionName);
+      if (description) {
+        socialUserAction.setDescription(description);
+      }
+      var activityFeed_params = {
+        containerID: "gigyaActivityFeed",
+        userAction: socialUserAction,
+        privacy: "public",
+        scope: "internal"
+      };
+      gigya.services.socialize.publishUserAction({}, activityFeed_params);
+    }
+  };
+
+  function showComments() {
+    gigya.comments.showCommentsUI(params);
+  }
+
+  button.addEventListener('click', showComments);
+  button.addEventListener('touch', showComments);
+
+
+    ©2016 All Rights Reserved | Tampa Bay Times
+  
+
+  /* You may give each page an identifying name, server, and channel on
+   the next lines. */
+  s.pageName="Projects: 2016: investigations: Thousands of people flew Allegiant thinking their planes wouldn’t fail. They were wrong.";
+  s.server="www.tampabay.com";
+  s.channel="Projects";
+  s.hier1="Projects: 2016: investigations: Thousands of people flew Allegiant thinking their planes wouldn’t fail. They were wrong.";
+  s.hier2="";
+  s.pageType="article";
+  s.prop1="";
+  s.prop2="Projects";
+  s.prop3="investigations";
+  s.prop4="";
+  s.prop5="";
+  s.prop6="";
+  s.prop7="";
+  s.prop8="";
+  s.prop9="";
+  s.prop10="";
+  s.prop19="investigations"; // topic keywords
+  s.prop25="Nathaniel Lash, William R. Levesque and Anthony Cormier, Times Staff Writer";
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//-->
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C'
+)+'\!-'+'-')
+
+  
+
+
+
+
+
+
+    var _sf_startpt=(new Date()).getTime();
+    var _sf_async_config = _sf_async_config || {};
+    /** CONFIGURATION START **/
+    _sf_async_config.uid = 60766;
+    _sf_async_config.domain = 'tampabay.com';
+    _sf_async_config.useCanonical = false;
+    _sf_async_config.sections = "projects, investigations";
+    _sf_async_config.authors = "Nathaniel Lash, William R. Levesque and Anthony Cormier, Times Staff Writer";
+    _sf_async_config.path = "http://www.tampabay.com/projects/2016/investigations/allegiant-air/mechanical-breakdowns/";
+    _sf_async_config.title = "Thousands of people flew Allegiant thinking their planes wouldn’t fail. They were wrong.";
+    /** CONFIGURATION END **/
+
+    (function() {
+        function loadChartbeat() {
+            window._sf_endpt = (new Date()).getTime();
+            var e = document.createElement('script');
+            e.setAttribute('language', 'javascript');
+            e.setAttribute('type', 'text/javascript');
+            e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+            document.body.appendChild(e);
+        }
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != 'function') ?
+            loadChartbeat : function() {
+                oldonload();
+                loadChartbeat();
+            };
+    })();
+

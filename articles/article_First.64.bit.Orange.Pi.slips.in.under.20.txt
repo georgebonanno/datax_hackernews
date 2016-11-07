@@ -1,0 +1,339 @@
+First 64-bit Orange Pi slips in under $20#headerimg{margin:0;margin-top:0px;height:80px;width:1022px;}#headerimg{background:url('http://hackerboards.com/wp-content/themes/BlackTower-hbw/images/header.jpg') no-repeat top;}
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/hackerboards.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.6.1"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-0.1em!important;background:none!important;padding:0!important;}.commentlist li{font-size:1em}
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5377446-2', 'auto');
+  ga('send', 'pageview');
+
+
+
+
+
+ 
+
+
+
+All News
+|
+Boards
+|
+Chips
+|
+Devices
+|
+Software
+|
+LinuxDevices.com Archive
+|
+About
+|
+Contact
+|
+Subscribe
+
+
+ 
+
+ 
+
+document.write('<scr'+'ipt src="http://linuxgizmos.advertserve.com/servlet/view/banner/javascript/zone?zid=20&pid=1&resolution='+screen.width+'x'+screen.height+'&random='+Math.floor(89999999*Math.random()+10000000)+'&millis='+new Date().getTime()+'&referrer='+encodeURIComponent((window!=top&&window.location.ancestorOrigins)?window.location.ancestorOrigins[window.location.ancestorOrigins.length-1]:document.location)+'" type="text/javascript"></scr'+'ipt>');
+
+
+
+Follow HackerBoards:   (get email updates)
+
+
+ 
+
+Please whitelist HackerBoards.com in your ad blocker. Without ads from our sponsors, we cannot continue publishing this site. Thanks :-)
+
+
+Search HackerBoards:
+
+
+
+Search HackerBoards + LinuxDevices Archive:
+ 
+
+
+
+
+
+HackerBoards Sponsor ads:
+
+document.write('<scr'+'ipt src="http://linuxgizmos.advertserve.com/servlet/view/banner/unique/javascript/strip?zid=18&pid=0&total=13&layout=vertical&margin=0&padding=15&random='+Math.floor(89999999*Math.random()+10000000)+'&millis='+new Date().getTime()+'&referrer='+encodeURIComponent(document.location)+'" type="text/javascript"></scr'+'ipt>');
+
+(advertise here)
+
+Top 10 trending posts… 
+
+
+First 64-bit Orange Pi slips in under $20 
+
+
+
+IoT-oriented $7 Orange Pi Zero has both WiFi and Ethernet 
+
+
+
+Linux/Android module offers embedded version of Snapdragon 410 
+
+
+
+Ten dozen Embedded Linux Conference and IoT Summit videos 
+
+
+
+Ubuntu Core 16 gets smaller and snappier 
+
+
+
+First Apollo Lake Nano-ITX SBC emerges 
+
+
+
+Mentor Embedded Linux adds 3rd Gen AMD G-Series support 
+
+
+
+Sub-$100 maker board packs Apollo Lake SoC, 4K video, dual GbE 
+
+
+
+Raspberry Pi 3 takes the cake in 2016 hacker SBC survey 
+
+
+
+$12 Orange Pi variant swaps Ethernet for WiFi 
+
+
+ 
+
+Follow HackerBoards or subscribe to our posts:
+
+
+ Follow:   
+
+ 
+Enter your email address to receive notifications of new posts:
+ 
+
+Email Address 
+
+
+
+
+
+			/*
+			Custom functionality for safari and IE
+			 */
+			(function( d ) {
+				// In case the placeholder functionality is available we remove labels
+				if ( ( 'placeholder' in d.createElement( 'input' ) ) ) {
+					var label = d.querySelector( 'label[for=subscribe-field-blog_subscription-2]' );
+						label.style.clip 	 = 'rect(1px, 1px, 1px, 1px)';
+						label.style.position = 'absolute';
+						label.style.height   = '1px';
+						label.style.width    = '1px';
+						label.style.overflow = 'hidden';
+				}
+
+				// Make sure the email value is filled in before allowing submit
+				var form = d.getElementById('subscribe-blog-blog_subscription-2'),
+					input = d.getElementById('subscribe-field-blog_subscription-2'),
+					handler = function( event ) {
+						if ( '' === input.value ) {
+							input.focus();
+
+							if ( event.preventDefault ){
+								event.preventDefault();
+							}
+
+							return false;
+						}
+					};
+
+				if ( window.addEventListener ) {
+					form.addEventListener( 'submit', handler, false );
+				} else {
+					form.attachEvent( 'onsubmit', handler );
+				}
+			})( document );
+			
+HackerBoards Sponsor ads:
+
+document.write('<scr'+'ipt src="http://linuxgizmos.advertserve.com/servlet/view/banner/javascript/zone?zid=21&pid=1&random='+Math.floor(89999999*Math.random()+10000000)+'&millis='+new Date().getTime()+'&referrer='+encodeURIComponent((window!=top&&window.location.ancestorOrigins)?window.location.ancestorOrigins[window.location.ancestorOrigins.length-1]:document.location)+'" type="text/javascript"></scr'+'ipt>');
+
+(advertise here)
+
+  
+
+
+
+First 64-bit Orange Pi slips in under $20
+Nov 6, 2016 — by Eric Brown 
+ 
+ — 1,155 views 
+
+ The open spec Orange Pi PC 2 runs Linux or Android on a quad-core -A53 Allwinner H5 SoC, and offers GbE, a 40-pin RPi interface, and three USB host ports.
+Shenzhen Xunlong is keeping up its prolific pace in spinning off new Allwinner SoCs into open source SBCs, and now it has released its first 64-bit ARM model, and one of the cheapest quad-core -A53 boards around. The Orange Pi PC 2 runs Linux or Android on a new Allwinner H5 SoC featuring four Cortex-A53 cores and a more powerful Mali-450 GPU. Orange Pi PC 2, front and back
+(click images to enlarge)
+The Orange Pi PC 2, which sells at Aliexpress for $19.98, or $23.33 including shipping to the U.S., updates the quad-core -A7 Allwinner H3 based Orange Pi PC, which came in 14th out of 81 SBCs in our hacker boards reader survey. The original still sells for $15, and is available in a $20 PC Plus version that adds 8GB eMMC.
+The Allwinner H5 (translated) is aimed primarily at the set-top market. No clock rate was listed for the four Cortex-A53 cores or the Mali-450, which offers six GPU cores. The L2 cache is half that of the Allwinner H3. Orange Pi PC 2 (left) and Allwinner H5 block diagram
+(click images to enlarge)
+There are not many quad-core -A53 hacker boards near $20 aside from the Pine A64, which sells for $19 with a similar allotment of 1GB RAM. Most of the others are priced at or above the Raspberry Pi 3, which sells for $35.
+Despite the breakthrough into 64-bit terrain, the Orange Pi PC 2 appeared without fanfare, apparently first being tipped by a reader at CNXSoft. Aside from the faster processor, the move to Gigabit Ethernet and a new allotment of 8MB SPI NOR flash, the second generation is identical to the first. 
+Like the Orange Pi PC, the similarly 85 x 55mm second-gen model offers 1GB DDR3 SDRAM and a microSD slot. There’s no mention yet of a Plus version with onboard flash. In addition to the GbE port, coastline ports include an HDMI port (type unspecified), three USB 2.0 ports, and a micro-USB OTG port without power input. Orange Pi PC 2 detail views
+(click images to enlarge)
+An A/V jack outputs CVBS and audio, and there’s a MIPI-CSI camera interface. Like other Orange Pi boards, there’s a 40-pin header compatible with the Raspberry Pi. You also get GPIO and an IR header. 
+Full schematics have been posted for the community-backed board. A few days ago, the company unveiled a similarly open source Orange Pi Zero that costs only $7. Like the PC 2, the Zero also debuts a new Allwinner SoC, in this case an Allwinner H2, which is almost identical to the Allwinner H3 except for the lack of 4K video. 
+Specifications listed for the Orange Pi PC 2 include:
+Processor — Allwinner H5 (4x Cortex-53); 512KB L2 cache; ARM Mali-450 MP2 GPU (6x cores)
+Memory/storage — 1GB DDR3 SDRAM; 8MB NOR flash; microSD slot (up to 64GB)
+Networking — 10/100/1000 Mbps Ethernet (RJ45)
+Multimedia:
+HDMI output — supports HDCP, CEC, 30 function, and integrated CVBS (allows simultaneous output of HDMI and CVBS)
+A/V output on 3.5mm audio jack
+Mic input
+Camera interface — CSI input supports 8-bit YUV422 CMOS sensor interface, CCIR656 protocol for NTSC and PAL, SM pixel camera sensor, and video capture at up to [email protected]/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */Other I/O:
+3x USB 2.0 Host ports
+Micro USB 2.0 OTG port (does not support DC power input)
+GPIO connector with 3x GPIO lines
+Debug UART header (TTL level)
+IR receiverExpansion — 40-pin header compatible with Raspberry Pi B
+Other features — power & status LEDs; power button
+Power — DC barrel jack; +5V @ 2A (max.)
+Dimensions — 85 x 55mm
+Weight — 38gm
+Supported OSes — Android, Lubuntu, Debian, Raspberry Pi Image Further information
+The Orange Pi PC 2 is available at Aliexpress for $19.98, or $23.33 including shipping to the U.S. More information may be found at the Aliexpress shopping page and Shenzhen Xunlong’s Orange Pi PC 2 product page.
+ 
+Related posts:$12 Orange Pi variant swaps Ethernet for WiFiIoT-oriented $7 Orange Pi Zero has both WiFi and EthernetHackable Pi-like SBC opts for 1.6GHz quad-core STB SoC$10 Orange Pi One pits quad-core Cortex-A7 against Pi ZeroOrange Pi SBC tempts Raspberry Pi clone fans$15 Orange Pi PC hacker SBC packs 1.6GHz quad-core SoCQuad-core $11 hacker SBC runs Linux on Allwinner H3pcDuino goes quad-core, swaps Arduino for RPi compatibility64-bit Banana Pi runs Linux on Allwinner A64, has WiFi, BT,…Banana Pi project forks, as competing gen-2 SBCs emerge 
+
+
+ 
+
+document.write('<scr'+'ipt src="http://linuxgizmos.advertserve.com/servlet/view/banner/javascript/zone?zid=22&pid=0&random='+Math.floor(89999999*Math.random()+10000000)+'&millis='+new Date().getTime()+'&referrer='+encodeURIComponent((window!=top&&window.location.ancestorOrigins)?window.location.ancestorOrigins[window.location.ancestorOrigins.length-1]:document.location)+'" type="text/javascript"></scr'+'ipt>');
+(advertise here)
+PLEASE COMMENT BELOW
+Please comment here... Cancel reply
+
+
+
+
+
+
+ 
+
+ 
+
+document.write('<scr'+'ipt src="http://linuxgizmos.advertserve.com/servlet/view/banner/javascript/zone?zid=23&pid=1&resolution='+(window.innerWidth||screen.width)+'x'+(window.innerHeight||screen.height)+'&random='+Math.floor(89999999*Math.random()+10000000)+'&millis='+new Date().getTime()+'&referrer='+encodeURIComponent((window!=top&&window.location.ancestorOrigins)?window.location.ancestorOrigins[window.location.ancestorOrigins.length-1]:document.location)+'" type="text/javascript"></scr'+'ipt>');
+
+(advertise here)
+
+The content on this site is copyright © 2007-2016 Rick Lehrbaum unless otherwise noted. Copyrights are the property of their owners and comments are the property of their submitters. This website is part of the DeviceGuru Blog Network.
+
+
+Contact us | Privacy policy | Terms of use | About us | RSS feed 
+
+ 
+ 
+ 
+
+
+
+
+
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"M. d, yy","firstDay":0,"isRTL":false});});
+
+/* <![CDATA[ */
+var ssbpLazy = {"ajax_url":"http:\/\/hackerboards.com\/wp-admin\/admin-ajax.php","security":"b4188c2816"};
+/* ]]> */
+
+/* <![CDATA[ */
+var ssbpAjax = {"ajax_url":"http:\/\/hackerboards.com\/wp-admin\/admin-ajax.php","security":"557845ae0b"};
+/* ]]> */
+
+			var comm_par_el = document.getElementById( 'comment_parent' ),
+			    comm_par = (comm_par_el && comm_par_el.value) ? comm_par_el.value : '',
+			    frame = document.getElementById( 'jetpack_remote_comment' ),
+			    tellFrameNewParent;
+
+			tellFrameNewParent = function() {
+				if ( comm_par ) {
+					frame.src = "https://jetpack.wordpress.com/jetpack-comment/?blogid=107439031&postid=54839&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=0&avatar_default=mystery&greeting=Please+comment+here...&greeting_reply=Leave+a+Reply+to+%25s&color_scheme=light&lang=en_US&jetpack_version=4.3.2&sig=b7324f30592438bf1ddf2ac19cc011744d8b7834#parent=http%3A%2F%2Fhackerboards.com%2Ffirst-64-bit-orange-pi-slips-in-under-20%2F" + '&replytocom=' + parseInt( comm_par, 10 ).toString();
+				} else {
+					frame.src = "https://jetpack.wordpress.com/jetpack-comment/?blogid=107439031&postid=54839&comment_registration=0&require_name_email=1&stc_enabled=1&stb_enabled=1&show_avatars=0&avatar_default=mystery&greeting=Please+comment+here...&greeting_reply=Leave+a+Reply+to+%25s&color_scheme=light&lang=en_US&jetpack_version=4.3.2&sig=b7324f30592438bf1ddf2ac19cc011744d8b7834#parent=http%3A%2F%2Fhackerboards.com%2Ffirst-64-bit-orange-pi-slips-in-under-20%2F";
+				}
+			};
+
+	
+			if ( 'undefined' !== typeof addComment ) {
+				addComment._Jetpack_moveForm = addComment.moveForm;
+
+				addComment.moveForm = function( commId, parentId, respondId, postId ) {
+					var returnValue = addComment._Jetpack_moveForm( commId, parentId, respondId, postId ), cancelClick, cancel;
+
+					if ( false === returnValue ) {
+						cancel = document.getElementById( 'cancel-comment-reply-link' );
+						cancelClick = cancel.onclick;
+						cancel.onclick = function() {
+							var cancelReturn = cancelClick.call( this );
+							if ( false !== cancelReturn ) {
+								return cancelReturn;
+							}
+
+							if ( !comm_par ) {
+								return cancelReturn;
+							}
+
+							comm_par = 0;
+
+							tellFrameNewParent();
+
+							return cancelReturn;
+						};
+					}
+
+					if ( comm_par == parentId ) {
+						return returnValue;
+					}
+
+					comm_par = parentId;
+
+					tellFrameNewParent();
+
+					return returnValue;
+				};
+			}
+
+	
+			if ( window.postMessage ) {
+				if ( document.addEventListener ) {
+					window.addEventListener( 'message', function( event ) {
+						if ( "https:\/\/jetpack.wordpress.com" !== event.origin ) {
+							return;
+						}
+
+						jQuery( frame ).height( event.data );
+					} );
+				} else if ( document.attachEvent ) {
+					window.attachEvent( 'message', function( event ) {
+						if ( "https:\/\/jetpack.wordpress.com" !== event.origin ) {
+							return;
+						}
+
+						jQuery( frame ).height( event.data );
+					} );
+				}
+			}
+		
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:4.3.2',blog:'107439031',post:'54839',tz:'-8',srv:'hackerboards.com'} ]);
+	_stq.push([ 'clickTrackerInit', '107439031', '54839' ]);
+

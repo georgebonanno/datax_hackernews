@@ -1,0 +1,1613 @@
+
+function ez_isclean( data ) {
+    if (typeof data === 'undefined') { data = document.URL; }
+    var re = /(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))(@|%2540|%40)((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/;
+    var isClean = !re.test(data);
+    return isClean;
+}
+
+var ez_queue = new Array();
+function sort_queue(a, b)
+{
+  if( a.priority < b.priority ) return -1;
+  else if( a.priority == b.priority ) return 0;
+  else return 1;
+}
+function execute_ez_queue()
+{
+  ez_queue.sort( sort_queue );
+
+  for( var i in ez_queue )
+  {
+        if(typeof ez_queue[i].method != "undefined")
+        {
+            try{
+                ez_queue[i].method.call( null );    
+            }
+            catch (err) {
+                
+            }
+        }
+  }
+}
+
+var ez_ad_units = new Array();
+var ezslots = new Array();
+function ez_write_tag(d) {
+    if(ez_isclean() && d instanceof Array) {
+        
+		ez_ad_units[ez_ad_units.length] = d;
+        var ezcmd = "googletag.cmd.push(function() {var divid = 'div-gpt-ad-"+d[1]+"-0';if(typeof ezlrarn == 'function'){ezlrarn(divid);}googletag.display(divid);var to = 0;if("+d[2]+".getTargeting('ga')[0] == '0'){to = 500;console.log('"+d[2]+" - no google');}setTimeout(function(){googletag.pubads().refresh(["+d[2]+"])},to);});";
+		return ezcmd;
+    }
+    else {
+        return "1+1";
+    }
+}
+function in_array(needle, haystack) {
+    var length = haystack.length;
+    for(var i = 0; i < length; i++) {
+        if(haystack[i] == needle) return true;
+    }
+    return false;
+}
+var ezrpos = new Array();var ez_current_interval;var ez_current_load = 0;
+function epbjsRefreshSlot(e){epbjs.que.push(function(){epbjs.requestBids({adUnitCodes:[e.getSlotElementId()],bidsBackHandler:function(){epbjs.setTargetingForGPTAsync([e.getSlotElementId()])}})})}var epbjs=epbjs||{};epbjs.useAdj=true,epbjs.que=epbjs.que||[],epbjs.ezdss=epbjs.ezdss||[],epbjs.ezobid=epbjs.ezobid||[],epbjs.que.push(function(){var e=[{code: 'div-gpt-ad-parentingscience_com-large-skyscraper-1-0', sizes: [[300, 600]], bids: [{bidder: 'pulsepoint', params: { cf: '300X600', cp: 560269, ct: 472602 }}]},{code: 'div-gpt-ad-parentingscience_com-large-skyscraper-1-0', sizes: [[160, 600]], bids: [{bidder: 'pulsepoint', params: { cf: '160X600', cp: 560269, ct: 472595 }}]},{code: 'div-gpt-ad-parentingscience_com-box-1-0', sizes: [[336, 280]], bids: []},{code: 'div-gpt-ad-parentingscience_com-box-1-0', sizes: [[300, 250]], bids: [{bidder: 'pulsepoint', params: { cf: '300X250', cp: 560269, ct: 472597 }}]},{code: 'div-gpt-ad-parentingscience_com-sky-1-0', sizes: [[160, 600]], bids: [{bidder: 'pulsepoint', params: { cf: '160X600', cp: 560269, ct: 472595 }}]},{code: 'div-gpt-ad-parentingscience_com-netboard-1-0', sizes: [[580, 400]], bids: []},{code: 'div-gpt-ad-parentingscience_com-netboard-1-0', sizes: [[336, 280]], bids: []},{code: 'div-gpt-ad-parentingscience_com-netboard-1-0', sizes: [[300, 250]], bids: [{bidder: 'pulsepoint', params: { cf: '300X250', cp: 560269, ct: 472597 }}]},{code: 'div-gpt-ad-parentingscience_com-netboard-2-0', sizes: [[580, 400]], bids: []},{code: 'div-gpt-ad-parentingscience_com-netboard-2-0', sizes: [[336, 280]], bids: []},{code: 'div-gpt-ad-parentingscience_com-netboard-2-0', sizes: [[300, 250]], bids: [{bidder: 'pulsepoint', params: { cf: '300X250', cp: 560269, ct: 472597 }}]}];epbjs.addAdUnits(e);epbjs.SS={"pulsepoint":10019},epbjs.bidderSettings={pulsepoint: { bidCpmAdjustment: function(bidCpm) { var adj1 = bidCpm * 0.550000; var adj2 = adj1 * 1.300000; return adj2; }},standard:{adserverTargeting:[{key:"hb_bidder",val:function(e){return e.bidderCode}},{key:"hb_adid",val:function(e){return e.adId}},{key:"hb_pb",val:function(e){var s=e.cpm;return 5>s?(Math.floor(100*s)/100).toFixed(2):(Math.floor(10*s)/10).toFixed(2)}},{key:"hb_ssid",val:function(e){return"ehb"==e.bidder?0:"undefined"!=typeof epbjs.SS[e.bidder]?epbjs.SS[e.bidder]:(console.error("epbjs: NO MATCH"),0)}}]}},epbjs.onEvent("bidWon",function(e){"ehb"==e.bidder?epbjs.ezdss[e.adUnitCode]=e.ss:"undefined"!=typeof epbjs.SS[e.bidder]?(epbjs.ezdss[e.adUnitCode]=epbjs.SS[e.bidder],1==epbjs.useAdj&&["sovrn","openx","pulsepoint","defymedia","aol"].indexOf(e.bidder)>-1&&(epbjs.ezobid[e.adUnitCode]=e.cpm/1.300000)):console.error("epbjs: NO MATCH")}),epbjs.requestBids({bidsBackHandler:function(e){epbjs.setTargetingForGPTAsync()}})});
+window.isEZABL = false;window.ezmadspc=300;
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+
+
+
+
+googletag.cmd.push(function() {if(typeof window.isEZABL == 'undefined' || window.isEZABL != true) {ezslot_0 = googletag.defineSlot('/1254144/parentingscience_com-large-skyscraper-1',[300,600],'div-gpt-ad-parentingscience_com-large-skyscraper-1-0').addService(googletag.pubads()).setTargeting('iid3','209514').setTargeting('t','30').setTargeting('d','6969').setTargeting('t1','30').setTargeting('pvc','0').setTargeting('ap','1031').setTargeting('sap','1031').setTargeting('a','|254|').setTargeting('as','revenue').setTargeting('plat','1').setTargeting('bra','mod10').setTargeting('ic','1').setTargeting('at','mbf').setTargeting('adr','399').setTargeting('reft','n').setTargeting('ga','2497208').setTargeting('rid','99998').setTargeting('pt','18').setTargeting('al','1031').setTargeting('compid','0').setTargeting('tap','parentingscience_com-large-skyscraper-1-209514').setTargeting('bv','3').setCollapseEmptyDiv(false).setTargeting('br1','350').setTargeting('br2','180');ezslot_0.set('adsense_background_color','001DAD').set('adsense_text_color','FFFFFF').set('adsense_url_color','EEFF00').set('adsense_ad_types','text_image').set('adsense_channel_ids','4409873498').set('adsense_border_color','001DAD').set('adsense_link_color','FFFFFF');ezrpos[0]="0";ezslot_1 = googletag.defineSlot('/1254144/parentingscience_com-box-1',[336,280],'div-gpt-ad-parentingscience_com-box-1-0').addService(googletag.pubads()).setTargeting('iid20','1969509').setTargeting('t','30').setTargeting('d','6969').setTargeting('t1','30').setTargeting('pvc','0').setTargeting('ap','1022').setTargeting('sap','1341').setTargeting('a','|253|').setTargeting('as','revenue').setTargeting('plat','1').setTargeting('bra','mod10').setTargeting('ic','1').setTargeting('at','mbf').setTargeting('adr','399').setTargeting('reft','n').setTargeting('ga','2497208').setTargeting('rid','99998').setTargeting('pt','9').setTargeting('al','1022').setTargeting('compid','0').setTargeting('tap','parentingscience_com-box-1-1969509').setTargeting('bv','3').setCollapseEmptyDiv(false).setTargeting('br1','60').setTargeting('br2','30');ezslot_1.set('adsense_ad_types','text_image').set('adsense_channel_ids','4409873498').set('adsense_border_color','EEFF00').set('adsense_link_color','000000').set('adsense_background_color','EEFF00').set('adsense_text_color','000000').set('adsense_url_color','000000');ezrpos[1]="1";ezslot_2 = googletag.defineSlot('/1254144/parentingscience_com-sky-1',[160,600],'div-gpt-ad-parentingscience_com-sky-1-0').addService(googletag.pubads()).setTargeting('iid9','887514').setTargeting('t','30').setTargeting('d','6969').setTargeting('t1','30').setTargeting('pvc','0').setTargeting('ap','1000').setTargeting('sap','1200').setTargeting('a','|253|').setTargeting('as','revenue').setTargeting('plat','1').setTargeting('bra','mod10').setTargeting('ic','1').setTargeting('at','mbf').setTargeting('adr','399').setTargeting('ga','2497208').setTargeting('rid','99998').setTargeting('pt','1').setTargeting('al','1000').setTargeting('compid','0').setTargeting('tap','parentingscience_com-sky-1-887514').setTargeting('bv','3').setTargeting('acptad','1').setCollapseEmptyDiv(false).setTargeting('br1','80').setTargeting('br2','40');ezslot_2.set('adsense_ad_types','text_image').set('adsense_channel_ids','4409873498').set('adsense_border_color','EEFF00').set('adsense_link_color','000000').set('adsense_background_color','EEFF00').set('adsense_text_color','000000').set('adsense_url_color','000000');ezrpos[2]="2";ezslot_3 = googletag.defineSlot('/1254144/parentingscience_com-netboard-1',[580,400],'div-gpt-ad-parentingscience_com-netboard-1-0').addService(googletag.pubads()).setTargeting('iid15','1423511').setTargeting('t','30').setTargeting('d','6969').setTargeting('t1','30').setTargeting('pvc','0').setTargeting('ap','1003').setTargeting('sap','1261').setTargeting('a','|2|').setTargeting('as','revenue').setTargeting('plat','1').setTargeting('bra','mod10').setTargeting('ic','1').setTargeting('at','mbf').setTargeting('adr','399').setTargeting('reft','tf').setTargeting('ga','2497208').setTargeting('rid','99998').setTargeting('pt','6').setTargeting('al','1003').setTargeting('compid','0').setTargeting('tap','parentingscience_com-netboard-1-1423511').setTargeting('bv','3').setCollapseEmptyDiv(false).setTargeting('br1','180').setTargeting('br2','90');ezslot_3.set('adsense_ad_types','text_image').set('adsense_channel_ids','4409873498').set('adsense_border_color','FFFFFF').set('adsense_link_color','37a5d7').set('adsense_background_color','FFFFFF').set('adsense_text_color','000000').set('adsense_url_color','F0F0F0');ezrpos[3]="3";ezslot_4 = googletag.defineSlot('/1254144/parentingscience_com-netboard-2',[580,400],'div-gpt-ad-parentingscience_com-netboard-2-0').addService(googletag.pubads()).setTargeting('iid16','1548507').setTargeting('t','30').setTargeting('d','6969').setTargeting('t1','30').setTargeting('pvc','0').setTargeting('ap','1004').setTargeting('sap','1280').setTargeting('a','|3|').setTargeting('as','revenue').setTargeting('plat','1').setTargeting('bra','mod10').setTargeting('ic','1').setTargeting('at','mbf').setTargeting('adr','399').setTargeting('reft','n').setTargeting('ga','2497208').setTargeting('rid','99998').setTargeting('pt','4').setTargeting('al','1004').setTargeting('compid','0').setTargeting('tap','parentingscience_com-netboard-2-1548507').setTargeting('bv','3').setTargeting('acptad','1').setCollapseEmptyDiv(false).setTargeting('br1','500').setTargeting('br2','260');ezslot_4.set('adsense_url_color','828282').set('adsense_ad_types','text_image').set('adsense_channel_ids','4409873498').set('adsense_border_color','FFFFFF').set('adsense_link_color','0000FF').set('adsense_background_color','FFFFFF').set('adsense_text_color','000000');ezrpos[4]="4";}else { window.ezHideLocations  = [];window.ezHideLocations.push('div-gpt-ad-parentingscience_com-large-skyscraper-1-0');window.ezHideLocations.push('div-gpt-ad-parentingscience_com-box-1-0');ezslot_2 = googletag.defineSlot('/1254144/parentingscience_com-sky-1',[160,600],'div-gpt-ad-parentingscience_com-sky-1-0').addService(googletag.pubads()).setTargeting('iid9','887514').setTargeting('t','30').setTargeting('d','6969').setTargeting('t1','30').setTargeting('pvc','0').setTargeting('ap','1000').setTargeting('sap','1200').setTargeting('a','|253|').setTargeting('as','revenue').setTargeting('plat','1').setTargeting('bra','mod10').setTargeting('ic','1').setTargeting('at','mbf').setTargeting('adr','399').setTargeting('ga','2497208').setTargeting('rid','99998').setTargeting('pt','1').setTargeting('al','1000').setTargeting('compid','0').setTargeting('tap','parentingscience_com-sky-1-887514').setTargeting('bv','3').setTargeting('acptad','1').setCollapseEmptyDiv(false).setTargeting('br1','80').setTargeting('br2','40');ezslot_2.set('adsense_ad_types','text_image').set('adsense_channel_ids','4409873498').set('adsense_border_color','EEFF00').set('adsense_link_color','000000').set('adsense_background_color','EEFF00').set('adsense_text_color','000000').set('adsense_url_color','000000');ezrpos[2]="2";window.ezHideLocations.push('div-gpt-ad-parentingscience_com-netboard-1-0');ezslot_4 = googletag.defineSlot('/1254144/parentingscience_com-netboard-2',[580,400],'div-gpt-ad-parentingscience_com-netboard-2-0').addService(googletag.pubads()).setTargeting('iid16','1548507').setTargeting('t','30').setTargeting('d','6969').setTargeting('t1','30').setTargeting('pvc','0').setTargeting('ap','1004').setTargeting('sap','1280').setTargeting('a','|3|').setTargeting('as','revenue').setTargeting('plat','1').setTargeting('bra','mod10').setTargeting('ic','1').setTargeting('at','mbf').setTargeting('adr','399').setTargeting('reft','n').setTargeting('ga','2497208').setTargeting('rid','99998').setTargeting('pt','4').setTargeting('al','1004').setTargeting('compid','0').setTargeting('tap','parentingscience_com-netboard-2-1548507').setTargeting('bv','3').setTargeting('acptad','1').setCollapseEmptyDiv(false).setTargeting('br1','500').setTargeting('br2','260');ezslot_4.set('adsense_url_color','828282').set('adsense_ad_types','text_image').set('adsense_channel_ids','4409873498').set('adsense_border_color','FFFFFF').set('adsense_link_color','0000FF').set('adsense_background_color','FFFFFF').set('adsense_text_color','000000');ezrpos[4]="4";}googletag.pubads().addEventListener('slotRenderEnded', function(event) { if (typeof ezbanger == 'function') { ezbanger(event);}});googletag.pubads().addEventListener('impressionViewable', function(event) { if (typeof ezvb == 'function') { ezvb(event);}});googletag.pubads().addEventListener('slotVisibilityChanged', function(event) { if (typeof ezvbc == 'function') { ezvbc(event);}});googletag.enableServices();});if(typeof window.isEZABL == 'undefined' || window.isEZABL != true) {ezslots.push("ezslot_0");ezslots.push("ezslot_1");ezslots.push("ezslot_2");ezslots.push("ezslot_3");ezslots.push("ezslot_4");}else{ezslots.push("ezslot_2");ezslots.push("ezslot_4");}
+    var ezoTemplate = '/article/grayscale';
+
+    if(typeof ezouid == 'undefined') {
+        var ezouid = '521842211';
+    }
+
+    var ezoFormfactor = '1';
+
+    if(typeof ezpaq == "undefined") {
+        var ezpaq = "-";
+    }
+
+    ezo_elements_to_check = Array();
+
+
+if(typeof $ !== "undefined") {
+
+    $(document).ready(function($) {
+
+        /* ---
+           Overwrite print functionality
+         -------------------------------------- */
+        $(document).bind("keydown", function(e){
+            if (e.ctrlKey && e.keyCode == 80) { /* ctrl + p */
+                e.preventDefault();
+                ezPrintThis();
+            }
+        });
+
+        /* ---
+         getComputedStyle() doesn't do what you think it does. To get styles dynamically added
+         to elements by scripts, there is no unified cross-browser way to do it, so you have to 
+         construct a string (like cssText in Chrome) and use that instead. FF/IE do not work
+         --------------------------------------------------------------------------------------- */
+        function ezoGetCurrentStyles( element ) {
+            if (typeof(__JASS) !== 'undefined' && typeof(__JASS.isChrome) === 'function' && __JASS.isChrome()) return window.getComputedStyle(element).cssText;
+            var styles = window.getComputedStyle(element);
+            var cssText = [];
+            for (var prop in styles) {
+                if (typeof(styles[prop]) === 'string' && styles[prop] !== '') {
+                    cssText[cssText.length] = (prop.replace(/[A-Z]/g, function(x) { return '-'+(x.toLowerCase())}))+': '+styles[prop];
+                }
+            }
+            return cssText.join('; ')+';';
+        }
+
+        /* ---
+         Moves every class from the body tag to the stylesheet_body element
+         --------------------------------------------------------------------------------------- */
+        function ezoBodyEventListener() {
+            var attr = $ezJQuery('body').attr('class');
+            if (typeof attr !== typeof undefined && attr !== false) {
+                var ezBodyClass = "";
+                $ezJQuery.each(attr.split(' '), function (k, v) {
+                    if (v.indexOf('ez') !== 0) { /* remove ezn-332 or ezCSS classes */
+                        ezBodyClass = ezBodyClass.length > 0 ? ezBodyClass + " " + v : v;
+                    }
+                });
+                var newStyle = typeof ezoOrigSBStyle !== "undefined" ? ezoOrigSBStyle + ' ' + ezBodyClass : ezBodyClass;
+                if (newStyle.length > 0) {
+                    $ezJQuery('#stylesheet_body').attr('class', newStyle);
+                }
+            }
+            setTimeout(ezoBodyEventListener, ezoBELTime);
+            ezoBELTime = ezoBELTime * 2;
+        }
+
+        var ezoBELTime = 10;
+        var ezoOrigSBStyle = $ezJQuery('#stylesheet_body').attr('class');
+        setTimeout(ezoBodyEventListener, ezoBELTime);
+        /* ------------------------------------------------------------------------------------- */
+
+
+        if (ezoFormfactor != "2") {
+
+            var ezIgnoreTags = ['SCRIPT','IFRAME','STYLE','LINK','BODY','HEAD'];
+
+            $(document).bind('DOMNodeInserted', function(e) {
+                var element = e.target;
+
+                //move our before and after spans to be first or last sibling elements
+                var after_span = $(element).prev('.ezoic-after-el');
+                if(after_span != null)
+                {
+                    after_span.insertAfter($(element));
+                }
+                var before_span = $(element).next('.ezoic-before-el');
+                if(before_span != null)
+                {
+                    before_span.insertBefore($(element));
+                }
+
+                if(ezIgnoreTags.indexOf(element.tagName) == -1)
+                {
+                    if($(element).hasClass('ezoic-wrapper') == false && $(element).hasClass('ezoic-no-wrapper') == false)
+                    {
+                        if($(element).closest('.ezoic-no-wrapper').length < 1 && $(element).closest('.ezoic-ad').length < 1 && $(element).closest('.ezo_ad').length < 1 && $(element).closest('.ezoic-wrapper').length < 1  && $(element).css('position') != 'fixed' && $(element).css('position') != 'absolute')
+                        {
+                            $(element).addClass('ezoic-wrapper');
+                            /* this is a kludgy failsafe to prevent the array from going crazy. the checker runs every 200ms, btw. */
+                            if (ezo_elements_to_check.length < 100) {
+                                ezo_elements_to_check.push(element);
+                            }
+                            ezo_resize_interval_count=0; //reset interval timer
+                            if($(element).hasClass('ez_wrap_ins') == false && $(element).parent().is('body'))
+                            {
+                                $(element).wrap("<ins class='ezoic-wrapper ez_wrap_ins'>");
+                                $(element).css('max-width','none');
+                                //var ezo_style = getComputedStyle(element);
+                                var cssText = ezoGetCurrentStyles(element);
+
+                                var rand_class = 'ezo_wrapper_'+Math.floor((Math.random()*100000)+1);
+
+                                var ezoTempStyle = document.createElement('style');
+                                /*
+                                var cssText = '';
+                                if (ezo_style != null) {
+                                    cssText = ezo_style.cssText;
+                                }
+                                */
+                                ezoTempStyle.innerHTML = '.'+rand_class+'{'+cssText+'}';
+                                document.getElementsByTagName('head')[0].insertBefore(ezoTempStyle,document.getElementsByTagName('head')[0].firstChild)
+                                $(element).addClass('ez_wrap_ins');
+                                $(element).addClass(rand_class);
+                                $(element).unwrap('ins');
+                            }
+                        }
+                    }
+                }
+            });
+        }
+    });
+}
+
+
+var old_jquery = null;
+var old_jquery_sign = null;
+function open_jquery_wrapper()
+{
+    if(typeof $ezJQuery != 'undefined')
+    {
+        old_jquery = jQuery;
+        old_jquery_sign = $;
+        $ = $ezJQuery;
+        jQuery = $ezJQuery;
+    }
+}
+function close_jquery_wrapper()
+{
+    if(typeof $ezJQuery != 'undefined')
+    {
+        $ = old_jquery_sign;
+        jQuery = old_jquery;
+    }
+}
+//minified table_resize_js.txt - http://gpbmike.github.io/refresh-sf/
+function ez_console_log(e){}function ez_get_widest_cells(e){var t=0,r=0,i=new Array;return $ezJQuery("td,th",e).each(function(){"break-all"!=$ezJQuery(this).css("word-break")&&"break-word"!=$ezJQuery(this).css("word-break")&&($ezJQuery(this).width()>t&&(t=$ezJQuery(this).width(),r=0,i=new Array),$ezJQuery(this).width()==t&&($ezJQuery(this).data("ez_lpw")>r&&(r=$ezJQuery(this).data("ez_lpw"),i=new Array),$ezJQuery(this).data("ez_lpw")==r&&r>10&&i.push(this)))}),i}function ez_scale_font(e,t,r){$ezJQuery(e).find("*").addBack().each(function(){var e=$ezJQuery(this).data("ez-ofs")-t;e>=r&&$ezJQuery(this).css("font-size",e)})}function ez_get_min_font(e){var t=16;return $ezJQuery("*",e).each(function(){parseInt($ezJQuery(this).css("font-size"))<t&&(t=parseInt($ezJQuery(this).css("font-size")))}),t}function ez_get_max_font(e){var t=10;return $ezJQuery("*",e).each(function(){parseInt($ezJQuery(this).css("font-size"))>t&&(t=parseInt($ezJQuery(this).css("font-size")))}),t}function ez_get_max_padding(e){var t=0;return $ezJQuery("td",e).each(function(){parseInt($ezJQuery(this).css("padding-left"))>t&&(t=parseInt($ezJQuery(this).css("padding-left"))),parseInt($ezJQuery(this).css("padding-right"))>t&&(t=parseInt($ezJQuery(this).css("padding-left")))}),t}function ez_scale_padding(e){$ezJQuery("td",e).each(function(){parseInt($ezJQuery(this).css("padding-left"))>1&&$ezJQuery(this).css("padding-left",parseInt($ezJQuery(this).css("padding-left"))-1),parseInt($ezJQuery(this).css("padding-right"))>1&&$ezJQuery(this).css("padding-right",parseInt($ezJQuery(this).css("padding-left"))-1)})}function ez_word_break_table(e){"undefined"==typeof $ezJQuery?(ez_word_break_tables.push(e),1==ez_word_break_tables.length&&ez_queue.push({method:run_ez_word_break_tables,priority:1})):run_ez_word_break_table(e)}function ez_reset_width(e){$ezJQuery(e).data("ez-no-defined-width")===!0&&$ezJQuery(e).css("width","");var t=$ezJQuery(e).data("ezoic-orig-max-width");return null==t?$ezJQuery(e).css("max-width",""):$ezJQuery(e).css("max-width",t),1}function run_ez_word_break_tables(){$ezJQuery.each(ez_word_break_tables,function(e,t){run_ez_word_break_table(t)})}function run_ez_word_break_table(e){ez_console_log("shrinking "+e);var t=$ezJQuery("table[data-ez-uid='"+e+"']");0==t.length&&(t=$ezJQuery("#ez_script_id_"+e).prevAll("table")[0]);var r=11;if(ez_console_log("$ezJQuery(table).data('ez-gwidth')"+$ezJQuery(t).data("ez-gwidth")),null!=$ezJQuery(t).data("ez-gwidth")){1==$ezJQuery(t).data("ez-no-defined-width")&&(null!=$ezJQuery(t).get(0).style.width&&$ezJQuery(t).get(0).style.width.match(/^$|auto/)||($ezJQuery(t).removeAttr("data-ez-no-defined-width"),$ezJQuery(t).removeData("ez-no-defined-width")));var i=$ezJQuery(t).get(0).style.getPropertyValue("max-width");null!=i&&$ezJQuery(t).data("ezoic-orig-max-width",i),$ezJQuery(t).css("max-width","none");var n=$ezJQuery(t).data("ez-gwidth"),a=n,u=!1;if(String(a).indexOf("%")>=0&&(ez_console_log("goal width % "+String(a)),u=!0,a=Math.ceil(parseInt(a)/100*$ezJQuery(t).parent()[0].clientWidth)),ez_console_log("goal width px "+String(a)),$ezJQuery(t).outerWidth()<=a)return ez_reset_width(t);var s=!0;$ezJQuery(t).data("ez-no-defined-width")===!0&&(s=!1,$ezJQuery(t).css("width",n));var d=!1,z=0,o=null,h=null;if($ezJQuery("td,th",t).each(function(){$ezJQuery(this).find("*:not(iframe)").addBack().contents().addBack().filter(function(){return 3==this.nodeType&&"script"!=this.parentNode.nodeName}).each(function(){var e=this.nodeValue.split(/[.,\/ -]/),t=e.reduce(function(e,t){return e.length>t.length?e:t}).length,r=parseInt($ezJQuery(this).parent().css("font-size"));null==o?o=r:r>o&&(o=r),null==h?h=r:h>r&&(h=r);var i=t*r*.6;i>=z&&(z=i)});$ezJQuery(this).data("ez_lpw",z),$ezJQuery(this).outerWidth()>0&&z>.65*$ezJQuery(this).outerWidth()&&(d=!0)}),0==d)return ez_reset_width(t);h>12&&(r=9),12==h?r=9:9>h&&(r=h);for(var _=parseInt($ezJQuery(t).css("border-spacing"));_>2&&$ezJQuery(t).outerWidth()>a;)_--,$ezJQuery(t).css("border-spacing",_),ez_console_log("changing border-spacing to "+_+", "+$ezJQuery(t).outerWidth());if($ezJQuery(t).outerWidth()<=a)return ez_reset_width(t);$ezJQuery(t).find("*").addBack().each(function(){$ezJQuery(this).data("ez-ofs",parseInt($ezJQuery(this).css("font-size")))});for(var c=0;o-c>r+1&&$ezJQuery(t).outerWidth()>a;){c++;var y=$ezJQuery(t).outerWidth();if(ez_console_log("scaling font increment "+c+", "+$ezJQuery(t).outerWidth()>a),ez_scale_font(t,c,r),y==$ezJQuery(t).outerWidth())break}if($ezJQuery(t).outerWidth()<=a)return ez_reset_width(t);for(var l=ez_get_max_padding(t),y=$ezJQuery(t).outerWidth();l>1&&$ezJQuery(t).outerWidth()>a;)ez_console_log("scaling padding to "+l+", "+$ezJQuery(t).outerWidth()>a),ez_scale_padding(t),l--;if($ezJQuery(t).outerWidth()<=a)return ez_reset_width(t);for(;h-c>r&&$ezJQuery(t).outerWidth()>a;){c++;var y=$ezJQuery(t).outerWidth();if(ez_console_log("scaling font increment "+c+", "+$ezJQuery(t).outerWidth()>a),ez_scale_font(t,c,r),y==$ezJQuery(t).outerWidth())return ez_reset_width(t)}if($ezJQuery(t).outerWidth()<=a)return ez_reset_width(t);for(var $=ez_get_widest_cells($ezJQuery(t));0!=$.length&&$ezJQuery(t).outerWidth()>a;){ez_console_log("adding word break to tables, "+$ezJQuery(t).outerWidth()>a);for(var J=0;J<$.length;J++){if(s===!0){var Q=(100*$ezJQuery($[J]).width()/$ezJQuery(t).outerWidth()).toFixed(4)+"%";$ezJQuery($[J]).css("min-width",Q)}$ezJQuery($[J]).css("word-break","break-all"),$ezJQuery($[J]).css("word-break","break-word")}$=ez_get_widest_cells(t)}return ez_reset_width(t)}}var ez_word_break_tables=[];
+
+var soc_app_id = '0';
+var did = 6969;
+var ezdomain = 'parentingscience.com';
+var ezoicSearchable = 1;
+Newborn sleep patterns: A survival guidevar switchTo5x=true;stLight.options({publisher: "55a6ffc2-df4c-41be-9bd3-46582ff4886e", doNotHash: false, doNotCopy: false, hashAddressBar: false});
+        var FIX = FIX || {};    
+        var MOBILE = MOBILE || {};
+        MOBILE.enabled = true;
+    
+        var MOBILE = MOBILE || {};
+
+        MOBILE.viewMode = "full"; // or "mobile"
+        MOBILE.deviceType = "other"; // or "mobile"
+        MOBILE.userAgent = "";
+
+        if (typeof mobileSandBox !== 'undefined') {
+            MOBILE.enabled = true;
+        }
+
+        MOBILE.hasCookie = function (key, value) {
+            var regexp = new RegExp(key + '=' + value);
+            return regexp.test(document.cookie);
+        };
+
+        MOBILE.overwriteViewport = function() {
+            // Overwrite viewport when Mobilize It! is in the full site mode.
+            var viewport = document.querySelector("#viewport");
+            if (viewport) {
+                viewport.content = '';
+            }
+        };
+
+        MOBILE.checkIfMobile = function() {
+            if (!MOBILE.enabled) {
+                MOBILE.enabled = /mobileTrial=1/.test(document.cookie);
+            }
+            MOBILE.userAgent = navigator.userAgent;
+            // without "Mobile" it would be a tablet, which is not our target device yet
+            var androidMobile = (/Android/i.test(MOBILE.userAgent) && (/Mobile/i.test(MOBILE.userAgent)));
+            if (androidMobile) {
+                if ((screen.width > 1000) && (screen.height > 550)) {
+                    androidMobile = false; // Exclude tablets that identifies themselves as 'Mobile'
+                }
+            }
+            // these are our target mobile devices
+            if (MOBILE.enabled && ((/iPhone|iPod|BlackBerry/i.test(MOBILE.userAgent) && (!/iPad/i.test(MOBILE.userAgent))) || androidMobile)) {
+                MOBILE.deviceType = "mobile";
+                document.documentElement.className += " m";
+                if (MOBILE.hasCookie("fullView", 'true')) { // full site view
+                    document.documentElement.className += " fullView";
+                    MOBILE.viewMode = "full";
+                    MOBILE.overwriteViewport();
+                } else { // mobile view
+                    document.documentElement.className += " mobile";
+                    MOBILE.viewMode = "mobile";
+                }
+                if (MOBILE.userAgent.match(/Android 2/i)) { // Android 2.x fix
+                    document.documentElement.className += " android2";
+                }
+            } else {
+                MOBILE.overwriteViewport();
+            }
+        };
+        MOBILE.viewportWidth = function() {
+            var viewportWidth;
+            // browsers
+            if (typeof window.innerWidth != "undefined") {
+                viewportWidth = window.innerWidth;
+            }
+            // IE standard compliant mode
+            else if (typeof document.documentElement != "undefined"
+                && typeof document.documentElement.offsetWidth != "undefined"
+                && document.documentElement.offsetWidth != 0) {
+                viewportWidth = document.documentElement.offsetWidth;
+            }
+            // IE quirks mode
+            else {
+                viewportWidth = document.getElementsByTagName('body')[0].offsetWidth;
+            }
+            return viewportWidth;
+        };
+        MOBILE.destroyAd = function(slot) {
+            var ins = document.getElementsByTagName("ins");
+            for (var i=0, insLen=ins.length; i<insLen; i++) {
+                var elem = ins[i];
+                if (elem.getAttribute("data-ad-slot") == slot) {
+                    var parent = elem.parentNode;
+                    parent.removeChild(elem);
+                    break;
+                }
+            }
+            if (!elem) {
+                throw new Error("INS tag with data-ad-slot value " + slot + " is absent in the code");
+            }
+        };
+        MOBILE.checkIfMobile();
+    .ezoic-ad.large-skyscraper-1 { display:inline-block;float:none;margin-bottom:2px !important;margin-left:0px !important;margin-right:0px !important;margin-top:2px !important;min-height:620px;min-width:300px; }
+.ezoic-ad.box-1 { display:inline-block;float:right;margin-bottom:4px !important;margin-left:28px !important;margin-right:1px !important;margin-top:2px !important;min-height:300px;min-width:336px; }
+.ezoic-ad.sky-1 { display:inline-block;float:none;margin-bottom:2px !important;margin-left:0px !important;margin-right:0px !important;margin-top:2px !important;min-height:620px;min-width:160px; }
+.ezoic-ad.netboard-1 { display:inline-block;float:none;margin-bottom:2px !important;margin-left:0px !important;margin-right:0px !important;margin-top:2px !important;min-height:420px;min-width:580px; }
+.ezoic-ad.netboard-2 { display:inline-block;float:none;margin-bottom:2px !important;margin-left:0px !important;margin-right:0px !important;margin-top:2px !important;min-height:420px;min-width:580px; }
+.ezoic-floating-bottom { display: none!important; }.ezoic-ad{display:inline-block;}
+        window.cookieconsent_options = {
+            "message":"We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners.",
+            "dismiss":"Got it!",
+            "learnMore":"See details",
+            "link":'/privacy.html',
+            "theme":"/ezoic/styles/dark-bottom.css",
+			"domain":"parentingscience.com"
+        };
+    var _ezaq = {"ab_test_id":"mod10","ab_test_val":"","ad_location_ids":"31,22,0,3,4,69","adgroup_rank_id":-1,"adx_ad_count":5,"country":"MT","device_height":528,"device_width":1280,"domain_id":6969,"forensiq_score":-1,"form_factor_id":1,"has_bad_words":0,"ip":"46.11.37.25","landing_page_url":"http://www.parentingscience.com/newborn-sleep.html","max_ads":10,"page_ad_positions":"1000,1003,1004,1022,1031,1069","page_view_count":0,"page_view_id":"0a7c289b-4936-4fdb-4699-0b54a269a4ff","pv_event_count":0,"referrer_id":0,"region":"eu-west-1","serverid":"52.212.255.3:13003","sub_page_ad_positions":"1031,1069,1200,1261,1280,1341","t_epoch":1478445695,"template_id":30,"url":"http://www.parentingscience.com/newborn-sleep.html","user_agent":"r/curl/jeroen","user_id":521842211,"visit_id":19880338,"visit_uuid":"a6145c44-5788-4def-5042-059e6fe3808b","word_count":4300};var _ezim_d = {"parentingscience_com-box-1":{"adx_ad_count":5,"full_id":"parentingscience_com-box-1/2016-11-06/1969509","height":"280","position_id":1022,"sub_position_id":1341,"width":"336"},"parentingscience_com-large-skyscraper-1":{"adx_ad_count":5,"full_id":"parentingscience_com-large-skyscraper-1/2016-11-06/209514","height":"600","position_id":1031,"sub_position_id":1031,"width":"300"},"parentingscience_com-link-v-xlrg-1":{"adx_ad_count":5,"full_id":"parentingscience_com-link-v-xlrg-1/2016-11-06/1775012","height":"150","position_id":1069,"sub_position_id":1069,"width":"180"},"parentingscience_com-netboard-1":{"adx_ad_count":5,"full_id":"parentingscience_com-netboard-1/2016-11-06/1423511","height":"400","position_id":1003,"sub_position_id":1261,"width":"580"},"parentingscience_com-netboard-2":{"adx_ad_count":5,"full_id":"parentingscience_com-netboard-2/2016-11-06/1548507","height":"400","position_id":1004,"sub_position_id":1280,"width":"580"},"parentingscience_com-sky-1":{"adx_ad_count":5,"full_id":"parentingscience_com-sky-1/2016-11-06/887514","height":"600","position_id":1000,"sub_position_id":1200,"width":"160"}};var _ezat = {"domain_id":6969,"form_factor_id":1,"pageview_date":"2016-11-06","pageview_id":"0a7c289b-4936-4fdb-4699-0b54a269a4ff","template_id":30,"url":"http://www.parentingscience.com/newborn-sleep.html","visit_uuid":"a6145c44-5788-4def-5042-059e6fe3808b"};window.google_analytics_uacct = "UA-67285959-30";
+var _gaq = _gaq || [];
+_gaq.push(['e._setAccount', 'UA-67285959-30']);
+_gaq.push(['f._setAccount', 'UA-38339005-1']);
+_gaq.push(['e._setDomainName', 'parentingscience.com']);
+_gaq.push(['f._setDomainName', 'parentingscience.com']);
+_gaq.push(['e._setCustomVar',1,'template','/article/grayscale',3]);
+_gaq.push(['e._setCustomVar',2,'t','30',3]);
+_gaq.push(['e._setCustomVar',3,'rid','0',2]);
+_gaq.push(['e._setCustomVar',4,'bra','mod10',3]);
+_gaq.push(['f._setSampleRate', '100']);
+_gaq.push(['e._setSampleRate', '100']);
+_gaq.push(['e._setAllowAnchor',true]);
+_gaq.push(['e._setSiteSpeedSampleRate', 10]);
+_gaq.push(['f._setCustomVar',1,'template','/article/grayscale',3]);
+_gaq.push(['f._setCustomVar',2,'domain','parentingscience.com',3]);
+_gaq.push(['f._setSiteSpeedSampleRate', 20]);
+_gaq.push(['e._trackPageview']);
+_gaq.push(['f._trackPageview']);
+
+_gaq.push(['_setAccount', 'UA-4467913-1']);
+_gaq.push(['_setDomainName', 'parentingscience.com']);
+_gaq.push(['_trackPageview']);
+
+
+(function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+var ez_tos_track_count = 0;
+var ez_last_activity_count = 0;
+(function (__ez_tos) {
+  window.setInterval(function () {
+    __ez_tos = (function (t) {
+      return t[0] == 45 ? (parseInt(t[1]) + 1) + ':00' : (t[1] || '0') + ':' + (parseInt(t[0]) + 15);
+    })(__ez_tos.split(':').reverse());
+
+    ez_tos_track_count++;
+    if(ez_tos_track_count > 1 && ez_tos_track_count < (ez_last_activity_count + 4) && ez_tos_track_count < 240)
+    {
+        if(window.pageTracker)
+        {
+            pageTracker._trackEvent('Time', 'Log', __ez_tos);
+			new EzoicAnalytics().storeImpression();
+        }
+        else
+        {
+           _gaq.push(['e._trackEvent', 'Time', 'Log', __ez_tos]);
+           _gaq.push(['f._trackEvent', 'Time', 'Log', __ez_tos]);
+		   new EzoicAnalytics().storeImpression();
+        }
+
+		if(typeof(_paq) != 'undefined')
+        {
+            _paq.push(['trackEvent', 'Time', __ez_tos, 'TimeOnPage']);
+        }
+
+    }
+  }, 15000);
+})('00');
+
+.gsc-control-cse { padding: 0px !important; border: 0px !important; }
+#ezoic-content .gs-web-image-box-landscape img.gs-image { max-height: 40px; } 
+.cse .gsc-branding, .gsc-branding { display: none !important; }
+
+div.gsc-control-cse {
+  background-color: transparent !important;
+  border: 0px !important;
+}
+.ezoic-wrapper-column-1 { max-width: 330px !important; }
+.ezoic-wrapper-column-2 { max-width: 330px !important; }
+.ezoic-wrapper-content { max-width: 750px !important; }
+.ezoic-wrapper-column-1 * { max-width: 330px; }
+.ezoic-wrapper-column-2 * { max-width: 330px; }
+.ezoic-wrapper-content * { max-width: 750px; }
+.ezWidgetWrap { display: table !important; overflow: hidden !important; clear: both !important; }
+.ezoic-top-partition { max-width: none !important; clear: both !important; overflow:hidden !important; }
+.ezoic-top-partition * { max-width: none; }
+#ezmob_footer span, div.ezoic-floating-bottom span { padding: 0px !important; }
+
+#stylesheet_body { height: auto !important; width: auto !important; background-image: none !important; border: 0px solid transparent !important; }
+
+.ezoic-wrapper-content, .ezoic-wrapper-column-1, .ezoic-wrapper-column-2 { line-height: initial;color: initial;font-size: initial;font-family: initial;font-weight: initial;font-style: initial;font-variants: initial; }
+.ezoic-wrapper-content table, .ezoic-wrapper-column-1 table, .ezoic-wrapper-column-2 table { border-collapse: initial;border-spacing: initial;border-color: initial; }
+
+
+
+
+
+
+  
+          
+    
+        
+            
+                
+                    
+                    
+                        
+    
+        
+            
+    
+            
+        
+            
+        
+    
+
+                    
+                    
+
+                    
+                    
+                        Home
+
+BabiesOverview
+Attachment
+Breastfeeding
+Crying
+Feeding Schedules
+Sleep
+Stress in babies
+Toilet Training
+
+
+PreschoolersCognitive development
+Math learning
+Play
+Science activities
+Self-control
+Sleep
+Social skills
+Toilet training
+
+
+Big KidsAttention
+Friendships
+School
+Science education
+Self-control
+Sleep
+Working memory
+
+
+ParentingAnthropology & evolution
+Attachment
+Evidence-based parenting
+Evolution of fatherhood
+Mind-mindedness
+Parenting styles
+Positive discipline
+Praise
+Primate parenting
+Spanking
+Stress
+
+
+BehaviorADHD
+Bullying
+Empathy
+Friendship
+Helpfulness
+Picky eaters
+Play
+Self-control
+Social skills
+Stress
+
+
+More
+LearningBrains
+Critical thinking
+Getting smarter
+Mathematics
+Music
+School
+Spatial skills
+Working memory
+
+
+PlayBenefits of play
+Educational toys and games
+Video games
+
+
+SleepOverview
+Bedtime problems
+Bed-wetting
+Night wakings
+Sleep requirements
+Sleep training
+
+
+Well-BeingDiet and nutrition
+Exercise
+Benefits of sensitive parenting
+
+
+
+SiteAbout
+Legal
+Contact
+Shop
+What's new
+
+Donate
+
+                    
+
+                
+            
+        
+             
+    
+
+    
+    
+
+        
+        
+        
+        
+        
+
+        
+            
+            
+
+            
+  (function() {
+    var cx = '002033744443348646021:mdmpq_rr26s';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+        
+        
+            
+            
+            
+        
+            
+                
+ Newborn sleep patterns  A survival guide for the science-minded parent  © 2008 -2016 Gwen Dewar, Ph.D., all rights reserved As every parent knows, the world of newborn sleep is exotic and strange. Newborns doze at odd times. They seem oblivious to differences between night and day. They awaken frequently. 
+
+
+It's a recipe for exhaustion, but understanding the science of sleep can help you cope. 
+
+
+In this article, I review
+
+
+fundamental differences between newborn and adult sleep patterns
+
+
+circadian rhythms, and how you can help your baby develop them
+
+
+sleep cycles in the newborn, and their implications for putting babies to bed
+
+
+tips for preventing newborns from waking up, and 
+
+
+advice for improving your own sleep
+
+
+
+
+
+
+
+Throughout, I focus on babies under four weeks of age. For information about older infants, see my article on 
+baby sleep patterns.
+
+If you are looking for information about 
+newborn sleep safety, see these science-based tips for reducing the risk of SIDS.
+
+
+
+
+
+eval(ez_write_tag([[336,280],'parentingscience_com-box-1','ezslot_1']));
+
+ Newborn sleep patterns: Are there any? To the sleepless parent, newborn sleep might seem totally disorganized. 
+
+
+Newborns sleep in short bouts—typically ranging from 30 minutes 
+to 4 hours—at seemingly random times throughout the day and night. 
+
+
+To make things worse for you, newborns awaken easily. This is 
+because they spend a large portion of their sleep time in “active 
+sleep," a light sleep state characterized by fluttering eyelids; rapid, 
+irregular breathing; occasional body movements; and vocalizations 
+(grunts or brief cries). 
+
+
+Finally, newborns vary greatly in the total amount of time they 
+spend sleeping. In the first few days, the average newborn sleeps 
+between 16-18 hours a day (Iglowstein et al 2002). By four weeks, 
+newborn sleep averages about 14 hours. But the range is considerable. 
+Some four-week-old babies sleep as little as 9 out of 24 hours. Others 
+sleep for 19 hours a day (Iglowstein et al 2002). 
+
+
+
+
+
+
+eval(ez_write_tag([[580,400],'parentingscience_com-netboard-1','ezslot_3']));
+
+If your baby is one of these atypical sleepers, does that mean 
+something is wrong? Not necessarily. Some babies suffer from medical 
+conditions that influence the way they sleep, so if you have concerns 
+you should discuss them with your medical provider. But it appears that 
+many healthy, normal newborns deviate several hours from the average 
+duration of sleep. 
+ Newborn sleep rhythms: Why newborns seem to sleep—and wake—around the clock The timing of adult sleep is governed by circadian 
+rhythms--physiological changes that follow a 24-hour cycle. Many of 
+these changes are influenced by your exposure to light. 
+
+
+When you expose yourself to sunlight each morning, you help 
+maintain your internal clock. Even if you are sleep-deprived, morning 
+light exposure helps ensure that you will be more alert during the day 
+than you are at night. As the day wears on and darkness falls, your body
+ begins to produce less cortisol (a hormone that keeps you alert) and 
+more melatonin (the hormone of drowsiness). When you expose yourself to 
+bright, artificial lighting in the evening--particularly to lights that 
+include the blue part of the spectrum--you delay these changes and may 
+find it harder to fall asleep (Wahnschaffe et al 2013).
+
+
+Unfortunately for sleepless parents, newborn sleep is not governed by strong circadian rhythms. 
+
+
+It doesn’t start that way. During pregnancy, fetuses are tuned 
+into their mothers’ physiological cues about day and night. Fetal heart 
+and respiratory rates speed up when Mom is active and slow down when she
+ is sleeping (Mirmiran et al 2003). Such changes may be influenced by 
+maternal hormones, particularly melatonin. Maternal melatonin passes 
+through the placenta and may direct the fetus’ internal clock 
+(Torres-Farfan et al 2006).
+
+
+But after birth, this intimate hormonal connection is broken, and
+ newborns must rely on their own internal clocks. But they haven’t yet 
+developed their own circadian rhythms of melatonin production (Kennaway 
+1996). Nor have newborns developed circadian rhythms for the production 
+of cortisol.
+
+
+Instead, the life of the newborn revolves around a new problem: 
+Getting fed. Newborn sleep patterns are shaped by the length of time it 
+takes them to feed, digest, and become hungry again.
+
+
+For most newborns, this means feeding every few hours. Sleep 
+episodes are brief and spaced in fairly regular intervals around the 
+clock. 
+
+
+
+When does it end? 
+
+
+Most infants take about 12 weeks to show day-night rhythms in the
+ production of melatonin, the “sleep hormone" (Rivkees 2003). Circadian 
+changes in cortisol--a hormone that helps regulate waking--may take even
+ longer to emerge (Rivkees 2003). And, overall, babies may take 3-5 
+months before they “settle" at night--meaning that they sleep for more 
+than 5 hours at a stretch (Jenni et al 2006; Pinilla and Birch 1993). 
+
+Nevertheless, newborn sleep isn’t completely divorced from the 
+natural rhythms of the 24-hour day. Studies show that circadian rhythms 
+begin developing in the first days after birth. 
+
+
+For example, German and Japanese studies have reported that 
+newborns sleep more at night than they do during the day (Freudigman and
+ Thoman 1998; Korte 2004; Matsuoka et al 1991). 
+
+
+And scientific evidence suggests that even newborns are receptive
+ to environmental cues about time. You can take advantage of this fact 
+to help shape newborn sleep patterns.
+ How to help babies adapt to the 24-hour day •	Make your baby a part of your daily routine. Some 
+researchers argue that social cues have more influence on newborn 
+sleep patterns than any other environmental factor (Custodio et al 2007; Lorh et al 1999). When parents 
+include their newborns in their daily activities, newborn sleep patterns
+ adapt more rapidly to the 24-hour day. One study took continuous 
+measurements of mother-infant activity patterns for four months after 
+birth. Newborns who were active at the same time of day as their mothers
+ quickly adapted to the daily schedule (Wulff and Siegmund 2002). 
+
+
+
+
+•	Reduce stimulation at night. When your baby wakes for 
+night time feedings, keep activity to a minimum. Make as little noise as
+ possible, and avoid moving your baby around. Ideally, you want to avoid
+ waking her "all the way up." But if that’s not possible, at least try 
+to minimize the hustle and bustle. You want the baby to learn that nighttime is for sleep and quiet.•	Expose your newborn to natural lighting patterns. Light 
+cues may not instantly program your baby's clock, but they help. In a 
+study of preterm infants kept in hospital wards, babies exposed to 
+natural lighting patterns--brighter during the day, darker during the 
+night--adapted to the 24-hour cycle more quickly than those exposed to 
+constant, low levels of light (Rivkees et al 2004). In another study of 
+full-term infants, babies who got more afternoon sunlight slept better 
+at night (Harrison 2004). And in case you are wondering, getting 
+outdoors might make an important difference. Babies who get outside 
+experience much higher light levels, and may develop stronger circadian 
+rhythms as a result (Tsai et al 2012).
+
+•	Try infant massage. One study reports that newborns who 
+received 14 days of massage therapy (beginning when they were about 10 
+days old) showed more mature sleep patterns in later weeks. At 12 weeks,
+ the massaged infants had higher levels of nocturnal melatonin (Ferber 
+2002). Was this a fluke? More research is needed (Bennett et al 2013), 
+but given the soothing nature of gentle, affectionate physical contact, 
+it seems safe to try.
+
+
+•	Consider keeping track of the time of day you extract and store breast milk for future use. Breast
+ milk contains tryptophan, an amino acid that is used by the body to 
+manufacture melatonin. Tryptophan levels rise and fall according to 
+maternal circadian rhythms, and when infants consume tryptophan before 
+bedtime, they fall asleep faster (Steinberg et al 1992). It’s therefore 
+possible that breastfeeding helps newborn sleep patterns synchronize 
+with the 24-hour day (Cubero et al 2005). This hypothesis was tested by 
+feeding infants formula fortified with varying concentrations of 
+tryptophan. When infants were given low levels of tryptophan during the 
+day and high concentrations at night (mimicking the natural fluctuations
+ of breast milk), infants fell asleep faster at night and got more sleep
+ overall (Cubero et al 2007).
+
+ Newborn sleep cycles: Why newborns are light sleepers When adults fall asleep, we pass through a series of sleep stages, 
+including bouts of deep (“slow wave") sleep, and, finally, REM (rapid 
+eye movement) sleep. REM is famous for its association with dreaming. 
+But it’s also known for its distinctive pattern of brain activity, which
+ resembles that of the busy, waking brain. Adults are much more likely 
+to awaken during REM than they are during deep sleep. 
+
+
+At the end of a REM session, the sleep cycle is completed. Adults
+ either wake up, or begin another sleep cycle. A single sleep cycle 
+lasts about 90-100 minutes.
+
+
+Newborn sleep follows a different pattern. When a newborn first 
+falls asleep, she enters into immediately into “active sleep." This 
+rather restless sleep state is similar to REM (rapid eye movement) sleep
+ in adults. Just as adults are more likely to awaken during REM, 
+newborns are more likely to awaken during active sleep (Anders 1979; 
+McNamara et al 2002). 
+
+
+Newborns may remain in this active sleep state for 25 minutes or 
+more, after which they slip into a deeper sleep state known as “quiet 
+sleep." Compared to active sleep, quiet sleep is characterized by 
+slower, more rhythmic breathing, little movement, and no eyelid 
+fluttering. 
+
+
+Babies are less likely to awaken during quiet sleep, but this 
+situation doesn’t last long. After about 50 minutes, the sleep cycle 
+ends. Newborns then either awaken or begin another bout of active sleep 
+(Anders 1979; McNamara et al 2002). 
+
+
+So newborn sleep is different in several important ways. For one 
+thing, newborns spend much more time in active sleep than adults spend 
+in REM. Whereas adults spend only 20% of their sleep time in REM, 
+newborns spend at least 50% of their sleep time in active sleep. In 
+fact, several studies suggest that, over the course of a 24 hour day, 
+newborns spent as much as 75% of their sleep time in active sleep (e.g.,
+ Poblano et al 2007; Sadeh et al 1996). As a result, newborns spend a 
+much greater proportion of the time “sleeping light."
+
+
+For another thing, newborn sleep cycles are much shorter than are
+ adult sleep cycles. Instead of 90-100 minutes, the average newborn 
+sleep cycles lasts only 50 minutes or so. As a result, newborns are 
+vulnerable to awakening much more frequently.
+
+
+This sounds like a raw deal for parents. But we should keep a couple things in mind. 
+
+
+First, it's normal for adults and babies alike to experience 
+frequent arousals during sleep, and most of these arousals do not result
+ in our waking up "all the way." A baby who seems to be waking up may, 
+if left alone, go back to sleep very rapidly. 
+
+
+Second, newborns probably benefit from being light sleepers. 
+Having a low threshold of arousal may protect babies from SIDS. 
+And active sleep might be crucial for a newborn’s brain development (Heraghty et al 2008; Seigel 2005). 
+
+
+Of course, this doesn't mean that active sleep is good and quiet 
+sleep is bad. Babies in active sleep may experience more heart rate 
+irregularities and more episodes of sleep apnea, conditions which may 
+put babies at higher risk for SIDS. There is also evidence that SIDS 
+cases have special problems arousing from active sleep (Kato et al 
+2003). Conversely, the analog of quiet sleep in older people -- non-REM 
+sleep -- seems to be important for good health and memory consolidation.
+ Perhaps it plays a similar role in newborns.
+
+ How to keep your light sleeper from waking up all the way •	Don't rush in the moment you think your baby has awakened. As noted
+ above, babies experience frequent arousals, but that doesn't mean they 
+are doomed to wake up "all the way" every few minutes. Babies often 
+jerk, sigh, or vocalize during partial arousals. If you avoid 
+stimulating them during these moments, they may go back to sleep on 
+their own.
+
+•	Try to feed your baby milk or formula that includes DHA. DHA is
+ a fatty acid found in fish oil and other dietary sources. It’s 
+important for brain development, and may play a role in shaping sleep 
+patterns as well. In one study, children who consumed low levels of DHA 
+had reduced amount of slow-wave (deep) sleep (Faglioli et al 1989). In 
+another study, pregnant women with higher blood levels of DHA gave birth
+ to babies who spent more time in quiet sleep (Cheruku et al 2002). DHA 
+is found in breast milk, so it’s seems plausible that boosting a nursing
+ mother's DHA intake could improve a newborn’s sleep patterns. If you 
+bottle-feed, find a baby formula that contains DHA.
+
+
+
+
+•	Tank up the baby before you go to sleep. Whether you breastfeed
+ or bottle-fed, try to give the baby an especially large meal before 
+your own bedtime. This will encourage your baby to sleep longer.
+
+•	Check out my article on 
+baby sleep aids, 
+which includes more tips for improving newborn sleep.
+
+ Staying sane: How to improve your own sleep  
+                    
+                       
+                
+                 
+                    
+                
+       Newborn sleep patterns take their toll on parents. In a study 
+tracking the sleep patterns of mothers from pregnancy through the 
+postpartum period, maternal sleep worsened after childbirth and 
+continued to deteriorate until about 12 weeks postpartum (Kang et al 
+2002)—-the time when newborn sleep patterns begin to show marked 
+circadian rhythms (Nishihara et al 2000). 
+	
+
+Twelve weeks isn’t forever, but it can seem like it when you are 
+severely sleep restricted. As you struggle to cope with newborn sleep 
+patterns, don’t forget to look after yourself. Here are some tips to 
+help you cope.
+
+
+• Appreciate the health benefits of a 30-minute nap. If you're only getting 2-4 hours of sleep each night, you might think a 30-minute nap will make little difference to your health. But recent research confirms that all naps are not the same. When you're coping with sleep deprivation, the brain compensates by rendering naps more restorative than usual. In one study, volunteers permitted to sleep only 2 hours at night showed the typical abnormalities in their stress hormone and immune factor chemistry. But after just two 30-minute naps, those irregularities were entirely normalized (Faraut et al 2015b). In another study, volunteers coping with a 2-hour nightly regimen experienced heightened pain sensitivity -- a common symptom of sleep deprivation. But once again, the effect was reversed after just two 30-minute naps (Faraut et al 2015a). •	Don't assume that it's pointless to lie down if you don't fall asleep. Too wired to "sleep when the baby sleeps"? If so, keep in mind 
+that quiet resting is better than nothing. In fact, if you are lying 
+down with your eyes closed, you might be asleep without realizing it. In
+ numerous lab studies, subjects who were awakened from the first stage 
+of sleep often denied that they were asleep at all (Dement and Vaughan 
+1999). A nap that consists only of stage 1 sleep won't help you 
+improve your reaction times, but it will probably make you feel less 
+tired. And if you manage to slip into the second stage of sleep -- even 
+for just 3 minutes -- your nap may have recuperative effects (Hayashi et
+ al 2005).
+
+
+•	Don't waste energy on self-reproach or criticism from other 
+people. You might be doing everything you can to get more sleep, and 
+still be stuck with a baby who sleeps less than average. Research 
+suggests that the amount of sleep we get at night is strongly influenced
+ by genetics (Touchette et al 2013).  
+
+• Don't assume that breastfeeding will make you more sleepless than formula feeding. One study reported that the parents of breastfed 
+babies averaged 40-45 minutes more sleep time than did the parents of 
+formula-fed babies (Doan et al 2007). 
+
+•	If you are breastfeeding, you are likely to get more sleep if 
+you keep baby nearby. The World Health Organization recommends that you 
+babies share a bedroom with their parents, and it's a recommendation 
+that makes breastfeeding less disruptive. A recent study found that 
+breastfeeding women got more sleep when they co-slept with baby (Quillin
+ and Glenn 2004). In fact, mothers who co-slept and breastfed got more 
+sleep than did mothers who bottle-fed their babies (Quillin and Glenn 
+2004).
+
+•	If your baby is asleep, don’t worry about changing diapers. If 
+your baby can’t sleep because she needs a diaper change, she’ll let you 
+know. And a little urine is unlikely to awaken her anyway. In a recent 
+experiment, researchers injected water into the diapers of sleeping 
+infants to see if this would wake them up (Zotter et al 2007). It 
+didn’t. 
+
+•	Get sunlight and avoid artificial lighting at night. Make sure 
+you expose yourself and your baby to bright light during the day. And 
+keep lights out—-or at least dimmed—-after sunset. As noted above, 
+natural lighting helps influence newborn sleep patterns. But it also 
+helps you keep your own circadian rhythms from drifting, which is 
+important if you are going avoid insomnia and be a source of day-time 
+cues for your newborn. 
+
+•	Let a friend or family member watch your baby while you take a 
+nap, even if this means your breastfed baby will take some of his meals 
+from a bottle. Lactation experts often discourage breastfeeding mothers 
+from bottle feeding babies for the first 3-4 weeks. The worry is that 
+supplemental feeds will lead to a decreased milk supply and endanger 
+successful breastfeeding in the long-term. But you need to balance this 
+against the negative effects of severe sleep restriction. Lack of sleep 
+puts parents at increased risk of illness and postpartum depression, 
+which is bad for parents and babies. If you are at the end of your rope,
+ you need to get help.
+
+•	Trust your instincts. If something feels wrong with you or the baby, talk to your physician. 
+
+•	Remember that things will get better. Newborns have special 
+sleep patterns and special needs. But things will start to get better 
+around 12 weeks postpartum. 
+More reading For more information about babies and sleep, see these fully-referenced Parenting Science articles.References: What scientific studies say about newborn sleep Anders TF. 1979. Night-waking in infants during the first year of life. Pediatrics 63: 860-864.
+
+
+Bennett C, Underdown A, and Barlow J. 2013. Massage for promoting
+ mental and physical health in typically developing infants under the 
+age of six months. Cochrane Database Syst Rev. 2013 Apr 30;4:CD005038. 
+doi: 10.1002/14651858.CD005038.pub3.
+
+
+Cheruku SR, Montgomery-Downs HE, Farkas SL, Thoman EB, and 
+Lammi-Keefe CJ. 2002. Higher maternal plasma docosahexaenoic acid during
+ pregnancy is associated with more mature neonatal sleep-state 
+patterning. Am J Clin Nutr 76:608-13.
+
+
+Cubero J, Valero V, Sánchez J, Rivero M, Parvez H, Rodríguez AB, 
+Barriga C. 2005. The circadian rhythm of tryptophan in breast milk 
+affects the rhythms of 6-sulfatoxymelatonin and sleep in newborn. Neuro 
+Endocrinol Lett. 26(6):657-61. 
+
+
+Cubero J, Narciso D, Terrón P, Rial R, Esteban S, Rivero M, 
+Parvez H, Rodríguez AB, Barriga C. 2007. Chrononutrition applied to 
+formula milks to consolidate infants' sleep/wake cycle. Neuro Endocrinol
+ Lett. 28(4):360-6. 
+
+
+Dement W and Vaughan C. 1999. The promise of sleep. New York: Random House.
+
+
+Doan T, Gardiner A, Gay CL, Lee KA. 2007 Breast-feeding increases
+ sleep duration of new parents. J Perinat Neonatal Nurs. 21(3):200-6.
+
+
+Faglioli I, Barconcini P, Ricour C, and Salzarulo P. 1998. 
+Decrease of slow-wave sleep in children with prolonged absence of 
+essential lipids intake. Sleep 12: 495-499.
+
+Faraut B, Léger D, Medkour T, Dubois A, Bayon V, Chennaoui
+M, Perrot S. 2015a. Napping reverses increased pain sensitivity due to sleep
+restriction. PLoS One. 10(2):e0117425.Faraut B, Nakib S, Drogou C, Elbaz M, Sauvet F, De Bandt JP,
+Léger D. 2015b. Napping reverses the salivary interleukin-6 and urinary
+norepinephrine changes induced by sleep restriction. J Clin Endocrinol Metab. 100(3):E416-26.
+
+
+
+Ferber SG, Laudon M, Kuint J, Weller A, Zisapel N. 2002. Massage 
+therapy by mothers enhances the adjustment of circadian rhythms to the 
+nocturnal period in full-term infants. J Dev Behav Pediatr. 23(6):410-5
+
+
+Freudigman KA and Thoman EB. 1998. Infants' earliest sleep/wake 
+organization differs as a function of delivery mode. Dev Psychobiol. 
+32(4):293-303.
+
+
+Iglowstein I, Jenni OG, Molinari L, Largo RH. 2003. Sleep 
+duration from infancy to adolescence: Reference values and generational 
+trends. Pediatrics 111(2): 302-307.
+
+Harrison Y. 2004. The relationship between daytime exposure to 
+light and night-time sleep in 6-12-week-old infants. J Sleep Res. 
+13(4):345-52.
+
+Hayashi M, Motoyoshi N, Hori T. 2005. Recuperative power of a 
+short daytime nap with or without stage 2 sleep. Sleep. 28(7):829-36.
+
+Heraghty JL, Hilliard TN, Henderson AJ, and Fleming PJ. 2008. The
+ physiology of sleep in infants. Arch Dis Child. 2008 Nov;93(11):982-5.
+
+
+Horne RSC, Parslow PM, Ferens D, Watts AM, and Adamson TM. 2004. 
+Comparison of evoked arousability in breast and formula fed infants. 
+Arch Dis Child 89: 22-25.
+
+
+Jenni OG, DeBoer T, and Acherman P. 2006. Development of the 24h 
+rest-activity pattern in human infants. Infant behavior and development 
+29: 143-152.
+
+
+Kang MJ, Matsumoto K, Shinkoda H, Mishima M, Yeo YJ. 2002. 
+Longitudinal study for sleep-wake behaviours of mothers from pre-partum 
+to post-partum using actigraph and sleep logs. Psychiatry Clin Neurosci.
+ 56(3):251-2.
+
+
+Kato I, Franco P, Grosswasser J, Scaillet S, et al. 2003. 
+Incomplete arousal processes in infants who were victims of sudden 
+death. Am J Respir Crit Care Med 168: 1298-1303.
+
+
+Kennaway DJ, Goble FC and Stamp GE. 1996. Factors influencing the
+ development of melatonin rhythmicity in humans. Journal of Clinical 
+Endocrinology & Metabolism, Vol 81, 1525-1532
+
+
+Korte J, Hoehn T, Siegmund R. 2004. Actigraphic recordings of 
+activity-rest rhythms of neonates born by different delivery modes. 
+Chronobiol Int. 21(1):95-106
+
+
+Lohr B, Siegmund R. 1999. Ultradian and circadian rhythms of 
+sleep-wake and food-intake behavior during early infancy. Chonobiology 
+international 16(2): 129-148.
+
+
+Matsuoka M, Segawa M, and Higurashi M. 1991. The Development of 
+Sleep and Wakefulness Cycle in Early Infancy and Its Relationship to 
+Feeding Habit. The Tohoku Journal of Experimental Medicine  165 
+(2):147-154.
+
+
+McNamara F, Lijowska AS, and Thach BT. 2002. Spontaneous arousal 
+activity in infants during NREM and REM sleep. J Physiol 538: 263-269.
+
+
+Mirmiran M, Maas YG, Ariagno RL. 2003. Development of fetal and 
+neonatal sleep and circadian rhythms. Sleep Med Rev. 7(4):321-34. 
+
+
+Nishihara K, Horiuchi S, Eto H, Uchida S. 2000. The development 
+of infants' circadian rest-activity rhythm and mothers' rhythm. 
+Psychiatry Clin Neurosci. 54(3):305-6
+
+Pinilla T and Birch LL. 1993. Help me make it through the night: 
+Behavioral entrainment of breasfed infants’ sleep patterns. Pediatrics 
+91: 436-444.
+
+
+Poblano A, Haro R, and Arteaga C. 2007. Neurophysiologic 
+measurement of continuity in the sleep of fetuses during the last week 
+of pregnancy and in newborns. Int J Biol Sci. 
+4(1):23-8.
+
+
+Quillin SI and Glenn LL. 2004. Interaction between feeding method
+ and co-sleeping on maternal-newborn sleep. J Obstet gynecol Neonatal 
+Nurs 33(5): 580-588.
+
+
+Rivkees SA, Mayes L, Jacobs H, Gross I. 2004. Rest-activity 
+patterns of premature infants are regulated by cycled lighting. 
+Pediatrics. 113(4):833-9. 
+
+
+Sadeh A, Dark I, and Vohr BR. 1996. Newborns' sleep-wake 
+patterns: the role of maternal, delivery and infant factors. Early Hum 
+Dev. 44(2):113-26
+
+
+Siegel JM. 2005. Functional implications of sleep development. PLoS Biology 3(5): 756-758.
+
+Thomas KA and Burr R. 2002. Preterm infant temperature circadian 
+rhythm: possible effect of parental cosleeping. Biol Res Nurs. 
+3(3):150-9. 
+
+
+Torres-Farfan C, Rocco V, Monsó C, Valenzuela FJ, Campino C, 
+Germain A, Torrealba F, Valenzuela GJ, and Seron-Ferre M. 2006. Maternal
+ melatonin effects on clock gene expression in a nonhuman primate fetus.
+ Endocrinology. 147(10):4618-26.
+
+
+Touchette E, Dionne G, Forget-Dubois N, Petit D, Pérusse D, 
+Falissard B, Tremblay RE, Boivin M, and Montplaisir JY. 2013. Genetic 
+and environmental influences on daytime and nighttime sleep duration in 
+early childhood. Pediatrics 131(6):e1874-80. 
+
+
+Tsai SY, Thomas KA, Lentz MJ, Barnard KE.2012. Light is 
+beneficial for infant circadian entrainment: an actigraphic study. J Adv
+ Nurs. 68(8):1738-47.
+
+Van Sleuwen BE, Englelberts AC, Boere-Boonekamp MM, Kuis W, 
+Schulpen TWJ, and L’Hoir MP. 2007. Swaddling: A systematic review. 
+Pediatrics 120: e1097-1106.
+
+
+Wahnschaffe A, Haedel S, Rodenbeck A, Stoll C, Rudolph H, Kozakov
+ R, Schoepp H, and Kunz D. 2013. Out of the lab and into the bathroom: 
+evening short-term exposure to conventional light suppresses melatonin 
+and increases alertness perception. Int J Mol Sci. 14(2):2573-89.
+
+Wulff K, Siegmund R. 2002.[Emergence of circadian rhythms in 
+infants before and after birth: evidence for variations by parental 
+influence]. Z Geburtshilfe Neonatol. 206(5):166-71. Review. German. 
+
+
+Zotter H, Urlesberger B, Pichler G, Mueller W, Kerbl R. 2007. Do 
+wet diapers induce arousals in sleeping infants? Acta Paediatr. 
+96(3):452-3. 
+
+
+Content last modified 10/16 
+
+
+ image of mother kissing newborn ©iStockphoto.com/Shawn Gearhart     
+      MOBILE.contentColumnWidth = '730px';    
+        FIX.modernize();
+    
+        FIX.doEndOfBody();MOBILE.doEndOfBody();    
+ (function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) {return;}
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+
+
+
+eval(ez_write_tag([[580,400],'parentingscience_com-netboard-2','ezslot_4']));
+
+
+            
+            
+        
+
+        
+
+            
+
+            
+            
+            
+            
+                
+                    
+            
+            
+            
+            
+
+            Share
+                    
+                            
+                                 
+                            
+                            
+                                 
+                            
+                            
+                                Tweet
+                            
+                        
+                    
+
+
+
+eval(ez_write_tag([[160,600],'parentingscience_com-sky-1','ezslot_2']));
+
+Additional Info
+                    
+                            
+                                
+
+
+DONATE 
+
+Share It
+
+
+
+
+
+
+
+
+
+
+Visit the  Parenting Science Store 
+
+Follow Us
+    
+
+
+
+
+
+
+
+
+
+
+                            
+                        
+                    
+
+
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+
+    medianet_width = "180";
+    medianet_height = "150";
+    medianet_crid = "629897335";
+    medianet_versionId = "111299";
+	
+
+
+
+eval(ez_write_tag([[300,600],'parentingscience_com-large-skyscraper-1','ezslot_0']));
+
+
+
+        
+
+        
+                
+        
+
+
+
+
+
+
+
+    
+
+Attachment
+Attention deficits
+Babies
+Breastfeeding
+Crying
+Diet and nutrition
+Empathy
+Friendships
+Intelligence
+Odds and Ends
+Parenting styles
+Praise
+
+
+
+
+Preschool rationality
+Preschool math
+Preschool science
+School
+Science education
+Self-control
+Sleep
+Social skills
+Spanking
+Stress
+Toys and games
+Toilet training
+Video games
+
+
+
+
+
+        <!--
+        ez_word_break_table("643778600");
+        // -->
+        
+
+
+
+
+Copyright © 2006-2016 by Gwen Dewar, Ph.D.; all rights reserved. 
+
+For educational purposes only. If you suspect you have a medical problem, please see a physician. 
+
+
+
+
+
+Powered by SBI 
+
+
+
+
+
+
+      
+
+            
+            
+        
+        
+        
+
+    medianet_width = "728";
+    medianet_height = "20";
+    medianet_crid = "738685373";
+    medianet_versionId = "111299";
+	
+            
+        
+        
+            
+                Privacy Policy
+        
+
+    
+    
+
+
+
+
+
+(function ($) {
+    var opt;
+    $.fn.printThis = function (options) {
+        opt = $.extend({}, $.fn.printThis.defaults, options);
+        var $element = this instanceof $ ? this : $(this);
+
+            var strFrameName = "printThis-" + (new Date()).getTime();
+
+            if(window.location.hostname !== document.domain && navigator.userAgent.match(/msie/i)){
+                var iframeSrc = "javascript:document.write(\"<he" + "ad><scr" + "ipt>document.domain='" + document.domain + "';</scr" + "ipt><\/he" + "ad><bo" + "dy><\/bo" + "dy>\")";
+                var printI= document.createElement('iframe');
+                printI.name = "printIframe";
+                printI.id = strFrameName;
+                printI.className = "MSIE";
+                document.body.appendChild(printI);
+                printI.src = iframeSrc;
+
+            } else {
+                 // other browsers inherit document.domain, and IE works if document.domain is not explicitly set
+                var $frame = $("<iframe id='" + strFrameName +"' name='printIframe' />");
+                $frame.appendTo("body");
+            }
+
+
+            var $iframe = $("#" + strFrameName);
+
+            // show frame if in debug mode
+            if (!opt.debug) $iframe.css({
+                position: "absolute",
+                width: "0px",
+                height: "0px",
+                left: "-600px",
+                top: "-600px"
+            });
+
+
+            var $result = null;
+            var sep = (window.location.href.indexOf('?') > -1) ? '&' : '?';
+            var scriptUrl = window.location.href + sep + "ez_orig=1";
+            $.ajax({
+               url: scriptUrl,
+               type: 'get',
+               dataType: 'html',
+               async: false,
+               success: function(data) {
+                   $result = data;
+               }
+            });
+
+
+        // $iframe.ready() and $iframe.load were inconsistent between browsers
+        setTimeout ( function () {
+
+            var $doc = $iframe.contents();
+
+            //just get the ez_orig and pass it on
+            //$doc.find("body").append($result);
+            $iframe.get(0).contentWindow.document.open();
+            $iframe.get(0).contentWindow.document.write($result);
+            $iframe.get(0).contentWindow.document.close();
+
+            var myInterval = setInterval(function () {
+
+                if ($iframe.get(0).contentWindow.document.readyState == 'complete') {
+
+                    clearInterval(myInterval);
+
+                    if($iframe.hasClass("MSIE")){
+                        // check if the iframe was created with the ugly hack
+                        // and perform another ugly hack out of neccessity
+                        window.frames["printIframe"].focus();
+                        $doc.find("head").append("<scr" + "ipt> window.print(); </scr" + "ipt>");
+                    } else {
+                        // proper method
+                        $iframe.get(0).contentWindow.focus();
+                        $iframe.get(0).contentWindow.print();
+                    }
+
+                    $element.trigger( "done");
+
+                    //remove iframe after print
+                    if (!opt.debug) {
+                        setTimeout(function () {
+                            $iframe.remove();
+                        }, 1000);
+                    }
+                }
+
+            }, opt.printDelay);
+
+        }, 333 );
+
+    };
+
+    // defaults
+    $.fn.printThis.defaults = {
+        debug: false, // show the iframe for debugging
+        importCSS: false, // import parent page css
+        printContainer: false, // print outer container/$.selector
+        loadCSS: "", // load an additional css file
+        pageTitle: "", // add title to print page
+        removeInline: false, // remove all inline styles
+        printDelay: 500, // variable print delay S. Vance
+        header: null // prefix to html
+    };
+
+    // $.selector container
+    $.fn.outer = function () {
+        return $($("<div></div>").html(this.clone())).html()
+    }
+})($ezJQuery);
+
+function ezPrintThis()
+{
+    $ezJQuery('html').printThis();
+};
+{
+   "@context": "http://schema.org",
+   "@type": "WebSite",
+   "url": "http://www.parentingscience.com",
+   "potentialAction": {
+     "@type": "SearchAction",
+     "target": "http://www.parentingscience.com/ez-site-search/?q={search_term_string}",
+     "query-input": "required name=search_term_string"
+   }
+}
+var __JASS_DATA = {"ffId":1,"dim":[]};
+
+$ezJQuery(function() {
+    if (typeof run_body_onload == 'function') {
+        run_body_onload();
+    }
+    if (typeof ezoicJSPageLoad == 'function') {
+        ezoicJSPageLoad($ezJQuery);
+    }
+});
+
+function ezoic_block_page_ad_placement(lid, el) {
+    $ezJQuery.ajax({
+        url: "/utilcave_com/bap.php?l="+lid+"&p="+window.location.pathname+"&d="+did,
+        context: document.body,
+        statusCode: {
+            403: function () {
+                window.location.replace("http://www.ezoic.com/publisher.php?msg=Please%20log%20in%20to%20your%20ezoic%20account%20to%20block%20ad%20positions%20on%20your%20site.&rurl=" + encodeURIComponent("http://" + window.location.host + "/utilcave_com/auth.php?rurl=" + window.location.href));
+            }
+        },
+        success: function(){
+            $ezJQuery(el).closest('.ezoic-ad').hide();
+            $ezJQuery(el).closest('.ezoic-ad').parent().hide();
+        }
+    });
+}
+
+
+    $ezJQuery(function() {
+        $ezJQuery('iframe[src*="rcm-na.amazon-adsystem.com"]').css('width','');
+    });
+$ezJQuery().ready(function ($ezJQuery) {$ezJQuery('body').ezoicDoctor({ widgets: [], debugOutput: 0, widgetBaseURL: '//cdn.parentingscience.com/utilcave_com/dr/', dn: 'parentingscience_com', cb: '137-11' });});
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-31iz6hfFutd16",
+labels:"Domain.parentingscience_com,DomainId.6969"
+});
+
+
+
+
+
+
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "20015427" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+
+  
+
+ez_queue.push({
+  method : function()
+  {
+  (function() {
+    var cx = '002033744443348646021:mdmpq_rr26s';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+  },
+  priority : 10
+});
+
+
+if (typeof $ezJQuery == 'undefined') {
+    if (typeof jQuery == 'undefined') {
+        document.write('<scr'+'ipt type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></sc'+'ript>');
+    } else {
+        $ezJQuery = jQuery;
+    }
+}
+
+if (typeof $ezJQuery == 'undefined' && typeof jQuery != 'undefined') {
+    $ezJQuery = jQuery.noConflict(true);
+}
+
+if (typeof $ezJQuery != 'undefined') {
+    $ezJQuery("body").mousemove(function(e){
+      ez_last_activity_count = ez_tos_track_count;
+    });
+    $ezJQuery("body").keypress(function(e){
+      ez_last_activity_count = ez_tos_track_count;
+    });
+    $ezJQuery(window).scroll(function(e){
+      ez_last_activity_count = ez_tos_track_count;
+    });
+} else {
+    ez_last_activity_count = 8;
+}
+
+

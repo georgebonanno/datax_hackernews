@@ -1,0 +1,4684 @@
+
+      
+  
+    Twitter down or not working? Current status and problems |
+  
+
+      Down Detector
+
+    
+// <![CDATA[
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-38698090-1', 'auto', {'allowLinker': true});
+    ga('set', 'anonymizeIp', true);
+    ga('send', 'pageview');
+
+    ga('create', 'UA-41048417-1', 'auto', {'name': 'global', 'allowLinker': true});
+    ga('global.send', 'pageview');
+
+    
+
+// ]]>
+
+// <![CDATA[
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+      (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        gads.src = 'https://www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+      })();
+// ]]>
+
+// <![CDATA[
+        var width = document.documentElement.clientWidth;
+        var size = [];
+        var inline_size = [];
+        var inline_size_second = [];
+        var rectangle_size = [300,250];
+        var rectangle_size_bottom = [300,250];
+        var ancora_site_id = '';
+        var activate_ancora = false;
+        var ancora_banner = '';
+        var ancora_sidebar_top = '';
+        var ancora_sidebar_bottom = '';
+        var inline_top = '';
+        var inline_bottom = '';
+
+
+// ]]>
+// <![CDATA[
+
+console.log("adsense_only")
+console.log("ads COM")
+activate_ancora = false;
+
+if (width <= 468){
+    size = [[320, 50], [320, 100]];
+    rectangle_size = [100,100];
+    inline_size = [[290,250],[300,251],[300,428],[290,530]];
+    inline_size_second = [[290,250]];
+}
+
+if (width <= 767 && width >= 468){
+    size = [[468,60]];
+    rectangle_size = [200,200];
+    rectangle_size_bottom = [[200,600],[200,200],[160,600],[120,600]];
+    inline_size = [[468,250], [468,276]];
+    inline_size_second = [[468,250]];
+}
+
+if (width > 767 && width < 979) {
+    size = [[728,90]];
+    rectangle_size = [200,200];
+    rectangle_size_bottom = [[200,600],[200,200],[160,600],[120,600]];
+    inline_size = [[468,250], [468,276]];
+    inline_size_second = [[468,250]];
+}
+
+if (width > 979 && width < 1170) {
+    size = [[970,90],[970,250]];
+    rectangle_size = [300,250];
+    rectangle_size_bottom = [[300,250],[300,600]];
+    inline_size = [[620,250]];
+    inline_size_second = [[620,250]];
+}
+
+if (width >= 1200) {
+    size = [['large',90],[970,90],[970,250]];
+    rectangle_size = [[336,280],[336,600]];
+    rectangle_size_bottom = [[336,280],[300,250],[300,600]];
+    inline_size = [[622,250], [770,250]];
+    inline_size_second = [[622,250],[770,250]];
+}
+// ]]>
+// <![CDATA[
+        googletag.cmd.push(function() {
+            if (!activate_ancora)
+            {
+                googletag.defineSlot('/11637228/downdetector.com-leaderboard', size, 'ad-leaderboard').addService(googletag.pubads().setTargeting('company', 'twitter').setTargeting('category', 'online-services')).setTargeting('width',size[0][0]).setTargeting('source', 'firstpass');
+                 googletag.defineSlot('/11637228/downdetector.com-rectangle-top', rectangle_size, 'mpu-ad-top').addService(googletag.pubads().setTargeting('company', 'twitter').setTargeting('category', 'online-services')).setTargeting('width',size[0][0]).setTargeting('source', 'firstpass');
+                googletag.defineSlot('/11637228/downdetector.com-rectangle-bottom', rectangle_size_bottom, 'mpu-ad-bottom').addService(googletag.pubads().setTargeting('company', 'twitter').setTargeting('category', 'online-services')).setTargeting('width',size[0][0]).setTargeting('source', 'firstpass');
+            }
+            googletag.defineSlot('/11637228/downdetector.com-affiliate', [ [300, 200],  [336, 280] ], 'ad-affiliate').addService(googletag.pubads().setTargeting('company', 'twitter').setTargeting('category', 'online-services')).setTargeting('width',size[0][0]).setTargeting('source', 'firstpass');
+            googletag.defineSlot('/11637228/downdetector.com-textad', [ [468,15]], 'ad-textad').addService(googletag.pubads().setTargeting('company', 'twitter').setTargeting('category', 'online-services')).setTargeting('width',size[0][0]).setTargeting('source', 'firstpass');
+            googletag.defineSlot('/11637228/downdetector.com-inline', inline_size, 'ad-inline').addService(googletag.pubads().setTargeting('company', 'twitter').setTargeting('category', 'online-services')).setTargeting('width',size[0][0]).setTargeting('source', 'firstpass');
+            googletag.defineSlot('/11637228/downdetector.com-inline-second', inline_size_second, 'ad-inline-second').addService(googletag.pubads().setTargeting('company', 'twitter').setTargeting('category', 'online-services')).setTargeting('width',size[0][0]).setTargeting('source', 'firstpass');
+
+            googletag.pubads().setTargeting('company', 'twitter').setTargeting('category', 'online-services');
+
+            googletag.pubads().collapseEmptyDivs();
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+
+// ]]>
+
+// <![CDATA[
+        if (activate_ancora)
+        {
+          (function(w) {
+          var d = w.document; w.libServingName__ = "__ASL__";
+          var url = ("https:" === d.location.protocol ? "https:" : "http:") + "//creatives.ancoraplatform.com/showad_7719a1c7.js";
+          if (typeof w["__ASL_LIB_LOADED"] === "undefined") { asyncInclude(url); }
+          w['__ASL_LIB_LOADED'] = 1; w['AncoraTagProvider'] = w['AncoraTagProvider'] || new Tag();
+          function Tag() {
+          var me = this; me['stack'] = {}; me['displayAd'] = function(){};
+          me['requestAds'] = function(p) { var l = w[w.libServingName__];
+          if ((p || {})['sectionId'] !== 0 && !(p || {})['sectionId']) { return; }
+          try { l['requestAds'].call(l, p); } catch (e) { me['stack'][p['sectionId'] + ""] = p; }};}
+          function asyncInclude(url) {
+          var scriptEl = d.createElement("script"), node = d.getElementsByTagName("script")[0];
+          scriptEl.type = "text/javascript"; scriptEl.src = url; scriptEl.async = true;
+          if (navigator.userAgent.indexOf('Opera') !== -1) { setTimeout(function() { node.parentNode.insertBefore(scriptEl, node); }, 0); }
+          else { node.parentNode.insertBefore(scriptEl, node); }}})(window);
+        }
+
+// ]]>
+
+    
+      
+        
+          
+            
+              down
+            
+              detector
+            
+              .com
+            
+            
+          
+        
+      
+    
+    
+      
+        
+          
+            
+              
+              
+              
+            
+            
+              
+                    
+                      Home
+                    
+                  
+                
+                
+                  
+                    
+                      Top 10
+                    
+                  
+                
+                
+                  
+                    
+                      Companies
+                    
+                  
+                
+                
+                  
+                    Problems
+                  
+                
+                
+                  
+                    Pro Services
+                  
+                
+                
+                  
+                    About us
+                  
+                
+              
+                
+            
+          
+        
+      
+    
+    
+      
+  
+    
+        
+
+    
+
+
+      
+      
+        
+          Home
+        
+        /
+      
+      
+        
+          Companies
+        
+        /
+      
+      
+        Twitter
+
+
+      
+    
+
+
+
+      
+  
+    
+      
+        
+    
+        
+            if (activate_ancora)
+            {                ancora_id_banner = 'Ancora' + ancora_banner + '_' + ancora_site_id;                $('<div></div>').attr('id', ancora_id_banner).appendTo("#ad-leaderboard");            }
+            else
+            {                googletag.cmd.push(function() { googletag.display('ad-leaderboard'); });                $('#ad-leaderboard').addClass('size-' + size[0][0]);            }
+
+        
+
+
+        
+	
+	
+        googletag.cmd.push(function() { googletag.display('ad-textad'); });
+
+	
+
+
+      
+      Twitter
+
+      
+        
+          Twitter is a microblog which allows users to publish short messages of 140 characters of less. Twitter users are able to post their tweets from from numerous devices and platforms, including the iPhone, Android, Blackberry, or Windows Phone devices and traditional computers.
+          
+// <![CDATA[
+  url = '//tracker.downdetector.com/count/company/10204.txt?ref=' + encodeURIComponent(document.referrer);
+  $('#tracker')[0].src = url;
+// ]]>
+
+        
+          
+            
+              
+          
+
+        
+      
+      
+        
+          
+            
+              
+                Problems at Twitter
+              
+              
+              
+            
+          
+        
+      
+      
+        
+            
+                
+                    
+                        
+                            Twitter problems
+                            last 24 hours
+                        
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                          
+                            Live Outage Map »
+                          
+                        
+                    
+                
+            
+        
+        
+          
+            
+
+
+// <![CDATA[
+  new Morris.Area({
+    element: 'holder',
+    data: [
+      
+        { date: '2016-11-07T01:09:40.133907-05:00', value: 9  },
+      
+        { date: '2016-11-07T01:24:40.133907-05:00', value: 0  },
+      
+        { date: '2016-11-07T01:39:40.133907-05:00', value: 1  },
+      
+        { date: '2016-11-07T01:54:40.133907-05:00', value: 1  },
+      
+        { date: '2016-11-07T02:09:40.133907-05:00', value: 18  },
+      
+        { date: '2016-11-07T02:24:40.133907-05:00', value: 2  },
+      
+        { date: '2016-11-07T02:39:40.133907-05:00', value: 11  },
+      
+        { date: '2016-11-07T02:54:40.133907-05:00', value: 10  },
+      
+        { date: '2016-11-07T03:09:40.133907-05:00', value: 19  },
+      
+        { date: '2016-11-07T03:24:40.133907-05:00', value: 0  },
+      
+        { date: '2016-11-07T03:39:40.133907-05:00', value: 0  },
+      
+        { date: '2016-11-07T03:54:40.133907-05:00', value: 10  },
+      
+        { date: '2016-11-07T04:09:40.133907-05:00', value: 9  },
+      
+        { date: '2016-11-07T04:24:40.133907-05:00', value: 0  },
+      
+        { date: '2016-11-07T04:39:40.133907-05:00', value: 0  },
+      
+        { date: '2016-11-07T04:54:40.133907-05:00', value: 10  },
+      
+        { date: '2016-11-07T05:09:40.133907-05:00', value: 1  },
+      
+        { date: '2016-11-07T05:24:40.133907-05:00', value: 1  },
+      
+        { date: '2016-11-07T05:39:40.133907-05:00', value: 0  },
+      
+        { date: '2016-11-07T05:54:40.133907-05:00', value: 0  },
+      
+        { date: '2016-11-07T06:09:40.133907-05:00', value: 10  },
+      
+        { date: '2016-11-07T06:24:40.133907-05:00', value: 9  },
+      
+        { date: '2016-11-07T06:39:40.133907-05:00', value: 18  },
+      
+        { date: '2016-11-07T06:54:40.133907-05:00', value: 2  },
+      
+        { date: '2016-11-07T07:09:40.133907-05:00', value: 10  },
+      
+        { date: '2016-11-07T07:24:40.133907-05:00', value: 9  },
+      
+        { date: '2016-11-07T07:39:40.133907-05:00', value: 1  },
+      
+        { date: '2016-11-07T07:54:40.133907-05:00', value: 0  },
+      
+        { date: '2016-11-07T08:09:40.133907-05:00', value: 10  },
+      
+        { date: '2016-11-07T08:24:40.133907-05:00', value: 1  },
+      
+        { date: '2016-11-07T08:39:40.133907-05:00', value: 18  },
+      
+        { date: '2016-11-07T08:54:40.133907-05:00', value: 2  },
+      
+        { date: '2016-11-07T09:09:40.133907-05:00', value: 9  },
+      
+        { date: '2016-11-07T09:24:40.133907-05:00', value: 10  },
+      
+        { date: '2016-11-07T09:39:40.133907-05:00', value: 1  },
+      
+        { date: '2016-11-07T09:54:40.133907-05:00', value: 29  },
+      
+        { date: '2016-11-07T10:09:40.133907-05:00', value: 18  },
+      
+        { date: '2016-11-07T10:24:40.133907-05:00', value: 28  },
+      
+        { date: '2016-11-07T10:39:40.133907-05:00', value: 10  },
+      
+        { date: '2016-11-07T10:54:40.133907-05:00', value: 10  },
+      
+        { date: '2016-11-07T11:09:40.133907-05:00', value: 0  },
+      
+        { date: '2016-11-07T11:24:40.133907-05:00', value: 0  },
+      
+        { date: '2016-11-07T11:39:40.133907-05:00', value: 27  },
+      
+        { date: '2016-11-07T11:54:40.133907-05:00', value: 11  },
+      
+        { date: '2016-11-07T12:09:40.133907-05:00', value: 12  },
+      
+        { date: '2016-11-07T12:24:40.133907-05:00', value: 4  },
+      
+        { date: '2016-11-07T12:39:40.133907-05:00', value: 18  },
+      
+        { date: '2016-11-07T12:54:40.133907-05:00', value: 0  },
+      
+        { date: '2016-11-07T13:09:40.133907-05:00', value: 9  },
+      
+        { date: '2016-11-07T13:24:40.133907-05:00', value: 49  },
+      
+        { date: '2016-11-07T13:39:40.133907-05:00', value: 38  },
+      
+        { date: '2016-11-07T13:54:40.133907-05:00', value: 12  },
+      
+        { date: '2016-11-07T14:09:40.133907-05:00', value: 23  },
+      
+        { date: '2016-11-07T14:24:40.133907-05:00', value: 5  },
+      
+        { date: '2016-11-07T14:39:40.133907-05:00', value: 19  },
+      
+        { date: '2016-11-07T14:54:40.133907-05:00', value: 20  },
+      
+        { date: '2016-11-07T15:09:40.133907-05:00', value: 19  },
+      
+        { date: '2016-11-07T15:24:40.133907-05:00', value: 1  },
+      
+        { date: '2016-11-07T15:39:40.133907-05:00', value: 14  },
+      
+        { date: '2016-11-07T15:54:40.133907-05:00', value: 4  },
+      
+        { date: '2016-11-07T16:09:40.133907-05:00', value: 2  },
+      
+        { date: '2016-11-07T16:24:40.133907-05:00', value: 2  },
+      
+        { date: '2016-11-07T16:39:40.133907-05:00', value: 4  },
+      
+        { date: '2016-11-07T16:54:40.133907-05:00', value: 12  },
+      
+        { date: '2016-11-07T17:09:40.133907-05:00', value: 13  },
+      
+        { date: '2016-11-07T17:24:40.133907-05:00', value: 19  },
+      
+        { date: '2016-11-07T17:39:40.133907-05:00', value: 3  },
+      
+        { date: '2016-11-07T17:54:40.133907-05:00', value: 5  },
+      
+        { date: '2016-11-07T18:09:40.133907-05:00', value: 1  },
+      
+        { date: '2016-11-07T18:24:40.133907-05:00', value: 13  },
+      
+        { date: '2016-11-07T18:39:40.133907-05:00', value: 45  },
+      
+        { date: '2016-11-07T18:54:40.133907-05:00', value: 29  },
+      
+        { date: '2016-11-07T19:09:40.133907-05:00', value: 21  },
+      
+        { date: '2016-11-07T19:24:40.133907-05:00', value: 13  },
+      
+        { date: '2016-11-07T19:39:40.133907-05:00', value: 12  },
+      
+        { date: '2016-11-07T19:54:40.133907-05:00', value: 11  },
+      
+        { date: '2016-11-07T20:09:40.133907-05:00', value: 41  },
+      
+        { date: '2016-11-07T20:24:40.133907-05:00', value: 13  },
+      
+        { date: '2016-11-07T20:39:40.133907-05:00', value: 9  },
+      
+        { date: '2016-11-07T20:54:40.133907-05:00', value: 3  },
+      
+        { date: '2016-11-07T21:09:40.133907-05:00', value: 4  },
+      
+        { date: '2016-11-07T21:24:40.133907-05:00', value: 3  },
+      
+        { date: '2016-11-07T21:39:40.133907-05:00', value: 2  },
+      
+        { date: '2016-11-07T21:54:40.133907-05:00', value: 14  },
+      
+        { date: '2016-11-07T22:09:40.133907-05:00', value: 19  },
+      
+        { date: '2016-11-07T22:24:40.133907-05:00', value: 3  },
+      
+        { date: '2016-11-07T22:39:40.133907-05:00', value: 29  },
+      
+        { date: '2016-11-07T22:54:40.133907-05:00', value: 10  },
+      
+        { date: '2016-11-07T23:09:40.133907-05:00', value: 12  },
+      
+        { date: '2016-11-07T23:24:40.133907-05:00', value: 12  },
+      
+        { date: '2016-11-07T23:39:40.133907-05:00', value: 0  },
+      
+        { date: '2016-11-07T23:54:40.133907-05:00', value: 19  },
+      
+        { date: '2016-11-08T00:09:40.133907-05:00', value: 19  },
+      
+        { date: '2016-11-08T00:24:40.133907-05:00', value: 20  },
+      
+        { date: '2016-11-08T00:39:40.133907-05:00', value: 1026  },
+      
+        { date: '2016-11-08T00:54:40.133907-05:00', value: 1  },
+      
+    ],
+    pointSize: 0,
+    ymax: 'auto 20',
+    xkey: 'date',
+    ykeys: ['value'],
+    
+    goalLineColors: ['#FF0000', ],
+    labels: ['Value'],
+    yLabelFormat: function (y) { return parseInt(y).toString(); },
+    hoverCallback: function (index, options) {
+      var row = options.data[index];
+      if (row.value > 1) {
+        return '%s reports'.replace('%s', row.value);
+      } else {
+        if (row.value == 1) {
+          return '1 report';
+        }
+      }
+      return 'no reports';
+    },
+  });
+
+// ]]>
+
+      
+        
+          
+            
+              
+              I have a problem with Twitter
+
+            
+            
+              
+                ×
+                
+                  What isn't working?
+                
+              
+              
+                
+                  
+                    
+                      
+                        
+                          
+                            Website
+                          
+                        
+                      
+                    
+                      
+                        
+                          
+                            iPad app
+                          
+                        
+                      
+                    
+                      
+                        
+                          
+                            Android app
+                          
+                        
+                      
+                    
+                  
+                  
+                    
+                      Something else...
+                    
+                  
+                  
+                    
+                      
+                        Submit
+
+                      
+                  
+
+// <![CDATA[
+                    $("#submit-other-form").click(function() {
+                      ga("global.send", "event", "indicator-other", "twitter-10204", $('#other-indicator-field').val());
+                      $('.modal-body').html('Thanks for submitting a report!');
+                      return false;
+                    });
+
+// ]]>
+
+                
+                  
+                    Close
+                  
+                
+              
+            
+
+// <![CDATA[
+              $(document).ready(function(){
+                $('#results .btn.target').each(function(i, o){
+                  $(o).bind('click', function(event){
+                    event.preventDefault();
+                    $.get(o.href, function(data) {
+                      $('.modal-body').html(data);
+                    });
+                  });
+                });
+              });
+// ]]>
+
+                Most reported problems:
+              
+              Website (39%)
+
+                    
+                
+                    
+                        Android app (37%)
+
+                    
+                
+                    
+                        iPad app (22%)
+
+                    
+                
+              
+        
+          
+            
+              Check past issues
+            
+            
+              Resolved issues:
+              
+                      2 November:
+                      
+                        Problems at Twitter
+                      
+                      
+                
+                  
+                      26 October:
+                      
+                        Problems at Twitter
+                      
+                      
+                
+                  
+                      25 October:
+                      
+                        Problems at Twitter
+                      
+                      
+                
+              
+      
+      
+        
+          
+            
+              
+                
+                  7 November:
+                  
+                    Problems at Twitter
+                  
+                
+                Twitter is having issues since 12:50 AM EST. Are you also affected? Leave a message in the comments.
+
+              
+            
+          
+        
+      
+      
+        
+          
+          
+                googletag.cmd.push(function() { googletag.display('ad-inline'); });
+
+          
+      
+      
+        Twitter comments
+        Tips? Frustrations? Share them with other site visitors:
+
+      
+      
+
+    
+    
+        
+          
+
+// <![CDATA[
+              (function(d, s, id) {
+                  var js, fjs = d.getElementsByTagName(s)[0];
+                  if (d.getElementById(id)) return;
+                  js = d.createElement(s); js.id = id;
+                  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=116781521799556";
+                  fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));
+
+// ]]>
+
+        
+
+    
+
+
+
+      
+        
+          
+          
+                googletag.cmd.push(function() { googletag.display('ad-inline-second'); });
+
+          
+      
+      
+        Twitter reports
+
+      
+      
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @yeppeudaf
+        
+        
+          @asoptv i think a problem has gotten to your website, why can't i vote using twitter accs po? :--(
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @_____veronicaaa
+        
+        
+          my twitter was broken for like 19282928 hrs its working now yay
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @Fitch_TV
+        
+        
+          @colossaliscrazy problem with keem is he doesnt respond to anyone who doesnt have a following on twitter unless they say code keem. (c)
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @zachary_bowyer
+        
+        
+          my phone says i have no internet but i can get on twitter ? 
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @nkramesh3
+        
+        
+          might be back to twitter bit have problem with the internet
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @kaayydub
+        
+        
+          stupid twitter glitch 
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @qu02250079
+        
+        
+          @chegghelp i would like know? i do not use twitter just want my account working
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @Rahulrautwrites
+        
+        
+          @aakarpost i just updated the twitter app but this username not counting feature is not working here. should i've to do something for it?
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @JoeJpow1000
+        
+        
+          @battlefield do you guys have a support twitter or something? i have problems with the campaign unlocks
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @pennebaker
+        
+        
+          i'll be live-tweeting my 12 hour flight now that twitter is no longer blocked by the people's internet provider. #china
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @Chelseaist
+        
+        
+          linking from other places to twitter is not working d:
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @BethAshworth5
+        
+        
+          @kellyannepolls issues,the voting populace want substance not @email hissy fits but dt can't keep his act together. why no twitter from dt??
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @trinfalomir
+        
+        
+          i still can't retweet my own tweets. if twitter doesn't fix this issue soon i will be contacting my lawyer.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @kennadyraffaela
+        
+        
+          i am on twitter on my laptop because my phone is broken and this is so weird
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @Toye_Jnr
+        
+        
+          @sugabelly i get that you tweeted your opinion and that's fine. the issue is too complex for twitter *le sigh*
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @BladeOfNight464
+        
+        
+          yikes
+is anyone else having an issue with twitter where the tweets take seconds longer to load than usual?
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @hadentypes
+        
+        
+          is the twitter app not working for anybody else?
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @SupremegamerJ
+        
+        
+          @villainlily twitter has been having issues right now lily.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @Camping_Cam
+        
+        
+          my twitter is not active from 8:10 pm to 6:00 am if you have any problems or concerns contact me i will not entertain foolishness thanks #5
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @rickasaurus
+        
+        
+          @erinspice @twitter @support latest twitter for ios has a lot of problems too. constantly wonks out and needs to be restarted.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @CaleMeows
+        
+        
+          my twitter won't work for mama??? so i voted with my fb and kakao
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @jo71027
+        
+        
+          okay so like i have no connection to the outside world now w/o my phone so i'm keeping my twitter open just til i get my phone back
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @Renate1217
+        
+        
+          getting totally distracted by twitter and facebook and tv...and this is why i would not be good regularly working from home 
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @ohhaiwhit
+        
+        
+          i'm very sad to delete twitter tonight but it's just not working out. it's not you, it me
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @DerekPirner
+        
+        
+          @dylank_125 my twitter has a glitch. my dislike icon isn't showing up... silver and black attack
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @mugsynina
+        
+        
+          @greta @debranier @support breaking:  greta is having issues with her twitter account.  gripping stuff.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @ALEX33016
+        
+        
+          @realdonaldtrump not allowed to use twitter &amp; you guys made fun of @melaniatrump's anti cyber bullying crusade. it's working. #trump
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @CharmingReject
+        
+        
+          | | the new twitter update fixed my problem. i am pleased.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @MancVsFood
+        
+        
+          i should not be allowed on twitter after a certain time. talkin some right broken biscuits 
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @dnanian
+        
+        
+          @damashe the problem is you’d have to be able to log in! let’s continue with email. twitter doesn’t work for this kind of support.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @honjeddles
+        
+        
+          @alexkidwell why the disconnect between twitter and the rest of the internet (reddit, jokers, etc;) regarding hg popularity? #rhappyhour
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @KeithM
+        
+        
+          @angobansaor @oneilllo i've long since learnt to ignore the twitter circle jerkers. poor costume choices were the least of its problems.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @afrikinfest
+        
+        
+          join us for a twitter chat in 15 minutes! topic: #afrolatino- what it means and issues faced. #afrikin #discussion #afrikintalks
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @tedkidd
+        
+        
+          @robertcaruso @twitter "either you support access to information or you have a problem with an informed public. which side are you on?"
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @Evasionnnn
+        
+        
+          your awful servers just made me disconnect from 2 games back to back in the kings cup &gt;:( it's not my internet either because twitter works
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @TheCherryTop
+        
+        
+          shoutout to @southwestair twitter support for getting my problem fixed so fast when phone service couldn't! officially two scolaro's flying!
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @TheScottLove
+        
+        
+          @davewiner @jack why aren't there more innovative twitter viewing apps?? there should be an ecosystem devoted to this ... lots of ui issues
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @gwionap
+        
+        
+          @jeremycorbyn please continue using twitter for rhetoric if you will, but your lack of backbone on a number of issues (brexit) is grating...
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @martingeddes
+        
+        
+          @antonyslumbers i looked at a wider range of issues than this twitter thread. for example, eu protectionism impoverishes africa; brittle too
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @AsliAnup
+        
+        
+          @twitter  @twitterindia my  d m is not working properly there is some error in it plss fix it soon
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @truthzone
+        
+        
+          many of you that have followed me on twitter during my radio days you know where i stand on the issues but i can't support donald trump!
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @lilcadillac
+        
+        
+          @youbroadband 7 days no internet, help line out of service, techs call but never arrive. not even a twitter response. act #981829 you there?
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @vjohnson1612
+        
+        
+          @paddybriggs how are you paddy? i'm now back on twitter after a lengthy absence due to mental health problems. #sectioned for #bipolar
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @WitchyRiss
+        
+        
+          maybe i should sign onto work twitter on a different browser so this doesn't become a ticking time bomb
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @MikeArceneaux
+        
+        
+          @greta @twitter log out of the twitter app &amp;  then try changing it while using a laptop or desktop pc. maybe that's the issue.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @commish24
+        
+        
+          anyone else having problems getting new tweets to load in @twitter ?
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @DiamondCeleste3
+        
+        
+          @taymastar i'm trying to get the undead teddy but its not working so can u please reply because it says twitter code and it said get code
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @satishzone
+        
+        
+          @airtel_presence it's been 2 months just on twitter handle and 8 months over other channels but the issue is not resolved. pity
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @Bikini_Doll3
+        
+        
+          @cincinati51 i been having twitter problems all month ugh my notifications only go back 2 hrs and my tl page keeps loading.its better now.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @Anji17_
+        
+        
+          @xwildestdreamz oh. twitter videos are not working for mw unfortunately. i wish it was on fb! :'(
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @AnarchyOutlaw
+        
+        
+          @lynellx4 twitter just has some stupid ways of trying to catch spammers, but it doesn't work. it just blocks regular users over nothing.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @CobrasCurse
+        
+        
+          @psnewsnow @_jayken123_ psn accounts are getting hacked do a twitter search of "psn hacked" &amp; look on reddit its no secret widespread issue
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @b21efe39c8694e1
+        
+        
+          @isabellalizette putting our relationship problems on twitter again
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @johnwhuey
+        
+        
+          imagine a sudden, inexplicable 72-hour twitter outage...close your eyes and contemplate...pretty great, huh?
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @jbierm02
+        
+        
+          my twitter has been updated by android so many times, it's nearly unusable. time for a new phone! #iphone?
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @Dragonblaze
+        
+        
+          @scotramsay twitter seems to have several too. one engaged with me today. trying to use the wording of the _leaflet_ as evidence won't work.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @ymo_twt
+        
+        
+          is twitter not working or my wifi
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @joand7
+        
+        
+          @mcrshield 1/2 daily aware, thanks.  i d/w a range of issues thro many avenues, not just scrutiny. twitter not appropriate 4 most.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @annemar97611316
+        
+        
+          does anyone know how to disconnect twitter from tumblr?! i dont want my twitter updates on my blog!
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @xoAlwaysCoffee
+        
+        
+          @pipermints hopefully it's just a twitter glitch
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @MrBednarki14
+        
+        
+          if there is anyone trying to contact me, my phone is broken af for some reason. just message me on twitter or something! thanks.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @SmokeEmSlow
+        
+        
+          is anyone else having problems with their twitter analytics?
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @c1c2c3c4c
+        
+        
+          @getwired maybe this is why twitter has revenue issues. it clearly says "ad" yet they surely did not pay twitter.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @Super_Ecchi
+        
+        
+          we are having issues with our emails, if you having any problems reaching us, please contact us directly thru twitter messaging.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @Ellis_Jones15
+        
+        
+          stop telling twitter all your problems
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @thebookofshame
+        
+        
+          when twitter has outage problems due to over use think of the many thousands of porn profiles clogging up the system uploading their filth
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @PR1M3_CRpro
+        
+        
+          so guys im sorry i wasn't tweeting for the las couple of days due to some issues that lead for me to delete my twitter account. 
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @TonydaTaff
+        
+        
+          @nickydee40 my internet is down so relying on twitter on my phone this will get nasty soon enough x
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @Asparagirl
+        
+        
+          @20committee @drmbowen a volunteer group called @archiveteam (working with, but not for, the @internetarchive) has saved some twitter feeds.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @i_agent101
+        
+        
+          plz ignore the msgs ...my twitter giving problems ...some plz tell me y i can't send direct msg
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @yaksSareena
+        
+        
+          time to log out.. twitter about to crash
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @Mametown_PHL
+        
+        
+          mamrie has been hacked and hopefully this issue gets fixed soon. @twitter @mametown
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @guillermofdezg
+        
+        
+          @twitter @twitterspain @support i've signed out and in twice but the problem's back after a while. 
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @pizzaboynialI
+        
+        
+          is anyone else having the problem where twitter won't let you access your photos
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @Ebidayama
+        
+        
+          will definitely change my twitter ava to my favorite scene in mukuchi no lion tomorrow once i found internet connection in campus :v
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @RubMyBaldness
+        
+        
+          @teexci @manutd i try not to.but it's hard when you're watching a matching and it's not working right and then twitter just makes it worse
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @BabangidaRuma
+        
+        
+          my problem with these twitter folks is that they don't respect elders, they can attack anyone just to get retweet and cheap popularity.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @mufeed
+        
+        
+          @tajinderbagga when brains stop working you starting behaving like this. ravish not active on twitter for a long time duh.
+troll ka ghussa
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @AymanSherwani
+        
+        
+          why my twitter is not working 
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @GO_bananas94
+        
+        
+          my twitter not working
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @vajikarp
+        
+        
+          daddy issues and the twitter population vol. ii
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @liveotherwise
+        
+        
+          dear twitter @support could you fix the notifications on android? getting double tweets, ghost notifications and all sorts. #glitch
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @JacquiJohnston_
+        
+        
+          @kathimestayer yes i'll email! sorry twitter alerts weren't showing :) i love my @phonak #rogerpen; some issues but overall it's brilliant.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @arianhiee
+        
+        
+          why is twitter not working
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @GardenRose_
+        
+        
+          @schuylersistas_ every character in this saga has a twitter account now. it could drag on for days. the internet has no chill
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @ygtxc_
+        
+        
+          @gothtit twitter is not working without vpn.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @715d1
+        
+        
+          @kevinmkruse @chartoc @marcambinder @abc but mah mail issue and the fact he supports hillary on twitter clearly he's an assassin
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @cyeolox
+        
+        
+          asomersetsunshin hi samantha, sorry for the delay, we're unable to access your account through twitter so you will need to chat with us.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @kmingcyu
+        
+        
+          : somersetsunshin hi samantha, sorry for the delay, we're unable to access your account through twitter so you will need to chat with us.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @461LightFire
+        
+        
+          @lipstickchatteu yea i dunno. wanna log in with twitter and it always just reloads the site. and when im logged in theres a problem with it
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @jmill26_
+        
+        
+          x_x rt @__huss: i woke up harder than twitter math problems 
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @__Huss
+        
+        
+          i woke up harder than twitter math problems 
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @TruebellInfra
+        
+        
+          where is pm ji n his twitter in smog in delhi. call cm of haryana and punjab and punish them. is delhi issues hv no issues with modi ji.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @JohnParker1988
+        
+        
+          twitter makes me change my password twitter twice most montyhky?u too? i prefer just typing and u fix all.problems  apple?
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @kirk_hadley
+        
+        
+          @andpitts @mikedewar @polinode also time delay on this thread is exquisitely twitter atypical.
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @nuraishaahh
+        
+        
+          my phone's not working, anything u can contact me thru twitter dm or email. 
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @patralekha2011
+        
+        
+          @ram1461 twitter allows you block, mute.have no issues with anyone questioning anyone but if that q starts off w abuses, then one can block
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @scgandhi
+        
+        
+          @tatasky since 15 hours no reception &amp; no solution.  twitter is just to answer not to help  resolution of problems?
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @llychaa
+        
+        
+          @yusanfinn about me as failure, it's not about nee twitter acc, it's something else.. hehehe...
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+            
+    
+      
+        
+    
+    
+      
+        
+          @HumorInstitute
+        
+        
+          i'm now a prepper. stocking up spare retweets to get through the great twitter outage of 2016. #hillaryforprison
+        
+        
+      
+        
+          
+        
+        
+          
+        
+        
+          
+        
+        
+          
+        
+      
+    
+    
+  
+
+
+        
+      
+      
+        Page last updated by
+        
+          
+            downdetector.com
+          
+        
+        
+          
+
+        
+      
+    
+    
+      
+
+
+  
+    
+      
+        
+    
+    
+        if (activate_ancora)
+        {            ancora_id_top = 'Ancora' + ancora_sidebar_top + '_' + ancora_site_id;            $('<div></div>').attr('id', ancora_id_top).appendTo('#mpu-ad-top');        }
+        else
+        {            googletag.cmd.push(function() { googletag.display('mpu-ad-top'); });        }
+
+    
+
+
+      
+    
+    
+      
+
+  
+    
+      How do you rate Twitter over the past 3 months?
+    
+    
+        
+
+    
+        ☆
+        ☆
+        ★
+        ★
+        ★
+    
+
+
+    
+    
+// <![CDATA[
+        $('.rating span').each(function(i, o){
+            $(this).click(function(){
+                $('.rating').toggle();
+                $('#rating .spinner').toggle();
+                $.post($(this).data('href'), function(data, status){
+                    $('.rating').toggle();
+                    $('#rating .spinner').toggle();
+                    $('.rating').html(data);
+                    $('.rating').append('<p>Thanks!</p>')
+                });
+            })
+        });
+
+        $('.rating span').tooltip({'placement':'bottom'})
+
+// ]]>
+
+
+
+      
+
+  
+    
+
+      Having problems? Complain here:
+      
+        
+        
+        
+          Via
+          
+            Twitter
+          
+          
+        
+        
+        
+        
+          Check the official
+          
+            status page
+          
+          
+      
+        
+          Incorrect?
+
+
+        
+      
+      
+        
+          ×
+          
+            What information is incorrect?
+          
+        
+        
+          
+            
+              
+                
+                  Submit
+
+                
+            
+
+// <![CDATA[
+              $("#submit-detail-form").click(function() {
+                $.ajax({
+                  type: "POST",
+                  url: $('#detail-form form').attr('action'),
+                  data: $("#detail-form form").serialize(),
+                  success: function(data)
+                  {
+                    $('.modal-body').html(data);
+                  }
+                });
+
+                return false;
+              });
+
+// ]]>
+
+        
+      
+    
+  
+
+
+
+    
+    
+      
+        
+    
+    
+        googletag.cmd.push(function() { googletag.display('ad-affiliate'); });
+        googletag.cmd.push(function() { googletag.display('ad-affiliate-mobile'); });
+    
+
+
+      
+    
+    
+      
+        
+          
+            
+              Check the status of Twitter in other countries
+            
+            
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+                
+                    
+                      
+                
+              
+            
+          
+        
+      
+    
+    
+      
+        
+          Stay up to date
+        
+        
+          Follow Downdetector.com on
+          
+            Twitter
+          
+          and
+          
+            Facebook
+          
+          
+              
+        
+      
+    
+    
+      
+        
+          Tweets by @twitter
+        
+      
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+      
+
+
+
+    
+    
+      
+        
+          
+    
+    
+        if (activate_ancora)
+        {            ancora_id_bottom = 'Ancora' + ancora_sidebar_bottom + '_' + ancora_site_id;            $('<div></div>').attr('id', ancora_id_bottom).appendTo("#mpu-ad-bottom");        }
+        else
+        {            googletag.cmd.push(function() { googletag.display('mpu-ad-bottom'); });        }
+
+    
+
+
+        
+      
+
+// <![CDATA[
+        $(function() {
+          var $sidebar   = $(".scrollable"),
+              $window    = $(window),
+              offset     = $sidebar.offset(),
+              topPadding = 15;
+              diff = 1200;
+
+          $window.scroll(function() {
+              if ($window.scrollTop() > (offset.top + diff)) {
+                  $sidebar.css('position','fixed');
+                  $sidebar.css('top', topPadding);
+                } else {
+                  $sidebar.css('position','static');
+                }
+            });
+          });
+// ]]>
+
+  
+
+
+
+
+
+    
+  
+
+      
+          © Serinus42 BV |
+          
+            About us
+          
+          |
+          
+            Privacy statement
+          
+        
+        
+          
+  document.addEventListener('DOMContentLoaded', function(event) {
+    cookieChoices.showCookieConsentBar('This website uses cookies to analyse site traffic, display and personalise advertising and for social media functionalities. We also share information about your usage of this website with our partners for social media, analysis and advertising. By using this website, you agree to the use of cookies.',
+      'Close', 'More information', 'http://downdetector.com/privacy-statement/');
+  });
+
+        
+          
+            
+              allestörungen.at
+              |
+
+            
+              allestörungen.ch
+              |
+
+            
+              allestörungen.de
+              |
+
+            
+              allestoringen.be
+              |
+
+            
+              allestoringen.nl
+              |
+
+            
+              aussieoutages.com
+              |
+
+            
+              caiutudo.com
+              |
+
+            
+              caiutudo.pt
+              |
+
+            
+              canadianoutages.com
+              |
+
+            
+              detectordefallos.es
+              |
+
+            
+              detectordefallos.mx
+              |
+
+            
+              downdetector.co.nz
+              |
+
+            
+              downdetector.co.za
+              |
+
+            
+              downdetector.com
+              |
+
+            
+              downdetector.dk
+              |
+
+            
+              downdetector.in
+              |
+
+            
+              downdetector.jp
+              |
+
+            
+              downdetector.pl
+              |
+
+            
+              downdetector.se
+              |
+
+            
+              downdetector.sg
+              |
+
+            
+              downdetector.co.uk
+              |
+
+            
+              downdetector.web.tr
+              |
+
+            
+              irishoutages.com
+              |
+
+            
+              kazhdysboy.ru
+              |
+
+            
+              servizioallerta.it
+              |
+
+            
+              touteslespannes.fr
+              |
+
+            
+          
+        
+      
+    
+
+// <![CDATA[
+        $('body').addClass('size-' + size[0][0]);
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=116781521799556";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+// ]]>
+
+// <![CDATA[
+        try{
+            AncoraTagProvider.requestAds({sectionId: ancora_site_id, dmp: false, sync: false});
+        }catch(err){};
+
+// ]]>
+

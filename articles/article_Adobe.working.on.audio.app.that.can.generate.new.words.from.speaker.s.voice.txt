@@ -1,0 +1,1878 @@
+Adobe is working on an audio app that lets you add words someone never said - The Verge
+(function(d) {
+  try {
+    if (localStorage.getItem('chorus-fonts-7dd4715c9932ad91b9cb67f5848f9fd7') === 'yes') {
+      d.documentElement.className += ' fonts-loaded';
+    }
+  } catch (e) {}
+  var fontUrls = ["https://fonts.voxmedia.com/unison/stylesheets/verge.7a4973b180ca1d2156edfdd996177503.css"];
+  var ss = d.styleSheets;
+  for (var i=0; i<fontUrls.length; i++) {
+    var l = d.createElement('link');
+    var n = d.getElementById('chorus-fonts');
+    l.href = fontUrls[i];
+    l.rel = 'stylesheet';
+    l.media = 'none';
+    n.parentNode.insertBefore(l, n);
+  }
+  
+  function onload() {
+    var i = ss.length;
+    while (i--) {
+      var idx = fontUrls.indexOf(ss[i].href)
+      if (idx > -1) {
+        ss[i].ownerNode.media = 'all';
+        fontUrls.splice(idx, 1);
+      }
+    }
+    if (fontUrls.length > 0) {
+      setTimeout(onload, 0);
+    }
+  }
+  onload();
+
+
+})(document);
+
+  
+  
+   dataLayer = [{"Network":"theverge","Community":"theverge","GA Primary ID":"UA-26533115-1","GA CrossDomains":"theverge.com","Content ID":"13278129","Entry Groups":"front-page:tech","Author":"Nick Statt","Last Time Updated":"2016-11-04 09:40","Hour of Update":"09","Publish Date":"2016-11-03 18:30","Hour of Publish":"18","Demand Post":"no","All Chorus Categories":"theverge:theverge:front-page:tech","Content Type":"article","chartbeat_domain":"theverge.com","chartbeat_zone":"172968584/verge","chartbeat_authors":"Nick Statt","Logged in Status":"Logged Out","Day of Week":"sunday","Hour of Day":"06"}];
+ 
+window._umbel = window._umbel || [];
+(function() {
+var d = new Date();
+d.setDate(d.getDate() + 365);
+document.cookie = "umbel_api_key=lrjhazrpqbgtnrij; expires=" + d.toUTCString();
+if (document.location.href.indexOf('utm_source=umbel') !== -1) {
+if (typeof Chorus !== 'undefined' && typeof Chorus.Video !== 'undefined') {
+Chorus.Video.autoplay = true;
+jQuery(document).ready(function(){
+document.location.hash = jQuery('.chorus-video-embed').first().attr('id');
+});
+}
+}
+})();
+
+  var ChorusAds = ChorusAds || {};ChorusAds.adsBlocked = true;
+  var pbjs = pbjs || {};pbjs.que = pbjs.que || [];
+  var googletag = googletag || {};googletag.cmd = googletag.cmd || [];
+  var PREBID_TIMEOUT = 1500;
+  ChorusAds.recorded_slots = [{"name":"cfa_athena","sizes":[[1030,590]],"context":{"device_type":null,"browser_width":{"min":0,"max":0}}},{"name":"reskin","sizes":[[2,2]],"context":{"device_type":["desktop"],"browser_width":{"min":"881","max":0}}},{"name":"cfa_cardstack_interstitial","sizes":[[1400,900]],"context":{"device_type":null,"browser_width":{"min":0,"max":0}}},{"name":"cfa_maps","sizes":[[300,250]],"context":{"device_type":null,"browser_width":{"min":0,"max":0}}},{"name":"cfa_cardstack_mobile_leaderboard","sizes":[[320,50]],"context":{"device_type":null,"browser_width":{"min":"0","max":"727"}}},{"name":"cfa_cardstack_leaderboard","sizes":[[728,90]],"context":{"device_type":null,"browser_width":{"min":"728","max":0}}},{"name":"prelude_front_page","sizes":[[1400,600]],"context":{"device_type":["desktop"],"browser_width":{"min":"881","max":0}}},{"name":"prelude","sizes":[[1400,600]],"context":{"device_type":["desktop"],"browser_width":{"min":"881","max":0}}},{"name":"desktop_leaderboard_variable","sizes":[[728,90],[970,250],[970,90],[1020,90]],"context":{"device_type":["desktop"],"browser_width":{"min":"881","max":0}}},{"name":"tablet_leaderboard","sizes":[[728,90]],"context":{"device_type":["tablet"],"browser_width":{"min":"601","max":0}}},{"name":"mobile_leaderboard","sizes":[[320,50],[300,250]],"context":{"device_type":["mobile"],"browser_width":{"min":"0","max":"728"}}},{"name":"mobile_med_rec_athena","sizes":[[300,250],[1030,590],[300,265]],"context":{"device_type":["mobile"],"browser_width":{"min":"0","max":"728"}}},{"name":"mobile_footer","sizes":[[320,50],[300,250]],"context":{"device_type":["mobile"],"browser_width":{"min":"0","max":"728"}}},{"name":"mobile_article_body","sizes":[[300,250],[1030,590],[300,265]],"context":{"device_type":["mobile"],"browser_width":{"min":"0","max":"600"}}},{"name":"btf_leaderboard_variable","sizes":[[728,90],[1020,90]],"context":{"device_type":["desktop"],"browser_width":{"min":"881","max":0}}},{"name":"tablet_btf_leaderboard","sizes":[[728,90]],"context":{"device_type":["tablet"],"browser_width":{"min":"601","max":0}}},{"name":"medium_rectangle_variable","sizes":[[300,250],[300,600]],"context":{"device_type":["desktop"],"browser_width":{"min":"0","max":0}}},{"name":"btf_medium_rectangle_variable","sizes":[[300,250]],"context":{"device_type":["desktop"],"browser_width":{"min":"0","max":0}}},{"name":"tablet_medium_rectangle","sizes":[[300,250]],"context":{"device_type":["tablet"],"browser_width":{"min":"601","max":0}}},{"name":"btf_tablet_medium_rectangle","sizes":[[300,250]],"context":{"device_type":["tablet"],"browser_width":{"min":"601","max":0}}},{"name":"athena","sizes":[[1030,590],[970,250],[728,90]],"context":{"device_type":["desktop"],"browser_width":{"min":"601","max":0}}},{"name":"cfa_athena_only","sizes":[[1030,590]],"context":{"device_type":null,"browser_width":{"min":0,"max":0}}},{"name":"tablet_athena","sizes":[[1030,590]],"context":{"device_type":["tablet"],"browser_width":{"min":"0","max":0}}},{"name":"athena_features","sizes":[[1030,590],[970,250],[728,90]],"context":{"device_type":["tablet","desktop"],"browser_width":{"min":"601","max":0}}},{"name":"native_ad_video","sizes":[[200,200]],"context":{"device_type":null,"browser_width":{"min":0,"max":0}}},{"name":"native_ad_latest","sizes":[[300,100]],"context":{"device_type":["desktop","tablet","mobile"],"browser_width":{"min":"0","max":0}}},{"name":"native_ad_content_link","sizes":[[650,150]],"context":{"device_type":["desktop","tablet","mobile"],"browser_width":{"min":"0","max":0}}},{"name":"native_ad_mobile","sizes":[[300,265],[300,250]],"context":{"device_type":["mobile"],"browser_width":{"min":"0","max":0}}},{"name":"native_ad_ymal_link","sizes":[[1200,100]],"context":{"device_type":["desktop","tablet","mobile"],"browser_width":{"min":"0","max":0}}},{"name":"native_ad_linkset_link","sizes":[[1200,100]],"context":{"device_type":["desktop","tablet","mobile"],"browser_width":{"min":"0","max":0}}},{"name":"in_map","sizes":[[300,250]],"context":{"device_type":null,"browser_width":{"min":"0","max":0}}}];
+  ChorusAds.slug = "/172968584/verge";
+  ChorusAds.front_page = false;
+  ChorusAds.production = true;
+  
+  pbjs.que.push(function() { ChorusAds.addVariable("network", ["verge"]);
+ ChorusAds.addVariable("affiliation", ["general"]);
+ ChorusAds.addVariable("unison", [true]);
+ ChorusAds.addVariable("entry_id", [13278129]);
+ ChorusAds.addVariable("entry_type", ["article"]);
+ ChorusAds.addVariable("entry_slug", ["2016/11/3/13514088/adobe-photoshop-audio-project-voco"]);
+ ChorusAds.addVariable("entry_author", ["Nick Statt"]);
+ ChorusAds.addVariable("entry_group", ["front-page","tech"]);
+ ChorusAds.addVariable("hub_page", ["tech"]);
+ ChorusAds.addVariable("page_type", ["interior_page"]);
+ ChorusAds.addVariable("keywords", "adobe is working on an audio app that lets you add words someone never said the verge");});
+  var Chorus=Chorus||{};Chorus.AddScript=function(o){var n=document.createElement("script");n.async=!0,n.type="text/javascript",n.src=o;var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(n,t)},Chorus.OnLoad=function(o){var n=window.onload;"function"!=typeof window.onload?window.onload=o:window.onload=function(){n(),o()}};
+
+
+article quote em:before {
+content: none;
+}
+
+var chorusInitQueue=[];
+    
+    
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8JKW6');
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("reskin");});
+
+
+
+      clockmenumore-arrow
+    
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("prelude");});
+
+
+
+    
+
+    
+
+    
+      
+        
+          
+            
+        
+        
+          
+            
+        
+        
+        
+      
+    
+    
+      
+            
+      
+          
+            
+      
+          
+            
+      
+      
+    
+    
+      
+        Log In or Sign Up
+        
+        
+            Log In
+          
+          
+            Sign Up
+          
+        
+    
+    
+    
+      
+    
+    
+    
+    
+              
+              
+                
+              Tech
+              
+                
+              
+              
+            
+          
+            
+              
+              
+                
+              Science
+              
+                
+              
+              
+            
+          
+            
+              
+              
+                
+              Culture
+              
+                
+              
+              
+            
+          
+            
+              
+              
+                
+              Cars
+              
+                
+              
+              
+            
+          
+            
+              
+              
+                
+              Reviews
+              
+                
+              
+              
+            
+          
+            
+              
+              
+                
+              Longform
+              
+              
+            
+          
+            
+              
+              
+                
+              Video
+              
+              
+            
+          
+            
+              
+              
+                
+              Circuit Breaker
+              
+              
+            
+          
+            
+              
+              
+                
+              TL;DR
+              
+              
+            
+          
+            
+              
+              
+                
+              Forums
+              
+              
+            
+          
+        
+        
+          
+            more
+            
+            
+          
+        
+      
+  
+
+
+  
+    
+        
+          
+            Tech
+            
+              
+        
+
+         
+            
+            
+              
+                  
+                    
+                    
+                      
+                        Apple
+                      
+                    
+                    
+                    
+                      
+                        Google
+                      
+                    
+                    
+                    
+                      
+                        Microsoft
+                      
+                    
+                    
+                    
+                      
+                        Apps
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        Photography
+                      
+                    
+                    
+                    
+                      
+                        Virtual Reality
+                      
+                    
+                    
+                    
+                      
+                        All Tech
+                      
+                    
+                    
+                  
+                    
+                  
+                
+              
+      
+        
+        
+          
+            Science
+            
+              
+        
+
+         
+            
+            
+              
+                  
+                    
+                    
+                      
+                        Space
+                      
+                    
+                    
+                    
+                      
+                        Energy
+                      
+                    
+                    
+                    
+                      
+                        Health
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        Environment
+                      
+                    
+                    
+                    
+                      
+                        All Science
+                      
+                    
+                    
+                  
+                    
+                  
+                
+              
+      
+        
+        
+          
+            Culture
+            
+              
+        
+
+         
+            
+            
+              
+                  
+                    
+                    
+                      
+                        Web
+                      
+                    
+                    
+                    
+                      
+                        TV
+                      
+                    
+                    
+                    
+                      
+                        Film
+                      
+                    
+                    
+                    
+                      
+                        Games
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        Comics
+                      
+                    
+                    
+                    
+                      
+                        Music
+                      
+                    
+                    
+                    
+                      
+                        All Culture
+                      
+                    
+                    
+                  
+                    
+                  
+                
+              
+      
+        
+        
+          
+            Cars
+            
+              
+        
+
+         
+            
+            
+              
+                  
+                    
+                    
+                      
+                        Ride-Sharing
+                      
+                    
+                    
+                    
+                      
+                        Cars
+                      
+                    
+                    
+                    
+                      
+                        Mass Transit
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        Aviation
+                      
+                    
+                    
+                    
+                      
+                        Rideables
+                      
+                    
+                    
+                    
+                      
+                        All Transportation
+                      
+                    
+                    
+                  
+                    
+                  
+                
+              
+      
+        
+        
+          
+            Reviews
+            
+              
+        
+
+         
+            
+            
+              
+                  
+                    
+                    
+                      
+                        Phones
+                      
+                    
+                    
+                    
+                      
+                        Laptops
+                      
+                    
+                    
+                    
+                      
+                        Cameras
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        Tablets
+                      
+                    
+                    
+                    
+                      
+                        Headphones
+                      
+                    
+                    
+                    
+                      
+                        Smartwatches
+                      
+                    
+                    
+                  
+                    
+                  
+                
+                  
+                    
+                  
+                    
+                    
+                      
+                        VR Headsets
+                      
+                    
+                    
+                    
+                      
+                        All Reviews
+                      
+                    
+                    
+                  
+                    
+                  
+                
+              
+      
+        
+        
+          
+            Longform
+            
+          
+        
+
+         
+        
+      
+        
+        
+          
+            Video
+            
+          
+        
+
+         
+        
+      
+        
+        
+          
+            Circuit Breaker
+            
+          
+        
+
+         
+        
+      
+        
+        
+          
+            TL;DR
+            
+          
+        
+
+         
+        
+      
+        
+        
+          
+            Forums
+            
+          
+        
+
+         
+        
+      
+      ✕
+    
+
+
+
+    
+    
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("desktop_leaderboard_variable");});
+
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("tablet_leaderboard");});
+
+
+
+    
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("mobile_leaderboard");});
+
+
+
+    
+  
+
+    
+  
+  
+  
+  
+  
+    
+
+      
+            
+              
+              Tech
+            
+          
+        
+      
+
+  
+    Adobe is working on an audio app that lets you add words someone never said
+
+    
+      
+        
+  
+    
+    New,
+  
+  
+    
+      20
+    
+    comments
+  
+
+
+      
+    
+  
+  Watch what you don’t say
+
+  
+    
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      Nick Statt@nickstatt
+    
+
+    
+      
+        Nov 3, 2016, 6:30pm EDT
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+  
+  
+
+
+
+
+
+  
+      
+        
+          
+            share
+          
+        
+      
+    
+  
+    
+      
+        
+          
+            tweet
+          
+        
+      
+    
+  
+    
+      
+        
+          
+            Linkedin
+          
+        
+      
+    
+  
+  
+
+
+  
+    
+    
+      
+  
+    
+      
+      
+        Photo by Justin Sullivan/Getty Images
+      
+    
+  
+
+  Adobe is working on a new piece of software that would act like a Photoshop for audio, according to Adobe developer Zeyu Jin, who spoke at the Adobe MAX conference in San Diego, California today. The software is codenamed Project VoCo, and it’s not clear at this time when it will materialize as a commercial product. The standout feature, however, is the ability to add words not originally found in the audio file.
+The Photoshop for audio is codenamed ProjecT VoCo
+An Adobe representative confirmed the project’s existence to The Verge, clarifying that it was shown off today as part of a sneak-peek program at the MAX conference. The project is currently in development as part of a collaboration between members of Adobe Research and Princeton University. News of Project VoCo was first reported by the art and design website Creative Bloq earlier today.
+Like Photoshop, Project VoCo is designed to be a state-of-the-art audio editing application. Beyond your standard speech editing and noise-cancellation features, Project VoCo can also apparently generate new words using a speaker’s recorded voice. Essentially, the software can understand the makeup of a person’s voice and replicate it, so long as there’s about 20 minutes of recorded speech. In Jin’s demo, the developer showcased how Project VoCo let him add a word to a sentence in a near-perfect replication of the speaker, according to Creative Bloq.
+  
+    
+      
+
+
+    
+  
+  
+    
+      
+      
+        Adobe
+      
+    
+  
+"When recording voiceovers, dialog, and narration, people would often like to change or insert a word or a few words due to either a mistake they made or simply because they would like to change part of the narrative," reads an official Adobe statement. "We have developed a technology called Project VoCo in which you can simply type in the word or words that you would like to change or insert into the voiceover. The algorithm does the rest and makes it sound like the original speaker said those words."      
+        
+
+  pbjs.que.push(function() {ChorusAds.showAd("mobile_article_body");});
+
+      
+
+So similar to how Photoshop ushered in a new era of editing and image creation, this tool could transform how audio engineers work with sound, polish clips, and clean up recordings and podcasts. Of course, there’s all sorts of ethical implications involved when we have the ability to falsify entire sentences using a person’s voice. But just as Photoshop taught the general public to be wary of suspect images, Project VoCo might do so the same with regards to doctored audio clips.
+- Via: Creative Bloq
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("tablet_medium_rectangle");});
+
+
+
+
+
+
+    
+  
+    
+    More From
+    
+      The Verge
+    
+    
+  
+  
+        
+        Why Slack may live to regret its smarmy letter to Microsoft
+        
+      
+    
+      
+        
+        People will still power an AI workforce
+        
+      
+    
+      
+        
+        MacBook Pro review: the Air apparent
+        
+      
+    
+      
+        
+        Why won’t the Country Music Association Awards mention Beyoncé?
+        
+      
+    
+      
+        
+        We now know exactly how many DNA mutations smoking causes
+        
+      
+    
+      
+        
+        Google Home review: Home is where the smart is
+        
+      
+    
+    
+
+  pbjs.que.push(function() {ChorusAds.showAd("native_ad_linkset_link");});
+
+
+  
+    
+      
+        
+
+
+      
+    
+  
+
+
+
+
+  
+  
+
+
+  
+    
+      
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("mobile_med_rec_athena");});
+
+
+
+  
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("tablet_medium_rectangle");});
+
+
+
+  
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("medium_rectangle_variable");});
+
+
+
+
+    
+      
+    
+    
+      
+        
+          Now Trending
+        
+      
+    
+  
+  
+    
+        
+          
+            
+              
+
+
+            
+          
+          MacBook Pro review: the Air apparent
+        
+        
+      
+    
+      
+        
+          
+            
+              
+
+
+            
+          
+          DJI Mavic Pro Review: a new dimension
+        
+        
+      
+    
+      
+        
+          
+            
+              
+
+
+            
+          
+          Question Club: Westworld threatens to collapse under its endless mysteries
+        
+        
+      
+    
+    
+  pbjs.que.push(function() {ChorusAds.showAd("native_ad_latest");});
+
+
+    
+  
+pbjs.que.push(function() {ChorusAds.addVariable("trending_sidebar", ["true"])});
+
+
+    
+
+
+
+
+
+
+  This Article has a component height of 12. The sidebar size is medium.
+
+
+    
+
+
+
+  
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("athena");});
+
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("tablet_athena");});
+
+
+
+  
+
+
+  
+      
+    Loading comments...
+  
+
+  
+    
+      
+      The Latest
+    
+  
+  
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              Apps
+            
+          
+        
+          
+            
+              
+              Tech
+            
+          
+        
+          
+            
+              
+              Food
+            
+          
+        
+      
+
+    
+    You will soon be able to order McDonalds from your smartphone
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      Andrew Liptak@AndrewLiptak
+    
+
+    
+      
+        Nov 5, 2016, 3:11pm EDT
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      McDonalds has long been a leader in the fast food industry, but it has fallen behind its competitors in one big way: it hasn’t provided customers with a way to order and pay for their meals via smartphone or other mobile device. Now, the company...
+    
+    
+  
+  
+    
+      
+  
+    
+      
+        12
+      
+      comments
+    
+  
+  
+
+
+    
+  
+
+
+    
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              TL;DR
+            
+          
+        
+          
+            
+              
+              Memes
+            
+          
+        
+          
+            
+              
+              Culture
+            
+          
+        
+      
+
+    
+    Can you figure out the song lyrics in these natural science illustrations?
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      Chaim Gartenberg@cgartenberg
+    
+
+    
+      
+        Nov 5, 2016, 2:00pm EDT
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      There’s an appealing aesthetic to old fashioned natural science illustrations, so when Katrina McHugh was looking for a subject for the 100 Day Project, she looked to a set of set of vintage encyclopedias that she had inherited from her...
+    
+    
+  
+  
+    
+      
+  
+    
+      
+        0
+      
+      comments
+    
+  
+  
+
+
+    
+  
+
+
+    
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              Apple
+            
+          
+        
+          
+            
+              
+              Tech
+            
+          
+        
+          
+            
+              
+              USB-C
+            
+          
+        
+      
+
+    
+    I have lived the USB-C #donglelife. Here’s what you’re in for
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      Dieter Bohn@backlon
+    
+
+    
+      
+        Nov 5, 2016, 1:22pm EDT
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      There has been more talk of dongles now that Apple has gone and done it: excised all ports on the new MacBook Pros except one: USB-C. It is good and right to be unhappy that there aren’t any standard USB-A ports, MagSafe, nor SD card slots on...
+    
+    
+  
+  
+    
+      
+  
+    
+      
+        131
+      
+      comments
+    
+  
+  
+
+
+    
+  
+
+
+    
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              Gaming
+            
+          
+        
+          
+            
+              
+              Games Review
+            
+          
+        
+          
+            
+              
+              Culture
+            
+          
+        
+      
+
+    
+    This cute game about a girl and her dog is absolutely terrifying
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+          
+        
+        
+      
+      Andrew Webster
+    
+
+    
+      
+        Nov 5, 2016, 1:00pm EDT
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      Just looking at Yomawari: Night Alone, a survival horror game available on Steam and PlayStation Vita, it’s hard to imagine how it could be scary. It stars a cute little girl with a big red bow in her hair, and it features a charming 2D art style...
+    
+    
+  
+  
+    
+      
+  
+    
+      
+        5
+      
+      comments
+    
+  
+  
+
+
+    
+  
+
+
+    
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              Science
+            
+          
+        
+          
+            
+              
+              Space
+            
+          
+        
+          
+            
+              
+              SpaceX
+            
+          
+        
+      
+
+    
+    Elon Musk says SpaceX finally knows what caused the latest rocket failure
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      Loren Grush@lorengrush
+    
+
+    
+      
+        Nov 5, 2016, 11:56am EDT
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      SpaceX CEO Elon Musk says that his company has finally gotten to the bottom of the September 1st Falcon 9 explosion — claiming it was the “toughest puzzle” they’ve ever had to solve. And now that the problem is known, he expects SpaceX to return...
+    
+    
+  
+  
+
+
+    
+    
+    
+      
+  
+  
+    
+      
+        
+          
+
+  
+  
+
+
+        
+      
+      
+    
+  
+  
+    
+      
+
+  
+  
+    
+
+      
+            
+              
+              US & World
+            
+          
+        
+          
+            
+              
+              Tech
+            
+          
+        
+          
+            
+              
+              Politics
+            
+          
+        
+      
+
+    
+    The US is reportedly readying cyber attacks if Russia tries to hack the election
+    
+      
+  
+    by
+
+    
+      
+      
+        
+        
+        
+          
+            
+            
+            
+          
+          
+        
+        
+      
+      Andrew Liptak@AndrewLiptak
+    
+
+    
+      
+        Nov 5, 2016, 11:31am EDT
+      
+    
+
+    
+  
+  
+  
+  
+
+
+
+    
+    
+      In October, news broke that the CIA was preparing options to launch a cyberattack against Russia following revelations that the country was likely behind hacks at the Democratic National Committee earlier this summer. Now, a source has told NBC...
+    
+    
+  
+  
+    
+      
+  
+    
+      
+        31
+      
+      comments
+    
+  
+  
+
+
+    
+  
+
+
+    
+    
+  
+  
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("native_ad_ymal_link");});
+
+
+
+
+
+  
+    
+      
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("btf_medium_rectangle_variable");});
+
+
+
+
+    
+
+
+  
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("btf_leaderboard_variable");});
+
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("tablet_btf_leaderboard");});
+
+  
+
+  pbjs.que.push(function() {ChorusAds.showAd("mobile_footer");});
+
+
+
+    
+    
+      
+        
+          Chorus
+      
+    
+
+    
+      Terms of Use
+        
+          Privacy Policy
+        
+          Communications Preferences
+        
+      Contact
+        
+          Tip Us
+        
+          Community Guidelines
+        
+          About
+        
+          Ethics Statement
+        
+      
+        
+  All Systems Operational
+  Check out our status page for more details.
+
+
+      
+    
+
+    
+      Vox Media
+      
+        Advertise with us
+      
+        Jobs @ Vox Media
+      
+      © 2016 Vox Media, Inc. All Rights Reserved
+      
+      
+    
+  
+
+  
+    
+      
+  
+      
+        
+          
+            tweet
+          
+        
+      
+    
+  
+    
+      
+        
+          
+            share
+          
+        
+      
+    
+  
+  
+
+
+  
+
+    chorusInitQueue.forEach(function(fn) { (typeof fn === 'function') && fn(jQuery) })
+//<![CDATA[
+Providence=function(){var e={};return e.contexts=[],e.fire_event=function(e,n,t,o){t="undefined"!=typeof t?t:{},o="undefined"!=typeof o?o:Providence.contexts,jQuery.get("https://providence.voxmedia.com/event",{event_name:e,location:n,host:window.location.host,metadata:JSON.stringify(t),contexts:o},function(e){})},e.init=function(e){"undefined"!=typeof e&&(Providence.contexts=e);var n=window.location.host+window.location.pathname;Providence.fire_event("page_view",n,{title:document.title});var t=Providence.contexts.slice();t.push("referrals:"+n),Providence.fire_event("referral",document.referrer.split("/")[2],{},t)},"undefined"!=typeof Chorus&&"undefined"!=typeof Chorus.EventDispatcher&&!function(e,n){function t(e){jQuery("#"+e.player.elementId);Providence.fire_event("video_play",e.player.getEmbedCode(),{title:e.player.getCurrentItemTitle()}),n.unsubscribe("ooyalaVideoPlay",t)}n.subscribe("ooyalaVideoPlay",t)}(jQuery,Chorus.EventDispatcher),e}(),"undefined"!=typeof jQuery&&jQuery(document).ready(function(e){Providence.init(["network:verge"])});
+//]]>
+
+    if (typeof ChorusAds !== "undefined") {
+      Chorus.OnLoad(function() {
+        if (ChorusAds.adsBlocked) {
+          Providence.fire_event('adblocked_view', document.location.href);
+    }});}
+  
+//<![CDATA[
+
+          var phonographEvents = phonographEvents || [];
+          if (window.dataLayer && window.Context) {
+            Context.fetch().then(function() {
+              var data = {'Page Title': document.title, 'GA Track Prefix': 't1.', 'User ID': Context.currentUser.get('id') || null};
+              for (var i=0; i < dataLayer.length; i++) {
+                if (dataLayer[i]['Network']) {
+                  Object.keys(dataLayer[i]).forEach(function(k) { data[k] = dataLayer[i][k]; });
+                  break;
+                }
+              }
+              phonographEvents.push(['pageload', data]);
+            });
+          } else {
+            phonographEvents.push(['pageload', {'Page Title': document.title}]);
+          }
+        
+//]]>
+

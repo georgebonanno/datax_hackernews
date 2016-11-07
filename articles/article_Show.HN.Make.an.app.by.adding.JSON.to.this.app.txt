@@ -1,0 +1,685 @@
+GitHub - Jasonette/JASONETTE-iOS: 📡 Native App over HTTP
+    
+    Skip to content
+
+    
+    
+    
+
+
+
+          
+    
+      
+
+    
+      
+
+    
+      
+          Personal
+        
+          Open source
+        
+          Business
+        
+          Explore
+      
+            Sign up
+          Sign in
+      
+
+        Pricing
+          Blog
+          Support
+          Search GitHub
+              
+  
+    
+      This repository
+      
+
+
+        
+  
+
+
+      
+
+
+
+    
+        
+    
+      
+
+  
+
+    
+
+
+      
+    
+    Watch
+  
+  
+    65
+  
+
+  
+
+  
+      
+    
+    Star
+  
+
+    
+      1,617
+    
+
+  
+
+  
+      
+        
+        Fork
+      
+
+    
+      59
+    
+  
+
+  Jasonette/JASONETTE-iOS
+
+
+
+  
+  
+    
+
+    
+      Code
+        
+
+    
+      
+        Issues
+        7
+            
+
+  
+    
+      Pull requests
+      1
+        
+
+  
+    
+    Projects
+    0
+
+
+
+  
+    
+    Pulse
+
+  
+    
+    Graphs
+
+
+
+
+
+
+  
+
+    
+
+  
+         
+📡 Native App over HTTP
+  
+
+
+
+
+
+  
+    
+    
+        
+            
+              12
+            
+            commits
+        
+      
+      
+        
+          
+            2
+          
+          branches
+        
+      
+
+      
+        
+          
+            1
+          
+          release
+        
+      
+
+      
+          
+  
+      1
+    
+    contributor
+
+
+      
+        
+          
+            
+              MIT
+          
+        
+    
+        
+              
+                
+                Objective-C
+                67.5%
+              
+          
+          
+              
+                
+                JavaScript
+                28.7%
+              
+          
+          
+              
+                
+                C++
+                2.3%
+              
+          
+          
+              
+                
+                Objective-C++
+                0.8%
+              
+          
+          
+              
+                
+                Shell
+                0.4%
+              
+          
+          
+              
+                
+                C
+                0.3%
+              
+          
+        
+    
+  
+
+
+  
+    Objective-C
+    JavaScript
+    C++
+    Objective-C++
+    Shell
+    C
+  
+
+
+
+
+    
+  
+    Clone or download
+  
+
+  
+    
+      
+
+        
+          Clone with HTTPS
+          
+            
+        
+        
+          Use Git or checkout with SVN using the web URL.
+        
+
+        
+  
+    
+  
+
+
+      
+
+
+      
+        
+
+  Download ZIP
+
+
+      
+    
+  
+
+
+
+  
+
+    
+      Find file
+    
+  
+
+  
+
+  
+    Branch:
+    develop
+  
+
+  
+
+    
+      
+        Switch branches/tags
+      
+
+      
+        
+          
+        
+          
+              Branches
+            
+            
+              Tags
+            
+          
+      
+
+      
+
+        
+
+
+            
+              
+                develop
+              
+            
+            
+              
+                master
+              
+            
+        
+
+          Nothing to show
+      
+
+      
+        
+
+
+            
+              
+                v0.1.0
+              
+            
+        
+
+        Nothing to show
+      
+
+    
+  
+
+
+
+      
+        New pull request
+      
+
+  
+    
+  
+
+
+
+
+
+
+  
+    
+      Latest commit
+      
+        b71ceaf
+      
+      Nov 5, 2016
+    
+
+
+    
+      gliechtenstein
+    
+
+        HELLO LICENSE
+    
+
+  
+
+
+
+
+  Permalink
+
+  
+        Failed to load latest commit information.
+      
+            
+          
+            app
+          
+          
+            
+                  Added Deep Linking
+            
+          
+          
+            Nov 5, 2016
+          
+        
+            
+          
+            icon
+          
+          
+            
+                  Hello World.
+            
+          
+          
+            Oct 31, 2016
+          
+        
+            
+          
+            .gitignore
+          
+          
+            
+                  Hello World.
+            
+          
+          
+            Oct 31, 2016
+          
+        
+            
+          
+            CONTRIBUTING.md
+          
+          
+            
+                  Documentation update
+            
+          
+          
+            Nov 1, 2016
+          
+        
+            
+          
+            LICENSE
+          
+          
+            
+                  HELLO LICENSE
+            
+          
+          
+            Nov 5, 2016
+          
+        
+            
+          
+            README.md
+          
+          
+            
+                  Updated download link
+            
+          
+          
+            Nov 1, 2016
+          
+        
+            
+          
+            Setup
+          
+          
+            
+                  Updated `Setup` to set empty client_id and client_secret fields
+            
+          
+          
+            Nov 1, 2016
+          
+        
+
+
+
+  
+    
+      
+      README.md
+    
+
+      
+
+Jasonette
+
+https://www.jasonette.com
+
+Create your own native iOS app with nothing but JSON. Then send it over the Internet.
+
+★ Jasonette fetches this JSON markup from a server:
+
+
+
+★ And self-constructs into the following native app, in realtime:
+
+
+
+
+
+Cool things about Jasonette
+
+100% NATIVE: Jasonette maps JSON into native components and native function calls. There is no gimmick. There is no magic.
+App loads over HTTP: Your app exists 100% as JSON, and loads from the cloud. No more hard-coding.
+An app in 30 minutes: No kidding, build an app in 30 minutes.
+Lowest possible learning curve: No programming experience required. There's only one thing you need to know: JSON. Which means you can build an app without "becoming a programmer".
+
+
+Quickstart
+
+Visit the website to get started.
+
+
+
+Download
+
+Latest release: ver0.1.0
+
+
+
+More Examples
+
+Try playing these on Jasonette and watch them turn into native apps in front of your eyes!
+
+Jasonpedia Tutorial demo app that includes all Jasonette feature implementations.
+Instagram An Instagram UI, 100% powered by JSON.
+Twitter A Twitter UI, 100% powered by JSON.
+
+
+Technical Highlights
+
+1. One JSON to rule them all
+
+Jasonette simplifies the entire app building process down to nothing more than:
+
+Write a JSON markup
+Add the JSON url to Jasonette
+Press play
+This is possible because Jasonette came up with a way to fit an entire app worth of logic into a single declarative JSON that just works™. This JSON grammar is used to express every aspect of your app, such as:
+
+Draw sophisticated views
+Call device API methods
+Chain method calls to perform complex logic
+Respond to system events and user interaction
+Even change the JSON itself dynamically using templates.
+
+
+2. App-over-HTTP
+
+Until now, the only thing JSON could send over the Internet was raw data. Normally apps would fetch remote data from the server for a connected experience, but the actual app logic would be hard-coded on the client side. This makes it hard to update and extend apps.
+
+But what happens when you can express an entire app logic as JSON?
+
+Then apps can be stored, processed, shared, and sent over the Internet just like any other JSON. Watch below where we update the JSON on a JSON pastebin server, and the app changes immediately to reflect the new markup:
+
+
+
+
+
+3. Designed to be extended or integrated
+
+Currently Jasonette covers all the essential native APIs and components, which means you can build pretty much any app you can imagine. But Jasonette is very flexible.
+
+A. Extensible
+
+If you don't see a feature you want, you can simply extend Jasonette. If it's useful for the general public, we can even merge it into the core.
+
+B. Integrate existing code
+
+You can even integrate Jasonette with your existing iOS project if you want. This way you can use Jasonette for just a small part of your app without having to completely switch to a new way of programming.
+
+
+
+Bugs and feature requests
+
+Have a bug or a feature request regarding the Jasonette code itself? Please open a new issue.
+
+
+
+Questions and Support
+
+For questions and support, please use the Slack chatroom
+
+
+
+
+
+Stay in touch
+
+To keep updated on latest releases and announcements,
+
+Follow on Twitter @jasonclient
+join our slack
+
+
+Contribute
+
+There are many ways to contribute. But first, please read the contributing guideline
+
+
+
+License
+
+Jasonette is released under the MIT License.
+
+
+
+  
+  
+
+
+
+    
+  
+
+    
+
+        
+  
+    Contact GitHub
+      API
+      Training
+      Shop
+        Blog
+        About
+
+    
+      
+    © 2016 GitHub, Inc.
+        Terms
+        Privacy
+        Security
+        Status
+        Help
+    
+
+
+
+
+    
+
+    
+      
+        
+      You can't perform that action at this time.
+    
+
+
+      
+      You signed in with another tab or window. Reload to refresh your session.
+      You signed out in another tab or window. Reload to refresh your session.
+    
+    
+  
+    
+    
+    
+      
+  
+
+
+  

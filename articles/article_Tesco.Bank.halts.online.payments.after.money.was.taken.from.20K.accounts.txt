@@ -1,0 +1,1409 @@
+Tesco Bank: 20,000 customers lose money - BBC News
+    {
+        "@context": "http://schema.org"
+        ,"@type": "Article"
+        
+        ,"url": "http://www.bbc.co.uk/news/business-37891742"
+        ,"publisher": {
+            "@type": "Organization",
+            "name": "BBC News",
+            "logo": "http://www.bbc.co.uk/news/special/2015/newsspec_10857/bbc_news_logo.png?cb=1"
+        }
+        
+        ,"headline": "Tesco Bank: 20,000 customers lose money"
+        
+        ,"mainEntityOfPage": "http://www.bbc.co.uk/news/business-37891742"
+        ,"articleBody": "Tesco Bank halts online transactions after it says money has been taken from 20,000 accounts."
+        
+        ,"image": {
+            "@list": [
+                "http://ichef-1.bbci.co.uk/news/560/cpsprodpb/1860A/production/_92305899_mediaitem80783653.jpg"
+                ,"http://ichef-1.bbci.co.uk/news/560/cpsprodpb/5F1D/production/_92294342_mediaitem92294341.jpg"
+                ,"http://ichef-1.bbci.co.uk/news/560/media/images/75306000/jpg/_75306515_line976.jpg"
+                ,"http://ichef-1.bbci.co.uk/news/560/cpsprodpb/11EE9/production/_92294437_alanbaxtertescobank.jpg"
+                ,"http://ichef-1.bbci.co.uk/news/560/cpsprodpb/121B9/production/_92296147_tescobankcustomers.jpg"
+                ,"http://ichef-1.bbci.co.uk/news/560/cpsprodpb/8961/production/_92296153_tescocomplaint1.png"
+                ,"http://ichef-1.bbci.co.uk/news/560/cpsprodpb/33DF/production/_92297231_tescocomplaint2.png"
+                ,"http://ichef-1.bbci.co.uk/news/560/cpsprodpb/14167/production/_92297228_tescobankcomplaint3.png"
+                ,"http://ichef.bbci.co.uk/news/560/cpsprodpb/BAE9/production/_92294874_tescobankcomplaint1.png"
+                ,"http://ichef-1.bbci.co.uk/news/560/media/images/76020000/jpg/_76020974_line976.jpg"
+            ]
+        }
+        ,"datePublished": "2016-11-07T14:38:53+00:00"
+    }
+    var _sf_startpt=(new Date()).getTime()
+        (function() {
+            if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+                var msViewportStyle = document.createElement("style");
+                msViewportStyle.appendChild(
+                    document.createTextNode("@-ms-viewport{width:auto!important}")
+                );
+                document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+            }
+        })();
+    window.fig = window.fig || {}; window.fig.async = true;window.bbcredirection={geo:true}  bbcRequireMap = {"jquery-1":"http://static.bbci.co.uk/frameworks/jquery/0.4.1/sharedmodules/jquery-1.7.2", "jquery-1.4":"http://static.bbci.co.uk/frameworks/jquery/0.4.1/sharedmodules/jquery-1.4", "jquery-1.9":"http://static.bbci.co.uk/frameworks/jquery/0.4.1/sharedmodules/jquery-1.9.1", "jquery-1.12":"http://static.bbci.co.uk/frameworks/jquery/0.4.1/sharedmodules/jquery-1.12.0.min", "jquery-2.2":"http://static.bbci.co.uk/frameworks/jquery/0.4.1/sharedmodules/jquery-2.2.0.min", "istats-1":"//nav.files.bbci.co.uk/nav-analytics/0.1.0-43/js/istats-1", "swfobject-2":"http://static.bbci.co.uk/frameworks/swfobject/0.1.10/sharedmodules/swfobject-2", "demi-1":"http://static.bbci.co.uk/frameworks/demi/0.10.0/sharedmodules/demi-1", "gelui-1":"http://static.bbci.co.uk/frameworks/gelui/0.9.13/sharedmodules/gelui-1", "cssp!gelui-1/overlay":"http://static.bbci.co.uk/frameworks/gelui/0.9.13/sharedmodules/gelui-1/overlay.css", "relay-1":"http://static.bbci.co.uk/frameworks/relay/0.2.6/sharedmodules/relay-1", "clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/clock-1", "canvas-clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/canvas-clock-1", "cssp!clock-1":"http://static.bbci.co.uk/frameworks/clock/0.1.9/sharedmodules/clock-1.css", "jssignals-1":"http://static.bbci.co.uk/frameworks/jssignals/0.3.6/modules/jssignals-1", "jcarousel-1":"http://static.bbci.co.uk/frameworks/jcarousel/0.1.10/modules/jcarousel-1", "bump-3":"//emp.bbci.co.uk/emp/bump-3/bump-3"}; require({ baseUrl: 'http://static.bbci.co.uk/', paths: bbcRequireMap, waitSeconds: 30 }); /*<![CDATA[*/ if (typeof bbccookies_flag === 'undefined') { bbccookies_flag = 'ON'; } showCTA_flag = true; cta_enabled = (showCTA_flag && (bbccookies_flag === 'ON')); (function(){var m="ckns_policy",q="Thu, 01 Jan 1970 00:00:00 GMT",i={ads:true,personalisation:true,performance:true,necessary:true};function c(u){if(c.cache[u]){return c.cache[u]}var t=u.split("/"),v=[""];do{v.unshift((t.join("/")||"/"));t.pop()}while(v[0]!=="/");c.cache[u]=v;return v}c.cache={};function a(u){if(a.cache[u]){return a.cache[u]}var v=u.split("."),t=[];while(v.length&&"|co.uk|com|".indexOf("|"+v.join(".")+"|")===-1){if(v.length){t.push(v.join("."))}v.shift()}c.cache[u]=t;return t}a.cache={};function s(t,y,u){var E=[""].concat(a(window.location.hostname)),B=c(window.location.pathname),D="",w,C;for(var x=0,A=E.length;x<A;x++){w=E[x];for(var v=0,z=B.length;v<z;v++){C=B[v];D=t+"="+y+";"+(w?"domain="+w+";":"")+(C?"path="+C+";":"")+(u?"expires="+u+";":"");bbccookies.set(D,true)}}}window.bbccookies={POLICY_REFRESH_DATE_MILLIS:new Date(2015,4,21,0,0,0,0).getTime(),POLICY_EXPIRY_COOKIENAME:"ckns_policy_exp",_setEverywhere:s,cookiesEnabled:function(){var t="ckns_testcookie"+Math.floor(Math.random()*100000);this.set(t+"=1");if(this.get().indexOf(t)>-1){e(t);return true}return false},get:function(){return document.cookie},getCrumb:function(t){if(!t){return null}return decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*"+encodeURIComponent(t).replace(/[\-\.\+\*]/g,"\\$&")+"\\s*\\=\\s*([^;]*).*$)|^.*$"),"$1"))||null},policyRequiresRefresh:function(){var u=new Date();u.setHours(0);u.setMinutes(0);u.setSeconds(0);u.setMilliseconds(0);if(bbccookies.POLICY_REFRESH_DATE_MILLIS<=u.getTime()){var t=bbccookies.getCrumb(bbccookies.POLICY_EXPIRY_COOKIENAME);if(t){t=new Date(parseInt(t));t.setYear(t.getFullYear()-1);return bbccookies.POLICY_REFRESH_DATE_MILLIS>=t.getTime()}else{return true}}else{return false}},_setPolicy:function(t){return f.apply(this,arguments)},readPolicy:function(){return l.apply(this,arguments)},_deletePolicy:function(){s(m,"",q)},_isConfirmed:function(){return n()!==null},_acceptsAll:function(){var t=l();return t&&!(j(t).indexOf("0")>-1)},_getCookieName:function(){return b.apply(this,arguments)},_showPrompt:function(){var t=((!this._isConfirmed()||this.policyRequiresRefresh())&&window.cta_enabled&&this.cookiesEnabled()&&!window.bbccookies_disable);return(window.orb&&window.orb.fig)?t&&(window.orb.fig("no")||window.orb.fig("ck")):t},_getPolicy:this.readPolicy};function b(u){var t=(""+u).match(/^([^=]+)(?==)/);return(t&&t.length?t[0]:"")}function j(t){return""+(t.ads?1:0)+(t.personalisation?1:0)+(t.performance?1:0)}function f(x){if(typeof x==="undefined"){x=i}if(typeof arguments[0]==="string"){var u=arguments[0],w=arguments[1];if(u==="necessary"){w=true}x=l();x[u]=w}else{if(typeof arguments[0]==="object"){x.necessary=true}}var v=new Date();v.setYear(v.getFullYear()+1);bbccookies.set(m+"="+j(x)+";domain=bbc.co.uk;path=/;expires="+v.toUTCString()+";");bbccookies.set(m+"="+j(x)+";domain=bbc.com;path=/;expires="+v.toUTCString()+";");bbccookies.set(m+"="+j(x)+";domain=bbci.co.uk;path=/;expires="+v.toUTCString()+";");var t=new Date(v.getTime());t.setMonth(t.getMonth()+1);bbccookies.set(bbccookies.POLICY_EXPIRY_COOKIENAME+"="+v.getTime()+";domain=bbc.co.uk;path=/;expires="+t.toUTCString()+";");bbccookies.set(bbccookies.POLICY_EXPIRY_COOKIENAME+"="+v.getTime()+";domain=bbc.com;path=/;expires="+t.toUTCString()+";");bbccookies.set(bbccookies.POLICY_EXPIRY_COOKIENAME+"="+v.getTime()+";domain=bbci.co.uk;path=/;expires="+t.toUTCString()+";");return x}function o(t){if(t===null){return null}var u=t.split("");return{ads:!!+u[0],personalisation:!!+u[1],performance:!!+u[2],necessary:true}}function n(){var t=new RegExp("(?:^|; ?)"+m+"=(\\d\\d\\d)($|;)"),u=document.cookie.match(t);if(!u){return null}return u[1]}function l(t){var u=o(n());if(!u){u=i}if(t){return u[t]}else{return u}}function e(t){return document.cookie=t+"=;expires="+q+";"}var g=!(window.bbccookies_flag==="ON"&&!bbccookies._acceptsAll()&&!window.bbccookies_disable);var k={},d={"personalisation":"ckps_.+|X-AB-iplayer-.+|ACTVTYMKR|BBC_EXAMPLE_COOKIE|BBCIplayer|BBCiPlayerM|BBCIplayerSession|BBCMediaselector|BBCPostcoder|bbctravel|CGISESSID|ed|food-view|forceDesktop|h4|IMRID|locserv|MyLang|myloc|NTABS|ttduserPrefs|V5|WEATHER|BBCScienceDiscoveryPlaylist_.+|bitratePref|correctAnswerCount|genreCookie|highestQuestionScore|incorrectAnswerCount|longestStreak|MSCSProfile|programmes-oap-expanded|quickestAnswer|score|servicePanel|slowestAnswer|totalTimeForAllFormatted|v|BBCwords|score|correctAnswerCount|highestQuestionScore|hploc|BGUID|BBCWEACITY|mstouch|myway|BBCNewsCustomisation|cbbc_anim|cbeebies_snd|bbcsr_usersx|cbeebies_rd|BBC-Latest_Blogs|zh-enc|pref_loc|m|bbcEmp.+|recs-.+|_lvd2|_lvs2|tick|_fcap_CAM1|_rcc2","performance":"ckpf_.+|BBCLiveStatsClick|id|_em_.+|cookies_enabled|mbox|mbox-admin|mc_.+|omniture_unique|s_.+|sc_.+|adpolicyAdDisplayFrequency|s1|ns_session|ns_cookietest|ns_ux|NO-SA|tr_pr1|gvsurvey|bbcsurvey|si_v|sa_labels|obuid|mm_.+|mmid|mmcore.+|mmpa.+","ads":"ckad_.+|rsi_segs|c","necessary":"ckns_.+|BBC-UID|blq\\.dPref|SSO2-UID|BBC-H2-User|rmRpDetectReal|bbcComSurvey|IDENTITY_ENV|IDENTITY|IDENTITY-HTTPS|IDENTITY_SESSION|BBCCOMMENTSMODULESESSID|bbcBump.+|IVOTE_VOTE_HISTORY|pulse|BBCPG|BBCPGstat|ecos\\.dt"};function r(){var x=document.cookie.replace(/; +/g,";").split(";"),u,v=[];for(var w=0,t=x.length;w<t;w++){u=x[w];v.push(bbccookies._getCookieName(u))}return v}function h(w){var v=JSON.stringify(w);if(typeof(k[v])!=="undefined"){return k[v]}var u="";for(var t in w){if(w.hasOwnProperty(t)&&d[t]){if(w[t]===true){u+=(u?"|":"")+d[t]}}}k[v]=new RegExp("^("+(u?u:".*")+")$","i");return k[v]}bbccookies.getPolicyExpiryDateTime=function(){return bbccookies.POLICY_EXPIRY_COOKIENAME};bbccookies.purge=function(){var u=bbccookies.readPolicy(),w=r(),x;for(var v=0,t=w.length;v<t;v++){if(!bbccookies.isAllowed(w[v],u)){x=new Date();x.setTime(0);x=x.toUTCString();s(w[v],"deleted",x)}}};function p(){if(g){return}bbccookies.purge();contentLoaded(window,bbccookies.purge);if(window.addEventListener){window.addEventListener("beforeunload",bbccookies.purge,false)}else{if(window.attachEvent){window.attachEvent("onbeforeunload",bbccookies.purge)}else{window.onbeforeunload=bbccookies.purge}}}bbccookies.set=function(u,t){if(g){return document.cookie=u}var v=bbccookies._getCookieName(u);if(t||bbccookies.isAllowed(v)){return document.cookie=u}return null};bbccookies.isAllowed=function(v){var u=bbccookies.readPolicy();var t=h(u);return t.test(v)};p()})();
+/*!
+ * contentloaded.js
+ *
+ * Author: Diego Perini (diego.perini at gmail.com)
+ * Summary: cross-browser wrapper for DOMContentLoaded
+ * Updated: 20101020
+ * License: MIT
+ * Version: 1.2
+ *
+ * URL:
+ * http://javascript.nwbox.com/ContentLoaded/
+ * http://javascript.nwbox.com/ContentLoaded/MIT-LICENSE
+ *
+ */
+function contentLoaded(d,i){var c=false,h=true,k=d.document,j=k.documentElement,a=k.addEventListener,n=a?"addEventListener":"attachEvent",l=a?"removeEventListener":"detachEvent",b=a?"":"on",m=function(o){if(o.type==="readystatechange"&&k.readyState!="complete"){return}(o.type==="load"?d:k)[l](b+o.type,m,false);if(!c&&(c=true)){i.call(d,o.type||o)}},g=function(){try{j.doScroll("left")}catch(o){setTimeout(g,50);return}m("poll")};if(k.readyState==="complete"){i.call(d,"lazy")}else{if(!a&&j.doScroll){try{h=!d.frameElement}catch(f){}if(h){g()}}k[n](b+"DOMContentLoaded",m,false);k[n](b+"readystatechange",m,false);d[n](b+"load",m,false)}}if(typeof(require)==="function"&&!require.defined("orb/cookies")){define("orb/cookies",window.bbccookies)}; /*]]>*//*<![CDATA[*/
+(function(){window.orb={};window.orb.figState={ad:0,ap:0,ck:1,eu:1,mb:0,tb:0,uk:1,df:1};window.orb.fig=function(a){return(arguments.length)?window.orb.figState[a]:window.orb.figState};window.orb.fig.device={};window.orb.fig.geo={};window.orb.fig.user={};window.orb.fig.isDefault=function(){return window.orb.fig("df")};window.orb.fig.device.isTablet=function(){return window.orb.fig("tb")};window.orb.fig.device.isMobile=function(){return window.orb.fig("mb")};window.orb.fig.geo.isUK=function(){return window.orb.fig("uk")};window.orb.fig.geo.isEU=function(){return window.orb.fig("eu")};window.fig=window.fig||{};window.fig.manager={include:function(n,a){n=n||window;var m=false;var k=n.document,l=k.cookie,i=l.match(/(?:^|; ?)ckns_orb_fig=([^;]+)/),g;if(i){i=this.deserialise(decodeURIComponent(RegExp.$1));this.setFig(n,i)}if(window.fig.async&&typeof JSON!="undefined"){var o=(document.cookie.match("(^|; )ckns_orb_cachedfig=([^;]*)")||0)[2];g=o?JSON.parse(o):null;if(g){this.setFig(n,g);m=true}}var h="https://fig.bbc.co.uk/frameworks/fig/1/fig.js";if(m){k.write('<script src="'+h+'" async><'+"/script>")}else{var p=a||new XMLHttpRequest();var b=false;if("withCredentials" in p){try{p.open("GET",h,false);p.send(null);if(p.status===200){k.write('<script id="figJS">'+p.responseText+"</scr"+"ipt>");b=true}}catch(j){}}if(!b){k.write('<script src="'+h+'"><'+"/script>")}}},confirm:function(a){return true},setFig:function(a,b){(function(){a.orb=a.orb||{};a.orb.figState=b})()},deserialise:function(b){var a={};b.replace(/([a-z]{2}):([0-9]+)/g,function(){a[RegExp.$1]=+RegExp.$2});return a}}})();fig.manager.include();/*]]>*/window.bbcFlagpoles_istats="ON",require.config({paths:{"istats-1":"//nav.files.bbci.co.uk/nav-analytics/0.1.0-62/js/istats-1"}}),require.defined("orb/cookies")||(window.bbccookies?define("orb/cookies",function(){return window.bbccookies}):define("orb/cookies",function(){return{isAllowed:function(e){return!1}}})),require(["istats-1","orb/cookies"],function(e,o){if(o.isAllowed("s1")){var n="//sa.bbc.co.uk/bbc/bbc/s";e.addCollector({name:"default",url:n,separator:"&"});var i="news.business.story.37891742.page";i&&"unknown"!==i&&e.setCountername(i),window.istats_countername&&e.setCountername(window.istats_countername),e.addLabels("ml_name=webmodule&ml_version=62")}});/*<![CDATA[*/
+    window.bbcFlagpoles_istats = 'ON';
+    window.orb = window.orb || {};
+
+    if (typeof bbccookies !== 'undefined' && bbccookies.isAllowed('s1')) {
+        var istatsTrackingUrl = '//sa.bbc.co.uk/bbc/bbc/s?name=news.business.story.37891742.page&cps_asset_id=37891742&page_type=Story&section=%2Fnews%2Fbusiness&first_pub=2016-11-07T00%3A49%3A53%2B00%3A00&last_editorial_update=2016-11-07T14%3A38%3A53%2B00%3A00&curie=286e371b-1570-3a41-8215-48d93fdc0a85&title=Tesco+Bank%3A+20%2C000+customers+lose+money&has_video=1&topic_names=Companies%21Tesco%21Savings%21Banking&topic_ids=9f52c5bc-73a7-47c8-a6b5-e70eafbf6716%21a2810be1-f5e1-478e-be15-c6aec1fbe23d%21b483b761-e5dc-4a56-a68f-68e64dd67664%21cfb8bd8c-0638-4383-9dec-8d1703c8b4b8&for_nation=mt&app_version=1.160.1&bbc_site=news&pal_route=asset&app_type=responsive&language=en-GB&pal_webapp=tabloid&prod_name=news&app_name=news';
+        require(['istats-1'], function (istats) {
+            var counterName = (window.istats_countername) ? window.istats_countername : istatsTrackingUrl.match(/[\?&]name=([^&]*)/i)[1];
+            istats.setCountername(counterName);
+
+            istats.addLabels('cps_asset_id=37891742&page_type=Story&section=%2Fnews%2Fbusiness&first_pub=2016-11-07T00%3A49%3A53%2B00%3A00&last_editorial_update=2016-11-07T14%3A38%3A53%2B00%3A00&curie=286e371b-1570-3a41-8215-48d93fdc0a85&title=Tesco+Bank%3A+20%2C000+customers+lose+money&has_video=1&topic_names=Companies%21Tesco%21Savings%21Banking&topic_ids=9f52c5bc-73a7-47c8-a6b5-e70eafbf6716%21a2810be1-f5e1-478e-be15-c6aec1fbe23d%21b483b761-e5dc-4a56-a68f-68e64dd67664%21cfb8bd8c-0638-4383-9dec-8d1703c8b4b8&for_nation=mt&app_version=1.160.1&bbc_site=news&pal_route=asset&app_type=responsive&language=en-GB&pal_webapp=tabloid&prod_name=news&app_name=news');
+            var c = (document.cookie.match(/\bckns_policy=(\d\d\d)/) || []).pop() || '';
+            istats.addLabels({
+                                        'blq_s': '4d',
+                    'blq_r': '2.7',
+                    'blq_v': 'default',
+                    'blq_e': 'pal',
+                                        'bbc_mc': (c ? 'ad' + c.charAt(0) + 'ps' + c.charAt(1) + 'pf' + c.charAt(2) : 'not_set')
+                }
+            );
+        });
+    }
+    /*]]>*//*<![CDATA[*/ (function(undefined){if(!window.bbc){window.bbc={}}var ROLLING_PERIOD_DAYS=30;window.bbc.Mandolin=function(id,segments,opts){var now=new Date().getTime(),storedItem,DEFAULT_START=now,DEFAULT_RATE=1,COOKIE_NAME="ckpf_mandolin";opts=opts||{};this._id=id;this._segmentSet=segments;this._store=new window.window.bbc.Mandolin.Storage(COOKIE_NAME);this._opts=opts;this._rate=(opts.rate!==undefined)?+opts.rate:DEFAULT_RATE;this._startTs=(opts.start!==undefined)?new Date(opts.start).getTime():new Date(DEFAULT_START).getTime();this._endTs=(opts.end!==undefined)?new Date(opts.end).getTime():daysFromNow(ROLLING_PERIOD_DAYS);this._signupEndTs=(opts.signupEnd!==undefined)?new Date(opts.signupEnd).getTime():this._endTs;this._segment=null;if(typeof id!=="string"){throw new Error("Invalid Argument: id must be defined and be a string")}if(Object.prototype.toString.call(segments)!=="[object Array]"){throw new Error("Invalid Argument: Segments are required.")}if(opts.rate!==undefined&&(opts.rate<0||opts.rate>1)){throw new Error("Invalid Argument: Rate must be between 0 and 1.")}if(this._startTs>this._endTs){throw new Error("Invalid Argument: end date must occur after start date.")}if(!(this._startTs<this._signupEndTs&&this._signupEndTs<=this._endTs)){throw new Error("Invalid Argument: SignupEnd must be between start and end date")}removeExpired.call(this,now);var overrides=window.bbccookies.get().match(/ckns_mandolin_setSegments=([^;]+)/);if(overrides!==null){eval("overrides = "+decodeURIComponent(RegExp.$1)+";");if(overrides[this._id]&&this._segmentSet.indexOf(overrides[this._id])==-1){throw new Error("Invalid Override: overridden segment should exist in segments array")}}if(overrides!==null&&overrides[this._id]){this._segment=overrides[this._id]}else{if((storedItem=this._store.getItem(this._id))){this._segment=storedItem.segment}else{if(this._startTs<=now&&now<this._signupEndTs&&now<=this._endTs&&this._store.isEnabled()===true){this._segment=pick(segments,this._rate);if(opts.end===undefined){this._store.setItem(this._id,{segment:this._segment})}else{this._store.setItem(this._id,{segment:this._segment,end:this._endTs})}log.call(this,"mandolin_segment")}}}log.call(this,"mandolin_view")};window.bbc.Mandolin.prototype.getSegment=function(){return this._segment};function log(actionType,params){var that=this;require(["istats-1"],function(istats){istats.log(actionType,that._id+":"+that._segment,params?params:{})})}function removeExpired(expires){var items=this._store.getItems(),expiresInt=+expires;for(var key in items){if(items[key].end!==undefined&&+items[key].end<expiresInt){this._store.removeItem(key)}}}function getLastExpirationDate(data){var winner=0,rollingExpire=daysFromNow(ROLLING_PERIOD_DAYS);for(var key in data){if(data[key].end===undefined&&rollingExpire>winner){winner=rollingExpire}else{if(+data[key].end>winner){winner=+data[key].end}}}return(winner)?new Date(winner):new Date(rollingExpire)}window.bbc.Mandolin.prototype.log=function(params){log.call(this,"mandolin_log",params)};window.bbc.Mandolin.prototype.convert=function(params){log.call(this,"mandolin_convert",params);this.convert=function(){}};function daysFromNow(n){var endDate;endDate=new Date().getTime()+(n*60*60*24)*1000;return endDate}function pick(segments,rate){var picked,min=0,max=segments.length-1;if(typeof rate==="number"&&Math.random()>rate){return null}do{picked=Math.floor(Math.random()*(max-min+1))+min}while(picked>max);return segments[picked]}window.bbc.Mandolin.Storage=function(name){validateCookieName(name);this._cookieName=name;this._isEnabled=(bbccookies.isAllowed(this._cookieName)===true&&bbccookies.cookiesEnabled()===true)};window.bbc.Mandolin.Storage.prototype.setItem=function(key,value){var storeData=this.getItems();storeData[key]=value;this.save(storeData);return value};window.bbc.Mandolin.Storage.prototype.isEnabled=function(){return this._isEnabled};window.bbc.Mandolin.Storage.prototype.getItem=function(key){var storeData=this.getItems();return storeData[key]};window.bbc.Mandolin.Storage.prototype.removeItem=function(key){var storeData=this.getItems();delete storeData[key];this.save(storeData)};window.bbc.Mandolin.Storage.prototype.getItems=function(){return deserialise(this.readCookie(this._cookieName)||"")};window.bbc.Mandolin.Storage.prototype.save=function(data){window.bbccookies.set(this._cookieName+"="+encodeURIComponent(serialise(data))+"; expires="+getLastExpirationDate(data).toUTCString()+";")};window.bbc.Mandolin.Storage.prototype.readCookie=function(name){var nameEq=name+"=",ca=window.bbccookies.get().split("; "),i,c;validateCookieName(name);for(i=0;i<ca.length;i++){c=ca[i];if(c.indexOf(nameEq)===0){return decodeURIComponent(c.substring(nameEq.length,c.length))}}return null};function serialise(o){var str="";for(var p in o){if(o.hasOwnProperty(p)){str+='"'+p+'"'+":"+(typeof o[p]==="object"?(o[p]===null?"null":"{"+serialise(o[p])+"}"):'"'+o[p].toString()+'"')+","}}return str.replace(/,\}/g,"}").replace(/,$/g,"")}function deserialise(str){var o;str="{"+str+"}";if(!validateSerialisation(str)){throw"Invalid input provided for deserialisation."}eval("o = "+str);return o}var validateSerialisation=(function(){var OBJECT_TOKEN="<Object>",ESCAPED_CHAR='"\\n\\r\\u2028\\u2029\\u000A\\u000D\\u005C',ALLOWED_CHAR="([^"+ESCAPED_CHAR+"]|\\\\["+ESCAPED_CHAR+"])",KEY='"'+ALLOWED_CHAR+'+"',VALUE='(null|"'+ALLOWED_CHAR+'*"|'+OBJECT_TOKEN+")",KEY_VALUE=KEY+":"+VALUE,KEY_VALUE_SEQUENCE="("+KEY_VALUE+",)*"+KEY_VALUE,OBJECT_LITERAL="({}|{"+KEY_VALUE_SEQUENCE+"})",objectPattern=new RegExp(OBJECT_LITERAL,"g");return function(str){if(str.indexOf(OBJECT_TOKEN)!==-1){return false}while(str.match(objectPattern)){str=str.replace(objectPattern,OBJECT_TOKEN)}return str===OBJECT_TOKEN}})();function validateCookieName(name){if(name.match(/ ,;/)){throw"Illegal name provided, must be valid in browser cookie."}}})(); /*]]>*/  document.documentElement.className += (document.documentElement.className? ' ' : '') + 'orb-js';  fig.manager.confirm();  var blq = { environment: function() { return 'live'; } }  /*<![CDATA[*/ function oqsSurveyManager(w, flag) { if (flag !== 'OFF' && (w.orb.fig("no") || w.orb.fig("uk"))) { w.document.write('<script type="text/javascript" src="http://static.bbci.co.uk/frameworks/barlesque/3.20.5/orb/4/script/vendor/edr.min.js"><'+'/script>'); } } oqsSurveyManager(window, 'ON'); /*]]>*/  /*<![CDATA[*/ var _sf_startpt = (new Date()).getTime(); /*]]>*/ .bbccom_display_none{display:none;} /*<![CDATA[*/ var bbcdotcomConfig, googletag = googletag || {}; googletag.cmd = googletag.cmd || []; var bbcdotcom = false; (function(){ if(typeof require !== 'undefined') { require({ paths:{ "bbcdotcom":"http://static.bbci.co.uk/bbcdotcom/1.33.0/script" } }); } })(); /*]]>*/  /*<![CDATA[*/ var bbcdotcom = { adverts: { keyValues: { set: function() {} } }, advert: { write: function () {}, show: function () {}, isActive: function () { return false; }, layout: function() { return { reset: function() {} } } }, config: { init: function() {}, isActive: function() {}, setSections: function() {}, isAdsEnabled: function() {}, setAdsEnabled: function() {}, isAnalyticsEnabled: function() {}, setAnalyticsEnabled: function() {}, setAssetPrefix: function() {}, setVersion: function () {}, setJsPrefix: function() {}, setSwfPrefix: function() {}, setCssPrefix: function() {}, setConfig: function() {}, getAssetPrefix: function() {}, getJsPrefix: function () {}, getSwfPrefix: function () {}, getCssPrefix: function () {} }, survey: { init: function(){ return false; } }, data: {}, init: function() {}, objects: function(str) { return false; }, locale: { set: function() {}, get: function() {} }, setAdKeyValue: function() {}, utils: { addEvent: function() {}, addHtmlTagClass: function() {}, log: function () {} }, addLoadEvent: function() {} }; /*]]>*/  /*<![CDATA[*/ (function(){ if (typeof orb !== 'undefined' && typeof orb.fig === 'function') { if (orb.fig('ad') && orb.fig('uk') == 0) { bbcdotcom.data = { ads: (orb.fig('ad') ? 1 : 0), stats: (orb.fig('uk') == 0 ? 1 : 0), statsProvider: orb.fig('ap') }; } } else { document.write('<script type="text/javascript" src="'+('https:' == document.location.protocol ? 'https://ssl.bbc.com' : 'http://tps.bbc.com')+'/wwscripts/data">\x3C/script>'); } })(); /*]]>*/  /*<![CDATA[*/ (function(){ if (typeof orb === 'undefined' || typeof orb.fig !== 'function') { bbcdotcom.data = { ads: bbcdotcom.data.a, stats: bbcdotcom.data.b, statsProvider: bbcdotcom.data.c }; } if (bbcdotcom.data.ads == 1) { document.write('<script type="text/javascript" src="'+('https:' == document.location.protocol ? 'https://ssl.bbc.co.uk' : 'http://www.bbc.co.uk')+'/wwscripts/flag">\x3C/script>'); } })(); /*]]>*/  /*<![CDATA[*/ (function(){ if (window.bbcdotcom && (typeof bbcdotcom.flag == 'undefined' || (typeof bbcdotcom.data.ads !== 'undefined' && bbcdotcom.flag.a != 1))) { bbcdotcom.data.ads = 0; } if (/[?|&]ads/.test(window.location.href) || /(^|; )ads=on; /.test(document.cookie) || /; ads=on(; |$)/.test(document.cookie)) { bbcdotcom.data.ads = 1; bbcdotcom.data.stats = 1; } if (window.bbcdotcom && (bbcdotcom.data.ads == 1 || bbcdotcom.data.stats == 1)) { bbcdotcom.assetPrefix = "http://static.bbci.co.uk/bbcdotcom/1.33.0/"; if (/(sandbox|int)(.dev)*.bbc.co*/.test(window.location.href) || /[?|&]ads-debug/.test(window.location.href) || document.cookie.indexOf('ads-debug=') !== -1) { document.write('<script type="text/javascript" src="http://static.bbci.co.uk/bbcdotcom/1.33.0/script/dist/bbcdotcom.dev.js">\x3C/script>'); } else { document.write('<script type="text/javascript" src="http://static.bbci.co.uk/bbcdotcom/1.33.0/script/dist/bbcdotcom.js">\x3C/script>'); } } })(); /*]]>*/  if (window.bbcdotcom && bbcdotcom.data.stats == 1) { document.write('<link rel="dns-prefetch" href="//secure-us.imrworldwide.com/">'); document.write('<link rel="dns-prefetch" href="//me-cdn.effectivemeasure.net/">'); document.write('<link rel="dns-prefetch" href="//ssc.api.bbc.com/">'); } if (window.bbcdotcom && bbcdotcom.data.ads == 1) { document.write('<link rel="dns-prefetch" href="//www.googletagservices.com/">'); }  /*<![CDATA[*/ (function(){ if (window.bbcdotcom && (bbcdotcom.data.ads == 1 || bbcdotcom.data.stats == 1)) { bbcdotcomConfig = {"adFormat":"standard","adKeyword":"","adMode":"smart","adsEnabled":true,"appAnalyticsSections":"news>business","asyncEnabled":true,"disableInitialLoad":false,"advertInfoPageUrl":"http:\/\/www.bbc.com\/privacy\/cookies\/international\/","advertisementText":"Advertisement","analyticsEnabled":true,"kruxEnabled":true,"appName":"tabloid","assetPrefix":"http:\/\/static.bbci.co.uk\/bbcdotcom\/1.33.0\/","customAdParams":[],"customStatsParams":[],"headline":"Tesco Bank: 20,000 customers lose money","id":"37891742","inAssociationWithText":"in association with","keywords":"","language":"","orbTransitional":false,"outbrainEnabled":true,"palEnv":"live","productName":"","sections":[],"comScoreEnabled":true,"comscoreSite":"bbc","comscoreID":"19293874","comscorePageName":"news.business-37891742","slots":"","sponsoredByText":"is sponsored by","adsByGoogleText":"Ads by Google","summary":"Tesco Bank halts online transactions after it says money has been taken from 20,000 accounts.","type":"STORY","features":{"testfeature":{"name":"testfeature","envs":["sandbox","int","test"],"on":true,"options":{},"override":null},"lxadverts":{"name":"lxadverts","envs":[],"on":true,"options":{},"override":null}},"staticBase":"\/bbcdotcom","staticHost":"http:\/\/static.bbci.co.uk","staticVersion":"1.33.0","staticPrefix":"http:\/\/static.bbci.co.uk\/bbcdotcom\/1.33.0","dataHttp":"tps.bbc.com","dataHttps":"ssl.bbc.com","flagHttp":"www.bbc.co.uk","flagHttps":"ssl.bbc.co.uk","analyticsHttp":"sa.bbc.com","analyticsHttps":"ssa.bbc.com"}; bbcdotcom.config.init(bbcdotcomConfig, bbcdotcom.data, window.location, window.document); bbcdotcom.config.setAssetPrefix("http://static.bbci.co.uk/bbcdotcom/1.33.0/"); bbcdotcom.config.setVersion("1.33.0"); document.write('<!--[if IE 7]><script type="text/javascript">bbcdotcom.config.setIE7(true);\x3C/script><![endif]-->'); document.write('<!--[if IE 8]><script type="text/javascript">bbcdotcom.config.setIE8(true);\x3C/script><![endif]-->'); document.write('<!--[if IE 9]><script type="text/javascript">bbcdotcom.config.setIE9(true);\x3C/script><![endif]-->'); if (/[?|&]ex-dp/.test(window.location.href) || document.cookie.indexOf('ex-dp=') !== -1) { bbcdotcom.utils.addHtmlTagClass('bbcdotcom-ex-dp'); } } })(); /*]]>*/ 
+  // Globally available search context
+  window.SEARCHBOX={"variant":"default","locale":"en","navSearchboxStaticPrefix":"//nav.files.bbci.co.uk/searchbox/1.0.0-122","searchboxAppStaticPrefix":"//search.files.bbci.co.uk/searchbox-app/1.0.9","searchFormHtml":"<div tabindex=\"-1\" data-reactid=\".1h5sdb67jeo\" data-react-checksum=\"704586644\"><div data-reactid=\".1h5sdb67jeo.0\"><section class=\"se-searchbox-panel\" data-reactid=\".1h5sdb67jeo.0.0\"><div class=\"se-g-wrap\" data-reactid=\".1h5sdb67jeo.0.0.0\"><div class=\"se-g-layout\" data-reactid=\".1h5sdb67jeo.0.0.0.0\"><div class=\"se-g-layout__item se-searchbox-title\" aria-hidden=\"true\" data-reactid=\".1h5sdb67jeo.0.0.0.0.0\">search</div><div class=\"se-g-layout__item se-searchbox\" data-reactid=\".1h5sdb67jeo.0.0.0.0.1\"><form accept-charset=\"utf-8\" id=\"searchboxDrawerForm\" method=\"get\" action=\"//search.bbc.co.uk/search\" data-reactid=\".1h5sdb67jeo.0.0.0.0.1.0\"><label class=\"se-searchbox__input\" for=\"se-searchbox-input-field\" data-reactid=\".1h5sdb67jeo.0.0.0.0.1.0.0\"><span class=\"se-sr-only\" data-reactid=\".1h5sdb67jeo.0.0.0.0.1.0.0.0\">Search Term</span><input name=\"q\" type=\"text\" value=\"\" id=\"se-searchbox-input-field\" class=\"se-searchbox__input__field\" maxlength=\"512\" autocomplete=\"off\" autocorrect=\"off\" autocapitalize=\"off\" spellcheck=\"false\" tabindex=\"0\" data-reactid=\".1h5sdb67jeo.0.0.0.0.1.0.0.1\"/></label><input type=\"hidden\" name=\"scope\" value=\"\" data-reactid=\".1h5sdb67jeo.0.0.0.0.1.0.2\"/><button type=\"submit\" class=\"se-searchbox__submit\" tabindex=\"0\" data-reactid=\".1h5sdb67jeo.0.0.0.0.1.0.3\">Search</button><button type=\"button\" class=\"se-searchbox__clear se-searchbox__clear--visible\" tabindex=\"0\" data-reactid=\".1h5sdb67jeo.0.0.0.0.1.0.4\">Close</button></form></div></div></div></section><div aria-live=\"polite\" aria-atomic=\"true\" class=\"se-suggestions-container\" data-reactid=\".1h5sdb67jeo.0.1\"><section class=\"se-g-wrap\" data-reactid=\".1h5sdb67jeo.0.1.0\"></section></div></div></div>","searchScopePlaceholder":"","searchScopeParam":"","searchScopeTemplate":"","searchPlaceholderWrapperStart":"","searchPlaceholderWrapperEnd":""};
+  window.SEARCHBOX.suppress = false;
+  window.SEARCHBOX.searchScope = SEARCHBOX.searchScopeTemplate.split('-')[0];
+ /* <![CDATA[ */ var map = {};  if (typeof(map['jssignals-1']) == 'undefined') { map['jssignals-1'] = 'https://static.bbc.co.uk/frameworks/jssignals/0.3.6/modules/jssignals-1'; }  require({paths: map}); /* ]]> */  (function () { if (!window.require) { throw new Error('idcta: could not find require module'); } if(typeof(map) == 'undefined') { var map = {}; } if(!!document.createElementNS && !!document.createElementNS('http://www.w3.org/2000/svg', "svg").createSVGRect) { document.documentElement.className += ' id-svg'; } var ptrt = RegExp("[\\?&]ptrt=([^&#]*)").exec(document.location.href); var ENDPOINT_URL = '//' + ((window.location.protocol == "https:") ? ('ssl.bbc.co.uk').replace("www.", "ssl.") : ('ssl.bbc.co.uk').replace("ssl.", "www.")); var ENDPOINT_CONFIG = ('/idcta/config?callback&amp;locale=en-GB&ptrt=' + encodeURI((ptrt ? ptrt[1] : document.location.href))).replace(/\&amp;/g, '&'); var ENDPOINT_TRANSLATIONS = '/idcta/translations?callback&locale=en-GB'; map['idapp-1'] = '//static.bbc.co.uk/idapp/0.72.58/modules/idapp/idapp-1'; map['idcta'] = '//static.bbc.co.uk/id/0.36.23/modules/idcta'; map['idcta/config'] = [ENDPOINT_URL + ENDPOINT_CONFIG, '//static.bbc.co.uk/id/0.36.23/modules/idcta/fallbackConfig']; map['idcta/translations'] = [ENDPOINT_URL + ENDPOINT_TRANSLATIONS, '//static.bbc.co.uk/id/0.36.23/modules/idcta/fallbackTranslations']; require({paths: map}); /* * Temporary code * To be removed when old id-statusbar-config is no longer supported */ define('id-statusbar-config', ['idcta/id-config'], function(conf) { return conf; }); define('idcta/id-statusbar-config', ['idcta/id-config'], function(conf) { return conf; }); })();  if (document.getElementById("responsive-news")) { window.bbcNewsResponsive = true; } var isIE = (function() { var undef, v = 3, div = document.createElement('div'), all = div.getElementsByTagName('i'); while ( div.innerHTML = '<!--[if gt IE ' + (++v) + ']><i></i><![endif]-->', all[0] ); return v > 4 ? v : undef; }()); var modernDevice = 'querySelector' in document && 'localStorage' in window && 'addEventListener' in window, forceCore = document.cookie.indexOf('ckps_force_core') !== -1; window.cutsTheMustard = modernDevice && !forceCore; if (window.cutsTheMustard) { document.documentElement.className += ' ctm'; var insertPoint = document.getElementById('news-loader'), config = {"asset":{"asset_id":"37891742","asset_uri":"\/news\/business-37891742","original_asset_uri":null,"first_created":{"date":"2016-11-07 00:49:53","timezone_type":3,"timezone":"Europe\/London"},"last_updated":{"date":"2016-11-07 14:38:53","timezone_type":3,"timezone":"Europe\/London"},"options":{"allowRightHandSide":true,"allowRelatedStoriesBox":true,"includeComments":false,"isIgorSeoTagsEnabled":false,"hasNewsTracker":false,"allowAdvertising":true,"hasContentWarning":false,"allowDateStamp":true,"allowHeadline":true,"isKeyContent":false,"allowPrintingSharingLinks":true,"isBreakingNews":false,"suitableForSyndication":true},"section":{"name":"Business","id":"99104","uri":"\/news\/business","urlIdentifier":"\/news\/business"},"edition":"Domestic","audience":null,"iStats_counter_name":"news.business.story.37891742.page","type":"STY","curie":"asset:286e371b-1570-3a41-8215-48d93fdc0a85","length":7671,"byline":{},"headline":"Tesco Bank: 20,000 customers lose money","mediaType":"video","topicTags":null},"smpBrand":null,"staticHost":"http:\/\/static.bbci.co.uk","environment":"live","locatorVersion":"0.46.3","pathPrefix":"\/news","staticPrefix":"http:\/\/static.bbci.co.uk\/news\/1.160.11019","jsPath":"http:\/\/static.bbci.co.uk\/news\/1.160.11019\/js","cssPath":"http:\/\/static.bbci.co.uk\/news\/1.160.11019\/stylesheets\/services\/news","cssPostfix":"","dynamic":null,"features":{"localnews":true,"video":true,"liveeventcomponent":true,"mediaassetpage":true,"travel":true,"gallery":true,"rollingnews":true,"sportstories":true,"radiopromo":true,"fromothernewssites":true,"locallive":true,"weather":true},"features2":{"svg_brand":true,"chartbeat":true,"connected_stream":true,"connected_stream_promo":true,"nav":true,"pulse_survey":false,"local_survey":true,"correspondents":true,"blogs":true,"open_graph":true,"follow_us":true,"marketdata_markets":true,"marketdata_shares":true,"nations_pseudo_nav":true,"politics_election2015_topic_pages":true,"responsive_breaking_news":true,"live_event":true,"most_popular":true,"most_popular_tabs":true,"most_popular_by_day":true,"routing":true,"radiopromonownext":true,"config_based_layout":true,"orb":true,"map_most_watched":true,"top_stories_promo":true,"features_and_analysis":true,"section_labels":true,"index_title":true,"share_tools":true,"local_live_promo":true,"adverts":true,"adverts_async":true,"adexpert":true,"igor_geo_redirect":true,"igor_device_redirect":true,"live":true,"comscore_mmx":true,"find_local_news":true,"comments":true,"comments_enhanced":true,"browser_notify":true,"stream_grid_promo":true,"breaking_news":false,"top_stories_max_volume":true,"record_livestats":true,"contact_form":true,"channel_page":true,"portlet_global_variants":true,"suppress_lep_timezone":true,"story_sticky_player":true,"cedexis":true,"mpulse":true,"story_single_column_layout":true,"story_image_copyright_labels":true,"ovp_resolve_primary_media_vpids":false,"media_player":true,"travel":true,"services_bar":true,"live_v2_stream":true,"ldp_tag_augmentation":true,"map_related_topic_tags":true,"maxymiser":true,"rio2016_medals":true},"configuration":{"showtimestamp":"1","showweather":"1","showsport":"1","showolympics":"1","showfeaturemain":"1","candyplatform":"EnhancedMobile","showwatchlisten":"1","showspecialreports":"","videotopiccandyid":"","showvideofeedsections":"1","showstorytopstories":"","showstoryfeaturesandanalysis":"1","showstorymostpopular":"","showgallery":"1","cms":"cps","channelpagecandyid":"10318089"},"pollingHost":"http:\/\/polling.bbc.co.uk","service":"news","locale":"en-GB","locatorHost":null,"locatorFlagPole":true,"local":{"allowLocationLookup":true},"isWorldService":false,"isChannelPage":false,"languageVariant":"","commentsHost":"https:\/\/feeds.bbci.co.uk","search":null,"comscoreAnalytics":null}; config.configuration['get'] = function (key) { return this[key.toLowerCase()]; };  var bootstrapUI=function(){var e=function(){if(navigator.userAgent.match(/(Android (2.0|2.1))|(Nokia)|(OSRE\/)|(Opera (Mini|Mobi))|(w(eb)?OSBrowser)|(UCWEB)|(Windows Phone)|(XBLWP)|(ZuneWP)/))return!1;if(navigator.userAgent.match(/MSIE 10.0/))return!0;var e,t=document,n=t.head||t.getElementsByTagName("head")[0],r=t.createElement("style"),s=t.implementation||{hasFeature:function(){return!1}};r.type="text/css",n.insertBefore(r,n.firstChild),e=r.sheet||r.styleSheet;var i=s.hasFeature("CSS2","")?function(t){if(!e||!t)return!1;var n=!1;try{e.insertRule(t,0),n=!/unknown/i.test(e.cssRules[0].cssText),e.deleteRule(e.cssRules.length-1)}catch(r){}return n}:function(t){return e&&t?(e.cssText=t,0!==e.cssText.length&&!/unknown/i.test(e.cssText)&&0===e.cssText.replace(/\r+|\n+/g,"").indexOf(t.split(" ")[0])):!1};return i('@font-face{ font-family:"font";src:"font.ttf"; }')}();e&&(document.getElementsByTagName("html")[0].className+=" ff"),function(){var e=document.documentElement.style;("flexBasis"in e||"WebkitFlexBasis"in e||"msFlexBasis"in e)&&(document.documentElement.className+=" flex")}();var t,n,r,s,i,a={},o=function(){var e=document.documentElement.clientWidth,n=window.innerWidth,r=n>1.5*e;t=r?e:n},u=function(e){var t=document.createElement("link");t.setAttribute("rel","stylesheet"),t.setAttribute("type","text/css"),t.setAttribute("href",n+e+r+".css"),t.setAttribute("media",i[e]),s.parentNode.insertBefore(t,s),delete i[e]},c=function(e,n,r){n&&!r&&t>=n&&u(e),r&&!n&&r>=t&&u(e),n&&r&&t>=n&&r>=t&&u(e)},l=function(e){if(a[e])return a[e];var t=e.match(/\(min\-width:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/),n=e.match(/\(max\-width:[\s]*([\s]*[0-9\.]+)(px|em)[\s]*\)/),r=t&&parseFloat(t[1])||null,s=n&&parseFloat(n[1])||null;return a[e]=[r,s],a[e]},f=function(){var e=0;for(var t in i)e++;return e},m=function(){f()||window.removeEventListener("resize",d,!1);for(var e in i){var t=i[e],n=l(t);c(e,n[0],n[1])}},d=function(){o(),m()},h=function(e,t){i=e,n=t.path+("/"!==t.path.substr(-1)?"/":""),r=t.postfix,s=t.insertBefore,o(),m(),window.addEventListener("resize",d,!1)};return{stylesheetLoaderInit:h}}(); var stylesheets = {"compact":"(max-width: 599px)","tablet":"(min-width: 600px)","wide":"(min-width: 1008px)"}; bootstrapUI.stylesheetLoaderInit(stylesheets, { path: 'http://static.bbci.co.uk/news/1.160.11019/stylesheets/services/news', postfix: '', insertBefore: insertPoint }); var loadRequire = function(){ var js_paths = {"jquery-1.9":"vendor\/jquery-1\/jquery","jquery-1":"http:\/\/static.bbci.co.uk\/frameworks\/jquery\/0.4.1\/sharedmodules\/jquery-1.7.2","demi-1":"http:\/\/static.bbci.co.uk\/frameworks\/demi\/0.10.0\/sharedmodules\/demi-1","swfobject-2":"http:\/\/static.bbci.co.uk\/frameworks\/swfobject\/0.1.10\/sharedmodules\/swfobject-2","jquery":"vendor\/jquery-2\/jquery.min","domReady":"vendor\/require\/domReady","translation":"module\/translations\/en-GB","bump-3":"\/\/emp.bbci.co.uk\/emp\/bump-3\/bump-3"};  js_paths.navigation = 'module/nav/navManager';  requirejs.config({ baseUrl: 'http://static.bbci.co.uk/news/1.160.11019/js', map: { 'vendor/locator': { 'module/bootstrap': 'vendor/locator/bootstrap', 'locator/stats': 'vendor/locator/stats', 'locator/locatorView': 'vendor/locator/locatorView' } }, paths: js_paths, waitSeconds: 30 }); define('config', function () { return config; });             require(["compiled\/all"], function() {
+      require(['domReady'], function (domReady) { domReady(function () { require(["module\/dotcom\/handlerAdapter","module\/stats\/statsSubscriberAdapter","module\/alternativeJsStrategy\/controller","module\/iconLoaderAdapter","module\/polyfill\/location.origin","module\/components\/breakingNewsAdapter","module\/indexTitleAdaptor","module\/findLocalNewsAdaptor","module\/navigation\/handlerAdaptor","module\/noTouchDetectionForCss","module\/components\/mediaPlayer\/mainAdapter","module\/components\/responsiveImage","module\/components\/timestampAdaptor","module\/components\/twiteAdapter","module\/tableScrollAdapter"], function() {  require(["module\/strategiserAdaptor"]);  }); }); });              });
+     };  loadRequire();  } else { var l = document.createElement('link'); l.href = 'http://static.bbci.co.uk/news/1.160.11019/icons/generated/icons.fallback.css'; l.rel = 'stylesheet'; document.getElementsByTagName('head')[0].appendChild(l); }  /*<![CDATA[*/ bbcdotcom.init({adsToDisplay:['leaderboard', 'sponsor_section', 'mpu', 'outbrain_ar_5', 'outbrain_ar_7', 'outbrain_ar_8', 'outbrain_ar_9', 'native', 'mpu_bottom', 'adsense', 'inread']}); /*]]>*/ 
+    (function () {
+        var matches = window.location.href.match(/[?&]maxymiser=(on|off)/g),
+            maxymise = false;
+
+        if (matches) {
+            maxymise = (matches[0].substr(11) === 'on');
+        } else if ('object' === typeof bbccookies && bbccookies.cookiesEnabled() && bbccookies.readPolicy('personalisation')) {
+            matches = (' ' + window.bbccookies.get()).match(/[; ]BBC-UID=([^\\s;]*)/);
+            if (matches) {
+                bucket = "0123456789abcdef".indexOf(unescape(matches[1] + 'X').charAt(0));
+                maxymise = (bucket >= 0 && bucket <= 15);
+            }
+        }
+
+        if (maxymise) {
+            document.write('<scr'+'ipt type="text/javascript" src="//service.maxymiser.net/cdn/mbbccoUK/js/mmcore.js"></scr'+'ipt>');
+        }
+    })();
+
+    
+
+    
+              /*<![CDATA[*/ (function() { if (window.bbcdotcom && bbcdotcom.config.isActive('ads')) { googletag.cmd.push(function() { googletag.display('bbccom_interstitial'); }); } }()); /*]]>*/  /*<![CDATA[*/ (function() { var wallpaper; if (window.bbcdotcom && bbcdotcom.config.isActive('ads')) { if (bbcdotcom.config.isAsync()) { googletag.cmd.push(function() { googletag.display('bbccom_wallpaper'); }); } else { googletag.display("wallpaper"); } wallpaper = bbcdotcom.adverts.adRegister.getAd('wallpaper'); } }()); /*]]>*/  /*<![CDATA[*/ (function() { if (window.bbcdotcom && bbcdotcom.config.isActive('ads')) { document.write(unescape('%3Cscript id="gnlAdsEnabled" class="bbccom_display_none"%3E%3C/script%3E')); } if (window.bbcdotcom && bbcdotcom.config.isActive('analytics')) { document.write(unescape('%3Cscript id="gnlAnalyticsEnabled" class="bbccom_display_none"%3E%3C/script%3E')); } }()); /*]]>*/       <![CDATA[ <section> <div id="bbccookies" class="bbccookies-banner orb-banner-wrapper bbccookies-d"> <div id="bbccookies-prompt" class="orb-banner b-g-p b-r b-f"> <h2 class="orb-banner-title"> Cookies on the BBC website </h2> <p class="orb-banner-content" dir="ltr"> The BBC has updated its cookie policy. We use cookies to ensure that we give you the best experience on our website. This includes cookies from third party social media websites if you visit a page which contains embedded content from social media. Such third party cookies may track your use of the BBC website.<span class="bbccookies-international-message"> We and our partners also use cookies to ensure we show you advertising that is relevant to you.</span> If you continue without changing your settings, we'll assume that you are happy to receive all cookies on the BBC website. However, you can change your cookie settings at any time. </p> <ul class="orb-banner-options"> <li id="bbccookies-continue"> <button type="button" id="bbccookies-continue-button">Continue</button> </li> <li id="bbccookies-settings"> <a href="/privacy/cookies/managing/cookie-settings.html">Change settings</a> </li> <li id="bbccookies-more"><a href="/privacy/cookies/bbc">Find out more</a></li></ul> </div> </div> </section> ]]>/*<![CDATA[*/ (function(){if(bbccookies._showPrompt()){var g=document,b=g.getElementById("blq-pre-mast"),e=g.getElementById("blq-bbccookies-tmpl"),a,f;if(b&&g.createElement){a=g.createElement("div");f=e.innerHTML;f=f.replace("<"+"![CDATA[","").replace("]]"+">","");a.innerHTML=f;b.appendChild(a);blqCookieContinueButton=g.getElementById("bbccookies-continue-button");blqCookieContinueButton.onclick=function(){a.parentNode.removeChild(a);return false};bbccookies._setPolicy(bbccookies.readPolicy())}var c=g.getElementById("bbccookies");if(c&&!window.orb.fig("uk")){c.className=c.className.replace(/\bbbccookies-d\b/,"");c.className=c.className+(" bbccookies-w")}}})(); /*]]>*/   /*<![CDATA[*/ if (typeof bbccookies !== 'undefined' && bbccookies.isAllowed('s1')) { (function () { require(['istats-1'], function (istats) { istatsTrackingUrl = istats.getDefaultURL(); if (istats.isEnabled() && bbcFlagpoles_istats === 'ON') { sitestat(istatsTrackingUrl); } else { window.ns_pixelUrl = istatsTrackingUrl; /* used by Flash library to track */ } function sitestat(n) { var j = document, f = j.location, b = ""; if (j.cookie.indexOf("st_ux=") != -1) { var k = j.cookie.split(";"); var e = "st_ux", h = document.domain, a = "/"; if (typeof ns_ != "undefined" && typeof ns_.ux != "undefined") { e = ns_.ux.cName || e; h = ns_.ux.cDomain || h; a = ns_.ux.cPath || a } for (var g = 0, f = k.length; g < f; g++) { var m = k[g].indexOf("st_ux="); if (m != -1) { b = "&" + decodeURI(k[g].substring(m + 6)) } } bbccookies.set(e + "=; expires=" + new Date(new Date().getTime() - 60).toGMTString() + "; path=" + a + "; domain=" + h); } window.ns_pixelUrl = n;  } }); })(); } else { window.istats = {enabled: false}; } /*]]>*/       Accessibility links Skip to content  Accessibility Help     BBC iD     require(['idcta/statusbar'], function(statusbar) { new statusbar.Statusbar({"id":"idcta-statusbar","publiclyCacheable":true}); }); 
+        Notifications
+        
+        
+        
+    
+    BBC navigation  News      News      Sport      Weather      Shop      Earth      Travel      Capital      iPlayer      Culture      Autos      Future      TV      Radio      CBBC      CBeebies      Food      iWonder      Bitesize      Travel      Music      Earth      Arts      Make It Digital      Taster      Nature      Local     Menu   Search the BBC
+
+
+    
+        
+        Search the BBC
+            Search the BBC
+            
+
+
+
+     <![CDATA[ <div id="orb-panel-<%= panelname %>" class="orb-panel" aria-labelledby="orb-nav-<%= panelname %>"> <div class="orb-panel-content b-g-p b-r"> <%= panelcontent %> </div> </div> ]]>               
+    
+
+                
+                        
+                
+                    
+            BBC News
+                                        News navigation
+                    
+                        Sections                    
+                    
+    Find local news
+
+                
+            
+                        
+
+
+    
+                
+                    Home
+                
+                            
+                    
+                
+                    UK
+                
+                            
+                    
+                
+                    World
+                
+                            
+                    
+                
+                    Business
+                
+                 selected            
+                    
+                
+                    Politics
+                
+                            
+                    
+                
+                    Tech
+                
+                            
+                    
+                
+                    Science
+                
+                            
+                    
+                
+                    Health
+                
+                            
+                    
+                
+                    Education
+                
+                            
+                    
+                
+                    Entertainment & Arts
+                
+                            
+                    
+                
+                    Video & Audio
+                
+                            
+                    
+                
+                    Magazine
+                
+                            
+                    
+                
+                    In Pictures
+                
+                            
+                    
+                
+                    Also in the News
+                
+                            
+                    
+                
+                    Special Reports
+                
+                            
+                    
+                
+                    Explainers
+                
+                            
+                    
+                
+                    The Reporters
+                
+                            
+                    
+                
+                    Have Your Say
+                
+                            
+                    
+                
+                    Disability
+                
+                            
+            
+
+    
+        Business selected                            
+                            
+                                Your Money
+                            
+                                                    
+                                            
+                            
+                                Market Data
+                            
+                                                    
+                                            
+                            
+                                Markets
+                            
+                                                    
+                                            
+                            
+                                Companies
+                            
+                                                    
+                                            
+                            
+                                Economy
+                            
+                                                    
+                                    
+                    
+            
+    
+
+    
+        
+            /*<![CDATA[*/
+            (function() {
+                if (window.bbcdotcom && bbcdotcom.adverts && bbcdotcom.adverts.slotAsync) {
+                    bbcdotcom.adverts.slotAsync('leaderboard', [1,2,3,4]);
+                }
+            })();
+            /*]]>*/
+        
+
+
+    
+
+                        
+                            
+        
+            Business
+        
+    
+            
+
+    
+        
+            /*<![CDATA[*/
+            (function() {
+                if (window.bbcdotcom && bbcdotcom.adverts && bbcdotcom.adverts.slotAsync) {
+                    bbcdotcom.adverts.slotAsync('sponsor_section', [1,2,3,4]);
+                }
+            })();
+            /*]]>*/
+        
+
+            
+            
+                        
+        
+            Business
+        
+    
+ 
+
+    
+        
+            /*<![CDATA[*/
+            (function() {
+                if (window.bbcdotcom && bbcdotcom.adverts && bbcdotcom.adverts.slotAsync) {
+                    bbcdotcom.adverts.slotAsync('sponsor_section', [1,2,3,4]);
+                }
+            })();
+            /*]]>*/
+        
+
+                                         
+                                                                            
+
+    Tesco Bank: 20,000 customers lose money
+
+    
+    
+            7 November 2016
+
+            From the section Business
+
+
+            
+        
+
+    
+        
+            
+    
+        
+        
+            Share
+        
+        
+        
+            Share this with
+            
+                    
+                        
+                        Email
+                        Share this with Email
+                    
+                
+                
+                    
+                        
+                        Facebook
+                        Share this with Facebook
+                    
+                
+                
+                    
+                        
+                        Messenger
+                        Share this with Messenger
+                    
+                
+                
+                    
+                        
+                        Messenger
+                        Share this with Messenger
+                    
+                
+                
+                    
+                        
+                        Twitter
+                        Share this with Twitter
+                    
+                
+                
+                    
+                        
+                        Pinterest
+                        Share this with Pinterest
+                    
+                
+                
+                    
+                        
+                        WhatsApp
+                        Share this with WhatsApp
+                    
+                
+                
+                    
+                        
+                        Linkedin
+                        Share this with Linkedin
+                    
+                
+            Copy this link
+            
+                http://www.bbc.co.uk/news/business-37891742
+            
+            Read more about sharing.
+            
+                Close share panel
+                ×
+            
+        
+    
+
+
+        
+    
+
+        
+    
+    
+        
+            
+    Media captionTesco Bank chief executive tells Radio 4's Today around 20,000 customers were affectedTesco Bank has halted online payments for current account customers after money was taken from 20,000 accounts.The bank's chief executive Benny Higgins told the BBC he was "very hopeful" customers would be refunded within 24 hours. About 40,000 accounts saw suspicious transactions over the weekend, of which half had money taken, he said.Customers will still be able to use their cards for cash withdrawals, chip and pin payments, and bill payments. The bank is blocking customers from making online payments using their debit card, although transfers between accounts and to other people are still allowed, a spokesperson said.
+    
+        
+            /**/
+            (function() {
+                if (window.bbcdotcom && bbcdotcom.adverts && bbcdotcom.adverts.slotAsync) {
+                    bbcdotcom.adverts.slotAsync('mpu', [1,2,3]);
+                }
+            })();
+            /**/
+        
+Earlier, the bank confirmed some accounts "have been subject to online criminal activity, in some cases resulting in money being withdrawn fraudulently".Mr Higgins also apologised for the "worry and inconvenience" that customers have faced.Tesco Bank attack: How can you protect your account?Tesco bank attack: What do we know?One cybersecurity expert said this could be an unprecedented breach at a British bank.
+I was just about to go to bed when I received a text message from Tesco saying there had been fraud. So of course you panic."Kevin Smith, Tesco Bank customer
+"I've not heard of an attack of this nature and scale on a UK bank where it appears that the bank's central system is the target," said Prof Alan Woodward, a security consultant who has worked with Europol.Over the weekend, customers complained about money being withdrawn without permission, cards being blocked and long delays to get through to the bank on the phone."Any financial loss that results from this fraudulent activity will be borne by the bank," Mr Higgins said. "Customers are not at financial risk."Tesco has yet to use the word "hacking" to describe the breach.The bank has more than seven million customer accounts and 4,000 staff, based in Edinburgh, Glasgow and Newcastle.
+            
+    Media caption'Tesco texted to say fraud on account'Kevin Smith, from Blackpool, said he had lost £500 from one account and £20 from another.He said: "I was just about to go to bed when I received a text message from Tesco saying there had been fraud on my account. So of course you panic."Alan Baxter, from Berwick-upon-Tweed, said he had lost £600, leaving him with just £21.88 in the bank.He said: "Tesco said they couldn't offer me emergency funds but would offer £25 as a goodwill gesture."I've got food and petrol to pay for. I have a delivery of coal coming tomorrow for our coal-fired heater and I won't be able to pay."'Money has vanished'Other customers complained on Tesco Bank's website and through social media about long delays when calling the company's customer service line to find out if their account was affected.Mark Noakes, from Thrapston, told the BBC: "Looked at my account this morning to find a large hole! There was £2 in there; there should have been a lot more!"Finally got through to customer services to be told it would take 48 hours to sort as there had been a lot of transactions on my account that could not be linked to me or my wife. "For such a big company they are not being professional. I'm doing well compared to some others as I have another bank account and this will all get sorted somehow."
+                
+                
+                
+                
+                
+                 Image copyright
+                 Tesco Bank
+                
+            
+            
+        Analysis: Rory Cellan-Jones, BBC technology correspondentMake no mistake, while Tesco Bank is stressing that relatively small amounts were taken from 20,000 accounts, this is a very serious security incident.  All Tesco Bank will say is that it has been the victim of "online criminal activity" so we have little detail on the nature of the attack. But what is different is that it involves tens of thousands falling victim in a 24 hour period to what appears to be an automated process, rather than individuals clicking on links in phishing emails or having their details stolen after downloading malicious software. That could involve the attackers exploiting a vulnerability in the bank's website - or even gaining physical access to a branch and then the central systems. Whatever has happened, the damage to trust in Tesco Bank and online banking in general will be greater than the financial cost.Robert Schifreen, editor of the computer safety website Security Smart, said Tesco Bank must tell people what happened and how fraudsters obtained customers' bank details."It could be, for example, that people have been attaching skimming devices, card readers and cameras specifically to Tesco's cash point machines, so that they've been capturing people's accounts there," he told the BBC."It could be somebody who works at Tesco Bank who's had access to the database. It could be somebody else, who Tesco have passed information to, and that information has been hacked."'Action and arrests'A National Crime Agency (NCA) spokesman confirmed it was leading the investigation into the case, but stressed there was "no set formula" for dealing with cyber attacks, which tend to "vary in terms of sophistication"."It will be investigated and hopefully that will lead to action and arrests," he said. 
+            
+    Media captionWATCH: Experts say the attack is unlike any they have seen beforeThe UK's data regulator, the Information Commissioner's Office, also said it was looking into the case and could investigate if customers' personal data has not been kept secure.Tesco Bank said: "We continue to work with the authorities and regulators to address the fraud and will keep our customers informed through regular updates on our website, Twitter, and direct communication." But the regulators and Tesco Bank have been warned by a senior MP that they must take steps to ensure customers are protected from a similar attack."This is just the latest in a long list of failures and breaches of banking IT systems, exposing many thousands of customers to uncertainty and disruption," said Andrew Tyrie, chairman of the Treasury Committee. "We can't carry on like this."Refund rulesUK bank customers have had money stolen from their online accounts by criminals before. Last year, the NCA warned internet users to protect themselves against a strain of malicious software, which had enabled criminals to steal an estimated £20m from UK bank accounts.The Financial Conduct Authority says banks must refund unauthorised payments immediately, unless they have evidence that the customer was at fault or the payment was more than 13 months ago.Banks are also required to refund any charges or interest added to your account as a result of the fraudulent payments.Tesco Bank has been owned by Tesco plc since 2008, after starting as a joint venture with Royal Bank of Scotland.Shares in Tesco are down 1% amid predictions that the brand could be damaged by the security breach.
+
+    body{background-color:#ffffff}.news-vj-spw-wrapper{padding-top:1em;padding-bottom:1em;padding-right:1em}.news-vj-spw-frame{background-color:#fff;border:0px none transparent;padding:0px;overflow-x:hidden;-ms-overflow-x:hidden;overflow-y:hidden;-ms-overflow-y:hidden;min-height:10em}@media (max-width: 530px){.phantomjs .constraint{max-width:520px}}.phantomjs .news-vj-spw-wrapper{padding-top:0;padding-bottom:0}.phantomjs .news-vj-spw-frame{background-color:#fff;margin:auto}.phantomjs .sixteen-nine{position:relative;background-color:#fff}.phantomjs .sixteen-nine:before{display:block;content:" ";width:100%;padding-top:56.25%}.phantomjs .sixteen-nine>.news-vj-spw-wrapper{position:absolute;top:0;left:0;right:0;bottom:0}
+
+        if (typeof define === 'function' && define.amd) {
+        	require.config({
+    	        paths: {
+                    "pym": "https://news.bbcimg.co.uk/news/special/market-data-charts/1.2/pym.min"
+    	        }
+    	    });
+        }
+    
+    
+        
+        
+        
+        
+
+
+
+    var supports_canvas = function () {
+      return !!document.createElement("canvas").getContext;
+    };
+    if (supports_canvas()){
+        if (typeof define === 'function' && define.amd) {
+            require(['pym'], function (pym) {
+                var pymParent = new pym.Parent('stlhrhlo-core-content', null, {'srcdoc': true});
+            });   
+        } else { 
+            // Load if require is not in the page..
+            var script = document.createElement('script');
+            script.src = 'https://news.bbcimg.co.uk/news/special/market-data-charts/1.2/pym.min.js';
+            script.addEventListener('load', function (e) { 
+                var pymParent = new pym.Parent('stlhrhlo-core-content', null, {'srcdoc': true});
+            }, false);
+            document.head.appendChild(script);    
+        }
+    }
+
+        if (typeof define === 'function' && define.amd) {
+        	require.config({
+    	        paths: {
+    	            "srcdoc": "https://news.bbcimg.co.uk/news/special/market-data-charts/1.2/srcdoc-polyfill"
+    	        }
+    	    });
+    	    require(['srcdoc'], function (srcdoc) {
+                
+            }); 
+        } else {
+    	    // Load if require is not in the page..
+            var script = document.createElement('script');
+            script.src = 'https://news.bbcimg.co.uk/news/special/market-data-charts/1.2/srcdoc-polyfill.js';
+            document.body.appendChild(script); 
+        }
+    
+if (typeof define === 'function' && define.amd) {
+	require(["istats-1"], function (istats) {
+		var monitorScrolling = function (ev) {
+		  if (isElementInViewport(document.getElementById('stlhrhlo-core-content'))) {
+			istats.log(
+			  "idt-content",
+			  "market-data-chart--entered-view",
+			  {
+				"project" : "stlhrhlo",
+				"page"    : window.location.href
+			  });
+			window.clearInterval(intervalID);
+		  }
+		};
+
+		var isElementInViewport = function (el) {
+		  var rect = el.getBoundingClientRect();
+
+		  return (
+			rect.top >= 0 &&
+			rect.left >= 0 &&
+			rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+			rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+			);
+		};
+
+		var intervalID = window.setInterval(monitorScrolling, 500);
+		monitorScrolling();
+	});
+}
+Have you had money taken from your Tesco Bank account or noticed a suspicious transaction over the weekend? Email haveyoursay@bbc.co.uk with your experience.Please include a contact number if you are willing to speak to a BBC journalist. You can also contact us in the following ways:WhatsApp: +44 7525 900971
+
+Tweet: @BBC_HaveYourSay
+
+Send pictures/video to yourpics@bbc.co.uk
+
+Upload your pictures / video here
+Send an SMS or MMS to 61124 or +44 7624 800 100 
+
+
+
+                                                                                            
+    
+        Or use the form below
+            
+                
+                        Your contact details
+                                
+                                    Name
+                                        (optional)
+                                    
+                                
+                                
+                                
+                                    Your E-mail address
+                                        (required)
+                                    
+                                
+                                
+                                
+                                    Town & Country
+                                        (optional)
+                                    
+                                
+                                
+                                
+                                    Your telephone number
+                                        (optional)
+                                    
+                                
+                                
+                                
+                                    Comments
+                                        (required)
+                                    
+                                
+                                If you are happy to be contacted by a BBC journalist please leave a telephone number that we can
+                        contact you on. In some cases a selection of your comments will be published, displaying your name as
+                        you provide it and location, unless you state otherwise. Your contact details will never be published.
+                        When sending us pictures, video or eyewitness accounts at no time should you endanger yourself or others,
+                        take any unnecessary risks or infringe any laws. Please ensure you have read the terms and conditions.
+
+                        Terms and conditions
+
+                        
+                                
+                
+            
+    
+
+                                                                                            
+    Related Topics
+        
+                Banking
+            
+        
+
+                                                                                                
+            
+            
+        Share this story        About sharing
+    
+        
+        
+            Email
+        
+    
+                            
+        
+            Facebook
+        
+    
+                            
+        
+            Messenger
+        
+    
+                            
+        
+            Messenger
+        
+    
+                            
+        
+            Twitter
+        
+    
+                            
+        
+            Pinterest
+        
+    
+                            
+        
+            WhatsApp
+        
+    
+                            
+        
+            Linkedin
+        
+    
+            
+
+                                                                                                
+            More on this story               Tesco Bank attack: How can you protect your account?       7 November 2016                        Tesco bank attack: What do we know?       7 November 2016                          
+     Video
+    
+    
+    'Tesco texted to say fraud on account'       7 November 2016                 
+                                                                                            
+                                                                                                    
+                                                                                                            
+                                        
+
+    
+        
+            /*<![CDATA[*/
+            (function() {
+                if (window.bbcdotcom && bbcdotcom.adverts && bbcdotcom.adverts.slotAsync) {
+                    bbcdotcom.adverts.slotAsync('outbrain_ar_5', [1,2,3,4]);
+                }
+            })();
+            /*]]>*/
+        
+
+
+
+    
+        
+            /*<![CDATA[*/
+            (function() {
+                if (window.bbcdotcom && bbcdotcom.adverts && bbcdotcom.adverts.slotAsync) {
+                    bbcdotcom.adverts.slotAsync('outbrain_ar_7', [1,2,3,4]);
+                }
+            })();
+            /*]]>*/
+        
+
+
+
+    
+        
+            /*<![CDATA[*/
+            (function() {
+                if (window.bbcdotcom && bbcdotcom.adverts && bbcdotcom.adverts.slotAsync) {
+                    bbcdotcom.adverts.slotAsync('outbrain_ar_8', [1,2,3,4]);
+                }
+            })();
+            /*]]>*/
+        
+
+                                        
+                                     
+                                                                            
+    Top Stories
+                    
+        Last push before US vote
+                    Hillary Clinton and Donald Trump are set for their final rallies as the campaign draws to a close.
+                    31 October 2016
+    
+                    
+        Escaped prisoners left mannequins in bed
+                    7 November 2016
+    
+                    
+        Tesco Bank: 20,000 customers lose money
+                    7 November 2016
+    
+                                        
+
+    
+        
+            /*<![CDATA[*/
+            (function() {
+                if (window.bbcdotcom && bbcdotcom.adverts && bbcdotcom.adverts.slotAsync) {
+                    bbcdotcom.adverts.slotAsync('mpu', [4]);
+                }
+            })();
+            /*]]>*/
+        
+
+                                                            
+
+    
+        
+        Features
+    
+    
+        
+        
+            
+                
+                            
+                                
+                                    
+                                    
+                                
+                            
+                
+                Station Road
+                The couple that just want to move to a smaller house
+            
+        
+        
+        
+        
+            
+                
+                            
+                                
+                                    
+                                    
+                                
+                            
+                
+                The gender gap
+                Why don't more women choose engineering?
+            
+        
+        
+        
+        
+            
+                
+                            
+                                
+                                    
+                                    
+                                
+                            
+                
+                Something beautiful?
+                Will No 1 spot spark further success for Andy Murray? 
+            
+        
+        
+        
+        
+            
+                
+                            
+                                
+                                    
+                                    
+                                
+                            
+                
+                Channel Kremlin
+                Why do Russians keep watching TV news they don't trust?
+            
+        
+        
+        
+        
+            
+                
+                            
+                                
+                                    
+                                    
+                                
+                            
+                
+                Tesco Bank attack
+                How can you protect your account?
+            
+        
+        
+        
+        
+            
+                
+                            
+                                
+                                    
+                                    
+                                
+                            
+                
+                'Our loved boy' 
+                The story of Damilola Taylor's death becomes a TV drama
+            
+        
+        
+        
+        
+            
+                
+                            
+                                
+                                    
+                                    
+                                
+                            
+                
+                Sounds far-fetched
+                How one man built a $1.5bn fashion business
+            
+        
+        
+        
+        
+            
+                
+                            
+                                
+                                    
+                                    
+                                
+                            
+                
+                Feet up
+                Children in Spain down pens in homework strike
+            
+        
+        
+        
+        
+            
+                
+                            
+                                
+                                    
+                                    
+                                
+                            
+                
+                Gina who?
+                The woman behind the Brexit legal challenge
+            
+        
+        
+    
+
+                                
+
+    
+        
+            /*<![CDATA[*/
+            (function() {
+                if (window.bbcdotcom && bbcdotcom.adverts && bbcdotcom.adverts.slotAsync) {
+                    bbcdotcom.adverts.slotAsync('native', [1,2,3,4]);
+                }
+            })();
+            /*]]>*/
+        
+
+                                                                    
+                                        
+
+    
+        
+            /*<![CDATA[*/
+            (function() {
+                if (window.bbcdotcom && bbcdotcom.adverts && bbcdotcom.adverts.slotAsync) {
+                    bbcdotcom.adverts.slotAsync('mpu_bottom', [1,2,3,4]);
+                }
+            })();
+            /*]]>*/
+        
+
+
+
+    
+        
+            /*<![CDATA[*/
+            (function() {
+                if (window.bbcdotcom && bbcdotcom.adverts && bbcdotcom.adverts.slotAsync) {
+                    bbcdotcom.adverts.slotAsync('outbrain_ar_9', [1,2,3,4]);
+                }
+            })();
+            /*]]>*/
+        
+
+
+
+    
+        
+            /*<![CDATA[*/
+            (function() {
+                if (window.bbcdotcom && bbcdotcom.adverts && bbcdotcom.adverts.slotAsync) {
+                    bbcdotcom.adverts.slotAsync('adsense', [1,2,3,4]);
+                }
+            })();
+            /*]]>*/
+        
+
+
+
+    
+        
+            /*<![CDATA[*/
+            (function() {
+                if (window.bbcdotcom && bbcdotcom.adverts && bbcdotcom.adverts.slotAsync) {
+                    bbcdotcom.adverts.slotAsync('inread', [1,2,3,4]);
+                }
+            })();
+            /*]]>*/
+        
+
+                                        
+                               
+   
+
+
+    News navigation
+
+            Business
+                            Sections
+                
+                        Your Money
+                                            
+                                        
+                        Market Data
+                                            
+                                        
+                        Markets
+                                            
+                                        
+                        Companies
+                                            
+                                        
+                        Economy
+                                            
+                                    
+                    
+                        Home
+                    
+                                                        
+                            
+                    
+                        UK
+                    
+                                                                
+                            
+                                UK Home
+                                                                                                                    
+                                            England                                        
+                                                                                                                                                            
+                                            N. Ireland                                        
+                                                                                                                                                            
+                                            Scotland                                        
+                                                                                                                                                            
+                                            Alba                                        
+                                                                                                                                                            
+                                            Wales                                        
+                                                                                                                                                            
+                                            Cymru                                        
+                                                                                                            
+                        
+                                    
+                            
+                    
+                        World
+                    
+                                                                
+                            
+                                World Home
+                                                                                                                    
+                                            Africa                                        
+                                                                                                                                                            
+                                            Asia                                        
+                                                                                                                                                            
+                                            Australia                                        
+                                                                                                                                                            
+                                            Europe                                        
+                                                                                                                                                            
+                                            Latin America                                        
+                                                                                                                                                            
+                                            Middle East                                        
+                                                                                                                                                            
+                                            US & Canada                                        
+                                                                                                            
+                        
+                                    
+                            
+                    
+                        Business
+                    
+                     selected                                            
+                            
+                                Business Home
+                                                                                                                    
+                                            Your Money                                        
+                                                                                                                                                            
+                                            Market Data                                        
+                                                                                                                                                            
+                                            Markets                                        
+                                                                                                                                                            
+                                            Companies                                        
+                                                                                                                                                            
+                                            Economy                                        
+                                                                                                            
+                        
+                                    
+                            
+                    
+                        Politics
+                    
+                                                                
+                            
+                                Politics Home
+                                                                                                                    
+                                            Parliaments                                        
+                                                                                                                                                            
+                                            Brexit                                        
+                                                                                                                                                                                                                                        
+                                            US Election 2016                                        
+                                                                                                                                                                                                                                                                                                                                                
+                        
+                                    
+                            
+                    
+                        Tech
+                    
+                                                        
+                            
+                    
+                        Science
+                    
+                                                        
+                            
+                    
+                        Health
+                    
+                                                        
+                            
+                    
+                        Education
+                    
+                                                                
+                            
+                                Education Home
+                                                                                                                    
+                                            School Report                                        
+                                                                                                                                                            
+                                            Global Education                                        
+                                                                                                            
+                        
+                                    
+                            
+                    
+                        Entertainment & Arts
+                    
+                                                        
+                            
+                    
+                        Video & Audio
+                    
+                                                        
+                            
+                    
+                        Magazine
+                    
+                                                        
+                            
+                    
+                        In Pictures
+                    
+                                                        
+                            
+                    
+                        Also in the News
+                    
+                                                        
+                            
+                    
+                        Special Reports
+                    
+                                                        
+                            
+                    
+                        Explainers
+                    
+                                                        
+                            
+                    
+                        The Reporters
+                    
+                                                        
+                            
+                    
+                        Have Your Say
+                    
+                                                        
+                            
+                    
+                        Disability
+                    
+                                                        
+                    
+   
+
+    
+        
+            
+    
+        BBC News Services
+        
+                On your mobile
+            
+            
+                On your connected tv
+            
+            
+                Get news alerts
+            
+            
+                Contact BBC News
+            
+        
+
+
+        
+    
+
+               Explore the BBC   News      News      Sport      Weather      Shop      Earth      Travel      Capital      iPlayer      Culture      Autos      Future      TV      Radio      CBBC      CBeebies      Food      iWonder      Bitesize      Travel      Music      Earth      Arts      Make It Digital      Taster      Nature      Local           Terms of Use      About the BBC      Privacy Policy      Cookies      Accessibility Help      Parental Guidance      Contact the BBC          Advertise with us      Ad choices      Copyright © 2016 BBC. The BBC is not responsible for the content of external sites. Read about our approach to external linking.          /*<![CDATA[*/ if (window.bbcdotcom && window.bbcdotcom.analytics) { bbcdotcom.analytics.page(); } /*]]>*/  /*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.currencyProviders) { bbcdotcom.currencyProviders.write(); } /*]]>*/  /*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.currencyProviders) { bbcdotcom.currencyProviders.postWrite(); } /*]]>*/  /*<![CDATA[*/ /** * ASYNC waits to make any gpt requests until the bottom of the page */ if ( window.bbcdotcom && bbcdotcom.data && bbcdotcom.data.ads && bbcdotcom.data.ads == 1 && bbcdotcom.config && bbcdotcom.config.isAsync && bbcdotcom.config.isAsync() ) { (function () { var gads = document.createElement('script'); gads.async = true; gads.type = 'text/javascript'; var useSSL = 'https:' == document.location.protocol; gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js'; var node = document.getElementsByTagName('script')[0]; node.parentNode.insertBefore(gads, node); })(); } /*]]>*/  /*<![CDATA[*/ if (window.bbcdotcom && bbcdotcom.data && bbcdotcom.data.stats && bbcdotcom.data.stats === 1 && bbcdotcom.utils && window.location.pathname === '/' && window.bbccookies && bbccookies.readPolicy('performance') ) { var wwhpEdition = bbcdotcom.utils.getMetaPropertyContent('wwhp-edition'); var _sf_async_config={}; /** CONFIGURATION START **/ _sf_async_config.uid = 50924; _sf_async_config.domain = "bbc.co.uk"; _sf_async_config.title = "Homepage"+(wwhpEdition !== '' ? ' - '+wwhpEdition : ''); _sf_async_config.sections = "Homepage"+(wwhpEdition !== '' ? ', Homepage - '+wwhpEdition : ''); _sf_async_config.region = wwhpEdition; _sf_async_config.path = "/"+(wwhpEdition !== '' ? '?'+wwhpEdition : ''); /** CONFIGURATION END **/ (function(){ function loadChartbeat() { window._sf_endpt=(new Date()).getTime(); var e = document.createElement("script"); e.setAttribute("language", "javascript"); e.setAttribute("type", "text/javascript"); e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js'); document.body.appendChild(e); } var oldonload = window.onload; window.onload = (typeof window.onload != "function") ? loadChartbeat : function() { oldonload(); loadChartbeat(); }; })(); } /*]]>*/    (function() {
+    'use strict';
+
+    var promoManager = {
+        url: '',
+        promoLoaded: false,
+                makeUrl: function (theme, site, win) {
+            var loc = win? win.location : window.location,
+                proto = loc.protocol,
+                host = loc.host,
+                url = proto + '//' + ((proto.match(/s:/i) && !host.match(/^www\.(int|test)\./i))? 'ssl.' : 'www.'),
+                themes = ['light', 'dark'];
+
+            if ( host.match(/^(?:www|ssl|m)\.(int|test|stage|live)\.bbc\./i) ) {
+                url += RegExp.$1 + '.';
+            }
+            else if ( host.match(/^pal\.sandbox\./i) ) {
+                url += 'test.';
+            }
+
+                        theme = themes[ +(theme === themes[0]) ];
+           
+           return url + 'bbc.co.uk/navpromo/card/' + site + '/' + theme;
+        },
+                init: function(node) {
+            var disabledByCookie = (document.cookie.indexOf('ckns_orb_nopromo=1') > -1),
+                that = this;
+            
+            if (window.promomanagerOverride) {
+                for (var p in promomanagerOverride) {
+                    that[p] = promomanagerOverride[p];
+                }
+            }
+                
+            if ( window.orb.fig('uk') && !disabledByCookie ) {
+                require(['orb/async/_footerpromo', 'istats-1'], function(promo, istats) {
+
+                    var virtualSite = istats.getSite() || 'default';
+                    that.url = (window.promomanagerOverride || that).makeUrl('light', virtualSite);
+
+                    if (that.url) { 
+                        promo.load(that.url, node, {
+                                                          onSuccess: function(e) {
+                                if(e.status === 'success') {
+                                    node.parentNode.className = node.parentNode.className + ' orb-footer-promo-loaded';
+                                    promoManager.promoLoaded = true;
+                                    promoManager.event('promo-loaded').fire(e);
+                                }
+                             },
+                             onError: function() {
+                                istats.log('error', 'orb-footer-promo-failed');
+                                bbccookies.set('ckns_orb_nopromo=1; expires=' + new Date(new Date().getTime() + 1000 * 60 * 10).toGMTString() + ';path=/;');
+                             }
+                        });   
+                    }
+                });
+            }
+        }
+    };
+    
+        
+    define('orb/promomanager', ['orb/lib/_event'], function (event) {
+        event.mixin(promoManager);
+        return promoManager;
+    });
+    
+    require(['orb/promomanager'], function (promoManager) {
+        promoManager.init(document.getElementById('navp-orb-footer-promo'));
+    })
+})();
+ 
+
+        require.config({
+            paths: {
+                "mybbc/templates": '//mybbc.files.bbci.co.uk/s/notification-ui/2.6.3-mvt/templates',
+                "mybbc/notifications": '//mybbc.files.bbci.co.uk/s/notification-ui/2.6.3-mvt/js'
+            }
+        });
+
+        require(['mybbc/notifications/NotificationsMain', 'idcta/idcta-1'], function (NotificationsMain, idcta) {
+            var loadNotifications = function (fig) {
+                if (fig.geo.isUK()) {
+                    NotificationsMain.run(idcta, '//mybbc.files.bbci.co.uk/s/notification-ui/2.6.3-mvt/');
+                }
+            };
+            var orbFig = window.orb.fig;
+            if (typeof orbFig.load === 'function') {
+                // Use new async API from Orbit
+                orbFig.load(loadNotifications, loadNotifications);
+            } else {
+                // Use old sync-only API from PAL orbfig project
+                loadNotifications(orbFig);
+            }
+        });
+     if (typeof require !== 'undefined') { require(['istats-1'], function(istats){ istats.track('external', { region: document.getElementsByTagName('body')[0] }); istats.track('download', { region: document.getElementsByTagName('body')[0] }); }); } 
+
+ if( window.SEARCHBOX.suppress === false && window.SEARCHBOX.locale && /^en-?.*?/.test(window.SEARCHBOX.locale) ){
+   require.config({
+     paths: {
+       "search/searchbox": window.SEARCHBOX.searchboxAppStaticPrefix
+     }
+   });
+
+   require(['search/searchbox/searchboxDrawer'], function(SearchboxDrawer) {
+     SearchboxDrawer.run(window.SEARCHBOX);
+   });
+ }
+
+    require(['orb/lib/_$', 'orb/nav', 'istats-1'], function($, nav, istats) {
+        if ('sport' === istats.getSite()) {
+            function addHomeLink() {
+                var homeLink = '<li class="orb-nav-home" id="orb-nav-home"><a href="http://www.bbc.co.uk/">Home</a></li>';
+                $('#orb-nav-links ul')[0].insertAdjacentHTML('afterbegin', homeLink);
+                nav.refresh();
+                istats.addLabels({orb_home_link: 'added'});
+            }
+
+            function removeHomeLink() {
+                $.addClass($('#orb-nav-home'), 'orb-nav-test-hide');
+                nav.refresh();
+                istats.addLabels({orb_home_link: 'hidden'});
+            }
+
+            function showHomeLink() {
+                $.removeClass($('#orb-nav-home'), 'orb-nav-test-hide');
+                nav.refresh();
+                istats.addLabels({orb_home_link: 'shown'});
+            }
+
+            function handleResize() {
+                if ($('.orb-nav-pri-container')[0].offsetWidth > 1100) {
+                    showHomeLink();
+                } else {
+                    removeHomeLink();
+                }
+            }
+
+            function _bootstrap(fig) {
+                if (fig.geo.isUK()) {
+
+                    addHomeLink();
+                    handleResize();
+
+                    $.addEvent(window, 'resize', handleResize);
+                    $.addEvent(window, 'orientationchange', function () {
+                        setTimeout(handleResize, 100);
+                    });
+
+                }
+            }
+
+            function bootstrap(fig) {
+                if (document.getElementById('orb-panel-more')) {
+                    _bootstrap(fig);
+                } else {
+                    $.ready(function() {
+                        _bootstrap(fig);
+                    });
+                }
+            }
+
+            var orbFig = window.orb.fig;
+            if (typeof orbFig.load === 'function') {
+                // Use new async API from Orbit
+                orbFig.load(bootstrap);
+            } else {
+                // Use old sync-only API from PAL orbfig project
+                bootstrap(orbFig);
+            }
+        }
+    });
+
+    #orb-header.orb-nav-pri .orb-nav-home a:active,#orb-header.orb-nav-pri .orb-nav-home a:focus,#orb-header.orb-nav-pri .orb-nav-home a:hover {
+        border-bottom-color: #007bc7;
+    }
+    .orb-nav-dyn .orb-nav-test-hide {
+       display: none;
+    }
+require(["istats-1","orb/cookies"],function(t,o){if(o.isAllowed("s1"))try{if(!require.s.contexts._.config.paths.idcta)return void t.invoke();require(["idcta/idcta-1"],function(o){o&&"function"==typeof o.getIStatsLabels&&t.addLabels(o.getIStatsLabels()),t.invoke()},function(t){throw t})}catch(o){console&&"function"==typeof console.log&&console.log("an exception occurred while adding idcta labels to istats, invoking istats without them",o),t.invoke()}});   window.old_onload = window.onload; window.onload = function() { if(window.old_onload) { window.old_onload(); } window.loaded = true; }; 
+    /** CONFIGURATION START **/
+    var _sf_async_config = {};
+    
+    _sf_async_config.uid = "50924";
+    _sf_async_config.domain = "www.bbc.co.uk";
+    _sf_async_config.sections = "News, News - business, News - STY, News - business - STY";
+    <!-- if page is an index, add the edition to the path -->
+    _sf_async_config.path = "bbc.co.uk/news/business-37891742";
+    
+        (function() {
+        var noCookies = true;
+        var cookiePrefix = '_chartbeat';
+        if ("object" === typeof bbccookies && typeof bbccookies.readPolicy == 'function') {
+            noCookies = !bbccookies.readPolicy().performance;
+        }
+        if (noCookies && document.cookie.indexOf(cookiePrefix) !== -1) {
+            //Find and remove cookies whose names begin with '_chartbeat'
+            var cookieSplit = document.cookie.split(';');
+            var cookieLength = cookieSplit.length;
+            while (cookieLength--) {
+                var cookie = cookieSplit[cookieLength].replace(/^\s+|\s+$/g, '');
+                var cookieName = cookie.split('=')[0];
+
+                if (cookieName.indexOf(cookiePrefix) === 0) {
+                    document.cookie = cookieName + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/;';
+                }
+            }
+        }
+        _sf_async_config.noCookies = noCookies;
+    }());
+
+    /** CONFIGURATION END **/
+    (function(){
+        function loadChartbeat() {
+            window._sf_endpt=(new Date()).getTime();
+            var e = document.createElement("script");
+            e.setAttribute("language", "javascript");
+            e.setAttribute("type", "text/javascript");
+            e.setAttribute('src', '//static.chartbeat.com/js/chartbeat.js');
+            document.body.appendChild(e);
+        }
+        var oldonload = window.onload;
+        window.onload = (typeof window.onload != "function") ?
+            loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    }());
+
+	var _comscore = _comscore || [];
+	_comscore.push({ c1: "2", c2: "17986528"});
+
+	(function() {
+		var s = document.createElement("script")
+			, el = document.getElementsByTagName("script")[0];
+		s.async = true;
+		s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+	})();
+
+	
+    

@@ -1,0 +1,836 @@
+
+            Design Principles for Reducing Cognitive Load - Marvel Blog        
+            var siteBase = 'https://marvelapp.com';
+            var headerEffect = 4;
+            var headerEffectMax = 8;
+        
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-72842863-1', 'auto');
+            ga('send', 'pageview');
+        
+    
+        
+            
+    
+        
+            
+                
+        
+
+        
+            
+                
+                    
+
+                
+                    
+                        
+                            Contribute to the blog
+                        
+                    
+                
+            
+        
+    
+
+
+
+    
+        
+                
+        
+        
+
+        
+                
+        
+        
+
+        
+                
+        
+        
+
+        
+                
+        
+        
+    
+
+
+    
+        
+            
+                
+                    Features
+                
+
+                
+                    Stories
+                
+
+                
+                    Explore
+                
+
+                
+                    Pricing
+                
+
+                
+                    Enterprise
+                
+
+                
+                    Blog
+                
+
+                
+                    Sign In
+                
+
+                
+                    Sign Up
+                
+            
+        
+    
+
+
+
+    
+    
+
+            
+    
+
+    
+        
+                
+        
+        
+
+        
+                
+        
+        
+
+        
+                
+        
+        
+
+        
+                
+        
+        
+    
+
+
+    
+    
+
+    
+
+    
+
+
+        
+            Design Principles for Reducing Cognitive Load        
+    
+
+    
+        
+                            
+                    Posted 1 week ago by 
+    Jon Yablonski                
+                    
+
+                    
+                                    
+                        Viewpoint                    
+                            
+            
+
+    Every time you visit a website, a process of learning is initiated in the brain. Whether it’s the navigation, layout, or that auto-rotating image slider on the homepage, your brain has to learn how to use the site while keeping track of the reason you came there in the first place. The mental effort required during this time is called cognitive load. Now the catch: the working memory in which this information is processed and stored is limited. Your brain begins to slow down or even abandon the task at hand when it receives more information than it can handle. Although cognitive load isn’t entirely avoidable, designers must strive to manage and accommodate these limits.
+What Causes Cognitive Load
+To understand how to reduce cognitive load, we must first understand what causes it. Generally speaking, the causes of cognitive load can be traced back to three main factors: 
+too many choices
+too much thought required
+lack of clarity
+Each of these factors will require processing and take up mental resources that don’t actually help users understand the content.
+Methods for Reducing Cognitive Load
+Now that we know the factors that increase cognitive load, let’s take a look at how we can reduce it. This is by no means a comprehensive list, but instead a few common principles that can help inform design decisions.
+Avoid Unnecessary Elements
+Like everything in design, less is more. Any element that isn’t helping the user achieve their goal, is actually working against them because they must process it and store it in working memory, alongside the things that will help them. Avoiding excessive colors, imagery, design flourishes, or layouts that don’t add value is crucial. But simplicity comes with a caveat: don’t overvalue it at the cost of clarity.
+“But simplicity comes with a caveat: don’t overvalue it at the cost of clarity.”
+Leverage Common Design Patterns
+By leveraging common design patterns when it makes sense, you are giving the user familiar elements which they already understand. This in turn reduces the amount of learning they need to do, thus enabling them to move right along and get closer to achieving their goal. My favorite sources for design pattern inspiration are Design Patterns on CodePen and the Blueprint Archives on Codrops.
+Eliminate Unnecessary Tasks
+Anywhere you are asking the user to read content, remember information or make a decision contributes to cognitive load. Whenever possible, it is good to shift these tasks away from the user and make it easier for them to stay focused on their goal. While it isn’t possible to remove all tasks, there is usually an opportunity to offload some task by setting defaults that can be edited, or leveraging previously entered information. Some companies are even taking this a step further with anticipatory design.
+Minimize Choices
+As previously mentioned, our working memory is limited. When confronted with too many choices, cognitive load will increase due to decision paralysis. It is important that we minimize the choices the user must make at any given moment, especially in places such as navigation, forms, and drop-downs.
+Display Choices as a Group
+When choices are split into separate groups and hidden, users often mistake the options that are visible as the complete group. This means that users are likely to never find the additional choices, which not only limits what is available to them, but also makes it more difficult to decide on which option to select because they are not aware of the alternatives. Therefore, it is best to eliminate the resulting cognitive load by always displaying choices as a group.
+Strive for Readability
+Making our content legible isn’t enough — we need to make it readable. This means our typography must be aesthetically pleasing, appropriate for the content and easy to read while design remains relatively invisible. By doing this, we can ensure there are as little distractions as possible for the user, which results in a better understanding of the content by the user.
+“Making our content legible isn’t enough — we need to make it readable.”
+Use Iconography with Caution
+Research has shown that iconography can be hard to memorize and, contrary to intuition, can increase cognitive load by requiring mental processing to infer meaning or recognize. While universally understood icons work well (ie. print, close, play/pause, reply, tweet, share on Facebook), most are subject to the user’s understanding based on previous experience (in which there is no standard). When leveraging the power of iconography, it is best to accompany them with text labels to communicate the meaning and reduce ambiguity.
+By following the principles above, you can drastically reduce the user’s cognitive load and ensure their attention isn’t being wasted on elements that do not help them. It is important to remember that the user has a goal, whether it is to buy a product, understand something or simply to learn more about the content. 
+“The less users have to think about what they must do to achieve their goal, the more likely they’ll achieve it.”
+This post was originally published on Jon’s Medium profile. 
+
+
+    
+    
+        
+
+    
+        
+            
+                Design and prototyping for everyone            
+        
+
+        
+            
+                Thousands of individuals and teams use Marvel to design and prototype ideas.            
+        
+
+        
+            Get Started, it's Free!        
+    
+
+    
+        
+
+    
+        
+            
+                
+                    
+                        
+                    
+                
+            
+
+            
+                
+                        
+        
+                
+
+                
+                        
+        
+                
+
+                
+                        
+        
+                
+
+                
+                        
+        
+                
+            
+        
+
+        
+            
+                
+    
+                    
+            
+                
+            
+            
+            
+
+            
+                
+                    
+    Jon Yablonski                
+            
+
+            
+                I’m a frontend designer focused on creating compelling digital experiences. Follow me on Twitter.            
+        
+    
+
+            
+                
+                    
+                        
+                            Good Stuff
+                        
+                    
+
+                    
+                        Related Posts
+                    
+                
+
+                
+                    
+    
+        
+            
+
+                    
+    
+
+
+
+
+    
+        
+
+
+            
+                    
+        Viewpoint    
+            
+        
+
+        
+    
+        
+            
+                Why I Design Enterprise UX, and You Should Too!            
+        
+
+                
+            
+                
+    
+                    
+            
+                
+            
+            
+            
+
+            
+                
+                    
+    Uday Gajendar                
+            
+        
+        
+        
+            It’s not “sexy” but who says it can’t be? Complexity and ambiguity can offer valuable moments for inspiring beautiful novelty in enterprise UX. It’s 2015. As I gaze back upon my circuitous career path, for over a dozen years, I’ve largely designed for desktop virtualization, corporate financials, and now cloud analytics for IT admins. B2B. Verticals. Enterprise. Whoa. It wasn’t… Read More ￫
+        
+    
+
+
+    
+        
+            Read more
+        
+    
+
+    
+
+
+    
+        
+            
+
+                    
+    
+
+
+
+
+    
+        
+
+
+            
+                    
+        Viewpoint    
+            
+        
+
+        
+    
+        
+            
+                Beating Procrastination            
+        
+
+                
+            
+                
+    
+                    
+            
+                
+            
+            
+            
+
+            
+                
+                    
+    Zell Liew                
+            
+        
+        
+        
+            Are you sick of procrastinating? I am. I have procrastinated a lot in my life, and I don’t want to procrastinate a moment further. But, somehow, procrastination always seem to creep up on me when I least expect it. Recently, I got stuck with a serious bout of procrastination that paralyzed me for two full days. I couldn’t get any… Read More ￫
+        
+    
+
+
+    
+        
+            Read more
+        
+    
+
+    
+
+
+    
+        
+            
+
+                    
+    
+
+
+
+
+    
+        
+
+
+            
+                    
+        Viewpoint    
+            
+        
+
+        
+    
+        
+            
+                In Defense of Homogeneous Design            
+        
+
+                
+            
+                
+    
+                    
+            
+                
+            
+            
+            
+
+            
+                
+                    
+    Yaron Schoen                
+            
+        
+        
+        
+            The whole “Homogeneity of Design” topic is creeping up again. That’s cool. We’re all special flowers in our own way. But I’d like to make a few points about product design, as I see it. “In digital product design, industry wide established paradigms are good” The first thing I’d like to say is that I am a very visual person…. Read More ￫
+        
+    
+
+
+    
+        
+            Read more
+        
+    
+
+    
+
+                
+            
+        
+    
+    
+        
+            
+                Features
+            
+
+            
+                Stories
+            
+
+            
+                Explore
+            
+
+            
+                Pricing
+            
+
+            
+                Enterprise
+            
+
+            
+                Blog
+            
+
+            
+                Contribute
+            
+
+            
+                Sign In
+            
+
+            
+                Sign Up
+            
+        
+    
+
+    
+        
+        
+    
+
+
+    
+        
+            
+                
+                    
+                        
+                
+            
+
+            
+                
+                    
+                        
+                            
+                                
+                                    Product
+                                
+                            
+
+                            
+                                
+                                    Features
+                                
+                            
+
+                            
+                                
+                                    Explore
+                                
+                            
+
+                            
+                                
+                                    Pricing
+                                
+                            
+
+                            
+                                
+                                    Apps
+                                
+                            
+
+                            
+                                
+                                    Marvel for iOS
+                                
+                            
+                        
+                    
+                
+
+                
+                    
+                        
+                            
+                                Company
+                            
+                        
+
+                        
+                            
+                                Stories
+                            
+                        
+
+                        
+                            
+                                About Us
+                            
+                        
+
+                        
+                            
+                                Blog
+                            
+                        
+
+                        
+                            
+                                Careers
+                            
+                        
+
+                        
+                            Twitter
+                        
+                    
+                
+            
+
+            
+                
+                    
+                        
+                            
+                                
+                                    Bits
+                                
+                            
+
+                            
+                                
+                                    Help Center
+                                
+                            
+
+                            
+                                
+                                    Enterprise
+                                
+                            
+
+                            
+                                
+                                    Terms of Service
+                                
+                            
+
+                            
+                                
+                                    Privacy
+                                
+                            
+
+                            
+                                Styleguide
+                            
+                        
+                    
+                
+
+                
+                    
+                        
+                            
+                                More
+                            
+                        
+
+                        
+                            
+                                Android App Builder
+                            
+                        
+
+                        
+                            
+                                Apple Watch
+                            
+                        
+
+                        
+                            
+                                Embed Prototypes
+                            
+                        
+
+                        
+                            
+                                Sketch Prototyping
+                            
+                        
+
+                        
+                            User Testing
+                        
+                    
+                
+            
+
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                            
+
+                            
+                                
+                                    
+                            
+
+                            
+                                
+                                    
+                            
+                        
+                    
+                
+            
+        
+    
+
+    
+        
+            
+                
+            
+
+            
+                
+                    
+                        
+                            Contribute to the blog
+                        
+                    
+
+                    
+                        
+                            Got a great post you've written that would benefit our awesome community of 500,000 readers? Or maybe you've just got an idea in the works? Let us know!
+                        
+                    
+
+                    
+                        
+                            
+                                
+
+                            
+                        
+
+                        
+                            
+                                
+
+                            
+                        
+
+                        
+                            
+                                
+
+                            
+                        
+
+                        
+                            
+                                
+
+                            
+                        
+
+                        
+                            Submit your idea
+                        
+                    
+
+                    
+                          
+                            
+                                
+                                    
+                                        
+                                
+
+                                
+                                    
+                                        Thank you!
+                                    
+                                
+
+                                
+                                    
+                                        Someone from our team will be in touch shortly.
+                                    
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+
+
+    
+        
+            
+                
+            
+
+            
+                
+                    
+                        
+                            Looking for the best stories in the design world?
+                        
+                    
+
+                    
+                        
+                            We’ve got your back! Subscribe below and get them delivered right to your inbox every week.
+                        
+                    
+
+                    
+                        
+                            
+                                
+                        
+
+                        
+                            Subscribe Now
+                        
+                    
+                
+            
+        
+    
+
+    
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"marvelapp"};
+/* ]]> */
+
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:260784,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+

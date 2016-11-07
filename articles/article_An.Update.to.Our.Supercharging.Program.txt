@@ -1,0 +1,595 @@
+Blog | Tesla
+<!--/*--><![CDATA[/*><!--*/
+.has-sticky-footer .nav-sticky--footer-buttons{top:inherit;}
+
+/*]]>*/-->
+
+<!--//--><![CDATA[//><!--
+    (function(d, s) {
+       var js = d.createElement(s),
+           sc = d.getElementsByTagName(s)[0];
+       js.src = "/libraries/boomerang/boomerang-0.9.1466026245.js";
+       sc.parentNode.insertBefore(js, sc);
+    }(document, "script"));
+//--><!]]>
+
+<!--//--><![CDATA[//><!--
+var Tesla = Tesla || {};
+Tesla.user = {"username":"","email":"","first_name":"","last_name":""};
+//--><!]]>
+
+<!--//--><![CDATA[//><!--
+document.createElement( "picture" );
+//--><!]]>
+
+<!--//--><![CDATA[//><!--
+var Tesla = Tesla || {};
+Tesla.Smartling = Tesla.Smartling || {};
+
+//--><!]]>
+
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"tesla_theme","theme_token":"Gah637c6zG1Hi3TrmO5bQGAGNHI14WT-0mHlYqo7cYg","jquery_version":"1.8","js":{"sites\/all\/themes\/custom\/tesla_theme\/js\/script.js":1,"sites\/all\/themes\/custom\/tesla_theme\/js\/ip_lookup_script\/ip_lookup.js":1,"sites\/all\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1,"0":1,"1":1,"2":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/themes\/custom\/tesla_theme\/js\/modernizr-2.6.2-respond-1.1.0.min.js":1,"sites\/all\/themes\/custom\/tesla_theme\/js\/selectivizr-min.js":1,"sites\/all\/libraries\/underscore\/underscore-min.js":1,"sites\/all\/libraries\/fitvids\/jquery.fitvids.js":1,"sites\/all\/themes\/custom\/tesla_theme\/js\/common_functions.js":1,"sites\/all\/libraries\/tesla_lib\/geoip\/geoip.min.js":1,"sites\/all\/libraries\/tesla_lib\/js\/utils.js":1,"sites\/all\/libraries\/accounting\/accounting.min.js":1,"sites\/all\/libraries\/tesla_lib\/js\/localize.js":1,"sites\/all\/themes\/custom\/tesla_theme\/js\/footer.js":1,"sites\/all\/themes\/custom\/tesla_theme\/js\/retina_tesla.js":1,"sites\/all\/libraries\/ba-debug\/ba-debug.min.js":1,"sites\/all\/themes\/custom\/tesla_theme\/js\/template.js":1,"sites\/all\/libraries\/browser_detect\/browser_detect.js":1,"sites\/all\/themes\/custom\/tesla_theme\/js\/common.js":1,"sites\/all\/themes\/custom\/tesla_theme\/js\/scripts-for-header.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"3":1,"sites\/all\/modules\/contrib\/fitvids\/fitvids.js":1,"sites\/all\/modules\/custom\/tesla_modal\/js\/bootstrap-modals.js":1,"sites\/all\/modules\/custom\/cache_buster\/cache_buster.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/themes\/custom\/tesla_theme\/js\/user\/tesla-user-common.js":1,"4":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/contrib_patched\/views_load_more\/views_load_more.js":1,"sites\/all\/modules\/custom\/tesla_config_forms\/js\/parsley\/parsley.min.js":1,"sites\/all\/modules\/custom\/tesla_config_forms\/js\/parsley\/parsley.notequalto.js":1,"sites\/all\/modules\/custom\/tesla_insider\/js\/tesla_insider_scripts.js":1},"css":{"sites\/all\/themes\/custom\/tesla_theme\/css\/styles.css":1,"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/fitvids\/fitvids.css":1,"sites\/all\/modules\/contrib_patched\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"public:\/\/ctools\/css\/882a82b61bab3ba5d9d0b3da522e519f.css":1,"sites\/all\/themes\/custom\/tesla_theme\/plugins\/layouts\/blog_list_template\/blog_list_template.css":1,"0":1,"sites\/default\/files\/honeypot\/honeypot.css":1,"sites\/all\/themes\/custom\/tesla_theme\/plugins\/layouts\/default_template\/default_template.css":1,"sites\/all\/themes\/custom\/tesla_theme\/plugins\/layouts\/footer_minipanel\/footer_minipanel.css":1,"sites\/all\/themes\/custom\/tesla_theme\/plugins\/layouts\/header_minipanel\/header_minipanel.css":1,"sites\/all\/themes\/custom\/tesla_theme\/css\/modals\/tesla_insider.css":1,"sites\/all\/themes\/custom\/tesla_theme\/css\/modals\/simple_get_updates.css":1,"sites\/all\/themes\/custom\/tesla_theme\/system.menus.css":1,"sites\/all\/themes\/custom\/tesla_theme\/system.theme.css":1,"sites\/all\/themes\/custom\/tesla_theme\/flexslider.css":1,"sites\/all\/themes\/custom\/tesla_theme\/flexslider_img.css":1,"sites\/all\/themes\/custom\/tesla_theme\/field.css":1,"sites\/all\/themes\/custom\/tesla_theme\/css\/blog\/_wildcard_\/wildcard.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:b5311094a3aa948d74ce3def53a067f5":{"view_name":"articles","view_display_id":"block_1","view_args":"","view_path":"blog\/update-our-supercharging-program","view_base_path":"articles-blog-dashboard","view_dom_id":"b5311094a3aa948d74ce3def53a067f5","pager_element":0},"views_dom_id:e7a73a41ccaa69248aa1906f6f28c971":{"view_name":"articles","view_display_id":"block_2","view_args":"","view_path":"blog\/update-our-supercharging-program","view_base_path":"articles-blog-dashboard","view_dom_id":"e7a73a41ccaa69248aa1906f6f28c971","pager_element":0}}},"better_exposed_filters":{"views":{"articles":{"displays":{"block_1":{"filters":[]},"block_2":{"filters":[]}}}}},"urlIsAjaxTrusted":{"\/blog\/update-our-supercharging-program":true,"\/system\/ajax":true},"fitvids":{"custom_domains":[],"selectors":[".file-video"],"simplifymarkup":1},"ajax":{"edit-submit-ti-ajax":{"callback":"_ajax_tesla_insider_callback","wrapper":"tesla_insider_form","event":"submit_form","progress":{"type":"none"},"url":"\/system\/ajax","submit":{"_triggering_element_name":"ajax-submit","_triggering_element_value":"Sign Up"}},"edit-submit-ti-ajax--2":{"callback":"_ajax_tesla_insider_get_updates_callback","wrapper":"tesla_insider_get_updates_form","progress":{"type":"none"},"event":"mousedown","keypress":true,"prevent":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"ajax-submit","_triggering_element_value":"Sign Up"}}},"tesla":{"country":"US","region":"US","superRegion":"north america","localePrefix":"","baseUrl":"https:\/\/www.tesla.com","pathAlias":"blog\/update-our-supercharging-program","isFront":false,"isProduction":true,"locale":"en_US"},"SharingCookies":{"AcrossDomain":".tesla.com"}});
+//--><!]]>
+
+                   
+            
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+            {'gtm.start': new Date().getTime(),event:'gtm.js'}
+            );var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-KMG5DM');
+            
+                
+    
+                    
+  
+      
+  
+  
+        
+                            
+                    
+  
+      
+  
+  
+    Tesla Motors  
+
+  
+  
+                
+                                        
+                    
+                                                    
+                                
+  
+      
+  
+  
+    Charging
+充電について
+Destination Charging
+UpdatesBlog
+Videos
+Press
+Customer Stories
+Events
+Get Updates
+
+Support
+Find Us
+Events
+Shop
+My Tesla
+
+
+  
+  
+                                
+                                                                            
+                                
+  
+      
+  
+  
+    
+.i18n-ja_JP .hide-for-i18n-ja_JP {
+  display: none; 
+}
+.i18n-en_AU .hide-for-non-jp,
+.i18n-en_HK .hide-for-non-jp,
+.i18n-zh_HK .hide-for-non-jp,
+.i18n-en_MO .hide-for-non-jp,
+.i18n-zh_MO .hide-for-non-jp,
+.i18n-zh_TW .hide-for-non-jp,
+.i18n-ko_KR .hide-for-non-jp {
+  display:none;
+}
+
+
+  
+  
+
+  
+      
+  
+  
+    Model S
+Model X
+Model 3
+Powerwall
+Energy
+
+
+  
+  
+                                
+                                            
+                
+                Mobile Menu
+                    
+    
+
+  
+  
+        
+                
+                
+  
+      
+  
+  
+        
+
+  
+
+  
+  
+            
+        
+                
+  
+      
+  
+  
+    
+    
+
+                    
+                    
+                                                    
+                                
+  
+      
+  
+  
+    Blog  
+
+  
+  
+                            
+                        
+                                                    
+                                
+                                                                            
+                                            
+  
+      
+  
+  
+    Blog
+Videos
+Press
+Customer Stories
+Events
+Get Updates
+
+
+  
+  
+                                        
+                                                                                                                
+                                            
+  
+      
+  
+  
+    
+  Search 
+ 
+  
+
+  
+  
+                                        
+                                                                    
+                            
+                                            
+                
+            
+                    
+  
+      
+  
+  
+    
+        
+  
+  
+      
+        November2016
+
+          
+      
+        An Update to Our Supercharging Program
+    
+        The Tesla Team                    November 7, 2016
+            
+    Four years ago, Tesla introduced the Supercharger Network – the world’s fastest charging solution – to enable convenient long distance travel. Today, more than 4,600 Superchargers allow over 160,000 Tesla owners to drive across the continental U.S., from the Arctic Circle to the south of Spain, and across all of the population centers in China and Japan, among many other places. Supercharging has even helped owners drive their Teslas around the world.
+    
+        Continue reading
+    
+    
+                    0 comments
+                    
+
+
+    
+          
+      
+        Tesla's Statement on ISS's Support of the SolarCity Acquisition
+    
+        The Tesla Team                    November 4, 2016
+            
+    We very much appreciate that Institutional Shareholder Services (ISS), following an in-depth examination of both companies, recommends in favor of Tesla's acquisition of SolarCity.
+    
+        Continue reading
+    
+    
+                    0 comments
+                    
+
+
+    
+          
+      
+        Tesla and SolarCity
+    
+                            November 1, 2016
+            
+    Our Mission, Our Vision, and Our Products This year, CO2 concentration levels permanently exceeded the alarming 400 parts per million threshold.  Many climate scientists believe this level will have a catastrophic impact on the environment.  According to NASA, 2016 had the warmest September in 136 years of modern record-keeping.
+    
+        Continue reading
+    
+    
+                    0 comments
+                    
+
+
+    
+  
+
+  October2016
+
+          
+      
+        Gaining Momentum with Tesla Powerpack
+    
+        The Tesla Team                    October 27, 2016
+            
+    Ahead of tomorrow’s solar roof and Powerwall announcement, we wanted to provide some exciting updates on our commercial and utility energy product, Tesla Powerpack. 
+    
+        Continue reading
+    
+    
+                    0 comments
+                    
+
+
+    
+          
+      
+        All Tesla Cars Being Produced Now Have Full Self-Driving Hardware
+    
+        The Tesla Team                    October 19, 2016
+            
+    Self-driving vehicles will play a crucial role in improving transportation safety and accelerating the world’s transition to a sustainable future. Full autonomy will enable a Tesla to be substantially safer than a human driver, lower the financial cost of transportation for those who own a car and provide low-cost on-demand mobility for those who do not.
+
+    
+        Continue reading
+    
+    
+                    0 comments
+                    
+
+
+    
+          
+      
+        Tesla and Panasonic to Collaborate on Photovoltaic Cell and Module Production in Buffalo, New York
+    
+        The Tesla Team                    October 16, 2016
+            
+    Tesla and Panasonic have entered into a non-binding letter of intent under which they will begin collaborating on the manufacturing and production of photovoltaic (PV) cells and modules in Buffalo, New York. Under this agreement, which is contingent upon shareholders' approval of Tesla’s acquisition of SolarCity, Tesla will use the cells and modules in a solar energy system that will work seamlessly with Powerwall and Powerpack, Tesla’s energy storage products. With the aid of installation, sales and financing capabilities from SolarCity, Tesla will bring an integrated sustainable energy solution to residential, commercial, and grid-scale customers.
+    
+        Continue reading
+    
+    
+                    0 comments
+                    
+
+
+    
+          
+      
+        Update on Tesla’s Combination with SolarCity
+    
+        The Tesla Team                    October 12, 2016
+            
+    Today, Tesla and SolarCity took another significant step towards combining the companies. Each company set November 17, 2016 as the date of its shareholder meeting to vote on the acquisition and final proxy materials are now being mailed to each company’s shareholders.If shareholders approve the transaction, a combined Tesla and SolarCity will be able to provide the first ever opportunity to generate, store and consume energy entirely sustainably, through a suite of integrated products that add aesthetics and function while reducing cost. By leveraging SolarCity’s installation network and Tesla’s global retail footprint, we can do this in a way that is seamless for our customers and that we expect will create significant value for our shareholders.
+    
+        Continue reading
+    
+    
+                    0 comments
+                    
+
+
+    
+  
+
+  September2016
+
+          
+      
+        Addressing Peak Energy Demand with the Tesla Powerpack
+    
+        The Tesla Team                    September 15, 2016
+            
+    Last October, a catastrophic rupture in the Aliso Canyon natural gas reservoir caused a methane gas spill that displaced more than 8,000 Californians and released an unprecedented 1.6 million pounds of methane into the atmosphere. Today, the Aliso Canyon leak is considered the worst in U.S. history, with aggregate greenhouse gas emissions said to outweigh those of the 2010 Deepwater Horizon oil spill.
+    
+        Continue reading
+    
+    
+                    0 comments
+                    
+
+
+    
+          
+      
+        Upgrading Autopilot: Seeing the World in Radar
+    
+        The Tesla Team                    September 11, 2016
+            
+    While there are dozens of small refinements with Version 8 of our software, described in addendum below, the most significant upgrade to Autopilot will be the use of more advanced signal processing to create a picture of the world using the onboard radar. The radar was added to all Tesla vehicles in October 2014 as part of the Autopilot hardware suite, but was only meant to be a supplementary sensor to the primary camera and image processing system.
+    
+        Continue reading
+    
+    
+                    0 comments
+                    
+
+
+    
+  
+
+  August2016
+
+          
+      
+        New Tesla Model S Now the Quickest Production Car in the World
+    
+        The Tesla Team                    August 23, 2016
+            
+    The Model S P100D with Ludicrous mode is the third fastest accelerating production car ever produced, with a 0-60 mph time of 2.5 seconds. However, both the LaFerrari and the Porsche 918 Spyder were limited run, million dollar vehicles and cannot be bought new. While those cars are small two seaters with very little luggage space, the pure electric, all-wheel drive Model S P100D has four doors, seats up to 5 adults plus 2 children and has exceptional cargo capacity.
+    
+        Continue reading
+    
+    
+                    0 comments
+                    
+
+
+    
+  
+
+    
+  
+      Show more posts
+  
+  
+  
+  
+  
+  
+
+  
+  
+                
+            
+                    
+  
+      
+  
+  
+    Read more in Model S, Model X, Supercharger, Stores, Safety  
+
+  
+  
+                
+            
+
+            
+  
+      
+  
+  
+    
+
+        
+          Get Updates
+          Stay informed with future updates
+                    Test Drive
+                    Order Yours
+        
+    
+
+
+  
+  
+    
+  
+
+  
+  
+            
+        
+
+
+    
+            
+              
+                
+    
+        Tesla Motors © 2016
+
+        
+        Privacy & Legal
+
+                Contact
+        Careers
+
+                    Forums
+        
+                    Locations
+        
+        Sign Out
+
+        
+            ▾
+        
+    
+
+    
+    
+
+
+    
+    ▾
+
+    
+    
+        
+          
+                        
+                Close
+            
+                                    
+              
+            
+                North America
+                USA
+                    Canada (En)
+                    Canada (Fr)
+                    México
+                
+            
+                Europe
+                Belgique
+                    België
+                    Danmark
+                    Deutschland
+                    France
+                    Great Britain
+                    Ireland
+                    Italia
+                    Luxembourg
+                Nederland
+                    Norge
+                    Österreich
+                    Schweiz
+                    Suisse
+                    Svizzera
+                    Sverige
+                    Suomi
+                    Other Europe
+                
+            
+                Asia/Pacific
+                Australia
+                    中国
+                    Hong Kong
+                    香港
+                    日本
+                    Macau
+                    澳門
+                    台灣
+                    대한민국
+                
+                    
+                    
+    
+
+
+              
+            
+
+
+        
+    
+
+
+            
+        
+        
+    
+        
+          
+                        
+                Close
+            
+                                        
+                    Become a Tesla Insider
+                
+                        
+              
+  Get Updates 
+ 
+
+  Leave this field blank 
+ 
+            
+                    
+    
+
+
+    
+        
+          
+                        
+                Close
+            
+                                        
+                    Get Updates
+                
+                        
+              
+  Email Address 
+ 
+            
+                    
+    
+
+
+<!--//--><![CDATA[//><!--
+                $.ajax({
+                    url: '//munchkin.marketo.net/munchkin.js',
+                    dataType: 'script',
+                    cache: true,
+                    success: function() { Munchkin.init('929-KIG-197'); }
+                });
+//--><!]]>
+

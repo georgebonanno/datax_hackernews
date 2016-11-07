@@ -1,0 +1,553 @@
+How the world’s first Wikidata Visiting Scholar created linked open data for five thousand works of art – Wikimedia Blog
+		/* <![CDATA[ */
+			if ( 'function' === typeof WPRemoteLogin ) {
+				document.cookie = "wordpress_test_cookie=test; path=/";
+				if ( document.cookie.match( /(;|^)\s*wordpress_test_cookie\=/ ) ) {
+					WPRemoteLogin();
+				}
+			}
+		/* ]]> */
+		
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s1.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1473172720h&ver=4.6.1-RC1-38499"}};
+			!function(a,b,c){function d(a){var c,d,e,f,g,h=b.createElement("canvas"),i=h.getContext&&h.getContext("2d"),j=String.fromCharCode;if(!i||!i.fillText)return!1;switch(i.textBaseline="top",i.font="600 32px Arial",a){case"flag":return i.fillText(j(55356,56806,55356,56826),0,0),!(h.toDataURL().length<3e3)&&(i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,65039,8205,55356,57096),0,0),c=h.toDataURL(),i.clearRect(0,0,h.width,h.height),i.fillText(j(55356,57331,55356,57096),0,0),d=h.toDataURL(),c!==d);case"diversity":return i.fillText(j(55356,57221),0,0),e=i.getImageData(16,16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57343),0,0),e=i.getImageData(16,16,1,1).data,g=e[0]+","+e[1]+","+e[2]+","+e[3],f!==g;case"simple":return i.fillText(j(55357,56835),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode8":return i.fillText(j(55356,57135),0,0),0!==i.getImageData(16,16,1,1).data[0];case"unicode9":return i.fillText(j(55358,56631),0,0),0!==i.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity","unicode9"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+		var ajaxurl = "https:\/\/wikimediablog.wordpress.com\/wp-admin\/admin-ajax.php";
+	
+		!function () {
+			function supportsSVG() { return !!document.createElementNS && !! document.createElementNS('http://www.w3.org/2000/svg', 'svg').createSVGRect }
+			if (supportsSVG()) document.documentElement.className += ' svg'
+		}();
+
+		var comments_per_page = 20;
+	
+
+	
+		
+				Wikimedia Blog
+				
+				
+					
+				
+				
+				
+					
+						
+	
+		Search for:
+		
+		
+	
+						
+					
+											Community
+Wikipedia
+Foundation
+Technology
+
+			
+		
+		
+	
+	
+		
+			
+	
+			Share		
+
+		
+			
+				
+			
+		
+
+		
+			
+				
+			
+		
+
+		
+			
+				
+			
+		
+	
+				
+		Photo by Yummifruitbat, CC BY-SA 2.5.
+
+							
+			
+	
+
+
+	
+		Community, Featured, Wikidata
+
+				How the world’s first Wikidata Visiting Scholar created linked open data for five thousand works of art				
+				
+					
+	By Jason Evans, National Library of Wales Simon Cobb, National Library of Wales 	
+			
+		 
+	November 5th, 2016				
+
+				
+					Simon Cobb, the world’s first Wikidata Visiting Scholar, was given access to metadata at the National Library of Wales and has created perhaps the most detailed linked data set ever seen for a complete art collection.
+				
+				
+			
+				
+					 
+A demonstration of some of the data recorded and converted to Wikidata for each image in the collection. Underlying lithograph by W. Crane, public domain/CC0.
+The National Library of Wales has been sharing images openly on Wikimedia Commons for about two years, through its own Wikipedian in residence, so that they can be added to Wikipedia articles and freely reused by everyone for any purpose.
+Along the way, the library realised they had a large amount of cataloguing data for some of the collections they were sharing. This metadata was not easily accessible and couldn’t be explored or visualised in any meaningful way. They decided to port all the information they had about their collection of Welsh Landscape prints into Wikidata—free, open, linked data which anyone can access, interpret and visualise.
+From 1750 to 1850, Wales gained popularity as a destination for visiting artists like J M W Turner, thanks in part to prior efforts by painter Richard Wilson, a prominent figure in the early history of British landscape painting who drew attention to the scenery of his native country. The simultaneous rise of the print industry meant that these works of art were reproduced using an array of different printmaking techniques for the first time. The result is a fantastic collection of views that includes towns, castles, rivers, waterfalls, mountains, lakes, country houses, churches, cathedrals and many other interesting features of the Welsh landscape and a chronological record of the developments in printmaking.
+The world’s first Wikidata Visiting Scholar
+This project presented a unique opportunity to create detailed linked data for an entire collection, complete with openly licensed images and data about each artist and engraver, along with the places, people and things the images depict.
+In order to achieve this goal, the National Library of Wales handed their data over to Cobb, the Visiting Scholar, who began the task of converting it into items, properties and qualifiers.
+Simon Cobb (Sic19)  at a Wikidata edit-a-thon at the National Library of Wales. Photo courtesy of the National Library of Wales.
+Cobb needed to create Wikidata items for each of the 4,650 images in the collection, match up each of the collection’s 586 artists and engravers with existing data, and create new entries for artists who were not yet recorded in Wikidata. He would also need to convert 1480 different descriptive tags into Wikidata items.
+To do this, Cobb had to research many of the artists and publishers in order to create the data, and in many cases he was able to link the Wikidata item to the Virtual International Authority File (VIAF). Authority control ensures that works by a particular creator are entered under a uniform heading and that each heading is unique, which is important to prevent works by more than one creator being entered under a heading. Creating a link between Wikidata and other authority records also help connect data sets together, making it easier to discover, add and improve Data in the future
+The power of linked data
+Despite the scale of the task at hand Simon has now completed his exciting challenge and the results are fascinating. When asked about the power of this linked data Simon said:
+Obviously I’m delighted that it is now possible to plot the locations depicted in the Welsh Landscape Collection on a map, browse the prints in a variety of ways, including by subject, county or artist, and visualise the quantitative aspects of the Collection, such as the number of works by an artist or places most frequently depicted. However, it is important not to overlook some of the more mundane uses of the Wikidata, like the ability to generate lists that can be sorted by particular properties.
+Locations depicted in the Welsh Landscape collection depicted on a map.
+First, the artwork and metadata that comes with it are available to all, and it is hoped that this will encourage innovative reuse, visualisation, and interpretation, as has been demonstrated by the work of other ‘open’ cultural institutions like the Rijksmuseum and by the British Libraries BL Labs initiative.
+Second, it is now possible to easily analyse the data in ways that was not possible before. For example, we now know that castles are by far the most frequently depicted subject in the collection, followed at a distance by rivers and ruins. Conwy Castle is depicted more than any other. Also to be found are 158 images people fishing, 101 images of sheep, and two images of fox hunting.
+
+As each item is comprised of statements that describe the entity’s properties, we can run queries that would not have previously been possible. This opens up answers to questions ranging from birthplaces of the artists and images created by members of the clergy, to tracing the development of the print trade in Wales and beyond.
+Chart showing the physical location of publishers involved in publishing prints in the Welsh Landscape Collection.
+The vast majority of the artists and publishers responsible for the prints in the collection have been identified and linked to a Wikidata item. This has revealed that the prints were produced by 489 engravers, after the work of 217 artists, and were issued by 362 publishers. Although there are 52 different places of publication, 32 of which are in Wales, more than half of the prints (2,562 prints) were published in London, with Chester (124 prints) and Bangor (96 prints) being the most frequent provincial and Welsh publishing location, respectively.
+New tools are being developed for visualising data, which are increasingly sophisticated and more user-friendly. Many of these tools are free to use and can be used to discover cultural data in new ways. Histropedia, for instance, has been developing a timeline tool which uses Wikidata. Here, the Welsh Landscape Collection is organised chronologically on a timeline.
+
+What’s next?
+The National Library of Wales is excited about the opportunities for collaboration and creative re-use that comes from sharing such rich data without restrictions, and is looking into holding a hackathon in the near future in order to encourage reuse of Library content on Wikidata and Wikimedia Commons.
+Simon is keen to continue working with the National Library as a Wikidata Visiting Scholar, and the Library is looking forward to supporting him in his work by providing access to its cultural data.
+Jason Evans, Wikimedian in residenceSimon Cobb, Wikidata Visiting ScholarNational Library of Wales
+				
+			
+			
+			
+	
+		2 Comments on How the world’s first Wikidata Visiting Scholar created linked open data for five thousand works of art
+	
+
+	
+		
+			
+				
+		
+			Anon 49 mins
+			Hi could you please not use URL shorteners? I understand that the links are long, but you lock them into a proprietary service that is liable to go down any time. This is in opposition to WIkimedia’s goals and encourages linkrot. Otherwise cool work by Simon, glad the National Library of Wales let him work on that.
+
+			
+								Share
+			
+		
+		
+		
+			Tyrn 2 hours
+			Awesome work! Thanks for sharing.
+
+			
+								Share
+			
+		
+			
+		
+							
+			
+	
+						
+			Leave a Reply Cancel reply				
+					
+	Enter your comment here...
+	
+
+
+
+
+	
+		Fill in your details below or click an icon to log in:
+		
+				
+					
+				
+			
+			
+				
+					
+				
+			
+			
+				
+					
+				
+			
+			
+				
+					
+				
+			
+			
+		
+
+	
+		
+			
+							
+
+				
+				
+					Email (required) (Address never made public)
+					
+				
+				
+					Name (required)
+					
+				
+				
+					Website
+					
+				
+			
+	
+		
+	
+
+	
+		
+			
+				
+
+				
+				 You are commenting using your WordPress.com account. ( Log Out / Change )
+			
+	
+		
+	
+
+	
+		
+			
+				
+
+				
+				 You are commenting using your Twitter account. ( Log Out / Change )
+			
+	
+		
+	
+
+	
+		
+			
+				
+
+				
+				 You are commenting using your Facebook account. ( Log Out / Change )
+			
+	
+		
+	
+
+	
+		
+			
+				
+
+				
+				 You are commenting using your Google+ account. ( Log Out / Change )
+			
+	
+		
+	
+
+
+	
+		Cancel
+		Connecting to %s
+	
+
+
+
+
+var highlander_expando_javascript = function(){
+	var input = document.createElement( 'input' ),
+	    comment = jQuery( '#comment' );
+
+	if ( 'placeholder' in input ) {
+		comment.attr( 'placeholder', jQuery( '.comment-textarea label' ).remove().text() );
+	}
+
+	// Expando Mode: start small, then auto-resize on first click + text length
+	jQuery( '#comment-form-identity' ).hide();
+	jQuery( '#comment-form-subscribe' ).hide();
+	jQuery( '#commentform .form-submit' ).hide();
+
+	comment.css( { 'height':'10px' } ).one( 'focus', function() {
+		var timer = setInterval( HighlanderComments.resizeCallback, 10 )
+		jQuery( this ).animate( { 'height': HighlanderComments.initialHeight } ).delay( 100 ).queue( function(n) { clearInterval( timer ); HighlanderComments.resizeCallback(); n(); } );
+		jQuery( '#comment-form-identity' ).slideDown();
+		jQuery( '#comment-form-subscribe' ).slideDown();
+		jQuery( '#commentform .form-submit' ).slideDown();
+	});
+}
+jQuery(document).ready( highlander_expando_javascript );
+
+	Notify me of new comments via email.Notify me of new posts via email.
+
+
+
+
+
+				
+					
+			
+
+			
+
+	
+
+	Get Connected
+				
+					
+				
+			
+						
+				
+					
+				
+			
+						
+				
+					
+				
+			
+						
+				
+					
+				
+			
+						
+				
+					
+				
+			
+			Get our email updates
+		
+		
+			
+			    
+					
+						
+					
+					
+
+					
+					    Daily update
+							Weekly update
+						
+
+					
+						
+						
+					    
+					
+				    
+			    
+			    
+			
+		
+		(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);Meet our community			
+						
+															
+
+						
+							For freedom of information: Allan Aguilar
+						
+					
+									
+						
+															
+
+						
+							A passion for hurricanes and video games: Brenden Moses
+						
+					
+							
+										More Community Profiles
+				
+				Most viewed this month			
+						
+							Wikipedia community and Internet Archive partner to fix one million broken links on Wikipedia
+						
+
+						More than one million formerly broken...					
+									
+						
+							Wikimedia Foundation welcomes Victoria Coleman as Chief Technology Officer
+						
+
+						Victoria brings more than 20 years...					
+									
+						
+							In worldwide vote, Wikimedia users select extraordinary picture of the year
+						
+
+						1,322 pictures. 56 finalists. One winner....					
+							ArchivesNovember 2016 (5)
+	October 2016 (29)
+	September 2016 (24)
+	August 2016 (26)
+	July 2016 (25)
+Older Posts (2341)	2016 (266)
+	2015 (323)
+	2014 (306)
+	2013 (403)
+	2012 (414)
+	2011 (258)
+	2010 (124)
+	2009 (178)
+	2008 (69)
+Write for the blog			Share your experience with Wikimedia to readers around the world. Learn more
+		Work at Wikimedia			Work with the foundation that supports Wikipedia and its sister projects around the world. 
+Apply and join us
+		Visit the store			
+The Wikipedia store features many new items, such as plantable "sprout" pencils and "free knowledge" T-shirts. Visit store
+			
+
+		
+			
+				
+					
+											
+															Wikimedia Foundation
+							
+							The Wikimedia Foundation, Inc is a nonprofit charitable organization dedicated to encouraging the growth, development and distribution of free, multilingual content, and to providing the full content of these wiki-based projects to the public free of charge. Get Involved | Log In
+						
+										
+											
+							
+																	Wikimedia Projects
+								
+								The Wikimedia Foundation operates some of the largest collaboratively edited reference projects in the world.
+
+																	Wikipedia
+Commons
+MediaWiki
+Wikibooks
+Wikidata
+Wikinews
+Wikiquote
+Wikisource
+Wikispecies
+Wikiversity
+Wikivoyage
+Wiktionary
+						
+											
+							
+																	Wikimedia Movement Affiliates
+								
+								The Wikimedia projects have an international scope, and the Wikimedia movement has already made a significant impact throughout the world. To continue this success on an organizational level, Wikimedia is building an international network of associated organizations.
+
+																	Wikimedia chapters
+Thematic organizations
+Wikimedia user groups
+						
+					
+											
+							This work is licensed under a Creative Commons Attribution 3.0 unported license. Some images under CC BY-SA.
+Read our Terms of Use and Privacy policy. | Powered by WordPress.com VIP
+						
+									
+			
+		
+	
+
+	
+	
+	
+
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/wikimediablog.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/wikimediablog.wordpress.com\/wp-login.php?action=logout&_wpnonce=47d6335f8f","homeURL":"https:\/\/blog.wikimedia.org\/","postID":"49371","gravDefault":"mystery","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"","userIsLoggedIn":"","isJetpack":"0","text_direction":"ltr"};
+/* ]]> */
+
+/* <![CDATA[ */
+var wpcomVipAnalytics = {"is_404":"0","is_home":"0","is_single":"1","is_front_page":"0","is_archive":"0","percentToTrack":"1"};
+/* ]]> */
+
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'67752302','blog_tz':'-4','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'67752302','v':'wpcom','tz':'-4','user_id':'0','post':'49371','subd':'wikimediablog'}]);
+function st_vt() {var x=document.createElement("img");x.src="https://pixel.wp.com/g.gif?blog=67752302&v=wpcomvt&tz=-4&user_id=0&post=49371&subd=wikimediablog&rand="+Math.random();}
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1BNmNJfGhxNCVxUDExYmtib2E/SzdEJm0lUEtbdFU0fFk4cHZvcUFrZT90Tn4yQm1+R3NyNTdBK0h4TjhEWTJPcGFpR214JUt8LC5bMVdmTH5GJmdiXWo/JWtCL0xHYmNBfHYrZS5tLUtLRHVnb0N1cnpaKzFESHB5cEJPYzNnaWw9emw9dkNlW11BL0Z5UXZ5Ni16UUgmR1g0K11Da19IbWRlYVpNbl1FZTF4S35EaDZ3ZjBDdHNEaFJRM3JvZ3NYMFNDZDItOFtxLWRbdy9MekIuMzJPLG1aZGRxM2l0Xw=='}]);
+_stq.push([ 'clickTrackerInit', '67752302', '49371' ]);
+	
+
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+

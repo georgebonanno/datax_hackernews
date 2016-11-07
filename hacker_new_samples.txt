@@ -1,0 +1,121 @@
+"","retrievalTime","title","ordering"
+"1",2016-11-06 11:42:31,"In scathing ruling, Federal Court says CSIS bulk data collection illegal",1
+"2",2016-11-06 11:42:31,"Berlin Is Bringing Back Subway Trains from the 1950s",2
+"3",2016-11-06 11:42:31,"Every Version of Voxel Quest",3
+"4",2016-11-06 11:42:31,"Fighting Loneliness with Public Living Rooms",4
+"5",2016-11-06 11:42:31,"Cylance Discloses Voting Machine Vulnerability",5
+"6",2016-11-06 11:42:31,"Nyancat on the touchbar",6
+"7",2016-11-06 11:42:31,"Why you should avoid LastPass",7
+"8",2016-11-06 11:42:31,"Daiwa to adopt blockchain for Myanmar stock trading",8
+"9",2016-11-06 11:42:31,"Nightmare Machine by MIT Media Lab",9
+"10",2016-11-06 11:42:31,"The End of the General Purpose Operating System",10
+"11",2016-11-06 11:42:31,"Reservoirs are contributing 1.5% of global greenhouse gas emissions",11
+"12",2016-11-06 11:42:31,"Tensions Flare in Silicon Valley Over Growth",12
+"13",2016-11-06 11:42:31,"The X3DH Key Agreement Protocol",13
+"14",2016-11-06 11:42:31,"Tech Jobs, Cheaper Housing: The New Silicon Cities",14
+"15",2016-11-06 11:42:31,"How to contribute to an open source project on GitHub",15
+"16",2016-11-06 11:42:31,"Online PHP Coding Standards Fixer",16
+"17",2016-11-06 11:42:31,"PaperNIC – Open Source Document Management and Collaboration System",17
+"18",2016-11-06 11:42:31,"Tensorflow and Deep Learning, Without a PhD, Martin Gorner, Google [video]",18
+"19",2016-11-06 11:42:31,"Ask HN: Overwhelmed with learning front-end, how do I proceed?",19
+"20",2016-11-06 11:42:31,"There’s Big Money to Be Made in Asteroid Mining",20
+"21",2016-11-06 11:42:31,"Show HN: Make an app by adding JSON to this app",21
+"22",2016-11-06 11:42:31,"In the Joints of Their Toes: A ruse that gave rise to the spiritualist movement",22
+"23",2016-11-06 11:42:31,"Why I won't recommend Signal anymore",23
+"24",2016-11-06 11:42:31,"Verifying the Substitution Cipher Folklore",24
+"25",2016-11-06 11:42:31,"Deep in New Zealand",25
+"26",2016-11-06 11:42:31,"Don’t Get Attached, It’s Just Luck. My Interviewing Advice and Tips",26
+"27",2016-11-06 11:42:31,"Inside NORAD's Cheyenne Mountain Combat Center",27
+"28",2016-11-06 11:42:31,"Creating linked open data for 5000 works of art",28
+"29",2016-11-06 11:42:31,"Mars Opportunity Rover: Driving the Jet Propulsion Lab's Mars Rover, Again",29
+"30",2016-11-06 11:42:31,"DeepMind and Blizzard to release StarCraft II as an AI research environment",30
+"31",2016-11-06 11:42:34,"In scathing ruling, Federal Court says CSIS bulk data collection illegal",1
+"32",2016-11-06 11:42:34,"Berlin Is Bringing Back Subway Trains from the 1950s",2
+"33",2016-11-06 11:42:34,"Every Version of Voxel Quest",3
+"34",2016-11-06 11:42:34,"Fighting Loneliness with Public Living Rooms",4
+"35",2016-11-06 11:42:34,"Cylance Discloses Voting Machine Vulnerability",5
+"36",2016-11-06 11:42:34,"Nyancat on the touchbar",6
+"37",2016-11-06 11:42:34,"Why you should avoid LastPass",7
+"38",2016-11-06 11:42:34,"Daiwa to adopt blockchain for Myanmar stock trading",8
+"39",2016-11-06 11:42:34,"Nightmare Machine by MIT Media Lab",9
+"40",2016-11-06 11:42:34,"The End of the General Purpose Operating System",10
+"41",2016-11-06 11:42:34,"Reservoirs are contributing 1.5% of global greenhouse gas emissions",11
+"42",2016-11-06 11:42:34,"Tensions Flare in Silicon Valley Over Growth",12
+"43",2016-11-06 11:42:34,"The X3DH Key Agreement Protocol",13
+"44",2016-11-06 11:42:34,"Tech Jobs, Cheaper Housing: The New Silicon Cities",14
+"45",2016-11-06 11:42:34,"How to contribute to an open source project on GitHub",15
+"46",2016-11-06 11:42:34,"Online PHP Coding Standards Fixer",16
+"47",2016-11-06 11:42:34,"PaperNIC – Open Source Document Management and Collaboration System",17
+"48",2016-11-06 11:42:34,"Tensorflow and Deep Learning, Without a PhD, Martin Gorner, Google [video]",18
+"49",2016-11-06 11:42:34,"Ask HN: Overwhelmed with learning front-end, how do I proceed?",19
+"50",2016-11-06 11:42:34,"There’s Big Money to Be Made in Asteroid Mining",20
+"51",2016-11-06 11:42:34,"Show HN: Make an app by adding JSON to this app",21
+"52",2016-11-06 11:42:34,"In the Joints of Their Toes: A ruse that gave rise to the spiritualist movement",22
+"53",2016-11-06 11:42:34,"Why I won't recommend Signal anymore",23
+"54",2016-11-06 11:42:34,"Verifying the Substitution Cipher Folklore",24
+"55",2016-11-06 11:42:34,"Deep in New Zealand",25
+"56",2016-11-06 11:42:34,"Don’t Get Attached, It’s Just Luck. My Interviewing Advice and Tips",26
+"57",2016-11-06 11:42:34,"Inside NORAD's Cheyenne Mountain Combat Center",27
+"58",2016-11-06 11:42:34,"Creating linked open data for 5000 works of art",28
+"59",2016-11-06 11:42:34,"Mars Opportunity Rover: Driving the Jet Propulsion Lab's Mars Rover, Again",29
+"60",2016-11-06 11:42:34,"DeepMind and Blizzard to release StarCraft II as an AI research environment",30
+"61",2016-11-06 11:42:37,"In scathing ruling, Federal Court says CSIS bulk data collection illegal",1
+"62",2016-11-06 11:42:37,"Berlin Is Bringing Back Subway Trains from the 1950s",2
+"63",2016-11-06 11:42:37,"Every Version of Voxel Quest",3
+"64",2016-11-06 11:42:37,"Fighting Loneliness with Public Living Rooms",4
+"65",2016-11-06 11:42:37,"Cylance Discloses Voting Machine Vulnerability",5
+"66",2016-11-06 11:42:37,"Nyancat on the touchbar",6
+"67",2016-11-06 11:42:37,"Why you should avoid LastPass",7
+"68",2016-11-06 11:42:37,"Daiwa to adopt blockchain for Myanmar stock trading",8
+"69",2016-11-06 11:42:37,"Nightmare Machine by MIT Media Lab",9
+"70",2016-11-06 11:42:37,"The End of the General Purpose Operating System",10
+"71",2016-11-06 11:42:37,"Reservoirs are contributing 1.5% of global greenhouse gas emissions",11
+"72",2016-11-06 11:42:37,"Tensions Flare in Silicon Valley Over Growth",12
+"73",2016-11-06 11:42:37,"The X3DH Key Agreement Protocol",13
+"74",2016-11-06 11:42:37,"Tech Jobs, Cheaper Housing: The New Silicon Cities",14
+"75",2016-11-06 11:42:37,"How to contribute to an open source project on GitHub",15
+"76",2016-11-06 11:42:37,"Online PHP Coding Standards Fixer",16
+"77",2016-11-06 11:42:37,"PaperNIC – Open Source Document Management and Collaboration System",17
+"78",2016-11-06 11:42:37,"Tensorflow and Deep Learning, Without a PhD, Martin Gorner, Google [video]",18
+"79",2016-11-06 11:42:37,"Ask HN: Overwhelmed with learning front-end, how do I proceed?",19
+"80",2016-11-06 11:42:37,"There’s Big Money to Be Made in Asteroid Mining",20
+"81",2016-11-06 11:42:37,"Show HN: Make an app by adding JSON to this app",21
+"82",2016-11-06 11:42:37,"In the Joints of Their Toes: A ruse that gave rise to the spiritualist movement",22
+"83",2016-11-06 11:42:37,"Why I won't recommend Signal anymore",23
+"84",2016-11-06 11:42:37,"Verifying the Substitution Cipher Folklore",24
+"85",2016-11-06 11:42:37,"Deep in New Zealand",25
+"86",2016-11-06 11:42:37,"Don’t Get Attached, It’s Just Luck. My Interviewing Advice and Tips",26
+"87",2016-11-06 11:42:37,"Inside NORAD's Cheyenne Mountain Combat Center",27
+"88",2016-11-06 11:42:37,"Creating linked open data for 5000 works of art",28
+"89",2016-11-06 11:42:37,"Mars Opportunity Rover: Driving the Jet Propulsion Lab's Mars Rover, Again",29
+"90",2016-11-06 11:42:37,"DeepMind and Blizzard to release StarCraft II as an AI research environment",30
+"91",2016-11-06 11:42:40,"In scathing ruling, Federal Court says CSIS bulk data collection illegal",1
+"92",2016-11-06 11:42:40,"Berlin Is Bringing Back Subway Trains from the 1950s",2
+"93",2016-11-06 11:42:40,"Every Version of Voxel Quest",3
+"94",2016-11-06 11:42:40,"Fighting Loneliness with Public Living Rooms",4
+"95",2016-11-06 11:42:40,"Cylance Discloses Voting Machine Vulnerability",5
+"96",2016-11-06 11:42:40,"Nyancat on the touchbar",6
+"97",2016-11-06 11:42:40,"Why you should avoid LastPass",7
+"98",2016-11-06 11:42:40,"Daiwa to adopt blockchain for Myanmar stock trading",8
+"99",2016-11-06 11:42:40,"Nightmare Machine by MIT Media Lab",9
+"100",2016-11-06 11:42:40,"The End of the General Purpose Operating System",10
+"101",2016-11-06 11:42:40,"Reservoirs are contributing 1.5% of global greenhouse gas emissions",11
+"102",2016-11-06 11:42:40,"Tensions Flare in Silicon Valley Over Growth",12
+"103",2016-11-06 11:42:40,"The X3DH Key Agreement Protocol",13
+"104",2016-11-06 11:42:40,"Tech Jobs, Cheaper Housing: The New Silicon Cities",14
+"105",2016-11-06 11:42:40,"How to contribute to an open source project on GitHub",15
+"106",2016-11-06 11:42:40,"Online PHP Coding Standards Fixer",16
+"107",2016-11-06 11:42:40,"PaperNIC – Open Source Document Management and Collaboration System",17
+"108",2016-11-06 11:42:40,"Tensorflow and Deep Learning, Without a PhD, Martin Gorner, Google [video]",18
+"109",2016-11-06 11:42:40,"Ask HN: Overwhelmed with learning front-end, how do I proceed?",19
+"110",2016-11-06 11:42:40,"There’s Big Money to Be Made in Asteroid Mining",20
+"111",2016-11-06 11:42:40,"Show HN: Make an app by adding JSON to this app",21
+"112",2016-11-06 11:42:40,"In the Joints of Their Toes: A ruse that gave rise to the spiritualist movement",22
+"113",2016-11-06 11:42:40,"Why I won't recommend Signal anymore",23
+"114",2016-11-06 11:42:40,"Verifying the Substitution Cipher Folklore",24
+"115",2016-11-06 11:42:40,"Deep in New Zealand",25
+"116",2016-11-06 11:42:40,"Don’t Get Attached, It’s Just Luck. My Interviewing Advice and Tips",26
+"117",2016-11-06 11:42:40,"Inside NORAD's Cheyenne Mountain Combat Center",27
+"118",2016-11-06 11:42:40,"Creating linked open data for 5000 works of art",28
+"119",2016-11-06 11:42:40,"Mars Opportunity Rover: Driving the Jet Propulsion Lab's Mars Rover, Again",29
+"120",2016-11-06 11:42:40,"DeepMind and Blizzard to release StarCraft II as an AI research environment",30

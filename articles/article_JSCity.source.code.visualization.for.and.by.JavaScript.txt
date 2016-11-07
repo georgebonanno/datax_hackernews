@@ -1,0 +1,455 @@
+JSCITY · aserg-ufmg/JSCity Wiki · GitHub
+    
+    Skip to content
+
+    
+    
+    
+
+
+
+          
+    
+      
+
+    
+      
+
+    
+      
+          Personal
+        
+          Open source
+        
+          Business
+        
+          Explore
+      
+            Sign up
+          Sign in
+      
+
+        Pricing
+          Blog
+          Support
+          Search GitHub
+              
+  
+    
+      This repository
+      
+
+
+        
+  
+
+
+      
+
+
+
+    
+        
+    
+      
+
+  
+
+    
+
+
+      
+    
+    Watch
+  
+  
+    42
+  
+
+  
+
+  
+      
+    
+    Star
+  
+
+    
+      642
+    
+
+  
+
+  
+      
+        
+        Fork
+      
+
+    
+      33
+    
+  
+
+  aserg-ufmg/JSCity
+
+
+
+  
+  
+    
+
+    
+      Code
+        
+
+    
+      
+        Issues
+        1
+            
+
+  
+    
+      Pull requests
+      2
+        
+
+  
+    
+    Projects
+    0
+
+    
+      
+      Wiki
+
+
+  
+    
+    Pulse
+
+  
+    
+    Graphs
+
+
+
+
+
+
+  
+
+    
+
+
+
+  
+    JSCITY
+      
+        Marco Tulio Valente edited this page Nov 6, 2016
+        ·
+        
+          64 revisions
+        
+      
+  
+
+
+  
+
+  
+    
+      
+
+  
+  Pages 2
+
+
+
+  
+      Home
+    
+    
+      JSCITY
+    
+  
+
+    
+
+
+    
+      Clone this wiki locally
+      
+        
+          
+        
+      
+
+
+    
+  
+
+  
+      
+        (updated version, with 20 new systems)
+
+JSCity is an implementation of the Code City metaphor for visualizing source code. We adapted and implemented this metaphor for JavaScript, using the 
+three.js 3D library.
+
+JSCity represents a JavaScript program as a city, as follows:
+
+Folders are districts and files are sub-districts
+
+Functions are buildings; inner functions are represented as buildings on the top of their nested function/building. 
+The Number Of Lines of Source (LOC) represents the height of the buildings/functions; the Number Of Variables (NOV) in a function correlates to the building's base size. Blue buildings denote named functions; green buildings are anonymous functions.
+
+
+Examples
+
+See and navigate by a list of cities for popular JavaScript software.
+
+
+Small Cities (load in seconds; use mouse scroll to zoom in/out)
+
+cappuccino [new]
+  
+
+  florajs
+   
+  
+  
+dexter
+    
+
+    move [new]
+
+gulp
+     
+
+     isomer 
+     
+ 
+    mootools
+       
+
+    tween [new]
+    
+
+  impressjs
+        
+   
+        deckjs
+        
+  
+    soket.io
+        
+    
+        mustache
+        
+    
+    parallax 
+        
+    
+        respond
+        
+ 
+    reveal
+        
+  
+        slick
+        
+   
+    
+Medium and Large Cities (may take minutes to load; use mouse scroll to zoom in/out)
+
+algorithmsjs
+       
+
+       angular 
+      
+   
+    bower 
+        
+   
+        bootstrap
+        
+   
+    crafty [new]
+       
+
+       chart
+       
+    
+    dust [new] 
+       
+
+       backbone [new]
+       
+ 
+    ember [new]
+        
+  
+        express
+        
+ 
+            
+    ghost
+        
+   
+        grunt
+        
+   
+    intern [new]
+        
+  
+        ionic
+        
+   
+    istanbul
+        
+    
+        js-git [new]
+        
+  
+    jade
+        
+ 
+        jasmine
+        
+ 
+    jquery
+    
+  
+    jqueryfileupload           
+    leaflet 
+        
+ 
+        less
+        
+    
+    meteor [new]
+    
+        modernizr
+ 
+pdfjs
+        
+   
+        pixi
+        
+    
+    react 
+        
+   
+        select2
+        
+ 
+    semanticui
+        
+  
+        paper
+        
+   
+    EaselJs [new]
+        
+ 
+        karma [new] 
+        
+   
+    phase
+ 
+        quintus [new]
+   
+    riot [new]
+        
+    
+        snap [new] 
+        
+    
+    knockout [new]
+        
+    
+        rot [new] 
+        
+ 
+    clumsybird
+    
+  
+    underscore [new]
+    
+  
+  mocha [new] 
+        
+   
+        textillate [new]
+        
+  
+velocity [new] 
+        
+    
+        zepto [new]
+        
+   
+    
+
+  
+  
+
+
+
+
+  
+  
+
+
+
+    
+  
+
+    
+
+        
+  
+    Contact GitHub
+      API
+      Training
+      Shop
+        Blog
+        About
+
+    
+      
+    © 2016 GitHub, Inc.
+        Terms
+        Privacy
+        Security
+        Status
+        Help
+    
+
+
+
+
+    
+
+    
+      
+        
+      You can't perform that action at this time.
+    
+
+
+      
+      You signed in with another tab or window. Reload to refresh your session.
+      You signed out in another tab or window. Reload to refresh your session.
+    
+    
+  
+    
+    
+    
+      
+  
+
+
+  

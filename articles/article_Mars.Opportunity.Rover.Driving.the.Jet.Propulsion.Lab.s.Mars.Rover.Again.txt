@@ -1,0 +1,682 @@
+var _sf_startpt=(new Date()).getTime()We Drive the Mars Opportunity Rover! – Review – Car and Driver
+    var globaljsobject = {"id":"524138","title":"Mars Opportunity Rover","content_type":"article","url":"http:\/\/www.caranddriver.com\/reviews\/we-drive-the-mars-opportunity-rover-review","pageUrl":"http:\/\/www.caranddriver.com","publish_date":"Oct 2016","section":"First Drive Review","section_type":"article","article_category":"Reviews","article_subcategory":"First Drive","body_style_name":"No relation","body_style_id":"","make_name":"","model_name":"","year":"2016","img_small":"http:\/\/media.caranddriver.com\/images\/16q3\/669461\/we-drive-the-mars-opportunity-rover-review-car-and-driver-photo-671067-s-450x274.jpg","make_id":"","model_id":"","submodel_id":"","submodel_name":"","msotpnm":"","chrome_market_class":"","chrome_body_style":"","chrome_fuel":"","vehicle_type":"","in_market":false,"is_used":"","market_segment":"","is_spec":true,"parent_model_id":"","parent_make_id":"","parent_model_name":"","parent_make_name":"","apayApiHost":"","article_category_adflow_override":false,"jag_sug":"","make_url":"","full_review_object_id":"524138","legacy_gallery_url":"http:\/\/www.caranddriver.com\/photo-gallery\/we-drive-the-mars-opportunity-rover-review","legacy_gallery_title":"","photo_count":7,"standalone_flag":null,"template":"article","modified_date":"2016-10-06 15:30:46","summary":"Driving the Jet Propulsion Lab's Mars rover. Again.","trimList":null,"defaultChromeId":null,"defaultTrim":null,"accupayEnabled":"1"};
+        globaljsobject.isResponsiveLayout = true;
+    var backfires_mergescript_host = "api.backfires.caranddriver.com";
+    var initAdsOnLoad = true;
+    var isAngular = false;
+    var environment = {
+          env: "prod",
+          domainHost: "www.caranddriver.com",
+          bgHost: "http://buyersguide.caranddriver.com",
+          blogHost: "",
+          legacyGallery: "false"
+        };
+      
+ 
+  
+  //mboxCreate('cad_global');
+    
+	
+									
+							
+			
+				
+			
+		
+
+			
+	New CarsAcuraFiatLexusPorscheAlfa RomeoFordLincolnRamAston MartinGenesisLotusRolls-RoyceAudiGMCMaseratiScionBentleyHondaMazdaSmartBMWHyundaiMcLarenSpykerBugattiInfinitiMercedes-AMGSubaruBuickJaguarMercedes-BenzTeslaCadillacJeepMercedes-MaybachToyotaChevroletKiaMiniVolkswagenChryslerKoenigseggMitsubishiVolvoDodgeLamborghiniNissanFerrariLand RoverPaganiView AllReviewsFirst DrivesInstrumented TestsComparison TestsLong-Term TestsArchived ReviewsView All ReviewsNews2016 SEMA ShowBlogFuture CarsAuto ShowsView All NewsTrendsAutomobilityGreenVideoCar and Driver VideoYouTubeFeaturesLightning Lap 20162016 Editors' Choice2016 10Best Cars60th AnniversaryColumnsGearboxTech Dept.View All FeaturesBuyer's Guide2016 Editors' Choice2015 Editors' ChoiceShopping AdviceGet a Free QuoteUsed Car ListingsCPO Buyer's GuideCPO Car ListingsView Buyer's GuideSubscribeMagazineDigital EditionGive a GiftNewsletterCar and Driver Store		
+			
+				
+				Backfires
+				
+		
+		
+			
+				
+					
+				
+			
+		
+	
+      
+    
+    
+    
+        
+        
+          
+      
+      
+
+
+    
+    
+                
+                
+                    
+                        Home
+                
+                /
+            
+                            
+                    
+                        
+                            Reviews
+                    
+                    /
+                
+                                                
+                
+                
+                                                                        
+                                    Mars Opportunity Rover                                        - First Drive Review
+                                                            
+            
+        
+
+    
+        
+            
+                        
+                            
+                                
+                                                                    
+                                    
+                                        
+
+                                                                                    VIEW 7 PHOTOS
+                                        
+                                    
+
+                                                                            
+
+                                                                    
+                                                            
+                        
+                    
+                    
+                    
+
+        First Drive Review    
+    Mars Opportunity Rover 
+    Driving the Jet Propulsion Lab's Mars rover. Again.
+
+
+         Oct 2016
+        
+        
+                                            
+                        
+                                                        
+                            
+                                By                                JOHN PEARLEY HUFFMAN
+                                                        
+                                                    
+
+                        
+                                    
+                                            
+                        
+                            
+                                                                Illustration By NICK SOTIRIADIS
+                                                    
+
+                        
+                                                            
+                    
+            
+                
+                    
+                    
+                    SHARE
+                
+            
+        
+        
+            
+                
+                    
+                    
+                    TWEET
+                
+            
+        
+        
+            
+                
+                    
+                
+            
+        
+        
+                        
+                
+                    
+                    
+                
+            
+                    
+    
+
+                                    
+                    
+                        
+                    
+                
+
+                
+                
+                    
+From the  October 2016 issue
+
+
+It has been a decade since C/D went to the Jet Propulsion Laboratory (JPL) in Pasadena, California, to learn the fundamentals of operating NASA’s Mars rovers. That was back in 2006 when there was no iPhone; Barack Obama was Illinois’ junior senator; and Pontiac, Hummer, Saturn, and Mercury were all going concerns. It was a different world.
+
+
+
+Mars, however, hasn’t changed much.
+
+
+
+Back then, the solar-powered twin rovers, Spirit and Opportunity, had been on Mars for less than three years. Both were drilling into rocks, climbing hills, dodging boulders, and checking for water. In other words, doing science stuff. But this is 2016 and, incredibly, Opportunity still lives on to teach us a lot about Mars and a little bit about automated driving. Though if it breaks down, help is about 249 million miles away.
+
+
+
+“It’s kilometers, not miles,” says John Wright, who has computer and engineering degrees from Purdue and Wright State. “We’re JPL. We’re on the metric system.” He has several titles, but what he does is drive Mars rovers that are 400 million kilometers away.
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+JPL is where audacious science is conceived, but it’s also home to blue-collar space work. Its engineers design the world’s most exotic semi-autonomous vehicles, then blast them to other worlds.
+
+
+
+Opportunity’s twin, Spirit, took a Martian dirt nap in 2010. Sojourner, the first Mars rover, landed in 1997 and lasted close to three months before becoming the first junked rover on another planet. Curiosity, Opportunity’s younger, bigger, plutonium-­powered brother, is still going strong but isn’t even five years old yet. Opportunity is the graybeard, the Tin Lizzie of extraterrestrial exploration.
+
+
+
+Opportunity has been cruising Mars’ Meridiani Planum on its six individually suspended aluminum wheels since January 2004. It’s almost two feet wider and more than seven feet shorter than a Mini Cooper, with electric motors in each wheel. It scoots its 374 pounds (on Earth, 141 pounds on Mars) of scientific instruments, sampling arm, lithium-ion batteries, cameras, and control computers to its seven-feet-per-minute top speed almost instantly. That’s nearly 0.08 mph, to those of us not working at JPL.
+
+
+
+“When we put together the proposal for the mission,” explains Wright, “we said: ‘Okay, you give us $800 million and we will design two rovers. We’ll build them, we’ll fly them, we’ll land them and drive them around for 90 days each. If you want one more day, it’s going to cost you more money.’ We never built them to last only 90 days.” That would be a $3 million rover with a $397 million destination charge.
+
+
+
+Still, Opportunity wasn’t built to last this long. It has been operating on Mars for 12 years and nine months (about 4780 sols, or Martian days). It’s way out of warranty, even though it’s only traveled a bit more than 26 miles (42 kilometers).
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+Driving on Mars is really driving. But depending on orbital mechanics, radio signals can take up to 24 minutes to trudge to Mars, so real-time joysticking is impossible. Instead, Opportunity operates on a digital instruction set, brewed in a negotiation between the scientists studying the planet and the rover drivers.
+
+
+
+“Ordinarily we will send up one day’s worth of activities,” Wright says. “If the scientists want to do something, we explain to them what it’s going to cost. The cost may be ‘You want to drive over here, but we can’t drive straight over there. We’re going to have to go over here and then over there and come up from behind . . . and it’s going to take five days. Are you willing to spend five days to get to that place?’ ”
+
+
+
+Each day the rover submits a vehicle status report from its inertial measurement tools to JPL. The report is verified using “visual odometry” photos to assess whether the rover slid while moving across Martian sand. Hooning, apparently, is even less funny to JPL engineers than it is to mall cops.
+
+
+
+The subconscious compensations made when driving on Earth are conscious decisions on Mars. Cameras aboard the rover see about 50 meters out with detail but get blurry beyond that. Stereo photography and a pair of 3-D glasses reveal ridges undetectable in two dimensions.
+
+
+
+Every move the rover makes is distinct. To turn, Opportunity stops, then steers, then proceeds. Because some transistors are shared between functions, it’s often impossible to do two things at once.
+
+
+
+The drivers build computer simulations of the environment and plot routes through it, finding new roads every day. Driving into an unknown void could turn Opportunity turtle and render a spectacularly successful scientific instrument useless.
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+The rover has built-in smarts and can drive itself within the constraints of its software. “Our knowledge of what’s on Mars is not perfect,” Wright sighs. “Opportunity has some relatively non-deterministic behaviors because we tell it, ‘You look out for rocks, you pick a safe route.’ And it may turn left or it may turn right or it may back up and give up.”
+
+
+
+JPL’s rover drivers are constantly refining the Linux-based graphic software they built to control the rovers. Frequently used commands are given by pressing on-screen buttons, and much of the rough mapping work is accomplished by point-and-click mouse moves. Driving the rover means refining and running simulations until every Martian pebble is accounted for. Hopefully.
+
+
+
+“I was driving Opportunity a couple weeks ago, and we were parked on about a 30-degree slope. They wanted to go up about 20 centimeters so we could reach this target,” recalls Wright. “We spun the wheels for 20 meters and made only about nine centimeters of progress.” If Mars ever needs a John Force, Wright has the credentials.
+
+
+
+Like any poorly maintained 13-year-old vehicle, Opportunity is ragged. The right-front wheel stopped steering years ago, so it has developed a push. The rover often travels backward and drags that wheel. The flash memory has developed “flaky errors,” so the drivers often rely on short-term RAM that disappears when the machine goes to sleep. No one sleeps until the day’s data has been transmitted.
+
+
+
+Mars has no GPS, no roads, and virtually no electromagnetic field to repel radiation. During the day it can be 70 degrees Fahrenheit, but at night it drops to 100 below zero. No machine should last there. But Opportunity has been on the planet for more than a decade, thriving in the universe’s toughest driving environment. Long may it run.
+
+  
+
+
+
+
+
+
+
+  
+
+Thin Skinned
+
+Opportunity’s aluminum wheels are in good shape after 12 years on Mars, but its brother Curiosity’s have developed holes in them after four. That’s due to three factors, explains Richard Rainen, chief mechanical engineer on the next rover: “The loads on the wheels, the design of the wheels, and the terrain.”
+
+
+
+At 1982 pounds (on Earth), Curiosity is more than five times the weight of Opportunity, and the drive actuators in the six wheels can generate up to 494 pound-feet of torque. More weight and torque means greater loads.
+
+
+
+Rover wheels are machined from 7075-T73 aluminum—10.2 inches in diameter on Opportunity and 19.7 on  Curiosity. And to keep mass down, Opportunity’s wheels’ skins are just 0.02 inch thick; Curiosity’s are 0.03 inch.
+
+
+
+But the big difference in wear is due to the fact that Curiosity landed at Gale Crater in a field of sharp rocks that tear into the wheels.
+
+
+
+Opportunity leaves behind a flat spot in its tracks from bolt holes where the rover was attached to its lander. And Curiosity’s treads leave behind Morse code spelling out “JPL.”
+
+                                            
+                            View Photos
+                            
+                                 View Photos
+                            
+                        
+                    
+                    
+                    
+            
+                
+                    
+                    
+                    SHARE
+                
+            
+        
+        
+            
+                
+                    
+                    
+                    TWEET
+                
+            
+        
+        
+            
+                
+                    
+                
+            
+        
+        
+                        
+                
+                    
+                    
+                
+            
+                    
+    
+                
+                    
+                        
+                    
+                
+                
+                
+                
+                    
+                
+
+                
+                                            
+                        
+                        
+                        
+                            var article_url_for_backfires = 'www.caranddriver.com/reviews/we-drive-the-mars-opportunity-rover-review';
+                        
+            
+        Highs and Lows 
+            
+                            Highs:
+                    Burnouts are awesome in roughly one-third of Earth’s gravity.
+                        
+                            Lows:
+                    Roadside assistance is not an option.
+                
+                    
+
+
+
+                    
+                        
+            
+        
+
+    
+                                        
+    
+        
+        
+        
+                    
+                
+                    
+                
+            
+            
+
+    
+                        
+
+Specifications >
+
+VEHICLE TYPE: 6-motor, all-wheel-drive, 0-passenger, 0-door roverCOST: $820,000,000*MOTOR TYPE: brushed DCPower: 0.023 hpTorque: 58.3 lb-ftCombined Power: 0.14 hpCombined Torque: 350 lb-ftDIMENSIONS:Wheelbase: 44.4 inLength: 62.4 inWidth: 90.0 in Height: 58.8 inPassenger volume: The truth is out thereWeight: 374 lbWeight on Mars: 141 lbPERFORMANCE:
+Longest drive in one day: 721 ft
+Distance driven since landing: 26.7 mi
+Top speed: 0.08 mphFUEL ECONOMY (C/D EST):
+Mission total: 0.0004 MPGe*Price includes a pair of rovers, delivery spacecraft, launch operations, and  first three months of operation.
+            Show More Specifications
+                        
+
+    
+    
+            
+
+        
+                                
+    
+  
+
+    
+
+
+        Related Stories
+        
+                Feature
+
+                
+                Tested: Do Acoustically Insulated Tires Really Hush Road Noise?
+            
+                       
+            
+                Car News
+
+                
+                Federal Government Releases New Autonomous-Vehicle Policy
+            
+                       
+            
+                Car News
+
+                
+                Elon Musk's Tesla Master Plan, Part Deux: Semis and Pickups, Solar...
+            
+                       
+            
+                Car News
+
+                
+                24 Things You Didn't Expect Were Made By Car Companies
+            
+                            
+
+
+                                    
+                                       
+            
+                Car News
+
+                
+                The Fastest Way to Defog Your Windshield, Courtesy of a Former NASA...
+            
+                       
+            
+                Car News
+
+                
+                10 Spectacular Extra-Automotive—or Non-Automotive—Reviews...
+            
+                       
+            
+                Car News
+
+                
+                Ford's One-Off "Apollo Edition" Mustang Wants to Be an Astronaut When...
+            
+                       
+            
+                Feature
+
+                
+                Mars Rover. Rover and out.
+            
+                               
+        
+                    
+            
+    
+
+
+        
+           
+        
+        
+                    
+            
+
+
+    
+            
+                                
+            
+        
+        
+            
+                                
+            
+        
+        
+            
+                                
+            
+        
+    
+    
+        
+          
+                REVIEWS
+                    
+                            First Drives
+                        
+                        
+                            Instrumented Tests
+                        
+                        
+                            Comparison Tests
+                        
+                        
+                            Long-Term Road Tests
+                        
+                        
+                            Specialty Files
+                        
+                        
+                            From the Review Vault
+                        
+                    
+            
+                
+                NEWS
+                    
+                            Spy Photos
+                        
+                        
+                            Auto Shows
+                        
+                        
+                            Blog
+                        
+                    
+            
+                
+                FEATURES
+                    
+                            Columns
+                        
+                        
+                            Tech Department
+                        
+                        
+                            Gearbox
+                        
+                        
+                            10Best
+                        
+                        
+                            Shopping Advice
+                        
+                        
+                            Video
+                        
+                    
+            
+                
+                BUYER'S GUIDE
+                    
+                            2016 Editors' Choice
+                        
+                        
+                            Ford F-150
+                        
+                        
+                            Jeep Wrangler
+                        
+                        
+                            Ford Escape
+                        
+                        
+                            Honda Accord
+                        
+                        
+                            Jeep Grand Cherokee
+                        
+                    
+            
+                
+                ABOUT CAR AND DRIVER
+                    
+                            Subscribe
+                        
+                          User Sitemap
+                        
+                            Contact Us
+                        
+                        
+                            Subscriptions/Customer Service
+                        
+                        
+                            Website Feedback
+                        
+                    
+            
+                
+                FOLLOW US
+                    
+                            Backfires
+                        
+                        
+                            Facebook
+                        
+                        
+                            Twitter
+                        
+                        
+                            YouTube
+                        
+                    
+        
+    
+    
+        
+            
+                
+            
+            © 2016 Hearst Communications, Inc. All Rights Reserved., 
+                
+                    Privacy Policy
+                
+                
+                    | Your California Privacy Rights
+                
+                
+                    | Terms of Use
+                
+            
+    
+
+  
+
+  
+    
+  
+
+  
+  function DM_prepClient(csid, client) {
+      if (csid == 'H05525') {
+          client.DM_addEncToLoc("type", hfm.cd.page.body_style_name);
+          client.DM_addEncToLoc("make", hfm.cd.page.make_name);
+          client.DM_addEncToLoc("model", hfm.cd.page.model_name);
+          client.DM_addEncToLoc("sid", "caranddriver");
+          client.DM_addEncToLoc("section", hfm.cd.page.section);
+          client.DM_addEncToLoc("content", hfm.cd.page.content_type);
+          client.DM_addEncToLoc("year", hfm.cd.page.year);
+          client.DM_addEncToLoc("zip", "94111");
+      }
+  }
+  
+  var _sf_async_config={};
+  _sf_async_config.uid = 39276;
+  _sf_async_config.domain = "caranddriver.com";
+  _sf_async_config.sections = hfm.cd.page.section;
+  _sf_async_config.authors = "76, JOHN PEARLEY HUFFMAN";
+  _sf_async_config.title = hfm.cd.page.title;
+  _sf_async_config.useCanonical = true;
+  

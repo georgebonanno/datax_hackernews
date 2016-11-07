@@ -1,0 +1,249 @@
+
+  window.__o = {"channel":"tech","content_type":"article","v_buy":null,"v_buy_i":null,"h_pub":13.5,"h_buy":null,"h_pub_buy":null,"v_cur":0.9,"v_max":72.1,"v_cur_i":0,"v_max_i":72,"events":"event51,event61,event62,event63,event64","top_channel":"tech","content_source_type":"Internal","content_source_name":"Internal","author_name":"Adario Strange","age":"0","pub_day":5,"pub_month":11,"pub_year":2016,"pub_date":"11/05/2016","sourced_from":"Internal","isPostView":true,"post_lead_type":"Alt Image Lead","topics":"automation,economy,Jobs,Robot,Tech,workers","campaign":null,"display_mode":null,"viral_video_type":null,"standalone_video_show":null,"b_flag":false,"cms_author_name":null};
+  window._gaq = window._gaq || [];
+  window._gaq.push(['_setAccount', 'UA-92124-1']);
+  window._geo = "US";
+  window.__domStart = (new Date().getTime())
+  grepptimizely = [["setCookieExpiration", 730]];
+  !function(){var n;return n={},window.getExperimentValue=function(e,t,u){var r,i;return i=n[e]&&null!=n[e][t]&&n[e][t]||u,null!=(r="function"==typeof i?i():void 0)?r:i},window.setExperimentValue=function(e,t,u){return n[e]||(n[e]={}),n[e][t]=u}}();
+Elon Musk thinks universal income is answer to automation taking human jobs{"@context":"http://schema.org","headline":"Elon Musk thinks universal income is answer to automation taking human jobs","url":"http://mashable.com/2016/11/05/elon-musk-universal-basic-income/","keywords":["economy","workers","jobs","robots","artificial-intelligence","automation","elon-musk","tech"],"image":{"@type":"ImageObject","url":"http://mashable.com/media/ZgkyMDE2LzExLzA1L2IwL211c2swOTcuYTU4ZjcuanBnCnAJdGh1bWIJMTIwMHg2Mjcj/befa6617/664/musk097.jpg","width":"1200","height":"627"},"@type":"Article","mainEntityOfPage":"True","publisher":{"@type":"Organization","name":"Mashable","url":"http://www.mashable.com","logo":{"@type":"ImageObject","url":"http://a.amz.mshcdn.com/assets/mashable-publisher-logo-2f5746f38769a1f07bd9e9a10a73dd46.png","width":"357","height":"60"}},"dateCreated":"2016-11-05T20:35:26Z","datePublished":"2016-11-05T20:35:26Z","author":"Adario Strange","creator":"Adario Strange","dateModified":"2016-11-05T20:38:13Z","articleSection":"tech"}
+Mashable
+
+
+
+
+We're using cookies to improve your experience.
+Click Here to find out more.
+
+
+
+
+
+
+
+Mashable
+
+Mashable Asia
+Mashable Australia
+Mashable France
+Mashable India
+Mashable UK
+
+Sign in
+
+
+
+
+
+Like
+
+
+
+Follow
+
+
+
+
+
+Follow
+
+
+
+
+
+
+
+Mashable
+
+
+
+
+
+
+
+
+
+
+see more  >
+
+
+Search
+
+
+
+
+
+
+
+
+
+Videos
+Social Media
+Tech
+Business
+Entertainment
+World
+Lifestyle
+Watercooler
+Shop
+
+More
+
+
+Channels
+Videos
+Social Media
+Tech
+Business
+Entertainment
+World
+Lifestyle
+Watercooler
+ShopCompanyAbout UsLicensing & ReprintsArchiveMashable CareersContactContact UsSubmit NewsAdvertiseAdvertiseLegalPrivacy PolicyTerms of UseCookie PolicyAppsiPhone / iPadAndroidResourcesSubscriptionsSitesMashable ShopJob BoardSocial Good Summit
+
+
+
+
+
+
+
+
+
+
+
+Tech
+
+
+Like
+Follow
+Follow
+
+
+
+
+
+
+  window.variationsData = [{"id":26740,"user_id":40,"title":"Elon Musk thinks the future of work is no work, thanks to automation","active":true,"published":true},{"id":26741,"user_id":40,"title":"Elon Musk's answer to robots stealing your job : a universal basic income","active":true,"published":true}]
+Elon Musk thinks universal income is answer to automation taking human jobs
+
+  window.variationsTitleElem = $('article header h1.title');
+
+17.3k
+Shares
+
+
+Share
+Tweet
+Share
+
+
+
+
+
+What's This?
+
+Image:  AP Photo/Rich PedroncelliBy Adario Strange2016-11-05 20:35:26 UTC
+
+Tech innovators in the self-driving car and AI industries talk a lot about how many human jobs will be innovated out of existence, but they rarely explain what will happen to all those newly jobless humans. As usual, Tesla and SpaceX founder Elon Musk responds to an obvious question with an answer that may surprise some. 
+In an interview with CNBC on Friday, Musk said that he believes the solution to taking care of human workers who are displaced by robots and software is creating a (presumably government-backed) universal basic income for all. 
+SEE ALSO: Watch Elon Musk debut what could be the mainstreaming of solar power 
+"There’s a pretty good chance we end up with a universal basic income, or something like that, due to automation," said Musk. "I'm not sure what else one would do. That’s what I think would happen."
+The idea sounds great, and makes perfect sense in an emerging jobs landscape where automation in fast food, banks, customer service and, soon, deliveries are slowing erasing the incomes of vast swaths of middle and low-income U.S. citizens. 
+
+However, Musk's vision doesn't really track with current trends, especially when you remember that services like health care and college education — things other rich nations offer for free to citizens — are still services that can drive many in the U.S. into huge debt and sometimes bankruptcy. If the U.S. government won't install free health care and education, what are the chances we'll see a universal basic income anytime soon? 
+There's also the tricky question of how companies pushing automation will make money if most citizens survive on a fixed, universal basic income. 
+The good news is that one of the most high profile innovators on the planet is finally pushing this issue out into the spotlight, while many other CEOs continue to ignore the looming human jobs crisis that automation threatens to bring about. 
+How, exactly, Musk thinks we'll get to that universal income status is unclear, but if we do get there, he believes it could open up a new chapter in human life. 
+"People will have time to do other things and more complex things, more interesting things," said Musk. "[They will] certainly have more leisure time."
+
+
+
+
+
+
+Topics:
+automation, economy, Jobs, Robot, Tech, workers
+
+
+
+  if (window.pageChanged)
+    window.omni({"channel":"tech","content_type":"article","v_buy":null,"v_buy_i":null,"h_pub":13.5,"h_buy":null,"h_pub_buy":null,"v_cur":0.9,"v_max":72.1,"v_cur_i":0,"v_max_i":72,"events":"event51,event61,event62,event63,event64","top_channel":"tech","content_source_type":"Internal","content_source_name":"Internal","author_name":"Adario Strange","age":"0","pub_day":5,"pub_month":11,"pub_year":2016,"pub_date":"11/05/2016","sourced_from":"Internal","isPostView":true,"post_lead_type":"Alt Image Lead","topics":"automation,economy,Jobs,Robot,Tech,workers","campaign":null,"display_mode":null,"viral_video_type":null,"standalone_video_show":null,"b_flag":false,"cms_author_name":null});
+    metaData = {"link":[["canonical","http://mashable.com/2016/11/05/elon-musk-universal-basic-income/"],["image_src","http://i.amz.mshcdn.com/V41OvXOU2LvCrU0TwiX9KimdOSA=/1200x627/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F27007%2Fmusk097.jpg"]],"meta_property":[["og:url","http://mashable.com/2016/11/05/elon-musk-universal-basic-income/"],["og:title","Elon Musk thinks universal income is answer to automation taking human jobs"],["og:type","article"],["og:site_name","Mashable"],["og:description","According to Elon Musk the future of work is... no work? "],["og:image","http://a.amz.mshcdn.com/media/ZgkyMDE2LzExLzA1L2IwL211c2swOTcuYTU4ZjcuanBnCnAJdGh1bWIJMTIwMHg2MzAKZQlqcGc/824db879/664/musk097.jpg"],["og:article:published_time","2016-11-05T20:35:26Z"],["og:article:modified_time","2016-11-05T20:38:13Z"],["og:article:publisher","https://www.facebook.com/mashable"]],"meta_name":[["description","According to Elon Musk the future of work is... no work? "],["keywords","economy, workers, jobs, robots, artificial-intelligence, automation, elon-musk, tech"],["twitter:title","Elon Musk thinks universal income is answer to automation taking human jobs"],["twitter:description","According to Elon Musk the future of work is... no work? "],["twitter:image","http://i.amz.mshcdn.com/ayCbsbVcgfYVNroQM8Bom9ApW9A=/640x360/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fstory%2Fthumbnail%2F27007%2Fmusk097.jpg"],["twitter:site","@mashable"],["twitter:via","mashable"],["twitter:url","http://mashable.com/2016/11/05/elon-musk-universal-basic-income/"],["twitter:creator","@mashable"],["twitter:card","photo"],["twitter:image:width","640"],["twitter:image:height","360"],["date","2016-11-05 20:35:26 UTC"],["sailthru.author","Adario Strange"],["sailthru.image.thumb","http://i.amz.mshcdn.com/2Ap6agenbh3Hk7MlqmqzgZWmf0s=/115x115/2016%2F11%2F05%2Fb0%2Fmusk097.a58f7.jpg"],["sailthru.image.full","http://i.amz.mshcdn.com/IGrshQlaA5h9SZ4LvL_n6i1e-Nw=/950x534/2016%2F11%2F05%2Fb0%2Fmusk097.a58f7.jpg"],["sailthru.lead_image","http://i.amz.mshcdn.com/a4MKEfzCTA27bLRmBAdyyCZ3Yr0=/600x338/2016%2F11%2F05%2Fb0%2Fmusk097.a58f7.jpg"],["sailthru.secondary_image","http://i.amz.mshcdn.com/z4pKO6XBGXyoSJMfvQitbGticYk=/288x162/2016%2F11%2F05%2Fb0%2Fmusk097.a58f7.jpg"],["sailthru.exclude_homepage",false],["sailthru.exclude_uk",false],["sailthru.exclude_australia",false],["sailthru.exclude_india",false],["author","Adario Strange"]],"short_url":[["short_url","http://on.mash.to/2fsGtnQ"]]};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  if(window.initPage) { window.initPage() }
+  else { $(function() { window.initPage && window.initPage(); })}
+About UsJobsAdvertiseSubscribePrivacyTerms
+
+
+
+
+
+
+
+
+Mashable
+
+is a global, multi-platform media and entertainment company. Powered by its own proprietary technology, Mashable is the go-to source for tech, digital culture and entertainment content for its dedicated and influential audience around the globe.
+
+
+©2005-2016
+Mashable, Inc.
+
+
+Reproduction without explicit permission is prohibited. All Rights Reserved.
+
+
+Designed in collaboration with Code & Theory
+
+
+
+
+
+
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','//connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1453039084979896');
+  fbq('track', "PageView");
+
+
+
+
+  window.detectStaffEditableLink && window.detectStaffEditableLink();
+
+  vrv = document.vrv || {};
+  vrv.b = "mashablerec";
+  vrv.p = "ptnr";
+  vrv.c = "999";
+  vrv.size = "300x250";
+  vrv.lat = '<INSERT_LATITUDE_HERE>';
+  vrv.long = '<INSERT_LONGITUDE_HERE>';
+  vrv.ui = '<INSERT_ADVERTISER_IDENTIFIER>';
+  vrv.uis = '<INSERT_ADVERTISER_IDENTIFIER_SOURCE>';
+  vrv.hwmdl = '<INSERT_HARDWARE_MODEL>';
+

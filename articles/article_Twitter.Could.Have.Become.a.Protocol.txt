@@ -1,0 +1,115 @@
+Twitter Could Have Been A Protocol
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "AGS",
+        "logo": "http://blog.austingardnersmith.me/content/images/2014/Jul/AGS_avatar_square.png"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Austin Gardner-Smith",
+        "image": {
+            "@type": "ImageObject",
+            "url": "//www.gravatar.com/avatar/b7156ef239285776134c372c12be3554?d=404",
+            "width": 80,
+            "height": 80
+        },
+        "url": "http://blog.austingardnersmith.me/author/austin-gardner-smith/",
+        "sameAs": []
+    },
+    "headline": "Twitter Could Have Been A Protocol",
+    "url": "http://blog.austingardnersmith.me/how-twitter-could-have-been-a-protocol/",
+    "datePublished": "2016-11-07T01:31:29.000Z",
+    "dateModified": "2016-11-07T01:49:23.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://slicecommunications.com/wp-content/uploads/2016/06/8477893426_9181cdabc4_o.jpg",
+        "width": 1280,
+        "height": 798
+    },
+    "keywords": "#product, #twitter",
+    "description": "Twitter could have become a sort protocol, where content was generated and consumed primarily by other applications but &quot;piped&quot; through Twitter.",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://blog.austingardnersmith.me"
+    }
+}
+    
+    
+                    
+        November 7, 2016
+
+            Twitter Could Have Been A Protocol
+
+            
+
+I've always been a big fan of Twitter as a platform. But like most people I've met who share that sentiment, I'm a bit disappointed by the grown-up it's become. I've been involved with it as an end user (I have mutliple active accounts), as an Ads Platform partner (I led the product development of our Twitter offering at Nanigans), as an independent developer (I built at least one shitty Twitter app), and as a public market investor (I still hold a very small long position). In each case, the actual experience has never quite lived up to its full potential. 
+
+These things happen. I'm not here to point out all the mistakes the management team has or has not made - these are not easy decisions to make and no one likes a Monday morning quarterback. But around 2010, when I was working on Pinyadda, I believed that Twitter was going to become something very different from what it looks like today. I thought it had a chance to become a protocol, of sorts. While that belief was clearly incorrect, it's interesting to think about now. 
+
+The logic goes something like this: 
+
+Twitter is gaining widespread global adoption
+Twitter has an open API that is easy to develop
+Lots of apps are starting to use Twitter as a default 'social exhaust' system
+Tweets are a highly structured atomic unit
+Tweets can carry a link, meaning that almost any volume/format of information can be included in that atomic unit
+Unlike HTTP, Twitter is accessible to end users without techincal backgrounds.
+Tweets can be both public and private, allowing for different levels of 'read' permissions.
+Therefor, Twitter is a likely candidate to become a sort default communications protocol, where content is generated and consumed primarily by other applications but "piped" through Twitter.
+This is a bit loose and abstract, but here are some examples of how I saw this working in real life:
+
+News 
+A user could read an article on any news site and tweet the article. A service like Instapaper or Pocket could read (with or without auth) the list of articles and process them accordingly. To ingest only certain tweets, use a hashtag to differentiate. 
+
+Commerce 
+A user could make an eCommerce purchase and tweet a receipt/record, either publicly or privately. A Mint-esque budgeting service could subscribe to/ingest the receipt-carrying tweets and build out a complete user profile.
+
+Media 
+A user could take a photo/video on one platform (say iOS) and tweet the media. A media backup service like Dropbox could subscribe/ingest the content. Or a publishing platform like Tumblr could create a new post. 
+
+SDKs to publish to Twitter from any platform would have become available off the shelf. Structured markup formats for different media types would have emerged to be read (this happened). And different levels of authentication/privacy for tweets probably would have been necessary. 
+
+Most of these use cases can be solved today using something like IFTTT, or via direct API integration. But 6-7 years ago, this wasn't necessarily as easy as it is today, we hadn't seen widespread adoption of REST API best practices, and Facebook hadn't yet "won" the authentication/identity battle. Twitter had a chance to become a sort of de-facto API for lots of other applications. And had it been successful in achieving this feat, it probably could have built or acquired some of the highest value applications built on its own backbone.
+
+There are lots of problems to be solved with this idea. But it's fun to explore alternate realities sometimes, and this is one I was pretty convinced about at the time. 
+                #product #twitter
+            Austin Gardner-Smith
+                    
+                Share this post
+                    
+                        Twitter
+                    
+                    
+                        Facebook
+                    
+                    
+                        Google+
+                    
+                
+    
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'austingardnersmith'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    Please enable JavaScript to view the comments powered by Disqus.
+    comments powered by Disqus
+Subscribe!
+        
+             All content copyright AGS © 2016 • All rights reserved.Proudly published with Ghost
+     var _d_site = _d_site || '14E4CFBE183A88215775D7BD'; 
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-41815537-2', 'austingardnersmith.me');
+      ga('send', 'pageview');
+    

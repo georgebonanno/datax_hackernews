@@ -1,0 +1,856 @@
+JobshsjQuery = window['jQuery']   
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){   
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), 
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)   
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');   
+ga('create', 'UA-42424051-1', 'auto', 'leverTrackerNov1');   
+ga('leverTrackerNov1.send', 'pageview'); 
+
+// Rollup Google Analytics data into Jobs property as well.
+// This depends on the integration setup above.
+if (typeof ga !== 'undefined') {
+  ga('create', 'UA-42424051-4', {name: "leverJobs"});
+  ga('leverJobs.send', 'pageview');
+}
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sign in
+
+
+Products
+Lever Hire
+Lever Nurture
+Lever Analytics
+Integrations
+
+Customers
+Resources
+Company
+About Us
+Press
+Jobs
+
+Blog
+ 
+
+
+
+
+
+
+
+
+hbspt.cta.load(463671, 'faa96d7b-0325-495e-8e30-3c4e59918e93', {});
+
+
+
+
+
+
+
+
+4300376777
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Products
+   Lever Hire
+    Lever Nurture
+    Lever Analytics
+    Integrations
+   
+  Customers
+  Resources
+  Company
+   About Us
+    Press
+    Jobs
+   
+  Blog
+ 
+
+
+
+
+
+
+
+sign in
+
+
+
+    
+    
+    
+    
+
+
+    
+        
+        
+    
+    
+        hbspt.cta.load(463671, '43516211-82cf-47e6-a6f1-3836a3cad71d', {});
+    
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Set body offset based on height of fixed header
+$(document).ready(function() {
+var headerHeight = $(".layout-header").outerHeight() - 1; // Offset by 1 pixel because of HS wrapper issue
+$("body").css("margin-top", headerHeight + "px");
+});
+// Set body offset on resize in case header height changes
+$(window).resize(function() {
+var headerHeight = $(".layout-header").outerHeight() - 1; // Offset by 1 pixel because of HS wrapper issue
+$("body").css("margin-top", headerHeight + "px");
+});
+// Initialize Offscreen Menu
+$(document).ready(function() {
+menuAccordions();
+});
+// Initialize Offscreen Menu
+$(document).ready(function() {
+$('.offscreen-menu-toggle').magnificPopup({
+type: 'inline',
+removalDelay: 300,
+fixedContentPos: true,
+mainClass: 'mfp-fade-from-top', // Set animation style
+midClick: true,
+callbacks: {
+open: function() {
+// Will fire when this popup is opened
+$("html").toggleClass('is-menu-open');
+},
+close: function() {
+// Will fire when this popup is closed
+$("html").toggleClass('is-menu-open');
+}
+}
+});
+});
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+Work at Lever
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+           
+        
+    
+
+
+
+
+    // Vertical Center Hero Content
+    $(window).load(function() {
+       $('.page-hero .content').flexVerticalCenter();
+    });
+
+
+
+
+
+
+
+
+
+We want to change how companies grow their teams
+Working at Lever means that you’ll be surrounded by colleagues who are constantly pushing boundaries, thinking two steps ahead of the curve, and meeting the high standards we set for ourselves. When we build, we do so in a design-driven way: we value beauty and elegance on the backend just as much as we value it in our users’ experience. And we’re constantly contributing to the open-source community. If these things excite you, we want to hear from you!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+We are product focused
+We are first and foremost a product company—we believe that user-centric design ultimately leads to the best products. We're in it to raise the bar for enterprise software; we're hyper ambitious, always a bit idealistic, and incredibly supportive of each other.
+
+
+
+
+
+We embrace difficult problems 
+Our platform serves a complex set of users with evolving needs. At the same time, we’re helping to define new practices and standards for how great companies are built. Never satisfied with the solutions of yesterday, we’re always pushing ourselves to ‘know why’.
+
+
+
+
+
+
+
+
+
+
+We’re committed to open source 
+Open Source is in our DNA, we built our own open source framework for building apps that we use to build our product. Many members of our team routinely push to our own and community node modules.
+
+
+
+
+
+We care about cross-functional empathy (XFE!)
+We think the best companies are built when different teams have a shared understanding of each others goals and values.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+           
+        
+    
+
+
+
+
+    // Vertical Center Hero Content
+    $(window).load(function() {
+       $('.page-hero .content').flexVerticalCenter();
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Our core technologies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Some of our customers
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Current openings
+
+
+
+
+
+
+
+
+
+
+url = 'https://api.lever.co/v0/postings/lever?group=team&mode=json'
+//Functions for checking if the variable is unspecified
+function cleanString(string) {
+if (string) {
+var cleanString = string.replace(/[^A-Z0-9]+/ig, "");
+return cleanString;
+}
+else {
+return "Uncategorized";
+}
+}
+function nullCheck(string) {
+if (!string) {
+var result = 'Uncategorized'
+return result;
+}
+else { 
+return string;
+}
+}
+function tagify(string) {
+if (!string) {
+return '';
+}
+else { 
+return '<span>'+string+'</span>';
+}
+}
+function createJobs(_data) {
+for(i = 0; i < _data.length; i++) {
+var team = nullCheck(_data[i].title)
+var teamCleanString = cleanString(team);
+$('#jobs-container').append(
+'<section class="job-category ' + teamCleanString +'">' + '<h4 class="small">'+team+'</h4>' + '<ul></ul></section>');
+}
+for(i = 0; i < _data.length; i++) {
+for (j = 0; j < _data[i].postings.length; j ++) {
+var posting = _data[i].postings[j] 
+var title = posting.text
+var location = tagify(posting.categories.location);
+var locationCleanString = cleanString(location);
+var commitment = tagify(posting.categories.commitment);
+var commitmentCleanString = cleanString(commitment);
+var team = nullCheck(posting.categories.team);
+var teamCleanString = cleanString(team);
+var teamTag = tagify(posting.categories.team);
+var link = posting.hostedUrl;
+$('#jobs-container >.'+teamCleanString+'>ul').append(
+'<li class="job '+teamCleanString+'">' +
+'<a href="'+link+'"><span class="title">'+title+'</span></a></li>'
+);
+}
+}
+}
+//Fetching job postings from Lever's postings API
+$.ajax({
+dataType: "json",
+url: url,
+success: function(data){
+createJobs(data);
+}
+});
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Products
+Lever Hire
+Lever Nurture
+What's new
+Partnerships
+
+
+Company
+About us
+Customers
+Press
+Jobs
+
+
+Resources
+Resource center
+Blog
+Inside Lever blog
+
+
+Support
+Help center
+Product status
+Support@lever.co
+
+
+Contact Us
+(415) 458 - 2731
+989 Market Street, #500
+San Francisco, CA 94103
+info@lever.co
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Follow us on LinkedIn, Facebook, and Twitter.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sign up for our newsletter
+Keep up with the latest news in recruiting.
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+© 2016 Lever Privacy policy | Terms of service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+      hbspt.forms.create({
+          portalId: '463671',
+          formId: '77ca89d1-ebb0-4a05-8d6b-12587527895e',
+          formInstanceId: '8668',
+          pageId: 4300376777,
+          pageName: 'Jobs',
+          contentType: 'landing-page',
+          
+          redirectUrl: 'https://www.lever.co/jobs?hsFormKey=40cbbf670f01b488b866e1a4b5b6389d#module_147284724428210628',
+          
+          
+          css: '',
+          target: '#hs_form_target_module_147284724428210628',
+          
+          formData: {
+            cssClass: 'hs-form stacked'
+          }
+      });
+  
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "standard-page"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/www.lever.co\/jobs"]);
+_hsq.push(["setPageId", "4300376777"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 4300376777,
+    "legacyPageId": "4300376777",
+    "contentGroupId": null,
+    "abTestId": null,
+    "languageVariantId": 4300376777,
+    "languageCode": null
+}]);
+_hsq.push(["setTargetedContentMetadata", []]);
+
+
+    (function(d,s,i,r) {
+        if (d.getElementById(i)){return;}
+        var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+        n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/463671.js';
+        e.parentNode.insertBefore(n, e);
+    })(document,"script","hs-analytics",300000);
+
+
+
+var hsVars = {
+    ticks: 1478531961767,
+    page_id: 4300376777,
+    content_group_id: 0,
+    portal_id: 463671,
+    app_hs_base_url: "https://app.hubspot.com"
+}
+
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+ 
+fbq('init', '1603393293318679');
+fbq('track', 'PageView');
+
+
+
+
+
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+// Insert Twitter Pixel ID and Standard Event data below
+twq('init','nvcqb');
+twq('track','PageView');
+
+    adroll_adv_id = "EQ4GDZ5IYFFPBF2WDD4PUM";
+    adroll_pix_id = "WRXLRHULLRH53IGTGMPCQ7";
+    // adroll_email = "username@example.com"; // OPTIONAL: provide email to improve user identification
+    (function () {
+        var _onload = function(){
+            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        };
+        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+        else {window.attachEvent('onload', _onload)}
+    }());
+var _kmq = _kmq || []; var _kmk = _kmk || '693284a7202bce8de683393b8f3b0f063282d44c'; function _kms(u){ setTimeout(function(){ var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = u; f.parentNode.insertBefore(s, f); }, 1); } _kms('//i.kissmetrics.com/i.js'); _kms('//scripts.kissmetrics.com/' + _kmk + '.2.js'); 
+    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var n=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(n?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(a,o);for(var r=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["clearEventProperties","identify","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=r(p[c])};
+    heap.load("470180868");
+  
+(function(d,b,a,s,e){ var t = b.createElement(a),
+    fs = b.getElementsByTagName(a)[0]; t.async=1; t.id=e; t.src=s;
+    fs.parentNode.insertBefore(t, fs); })
+(window,document,'script','https://scripts.demandbase.com/owYO0a5M.min.js','demandbase_js_lib');
+
+(function() {
+  function setCookie(name, value, days) {
+    var date = new Date();
+    date.setTime(date.getTime() + (days*24*60*60*1000)); 
+    var expires = "; expires=" + date.toGMTString();
+    document.cookie = name + "=" + value + expires + ";path=/";
+  }
+  function readCookie(name) {
+    var n = name + "=";
+    var cookie = document.cookie.split(';');
+    for (var i = 0; i < cookie.length; i++) {
+      var c = cookie[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1, c.length);
+      }
+      if (c.indexOf(n) == 0) {
+        return c.substring(n.length, c.length);
+      }
+    }
+    return null; 
+  }
+  var cookieName = 'lv_partner_first'
+  var pathName = window.location.pathname;
+  var lvznVisitValue = readCookie(cookieName);
+  if (pathName === '/partners/zenefits' && lvznVisitValue !== 'lv') {
+    setCookie(cookieName, 'zenefits', 30);
+  } else if (lvznVisitValue !== 'zn') {
+    setCookie(cookieName, 'lever', 30);
+  }
+})();
+function populatePartnerFields() {
+  function readCookie(name) {
+    var n = name + "=";
+    var cookie = document.cookie.split(';');
+    for (var i = 0; i < cookie.length; i++) {
+      var c = cookie[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1, c.length);
+      }
+      if (c.indexOf(n) == 0) {
+        return c.substring(n.length, c.length);
+      }
+    }
+    return null; 
+  }
+
+  var lvznVisitValue = readCookie('lv_partner_first');
+  var partnerReferralFields = document.getElementsByName('partner_referral_name');
+  for (var i = 0; i < partnerReferralFields.length; i++) {
+    var field = partnerReferralFields[i];
+    field.value = lvznVisitValue;
+  }
+}
+window.addEventListener('load', populatePartnerFields, false);
+
+/* <![CDATA[ */
+var google_conversion_id = 949490305;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+
+
+
+
+
+twttr.conversion.trackPid('nu4mg', { tw_sale_amount: 0, tw_order_quantity: 0 });
+
+
+
+
+
+(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5318509"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
+
+
+
+
+
+ var ezt = ezt ||[];
+
+ (function(){
+   var elem = document.createElement('script');
+   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://pixel") + ".quantserve.com/aquant.js?a=p-3ZDFkW6JHS48H";
+   elem.async = true;
+   elem.type = "text/javascript";
+   var scpt = document.getElementsByTagName('script')[0];
+   scpt.parentNode.insertBefore(elem,scpt);
+ }());
+
+
+ ezt.push({qacct: 'p-3ZDFkW6JHS48H',
+           orderid: '',
+           revenue: '' 
+           });
+
+  
+
+
+
+
+
+    
+
+
+
